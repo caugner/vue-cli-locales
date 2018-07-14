@@ -17,5 +17,8 @@
   "bugs": {
     "url": "https://github.com/caugner/vue-cli-locales/issues"
   },
-  "homepage": "https://github.com/caugner/vue-cli-locales#readme"
+  "homepage": "https://github.com/caugner/vue-cli-locales#readme",
+  "scripts": {
+    "pull": "tx pull --parallel -as"
+  }
 }
