@@ -1,0 +1,689 @@
+{
+  "org": {
+    "vue": {
+      "components": {
+        "connection-status": {
+          "disconnected": "ขาดการเชื่อมต่อกับเซิร์ฟเวอร์ UI",
+          "connected": "เชื่อมต่อแล้ว!"
+        },
+        "file-diff": {
+          "binary": "ไฟล์ไบนารี่ไม่แสดง",
+          "actions": {
+            "open": "เปิดใน editor"
+          }
+        },
+        "file-diff-view": {
+          "files-changed": "ไฟล์มีการเปลี่ยนแปลง",
+          "search-file": "ค้นหาไฟล์",
+          "empty": "ไม่พบการเปลี่ยนแปลง",
+          "error": "Couldn't get file changes",
+          "modals": {
+            "commit": {
+              "title": "คอมมิทการเปลี่ยนแปลง",
+              "input": "กรอกข้อความสำหรับคอมมิท",
+              "subtitle": "บันทึกการเปลี่ยนปลงไปยัง repository",
+              "actions": {
+                "commit": "คอมมิท",
+                "cancel": "ยกเลิก"
+              }
+            }
+          },
+          "actions": {
+            "collapse-all": "ย่อทั้งหมด",
+            "expand-all": "ขยายทั้งหมด",
+            "commit": "คอมมิทการเปลี่ยนแปลง",
+            "skip": "ข้าม",
+            "continue": "ดำเนินการต่อ",
+            "refresh": "รีเฟรช"
+          }
+        },
+        "folder-explorer": {
+          "toolbar": {
+            "tooltips": {
+              "parent-folder": "เปิดโฟลเดอร์แม่",
+              "edit-path": "แก้ไขพาธ",
+              "favorite": "เพิ่ม/ลบ ไปยังรายการที่ชื่นชอบ",
+              "favorite-folders": "โฟลเดอร์ที่ชื่นชอบ",
+              "refresh": "รีเฟรช"
+            },
+            "placeholder": "กรอดพาธแบบเต็มของโฟลเดอร์",
+            "empty": "ยังไม่มีโฟลเดอร์ที่ชื่นชอบ",
+            "show-hidden": "Show hidden folders"
+          },
+          "new-folder": {
+            "action": "New folder",
+            "title": "Create new folder",
+            "field": {
+              "title": "New folder",
+              "subtitle": "You can use the folder separator to create multiple nested folders at once."
+            },
+            "cancel": "Cancel",
+            "create": "Create"
+          }
+        },
+        "list-item-info": {
+          "more-info": "ข้อมูลเพิ่มเติม"
+        },
+        "logger-view": {
+          "title": "รายการบันทึก",
+          "empty": "ยังไม่มีบันทึก",
+          "buttons": {
+            "clear": "ลบล้างบันทึกทั้งหมด",
+            "scroll": "เลื่อนจอไปยังข้างล่างสุด",
+            "close": "ปิด"
+          }
+        },
+        "progress-screen": {
+          "close": "ปิด"
+        },
+        "project-nav": {
+          "tooltips": {
+            "plugins": "ปลั๊กอิน",
+            "dependencies": "Dependencies",
+            "configuration": "การตั้งค่า",
+            "tasks": "งาน",
+            "more": "เพิ่มเติม"
+          }
+        },
+        "project-select-list": {
+          "empty": "ไม่มีโครงการที่มีอยู่",
+          "titles": {
+            "favorite": "โครงการที่ชื่นชอบ",
+            "other": "โครงการอื่นๆ"
+          }
+        },
+        "project-select-list-item": {
+          "tooltips": {
+            "favorite": "เพิ่ม/ลบ ไปยังรายการที่ชื่นชอบ",
+            "delete": "ลบ",
+            "open-in-editor": "Open in editor"
+          }
+        },
+        "project-plugin-item": {
+          "version": "รุ่น",
+          "latest": "ล่าสุด",
+          "official": "เป็นทางการ",
+          "installed": "ติดตั้งแล้ว",
+          "actions": {
+            "update": "อัพเดท {target}"
+          }
+        },
+        "project-dependency-item": {
+          "version": "version",
+          "wanted": "wanted",
+          "latest": "latest",
+          "installed": "Installed",
+          "actions": {
+            "update": "Update {target}",
+            "uninstall": "Uninstall {target}"
+          }
+        },
+        "project-tasks-dropdown": {
+          "tooltips": {
+            "tasks": "Tasks",
+            "running-tasks": "{count} running task(s)"
+          }
+        },
+        "prompt-list": {
+          "default": "ค่าเริ่มต้น"
+        },
+        "prompts-list": {
+          "empty": "ไม่มีการตั้งค่า"
+        },
+        "status-bar": {
+          "project": {
+            "tooltip": "โครงการปัจจุบัน<br><i>คลิ๊กเพื่อ เปิด/ปิด ตัวจัดการโครงการ</i>",
+            "empty": "ไม่มีโครงการ"
+          },
+          "path": {
+            "tooltip": "โฟลเดอร์ที่ใช้งานอยู่ปัจจุบัน"
+          },
+          "log": {
+            "tooltip": "รายการบันทึก<br><i>คลิ๊กเพื่อ เปิด/ปิด รายการบันทึกของ Vue CLI</i>",
+            "empty": "ยังไม่มีบันทึก"
+          },
+          "report-bug": "รายงานปัญหา",
+          "translate": "ช่วยแปล",
+          "dark-mode": "Toggle dark mode",
+          "reset-plugin-api": "Refresh plugins API"
+        },
+        "suggestion-bar": {
+          "suggestion": "Suggestion",
+          "modal": {
+            "cancel": "Cancel",
+            "continue": "Continue"
+          }
+        },
+        "terminal-view": {
+          "buttons": {
+            "clear": "ล้างคอนโซล",
+            "scroll": "เลื่อนจอไปยังข้างล่างสุด"
+          }
+        },
+        "top-bar": {
+          "no-favorites": "ไม่มีโครงการที่ชื่นชอบ",
+          "favorite-projects": "Favorite projects",
+          "recent-projects": "Recent projects",
+          "homepage": "Home page"
+        },
+        "view-badge": {
+          "labels": {
+            "tasks": {
+              "error": "สถานะของข้อผิดพลาด",
+              "running": "สถานะของการทำงาน",
+              "done": "สถานะของความสำเร็จ"
+            }
+          }
+        }
+      },
+      "mixins": {
+        "progress": {
+          "creating": "กำลังสร้างโครงการ...",
+          "git-init": "กำลังเริ่มต้น repository ของ git...",
+          "plugins-install": "กำลังติดตั้งปลั๊กอินของ Vue CLI อาจจะใช้เวลาซักครู่...",
+          "invoking-generators": "กำลังเรียก generators...",
+          "deps-install": "กำลังติดตั้ง dependenciess เพิ่มเติม...",
+          "completion-hooks": "กำลังรัน completion hooks...",
+          "fetch-remote-preset": "กำลังดึงรีโมท preset...",
+          "done": "สร้างโครงการเสร็จสมบูรณ์",
+          "plugin-install": "กำลังติดตั้ง {arg0}...",
+          "plugin-uninstall": "กำลังถอนการติดตั้ง {arg0}...",
+          "plugin-invoke": "กำลังเรียก {arg0}...",
+          "plugin-update": "กำลังอัพเดท {arg0}...",
+          "plugins-update": "Updating {arg0} plugins...",
+          "dependency-install": "Installing {arg0}...",
+          "dependency-uninstall": "Uninstalling {arg0}...",
+          "dependency-update": "Updating {arg0}...",
+          "dependencies-update": "Updating {arg0} packages..."
+        }
+      },
+      "types": {
+        "task": {
+          "status": {
+            "idle": "ว่าง",
+            "running": "กำลังทำงาน",
+            "done": "เสร็จสิ้น",
+            "error": "เกิดข้อผิดพลาด",
+            "terminated": "ถูกยุติ"
+          }
+        }
+      },
+      "views": {
+        "project-select": {
+          "title": "ตัวจัดการโครงการ Vue",
+          "tabs": {
+            "projects": "โครงการ",
+            "create": "สร้าง",
+            "import": "นำเข้า"
+          },
+          "buttons": {
+            "create": "สร้างโครงการใหม่ที่นี่",
+            "import": "นำเข้าโฟลเดอร์นี้"
+          },
+          "import": {
+            "no-modules": {
+              "title": "Missing modules",
+              "message": "It seems the project is missing the 'node_modules' folder. Please check you installed the dependencies before importing.",
+              "close": "Got it"
+            }
+          }
+        },
+        "project-create": {
+          "title": "สร้างโครงการใหม่",
+          "tabs": {
+            "details": {
+              "title": "รายละเอียด",
+              "form": {
+                "folder": {
+                  "label": "โฟลเดอร์โครงการ",
+                  "placeholder": "แอพของฉัน",
+                  "tooltip": "เปลี่ยนโฟลเดอร์หลัก",
+                  "action": "เลือกโฟลเดอร์นี้",
+                  "folder-exists": "This folder already exists",
+                  "folder-name-invalid": "Folder name invalid"
+                },
+                "manager": {
+                  "label": "ตัวจัดการโครงการ",
+                  "default": "ค่าเริ่มต้น"
+                },
+                "options": {
+                  "label": "ตัวเลือกเพิ่มเติม",
+                  "force": "Overwrite target folder if it exists",
+                  "git-title": "Git repository",
+                  "git": "Initialize git repository (recommended)",
+                  "git-commit-message": "Initial commit message (optional)"
+                }
+              },
+              "buttons": {
+                "cancel": "ยกเลิก",
+                "next": "ต่อไป"
+              },
+              "modal": {
+                "title": "ยกเลิกและรีเซ็ตการสร้างโครงการ",
+                "body": "คุณแน่ใจหรือไม่ที่จะรีเซ็ตการสร้างโครงการ",
+                "buttons": {
+                  "back": "ย้อนกลับ",
+                  "clear": "ล้างโครงการ"
+                }
+              }
+            },
+            "presets": {
+              "title": "Preset",
+              "description": "Preset คือ กลุ่มของปลั๊กอินและการตั้งค่าต่างๆ หลังจากที่คุณได้เลือกฟีเจอร์ต่างๆแล้ว คุณสามารถบันทึกเก็บเป็น preset เพื่อที่จะใช้ซ้ำกับโครงการอื่นๆได้ในอนาคตโดยไม่ต้องมากำหนดค่าใหม่อีก",
+              "select": "เลือก preset",
+              "buttons": {
+                "previous": "ย้อนกลับ",
+                "next": "ต่อไป",
+                "create": "สร้างโครงการ"
+              },
+              "modal": {
+                "title": "ตั้งค่ารีโมท preset",
+                "body": "จะมาในไม่ช้า ขอเวลาอีกไม่นาน..."
+              },
+              "manual": {
+                "name": "ทำด้วยตนเอง",
+                "description": "เลือกฟีเจอร์ต่างๆเอง"
+              },
+              "remote": {
+                "name": "รีโมท preset",
+                "description": "ดึง preset จาก git repository",
+                "url": {
+                  "title": "Preset URL",
+                  "subtitle": "Git repo, for example 'username/repo'. You can also prefix with 'gitlab:' or 'bitbucket:'."
+                },
+                "options": "Other options",
+                "clone": "Cloner/Private repository",
+                "cancel": "Cancel",
+                "done": "Done"
+              },
+              "default-preset": "Preset เริ่มต้น"
+            },
+            "features": {
+              "title": "ฟีเจอร์",
+              "description": "คุณสามารถเพิ่มฟีเจอร์เพิ่มเติมหลังจากสร้างโครงการไปแล้วได้ด้วยการติดตั้งปลั๊กอิน",
+              "enable": "เปิดใช้งานฟีเจอร์",
+              "buttons": {
+                "previous": "ย้อนกลับ",
+                "next": "ต่อไป",
+                "create": "สร้างโครงการ"
+              },
+              "userConfigFiles": {
+                "name": "ใช้ไฟล์การตั้งค่า",
+                "description": "ใช้ไฟล์การตั้งค่าแบบเฉพาะ (เช่น '.babelrc') แทนการใช้ 'package.json'."
+              }
+            },
+            "configuration": {
+              "title": "การตั้งค่า",
+              "buttons": {
+                "previous": "ย้อนกลับ",
+                "create": "สร้างโครงการ"
+              },
+              "modal": {
+                "title": "บันทึกเป็น preset ใหม่",
+                "body": {
+                  "title": "ชื่อ preset",
+                  "subtitle": "บันทึกฟีเจอร์และการตั้งค่าเป็น preset ใหม่"
+                },
+                "buttons": {
+                  "cancel": "ยกเลิก",
+                  "continue": "ดำเนินการต่อโดยไม่บันทึก",
+                  "create": "สร้าง preset ใหม่"
+                }
+              }
+            }
+          }
+        },
+        "project-plugins": {
+          "title": "ปลั๊กอินของ Project",
+          "button": "เพิ่มปลั๊กอิน",
+          "heading": "ปลั๊กอินที่ติดตั้งแล้ว",
+          "update-all": "Update all plugins"
+        },
+        "project-plugins-add": {
+          "title": "เพิ่มปลั๊กอิน",
+          "plugin": "ปลั๊กอิน",
+          "tabs": {
+            "search": {
+              "label": "ค้นหา",
+              "search-input": "ค้นหาปลั๊กอิน",
+              "not-found": "ไม่พบผลลัพธ์",
+              "buttons": {
+                "cancel": "ยกเลิก",
+                "install": "ติดตั้ง {target}",
+                "default-install": "Install"
+              }
+            },
+            "configuration": {
+              "label": "การตั้งค่า",
+              "heading": "การติดตั้ง {target}",
+              "buttons": {
+                "cancel": "ยกเลิก",
+                "finish": "สำเร็จการติดตั้ง"
+              }
+            },
+            "diff": {
+              "label": "ไฟล์มีการเปลี่ยนแปลง"
+            }
+          },
+          "modal": {
+            "title": "ถอนการติดตั้ง {target}?",
+            "body": "คุณต้องการถอนการติดตั้งปลั๊กอิน {target} หรือไม่?",
+            "buttons": {
+              "back": "ย้อนกลับ",
+              "cancel": "ยกเลิกการถอนการติดตั้ง",
+              "uninstall": "ถอนการติดตั้ง"
+            }
+          }
+        },
+        "project-configurations": {
+          "title": "การตั้งค่าโครงการ"
+        },
+        "project-configuration-details": {
+          "actions": {
+            "cancel": "ยกเลิกการเปลี่ยนแปลง",
+            "save": "บันทึกการเปลี่ยนแปลง",
+            "more-info": "ข้อมูลเพิ่มเติม",
+            "refresh": "Refresh"
+          }
+        },
+        "project-tasks": {
+          "title": "รายการงานของโครงการ"
+        },
+        "project-task-details": {
+          "actions": {
+            "play": "เริ่มการทำงาน",
+            "stop": "หยุดการทำงาน",
+            "close": "ปิด"
+          },
+          "command": "คำสั่งสคริปต์",
+          "parameters": "พารามิเตอร์",
+          "parameters-info": "พารามิเตอร์จะถูกบันทึกเมื่องานได้ถูกเริ่ม",
+          "more-info": "ข้อมูลเพิ่มเติม",
+          "output": "ข้อมูลเอาท์พุต"
+        },
+        "project-dependencies": {
+          "title": "Project dependencies",
+          "heading": {
+            "dependencies": "Main dependencies",
+            "devDependencies": "Development dependencies"
+          },
+          "actions": {
+            "install": "Install dependency",
+            "update-all": "Update all dependencies"
+          },
+          "install": {
+            "title": "Install new dependency"
+          },
+          "uninstall": {
+            "title": "Confirm uninstall",
+            "body": "Are you sure you want to uninstall {id}?",
+            "cancel": "Cancel",
+            "uninstall": "Uninstall {id}"
+          }
+        },
+        "about": {
+          "title": "เกี่ยวกับ",
+          "description": "<a href=\"https://github.com/vuejs/vue-cli/tree/dev/packages/%40vue/cli-ui\" target=\"_blank\">@vue/cli-ui</a> is a built-in package of vue-cli which opens a full-blown UI.",
+          "quote": "Vue-cli 3.x is a complete rewrite, with a lot of new awesome features. You will be to select features like routing, Vuex or Typescript, then add and upgrade building blocks called \"vue-cli plugins\". But having so much more options also means the tool is now more complex and harder to start using. That's why we thought having a full-blown GUI would help discover the new features, search and install vue-cli plugins and unlock more possibilities overall while not being limited by a terminal interface. To sum up, vue-cli will not only allow you to bootstrap a new project easily, but it will also remain useful for ongoing work afterwards!",
+          "links": "ลิงค์ที่มีประโยชน์",
+          "back": "ย้อนกลับ"
+        }
+      },
+      "cli-service": {
+        "suggestions": {
+          "vue-router-add": {
+            "label": "Add vue-router",
+            "message": "Official library to support multiple virtual pages in a Single-Page App. Each route renders a different component."
+          },
+          "vuex-add": {
+            "label": "Add vuex",
+            "message": "Official centralized State Management solution for large-scale apps. Very useful if multiple components need to access the same data."
+          },
+          "vue-devtools": {
+            "label": "Install devtools",
+            "message": "Browser devtools official extension for debugging Vue.js applications where you can inspect your components, vuex store and events."
+          },
+          "progress": "Installing {arg0}..."
+        }
+      },
+      "vue-webpack": {
+        "dashboard": {
+          "title": "แดชบอร์ด",
+          "open-app": "เปิดแอพ",
+          "webpack-status": {
+            "Success": "สำเร็จ",
+            "Failed": "ล้มเหลว",
+            "Compiling": "กำลังคอมไพล์",
+            "Invalidated": "ใช้การไม่ได้",
+            "Idle": "ว่าง"
+          },
+          "build-status": {
+            "labels": {
+              "status": "สถานะ",
+              "errors": "Errors",
+              "warnings": "Warnings",
+              "assets": "Assets",
+              "modules": "Modules",
+              "deps": "Dependencies"
+            }
+          },
+          "speed-stats": {
+            "title": "สถิติความเร็ว"
+          },
+          "module-list": {
+            "title": "Dependencies"
+          },
+          "asset-list": {
+            "title": "Assets",
+            "size-warning": "Asset นี้มีขนาดใหญ่ แนะนำให้ใช้ Code splitting เพื่อที่จะทำให้ asset มีขนาดเล็กลง"
+          }
+        },
+        "analyzer": {
+          "title": "ตัววิเคราะห์",
+          "go-up": "Go up",
+          "go-home": "Go to home",
+          "chunk": "Chunk"
+        },
+        "sizes": {
+          "stats": "สถิติ",
+          "parsed": "Parsed",
+          "gzip": "Gzip",
+          "help": "<b>Stats:</b> size from webpack stats data.<br><b>Parsed:</b> size from extracted source (after minification plugins). More accurate.<br><b>Gzip:</b> size of gzipped extracted source."
+        },
+        "modern-mode": "Show modern build",
+        "tasks": {
+          "serve": {
+            "description": "Compiles and hot-reloads for development",
+            "open": "Open browser on server start",
+            "mode": "Specify env mode",
+            "host": "Specify host",
+            "port": "Specify port",
+            "https": "Use HTTPS"
+          },
+          "build": {
+            "description": "Compiles and minifies for production",
+            "mode": "Specify env mode",
+            "dest": "Output directory",
+            "target": {
+              "description": "Build target",
+              "app": "Web app",
+              "lib": "Library",
+              "wc": "Web component",
+              "wc-async": "Async web component"
+            },
+            "name": "Name for library or web-component mode (default: 'name' in package.json or entry filename)",
+            "watch": "Watch for changes",
+            "modern": {
+              "label": "Modern mode",
+              "description": "Build app targeting modern browsers with auto fallback"
+            }
+          },
+          "inspect": {
+            "description": "Inspect the resolved webpack config",
+            "mode": "Specify env mode",
+            "verbose": "Show full function definitions in output"
+          }
+        },
+        "config": {
+          "vue-cli": {
+            "description": "Configure your Vue project",
+            "groups": {
+              "general": "General settings",
+              "css": "CSS settings"
+            },
+            "baseUrl": {
+              "label": "Base URL",
+              "description": "The base URL your application will be deployed at, for example '/my-app/'. Use an empty string ('') so that all assets are linked using relative paths."
+            },
+            "outputDir": {
+              "label": "Output directory",
+              "description": "The directory where the production build files will be generated"
+            },
+            "assetsDir": {
+              "label": "Assets directory",
+              "description": "A directory to nest generated static assets (js, css, img, fonts) under."
+            },
+            "runtimeCompiler": {
+              "label": "Enable runtime compiler",
+              "description": "This will allow you to use the template option in Vue components, but will incur around an extra 10kb payload for your app."
+            },
+            "productionSourceMap": {
+              "label": "Enable Production Source Maps",
+              "description": "Disabling this can speed up production builds if you don't need source maps for production"
+            },
+            "parallel": {
+              "label": "Parallel compilation",
+              "description": "Whether to use multiple processors to compile Babel or Typescript."
+            },
+            "css": {
+              "modules": {
+                "label": "Enable CSS Modules",
+                "description": "By default, only files that ends in *.module.[ext] are treated as CSS modules. Enabling this will treat all style files as CSS modules."
+              },
+              "extract": {
+                "label": "Extract CSS",
+                "description": "Whether to extract CSS in your components into a standalone CSS files (instead of inlined in JavaScript and injected dynamically)."
+              },
+              "sourceMap": {
+                "label": "Enable CSS Source Maps",
+                "description": "Whether to enable source maps for CSS. Enabling this may affect build performance."
+              }
+            }
+          }
+        },
+        "suggestions": {
+          "vue-config-open": "Open vue config"
+        }
+      },
+      "eslint": {
+        "config": {
+          "eslint": {
+            "description": "Error checking & Code quality",
+            "groups": {
+              "strongly-recommended": "Strongly recommended",
+              "recommended": "Recommended"
+            },
+            "vue": {
+              "label": "Vue"
+            },
+            "extra": {
+              "label": "Extra",
+              "lintOnSave": {
+                "message": "Lint on save",
+                "description": "Automatically lint source files when saved"
+              }
+            }
+          }
+        },
+        "tasks": {
+          "lint": {
+            "description": "Lints and fixes files",
+            "noFix": "Do not fix errors"
+          }
+        },
+        "suggestions": {
+          "open-eslintrc": {
+            "label": "Open eslintrc"
+          }
+        }
+      },
+      "pwa": {
+        "config": {
+          "pwa": {
+            "description": "Progressive Web App",
+            "workboxPluginMode": {
+              "message": "Plugin mode",
+              "description": "This allows you to the choose between the two modes supported by the underlying `workbox-webpack-plugin`"
+            },
+            "name": {
+              "message": "App name",
+              "description": "App name displayed on the Splash screen and various other places. Also used as the value for the `apple-mobile-web-app-title` meta tag in the generated HTML."
+            },
+            "themeColor": {
+              "message": "Theme color",
+              "description": "Color used to theme the browser"
+            },
+            "backgroundColor": {
+              "message": "Splash background color",
+              "description": "Background color used for the app splash screen"
+            },
+            "msTileColor": {
+              "message": "Windows app tile color",
+              "description": "Color used for the app tile on Windows"
+            },
+            "appleMobileWebAppStatusBarStyle": {
+              "message": "Apple mobile status bar style",
+              "description": "Style for the web app status bar on iOS"
+            }
+          }
+        },
+        "suggestions": {
+          "open-vue": {
+            "label": "Open vue config"
+          },
+          "open-manifest": {
+            "label": "Open manifest"
+          }
+        }
+      },
+      "cypress": {
+        "tasks": {
+          "test": {
+            "description": "Run e2e tests with `cypress run`",
+            "headless": "Run in headless mode without GUI",
+            "mode": "Specify the mode the dev server should run in",
+            "url": "Run e2e tests against given url instead of auto-starting dev server"
+          }
+        }
+      },
+      "nightwatch": {
+        "tasks": {
+          "test": {
+            "description": "Run e2e tests with nightwatch",
+            "url": "Run e2e tests against given url instead of auto-starting dev server",
+            "config": "Use custom nightwatch config file (overrides internals)",
+            "env": "Comma-delimited browser envs to run in"
+          }
+        }
+      },
+      "jest": {
+        "tasks": {
+          "test": {
+            "description": "Run unit tests with Jest",
+            "watch": "Watch files for changes and rerun tests related to changed files",
+            "notify": "Display a notification after each run",
+            "update": "Re-record every snapshot that fails during this test run"
+          }
+        }
+      },
+      "mocha": {
+        "tasks": {
+          "test": {
+            "description": "Run unit tests with Mocha",
+            "watch": "Watch files for changes and rerun tests related to changed files"
+          }
+        }
+      }
+    }
+  }
+}

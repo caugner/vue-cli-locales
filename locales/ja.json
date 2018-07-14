@@ -1,0 +1,689 @@
+{
+  "org": {
+    "vue": {
+      "components": {
+        "connection-status": {
+          "disconnected": "UI サーバから切断されました",
+          "connected": "接続しました!"
+        },
+        "file-diff": {
+          "binary": "バイナリファイルを表示しない",
+          "actions": {
+            "open": "エディタで開く"
+          }
+        },
+        "file-diff-view": {
+          "files-changed": "変更されたファイル",
+          "search-file": "ファイルを検索",
+          "empty": "変更はありません",
+          "error": "Couldn't get file changes",
+          "modals": {
+            "commit": {
+              "title": "コミット変更",
+              "input": "コミットメッセージを入力する",
+              "subtitle": "変更をレポジトリに記録する",
+              "actions": {
+                "commit": "コミット",
+                "cancel": "キャンセル"
+              }
+            }
+          },
+          "actions": {
+            "collapse-all": "全て折りたたむ",
+            "expand-all": "全て展開する",
+            "commit": "コミット変更",
+            "skip": "スキップ",
+            "continue": "続ける",
+            "refresh": "更新する"
+          }
+        },
+        "folder-explorer": {
+          "toolbar": {
+            "tooltips": {
+              "parent-folder": "親フォルダを開く",
+              "edit-path": "パスを編集する",
+              "favorite": "お気に入りをトグル",
+              "favorite-folders": "お気に入りフォルダ",
+              "refresh": "リフレッシュ"
+            },
+            "placeholder": "フォルダへのフルパスを入力する",
+            "empty": "まだお気に入りフォルダがありません。",
+            "show-hidden": "Show hidden folders"
+          },
+          "new-folder": {
+            "action": "New folder",
+            "title": "Create new folder",
+            "field": {
+              "title": "New folder",
+              "subtitle": "You can use the folder separator to create multiple nested folders at once."
+            },
+            "cancel": "Cancel",
+            "create": "Create"
+          }
+        },
+        "list-item-info": {
+          "more-info": "詳細情報"
+        },
+        "logger-view": {
+          "title": "ログ",
+          "empty": "まだログはありません",
+          "buttons": {
+            "clear": "ログをクリアする",
+            "scroll": "一番下にスクロールする",
+            "close": "閉じる"
+          }
+        },
+        "progress-screen": {
+          "close": "閉じる"
+        },
+        "project-nav": {
+          "tooltips": {
+            "plugins": "プラグイン",
+            "dependencies": "Dependencies",
+            "configuration": "設定",
+            "tasks": "タスク",
+            "more": "More"
+          }
+        },
+        "project-select-list": {
+          "empty": "プロジェクトが存在しません",
+          "titles": {
+            "favorite": "お気に入りのプロジェクト",
+            "other": "他のプロジェクト"
+          }
+        },
+        "project-select-list-item": {
+          "tooltips": {
+            "favorite": "お気に入りをトグル",
+            "delete": "リストから削除",
+            "open-in-editor": "Open in editor"
+          }
+        },
+        "project-plugin-item": {
+          "version": "バージョン",
+          "latest": "最新",
+          "official": "公式",
+          "installed": "インストール済み",
+          "actions": {
+            "update": "{target} を更新する"
+          }
+        },
+        "project-dependency-item": {
+          "version": "version",
+          "wanted": "wanted",
+          "latest": "latest",
+          "installed": "Installed",
+          "actions": {
+            "update": "Update {target}",
+            "uninstall": "Uninstall {target}"
+          }
+        },
+        "project-tasks-dropdown": {
+          "tooltips": {
+            "tasks": "Tasks",
+            "running-tasks": "{count} running task(s)"
+          }
+        },
+        "prompt-list": {
+          "default": "デフォルト"
+        },
+        "prompts-list": {
+          "empty": "設定なし"
+        },
+        "status-bar": {
+          "project": {
+            "tooltip": "プロジェクトマネージャにトグルするにはクリック",
+            "empty": "プロジェクトなしで開く"
+          },
+          "path": {
+            "tooltip": "現在の作業フォルダ"
+          },
+          "log": {
+            "tooltip": "ログ<br><i>Vue CLI のログをトグルするにはクリック</i>",
+            "empty": "まだログはありません"
+          },
+          "report-bug": "バグをレポートする",
+          "translate": "翻訳をヘルプする",
+          "dark-mode": "ダークモードにトグル",
+          "reset-plugin-api": "Refresh plugins API"
+        },
+        "suggestion-bar": {
+          "suggestion": "提案",
+          "modal": {
+            "cancel": "キャンセル",
+            "continue": "続ける"
+          }
+        },
+        "terminal-view": {
+          "buttons": {
+            "clear": "コンソールをクリア",
+            "scroll": "最下部にスクロール"
+          }
+        },
+        "top-bar": {
+          "no-favorites": "お気に入りプロジェクトなし",
+          "favorite-projects": "Favorite projects",
+          "recent-projects": "Recent projects",
+          "homepage": "Home page"
+        },
+        "view-badge": {
+          "labels": {
+            "tasks": {
+              "error": "エラーステータス",
+              "running": "実行ステータス",
+              "done": "完了ステータス"
+            }
+          }
+        }
+      },
+      "mixins": {
+        "progress": {
+          "creating": "プロジェクトを作成中...",
+          "git-init": "Git リポジトリを初期化中...",
+          "plugins-install": "Vue CLI プラグインをインストール中。これは時間がかかるかもしれません...",
+          "invoking-generators": "ジェネレータを起動中...",
+          "deps-install": "追加依存関係をインストール中...",
+          "completion-hooks": "完了フックを実行中...",
+          "fetch-remote-preset": "リモートプリセットのフェッチング...",
+          "done": "プロジェクトを作成しました",
+          "plugin-install": "{arg0} をインストール中...",
+          "plugin-uninstall": "{arg0} をアンインストール中...",
+          "plugin-invoke": "{arg0} を起動中...",
+          "plugin-update": "{arg0} を更新中...",
+          "plugins-update": "{arg0} プラグインを更新中...",
+          "dependency-install": "Installing {arg0}...",
+          "dependency-uninstall": "Uninstalling {arg0}...",
+          "dependency-update": "Updating {arg0}...",
+          "dependencies-update": "Updating {arg0} packages..."
+        }
+      },
+      "types": {
+        "task": {
+          "status": {
+            "idle": "アイドル",
+            "running": "実行中",
+            "done": "完了",
+            "error": "エラー",
+            "terminated": "終了"
+          }
+        }
+      },
+      "views": {
+        "project-select": {
+          "title": "Vue プロジェクトマネージャ",
+          "tabs": {
+            "projects": "プロジェクト",
+            "create": "作成",
+            "import": "インポート"
+          },
+          "buttons": {
+            "create": "ここに新しいプロジェクトを作成する",
+            "import": "このフォルダをインポートする"
+          },
+          "import": {
+            "no-modules": {
+              "title": "Missing modules",
+              "message": "It seems the project is missing the 'node_modules' folder. Please check you installed the dependencies before importing.",
+              "close": "Got it"
+            }
+          }
+        },
+        "project-create": {
+          "title": "新しいプロジェクトを作成する",
+          "tabs": {
+            "details": {
+              "title": "詳細",
+              "form": {
+                "folder": {
+                  "label": "プロジェクトフォルダ",
+                  "placeholder": "my-app",
+                  "tooltip": "ベースフォルダを変更する",
+                  "action": "このフォルダを選択する",
+                  "folder-exists": "このフォルダは既に存在する",
+                  "folder-name-invalid": "Folder name invalid"
+                },
+                "manager": {
+                  "label": "パッケージマネージャ",
+                  "default": "デフォルト"
+                },
+                "options": {
+                  "label": "追加オプション",
+                  "force": "存在する場合、対象フォルダを上書きする",
+                  "git-title": "Git リポジトリ",
+                  "git": "git リポジトリの初期化 (推奨)",
+                  "git-commit-message": "初期コミットメッセージ (任意)"
+                }
+              },
+              "buttons": {
+                "cancel": "キャンセル",
+                "next": "次へ"
+              },
+              "modal": {
+                "title": "プロジェクト作成のキャンセルとリセット",
+                "body": "プロジェクト作成をリセットしますか?",
+                "buttons": {
+                  "back": "戻る",
+                  "clear": "プロジェクトをクリア"
+                }
+              }
+            },
+            "presets": {
+              "title": "プリセット",
+              "description": "プリセットはプラグインと設定の関連付けです。機能を選択した後に、必要に応じてプリセットとして保存することができます。これにより、すべてを再設定することなく、次のプロジェクトに再利用できるようになります。",
+              "select": "プリセットを選択する",
+              "buttons": {
+                "previous": "前へ",
+                "next": "次へ",
+                "create": "プロジェクトを作成する"
+              },
+              "modal": {
+                "title": "リモートプリセットを設定する",
+                "body": "間もなく利用できます..."
+              },
+              "manual": {
+                "name": "手動",
+                "description": "手動で機能を選択する"
+              },
+              "remote": {
+                "name": "リモートプリセット",
+                "description": "git リポジトリからプリセットをフェッチ",
+                "url": {
+                  "title": "Preset URL",
+                  "subtitle": "Git repo, for example 'username/repo'. You can also prefix with 'gitlab:' or 'bitbucket:'."
+                },
+                "options": "Other options",
+                "clone": "Cloner/Private repository",
+                "cancel": "Cancel",
+                "done": "Done"
+              },
+              "default-preset": "デフォルトプリセット"
+            },
+            "features": {
+              "title": "機能",
+              "description": "プロジェクトの作成後、プラグインをインストールすることによって機能を追加することができます。",
+              "enable": "機能の有効化",
+              "buttons": {
+                "previous": "前へ",
+                "next": "次へ",
+                "create": "プロジェクトを作成する"
+              },
+              "userConfigFiles": {
+                "name": "設定ファイルを使用する",
+                "description": "'package.json' を使用する代わりに特別な設定ファイル ('.babelrc' のような) を使用する"
+              }
+            },
+            "configuration": {
+              "title": "設定",
+              "buttons": {
+                "previous": "前へ",
+                "create": "プロジェクトを作成する"
+              },
+              "modal": {
+                "title": "新しいプロジェクトを保存する",
+                "body": {
+                  "title": "プリセット名",
+                  "subtitle": "新しいプリセットに機能と設定を保存する"
+                },
+                "buttons": {
+                  "cancel": "キャンセル",
+                  "continue": "保存なしで続ける",
+                  "create": "プロジェクトを作成する"
+                }
+              }
+            }
+          }
+        },
+        "project-plugins": {
+          "title": "プロジェクトプラグイン",
+          "button": "プラグインを追加する",
+          "heading": "インストールされたプラグイン",
+          "update-all": "全てのプラグインを更新する"
+        },
+        "project-plugins-add": {
+          "title": "プラグインを追加する",
+          "plugin": "プラグイン",
+          "tabs": {
+            "search": {
+              "label": "検索",
+              "search-input": "プラグインを検索する",
+              "not-found": "結果が見つかりません",
+              "buttons": {
+                "cancel": "キャンセル",
+                "install": "{target} をインストール",
+                "default-install": "Install"
+              }
+            },
+            "configuration": {
+              "label": "設定",
+              "heading": "{target} の設定",
+              "buttons": {
+                "cancel": "キャンセル",
+                "finish": "インストールを終了する"
+              }
+            },
+            "diff": {
+              "label": "変更されたファイル"
+            }
+          },
+          "modal": {
+            "title": "{target} をアンインストールしますか?",
+            "body": "{target} プラグインをアンインストールしたいですか?",
+            "buttons": {
+              "back": "戻る",
+              "cancel": "アンインストールなしでキャンセル",
+              "uninstall": "アンインストール"
+            }
+          }
+        },
+        "project-configurations": {
+          "title": "プロジェクト設定"
+        },
+        "project-configuration-details": {
+          "actions": {
+            "cancel": "変更のキャンセル",
+            "save": "変更を保存",
+            "more-info": "詳細情報",
+            "refresh": "更新する"
+          }
+        },
+        "project-tasks": {
+          "title": "プロジェクトタスク"
+        },
+        "project-task-details": {
+          "actions": {
+            "play": "タスクの実行",
+            "stop": "タスクの停止",
+            "close": "閉じる"
+          },
+          "command": "スクリプトコマンド",
+          "parameters": "パラメータ",
+          "parameters-info": "パラメータはタスクが起動される時に保存されます",
+          "more-info": "詳細情報",
+          "output": "出力"
+        },
+        "project-dependencies": {
+          "title": "Project dependencies",
+          "heading": {
+            "dependencies": "Main dependencies",
+            "devDependencies": "Development dependencies"
+          },
+          "actions": {
+            "install": "Install dependency",
+            "update-all": "Update all dependencies"
+          },
+          "install": {
+            "title": "Install new dependency"
+          },
+          "uninstall": {
+            "title": "Confirm uninstall",
+            "body": "Are you sure you want to uninstall {id}?",
+            "cancel": "Cancel",
+            "uninstall": "Uninstall {id}"
+          }
+        },
+        "about": {
+          "title": "Vue CLI について",
+          "description": "<a href=\"https://github.com/vuejs/vue-cli/tree/dev/packages/%40vue/cli-ui\" target=\"_blank\">@vue/cli-ui</a> は本格的な UI で開始する Vue CLI のビルドインパッケージです。",
+          "quote": "Vue CLI 3.x は多くの新しい素晴らしい機能が搭載された完全に書き換えられたものです。ルーティング、Vuex、TypeScript などの機能を選択し、\"Vue CLI プラグイン\"と呼ばれる組み立てブロックを追加してアップグレードできます。しかし、これほど多くのオプションを持つことの意味は、ツールがより複雑で使用開始が難しいです。そのため、本格的な GUI があることは、Vue CLI プラグインを検索して、インストールして、そしてターミナルインターフェースに制限されず、より多くの可能性を広げることができます。要約すると、Vue CLI は新しいプロジェクトを簡単にブートストラップするだけでなく、その後も継続的な作業にも役立ちます！",
+          "links": "役立つリンク",
+          "back": "元に戻る"
+        }
+      },
+      "cli-service": {
+        "suggestions": {
+          "vue-router-add": {
+            "label": "Vue Router を追加",
+            "message": "シングルページアプリケーションで複数の仮想ページをサポートするための公式ライブラリ。各ルートは異なるコンポーネントを描画します。"
+          },
+          "vuex-add": {
+            "label": "Vuex を追加",
+            "message": "大規模アプリケーション向けの公式一元状態管理ソリューション。複数のコンポーネントで同じデータにアクセスする必要がある場合、とても便利です。"
+          },
+          "vue-devtools": {
+            "label": "DevTools　インストール",
+            "message": "コンポーネント、 Vuex そしてイベントを調査できる Vue.js アプリケーションをデバッグするためのブラウザの DevTools 公式拡張"
+          },
+          "progress": "{arg0} をインストール中 ..."
+        }
+      },
+      "vue-webpack": {
+        "dashboard": {
+          "title": "ダッシュボード",
+          "open-app": "アプリを開く",
+          "webpack-status": {
+            "Success": "成功",
+            "Failed": "失敗",
+            "Compiling": "コンパイル中",
+            "Invalidated": "無効化",
+            "Idle": "アイドル"
+          },
+          "build-status": {
+            "labels": {
+              "status": "ステータス",
+              "errors": "エラー",
+              "warnings": "警告",
+              "assets": "アセット",
+              "modules": "モジュール",
+              "deps": "依存関係"
+            }
+          },
+          "speed-stats": {
+            "title": "速度統計"
+          },
+          "module-list": {
+            "title": "依存関係"
+          },
+          "asset-list": {
+            "title": "アセット",
+            "size-warning": "このアセットは大きく、コード分割を使用して小さなアセットを作成することを検討してください。"
+          }
+        },
+        "analyzer": {
+          "title": "アナライザ",
+          "go-up": "上位に戻る",
+          "go-home": "ホームに戻る",
+          "chunk": "チャンク"
+        },
+        "sizes": {
+          "stats": "統計",
+          "parsed": "解析済み",
+          "gzip": "Gzip",
+          "help": "<b>統計:</b> webpack 統計データからのサイズ。<br><b>解析済み:</b> 抽出されたソースのサイズ (縮小プラグイン後)。より正確です。<br><b>Gzip:</b> gzip された抽出されたソースのサイズ。"
+        },
+        "modern-mode": "モダンビルドを表示",
+        "tasks": {
+          "serve": {
+            "description": "コンパイルと開発向けのホットリロード",
+            "open": "サーバ起動時にブラウザを開く",
+            "mode": "環境モードの指定",
+            "host": "ホストの指定",
+            "port": "ポートの指定",
+            "https": "HTTPS を使用する"
+          },
+          "build": {
+            "description": "コンパイルとプロダクション向けのミニファイ",
+            "mode": "環境モードの指定",
+            "dest": "出力ディレクトリ",
+            "target": {
+              "description": "ビルドターゲット",
+              "app": "Web アプリケーション",
+              "lib": "ライブラリ",
+              "wc": "Web コンポーネント",
+              "wc-async": "非同期 Web コンポーネント"
+            },
+            "name": "ライブラリまたは Web コンポーネントモードに対する名前 (デフォルト: package.json の 'name' またはエントリファイル名",
+            "watch": "変更に対する監視",
+            "modern": {
+              "label": "モダンモード",
+              "description": "自動フォールバックを使用してモダンなブラウザをターゲットにしたアプリケーションをビルドする"
+            }
+          },
+          "inspect": {
+            "description": "解決された webpack 設定を調査する",
+            "mode": "環境モードの指定",
+            "verbose": "出力において完全な関数定義を表示する"
+          }
+        },
+        "config": {
+          "vue-cli": {
+            "description": "Vue プロジェクトの設定",
+            "groups": {
+              "general": "一般的な設定",
+              "css": "CSS 設定"
+            },
+            "baseUrl": {
+              "label": "ベース URL",
+              "description": "アプリケーションが配置されるベース URL、例えば '/my-app'。空文字 (\"\") を使用すると全てのアセットが相対パスで解決されます。"
+            },
+            "outputDir": {
+              "label": "出力ディレクトリ",
+              "description": "プロダクションビルドファイルが生成されるディレクトリ。"
+            },
+            "assetsDir": {
+              "label": "アセットディレクトリ",
+              "description": "生成される静的アセット (JavaScript、CSS、画像、フォント) の配下に保持するディレクトリ。"
+            },
+            "runtimeCompiler": {
+              "label": "ランタイムコンパイラを有効にする",
+              "description": "これは Vue コンポーネントでテンプレートオプションを使用することができますが、アプリケーションに 10 KB のペイロードが追加されます。"
+            },
+            "productionSourceMap": {
+              "label": "プロダクションソースマップを有効にする",
+              "description": "これを無効にすると、プロダクション向けにソースマップが不要な場合は、プロダクションビルドの速度が向上します。"
+            },
+            "parallel": {
+              "label": "並列コンパイル",
+              "description": "Babel または Typescript をコンパイルするために複数のプロセッサを使用するかどうか。"
+            },
+            "css": {
+              "modules": {
+                "label": "CSS モジュールを有効にする",
+                "description": "デフォルトでは、*.module.[ext] で終了するファイルだけ、 CSS モジュールとして扱われます。これを有効にすると、全てのスタイルファイルが CSS モジュールとして扱われます。"
+              },
+              "extract": {
+                "label": "CSS を抽出する",
+                "description": "スタンドアロンの CSS ファイルにコンポーネント内の CSS を抽出するかどうか。(JavaScript でインライン化されずに動的に注入されるのではなく)"
+              },
+              "sourceMap": {
+                "label": "CSS ソースマップを有効にする",
+                "description": "CSS に対してソースマップを有効にするかどうか。これを有効にするとビルドパフォーマンスに影響する可能性があります。"
+              }
+            }
+          }
+        },
+        "suggestions": {
+          "vue-config-open": "Vue の設定を開く"
+        }
+      },
+      "eslint": {
+        "config": {
+          "eslint": {
+            "description": "エラーチェックとコード品質",
+            "groups": {
+              "strongly-recommended": "強く推奨",
+              "recommended": "推奨"
+            },
+            "vue": {
+              "label": "Vue"
+            },
+            "extra": {
+              "label": "追加",
+              "lintOnSave": {
+                "message": "保存時にリント",
+                "description": "保存した時に自動的にソースファイルをリントします。"
+              }
+            }
+          }
+        },
+        "tasks": {
+          "lint": {
+            "description": "リントとファイル修正",
+            "noFix": "エラーを修正しない"
+          }
+        },
+        "suggestions": {
+          "open-eslintrc": {
+            "label": "eslintrc を開く"
+          }
+        }
+      },
+      "pwa": {
+        "config": {
+          "pwa": {
+            "description": "プログレッシブ Web アプリ",
+            "workboxPluginMode": {
+              "message": "プラグインモード",
+              "description": "これは `workbox-webpack-plugin` によってサポートされている 2 つのモードを選択することができます。"
+            },
+            "name": {
+              "message": "アプリケーション名",
+              "description": "スプラッシュ画面やその他の場所に表示されるアプリケーション名。生成された HTML の `apple-mobile-web-app-title` meta タグの値としても使用されます。"
+            },
+            "themeColor": {
+              "message": "テーマ色",
+              "description": "ブラウザのテーマに使用される色"
+            },
+            "backgroundColor": {
+              "message": "スプラッシュ背景色",
+              "description": "アプリケーションスプラッシュスクリーンに対して使用される背景色"
+            },
+            "msTileColor": {
+              "message": "Windows アプリケーションタイルカラー",
+              "description": "Windows 上でアプリケーションタイルに対して使用される色"
+            },
+            "appleMobileWebAppStatusBarStyle": {
+              "message": "Apple モバイルステータスバースタイル",
+              "description": "iOS 上における Web アプリケーションのステータス向けのスタイル"
+            }
+          }
+        },
+        "suggestions": {
+          "open-vue": {
+            "label": "Vue の設定を開く"
+          },
+          "open-manifest": {
+            "label": "マニフェストを開く"
+          }
+        }
+      },
+      "cypress": {
+        "tasks": {
+          "test": {
+            "description": "`cypress run` で e2e テストを実行する",
+            "headless": "GUI なしでヘッドレスモードで実行する",
+            "mode": "開発サーバを実行するモードを指定する",
+            "url": "開発サーバを自動起動する代わりに、指定した URL に対して e2e テストを実行する"
+          }
+        }
+      },
+      "nightwatch": {
+        "tasks": {
+          "test": {
+            "description": "Nightwatch で e2e テストを実行する",
+            "url": "開発サーバを自動起動する代わりに、指定した URL に対して e2e テストを実行する",
+            "config": "Use custom nightwatch config file (overrides internals)",
+            "env": "Comma-delimited browser envs to run in"
+          }
+        }
+      },
+      "jest": {
+        "tasks": {
+          "test": {
+            "description": "Jest で単体テストを実行する",
+            "watch": "変更に対してファイルを監視し、そして変更されたファイルに関連するテストを再実行する",
+            "notify": "Display a notification after each run",
+            "update": "このテスト実行中に失敗した全てのスナップショットを再記録する"
+          }
+        }
+      },
+      "mocha": {
+        "tasks": {
+          "test": {
+            "description": "Mocha で単体テストを実行する",
+            "watch": "変更に対してファイルを監視し、そして変更されたファイルに関連するテストを再実行する"
+          }
+        }
+      }
+    }
+  }
+}
