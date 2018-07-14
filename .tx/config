@@ -1,7 +1,7 @@
 [main]
 host = https://www.transifex.com
 
-[vue-cli.ui]
+[vue-cli.cli-ui]
 file_filter = locales/<lang>.json
 minimum_perc = 0
 source_file = locales/en.json
