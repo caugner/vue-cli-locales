@@ -1,0 +1,21 @@
+{
+  "name": "vue-cli-locales",
+  "version": "3.0.0-rc.4",
+  "description": "Localizations for @vue/cli",
+  "unpkg": "./locales",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/caugner/vue-cli-locales.git"
+  },
+  "keywords": [
+    "vuejs",
+    "vue-cli",
+    "locale"
+  ],
+  "author": "Claas Augner",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/caugner/vue-cli-locales/issues"
+  },
+  "homepage": "https://github.com/caugner/vue-cli-locales#readme"
+}
