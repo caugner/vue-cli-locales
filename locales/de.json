@@ -194,7 +194,7 @@
           "dependency-install": "Installiere {arg0}...",
           "dependency-uninstall": "Deinstalliere {arg0}...",
           "dependency-update": "Aktualisiere {arg0}...",
-          "dependencies-update": "Aktualisiere {arg0} Plugins..."
+          "dependencies-update": "Aktualisiere {arg0} Pakete..."
         }
       },
       "types": {
@@ -393,11 +393,11 @@
           "actions": {
             "play": "Aufgabe ausführen",
             "stop": "Aufgabe anhalten",
-            "close": "Schließen"
+            "close": "Schließen",
+            "save": "Speichern"
           },
           "command": "Skript-Befehl",
           "parameters": "Parameter",
-          "parameters-info": "Parameter werden gespeichert, wenn die Aufgabe ausgeführt wird.",
           "more-info": "Weitere Informationen",
           "output": "Ausgabe"
         },

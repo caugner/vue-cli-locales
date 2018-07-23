@@ -9,14 +9,14 @@
         "file-diff": {
           "binary": "Binærfil vises ikke",
           "actions": {
-            "open": "Åpne i editor"
+            "open": "Åpne i editoren"
           }
         },
         "file-diff-view": {
           "files-changed": "Endrede filer",
           "search-file": "Søk i fil",
           "empty": "Ingen endringer funnet",
-          "error": "Couldn't get file changes",
+          "error": "Kunne ikke hente filendringene",
           "modals": {
             "commit": {
               "title": "Commit endringer",
@@ -41,24 +41,24 @@
           "toolbar": {
             "tooltips": {
               "parent-folder": "Åpne overmappe",
-              "edit-path": "Rediger filvei",
+              "edit-path": "Rediger filbane",
               "favorite": "Toggle favoritt",
               "favorite-folders": "Favorittmapper",
               "refresh": "Oppdater"
             },
-            "placeholder": "Skriv inn hele filveien til en mappe",
+            "placeholder": "Skriv inn hele filbanen til en mappe",
             "empty": "Du har ingen favorittmapper enda.",
-            "show-hidden": "Show hidden folders"
+            "show-hidden": "Vis skjulte mapper"
           },
           "new-folder": {
-            "action": "New folder",
-            "title": "Create new folder",
+            "action": "Ny mappe",
+            "title": "Opprett ny mappe",
             "field": {
-              "title": "New folder",
-              "subtitle": "You can use the folder separator to create multiple nested folders at once."
+              "title": "Ny mappe",
+              "subtitle": "Du kan bruke mappeskilleren til å lage flere undermapper samtidig."
             },
-            "cancel": "Cancel",
-            "create": "Create"
+            "cancel": "Avbryt",
+            "create": "Opprett"
           }
         },
         "list-item-info": {
@@ -86,17 +86,17 @@
           }
         },
         "project-select-list": {
-          "empty": "Du har ingen eksisterende projekter",
+          "empty": "Ingen eksisterende prosjekter",
           "titles": {
-            "favorite": "Favorittprojekter",
-            "other": "Andre projekter"
+            "favorite": "Favorittprosjekter",
+            "other": "Andre prosjekter"
           }
         },
         "project-select-list-item": {
           "tooltips": {
             "favorite": "Toggle favoritt",
             "delete": "Slett",
-            "open-in-editor": "Open in editor"
+            "open-in-editor": "Åpne i editoren"
           }
         },
         "project-plugin-item": {
@@ -109,19 +109,19 @@
           }
         },
         "project-dependency-item": {
-          "version": "version",
-          "wanted": "wanted",
-          "latest": "latest",
-          "installed": "Installed",
+          "version": "versjon",
+          "wanted": "ønsket",
+          "latest": "siste",
+          "installed": "Installert",
           "actions": {
-            "update": "Update {target}",
-            "uninstall": "Uninstall {target}"
+            "update": "Oppdater {target}",
+            "uninstall": "Avinstaller {target}"
           }
         },
         "project-tasks-dropdown": {
           "tooltips": {
-            "tasks": "Tasks",
-            "running-tasks": "{count} running task(s)"
+            "tasks": "Oppgaver",
+            "running-tasks": "{count} oppgaver som holder på"
           }
         },
         "prompt-list": {
@@ -132,8 +132,8 @@
         },
         "status-bar": {
           "project": {
-            "tooltip": "Gjeldende projekt<br><i>Trykk for å toggle projektmanageren</i>",
-            "empty": "Ingen projekter"
+            "tooltip": "Gjeldende prosjekt<br><i>Trykk for å toggle prosjektmanageren</i>",
+            "empty": "Ingen prosjekter"
           },
           "path": {
             "tooltip": "Gjeldende mappe"
@@ -142,10 +142,10 @@
             "tooltip": "Logg<br><i>Trykk for å toggle Vue CLI-loggen</i>",
             "empty": "Ingen logg enda"
           },
-          "report-bug": "Rapporter feil",
+          "report-bug": "Rapporter bug",
           "translate": "Hjelp med oversetting",
           "dark-mode": "Toggle mørkemodus",
-          "reset-plugin-api": "Refresh plugins API"
+          "reset-plugin-api": "Oppdater plugins API"
         },
         "suggestion-bar": {
           "suggestion": "Forslag",
@@ -161,10 +161,10 @@
           }
         },
         "top-bar": {
-          "no-favorites": "Du har ingen favorittprojekter",
-          "favorite-projects": "Favorite projects",
-          "recent-projects": "Recent projects",
-          "homepage": "Home page"
+          "no-favorites": "Du har ingen favorittprosjekter",
+          "favorite-projects": "Favorittprosjekter",
+          "recent-projects": "Siste prosjekter",
+          "homepage": "Hjemmeside"
         },
         "view-badge": {
           "labels": {
@@ -178,23 +178,23 @@
       },
       "mixins": {
         "progress": {
-          "creating": "Oppretter projektet...",
+          "creating": "Oppretter prosjektet...",
           "git-init": "Initialiserer git repository-et...",
           "plugins-install": "Installerer Vue CLI-plugins. Dette kan ta en stund...",
-          "invoking-generators": "Påkaller generators...",
+          "invoking-generators": "Henter generators...",
           "deps-install": "Installerer tilleggsdependencies...",
           "completion-hooks": "Kjører fullføringshooks...",
-          "fetch-remote-preset": "Henter remote preset...",
-          "done": "Oppretting av projektet er vellykket",
+          "fetch-remote-preset": "Henter remote-forhåndsinnstillinger...",
+          "done": "Oppretting av prosjektet er vellykket",
           "plugin-install": "Installerer {arg0}...",
           "plugin-uninstall": "Avinstallerer {arg0}...",
-          "plugin-invoke": "Påkaller {arg0}...",
+          "plugin-invoke": "Laster ned {arg0}...",
           "plugin-update": "Oppdaterer {arg0}...",
-          "plugins-update": "Updating {arg0} plugins...",
-          "dependency-install": "Installing {arg0}...",
-          "dependency-uninstall": "Uninstalling {arg0}...",
-          "dependency-update": "Updating {arg0}...",
-          "dependencies-update": "Updating {arg0} packages..."
+          "plugins-update": "Oppdaterer {arg0} plugins...",
+          "dependency-install": "Installerer {arg0}...",
+          "dependency-uninstall": "Avinstallerer {arg0}...",
+          "dependency-update": "Oppdaterer {arg0}...",
+          "dependencies-update": "Oppdaterer {arg0} packages..."
         }
       },
       "types": {
@@ -204,53 +204,53 @@
             "running": "Kjører",
             "done": "Ferdig",
             "error": "Feil",
-            "terminated": "Terminert"
+            "terminated": "Avsluttet"
           }
         }
       },
       "views": {
         "project-select": {
-          "title": "Vue-projektmanager",
+          "title": "Prosjektmanager",
           "tabs": {
-            "projects": "Projekter",
+            "projects": "Prosjekter",
             "create": "Opprett",
             "import": "Importer"
           },
           "buttons": {
-            "create": "Lag et nytt projekt her",
+            "create": "Opprett nytt prosjekt her",
             "import": "Importer denne mappen"
           },
           "import": {
             "no-modules": {
-              "title": "Missing modules",
-              "message": "It seems the project is missing the 'node_modules' folder. Please check you installed the dependencies before importing.",
-              "close": "Got it"
+              "title": "Manglende moduler",
+              "message": "Dette prosjektet mangler 'node_modules'-mappen. Kontroller at du har installert dependencies før du importerer prosjektet.",
+              "close": "Forstått"
             }
           }
         },
         "project-create": {
-          "title": "Opprett et nytt projekt",
+          "title": "Opprett nytt prosjekt",
           "tabs": {
             "details": {
               "title": "Detaljer",
               "form": {
                 "folder": {
-                  "label": "Projektmappe",
+                  "label": "Prosjektmappe",
                   "placeholder": "my-app",
                   "tooltip": "Endre basismappen",
                   "action": "Velg denne mappen",
                   "folder-exists": "Denne mappen eksisterer allerede",
-                  "folder-name-invalid": "Folder name invalid"
+                  "folder-name-invalid": "Mappenavn er ugyldig"
                 },
                 "manager": {
-                  "label": "Package manager",
+                  "label": "Pakkemanager",
                   "default": "Standard"
                 },
                 "options": {
                   "label": "Tilleggsalternativer",
-                  "force": "Overskriv målmappen hvis den eksisterer",
+                  "force": "Overskriv mappen hvis den eksisterer allerede",
                   "git-title": "Git repository",
-                  "git": "initialiser git repository (anbefalt)",
+                  "git": "Initialiser git repository (anbefalt)",
                   "git-commit-message": "Første commit-melding (valgfritt)"
                 }
               },
@@ -259,25 +259,25 @@
                 "next": "Neste"
               },
               "modal": {
-                "title": "Avbryt og tilbakestill projektopprettingen",
-                "body": "Er du sikker på at du vil avslutte og tilbakestille projektopprettingen?",
+                "title": "Avbryt og nullstill prosjektopprettingen",
+                "body": "Er du sikker på at du vil avslutte og nullstille prosjektopprettingen?",
                 "buttons": {
                   "back": "Go tilbake",
-                  "clear": "Tilbakestill projektet"
+                  "clear": "Tilbakestill prosjektet"
                 }
               }
             },
             "presets": {
-              "title": "Presets",
-              "description": "En preset (forhåndsinnstilling) er en assosiasjon av plugins og konfigurasjoner. Etter at du har valgt funksjonene du ønsker, kan du velge om du vil lagre dette som en preset som kan brukes når du oppretter projekter i fremtiden, uten at du trenger å gjøre alt på nytt.",
-              "select": "Velg en preset",
+              "title": "Forhåndsinnstillinger",
+              "description": "En forhåndsinnstilling er en assosiasjon av plugins og konfigurasjoner. Etter at du har valgt funksjonene du ønsker, kan du velge om du vil lagre dette som en forhåndsinnstilling som kan brukes når du oppretter prosjekter i fremtiden, uten at du trenger å gjøre alt på nytt.",
+              "select": "Velg en forhåndsinnstilling",
               "buttons": {
                 "previous": "Forrige",
                 "next": "Neste",
-                "create": "Opprett projekt"
+                "create": "Opprett prosjekt"
               },
               "modal": {
-                "title": "Konfigurer en remote preset",
+                "title": "Konfigurer en remote-forhåndsinnstilling",
                 "body": "Tilgjengelig snart..."
               },
               "manual": {
@@ -285,27 +285,27 @@
                 "description": "Velg funksjoner manuelt"
               },
               "remote": {
-                "name": "Remote preset",
-                "description": "Hent en remote preset fra et git repository",
+                "name": "Ekstern forhåndsinnstilling",
+                "description": "Hent en ekstern forhåndsinnstilling fra et git repository",
                 "url": {
-                  "title": "Preset URL",
-                  "subtitle": "Git repo, for example 'username/repo'. You can also prefix with 'gitlab:' or 'bitbucket:'."
+                  "title": "URL til forhåndsinnstillingen",
+                  "subtitle": "Git repo, for eksempel 'brukernavn/repo'. Du kan også skrive 'gitlab:' eller 'bitbucket:' foran."
                 },
-                "options": "Other options",
-                "clone": "Cloner/Private repository",
-                "cancel": "Cancel",
-                "done": "Done"
+                "options": "Andre muligheter",
+                "clone": "Kloner/privat repository",
+                "cancel": "Avbryt",
+                "done": "Ferdig"
               },
-              "default-preset": "Standard-preset"
+              "default-preset": "Standard"
             },
             "features": {
               "title": "Funksjoner",
-              "description": "Du kan også legge til funksjoner etter at du har opprettet projektet ved å installere plugins.",
-              "enable": "Aktivere funksjoner",
+              "description": "Du kan også legge til funksjoner ved å installere plugins etter at du har opprettet prosjektet.",
+              "enable": "Aktiver funksjoner",
               "buttons": {
                 "previous": "Forrige",
                 "next": "Neste",
-                "create": "Opprett projekt"
+                "create": "Opprett prosjekt"
               },
               "userConfigFiles": {
                 "name": "Bruk config-filer",
@@ -316,25 +316,25 @@
               "title": "Konfigurasjon",
               "buttons": {
                 "previous": "Forrige",
-                "create": "Opprett projekt"
+                "create": "Opprett prosjekt"
               },
               "modal": {
-                "title": "Lagre som en ny preset",
+                "title": "Lagre som ny forhåndsinnstilling",
                 "body": {
-                  "title": "Preset-navn",
-                  "subtitle": "Lagre funksjonene og konfigurasjonen i en ny preset"
+                  "title": "Navn på forhåndsinnstilling",
+                  "subtitle": "Lagre funksjonene og konfigurasjonen i en ny forhåndsinnstilling"
                 },
                 "buttons": {
                   "cancel": "Avbryt",
                   "continue": "Fortsett uten å lagre",
-                  "create": "Opprett en ny preset"
+                  "create": "Opprett ny forhåndsinnstilling"
                 }
               }
             }
           }
         },
         "project-plugins": {
-          "title": "Projekt-plugins",
+          "title": "Prosjekt-plugins",
           "button": "Legg til en plugin",
           "heading": "Installerte plugins",
           "update-all": "Oppdater alle plugins"
@@ -350,7 +350,7 @@
               "buttons": {
                 "cancel": "Avbryt",
                 "install": "Installer {target}",
-                "default-install": "Install"
+                "default-install": "Installer"
               }
             },
             "configuration": {
@@ -370,13 +370,13 @@
             "body": "Vil du avinstallere {target}-pluginen?",
             "buttons": {
               "back": "Gå tilbake",
-              "cancel": "Avbryt uten å avinstallere",
+              "cancel": "Avbryt uten avinstallering",
               "uninstall": "Avinstaller"
             }
           }
         },
         "project-configurations": {
-          "title": "Projektkonfigurasjon"
+          "title": "Prosjektkonfigurasjon"
         },
         "project-configuration-details": {
           "actions": {
@@ -387,44 +387,44 @@
           }
         },
         "project-tasks": {
-          "title": "Projektoppgaver"
+          "title": "Prosjektoppgaver"
         },
         "project-task-details": {
           "actions": {
-            "play": "Kjør oppgave",
+            "play": "Start oppgave",
             "stop": "Stopp oppgave",
             "close": "Lukk"
           },
           "command": "Script-kommando",
           "parameters": "Parametere",
-          "parameters-info": "Parametrene lagres når oppgaven kjøres.",
+          "parameters-info": "Parametrene lagres når oppgaven settes i gang.",
           "more-info": "Mer info",
           "output": "Resultat"
         },
         "project-dependencies": {
-          "title": "Project dependencies",
+          "title": "Prosjekt-dependencies",
           "heading": {
-            "dependencies": "Main dependencies",
-            "devDependencies": "Development dependencies"
+            "dependencies": "Hoved-dependencies",
+            "devDependencies": "Utviklings-dependencies"
           },
           "actions": {
-            "install": "Install dependency",
-            "update-all": "Update all dependencies"
+            "install": "Installer dependency",
+            "update-all": "Oppdater alle dependencies"
           },
           "install": {
-            "title": "Install new dependency"
+            "title": "Installer nytt dependency"
           },
           "uninstall": {
-            "title": "Confirm uninstall",
-            "body": "Are you sure you want to uninstall {id}?",
-            "cancel": "Cancel",
-            "uninstall": "Uninstall {id}"
+            "title": "Bekreft avinstallering",
+            "body": "Er du sikker på at du vil avinstallere {id}?",
+            "cancel": "Avbrut",
+            "uninstall": "Avinstaller {id}"
           }
         },
         "about": {
           "title": "Om",
           "description": "<a href=\"https://github.com/vuejs/vue-cli/tree/dev/packages/%40vue/cli-ui\" target=\"_blank\">@vue/cli-ui</a> er en innebygd pakke i vue-cli som åpner et helt brukergrensesnitt.",
-          "quote": "Vue-cli 3.x er en fullstendig omskrivning, med mange nye kule funksjoner. Du kan nå velge funksjoner som routing, Vuex eller Typescript, og deretter legge til og oppgradere enheter kalt \"vue-cli plugins\". Det kan derimot fort bli vanskelig og komplisert å bruke et verktøy som dette når det finnes så mange forskjellige alternativer og konfigurasjoner. Derfor tenkte vi at et grafisk brukergrensesnitt kan hjelpe deg med å oppdage nye funksjoner, søke og installere vue-cli plugins og generelt sett utforske andre muligheter, uten at du er bregrenset av et terminalgrensesnitt. For å oppsummere, vue-cli tillater deg ikke bare helt enkelt å bootstrappe nye projekter, men er også nyttig for arbeid som kommer senere i projektprosessen!",
+          "quote": "Vue-cli 3.x er en fullstendig omskrivning, med mange nye kule funksjoner. Du kan nå velge funksjoner som routing, Vuex eller Typescript, og deretter legge til og oppgradere enheter kalt \"vue-cli plugins\". Det kan derimot fort bli vanskelig og komplisert å bruke et verktøy som dette når det finnes så mange forskjellige alternativer og konfigurasjoner. Derfor tenkte vi at et grafisk brukergrensesnitt kan hjelpe deg med å oppdage nye funksjoner, søke og installere vue-cli plugins og generelt sett utforske andre muligheter, uten at du er bregrenset av et terminalgrensesnitt. For å oppsummere, vue-cli tillater deg ikke bare helt enkelt å bootstrappe nye prosjekter, men er også nyttig for arbeid som kommer senere i prosjektprosessen!",
           "links": "Nyttige lenker",
           "back": "Gå tilbake"
         }
@@ -452,8 +452,8 @@
           "open-app": "Åpne app",
           "webpack-status": {
             "Success": "Suksess",
-            "Failed": "Failed",
-            "Compiling": "kompilerer",
+            "Failed": "Mislykket",
+            "Compiling": "Kompilerer",
             "Invalidated": "Ugyldig",
             "Idle": "Inaktiv"
           },
@@ -475,7 +475,7 @@
           },
           "asset-list": {
             "title": "Ressurser",
-            "size-warning": "Denne ressursen er stor, vurder å bruke code splitting for å gjøre den mindre."
+            "size-warning": "Denne ressursen er stor, vurder å bruke kodesplitting for å gjøre den mindre."
           }
         },
         "analyzer": {
@@ -490,7 +490,7 @@
           "gzip": "Gzip",
           "help": "<b>Statistikk:</b> størrelsen på webpack-statistikkdata.<br><b>Analysert:</b> størrelsen på size from uthentet kilde (etter forminskning-plugins). Mer nøyaktig.<br><b>Gzip:</b> størrelse på uthentet kilde."
         },
-        "modern-mode": "Vis modern build",
+        "modern-mode": "Vis moderne build",
         "tasks": {
           "serve": {
             "description": "Kompilerer og hot-reloads for utvikling",
@@ -526,14 +526,14 @@
         },
         "config": {
           "vue-cli": {
-            "description": "Konfigurer Vue-projektet dit",
+            "description": "Konfigurer Vue-prosjektet ditt",
             "groups": {
               "general": "Generelle innstillinger",
               "css": "CSS-innstillinger"
             },
             "baseUrl": {
               "label": "URL-utgangspunkt",
-              "description": "URL-utgangspunktet som applikasjonen din vil bli deployed fra, for eksempel '/my-app/'. Bruk en tom string ('') slik at alle ressurser kan lenkes til med relative filveier."
+              "description": "URL-utgangspunktet som applikasjonen din vil bli deployed fra, for eksempel '/my-app/'. Bruk en tom string ('') slik at alle ressurser kan lenkes til med relative filbaner."
             },
             "outputDir": {
               "label": "Utgangskatalog",
@@ -561,7 +561,7 @@
                 "description": "Som standard blir kun filer som ender med *.module.[ext] behandlet som CSS-moduler. Ved å aktivere dette alternativet vil alle style-filer bli behandlet som CSS-moduler."
               },
               "extract": {
-                "label": "Trekke ut CSS",
+                "label": "CSS-moduler",
                 "description": "Bestemmer om CSS i komponentene dine skal trekkes ut i egne CSS-filer (i stedet for inlined i JavaScript og satt inn dynamisk."
               },
               "sourceMap": {
@@ -617,7 +617,7 @@
             },
             "name": {
               "message": "App-navn",
-              "description": "App-navn som vises på Splash-skjermen og andre stedet. Brukes også som verdien for `apple-mobile-web-app-title`-metataggen i det genererte HTML"
+              "description": "App-navn som vises på Splash-skjermen og andre steder. Brukes også som verdien for `apple-mobile-web-app-title`-metataggen i HTML som blir generert."
             },
             "themeColor": {
               "message": "Fargetema",
@@ -649,38 +649,38 @@
       "cypress": {
         "tasks": {
           "test": {
-            "description": "Kjør e2e-tester med `cypress run`",
-            "headless": "Kjør i headless-modus uten GUI (grafisk brukergrensesnitt)",
-            "mode": "Spesifiser modusen som dev-serveren skal kjøres i",
-            "url": "Kjør e2e-tester på en angitt url i stedet for dev-serveren som starter automatisk"
+            "description": "Start e2e-tester med `cypress run`",
+            "headless": "Start i headless-modus uten GUI (grafisk brukergrensesnitt)",
+            "mode": "Spesifiser modusen som dev-serveren skal startes i",
+            "url": "Start e2e-tester på en angitt url i stedet for dev-serveren som starter automatisk"
           }
         }
       },
       "nightwatch": {
         "tasks": {
           "test": {
-            "description": "Kjør e2e-tester med nightwatch",
-            "url": "Kjør e2e-tester på en angitt url i stedet for dev-serveren som starter automatisk",
-            "config": "Use custom nightwatch config file (overrides internals)",
-            "env": "Comma-delimited browser envs to run in"
+            "description": "Start e2e-tester med nightwatch",
+            "url": "Start e2e-tester på en angitt url i stedet for dev-serveren som starter automatisk",
+            "config": "Bruk en egen nightwatch config-fil (overskriver internals)",
+            "env": "Kommaseparerte nettlesere som envs skal startes i"
           }
         }
       },
       "jest": {
         "tasks": {
           "test": {
-            "description": "Kjør enhetstester med Jestks",
-            "watch": "Se etter filendringer og kjør tester på nytt for filer som har blitt endret",
+            "description": "Start enhetstester med Jestks",
+            "watch": "Se etter filendringer og start tester på nytt for filer som har blitt endret",
             "notify": "Vis en melding for hver kjøring",
-            "update": "Ta et snapshot på nytt for hver gang det mislykkes under dette testkjøret"
+            "update": "Ta snapshot på nytt for hver gang det mislykkes under dette testkjøret"
           }
         }
       },
       "mocha": {
         "tasks": {
           "test": {
-            "description": "Kjør enhetstester med Mocha",
-            "watch": "Se etter filendringer og kjør tester på nytt for filer som har blitt endret"
+            "description": "Start enhetstester med Mocha",
+            "watch": "Se etter filendringer og start tester på nytt for filer som har blitt endret"
           }
         }
       }

@@ -16,7 +16,7 @@
           "files-changed": "変更されたファイル",
           "search-file": "ファイルを検索",
           "empty": "変更はありません",
-          "error": "Couldn't get file changes",
+          "error": "ファイル変更を検出できませんでした",
           "modals": {
             "commit": {
               "title": "コミット変更",
@@ -48,17 +48,17 @@
             },
             "placeholder": "フォルダへのフルパスを入力する",
             "empty": "まだお気に入りフォルダがありません。",
-            "show-hidden": "Show hidden folders"
+            "show-hidden": "非表示フォルダを表示"
           },
           "new-folder": {
-            "action": "New folder",
-            "title": "Create new folder",
+            "action": "新しいフォルダ",
+            "title": "新しいフォルダを作成する",
             "field": {
-              "title": "New folder",
-              "subtitle": "You can use the folder separator to create multiple nested folders at once."
+              "title": "新しいフォルダ",
+              "subtitle": "フォルダのセパレータを使用すると、一度に複数のネストされたフォルダを作成できます。"
             },
-            "cancel": "Cancel",
-            "create": "Create"
+            "cancel": "キャンセル",
+            "create": "作成"
           }
         },
         "list-item-info": {
@@ -79,8 +79,8 @@
         "project-nav": {
           "tooltips": {
             "plugins": "プラグイン",
-            "dependencies": "Dependencies",
             "configuration": "設定",
+            "dependencies": "依存",
             "tasks": "タスク",
             "more": "More"
           }
@@ -96,7 +96,7 @@
           "tooltips": {
             "favorite": "お気に入りをトグル",
             "delete": "リストから削除",
-            "open-in-editor": "Open in editor"
+            "open-in-editor": "エディタで開く"
           }
         },
         "project-plugin-item": {
@@ -109,19 +109,19 @@
           }
         },
         "project-dependency-item": {
-          "version": "version",
-          "wanted": "wanted",
-          "latest": "latest",
-          "installed": "Installed",
+          "version": "バージョン",
+          "wanted": "手配",
+          "latest": "最新",
+          "installed": "インストール済み",
           "actions": {
-            "update": "Update {target}",
-            "uninstall": "Uninstall {target}"
+            "update": "{target} を更新",
+            "uninstall": "{target} をアンインストール"
           }
         },
         "project-tasks-dropdown": {
           "tooltips": {
-            "tasks": "Tasks",
-            "running-tasks": "{count} running task(s)"
+            "tasks": "タスク",
+            "running-tasks": "{count} タスク動作中"
           }
         },
         "prompt-list": {
@@ -145,7 +145,7 @@
           "report-bug": "バグをレポートする",
           "translate": "翻訳をヘルプする",
           "dark-mode": "ダークモードにトグル",
-          "reset-plugin-api": "Refresh plugins API"
+          "reset-plugin-api": "プラグイン API をリフレッシュ"
         },
         "suggestion-bar": {
           "suggestion": "提案",
@@ -162,9 +162,9 @@
         },
         "top-bar": {
           "no-favorites": "お気に入りプロジェクトなし",
-          "favorite-projects": "Favorite projects",
-          "recent-projects": "Recent projects",
-          "homepage": "Home page"
+          "favorite-projects": "お気に入りのプロジェクト",
+          "recent-projects": "最近のプロジェクト",
+          "homepage": "ホームページ"
         },
         "view-badge": {
           "labels": {
@@ -191,10 +191,10 @@
           "plugin-invoke": "{arg0} を起動中...",
           "plugin-update": "{arg0} を更新中...",
           "plugins-update": "{arg0} プラグインを更新中...",
-          "dependency-install": "Installing {arg0}...",
-          "dependency-uninstall": "Uninstalling {arg0}...",
-          "dependency-update": "Updating {arg0}...",
-          "dependencies-update": "Updating {arg0} packages..."
+          "dependency-install": "{arg0} をインストール中...",
+          "dependency-uninstall": "{arg0} をアンインストール中...",
+          "dependency-update": "{arg0} を更新中...",
+          "dependencies-update": "{arg0} パッケージを更新中..."
         }
       },
       "types": {
@@ -222,9 +222,9 @@
           },
           "import": {
             "no-modules": {
-              "title": "Missing modules",
-              "message": "It seems the project is missing the 'node_modules' folder. Please check you installed the dependencies before importing.",
-              "close": "Got it"
+              "title": "不明モジュール",
+              "message": "プロジェクトは 'node_modules' フォルダがないようです。どうか、インポートする前に依存がインストール済みか確認してください。",
+              "close": "了解"
             }
           }
         },
@@ -240,7 +240,7 @@
                   "tooltip": "ベースフォルダを変更する",
                   "action": "このフォルダを選択する",
                   "folder-exists": "このフォルダは既に存在する",
-                  "folder-name-invalid": "Folder name invalid"
+                  "folder-name-invalid": "フォルダ名が不正"
                 },
                 "manager": {
                   "label": "パッケージマネージャ",
@@ -288,13 +288,13 @@
                 "name": "リモートプリセット",
                 "description": "git リポジトリからプリセットをフェッチ",
                 "url": {
-                  "title": "Preset URL",
-                  "subtitle": "Git repo, for example 'username/repo'. You can also prefix with 'gitlab:' or 'bitbucket:'."
+                  "title": "プリセット URL",
+                  "subtitle": "Git レポジトリ、例えば 'username/repo'。'gitlab:' まはた 'bitbucket:' でプリフィックスもできます。"
                 },
-                "options": "Other options",
-                "clone": "Cloner/Private repository",
-                "cancel": "Cancel",
-                "done": "Done"
+                "options": "他のオプション",
+                "clone": "Cloner/Private レポジトリ",
+                "cancel": "キャンセル",
+                "done": "完了"
               },
               "default-preset": "デフォルトプリセット"
             },
@@ -350,7 +350,7 @@
               "buttons": {
                 "cancel": "キャンセル",
                 "install": "{target} をインストール",
-                "default-install": "Install"
+                "default-install": "インストール"
               }
             },
             "configuration": {
@@ -402,23 +402,23 @@
           "output": "出力"
         },
         "project-dependencies": {
-          "title": "Project dependencies",
+          "title": "プロジェクト依存",
           "heading": {
-            "dependencies": "Main dependencies",
-            "devDependencies": "Development dependencies"
+            "dependencies": "メイン依存",
+            "devDependencies": "開発依存"
           },
           "actions": {
-            "install": "Install dependency",
-            "update-all": "Update all dependencies"
+            "install": "インストール依存",
+            "update-all": "全ての依存を更新"
           },
           "install": {
-            "title": "Install new dependency"
+            "title": "新しい依存をインストール"
           },
           "uninstall": {
-            "title": "Confirm uninstall",
-            "body": "Are you sure you want to uninstall {id}?",
-            "cancel": "Cancel",
-            "uninstall": "Uninstall {id}"
+            "title": "アンインストールの確認",
+            "body": "{id} をアンインストールしてもよろしいですか？",
+            "cancel": "キャンセル",
+            "uninstall": "{id} をアンインストール"
           }
         },
         "about": {
@@ -661,8 +661,8 @@
           "test": {
             "description": "Nightwatch で e2e テストを実行する",
             "url": "開発サーバを自動起動する代わりに、指定した URL に対して e2e テストを実行する",
-            "config": "Use custom nightwatch config file (overrides internals)",
-            "env": "Comma-delimited browser envs to run in"
+            "config": "カスタム Nightwatch 設定ファイルを使用する (内部で上書き)",
+            "env": "カンマで区切られたブラウザenv環境変数に付け加える"
           }
         }
       },
@@ -671,7 +671,7 @@
           "test": {
             "description": "Jest で単体テストを実行する",
             "watch": "変更に対してファイルを監視し、そして変更されたファイルに関連するテストを再実行する",
-            "notify": "Display a notification after each run",
+            "nofity": "各テスト実行後、通知を表示する",
             "update": "このテスト実行中に失敗した全てのスナップショットを再記録する"
           }
         }

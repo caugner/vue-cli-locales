@@ -16,7 +16,7 @@
           "files-changed": "文件改动",
           "search-file": "搜索文件",
           "empty": "没有改动",
-          "error": "Couldn't get file changes",
+          "error": "无法获取改动",
           "modals": {
             "commit": {
               "title": "提交信息",
@@ -79,7 +79,7 @@
         "project-nav": {
           "tooltips": {
             "plugins": "插件",
-            "dependencies": "Dependencies",
+            "dependencies": "依赖",
             "configuration": "配置",
             "tasks": "任务",
             "more": "更多"
@@ -96,7 +96,7 @@
           "tooltips": {
             "favorite": "添加/取消收藏",
             "delete": "删除",
-            "open-in-editor": "Open in editor"
+            "open-in-editor": "在编辑器中打开"
           }
         },
         "project-plugin-item": {
@@ -109,19 +109,19 @@
           }
         },
         "project-dependency-item": {
-          "version": "version",
-          "wanted": "wanted",
-          "latest": "latest",
-          "installed": "Installed",
+          "version": "版本",
+          "wanted": "要求",
+          "latest": "最新",
+          "installed": "已安装",
           "actions": {
-            "update": "Update {target}",
-            "uninstall": "Uninstall {target}"
+            "update": "更新 {target}",
+            "uninstall": "卸载 {target}"
           }
         },
         "project-tasks-dropdown": {
           "tooltips": {
-            "tasks": "Tasks",
-            "running-tasks": "{count} running task(s)"
+            "tasks": "任务",
+            "running-tasks": "{count} 个正在运行"
           }
         },
         "prompt-list": {
@@ -145,13 +145,13 @@
           "report-bug": "反馈 bug",
           "translate": "参与翻译",
           "dark-mode": "夜间模式",
-          "reset-plugin-api": "Refresh plugins API"
+          "reset-plugin-api": "重置插件 API"
         },
         "suggestion-bar": {
-          "suggestion": "Suggestion",
+          "suggestion": "建议",
           "modal": {
-            "cancel": "Cancel",
-            "continue": "Continue"
+            "cancel": "取消",
+            "continue": "继续"
           }
         },
         "terminal-view": {
@@ -162,9 +162,9 @@
         },
         "top-bar": {
           "no-favorites": "暂无收藏",
-          "favorite-projects": "Favorite projects",
-          "recent-projects": "Recent projects",
-          "homepage": "Home page"
+          "favorite-projects": "收藏的项目",
+          "recent-projects": "最近使用",
+          "homepage": "首页"
         },
         "view-badge": {
           "labels": {
@@ -191,10 +191,10 @@
           "plugin-invoke": "正在调用 {arg0}...",
           "plugin-update": "正在更新 {arg0}...",
           "plugins-update": "正在更新 {arg0} 个插件...",
-          "dependency-install": "Installing {arg0}...",
-          "dependency-uninstall": "Uninstalling {arg0}...",
-          "dependency-update": "Updating {arg0}...",
-          "dependencies-update": "Updating {arg0} packages..."
+          "dependency-install": "正在安装 {arg0}...",
+          "dependency-uninstall": "正在写在 {arg0}...",
+          "dependency-update": "正在更新 {arg0}...",
+          "dependencies-update": "正在更新 {arg0} 个依赖项..."
         }
       },
       "types": {
@@ -393,32 +393,32 @@
           "actions": {
             "play": "运行",
             "stop": "停止",
-            "close": "关闭"
+            "close": "关闭",
+            "save": " 保存"
           },
           "command": "脚本命令",
           "parameters": "变量",
-          "parameters-info": "变量将在运行任务时保存",
           "more-info": "查看详情",
           "output": "输出"
         },
         "project-dependencies": {
-          "title": "Project dependencies",
+          "title": "项目依赖",
           "heading": {
-            "dependencies": "Main dependencies",
-            "devDependencies": "Development dependencies"
+            "dependencies": "运行依赖",
+            "devDependencies": "开发依赖"
           },
           "actions": {
-            "install": "Install dependency",
-            "update-all": "Update all dependencies"
+            "install": "安装依赖",
+            "update-all": "更新所有依赖"
           },
           "install": {
-            "title": "Install new dependency"
+            "title": "安装新的依赖"
           },
           "uninstall": {
-            "title": "Confirm uninstall",
-            "body": "Are you sure you want to uninstall {id}?",
-            "cancel": "Cancel",
-            "uninstall": "Uninstall {id}"
+            "title": "确认卸载",
+            "body": "确认卸载 {id}?",
+            "cancel": "取消",
+            "uninstall": "卸载 {id}"
           }
         },
         "about": {
