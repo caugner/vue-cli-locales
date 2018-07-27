@@ -19,6 +19,10 @@
   },
   "homepage": "https://github.com/caugner/vue-cli-locales#readme",
   "scripts": {
-    "pull": "tx pull --parallel -as"
+    "pull": "tx pull --parallel -as",
+    "test": "node ./test.js"
+  },
+  "devDependencies": {
+    "fetch": "^1.1.0"
   }
 }
