@@ -236,7 +236,7 @@
               "form": {
                 "folder": {
                   "label": "Projekt-Ordner",
-                  "placeholder": "meine-app",
+                  "placeholder": "Name eingeben",
                   "tooltip": "Basisordner ändern",
                   "action": "Diesen Ordner auswählen",
                   "folder-exists": "Dieser Ordner existiert bereits",
@@ -423,7 +423,7 @@
         },
         "about": {
           "title": "Über",
-          "description": "<a href=\"https://github.com/vuejs/vue-cli/tree/dev/packages/%40vue/cli-ui\" target=\"_blank\">@vue/cli-ui</a> ist ein eingebautes Paket von vue-cli, das eine vollvertige GUI öffnet.",
+          "description": "<a href=\"https://github.com/vuejs/vue-cli/tree/dev/packages/%40vue/cli-ui\" target=\"_blank\">@vue/cli-ui</a> ist ein eingebautes Paket von vue-cli, das eine vollwertige GUI öffnet.",
           "quote": "Vue-cli 3.x ist eine vollständige Neuimplementierung mit vielen großartigen Funktionen. Du wirst Funktionen wie Routing, Vuex oder TypeScript auswählen und schließlich Bausteine hinzufügen und aktualisieren, die wir \"vue-cli plugins\" nennen. So viel mehr Optionen bedeutet auch, dass das Werkzeug nun komplexer ist und der Einstieg in die Benutzung schwerer ist. Deshalb haben wir uns gedacht, dass eine vollwertige GUI bei der Entdeckung der neuen Funktionen und die Verwaltung der vue-cli-Plugin helfen würde und insgesamt mehr Möglichkeiten freischaltet, ohne durch eine Kommandozeile eingeschränkt zu sein. Kurzum erlaubt dir vue-cli nicht nur, einfach ein neues Projekt zu starten, sondern es bleibt auch danach stets nützlich für die fortlaufenden Arbeiten danach!",
           "links": "Nützliche Links",
           "back": "Gehe zurück"
@@ -449,7 +449,7 @@
       "vue-webpack": {
         "dashboard": {
           "title": "Dashboard",
-          "open-app": "Ap öffnen",
+          "open-app": "App öffnen",
           "webpack-status": {
             "Success": "Erfolg",
             "Failed": "Fehlgeschlagen",
@@ -485,7 +485,7 @@
           "chunk": "Stück"
         },
         "sizes": {
-          "stats": "Statistken",
+          "stats": "Statistiken",
           "parsed": "Parser",
           "gzip": "Gzip",
           "help": "<b>Statistiken:</b> Größe von den Webpack-Statistikdaten.<br><b>Parser:</b> Größe der extrahierten Quelle (nach Minifizierungs-Plugins). Genauer.<br><b>Gzip:</b> Größe der Gzip-komprimierten, extrahierten Quelle."
@@ -580,18 +580,31 @@
           "eslint": {
             "description": "Fehlerprüfung & Code-Qualität",
             "groups": {
+              "base": "Base",
+              "essential": "Essential",
               "strongly-recommended": "Sehr empfohlen",
-              "recommended": "Empfohlen"
+              "recommended": "Empfohlen",
+              "uncategorized": "Unkategorisiert"
             },
-            "vue": {
-              "label": "Vue"
+            "setting": {
+              "off": "Aus",
+              "error": "Fehler",
+              "warning": "Warnung",
+              "custom": "Benutzerdefiniert"
             },
-            "extra": {
-              "label": "Extra",
+            "general": {
+              "label": "Allgemein",
               "lintOnSave": {
                 "message": "Lint beim Speichern",
                 "description": "Quelldateien automatisch beim Speichern linten"
+              },
+              "config": {
+                "message": "Konfiguration auswählen",
+                "description": "Vordefinierte Konfiguration auswählen"
               }
+            },
+            "rules": {
+              "label": "Regeln"
             }
           }
         },

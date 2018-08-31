@@ -192,7 +192,7 @@
           "plugin-update": "正在更新 {arg0}...",
           "plugins-update": "正在更新 {arg0} 个插件...",
           "dependency-install": "正在安装 {arg0}...",
-          "dependency-uninstall": "正在写在 {arg0}...",
+          "dependency-uninstall": "正在卸载 {arg0}...",
           "dependency-update": "正在更新 {arg0}...",
           "dependencies-update": "正在更新 {arg0} 个依赖项..."
         }
