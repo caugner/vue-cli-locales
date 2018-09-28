@@ -236,8 +236,8 @@
               "form": {
                 "folder": {
                   "label": "Prosjektmappe",
-                  "placeholder": "my-app",
-                  "tooltip": "Endre basismappen",
+                  "placeholder": "Skriv inn et navn",
+                  "tooltip": "Endre basemappen",
                   "action": "Velg denne mappen",
                   "folder-exists": "Denne mappen eksisterer allerede",
                   "folder-name-invalid": "Mappenavn er ugyldig"
@@ -580,18 +580,31 @@
           "eslint": {
             "description": "Feilkontroll og kodekvalitet",
             "groups": {
+              "base": "Base",
+              "essential": "Grunnleggende",
               "strongly-recommended": "Sterkt anbefalt",
-              "recommended": "Anbefalt"
+              "recommended": "Anbefalt",
+              "uncategorized": "Ukategorisert"
             },
-            "vue": {
-              "label": "Vue"
+            "setting": {
+              "off": "Av",
+              "error": "Feil",
+              "warning": "Advarsel",
+              "custom": "Egendefinert"
             },
-            "extra": {
-              "label": "Ekstra",
+            "general": {
+              "label": "Generelt",
               "lintOnSave": {
-                "message": "Lint ved lagring",
-                "description": "Lint kildefilene når de lagres"
+                "message": "Lint på lagring",
+                "description": "Lint kildefiler automatisk når du lagrer"
+              },
+              "config": {
+                "message": "Velg config",
+                "description": "Velg forhåndsdefinert konfigurasjon"
               }
+            },
+            "rules": {
+              "label": "Regler"
             }
           }
         },

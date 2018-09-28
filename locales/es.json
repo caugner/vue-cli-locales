@@ -223,7 +223,7 @@
               "title": "Presets",
               "default-preset": "Preset por defecto",
               "description":
-                "Un preset es una asociación de complementos y configuraciones. Después de que hayas seleccionado las características, tu puedes opcionalmente guardarlo como un preset que puede ser reutilizado en futuros proyecto, sin tener que configurar cada uno de nuevo.",
+                "Un preset es una asociación de complementos y configuraciones. Después de que hayas seleccionado las características, tú puedes opcionalmente guardarlo como un preset que puede ser reutilizado en futuros proyecto, sin tener que configurar cada uno de nuevo.",
               "select": "Selecciona un preset",
               "buttons": {
                 "previous": "Anterior",
@@ -255,7 +255,7 @@
               },
               "userConfigFiles": {
                 "description": "Usar archivos de configuración específicos (como '.babelrc') en vez de usar 'package.json'.",
-                "name": "Usar archivos de confifuración"
+                "name": "Usar archivos de configuración"
               }
             },
             "configuration": {
@@ -412,14 +412,14 @@
           },
           "inspect": {
             "description": "Inspeccionar el resultado de configuración de webpack",
-            "mode": "Especiificar modo de entorno",
+            "mode": "Especificar modo de entorno",
             "verbose": "Mostrar definiciones de funciones completas en salida"
           },
           "build": {
             "description": "Compilar y minificar para producción.",
             "dest": "Directorio de destino",
             "mode": "Especificar modo de entorno",
-            "name": "Nombre para el modo librería o componente web (por defector: 'name' en package.json o el nombre del archivo de entrada)",
+            "name": "Nombre para el modo librería o componente web (por defecto: 'name' en package.json o el nombre del archivo de entrada)",
             "target": {
                 "app": "Aplicación web",
                 "description": "Objetivo de compilación",
@@ -481,7 +481,7 @@
             },
             "name": {
                 "description": "Nombre de la aplicación mostrado en la pantalla inicial entre otros sitios. Usado también como el valor para `apple-mobile-web-app-title` meta etiqueta en el HTML generado.",
-                "message": "Nombre de la apliación"
+                "message": "Nombre de la aplicación"
             },
             "themeColor": {
                 "description": "Color usado en el tema del navegador",
