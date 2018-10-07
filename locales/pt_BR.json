@@ -1,477 +1,481 @@
 {
-  "components": {
-    "file-diff": {
-      "binary": "Arquivo binário não exibido",
-      "actions": {
-        "open": "Abra no editor"
-      }
-    },
-    "file-diff-view": {
-      "files-changed": "Arquivos alterados",
-      "search-file": "Pesquisar um arquivo",
-      "empty": "Nenhuma alteração encontrada",
-      "modals": {
-        "commit": {
-          "title": "Commit alterações",
-          "input": "Digite uma mensagem para o commit",
-          "subtitle": "Registra alterações no repositório",
+  "org": {
+    "vue": {
+      "components": {
+        "file-diff": {
+          "binary": "Arquivo binário não exibido",
           "actions": {
-            "commit": "Commit",
-            "cancel": "Cancelar"
+            "open": "Abra no editor"
+          }
+        },
+        "file-diff-view": {
+          "files-changed": "Arquivos alterados",
+          "search-file": "Pesquisar um arquivo",
+          "empty": "Nenhuma alteração encontrada",
+          "modals": {
+            "commit": {
+              "title": "Commit alterações",
+              "input": "Digite uma mensagem para o commit",
+              "subtitle": "Registra alterações no repositório",
+              "actions": {
+                "commit": "Commit",
+                "cancel": "Cancelar"
+              }
+            }
+          },
+          "actions": {
+            "collapse-all": "Fechar tudo",
+            "expand-all": "Abrir tudo",
+            "commit": "Commit alterações",
+            "skip": "Pular",
+            "continue": "Continuar",
+            "refresh": "Atualizar"
+          }
+        },
+        "folder-explorer": {
+          "toolbar": {
+            "tooltips": {
+              "parent-folder": "Abra pasta pai",
+              "edit-path": "Editar caminho",
+              "favorite": "Adicionar/Remover dos favoritos",
+              "favorite-folders": "Pastas favoritos",
+              "refresh": "Atualizar"
+            },
+            "placeholder": "Digite o caminho completo para uma pasta",
+            "empty": "Nenhuma pasta favorita ainda."
+          }
+        },
+        "list-item-info": {
+          "more-info": "Mais informações"
+        },
+        "logger-view": {
+          "title": "Logs",
+          "empty": "Nenhuma entrada de log ainda.",
+          "buttons": {
+            "clear": "Limpar log",
+            "scroll": "Rolar para baixo",
+            "close": "Fechar"
+          }
+        },
+        "progress-screen": {
+          "close": "Fechar"
+        },
+        "project-nav": {
+          "tooltips": {
+            "plugins": "Plugins",
+            "configuration": "Configurações",
+            "tasks": "Tarefas",
+            "more": "Mais"
+          }
+        },
+        "project-select-list": {
+          "empty": "Nenhum projeto",
+          "titles": {
+            "favorite": "Projetos favoritos",
+            "other": "Outros projetos"
+          }
+        },
+        "project-select-list-item": {
+          "tooltips": {
+            "favorite": "Adicionar/Remover dos favoritos",
+            "delete": "Remover"
+          }
+        },
+        "project-plugin-item": {
+          "version": "versão",
+          "latest": "última versão",
+          "official": "Oficial",
+          "installed": "Instalado",
+          "actions": {
+            "update": "Atualizar {target}"
+          }
+        },
+        "prompt-list": {
+          "default": "Por padrão"
+        },
+        "prompts-list": {
+          "empty": "Nenhuma configuração"
+        },
+        "status-bar": {
+          "project": {
+            "tooltip": "Projeto atual<br><i>Clique para mostrar o Gestor de Projetos</i>",
+            "empty": "Nenhum projeto"
+          },
+          "path": {
+            "tooltip": "Pasta de trabalho atual"
+          },
+          "log": {
+            "tooltip": "Logs<br><i>Clique para mostrar/ocultar logs do Vue CLI</i>",
+            "empty": "Nenhuma entrada de log ainda."
+          },
+          "report-bug": "Reportar bug"
+        },
+        "terminal-view": {
+          "buttons": {
+            "clear": "Limpar console",
+            "scroll": "Rolar para baixo"
+          }
+        },
+        "view-badge": {
+          "labels": {
+            "tasks": {
+              "error": "Status de erro",
+              "running": "Status de execução",
+              "done": "Status finalizado"
+            }
           }
         }
       },
-      "actions": {
-        "collapse-all": "Fechar tudo",
-        "expand-all": "Abrir tudo",
-        "commit": "Commit alterações",
-        "skip": "Pular",
-        "continue": "Continuar",
-        "refresh": "Atualizar"
-      }
-    },
-    "folder-explorer": {
-      "toolbar": {
-        "tooltips": {
-          "parent-folder": "Abra pasta pai",
-          "edit-path": "Editar caminho",
-          "favorite": "Adicionar/Remover dos favoritos",
-          "favorite-folders": "Pastas favoritos",
-          "refresh": "Atualizar"
-        },
-        "placeholder": "Digite o caminho completo para uma pasta",
-        "empty": "Nenhuma pasta favorita ainda."
-      }
-    },
-    "list-item-info": {
-      "more-info": "Mais informações"
-    },
-    "logger-view": {
-      "title": "Logs",
-      "empty": "Nenhuma entrada de log ainda.",
-      "buttons": {
-        "clear": "Limpar log",
-        "scroll": "Rolar para baixo",
-        "close": "Fechar"
-      }
-    },
-    "progress-screen": {
-      "close": "Fechar"
-    },
-    "project-nav": {
-      "tooltips": {
-        "plugins": "Plugins",
-        "configuration": "Configurações",
-        "tasks": "Tarefas",
-        "more": "Mais"
-      }
-    },
-    "project-select-list": {
-      "empty": "Nenhum projeto",
-      "titles": {
-        "favorite": "Projetos favoritos",
-        "other": "Outros projetos"
-      }
-    },
-    "project-select-list-item": {
-      "tooltips": {
-        "favorite": "Adicionar/Remover dos favoritos",
-        "delete": "Remover"
-      }
-    },
-    "project-plugin-item": {
-      "version": "versão",
-      "latest": "última versão",
-      "official": "Oficial",
-      "installed": "Instalado",
-      "actions": {
-        "update": "Atualizar {target}"
-      }
-    },
-    "prompt-list": {
-      "default": "Por padrão"
-    },
-    "prompts-list": {
-      "empty": "Nenhuma configuração"
-    },
-    "status-bar": {
-      "project": {
-        "tooltip": "Projeto atual<br><i>Clique para mostrar o Gestor de Projetos</i>",
-        "empty": "Nenhum projeto"
-      },
-      "path": {
-        "tooltip": "Pasta de trabalho atual"
-      },
-      "log": {
-        "tooltip": "Logs<br><i>Clique para mostrar/ocultar logs do Vue CLI</i>",
-        "empty": "Nenhuma entrada de log ainda."
-      },
-      "report-bug": "Reportar bug"
-    },
-    "terminal-view": {
-      "buttons": {
-        "clear": "Limpar console",
-        "scroll": "Rolar para baixo"
-      }
-    },
-    "view-badge": {
-      "labels": {
-        "tasks": {
-          "error": "Status de erro",
-          "running": "Status de execução",
-          "done": "Status finalizado"
+      "mixins": {
+        "progress": {
+          "creating": "Criando projeto...",
+          "git-init": "Inicializando repositório git...",
+          "plugins-install": "Instalando plugins Vue CLI. Isso pode levar algum tempo...",
+          "invoking-generators": "Invocando geradores...",
+          "deps-install": "Instalando dependências adicionais...",
+          "completion-hooks": "Disparando hooks finais...",
+          "fetch-remote-preset": "Baixando predefinições remotamente...",
+          "done": "Projeto criado com sucesso",
+          "plugin-install": "Instalando {arg0}...",
+          "plugin-uninstall": "Desinstalando {arg0}...",
+          "plugin-invoke": "Invocando {arg0}...",
+          "plugin-update": "Atualizando {arg0}..."
         }
-      }
-    }
-  },
-  "mixins": {
-    "progress": {
-      "creating": "Criando projeto...",
-      "git-init": "Inicializando repositório git...",
-      "plugins-install": "Instalando plugins Vue CLI. Isso pode levar algum tempo...",
-      "invoking-generators": "Invocando geradores...",
-      "deps-install": "Instalando dependências adicionais...",
-      "completion-hooks": "Disparando hooks finais...",
-      "fetch-remote-preset": "Baixando predefinições remotamente...",
-      "done": "Projeto criado com sucesso",
-      "plugin-install": "Instalando {arg0}...",
-      "plugin-uninstall": "Desinstalando {arg0}...",
-      "plugin-invoke": "Invocando {arg0}...",
-      "plugin-update": "Atualizando {arg0}..."
-    }
-  },
-  "types": {
-    "task": {
-      "status": {
-        "idle": "Oucupado",
-        "running": "Carregando",
-        "done": "Finalizado",
-        "error": "Erro",
-        "terminated": "Terminado"
-      }
-    }
-  },
-  "views": {
-    "project-select": {
-      "title": "Gerenciador de Projetos Vue",
-      "tabs": {
-        "projects": "Projetos",
-        "create": "Criar",
-        "import": "Improtar"
       },
-      "buttons": {
-        "create": "Criar um novo projeto aqui",
-        "import": "Importar esta pasta"
-      }
-    },
-    "project-create": {
-      "title": "Criar um novo projeto",
-      "tabs": {
-        "details": {
-          "title": "Detalhes",
-          "form": {
-            "folder": {
-              "label": "Pasta do projeto",
-              "placeholder": "meu-app",
-              "tooltip": "Edite a pasta de destino",
-              "action": "Selecione esta pasta"
-            },
-            "manager": {
-              "label": "Gerenciador de Pacotes",
-              "default": "Por padrão"
-            },
-            "options": {
-              "label": "Opções adicionais",
-              "description": "Sobrescrever a pasta, se existir"
-            }
+      "types": {
+        "task": {
+          "status": {
+            "idle": "Oucupado",
+            "running": "Carregando",
+            "done": "Finalizado",
+            "error": "Erro",
+            "terminated": "Terminado"
+          }
+        }
+      },
+      "views": {
+        "project-select": {
+          "title": "Gerenciador de Projetos Vue",
+          "tabs": {
+            "projects": "Projetos",
+            "create": "Criar",
+            "import": "Improtar"
           },
           "buttons": {
-            "cancel": "Cancelar",
-            "next": "Próximo"
+            "create": "Criar um novo projeto aqui",
+            "import": "Importar esta pasta"
+          }
+        },
+        "project-create": {
+          "title": "Criar um novo projeto",
+          "tabs": {
+            "details": {
+              "title": "Detalhes",
+              "form": {
+                "folder": {
+                  "label": "Pasta do projeto",
+                  "placeholder": "meu-app",
+                  "tooltip": "Edite a pasta de destino",
+                  "action": "Selecione esta pasta"
+                },
+                "manager": {
+                  "label": "Gerenciador de Pacotes",
+                  "default": "Por padrão"
+                },
+                "options": {
+                  "label": "Opções adicionais",
+                  "description": "Sobrescrever a pasta, se existir"
+                }
+              },
+              "buttons": {
+                "cancel": "Cancelar",
+                "next": "Próximo"
+              },
+              "modal": {
+                "title": "Cancelar e reiniciar a criação do projeto",
+                "body": "Tem certeza de que deseja redefinir a criação do projeto?",
+                "buttons": {
+                  "back": "Voltar",
+                  "clear": "Excluir projeto"
+                }
+              }
+            },
+            "presets": {
+              "title": "Predefinições",
+              "description": "Uma predefinição é um conjunto de plugins e configurações predefinidos. Depois de selecionar recursos, você pode salvar a seleção atual em uma nova predefinição que pode ser reutilizada em projetos futuros, sem precisar reconfigurar novamente.",
+              "select": "Selecione uma predefinição",
+              "buttons": {
+                "previous": "Anterior",
+                "next": "Próximo",
+                "create": "Criar projeto"
+              },
+              "modal": {
+                "title": "Configurar a predefinição remota",
+                "body": "Disponível em breve..."
+              },
+              "manual": {
+                "name": "Manual",
+                "description": "Selecionar recursos manualmente"
+              },
+              "remote": {
+                "name": "Predefinição remota",
+                "description": "Buscar uma predefinição de um repositório git"
+              },
+              "default-preset": "Predefinição padrão"
+            },
+            "features": {
+              "title": "Recursos",
+              "description": "Você pode adicionar recursos depois de criar o projeto, instalando plugins.",
+              "enable": "Ativar recursos",
+              "buttons": {
+                "previous": "Anterior",
+                "next": "Próximo",
+                "create": "Criar projeto"
+              },
+              "userConfigFiles": {
+                "name": "Use arquivos de configuração",
+                "description": "Use arquivos de configuração específicos (como '.babelrc') em vez de usar 'package.json'."
+              }
+            },
+            "configuration": {
+              "title": "Configurações",
+              "buttons": {
+                "previous": "Anterior",
+                "create": "Criar projeto"
+              },
+              "modal": {
+                "title": "Salvar em uma nova predefinição",
+                "body": {
+                  "title": "Predefinição",
+                  "subtitle": "Salvar recursos e configurações em uma nova predefinição"
+                },
+                "buttons": {
+                  "cancel": "Cancelar",
+                  "continue": "Continue sem salvar",
+                  "create": "Crie uma nova predefinição"
+                }
+              }
+            }
+          }
+        },
+        "project-plugins": {
+          "title": "Plugins de projetos",
+          "button": "Adicionar plugin",
+          "heading": "Plugins instalados"
+        },
+        "project-plugins-add": {
+          "title": "Adicionar um plugin",
+          "plugin": "plugin",
+          "tabs": {
+            "search": {
+              "label": "Pesquisa",
+              "search-input": "Pesquisar um plugin",
+              "not-found": "Nenhum resultado encontrado",
+              "buttons": {
+                "cancel": "Cancelar",
+                "install": "Instalar {target}"
+              }
+            },
+            "configuration": {
+              "label": "Configuraççies",
+              "heading": "Instalando {target}",
+              "buttons": {
+                "cancel": "Cancelar",
+                "finish": "Instalação finalizada"
+              }
+            },
+            "diff": {
+              "label": "Arquivos alterados"
+            }
           },
           "modal": {
-            "title": "Cancelar e reiniciar a criação do projeto",
-            "body": "Tem certeza de que deseja redefinir a criação do projeto?",
+            "title": "Desinstalar {target}?",
+            "body": "Você quer desinstalar o plugin {target}?",
             "buttons": {
               "back": "Voltar",
-              "clear": "Excluir projeto"
+              "cancel": "Cancelar desinstalação",
+              "uninstall": "Desinstalar"
             }
           }
         },
-        "presets": {
-          "title": "Predefinições",
-          "description": "Uma predefinição é um conjunto de plugins e configurações predefinidos. Depois de selecionar recursos, você pode salvar a seleção atual em uma nova predefinição que pode ser reutilizada em projetos futuros, sem precisar reconfigurar novamente.",
-          "select": "Selecione uma predefinição",
-          "buttons": {
-            "previous": "Anterior",
-            "next": "Próximo",
-            "create": "Criar projeto"
-          },
-          "modal": {
-            "title": "Configurar a predefinição remota",
-            "body": "Disponível em breve..."
-          },
-          "manual": {
-            "name": "Manual",
-            "description": "Selecionar recursos manualmente"
-          },
-          "remote": {
-            "name": "Predefinição remota",
-            "description": "Buscar uma predefinição de um repositório git"
-          },
-          "default-preset": "Predefinição padrão"
+        "project-configurations": {
+          "title": "Configurações do projeto"
         },
-        "features": {
-          "title": "Recursos",
-          "description": "Você pode adicionar recursos depois de criar o projeto, instalando plugins.",
-          "enable": "Ativar recursos",
-          "buttons": {
-            "previous": "Anterior",
-            "next": "Próximo",
-            "create": "Criar projeto"
-          },
-          "userConfigFiles": {
-            "name": "Use arquivos de configuração",
-            "description": "Use arquivos de configuração específicos (como '.babelrc') em vez de usar 'package.json'."
+        "project-configuration-details": {
+          "actions": {
+            "cancel": "Cancelar as alterações",
+            "save": "Salvar alterações",
+            "more-info": "Mais informações"
           }
         },
-        "configuration": {
-          "title": "Configurações",
-          "buttons": {
-            "previous": "Anterior",
-            "create": "Criar projeto"
+        "project-tasks": {
+          "title": "Tarefas do projeto"
+        },
+        "project-task-details": {
+          "actions": {
+            "play": "Iniciar tarefa",
+            "stop": "Parar tarefa",
+            "close": "Fechar"
           },
-          "modal": {
-            "title": "Salvar em uma nova predefinição",
-            "body": {
-              "title": "Predefinição",
-              "subtitle": "Salvar recursos e configurações em uma nova predefinição"
+          "command": "Comando de script",
+          "parameters": "Parâmetros",
+          "parameters-info": "Os parâmetros serão salvos quando a tarefa for executada.",
+          "more-info": "Mais informaçoes",
+          "output": "Saída"
+        },
+        "about": {
+          "title": "Sobre",
+          "description": "<a href=\"https://github.com/vuejs/vue-cli/tree/dev/packages/%40vue/cli-ui\" target=\"_blank\">@vue/cli-ui</a> é um pacote incluído no @vue/cli que exibe uma interface gráfica.",
+          "quote": "Vue-cli 3.x é uma reescrita completa, com muitos novos recursos impressionantes. Você terá que selecionar recursos como roteamento, Vuex ou Typescript, depois adicionar e atualizar blocos de construção chamados \"plugins vue-cli\". Mas ter muito mais opções também significa que a ferramenta agora está mais complexa e mais difícil de começar a usar. É por isso que pensamos que ter uma GUI completa ajudaria a descobrir os novos recursos, pesquisar e instalar plug-ins vue-cli e desbloquear mais possibilidades em geral, sem ser limitado por uma interface de terminal. Resumindo, o vue-cli não apenas permitirá que você inicialize um novo projeto facilmente, mas também permanecerá útil para o trabalho em andamento!",
+          "links": "Links úteis",
+          "back": "Voltar"
+        }
+      },
+      "vue-webpack": {
+        "dashboard": {
+          "title": "Dashboard",
+          "open-app": "Abrir aplicativo",
+          "webpack-status": {
+            "Success": "Sucesso",
+            "Failed": "Falhou",
+            "Compiling": "Compilando",
+            "Invalidated": "Invalidado",
+            "Idle": "Oucupado"
+          },
+          "build-status": {
+            "labels": {
+              "status": "Estado",
+              "errors": "Erros",
+              "warnings": "Avisos",
+              "assets": "Ativos",
+              "modules": "Módulos",
+              "deps": "Dependências"
+            }
+          },
+          "speed-stats": {
+            "title": "Estatísticas de velocidade"
+          },
+          "module-list": {
+            "title": "Dependências"
+          },
+          "asset-list": {
+            "title": "Fichiers",
+            "size-warning": "Este arquivo é grande, você pode reduzir seu tamanho com divisão de código (Code-splitting)"
+          }
+        },
+        "analyzer": {
+          "title": "Analisador",
+          "go-up": "Ir para cima",
+          "go-home": "Ir para a raiz",
+          "chunk": "Pedaço"
+        },
+        "sizes": {
+          "stats": "Estatísticas",
+          "parsed": "Analisado",
+          "gzip": "Gzip",
+          "help": "<b>Estatísticas:</b> tamanho dos dados estatísticos do webpack. <br> <b> Analisado: </ b> tamanho das fontes extraídas (após os plugins de minificação). Mais preciso. <br> <b> Gzip: </ b> tamanho na fonte extraída compactada."
+        },
+        "tasks": {
+          "serve": {
+            "description": "Compilação e recarga quente (HMR) para desenvolvimento",
+            "open": "Abra o navegador quano servidor iniciar",
+            "mode": "Especificar modo env",
+            "host": "Especificar host",
+            "port": "Especificar port",
+            "https": "Use HTTPS"
+          },
+          "build": {
+            "description": "Compile e diminua para produção",
+            "mode": "Especificar modo env",
+            "dest": "Pasta de destino",
+            "target": {
+              "description": "Pacote de destino",
+              "app": "Aplicativo web",
+              "lib": "Biblioteca",
+              "wc": "Componente Web",
+              "wc-async": "Componente web assíncrono"
             },
-            "buttons": {
-              "cancel": "Cancelar",
-              "continue": "Continue sem salvar",
-              "create": "Crie uma nova predefinição"
+            "name": "Nome para o modo de biblioteca ou componente web (padrão: 'name' em package.json ou entry filename)"
+          },
+          "inspect": {
+            "description": "Inspecione a configuração resolvida do webpack",
+            "mode": "Especificar modo env",
+            "verbose": "Mostrar todas as definições de função na saída"
+          }
+        }
+      },
+      "eslint": {
+        "config": {
+          "eslint": {
+            "description": "Verificação de erros e qualidade do código",
+            "groups": {
+              "strongly-recommended": "Altamente recomendado",
+              "recommended": "Recomendado"
+            }
+          }
+        },
+        "eslint-extra": {
+          "description": "Configurações extra ESLint",
+          "lintOnSave": {
+            "message": "Analisar ao salvar",
+            "description": "Analisar automaticamente código fonte ao salvar"
+          }
+        }
+      },
+      "tasks": {
+        "lint": {
+          "description": "Analisar e corrigir arquivos",
+          "noFix": "Não corrigir erros"
+        }
+      },
+      "pwa": {
+        "config": {
+          "pwa": {
+            "description": "Aplicativo Web progressivo",
+            "workboxPluginMode": {
+              "message": "Modo Plugin",
+              "description": "Isso permite que você escolha entre os dois modos suportados pelo `workbox-webpack-plugin` subjacente"
+            },
+            "name": {
+              "message": "App name",
+              "description": "App name displayed on the Splash screen and various other places. Also used as the value for the `apple-mobile-web-app-title` meta tag in the generated HTML."
+            },
+            "themeColor": {
+              "message": "Theme color",
+              "description": "Color used to theme the browser"
+            },
+            "backgroundColor": {
+              "message": "Splash background color",
+              "description": "Background color used for the app splash screen"
+            },
+            "msTileColor": {
+              "message": "Windows app tile color",
+              "description": "Color used for the app tile on Windows"
+            },
+            "appleMobileWebAppStatusBarStyle": {
+              "message": "Apple mobile status bar style",
+              "description": "Style for the web app status bar on iOS"
             }
           }
         }
-      }
-    },
-    "project-plugins": {
-      "title": "Plugins de projetos",
-      "button": "Adicionar plugin",
-      "heading": "Plugins instalados"
-    },
-    "project-plugins-add": {
-      "title": "Adicionar um plugin",
-      "plugin": "plugin",
-      "tabs": {
-        "search": {
-          "label": "Pesquisa",
-          "search-input": "Pesquisar um plugin",
-          "not-found": "Nenhum resultado encontrado",
-          "buttons": {
-            "cancel": "Cancelar",
-            "install": "Instalar {target}"
+      },
+      "cypress": {
+        "tasks": {
+          "test": {
+            "description": "Run e2e tests with `cypress run`",
+            "headless": "Run in headless mode without GUI",
+            "mode": "Specify the mode the dev server should run in",
+            "url": "Run e2e tests against given url instead of auto-starting dev server"
           }
-        },
-        "configuration": {
-          "label": "Configuraççies",
-          "heading": "Instalando {target}",
-          "buttons": {
-            "cancel": "Cancelar",
-            "finish": "Instalação finalizada"
+        }
+      },
+      "nightwatch": {
+        "tasks": {
+          "test": {
+            "description": "Run e2e tests with nightwatch",
+            "url": "Run e2e tests against given url instead of auto-starting dev server"
           }
-        },
-        "diff": {
-          "label": "Arquivos alterados"
         }
-      },
-      "modal": {
-        "title": "Desinstalar {target}?",
-        "body": "Você quer desinstalar o plugin {target}?",
-        "buttons": {
-          "back": "Voltar",
-          "cancel": "Cancelar desinstalação",
-          "uninstall": "Desinstalar"
-        }
-      }
-    },
-    "project-configurations": {
-      "title": "Configurações do projeto"
-    },
-    "project-configuration-details": {
-      "actions": {
-        "cancel": "Cancelar as alterações",
-        "save": "Salvar alterações",
-        "more-info": "Mais informações"
-      }
-    },
-    "project-tasks": {
-      "title": "Tarefas do projeto"
-    },
-    "project-task-details": {
-      "actions": {
-        "play": "Iniciar tarefa",
-        "stop": "Parar tarefa",
-        "close": "Fechar"
-      },
-      "command": "Comando de script",
-      "parameters": "Parâmetros",
-      "parameters-info": "Os parâmetros serão salvos quando a tarefa for executada.",
-      "more-info": "Mais informaçoes",
-      "output": "Saída"
-    },
-    "about": {
-      "title": "Sobre",
-      "description": "<a href=\"https://github.com/vuejs/vue-cli/tree/dev/packages/%40vue/cli-ui\" target=\"_blank\">@vue/cli-ui</a> é um pacote incluído no @vue/cli que exibe uma interface gráfica.",
-      "quote": "Vue-cli 3.x é uma reescrita completa, com muitos novos recursos impressionantes. Você terá que selecionar recursos como roteamento, Vuex ou Typescript, depois adicionar e atualizar blocos de construção chamados \"plugins vue-cli\". Mas ter muito mais opções também significa que a ferramenta agora está mais complexa e mais difícil de começar a usar. É por isso que pensamos que ter uma GUI completa ajudaria a descobrir os novos recursos, pesquisar e instalar plug-ins vue-cli e desbloquear mais possibilidades em geral, sem ser limitado por uma interface de terminal. Resumindo, o vue-cli não apenas permitirá que você inicialize um novo projeto facilmente, mas também permanecerá útil para o trabalho em andamento!",
-      "links": "Links úteis",
-      "back": "Voltar"
-    }
-  },
-  "vue-webpack": {
-    "dashboard": {
-      "title": "Dashboard",
-      "open-app": "Abrir aplicativo",
-      "webpack-status": {
-        "Success": "Sucesso",
-        "Failed": "Falhou",
-        "Compiling": "Compilando",
-        "Invalidated": "Invalidado",
-        "Idle": "Oucupado"
-      },
-      "build-status": {
-        "labels": {
-          "status": "Estado",
-          "errors": "Erros",
-          "warnings": "Avisos",
-          "assets": "Ativos",
-          "modules": "Módulos",
-          "deps": "Dependências"
-        }
-      },
-      "speed-stats": {
-        "title": "Estatísticas de velocidade"
-      },
-      "module-list": {
-        "title": "Dependências"
-      },
-      "asset-list": {
-        "title": "Fichiers",
-        "size-warning": "Este arquivo é grande, você pode reduzir seu tamanho com divisão de código (Code-splitting)"
-      }
-    },
-    "analyzer": {
-      "title": "Analisador",
-      "go-up": "Ir para cima",
-      "go-home": "Ir para a raiz",
-      "chunk": "Pedaço"
-    },
-    "sizes": {
-      "stats": "Estatísticas",
-      "parsed": "Analisado",
-      "gzip": "Gzip",
-      "help": "<b>Estatísticas:</b> tamanho dos dados estatísticos do webpack. <br> <b> Analisado: </ b> tamanho das fontes extraídas (após os plugins de minificação). Mais preciso. <br> <b> Gzip: </ b> tamanho na fonte extraída compactada."
-    },
-    "tasks": {
-      "serve": {
-        "description": "Compilação e recarga quente (HMR) para desenvolvimento",
-        "open": "Abra o navegador quano servidor iniciar",
-        "mode": "Especificar modo env",
-        "host": "Especificar host",
-        "port": "Especificar port",
-        "https": "Use HTTPS"
-      },
-      "build": {
-        "description": "Compile e diminua para produção",
-        "mode": "Especificar modo env",
-        "dest": "Pasta de destino",
-        "target": {
-          "description": "Pacote de destino",
-          "app": "Aplicativo web",
-          "lib": "Biblioteca",
-          "wc": "Componente Web",
-          "wc-async": "Componente web assíncrono"
-        },
-        "name": "Nome para o modo de biblioteca ou componente web (padrão: 'name' em package.json ou entry filename)"
-      },
-      "inspect": {
-        "description": "Inspecione a configuração resolvida do webpack",
-        "mode": "Especificar modo env",
-        "verbose": "Mostrar todas as definições de função na saída"
-      }
-    }
-  },
-  "eslint": {
-    "config": {
-      "eslint": {
-        "description": "Verificação de erros e qualidade do código",
-        "groups": {
-          "strongly-recommended": "Altamente recomendado",
-          "recommended": "Recomendado"
-        }
-      }
-    },
-    "eslint-extra": {
-      "description": "Configurações extra ESLint",
-      "lintOnSave": {
-        "message": "Analisar ao salvar",
-        "description": "Analisar automaticamente código fonte ao salvar"
-      }
-    }
-  },
-  "tasks": {
-    "lint": {
-      "description": "Analisar e corrigir arquivos",
-      "noFix": "Não corrigir erros"
-    }
-  },
-  "pwa": {
-    "config": {
-      "pwa": {
-        "description": "Aplicativo Web progressivo",
-        "workboxPluginMode": {
-          "message": "Modo Plugin",
-          "description": "Isso permite que você escolha entre os dois modos suportados pelo `workbox-webpack-plugin` subjacente"
-        },
-        "name": {
-          "message": "App name",
-          "description": "App name displayed on the Splash screen and various other places. Also used as the value for the `apple-mobile-web-app-title` meta tag in the generated HTML."
-        },
-        "themeColor": {
-          "message": "Theme color",
-          "description": "Color used to theme the browser"
-        },
-        "backgroundColor": {
-          "message": "Splash background color",
-          "description": "Background color used for the app splash screen"
-        },
-        "msTileColor": {
-          "message": "Windows app tile color",
-          "description": "Color used for the app tile on Windows"
-        },
-        "appleMobileWebAppStatusBarStyle": {
-          "message": "Apple mobile status bar style",
-          "description": "Style for the web app status bar on iOS"
-        }
-      }
-    }
-  },
-  "cypress": {
-    "tasks": {
-      "test": {
-        "description": "Run e2e tests with `cypress run`",
-        "headless": "Run in headless mode without GUI",
-        "mode": "Specify the mode the dev server should run in",
-        "url": "Run e2e tests against given url instead of auto-starting dev server"
-      }
-    }
-  },
-  "nightwatch": {
-    "tasks": {
-      "test": {
-        "description": "Run e2e tests with nightwatch",
-        "url": "Run e2e tests against given url instead of auto-starting dev server"
       }
     }
   }

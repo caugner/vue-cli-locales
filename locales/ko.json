@@ -1,467 +1,471 @@
 {
-  "components": {
-    "connection-status": {
-      "disconnected": "UI 서버와 연결이 끊겼습니다.",
-      "connected": "연결되었습니다!"
-    },
-    "file-diff": {
-      "binary": "바이너리 파일은 볼 수 없습니다.",
-      "actions": {
-        "open": "에디터에서 열기"
-      }
-    },
-    "file-diff-view": {
-      "files-changed": "파일 변경됨",
-      "search-file": "파일 검색",
-      "empty": "변경사항이 없습니다.",
-      "modals": {
-        "commit": {
-          "title": "커밋 변경사항",
-          "input": "커밋 메시지를 입력하세요.",
-          "subtitle": "저장소 변경사항을 기록합니다.",
+  "org": {
+    "vue": {
+      "components": {
+        "connection-status": {
+          "disconnected": "UI 서버와 연결이 끊겼습니다.",
+          "connected": "연결되었습니다!"
+        },
+        "file-diff": {
+          "binary": "바이너리 파일은 볼 수 없습니다.",
           "actions": {
-            "commit": "커밋",
-            "cancel": "취소"
+            "open": "에디터에서 열기"
+          }
+        },
+        "file-diff-view": {
+          "files-changed": "파일 변경됨",
+          "search-file": "파일 검색",
+          "empty": "변경사항이 없습니다.",
+          "modals": {
+            "commit": {
+              "title": "커밋 변경사항",
+              "input": "커밋 메시지를 입력하세요.",
+              "subtitle": "저장소 변경사항을 기록합니다.",
+              "actions": {
+                "commit": "커밋",
+                "cancel": "취소"
+              }
+            }
+          },
+          "actions": {
+            "collapse-all": "모두 접기",
+            "expand-all": "모두 펼치기",
+            "commit": "커밋 변경사항",
+            "skip": "건너뛰기",
+            "continue": "계속",
+            "refresh": "새로고침"
+          }
+        },
+        "folder-explorer": {
+          "toolbar": {
+            "tooltips": {
+              "parent-folder": "부모 폴더 열기",
+              "edit-path": "경로 수정",
+              "favorite": "즐겨찾기 토글",
+              "favorite-folders": "즐겨찾는 폴더",
+              "refresh": "새로고침"
+            },
+            "placeholder": "폴더의 전체 경로를 입력하세요",
+            "empty": "즐겨찾는 폴더가 없습니다."
+          }
+        },
+        "list-item-info": {
+          "more-info": "더보기"
+        },
+        "logger-view": {
+          "title": "로그",
+          "empty": "로그가 없습니다",
+          "buttons": {
+            "clear": "로그 비우기",
+            "scroll": "맨 아래로 이동",
+            "close": "닫기"
+          }
+        },
+        "progress-screen": {
+          "close": "닫기"
+        },
+        "project-nav": {
+          "tooltips": {
+            "plugins": "플러그인",
+            "configuration": "설정",
+            "tasks": "작업목록",
+            "more": "더보기"
+          }
+        },
+        "project-select-list": {
+          "empty": "프로젝트가 없습니다.",
+          "titles": {
+            "favorite": "즐겨찾는 프로젝트",
+            "other": "기타 프로젝트"
+          }
+        },
+        "project-select-list-item": {
+          "tooltips": {
+            "favorite": "즐겨찾기 토글",
+            "delete": "삭제"
+          }
+        },
+        "project-plugin-item": {
+          "version": "버전",
+          "latest": "최신",
+          "official": "공식",
+          "installed": "설치됨",
+          "actions": {
+            "update": "업데이트 {target}"
+          }
+        },
+        "prompt-list": {
+          "default": "기본값"
+        },
+        "prompts-list": {
+          "empty": "설정이 없습니다."
+        },
+        "status-bar": {
+          "project": {
+            "tooltip": "현재 프로젝트<br><i>클릭하여 프로젝트 매니저를 토글하세요</i>",
+            "empty": "프로젝트가 없습니다."
+          },
+          "path": {
+            "tooltip": "현재 작업 폴더"
+          },
+          "log": {
+            "tooltip": "로그<br><i>클릭하여 Vue CLI 로그를 토글하세요</i>",
+            "empty": "로그가 없습니다."
+          },
+          "report-bug": "버그 리포트"
+        },
+        "terminal-view": {
+          "buttons": {
+            "clear": "콘솔 지우기",
+            "scroll": "맨 아래로 이동"
+          }
+        },
+        "top-bar": {
+          "no-favorites": "즐겨찾기한 프로젝트가 없습니다."
+        },
+        "view-badge": {
+          "labels": {
+            "tasks": {
+              "error": "에러",
+              "running": "작동",
+              "done": "완료"
+            }
           }
         }
       },
-      "actions": {
-        "collapse-all": "모두 접기",
-        "expand-all": "모두 펼치기",
-        "commit": "커밋 변경사항",
-        "skip": "건너뛰기",
-        "continue": "계속",
-        "refresh": "새로고침"
-      }
-    },
-    "folder-explorer": {
-      "toolbar": {
-        "tooltips": {
-          "parent-folder": "부모 폴더 열기",
-          "edit-path": "경로 수정",
-          "favorite": "즐겨찾기 토글",
-          "favorite-folders": "즐겨찾는 폴더",
-          "refresh": "새로고침"
-        },
-        "placeholder": "폴더의 전체 경로를 입력하세요",
-        "empty": "즐겨찾는 폴더가 없습니다."
-      }
-    },
-    "list-item-info": {
-      "more-info": "더보기"
-    },
-    "logger-view": {
-      "title": "로그",
-      "empty": "로그가 없습니다",
-      "buttons": {
-        "clear": "로그 비우기",
-        "scroll": "맨 아래로 이동",
-        "close": "닫기"
-      }
-    },
-    "progress-screen": {
-      "close": "닫기"
-    },
-    "project-nav": {
-      "tooltips": {
-        "plugins": "플러그인",
-        "configuration": "설정",
-        "tasks": "작업목록",
-        "more": "더보기"
-      }
-    },
-    "project-select-list": {
-      "empty": "프로젝트가 없습니다.",
-      "titles": {
-        "favorite": "즐겨찾는 프로젝트",
-        "other": "기타 프로젝트"
-      }
-    },
-    "project-select-list-item": {
-      "tooltips": {
-        "favorite": "즐겨찾기 토글",
-        "delete": "삭제"
-      }
-    },
-    "project-plugin-item": {
-      "version": "버전",
-      "latest": "최신",
-      "official": "공식",
-      "installed": "설치됨",
-      "actions": {
-        "update": "업데이트 {target}"
-      }
-    },
-    "prompt-list": {
-      "default": "기본값"
-    },
-    "prompts-list": {
-      "empty": "설정이 없습니다."
-    },
-    "status-bar": {
-      "project": {
-        "tooltip": "현재 프로젝트<br><i>클릭하여 프로젝트 매니저를 토글하세요</i>",
-        "empty": "프로젝트가 없습니다."
-      },
-      "path": {
-        "tooltip": "현재 작업 폴더"
-      },
-      "log": {
-        "tooltip": "로그<br><i>클릭하여 Vue CLI 로그를 토글하세요</i>",
-        "empty": "로그가 없습니다."
-      },
-      "report-bug": "버그 리포트"
-    },
-    "terminal-view": {
-      "buttons": {
-        "clear": "콘솔 지우기",
-        "scroll": "맨 아래로 이동"
-      }
-    },
-    "top-bar": {
-      "no-favorites": "즐겨찾기한 프로젝트가 없습니다."
-    },
-    "view-badge": {
-      "labels": {
-        "tasks": {
-          "error": "에러",
-          "running": "작동",
-          "done": "완료"
+      "mixins": {
+        "progress": {
+          "creating": "프로젝트 만드는중...",
+          "git-init": "git 저장소 초기화 중...",
+          "plugins-install": "Vue CLI 플러그인을 설치하고 있습니다. 잠시만 기다려주세요...",
+          "invoking-generators": "생성자 호출 중...",
+          "deps-install": "추가 의존성 설치 중...",
+          "completion-hooks": "완료 훅 실행 중...",
+          "fetch-remote-preset": "리모트 프리셋 가져오는 중...",
+          "done": "성공적으로 프로젝트를 만들었습니다.",
+          "plugin-install": "{arg0} 설치 중...",
+          "plugin-uninstall": "{arg0} 삭제 중...",
+          "plugin-invoke": "{arg0} 호출 중...",
+          "plugin-update": "{arg0} 갱신 중..."
         }
-      }
-    }
-  },
-  "mixins": {
-    "progress": {
-      "creating": "프로젝트 만드는중...",
-      "git-init": "git 저장소 초기화 중...",
-      "plugins-install": "Vue CLI 플러그인을 설치하고 있습니다. 잠시만 기다려주세요...",
-      "invoking-generators": "생성자 호출 중...",
-      "deps-install": "추가 의존성 설치 중...",
-      "completion-hooks": "완료 훅 실행 중...",
-      "fetch-remote-preset": "리모트 프리셋 가져오는 중...",
-      "done": "성공적으로 프로젝트를 만들었습니다.",
-      "plugin-install": "{arg0} 설치 중...",
-      "plugin-uninstall": "{arg0} 삭제 중...",
-      "plugin-invoke": "{arg0} 호출 중...",
-      "plugin-update": "{arg0} 갱신 중..."
-    }
-  },
-  "types": {
-    "task": {
-      "status": {
-        "idle": "대기",
-        "running": "실행중",
-        "done": "완료",
-        "error": "에러",
-        "terminated": "제거됨"
-      }
-    }
-  },
-  "views": {
-    "project-select": {
-      "title": "Vue 프로젝트 매니저",
-      "tabs": {
-        "projects": "프로젝트",
-        "create": "만들기",
-        "import": "가져오기"
       },
-      "buttons": {
-        "create": "새 프로젝트를 만들어보세요",
-        "import": "폴더 가져오기"
-      }
-    },
-    "project-create": {
-      "title": "새 프로젝트 만들기",
-      "tabs": {
-        "details": {
-          "title": "상세",
-          "form": {
-            "folder": {
-              "label": "프로젝트 폴더",
-              "placeholder": "my-app",
-              "tooltip": "베이스 폴더 변경",
-              "action": "폴더 선택하기"
-            },
-            "manager": {
-              "label": "패키지 매니저",
-              "default": "기본값"
-            },
-            "options": {
-              "label": "추가 옵션",
-              "description": "지정한 폴더가 이미 있는 경우 덮어씁니다"
-            }
+      "types": {
+        "task": {
+          "status": {
+            "idle": "대기",
+            "running": "실행중",
+            "done": "완료",
+            "error": "에러",
+            "terminated": "제거됨"
+          }
+        }
+      },
+      "views": {
+        "project-select": {
+          "title": "Vue 프로젝트 매니저",
+          "tabs": {
+            "projects": "프로젝트",
+            "create": "만들기",
+            "import": "가져오기"
           },
           "buttons": {
-            "cancel": "취소",
-            "next": "다음"
+            "create": "새 프로젝트를 만들어보세요",
+            "import": "폴더 가져오기"
+          }
+        },
+        "project-create": {
+          "title": "새 프로젝트 만들기",
+          "tabs": {
+            "details": {
+              "title": "상세",
+              "form": {
+                "folder": {
+                  "label": "프로젝트 폴더",
+                  "placeholder": "my-app",
+                  "tooltip": "베이스 폴더 변경",
+                  "action": "폴더 선택하기"
+                },
+                "manager": {
+                  "label": "패키지 매니저",
+                  "default": "기본값"
+                },
+                "options": {
+                  "label": "추가 옵션",
+                  "description": "지정한 폴더가 이미 있는 경우 덮어씁니다"
+                }
+              },
+              "buttons": {
+                "cancel": "취소",
+                "next": "다음"
+              },
+              "modal": {
+                "title": "프로젝트 만들기를 취소 및 초기화.",
+                "body": "프로젝트 만들기를 취소하시겠습니까?",
+                "buttons": {
+                  "back": "뒤로가기",
+                  "clear": "프로젝트 초기화"
+                }
+              }
+            },
+            "presets": {
+              "title": "프리셋",
+              "description": "사전 설정은 플러그인과 설정의 모음입니다. 기능을 선택한 후 선택적으로 프리셋으로 저장할 수 있으므로 모든 프로젝트를 다시 구성 할 필요없이 나중에 프로젝트에서 재사용 할 수 있습니다.",
+              "select": "프리셋 선택",
+              "buttons": {
+                "previous": "이전",
+                "next": "다음",
+                "create": "프로젝트 만들기"
+              },
+              "userConfigFiles": {
+                "name": "설정 파일 사용",
+                "description": "'package.json' 대신 '.babelrc' 같은 설정 파일을 사용합니다."
+              },
+              "modal": {
+                "title": "리모트 프리셋 설정",
+                "body": "곧 가능합니다...",
+                "manual": {
+                  "name": "직접설정",
+                  "description": "사용할 기능을 직접 고릅니다."
+                },
+                "remote": {
+                  "name": "리모트 프리셋",
+                  "description": "git 저장소에 있는 프리셋을 사용합니다."
+                },
+                "default-preset": "기본 프리셋"
+              }
+            },
+            "features": {
+              "title": "기능",
+              "description": "프로젝트를 만든 후에 플러그인을 설치하여 기능을 추가 할 수 있습니다.",
+              "enable": "기능 켜기",
+              "buttons": {
+                "previous": "이전",
+                "next": "다음",
+                "create": "프로젝트 만들기"
+              }
+            },
+            "configuration": {
+              "title": "설정",
+              "buttons": {
+                "previous": "이전",
+                "create": "프로젝트 만들기"
+              },
+              "modal": {
+                "title": "새 프리셋으로 저장",
+                "body": {
+                  "title": "프리셋 이름",
+                  "subtitle": "기능과 설정을 새 프리셋으로 저장합니다."
+                },
+                "buttons": {
+                  "cancel": "취소",
+                  "continue": "저장하지 않고 진행",
+                  "create": "프리셋 만들기"
+                }
+              }
+            }
+          }
+        },
+        "project-plugins": {
+          "title": "프로젝트 플러그인",
+          "button": "플러그인 추가",
+          "heading": "설치된 플러그인",
+          "update-all": "전체 플러그인 업데이트"
+        },
+        "project-plugins-add": {
+          "title": "플러그인 추가",
+          "plugin": "플러그인",
+          "tabs": {
+            "search": {
+              "label": "검색",
+              "search-input": "플러그인 검색",
+              "not-found": "결과가 없습니다",
+              "buttons": {
+                "cancel": "취소",
+                "install": "{target} 설치"
+              }
+            },
+            "configuration": {
+              "label": "설정",
+              "heading": "{target}의 설정",
+              "buttons": {
+                "cancel": "취소",
+                "finish": "설치 완료"
+              }
+            },
+            "diff": {
+              "label": "파일 변경됨"
+            }
           },
           "modal": {
-            "title": "프로젝트 만들기를 취소 및 초기화.",
-            "body": "프로젝트 만들기를 취소하시겠습니까?",
+            "title": "{target}을 삭제?",
+            "body": "{target}을 삭제하시겠습니까?",
             "buttons": {
               "back": "뒤로가기",
-              "clear": "프로젝트 초기화"
+              "cancel": "삭제하지 않고 취소",
+              "uninstall": "삭제"
             }
           }
         },
-        "presets": {
-          "title": "프리셋",
-          "description": "사전 설정은 플러그인과 설정의 모음입니다. 기능을 선택한 후 선택적으로 프리셋으로 저장할 수 있으므로 모든 프로젝트를 다시 구성 할 필요없이 나중에 프로젝트에서 재사용 할 수 있습니다.",
-          "select": "프리셋 선택",
-          "buttons": {
-            "previous": "이전",
-            "next": "다음",
-            "create": "프로젝트 만들기"
-          },
-          "userConfigFiles": {
-            "name": "설정 파일 사용",
-            "description": "'package.json' 대신 '.babelrc' 같은 설정 파일을 사용합니다."
-          },
-          "modal": {
-            "title": "리모트 프리셋 설정",
-            "body": "곧 가능합니다...",
-            "manual": {
-              "name": "직접설정",
-              "description": "사용할 기능을 직접 고릅니다."
-            },
-            "remote": {
-              "name": "리모트 프리셋",
-              "description": "git 저장소에 있는 프리셋을 사용합니다."
-            },
-            "default-preset": "기본 프리셋"
+        "project-configurations": {
+          "title": "프로젝트 설정"
+        },
+        "project-configuration-details": {
+          "actions": {
+            "cancel": "되돌리기",
+            "save": "변경사항 저장",
+            "more-info": "더보기"
           }
         },
-        "features": {
-          "title": "기능",
-          "description": "프로젝트를 만든 후에 플러그인을 설치하여 기능을 추가 할 수 있습니다.",
-          "enable": "기능 켜기",
-          "buttons": {
-            "previous": "이전",
-            "next": "다음",
-            "create": "프로젝트 만들기"
-          }
+        "project-tasks": {
+          "title": "프로젝트 태스크"
         },
-        "configuration": {
-          "title": "설정",
-          "buttons": {
-            "previous": "이전",
-            "create": "프로젝트 만들기"
+        "project-task-details": {
+          "actions": {
+            "play": "실행",
+            "stop": "중지",
+            "close": "닫기"
           },
-          "modal": {
-            "title": "새 프리셋으로 저장",
-            "body": {
-              "title": "프리셋 이름",
-              "subtitle": "기능과 설정을 새 프리셋으로 저장합니다."
-            },
-            "buttons": {
-              "cancel": "취소",
-              "continue": "저장하지 않고 진행",
-              "create": "프리셋 만들기"
+          "command": "스크립트 커맨드",
+          "parameters": "파라미터",
+          "parameters-info": "태스크가 시작되면 파라미터가 저장됩니다.",
+          "more-info": "더보기",
+          "output": "출력"
+        },
+        "about": {
+          "title": "Vue CLI에 대하여",
+          "description": "<a href=\"https://github.com/vuejs/vue-cli/tree/dev/packages/%40vue/cli-ui\" target=\"_blank\">@vue/cli-ui</a> is a built-in package of vue-cli which opens a full-blown UI.",
+          "quote": "Vue-cli 3.x is a complete rewrite, with a lot of new awesome features. You will be to select features like routing, Vuex or Typescript, then add and upgrade building blocks called \"vue-cli plugins\". But having so much more options also means the tool is now more complex and harder to start using. That's why we thought having a full-blown GUI would help discover the new features, search and install vue-cli plugins and unlock more possibilities overall while not being limited by a terminal interface. To sum up, vue-cli will not only allow you to bootstrap a new project easily, but it will also remain useful for ongoing work afterwards!",
+          "links": "유용한 링크",
+          "back": "뒤로가기"
+        }
+      },
+      "vue-webpack": {
+        "dashboard": {
+          "title": "대시보드",
+          "open-app": "앱 열기",
+          "webpack-status": {
+            "Success": "성공",
+            "Failed": "실패",
+            "Compiling": "컴파일중",
+            "Invalidated": "유효하지 않음",
+            "Idle": "대기중"
+          },
+          "build-status": {
+            "labels": {
+              "status": "상태",
+              "errors": "에러",
+              "warnings": "경고",
+              "assets": "에셋",
+              "modules": "모듈",
+              "deps": "의존성"
             }
-          }
-        }
-      }
-    },
-    "project-plugins": {
-      "title": "프로젝트 플러그인",
-      "button": "플러그인 추가",
-      "heading": "설치된 플러그인",
-      "update-all": "전체 플러그인 업데이트"
-    },
-    "project-plugins-add": {
-      "title": "플러그인 추가",
-      "plugin": "플러그인",
-      "tabs": {
-        "search": {
-          "label": "검색",
-          "search-input": "플러그인 검색",
-          "not-found": "결과가 없습니다",
-          "buttons": {
-            "cancel": "취소",
-            "install": "{target} 설치"
+          },
+          "speed-stats": {
+            "title": "성능 통계"
+          },
+          "module-list": {
+            "title": "의존성"
+          },
+          "asset-list": {
+            "title": "에셋",
+            "size-warning": "에셋이 너무 큽니다. 코드 스플릿을 통해 더 작은 크기로 만드세요."
           }
         },
-        "configuration": {
-          "label": "설정",
-          "heading": "{target}의 설정",
-          "buttons": {
-            "cancel": "취소",
-            "finish": "설치 완료"
+        "analyzer": {
+          "title": "분석기",
+          "go-up": "위로 가기",
+          "go-home": "처음으로 가기",
+          "chunk": "청크"
+        },
+        "sizes": {
+          "stats": "통계",
+          "parsed": "변환됨",
+          "gzip": "Gzip",
+          "help": "<b>통계:</b> webpack의 통계 데이터 크기<br>\n<b>변환됨:</b> 추출된 소스(최소화 후)의 크기. 더 정확합니다.<br><b>Gzip:</b> Gzip을 거친 추출된 소스의 크기."
+        },
+        "tasks": {
+          "serve": {
+            "description": "개발용 컴파일 및 핫 리로드",
+            "open": "서버가 시작되면 브라우저를 엽니다.",
+            "mode": "환경변수 (env)",
+            "host": "호스트",
+            "port": "포트",
+            "https": "HTTPS 사용"
+          },
+          "build": {
+            "description": "운영용 컴파일 및 최소화",
+            "mode": "환경변수 (env)",
+            "dest": "빌드 디렉터리",
+            "target": {
+              "description": "빌드 타겟",
+              "app": "웹앱",
+              "lib": "라이브러리",
+              "wc": "웹 컴포넌트",
+              "wc-async": "비동기 웹 컴포넌트"
+            },
+            "name": "라이브러리 또는 웹 컴포넌트 모드의 이름 (기본값: 'package.json'또는 엔트리 파일이름)",
+            "watch": "변경 감지"
+          },
+          "inspect": {
+            "description": "webpack 설정 검사",
+            "mode": "환경변수 (env)",
+            "verbose": "전체 함수 정의 표시"
           }
-        },
-        "diff": {
-          "label": "파일 변경됨"
         }
       },
-      "modal": {
-        "title": "{target}을 삭제?",
-        "body": "{target}을 삭제하시겠습니까?",
-        "buttons": {
-          "back": "뒤로가기",
-          "cancel": "삭제하지 않고 취소",
-          "uninstall": "삭제"
-        }
-      }
-    },
-    "project-configurations": {
-      "title": "프로젝트 설정"
-    },
-    "project-configuration-details": {
-      "actions": {
-        "cancel": "되돌리기",
-        "save": "변경사항 저장",
-        "more-info": "더보기"
-      }
-    },
-    "project-tasks": {
-      "title": "프로젝트 태스크"
-    },
-    "project-task-details": {
-      "actions": {
-        "play": "실행",
-        "stop": "중지",
-        "close": "닫기"
-      },
-      "command": "스크립트 커맨드",
-      "parameters": "파라미터",
-      "parameters-info": "태스크가 시작되면 파라미터가 저장됩니다.",
-      "more-info": "더보기",
-      "output": "출력"
-    },
-    "about": {
-      "title": "Vue CLI에 대하여",
-      "description": "<a href=\"https://github.com/vuejs/vue-cli/tree/dev/packages/%40vue/cli-ui\" target=\"_blank\">@vue/cli-ui</a> is a built-in package of vue-cli which opens a full-blown UI.",
-      "quote": "Vue-cli 3.x is a complete rewrite, with a lot of new awesome features. You will be to select features like routing, Vuex or Typescript, then add and upgrade building blocks called \"vue-cli plugins\". But having so much more options also means the tool is now more complex and harder to start using. That's why we thought having a full-blown GUI would help discover the new features, search and install vue-cli plugins and unlock more possibilities overall while not being limited by a terminal interface. To sum up, vue-cli will not only allow you to bootstrap a new project easily, but it will also remain useful for ongoing work afterwards!",
-      "links": "유용한 링크",
-      "back": "뒤로가기"
-    }
-  },
-  "vue-webpack": {
-    "dashboard": {
-      "title": "대시보드",
-      "open-app": "앱 열기",
-      "webpack-status": {
-        "Success": "성공",
-        "Failed": "실패",
-        "Compiling": "컴파일중",
-        "Invalidated": "유효하지 않음",
-        "Idle": "대기중"
-      },
-      "build-status": {
-        "labels": {
-          "status": "상태",
-          "errors": "에러",
-          "warnings": "경고",
-          "assets": "에셋",
-          "modules": "모듈",
-          "deps": "의존성"
-        }
-      },
-      "speed-stats": {
-        "title": "성능 통계"
-      },
-      "module-list": {
-        "title": "의존성"
-      },
-      "asset-list": {
-        "title": "에셋",
-        "size-warning": "에셋이 너무 큽니다. 코드 스플릿을 통해 더 작은 크기로 만드세요."
-      }
-    },
-    "analyzer": {
-      "title": "분석기",
-      "go-up": "위로 가기",
-      "go-home": "처음으로 가기",
-      "chunk": "청크"
-    },
-    "sizes": {
-      "stats": "통계",
-      "parsed": "변환됨",
-      "gzip": "Gzip",
-      "help": "<b>통계:</b> webpack의 통계 데이터 크기<br>\n<b>변환됨:</b> 추출된 소스(최소화 후)의 크기. 더 정확합니다.<br><b>Gzip:</b> Gzip을 거친 추출된 소스의 크기."
-    },
-    "tasks": {
-      "serve": {
-        "description": "개발용 컴파일 및 핫 리로드",
-        "open": "서버가 시작되면 브라우저를 엽니다.",
-        "mode": "환경변수 (env)",
-        "host": "호스트",
-        "port": "포트",
-        "https": "HTTPS 사용"
-      },
-      "build": {
-        "description": "운영용 컴파일 및 최소화",
-        "mode": "환경변수 (env)",
-        "dest": "빌드 디렉터리",
-        "target": {
-          "description": "빌드 타겟",
-          "app": "웹앱",
-          "lib": "라이브러리",
-          "wc": "웹 컴포넌트",
-          "wc-async": "비동기 웹 컴포넌트"
-        },
-        "name": "라이브러리 또는 웹 컴포넌트 모드의 이름 (기본값: 'package.json'또는 엔트리 파일이름)",
-        "watch": "변경 감지"
-      },
-      "inspect": {
-        "description": "webpack 설정 검사",
-        "mode": "환경변수 (env)",
-        "verbose": "전체 함수 정의 표시"
-      }
-    }
-  },
-  "eslint": {
-    "config": {
       "eslint": {
-        "description": "에러 체크 & 코드 품질",
-        "groups": {
-          "strongly-recommended": "매우 추천함",
-          "recommended": "추천함"
+        "config": {
+          "eslint": {
+            "description": "에러 체크 & 코드 품질",
+            "groups": {
+              "strongly-recommended": "매우 추천함",
+              "recommended": "추천함"
+            }
+          },
+          "eslint-extra": {
+            "description": "추가 ESLint 설정",
+            "lintOnSave": {
+              "message": "저장시 린트",
+              "description": "저장할 때 자동으로 린트합니다."
+            }
+          }
+        },
+        "tasks": {
+          "lint": {
+            "description": "린트 및 파일 수정",
+            "noFix": "에러를 수정하지 않습니다."
+          }
         }
       },
-      "eslint-extra": {
-        "description": "추가 ESLint 설정",
-        "lintOnSave": {
-          "message": "저장시 린트",
-          "description": "저장할 때 자동으로 린트합니다."
-        }
-      }
-    },
-    "tasks": {
-      "lint": {
-        "description": "린트 및 파일 수정",
-        "noFix": "에러를 수정하지 않습니다."
-      }
-    }
-  },
-  "pwa": {
-    "config": {
       "pwa": {
-        "description": "프로그레시브 웹 앱(PWA)",
-        "workboxPluginMode": {
-          "message": "플러그인 모드",
-          "description": "`workbox-webpack-plugin`의 두가지 모드를 선택할 수 있습니다."
-        },
-        "name": {
-          "message": "앱 이름",
-          "description": "스플래시 화면을 포함한 여러 곳에 출력되는 앱 이름입니다. 그리고 메타 태그 `apple-mobile-web-app-title`의 값으로도 사용합니다."
-        },
-        "themeColor": {
-          "message": "테마 색",
-          "description": "브라우저의 테마 색입니다."
-        },
-        "backgroundColor": {
-          "message": "스플래시 배경 색",
-          "description": "스플래시 화면의 배경 색입니다."
-        },
-        "msTileColor": {
-          "message": "윈도우 앱 타일 색",
-          "description": "윈도우의 앱 타일의 배경 색입니다."
-        },
-        "appleMobileWebAppStatusBarStyle": {
-          "message": "애플 상태표시줄 스타일",
-          "description": "iOS의 상태표시줄의 스타일입니다."
+        "config": {
+          "pwa": {
+            "description": "프로그레시브 웹 앱(PWA)",
+            "workboxPluginMode": {
+              "message": "플러그인 모드",
+              "description": "`workbox-webpack-plugin`의 두가지 모드를 선택할 수 있습니다."
+            },
+            "name": {
+              "message": "앱 이름",
+              "description": "스플래시 화면을 포함한 여러 곳에 출력되는 앱 이름입니다. 그리고 메타 태그 `apple-mobile-web-app-title`의 값으로도 사용합니다."
+            },
+            "themeColor": {
+              "message": "테마 색",
+              "description": "브라우저의 테마 색입니다."
+            },
+            "backgroundColor": {
+              "message": "스플래시 배경 색",
+              "description": "스플래시 화면의 배경 색입니다."
+            },
+            "msTileColor": {
+              "message": "윈도우 앱 타일 색",
+              "description": "윈도우의 앱 타일의 배경 색입니다."
+            },
+            "appleMobileWebAppStatusBarStyle": {
+              "message": "애플 상태표시줄 스타일",
+              "description": "iOS의 상태표시줄의 스타일입니다."
+            }
+          }
         }
       }
     }

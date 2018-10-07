@@ -1,486 +1,490 @@
 {
-  "components": {
-    "connection-status": {
-      "disconnected": "Отключен от UI сервера",
-      "connected": "Подключен!"
-    },
-    "file-diff": {
-      "binary": "Бинарный файл не показан",
-      "actions": {
-        "open": "Открыть в редакторе"
-      }
-    },
-    "file-diff-view": {
-      "files-changed": "Измененные файлы",
-      "search-file": "Найти файл",
-      "empty": "Изменения не обнаружены",
-      "modals": {
-        "commit": {
-          "title": "Commit changes",
-          "input": "Введите сообщение коммита",
-          "subtitle": "Запись изменений в репозиторий",
+  "org": {
+    "vue": {
+      "components": {
+        "connection-status": {
+          "disconnected": "Отключен от UI сервера",
+          "connected": "Подключен!"
+        },
+        "file-diff": {
+          "binary": "Бинарный файл не показан",
           "actions": {
-            "commit": "Commit",
-            "cancel": "Отменить"
+            "open": "Открыть в редакторе"
+          }
+        },
+        "file-diff-view": {
+          "files-changed": "Измененные файлы",
+          "search-file": "Найти файл",
+          "empty": "Изменения не обнаружены",
+          "modals": {
+            "commit": {
+              "title": "Commit changes",
+              "input": "Введите сообщение коммита",
+              "subtitle": "Запись изменений в репозиторий",
+              "actions": {
+                "commit": "Commit",
+                "cancel": "Отменить"
+              }
+            }
+          },
+          "actions": {
+            "collapse-all": "Свернуть все",
+            "expand-all": "Развернуть все",
+            "commit": "Закоммитить изменения",
+            "skip": "Пропустить",
+            "continue": "Продолжить",
+            "refresh": "Обновить"
+          }
+        },
+        "folder-explorer": {
+          "toolbar": {
+            "tooltips": {
+              "parent-folder": "Открыть родительскую директорию",
+              "edit-path": "Редактировать путь",
+              "favorite": "Добавить/убрать избранное",
+              "favorite-folders": "Избранные папки",
+              "refresh": "Обновить"
+            },
+            "placeholder": "Введите полный путь к папке",
+            "empty": "Пока нет избранных папок."
+          }
+        },
+        "list-item-info": {
+          "more-info": "Подробнее"
+        },
+        "logger-view": {
+          "title": "Логи",
+          "empty": "Пока нет логов",
+          "buttons": {
+            "clear": "Очистить логи",
+            "scroll": "Прокрутить вниз",
+            "close": "Закрыть"
+          }
+        },
+        "progress-screen": {
+          "close": "Закрыть"
+        },
+        "project-nav": {
+          "tooltips": {
+            "plugins": "Плагины",
+            "configuration": "Конфигурация",
+            "tasks": "Задачи",
+            "more": "Еще"
+          }
+        },
+        "project-select-list": {
+          "empty": "Нет проектов",
+          "titles": {
+            "favorite": "Избранные проекты",
+            "other": "Другие проекты"
+          }
+        },
+        "project-select-list-item": {
+          "tooltips": {
+            "favorite": "Добавить/убрать в избранное",
+            "delete": "Удалить"
+          }
+        },
+        "project-plugin-item": {
+          "version": "версия",
+          "latest": "последняя",
+          "official": "Официальный",
+          "installed": "Установлен",
+          "actions": {
+            "update": "Обновить {target}"
+          }
+        },
+        "prompt-list": {
+          "default": "По-умолчанию"
+        },
+        "prompts-list": {
+          "empty": "Нет конфигурации"
+        },
+        "status-bar": {
+          "project": {
+            "tooltip": "Текущий проект<br><i>Вкл/выкл. текущий проект</i>",
+            "empty": "Нет проектов"
+          },
+          "path": {
+            "tooltip": "Текущая рабочая папка"
+          },
+          "log": {
+            "tooltip": "Логи<br><i>Вкл/выкл. Vue CLI логи</i>",
+            "empty": "Пока нет логов."
+          },
+          "report-bug": "Сообщить об ошибке",
+          "translate": "Помочь перевести"
+        },
+        "terminal-view": {
+          "buttons": {
+            "clear": "Очистить консоль",
+            "scroll": "Прокрутить вниз"
+          }
+        },
+        "top-bar": {
+          "no-favorites": "Нет избранных проектов"
+        },
+        "view-badge": {
+          "labels": {
+            "tasks": {
+              "error": "Статус ошибки",
+              "running": "Статус запуска",
+              "done": "Статус готовности"
+            }
           }
         }
       },
-      "actions": {
-        "collapse-all": "Свернуть все",
-        "expand-all": "Развернуть все",
-        "commit": "Закоммитить изменения",
-        "skip": "Пропустить",
-        "continue": "Продолжить",
-        "refresh": "Обновить"
-      }
-    },
-    "folder-explorer": {
-      "toolbar": {
-        "tooltips": {
-          "parent-folder": "Открыть родительскую директорию",
-          "edit-path": "Редактировать путь",
-          "favorite": "Добавить/убрать избранное",
-          "favorite-folders": "Избранные папки",
-          "refresh": "Обновить"
-        },
-        "placeholder": "Введите полный путь к папке",
-        "empty": "Пока нет избранных папок."
-      }
-    },
-    "list-item-info": {
-      "more-info": "Подробнее"
-    },
-    "logger-view": {
-      "title": "Логи",
-      "empty": "Пока нет логов",
-      "buttons": {
-        "clear": "Очистить логи",
-        "scroll": "Прокрутить вниз",
-        "close": "Закрыть"
-      }
-    },
-    "progress-screen": {
-      "close": "Закрыть"
-    },
-    "project-nav": {
-      "tooltips": {
-        "plugins": "Плагины",
-        "configuration": "Конфигурация",
-        "tasks": "Задачи",
-        "more": "Еще"
-      }
-    },
-    "project-select-list": {
-      "empty": "Нет проектов",
-      "titles": {
-        "favorite": "Избранные проекты",
-        "other": "Другие проекты"
-      }
-    },
-    "project-select-list-item": {
-      "tooltips": {
-        "favorite": "Добавить/убрать в избранное",
-        "delete": "Удалить"
-      }
-    },
-    "project-plugin-item": {
-      "version": "версия",
-      "latest": "последняя",
-      "official": "Официальный",
-      "installed": "Установлен",
-      "actions": {
-        "update": "Обновить {target}"
-      }
-    },
-    "prompt-list": {
-      "default": "По-умолчанию"
-    },
-    "prompts-list": {
-      "empty": "Нет конфигурации"
-    },
-    "status-bar": {
-      "project": {
-        "tooltip": "Текущий проект<br><i>Вкл/выкл. текущий проект</i>",
-        "empty": "Нет проектов"
-      },
-      "path": {
-        "tooltip": "Текущая рабочая папка"
-      },
-      "log": {
-        "tooltip": "Логи<br><i>Вкл/выкл. Vue CLI логи</i>",
-        "empty": "Пока нет логов."
-      },
-      "report-bug": "Сообщить об ошибке",
-      "translate": "Помочь перевести"
-    },
-    "terminal-view": {
-      "buttons": {
-        "clear": "Очистить консоль",
-        "scroll": "Прокрутить вниз"
-      }
-    },
-    "top-bar": {
-      "no-favorites": "Нет избранных проектов"
-    },
-    "view-badge": {
-      "labels": {
-        "tasks": {
-          "error": "Статус ошибки",
-          "running": "Статус запуска",
-          "done": "Статус готовности"
+      "mixins": {
+        "progress": {
+          "creating": "Создаем проект...",
+          "git-init": "Инициализируем git репозиторий...",
+          "plugins-install": "Устанавливаем Vue CLI плагины. Это займет какое-то время...",
+          "invoking-generators": "Вызоваем генераторы...",
+          "deps-install": "Устанавливаем дополнительные зависимости...",
+          "completion-hooks": "Запускаем завершающие хуки...",
+          "fetch-remote-preset": "Получаем удаленный preset...",
+          "done": "Проект успешно создан",
+          "plugin-install": "Устанавливаем {arg0}...",
+          "plugin-uninstall": "Удаляем {arg0}...",
+          "plugin-invoke": "Вызываем {arg0}...",
+          "plugin-update": "Обновляем {arg0}..."
         }
-      }
-    }
-  },
-  "mixins": {
-    "progress": {
-      "creating": "Создаем проект...",
-      "git-init": "Инициализируем git репозиторий...",
-      "plugins-install": "Устанавливаем Vue CLI плагины. Это займет какое-то время...",
-      "invoking-generators": "Вызоваем генераторы...",
-      "deps-install": "Устанавливаем дополнительные зависимости...",
-      "completion-hooks": "Запускаем завершающие хуки...",
-      "fetch-remote-preset": "Получаем удаленный preset...",
-      "done": "Проект успешно создан",
-      "plugin-install": "Устанавливаем {arg0}...",
-      "plugin-uninstall": "Удаляем {arg0}...",
-      "plugin-invoke": "Вызываем {arg0}...",
-      "plugin-update": "Обновляем {arg0}..."
-    }
-  },
-  "types": {
-    "task": {
-      "status": {
-        "idle": "Бездействие",
-        "running": "Запущен",
-        "done": "Готов",
-        "error": "Ошибка",
-        "terminated": "Отменен"
-      }
-    }
-  },
-  "views": {
-    "project-select": {
-      "title": "Менеджер проектов Vue",
-      "tabs": {
-        "projects": "Проекты",
-        "create": "Создать",
-        "import": "Импорт"
       },
-      "buttons": {
-        "create": "Создать новый проект здесь",
-        "import": "Импортировать эту папку"
-      }
-    },
-    "project-create": {
-      "title": "Создать новый проект",
-      "tabs": {
-        "details": {
-          "title": "Подробнее",
-          "form": {
-            "folder": {
-              "label": "Папка проекта",
-              "placeholder": "my-app",
-              "tooltip": "Изменить основную папку",
-              "action": "Выбрать эту папку"
-            },
-            "manager": {
-              "label": "Менеджер пакетов",
-              "default": "По-умолчанию"
-            },
-            "options": {
-              "label": "Дополнительные опции",
-              "description": "Перезаписать целевую папку если уже существует"
-            }
+      "types": {
+        "task": {
+          "status": {
+            "idle": "Бездействие",
+            "running": "Запущен",
+            "done": "Готов",
+            "error": "Ошибка",
+            "terminated": "Отменен"
+          }
+        }
+      },
+      "views": {
+        "project-select": {
+          "title": "Менеджер проектов Vue",
+          "tabs": {
+            "projects": "Проекты",
+            "create": "Создать",
+            "import": "Импорт"
           },
           "buttons": {
-            "cancel": "Отменить",
-            "next": "Далее"
+            "create": "Создать новый проект здесь",
+            "import": "Импортировать эту папку"
+          }
+        },
+        "project-create": {
+          "title": "Создать новый проект",
+          "tabs": {
+            "details": {
+              "title": "Подробнее",
+              "form": {
+                "folder": {
+                  "label": "Папка проекта",
+                  "placeholder": "my-app",
+                  "tooltip": "Изменить основную папку",
+                  "action": "Выбрать эту папку"
+                },
+                "manager": {
+                  "label": "Менеджер пакетов",
+                  "default": "По-умолчанию"
+                },
+                "options": {
+                  "label": "Дополнительные опции",
+                  "description": "Перезаписать целевую папку если уже существует"
+                }
+              },
+              "buttons": {
+                "cancel": "Отменить",
+                "next": "Далее"
+              },
+              "modal": {
+                "title": "Отменить и сбросить создание проекта",
+                "body": "Вы уверены, что хотите отменить создание проекта?",
+                "buttons": {
+                  "back": "Назад",
+                  "clear": "Очистить проект"
+                }
+              }
+            },
+            "presets": {
+              "title": "Пресеты",
+              "description": "Пресет — это связка плагинов и конфигураций. После того как нужные фукции выбраны, вы можете сохранить их как пресет для повторного исполользования в будущих проектах без необходимости повторной конфигурации.",
+              "select": "Выберите пресет",
+              "buttons": {
+                "previous": "Предыщий",
+                "next": "Следующий",
+                "create": "Создать пресет"
+              },
+              "modal": {
+                "title": "Настройка удаленного пресета",
+                "body": "В разработке..."
+              },
+              "manual": {
+                "name": "Вручную",
+                "description": "Выбрать функции вручную"
+              },
+              "remote": {
+                "name": "Удаленный пресет",
+                "description": "Скачать пресет из git репозитория"
+              },
+              "default-preset": "Пресет по-умолчанию"
+            },
+            "features": {
+              "title": "Функции",
+              "description": "Вы сможете добавить функции после создания проекта устанавливая плагины.",
+              "enable": "Включить функцию",
+              "buttons": {
+                "previous": "Назад",
+                "next": "Далее",
+                "create": "Создать проект"
+              },
+              "userConfigFiles": {
+                "name": "Использовать файл ",
+                "description": "Use specific configuration files (like '.babelrc') instead of using 'package.json'."
+              }
+            },
+            "configuration": {
+              "title": "Configuration",
+              "buttons": {
+                "previous": "Previous",
+                "create": "Создать проект"
+              },
+              "modal": {
+                "title": "Сохранить как новый пресет",
+                "body": {
+                  "title": "Имя пресета",
+                  "subtitle": "Save the features and configuration into a new preset"
+                },
+                "buttons": {
+                  "cancel": "Отменить",
+                  "continue": "Продолжить без сохранения",
+                  "create": "Создать новый пресет"
+                }
+              }
+            }
+          }
+        },
+        "project-plugins": {
+          "title": "Плагины проекта",
+          "button": "Добавить плагин",
+          "heading": "Установленные плагины"
+        },
+        "project-plugins-add": {
+          "title": "Добавить плагин",
+          "plugin": "плагин",
+          "tabs": {
+            "search": {
+              "label": "Поиск",
+              "search-input": "Поиск плагина",
+              "not-found": "Ничего не найдено",
+              "buttons": {
+                "cancel": "Отменить",
+                "install": "Установить {target}"
+              }
+            },
+            "configuration": {
+              "label": "Конфигурация",
+              "heading": "Установка {target}",
+              "buttons": {
+                "cancel": "Отменить",
+                "finish": "Завершение установки"
+              }
+            },
+            "diff": {
+              "label": "Изменённые файлы"
+            }
           },
           "modal": {
-            "title": "Отменить и сбросить создание проекта",
-            "body": "Вы уверены, что хотите отменить создание проекта?",
+            "title": "Удалить {target}?",
+            "body": "Вы хотите удалить плагин {target}?",
             "buttons": {
               "back": "Назад",
-              "clear": "Очистить проект"
+              "cancel": "Отменить без удаления",
+              "uninstall": "Удалить"
             }
           }
         },
-        "presets": {
-          "title": "Пресеты",
-          "description": "Пресет — это связка плагинов и конфигураций. После того как нужные фукции выбраны, вы можете сохранить их как пресет для повторного исполользования в будущих проектах без необходимости повторной конфигурации.",
-          "select": "Выберите пресет",
-          "buttons": {
-            "previous": "Предыщий",
-            "next": "Следующий",
-            "create": "Создать пресет"
-          },
-          "modal": {
-            "title": "Настройка удаленного пресета",
-            "body": "В разработке..."
-          },
-          "manual": {
-            "name": "Вручную",
-            "description": "Выбрать функции вручную"
-          },
-          "remote": {
-            "name": "Удаленный пресет",
-            "description": "Скачать пресет из git репозитория"
-          },
-          "default-preset": "Пресет по-умолчанию"
+        "project-configurations": {
+          "title": "Конфигурация проекта"
         },
-        "features": {
-          "title": "Функции",
-          "description": "Вы сможете добавить функции после создания проекта устанавливая плагины.",
-          "enable": "Включить функцию",
-          "buttons": {
-            "previous": "Назад",
-            "next": "Далее",
-            "create": "Создать проект"
-          },
-          "userConfigFiles": {
-            "name": "Использовать файл ",
-            "description": "Use specific configuration files (like '.babelrc') instead of using 'package.json'."
+        "project-configuration-details": {
+          "actions": {
+            "cancel": "Отменить изменения",
+            "save": "Сохранить изменения",
+            "more-info": "Дополнительная информация"
           }
         },
-        "configuration": {
-          "title": "Configuration",
-          "buttons": {
-            "previous": "Previous",
-            "create": "Создать проект"
+        "project-tasks": {
+          "title": "Задачи проекта"
+        },
+        "project-task-details": {
+          "actions": {
+            "play": "Запустить задачу",
+            "stop": "Остановить задачу",
+            "close": "Закрыть"
           },
-          "modal": {
-            "title": "Сохранить как новый пресет",
-            "body": {
-              "title": "Имя пресета",
-              "subtitle": "Save the features and configuration into a new preset"
+          "command": "Команда скрипта",
+          "parameters": "Параметры",
+          "parameters-info": "Параметры будут сохранены при выполнении задачи.",
+          "more-info": "Дополнительная информация",
+          "output": "Вывод"
+        },
+        "about": {
+          "title": "О Vue-cli UI",
+          "description": "<a href=\"https://github.com/vuejs/vue-cli/tree/dev/packages/%40vue/cli-ui\" target=\"_blank\">@vue/cli-ui</a> это встроенное расширение vue-cli, предоставляющее полноценный пользовательский интерфейс.",
+          "quote": "Vue-cli 3.x is a complete rewrite, with a lot of new awesome features. You will be to select features like routing, Vuex or Typescript, then add and upgrade building blocks called \"vue-cli plugins\". But having so much more options also means the tool is now more complex and harder to start using. That's why we thought having a full-blown GUI would help discover the new features, search and install vue-cli plugins and unlock more possibilities overall while not being limited by a terminal interface. To sum up, vue-cli will not only allow you to bootstrap a new project easily, but it will also remain useful for ongoing work afterwards!",
+          "links": "Полезные ссылки",
+          "back": "Назад"
+        }
+      },
+      "vue-webpack": {
+        "dashboard": {
+          "title": "Панель управления",
+          "open-app": "Открыть приложение",
+          "webpack-status": {
+            "Success": "Успешно",
+            "Failed": "Неудачно",
+            "Compiling": "Компиляция",
+            "Invalidated": "Аннулированно",
+            "Idle": "Бездействие"
+          },
+          "build-status": {
+            "labels": {
+              "status": "Статус",
+              "errors": "Ошибки",
+              "warnings": "Предупреждения",
+              "assets": "Ресурсы",
+              "modules": "Модули",
+              "deps": "Зависимости"
+            }
+          },
+          "speed-stats": {
+            "title": "Статистика скорости"
+          },
+          "module-list": {
+            "title": "Зависимости"
+          },
+          "asset-list": {
+            "title": "Ресурсы",
+            "size-warning": "Этот ресурс большой, попробуйте воспользоваться Code splitting, чтобы уменьшить размера ресурса."
+          }
+        },
+        "analyzer": {
+          "title": "Аналзатор",
+          "go-up": "Наверх",
+          "go-home": "Домой",
+          "chunk": "Кусок (chunk)"
+        },
+        "sizes": {
+          "stats": "Статистика",
+          "parsed": "Проанализовано",
+          "gzip": "Gzip",
+          "help": "<b>Статистика:</b> размер из аналитики webpack.<br><b>Проанализировано:</b> размер из извлеченных исходных кодов (после минификации плагинов). Более точно.<br><b>Gzip:</b> размер извлеченных исходников сжатых gzip."
+        },
+        "tasks": {
+          "serve": {
+            "description": "Компилируется и поддерживает горячую перезагрузку для разработки.",
+            "open": "Открыть браузер после запуска",
+            "mode": "Укажите режим среды (env)",
+            "host": "Укажите хост",
+            "port": "Укажите порт",
+            "https": "Использовать HTTPS"
+          },
+          "build": {
+            "description": "Компилируется и минифицируется для production",
+            "mode": "Укажите режим среды (env)",
+            "dest": "Результирующая директория",
+            "target": {
+              "description": "Цель сборки",
+              "app": "Web приложение",
+              "lib": "Библиотека",
+              "wc": "Web компонента",
+              "wc-async": "Асинхронная web компонента"
             },
-            "buttons": {
-              "cancel": "Отменить",
-              "continue": "Продолжить без сохранения",
-              "create": "Создать новый пресет"
+            "name": "Имя библиотеки или режим web-компоненты (по-умолчанию: 'name' в package.json или название файла)",
+            "watch": "Следить за изменениями"
+          },
+          "inspect": {
+            "description": "Проинспектировать webpack конфигурацию",
+            "mode": "Укажите режим среды (env)",
+            "verbose": "Показывать подробные описания функция в результате"
+          }
+        }
+      },
+      "eslint": {
+        "config": {
+          "eslint": {
+            "description": "Проверка на ошибки & качество кода",
+            "groups": {
+              "strongly-recommended": "Настоятельно рекомедуется",
+              "recommended": "Рекомендуется"
+            }
+          },
+          "eslint-extra": {
+            "description": "Дополнительные настройки ESLint",
+            "lintOnSave": {
+              "message": "Проверять при сохренении",
+              "description": "Автоматически проверять исходники при сохранении"
+            }
+          }
+        },
+        "tasks": {
+          "lint": {
+            "description": "Проверяет и исправляет ошибки в файлах",
+            "noFix": "Не исправлять ошибки"
+          }
+        }
+      },
+      "pwa": {
+        "config": {
+          "pwa": {
+            "description": "Прогрессивное Web приложение",
+            "workboxPluginMode": {
+              "message": "Режим плагина",
+              "description": "Это позволяет вам выбрать между двумя режимами которые поддерживаются лежащим в основе `workbox-webpack-plugin`"
+            },
+            "name": {
+              "message": "Название приложения",
+              "description": "Название показывается на экране загрузки и в других местах. А также используется как `apple-mobile-web-app-title` мета-тег в генерируемом HTML."
+            },
+            "themeColor": {
+              "message": "Цвет темы",
+              "description": "Цвет используется для темы браузера"
+            },
+            "backgroundColor": {
+              "message": "Фоновый цвет экрана загрузки",
+              "description": "Фоновый цвет используется для экрана загрузки"
+            },
+            "msTileColor": {
+              "message": "Цвет плашки Windows приложения",
+              "description": "Используется для стилизации плашки Windows приложения"
+            },
+            "appleMobileWebAppStatusBarStyle": {
+              "message": "Стиль мобильного статус бара Apple",
+              "description": "Стиль мобильного статус бара приложения в iOS"
             }
           }
         }
-      }
-    },
-    "project-plugins": {
-      "title": "Плагины проекта",
-      "button": "Добавить плагин",
-      "heading": "Установленные плагины"
-    },
-    "project-plugins-add": {
-      "title": "Добавить плагин",
-      "plugin": "плагин",
-      "tabs": {
-        "search": {
-          "label": "Поиск",
-          "search-input": "Поиск плагина",
-          "not-found": "Ничего не найдено",
-          "buttons": {
-            "cancel": "Отменить",
-            "install": "Установить {target}"
+      },
+      "cypress": {
+        "tasks": {
+          "test": {
+            "description": "Запустить e2e тесты с `cypress run`",
+            "headless": "Запустить в headless режиме без графического интерфейса",
+            "mode": "Указать режим, в котором dev сервер должен быть запущен",
+            "url": "Запустить e2e тесты с указанным URL адресом вместо автозапуска dev сервера"
           }
-        },
-        "configuration": {
-          "label": "Конфигурация",
-          "heading": "Установка {target}",
-          "buttons": {
-            "cancel": "Отменить",
-            "finish": "Завершение установки"
+        }
+      },
+      "nightwatch": {
+        "tasks": {
+          "test": {
+            "description": "Запустить e2e тесты в Nightwatch",
+            "url": "Запустить e2e тесты с указанным URL адресом вместо автозапуска dev сервера"
           }
-        },
-        "diff": {
-          "label": "Изменённые файлы"
         }
-      },
-      "modal": {
-        "title": "Удалить {target}?",
-        "body": "Вы хотите удалить плагин {target}?",
-        "buttons": {
-          "back": "Назад",
-          "cancel": "Отменить без удаления",
-          "uninstall": "Удалить"
-        }
-      }
-    },
-    "project-configurations": {
-      "title": "Конфигурация проекта"
-    },
-    "project-configuration-details": {
-      "actions": {
-        "cancel": "Отменить изменения",
-        "save": "Сохранить изменения",
-        "more-info": "Дополнительная информация"
-      }
-    },
-    "project-tasks": {
-      "title": "Задачи проекта"
-    },
-    "project-task-details": {
-      "actions": {
-        "play": "Запустить задачу",
-        "stop": "Остановить задачу",
-        "close": "Закрыть"
-      },
-      "command": "Команда скрипта",
-      "parameters": "Параметры",
-      "parameters-info": "Параметры будут сохранены при выполнении задачи.",
-      "more-info": "Дополнительная информация",
-      "output": "Вывод"
-    },
-    "about": {
-      "title": "О Vue-cli UI",
-      "description": "<a href=\"https://github.com/vuejs/vue-cli/tree/dev/packages/%40vue/cli-ui\" target=\"_blank\">@vue/cli-ui</a> это встроенное расширение vue-cli, предоставляющее полноценный пользовательский интерфейс.",
-      "quote": "Vue-cli 3.x is a complete rewrite, with a lot of new awesome features. You will be to select features like routing, Vuex or Typescript, then add and upgrade building blocks called \"vue-cli plugins\". But having so much more options also means the tool is now more complex and harder to start using. That's why we thought having a full-blown GUI would help discover the new features, search and install vue-cli plugins and unlock more possibilities overall while not being limited by a terminal interface. To sum up, vue-cli will not only allow you to bootstrap a new project easily, but it will also remain useful for ongoing work afterwards!",
-      "links": "Полезные ссылки",
-      "back": "Назад"
-    }
-  },
-  "vue-webpack": {
-    "dashboard": {
-      "title": "Панель управления",
-      "open-app": "Открыть приложение",
-      "webpack-status": {
-        "Success": "Успешно",
-        "Failed": "Неудачно",
-        "Compiling": "Компиляция",
-        "Invalidated": "Аннулированно",
-        "Idle": "Бездействие"
-      },
-      "build-status": {
-        "labels": {
-          "status": "Статус",
-          "errors": "Ошибки",
-          "warnings": "Предупреждения",
-          "assets": "Ресурсы",
-          "modules": "Модули",
-          "deps": "Зависимости"
-        }
-      },
-      "speed-stats": {
-        "title": "Статистика скорости"
-      },
-      "module-list": {
-        "title": "Зависимости"
-      },
-      "asset-list": {
-        "title": "Ресурсы",
-        "size-warning": "Этот ресурс большой, попробуйте воспользоваться Code splitting, чтобы уменьшить размера ресурса."
-      }
-    },
-    "analyzer": {
-      "title": "Аналзатор",
-      "go-up": "Наверх",
-      "go-home": "Домой",
-      "chunk": "Кусок (chunk)"
-    },
-    "sizes": {
-      "stats": "Статистика",
-      "parsed": "Проанализовано",
-      "gzip": "Gzip",
-      "help": "<b>Статистика:</b> размер из аналитики webpack.<br><b>Проанализировано:</b> размер из извлеченных исходных кодов (после минификации плагинов). Более точно.<br><b>Gzip:</b> размер извлеченных исходников сжатых gzip."
-    },
-    "tasks": {
-      "serve": {
-        "description": "Компилируется и поддерживает горячую перезагрузку для разработки.",
-        "open": "Открыть браузер после запуска",
-        "mode": "Укажите режим среды (env)",
-        "host": "Укажите хост",
-        "port": "Укажите порт",
-        "https": "Использовать HTTPS"
-      },
-      "build": {
-        "description": "Компилируется и минифицируется для production",
-        "mode": "Укажите режим среды (env)",
-        "dest": "Результирующая директория",
-        "target": {
-          "description": "Цель сборки",
-          "app": "Web приложение",
-          "lib": "Библиотека",
-          "wc": "Web компонента",
-          "wc-async": "Асинхронная web компонента"
-        },
-        "name": "Имя библиотеки или режим web-компоненты (по-умолчанию: 'name' в package.json или название файла)",
-        "watch": "Следить за изменениями"
-      },
-      "inspect": {
-        "description": "Проинспектировать webpack конфигурацию",
-        "mode": "Укажите режим среды (env)",
-        "verbose": "Показывать подробные описания функция в результате"
-      }
-    }
-  },
-  "eslint": {
-    "config": {
-      "eslint": {
-        "description": "Проверка на ошибки & качество кода",
-        "groups": {
-          "strongly-recommended": "Настоятельно рекомедуется",
-          "recommended": "Рекомендуется"
-        }
-      },
-      "eslint-extra": {
-        "description": "Дополнительные настройки ESLint",
-        "lintOnSave": {
-          "message": "Проверять при сохренении",
-          "description": "Автоматически проверять исходники при сохранении"
-        }
-      }
-    },
-    "tasks": {
-      "lint": {
-        "description": "Проверяет и исправляет ошибки в файлах",
-        "noFix": "Не исправлять ошибки"
-      }
-    }
-  },
-  "pwa": {
-    "config": {
-      "pwa": {
-        "description": "Прогрессивное Web приложение",
-        "workboxPluginMode": {
-          "message": "Режим плагина",
-          "description": "Это позволяет вам выбрать между двумя режимами которые поддерживаются лежащим в основе `workbox-webpack-plugin`"
-        },
-        "name": {
-          "message": "Название приложения",
-          "description": "Название показывается на экране загрузки и в других местах. А также используется как `apple-mobile-web-app-title` мета-тег в генерируемом HTML."
-        },
-        "themeColor": {
-          "message": "Цвет темы",
-          "description": "Цвет используется для темы браузера"
-        },
-        "backgroundColor": {
-          "message": "Фоновый цвет экрана загрузки",
-          "description": "Фоновый цвет используется для экрана загрузки"
-        },
-        "msTileColor": {
-          "message": "Цвет плашки Windows приложения",
-          "description": "Используется для стилизации плашки Windows приложения"
-        },
-        "appleMobileWebAppStatusBarStyle": {
-          "message": "Стиль мобильного статус бара Apple",
-          "description": "Стиль мобильного статус бара приложения в iOS"
-        }
-      }
-    }
-  },
-  "cypress": {
-    "tasks": {
-      "test": {
-        "description": "Запустить e2e тесты с `cypress run`",
-        "headless": "Запустить в headless режиме без графического интерфейса",
-        "mode": "Указать режим, в котором dev сервер должен быть запущен",
-        "url": "Запустить e2e тесты с указанным URL адресом вместо автозапуска dev сервера"
-      }
-    }
-  },
-  "nightwatch": {
-    "tasks": {
-      "test": {
-        "description": "Запустить e2e тесты в Nightwatch",
-        "url": "Запустить e2e тесты с указанным URL адресом вместо автозапуска dev сервера"
       }
     }
   }
