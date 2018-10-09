@@ -18,3 +18,4 @@ wget -O ./locales/th.json https://unpkg.com/vue-cli-locale-th/locales/th.json
 wget -O ./locales/tr.json https://unpkg.com/vue-cli-locale-tr/locales/tr.json
 wget -O ./locales/zh.json https://unpkg.com/vue-cli-locale-zh/locales/zh.json
 wget -O ./locales/zh_TW.json https://unpkg.com/vue-cli-locale-zh-tw/locales/zh-TW.json
+node ./lint.js ./locales/*.json

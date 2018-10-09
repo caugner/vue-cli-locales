@@ -20,6 +20,10 @@ for (let i = 2; i < process.argv.length; i++) {
     errors = true;
     continue;
   }
+
+  if (typeof json.org === 'undefined' && typeof json.components !== 'undefined') {
+    json = { org: { vue: json } };
+  }
   
   json = JSON.stringify(json, null, 2);
   json = json.trim() + "\n";

@@ -20,6 +20,7 @@
   "homepage": "https://github.com/caugner/vue-cli-locales#readme",
   "scripts": {
     "pull": "tx pull --parallel -as",
+    "lint": "node ./lint.js ./locales/*.json",
     "test": "node ./test.js"
   },
   "devDependencies": {
