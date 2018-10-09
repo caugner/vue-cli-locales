@@ -16,6 +16,7 @@
           "files-changed": "Ficheiros modificados",
           "search-file": "Pesquisar ficheiro",
           "empty": "Nenhuma alteração encontrada",
+          "error": "Couldn't get file changes",
           "modals": {
             "commit": {
               "title": "Validar alterações",
@@ -46,7 +47,18 @@
               "refresh": "Atualizar"
             },
             "placeholder": "Digite o caminho completo para uma pasta",
-            "empty": "Não existem pastas de favoritos."
+            "empty": "Não existem pastas de favoritos.",
+            "show-hidden": "Show hidden folders"
+          },
+          "new-folder": {
+            "action": "New folder",
+            "title": "Create new folder",
+            "field": {
+              "title": "New folder",
+              "subtitle": "You can use the folder separator to create multiple nested folders at once."
+            },
+            "cancel": "Cancel",
+            "create": "Create"
           }
         },
         "list-item-info": {
@@ -67,6 +79,7 @@
         "project-nav": {
           "tooltips": {
             "plugins": "Plugins",
+            "dependencies": "Dependencies",
             "configuration": "Configurações",
             "tasks": "Tarefas",
             "more": "Mais"
@@ -82,7 +95,8 @@
         "project-select-list-item": {
           "tooltips": {
             "favorite": "Adicionar/Remover dos favoritos",
-            "delete": "Remover"
+            "delete": "Remover",
+            "open-in-editor": "Open in editor"
           }
         },
         "project-plugin-item": {
@@ -92,6 +106,22 @@
           "installed": "Instalado",
           "actions": {
             "update": "Atualizar {target}"
+          }
+        },
+        "project-dependency-item": {
+          "version": "version",
+          "wanted": "wanted",
+          "latest": "latest",
+          "installed": "Installed",
+          "actions": {
+            "update": "Update {target}",
+            "uninstall": "Uninstall {target}"
+          }
+        },
+        "project-tasks-dropdown": {
+          "tooltips": {
+            "tasks": "Tasks",
+            "running-tasks": "{count} running task(s)"
           }
         },
         "prompt-list": {
@@ -114,7 +144,8 @@
           },
           "report-bug": "Reportar bug",
           "translate": "Ajudar a traduzir",
-          "dark-mode": "Alternar modo escuro"
+          "dark-mode": "Alternar modo escuro",
+          "reset-plugin-api": "Refresh plugins API"
         },
         "suggestion-bar": {
           "suggestion": "Sugestão",
@@ -130,7 +161,10 @@
           }
         },
         "top-bar": {
-          "no-favorites": "Nenhum projeto favorito"
+          "no-favorites": "Nenhum projeto favorito",
+          "favorite-projects": "Favorite projects",
+          "recent-projects": "Recent projects",
+          "homepage": "Home page"
         },
         "view-badge": {
           "labels": {
@@ -155,7 +189,12 @@
           "plugin-install": "Instalando {arg0}...",
           "plugin-uninstall": "Desinstalando {arg0}...",
           "plugin-invoke": "Invocando {arg0}...",
-          "plugin-update": "Atualizando {arg0}..."
+          "plugin-update": "Atualizando {arg0}...",
+          "plugins-update": "Updating {arg0} plugins...",
+          "dependency-install": "Installing {arg0}...",
+          "dependency-uninstall": "Uninstalling {arg0}...",
+          "dependency-update": "Updating {arg0}...",
+          "dependencies-update": "Updating {arg0} packages..."
         }
       },
       "types": {
@@ -180,6 +219,13 @@
           "buttons": {
             "create": "Criar um novo projeto aqui",
             "import": "Importar esta pasta"
+          },
+          "import": {
+            "no-modules": {
+              "title": "Missing modules",
+              "message": "It seems the project is missing the 'node_modules' folder. Please check you installed the dependencies before importing.",
+              "close": "Got it"
+            }
           }
         },
         "project-create": {
@@ -192,7 +238,9 @@
                   "label": "Pasta do projeto",
                   "placeholder": "minha-app",
                   "tooltip": "Editar pasta de destino",
-                  "action": "Selecionar esta pasta"
+                  "action": "Selecionar esta pasta",
+                  "folder-exists": "This folder already exists",
+                  "folder-name-invalid": "Folder name invalid"
                 },
                 "manager": {
                   "label": "Gestor de pacotes",
@@ -201,6 +249,7 @@
                 "options": {
                   "label": "Opções adicionais",
                   "force": "Sobrescrever a pasta de destino, se existir",
+                  "git-title": "Git repository",
                   "git": "Inicializar repositório git (recomendado)",
                   "git-commit-message": "Mensagem de commit inicial (opcional)"
                 }
@@ -237,7 +286,15 @@
               },
               "remote": {
                 "name": "Preset remoto",
-                "description": "Obter um preset a partir de um repositório git"
+                "description": "Obter um preset a partir de um repositório git",
+                "url": {
+                  "title": "Preset URL",
+                  "subtitle": "Git repo, for example 'username/repo'. You can also prefix with 'gitlab:' or 'bitbucket:'."
+                },
+                "options": "Other options",
+                "clone": "Cloner/Private repository",
+                "cancel": "Cancel",
+                "done": "Done"
               },
               "default-preset": "Preset por defeito"
             },
@@ -292,7 +349,8 @@
               "not-found": "Nenhum resultado encontrado",
               "buttons": {
                 "cancel": "Cancelar",
-                "install": "Instalar {target}"
+                "install": "Instalar {target}",
+                "default-install": "Install"
               }
             },
             "configuration": {
@@ -342,6 +400,26 @@
           "parameters-info": "Parâmetros serão guardados quando a tarefar executar.",
           "more-info": "Mais Informação",
           "output": "Saída"
+        },
+        "project-dependencies": {
+          "title": "Project dependencies",
+          "heading": {
+            "dependencies": "Main dependencies",
+            "devDependencies": "Development dependencies"
+          },
+          "actions": {
+            "install": "Install dependency",
+            "update-all": "Update all dependencies"
+          },
+          "install": {
+            "title": "Install new dependency"
+          },
+          "uninstall": {
+            "title": "Confirm uninstall",
+            "body": "Are you sure you want to uninstall {id}?",
+            "cancel": "Cancel",
+            "uninstall": "Uninstall {id}"
+          }
         },
         "about": {
           "title": "Sobre",
@@ -412,6 +490,7 @@
           "gzip": "Gzip",
           "help": "<b>Estatísticas:</b> tamanho dos dados estatísticos do webpack.<br><b>Analisado:</b> tamanho do código fonte extraído (após os plugins de minificação). Mais detalhado.<br><b>Gzip:</b> tamanho do código fonte extraído compactado."
         },
+        "modern-mode": "Show modern build",
         "tasks": {
           "serve": {
             "description": "Compila e recarrega (hot-reloads) para desenvolvimento",
@@ -433,13 +512,67 @@
               "wc-async": "Componente web async"
             },
             "name": "Nome da biblioteca ou modo componente-web (por defeito: 'name' no package.json ou nome de ficheiro)",
-            "watch": "Observar alterações"
+            "watch": "Observar alterações",
+            "modern": {
+              "label": "Modern mode",
+              "description": "Build app targeting modern browsers with auto fallback"
+            }
           },
           "inspect": {
             "description": "Inspecionar a configuração resolvida do webpack",
             "mode": "Especificar modo env",
             "verbose": "Mostrar definições completas de funções na saída"
           }
+        },
+        "config": {
+          "vue-cli": {
+            "description": "Configure your Vue project",
+            "groups": {
+              "general": "General settings",
+              "css": "CSS settings"
+            },
+            "baseUrl": {
+              "label": "Base URL",
+              "description": "The base URL your application will be deployed at, for example '/my-app/'. Use an empty string ('') so that all assets are linked using relative paths."
+            },
+            "outputDir": {
+              "label": "Output directory",
+              "description": "The directory where the production build files will be generated"
+            },
+            "assetsDir": {
+              "label": "Assets directory",
+              "description": "A directory to nest generated static assets (js, css, img, fonts) under."
+            },
+            "runtimeCompiler": {
+              "label": "Enable runtime compiler",
+              "description": "This will allow you to use the template option in Vue components, but will incur around an extra 10kb payload for your app."
+            },
+            "productionSourceMap": {
+              "label": "Enable Production Source Maps",
+              "description": "Disabling this can speed up production builds if you don't need source maps for production"
+            },
+            "parallel": {
+              "label": "Parallel compilation",
+              "description": "Whether to use multiple processors to compile Babel or Typescript."
+            },
+            "css": {
+              "modules": {
+                "label": "Enable CSS Modules",
+                "description": "By default, only files that ends in *.module.[ext] are treated as CSS modules. Enabling this will treat all style files as CSS modules."
+              },
+              "extract": {
+                "label": "Extract CSS",
+                "description": "Whether to extract CSS in your components into a standalone CSS files (instead of inlined in JavaScript and injected dynamically)."
+              },
+              "sourceMap": {
+                "label": "Enable CSS Source Maps",
+                "description": "Whether to enable source maps for CSS. Enabling this may affect build performance."
+              }
+            }
+          }
+        },
+        "suggestions": {
+          "vue-config-open": "Open vue config"
         }
       },
       "eslint": {
@@ -527,7 +660,9 @@
         "tasks": {
           "test": {
             "description": "Correr testes e2e com nightwatch",
-            "url": "Correr testes e2e com o url fornecido em vez de auto-iniciar o servidor dev"
+            "url": "Correr testes e2e com o url fornecido em vez de auto-iniciar o servidor dev",
+            "config": "Use custom nightwatch config file (overrides internals)",
+            "env": "Comma-delimited browser envs to run in"
           }
         }
       },
@@ -538,6 +673,14 @@
             "watch": "Monitorizar alterações a ficheiros e re-executar testes relacionados com os ficheiros alterados",
             "notify": "Mostrar uma notificação após cada execução",
             "update": "Re-gravar cada snaphost que falha durante execução de teste"
+          }
+        }
+      },
+      "mocha": {
+        "tasks": {
+          "test": {
+            "description": "Run unit tests with Mocha",
+            "watch": "Watch files for changes and rerun tests related to changed files"
           }
         }
       }

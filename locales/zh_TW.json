@@ -16,6 +16,7 @@
           "files-changed": "文件改動",
           "search-file": "搜索文件",
           "empty": "沒有改動",
+          "error": "Couldn't get file changes",
           "modals": {
             "commit": {
               "title": "提交信息",
@@ -46,7 +47,18 @@
               "refresh": "重新整理"
             },
             "placeholder": "輸入資料夾完整路徑",
-            "empty": "暫無收藏"
+            "empty": "暫無收藏",
+            "show-hidden": "Show hidden folders"
+          },
+          "new-folder": {
+            "action": "New folder",
+            "title": "Create new folder",
+            "field": {
+              "title": "New folder",
+              "subtitle": "You can use the folder separator to create multiple nested folders at once."
+            },
+            "cancel": "Cancel",
+            "create": "Create"
           }
         },
         "list-item-info": {
@@ -67,6 +79,7 @@
         "project-nav": {
           "tooltips": {
             "plugins": "插件",
+            "dependencies": "Dependencies",
             "configuration": "設定",
             "tasks": "任務",
             "more": "更多"
@@ -82,7 +95,8 @@
         "project-select-list-item": {
           "tooltips": {
             "favorite": "新增/取消收藏",
-            "delete": "刪除"
+            "delete": "刪除",
+            "open-in-editor": "Open in editor"
           }
         },
         "project-plugin-item": {
@@ -92,6 +106,22 @@
           "installed": "已安裝",
           "actions": {
             "update": "更新 {target}"
+          }
+        },
+        "project-dependency-item": {
+          "version": "version",
+          "wanted": "wanted",
+          "latest": "latest",
+          "installed": "Installed",
+          "actions": {
+            "update": "Update {target}",
+            "uninstall": "Uninstall {target}"
+          }
+        },
+        "project-tasks-dropdown": {
+          "tooltips": {
+            "tasks": "Tasks",
+            "running-tasks": "{count} running task(s)"
           }
         },
         "prompt-list": {
@@ -113,7 +143,16 @@
             "empty": "（暫無日誌）"
           },
           "report-bug": "反饋 bug",
-          "translate": "參與翻譯"
+          "translate": "參與翻譯",
+          "dark-mode": "Toggle dark mode",
+          "reset-plugin-api": "Refresh plugins API"
+        },
+        "suggestion-bar": {
+          "suggestion": "Suggestion",
+          "modal": {
+            "cancel": "Cancel",
+            "continue": "Continue"
+          }
         },
         "terminal-view": {
           "buttons": {
@@ -122,7 +161,10 @@
           }
         },
         "top-bar": {
-          "no-favorites": "暫無收藏"
+          "no-favorites": "暫無收藏",
+          "favorite-projects": "Favorite projects",
+          "recent-projects": "Recent projects",
+          "homepage": "Home page"
         },
         "view-badge": {
           "labels": {
@@ -147,7 +189,12 @@
           "plugin-install": "正在安裝 {arg0}...",
           "plugin-uninstall": "正在卸載 {arg0}...",
           "plugin-invoke": "調用{arg0} ...",
-          "plugin-update": "正在更新 {arg0}..."
+          "plugin-update": "正在更新 {arg0}...",
+          "plugins-update": "Updating {arg0} plugins...",
+          "dependency-install": "Installing {arg0}...",
+          "dependency-uninstall": "Uninstalling {arg0}...",
+          "dependency-update": "Updating {arg0}...",
+          "dependencies-update": "Updating {arg0} packages..."
         }
       },
       "types": {
@@ -172,6 +219,13 @@
           "buttons": {
             "create": "在此新增新專案",
             "import": "匯入這個資料夾"
+          },
+          "import": {
+            "no-modules": {
+              "title": "Missing modules",
+              "message": "It seems the project is missing the 'node_modules' folder. Please check you installed the dependencies before importing.",
+              "close": "Got it"
+            }
           }
         },
         "project-create": {
@@ -184,7 +238,9 @@
                   "label": "專案資料夾",
                   "placeholder": "我的應用程序內",
                   "tooltip": "修改專案路徑",
-                  "action": "選定"
+                  "action": "選定",
+                  "folder-exists": "This folder already exists",
+                  "folder-name-invalid": "Folder name invalid"
                 },
                 "manager": {
                   "label": "包管理器",
@@ -192,7 +248,10 @@
                 },
                 "options": {
                   "label": "更多選項",
-                  "description": "若目標資料夾已存在則將其覆蓋"
+                  "force": "Overwrite target folder if it exists",
+                  "git-title": "Git repository",
+                  "git": "Initialize git repository (recommended)",
+                  "git-commit-message": "Initial commit message (optional)"
                 }
               },
               "buttons": {
@@ -227,7 +286,15 @@
               },
               "remote": {
                 "name": "遠端預設",
-                "description": "從 git 倉庫拉取預設"
+                "description": "從 git 倉庫拉取預設",
+                "url": {
+                  "title": "Preset URL",
+                  "subtitle": "Git repo, for example 'username/repo'. You can also prefix with 'gitlab:' or 'bitbucket:'."
+                },
+                "options": "Other options",
+                "clone": "Cloner/Private repository",
+                "cancel": "Cancel",
+                "done": "Done"
               },
               "default-preset": "預設"
             },
@@ -269,7 +336,8 @@
         "project-plugins": {
           "title": "插件",
           "button": "新增插件",
-          "heading": "已安裝的插件"
+          "heading": "已安裝的插件",
+          "update-all": "Update all plugins"
         },
         "project-plugins-add": {
           "title": "新增插件",
@@ -281,7 +349,8 @@
               "not-found": "未找到相關插件",
               "buttons": {
                 "cancel": "取消",
-                "install": "安裝 {target}"
+                "install": "安裝 {target}",
+                "default-install": "Install"
               }
             },
             "configuration": {
@@ -313,7 +382,8 @@
           "actions": {
             "cancel": "取消修改",
             "save": "保存修改",
-            "more-info": "更多信息"
+            "more-info": "更多信息",
+            "refresh": "Refresh"
           }
         },
         "project-tasks": {
@@ -331,12 +401,49 @@
           "more-info": "查看詳情",
           "output": "輸出"
         },
+        "project-dependencies": {
+          "title": "Project dependencies",
+          "heading": {
+            "dependencies": "Main dependencies",
+            "devDependencies": "Development dependencies"
+          },
+          "actions": {
+            "install": "Install dependency",
+            "update-all": "Update all dependencies"
+          },
+          "install": {
+            "title": "Install new dependency"
+          },
+          "uninstall": {
+            "title": "Confirm uninstall",
+            "body": "Are you sure you want to uninstall {id}?",
+            "cancel": "Cancel",
+            "uninstall": "Uninstall {id}"
+          }
+        },
         "about": {
           "title": "關於",
           "description": "<a href=\"https://github.com/vuejs/vue-cli/tree/dev/packages/%40vue/cli-ui\" target=\"_blank\">@vue/cli-ui</a> 是 vue-cli 內建的一個包可以提供充分的 UI。",
           "quote": "Vue-cli 3.x is a complete rewrite, with a lot of new awesome features. You will be to select features like routing, Vuex or Typescript, then add and upgrade building blocks called \"vue-cli plugins\". But having so much more options also means the tool is now more complex and harder to start using. That's why we thought having a full-blown GUI would help discover the new features, search and install vue-cli plugins and unlock more possibilities overall while not being limited by a terminal interface. To sum up, vue-cli will not only allow you to bootstrap a new project easily, but it will also remain useful for ongoing work afterwards!",
           "links": "資源連結",
           "back": "返回"
+        }
+      },
+      "cli-service": {
+        "suggestions": {
+          "vue-router-add": {
+            "label": "Add vue-router",
+            "message": "Official library to support multiple virtual pages in a Single-Page App. Each route renders a different component."
+          },
+          "vuex-add": {
+            "label": "Add vuex",
+            "message": "Official centralized State Management solution for large-scale apps. Very useful if multiple components need to access the same data."
+          },
+          "vue-devtools": {
+            "label": "Install devtools",
+            "message": "Browser devtools official extension for debugging Vue.js applications where you can inspect your components, vuex store and events."
+          },
+          "progress": "Installing {arg0}..."
         }
       },
       "vue-webpack": {
@@ -383,6 +490,7 @@
           "gzip": "Gzip",
           "help": "<b>統計:</ b>來自webpack統計數據的大小。<b>解析:</ b>大小來自提取的來源（縮小插件後）。更準確。<b>Gzip:</b> gzipped提取的大小。"
         },
+        "modern-mode": "Show modern build",
         "tasks": {
           "serve": {
             "description": "編譯和熱更新（用於開發環境）",
@@ -404,13 +512,67 @@
               "wc-async": "異步組件"
             },
             "name": "庫名/組件名 (預設為 package.json 的 name 或 entry 文件名)",
-            "watch": "監聽變化"
+            "watch": "監聽變化",
+            "modern": {
+              "label": "Modern mode",
+              "description": "Build app targeting modern browsers with auto fallback"
+            }
           },
           "inspect": {
             "description": "檢查 webpack 設定",
             "mode": "環境",
             "verbose": "完整顯示函數定義"
           }
+        },
+        "config": {
+          "vue-cli": {
+            "description": "Configure your Vue project",
+            "groups": {
+              "general": "General settings",
+              "css": "CSS settings"
+            },
+            "baseUrl": {
+              "label": "Base URL",
+              "description": "The base URL your application will be deployed at, for example '/my-app/'. Use an empty string ('') so that all assets are linked using relative paths."
+            },
+            "outputDir": {
+              "label": "Output directory",
+              "description": "The directory where the production build files will be generated"
+            },
+            "assetsDir": {
+              "label": "Assets directory",
+              "description": "A directory to nest generated static assets (js, css, img, fonts) under."
+            },
+            "runtimeCompiler": {
+              "label": "Enable runtime compiler",
+              "description": "This will allow you to use the template option in Vue components, but will incur around an extra 10kb payload for your app."
+            },
+            "productionSourceMap": {
+              "label": "Enable Production Source Maps",
+              "description": "Disabling this can speed up production builds if you don't need source maps for production"
+            },
+            "parallel": {
+              "label": "Parallel compilation",
+              "description": "Whether to use multiple processors to compile Babel or Typescript."
+            },
+            "css": {
+              "modules": {
+                "label": "Enable CSS Modules",
+                "description": "By default, only files that ends in *.module.[ext] are treated as CSS modules. Enabling this will treat all style files as CSS modules."
+              },
+              "extract": {
+                "label": "Extract CSS",
+                "description": "Whether to extract CSS in your components into a standalone CSS files (instead of inlined in JavaScript and injected dynamically)."
+              },
+              "sourceMap": {
+                "label": "Enable CSS Source Maps",
+                "description": "Whether to enable source maps for CSS. Enabling this may affect build performance."
+              }
+            }
+          }
+        },
+        "suggestions": {
+          "vue-config-open": "Open vue config"
         }
       },
       "eslint": {
@@ -420,13 +582,16 @@
             "groups": {
               "strongly-recommended": "強烈推薦",
               "recommended": "推薦"
-            }
-          },
-          "eslint-extra": {
-            "description": "更多設置",
-            "lintOnSave": {
-              "message": "Lint保存",
-              "description": "每當源文件保存時自動檢查"
+            },
+            "vue": {
+              "label": "Vue"
+            },
+            "extra": {
+              "label": "Extra",
+              "lintOnSave": {
+                "message": "Lint on save",
+                "description": "Automatically lint source files when saved"
+              }
             }
           }
         },
@@ -434,6 +599,11 @@
           "lint": {
             "description": "檢查並修復源文件",
             "noFix": "僅檢查，不要自動修復錯誤"
+          }
+        },
+        "suggestions": {
+          "open-eslintrc": {
+            "label": "Open eslintrc"
           }
         }
       },
@@ -466,6 +636,14 @@
               "description": "iOS webapp 狀態欄樣式"
             }
           }
+        },
+        "suggestions": {
+          "open-vue": {
+            "label": "Open vue config"
+          },
+          "open-manifest": {
+            "label": "Open manifest"
+          }
         }
       },
       "cypress": {
@@ -482,7 +660,27 @@
         "tasks": {
           "test": {
             "description": "使用 nightwatch 執行 e2e 測試",
-            "url": "遠端測試 URL"
+            "url": "遠端測試 URL",
+            "config": "Use custom nightwatch config file (overrides internals)",
+            "env": "Comma-delimited browser envs to run in"
+          }
+        }
+      },
+      "jest": {
+        "tasks": {
+          "test": {
+            "description": "Run unit tests with Jest",
+            "watch": "Watch files for changes and rerun tests related to changed files",
+            "notify": "Display a notification after each run",
+            "update": "Re-record every snapshot that fails during this test run"
+          }
+        }
+      },
+      "mocha": {
+        "tasks": {
+          "test": {
+            "description": "Run unit tests with Mocha",
+            "watch": "Watch files for changes and rerun tests related to changed files"
           }
         }
       }
