@@ -82,7 +82,7 @@
             "configuration": "設定",
             "dependencies": "依存",
             "tasks": "タスク",
-            "more": "More"
+            "more": "その他"
           }
         },
         "project-select-list": {
@@ -110,7 +110,7 @@
         },
         "project-dependency-item": {
           "version": "バージョン",
-          "wanted": "手配",
+          "wanted": "要求",
           "latest": "最新",
           "installed": "インストール済み",
           "actions": {
@@ -236,7 +236,7 @@
               "form": {
                 "folder": {
                   "label": "プロジェクトフォルダ",
-                  "placeholder": "my-app",
+                  "placeholder": "名前を入力",
                   "tooltip": "ベースフォルダを変更する",
                   "action": "このフォルダを選択する",
                   "folder-exists": "このフォルダは既に存在する",
@@ -289,10 +289,10 @@
                 "description": "git リポジトリからプリセットをフェッチ",
                 "url": {
                   "title": "プリセット URL",
-                  "subtitle": "Git レポジトリ、例えば 'username/repo'。'gitlab:' まはた 'bitbucket:' でプリフィックスもできます。"
+                  "subtitle": "Git リポジトリ、例えば 'username/repo'。'gitlab:' または 'bitbucket:' でプリフィックスもできます。"
                 },
                 "options": "他のオプション",
-                "clone": "Cloner/Private レポジトリ",
+                "clone": "Cloner/Private リポジトリ",
                 "cancel": "キャンセル",
                 "done": "完了"
               },
@@ -393,11 +393,11 @@
           "actions": {
             "play": "タスクの実行",
             "stop": "タスクの停止",
-            "close": "閉じる"
+            "close": "閉じる",
+            "save": "保存"
           },
           "command": "スクリプトコマンド",
           "parameters": "パラメータ",
-          "parameters-info": "パラメータはタスクが起動される時に保存されます",
           "more-info": "詳細情報",
           "output": "出力"
         },
@@ -408,7 +408,7 @@
             "devDependencies": "開発依存"
           },
           "actions": {
-            "install": "インストール依存",
+            "install": "依存をインストール",
             "update-all": "全ての依存を更新"
           },
           "install": {
@@ -426,7 +426,7 @@
           "description": "<a href=\"https://github.com/vuejs/vue-cli/tree/dev/packages/%40vue/cli-ui\" target=\"_blank\">@vue/cli-ui</a> は本格的な UI で開始する Vue CLI のビルドインパッケージです。",
           "quote": "Vue CLI 3.x は多くの新しい素晴らしい機能が搭載された完全に書き換えられたものです。ルーティング、Vuex、TypeScript などの機能を選択し、\"Vue CLI プラグイン\"と呼ばれる組み立てブロックを追加してアップグレードできます。しかし、これほど多くのオプションを持つことの意味は、ツールがより複雑で使用開始が難しいです。そのため、本格的な GUI があることは、Vue CLI プラグインを検索して、インストールして、そしてターミナルインターフェースに制限されず、より多くの可能性を広げることができます。要約すると、Vue CLI は新しいプロジェクトを簡単にブートストラップするだけでなく、その後も継続的な作業にも役立ちます！",
           "links": "役立つリンク",
-          "back": "元に戻る"
+          "back": "戻る"
         }
       },
       "cli-service": {
@@ -562,7 +562,7 @@
               },
               "extract": {
                 "label": "CSS を抽出する",
-                "description": "スタンドアロンの CSS ファイルにコンポーネント内の CSS を抽出するかどうか。(JavaScript でインライン化されずに動的に注入されるのではなく)"
+                "description": "スタンドアロンの CSS ファイルにコンポーネント内の CSS を抽出するかどうか。(JavaScript でインライン化して動的に注入されるのではなく)"
               },
               "sourceMap": {
                 "label": "CSS ソースマップを有効にする",
@@ -580,18 +580,31 @@
           "eslint": {
             "description": "エラーチェックとコード品質",
             "groups": {
+              "base": "ベース",
+              "essential": "重要なもののみ",
               "strongly-recommended": "強く推奨",
-              "recommended": "推奨"
+              "recommended": "推奨",
+              "uncategorized": "未分類"
             },
-            "vue": {
-              "label": "Vue"
+            "setting": {
+              "off": "オフ",
+              "error": "エラー",
+              "warning": "警告",
+              "custom": "カスタム"
             },
-            "extra": {
-              "label": "追加",
+            "general": {
+              "label": "一般",
               "lintOnSave": {
                 "message": "保存時にリント",
                 "description": "保存した時に自動的にソースファイルをリントします。"
+              },
+              "config": {
+                "message": "設定を選択",
+                "description": "事前定義された設定を選択します。"
               }
+            },
+            "rules": {
+              "label": "ルール"
             }
           }
         },
