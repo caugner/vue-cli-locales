@@ -1,5 +1,5 @@
 {
-	"org": {
+  "org": {
     "vue": {
       "components": {
         "connection-status": {

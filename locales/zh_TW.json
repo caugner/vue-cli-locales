@@ -1,9 +1,17 @@
 {
-	"org": {
+  "org": {
     "vue": {
       "components": {
-        "connection-status": { "disconnected": "連接已斷開", "connected": "已連接 Vue 專案管理器!" },
-        "file-diff": { "binary": "二進位文件", "actions": { "open": "在編輯器中打開" } },
+        "connection-status": {
+          "disconnected": "連接已斷開",
+          "connected": "已連接 Vue 專案管理器!"
+        },
+        "file-diff": {
+          "binary": "二進位文件",
+          "actions": {
+            "open": "在編輯器中打開"
+          }
+        },
         "file-diff-view": {
           "files-changed": "文件改動",
           "search-file": "搜索文件",
@@ -13,7 +21,10 @@
               "title": "提交信息",
               "input": "輸入提交信息",
               "subtitle": "記錄下做了哪些改動",
-              "actions": { "commit": "提交", "cancel": "取消" }
+              "actions": {
+                "commit": "提交",
+                "cancel": "取消"
+              }
             }
           },
           "actions": {
@@ -38,35 +49,90 @@
             "empty": "暫無收藏"
           }
         },
-        "list-item-info": { "more-info": "查看詳情" },
+        "list-item-info": {
+          "more-info": "查看詳情"
+        },
         "logger-view": {
           "title": "日誌",
           "empty": "暫無日誌",
-          "buttons": { "clear": "清空日誌", "scroll": "至底部", "close": "關閉" }
+          "buttons": {
+            "clear": "清空日誌",
+            "scroll": "至底部",
+            "close": "關閉"
+          }
         },
-        "progress-screen": { "close": "關閉" },
-        "project-nav": { "tooltips": { "plugins": "插件", "configuration": "設定", "tasks": "任務", "more": "更多" } },
-        "project-select-list": { "empty": "沒有專案", "titles": { "favorite": "收藏的專案", "other": "更多專案" } },
-        "project-select-list-item": { "tooltips": { "favorite": "新增/取消收藏", "delete": "刪除" } },
+        "progress-screen": {
+          "close": "關閉"
+        },
+        "project-nav": {
+          "tooltips": {
+            "plugins": "插件",
+            "configuration": "設定",
+            "tasks": "任務",
+            "more": "更多"
+          }
+        },
+        "project-select-list": {
+          "empty": "沒有專案",
+          "titles": {
+            "favorite": "收藏的專案",
+            "other": "更多專案"
+          }
+        },
+        "project-select-list-item": {
+          "tooltips": {
+            "favorite": "新增/取消收藏",
+            "delete": "刪除"
+          }
+        },
         "project-plugin-item": {
           "version": "版本",
           "latest": "最新",
           "official": "官方",
           "installed": "已安裝",
-          "actions": { "update": "更新 {target}" }
+          "actions": {
+            "update": "更新 {target}"
+          }
         },
-        "prompt-list": { "default": "預設" },
-        "prompts-list": { "empty": "（暫無設定）" },
+        "prompt-list": {
+          "default": "預設"
+        },
+        "prompts-list": {
+          "empty": "（暫無設定）"
+        },
         "status-bar": {
-          "project": { "tooltip": "當前專案<br><i>點擊進入專案／回到首頁</i>", "empty": "（無當前專案）" },
-          "path": { "tooltip": "當前目錄" },
-          "log": { "tooltip": "日誌<br><i>點擊顯示／隱藏 Vue CLI 日誌</i>", "empty": "（暫無日誌）" },
+          "project": {
+            "tooltip": "當前專案<br><i>點擊進入專案／回到首頁</i>",
+            "empty": "（無當前專案）"
+          },
+          "path": {
+            "tooltip": "當前目錄"
+          },
+          "log": {
+            "tooltip": "日誌<br><i>點擊顯示／隱藏 Vue CLI 日誌</i>",
+            "empty": "（暫無日誌）"
+          },
           "report-bug": "反饋 bug",
           "translate": "參與翻譯"
         },
-        "terminal-view": { "buttons": { "clear": "清空", "scroll": "至底部" } },
-        "top-bar": { "no-favorites": "暫無收藏" },
-        "view-badge": { "labels": { "tasks": { "error": "錯誤", "running": "執行中", "done": "已完成" } } }
+        "terminal-view": {
+          "buttons": {
+            "clear": "清空",
+            "scroll": "至底部"
+          }
+        },
+        "top-bar": {
+          "no-favorites": "暫無收藏"
+        },
+        "view-badge": {
+          "labels": {
+            "tasks": {
+              "error": "錯誤",
+              "running": "執行中",
+              "done": "已完成"
+            }
+          }
+        }
       },
       "mixins": {
         "progress": {
@@ -86,14 +152,27 @@
       },
       "types": {
         "task": {
-          "status": { "idle": "空閒", "running": "執行中", "done": "已完成", "error": "錯誤", "terminated": "已中止" }
+          "status": {
+            "idle": "空閒",
+            "running": "執行中",
+            "done": "已完成",
+            "error": "錯誤",
+            "terminated": "已中止"
+          }
         }
       },
       "views": {
         "project-select": {
           "title": "Vue 專案管理器",
-          "tabs": { "projects": "專案", "create": "新增", "import": "匯入" },
-          "buttons": { "create": "在此新增新專案", "import": "匯入這個資料夾" }
+          "tabs": {
+            "projects": "專案",
+            "create": "新增",
+            "import": "匯入"
+          },
+          "buttons": {
+            "create": "在此新增新專案",
+            "import": "匯入這個資料夾"
+          }
         },
         "project-create": {
           "title": "新增新專案",
@@ -107,32 +186,60 @@
                   "tooltip": "修改專案路徑",
                   "action": "選定"
                 },
-                "manager": { "label": "包管理器", "default": "預設" },
-                "options": { "label": "更多選項", "description": "若目標資料夾已存在則將其覆蓋" }
+                "manager": {
+                  "label": "包管理器",
+                  "default": "預設"
+                },
+                "options": {
+                  "label": "更多選項",
+                  "description": "若目標資料夾已存在則將其覆蓋"
+                }
               },
-              "buttons": { "cancel": "取消", "next": "下一步" },
+              "buttons": {
+                "cancel": "取消",
+                "next": "下一步"
+              },
               "modal": {
                 "title": "取消新增專案",
                 "body": "確定要取消新增嗎？",
-                "buttons": { "back": "不", "clear": "取消新增" }
+                "buttons": {
+                  "back": "不",
+                  "clear": "取消新增"
+                }
               }
             },
             "presets": {
               "title": "預設",
-              "description":
-                "預設就是一套定義好的插件和設定。你也可以將自己的設定保存成預設，方便以後新增專案使用。",
+              "description": "預設就是一套定義好的插件和設定。你也可以將自己的設定保存成預設，方便以後新增專案使用。",
               "select": "選擇一套預設",
-              "buttons": { "previous": "上一步", "next": "下一步", "create": "新增專案" },
-              "modal": { "title": "設定遠端預設", "body": "敬請期待…" },
-              "manual": { "name": "手動", "description": "手動設定專案" },
-              "remote": { "name": "遠端預設", "description": "從 git 倉庫拉取預設" },
+              "buttons": {
+                "previous": "上一步",
+                "next": "下一步",
+                "create": "新增專案"
+              },
+              "modal": {
+                "title": "設定遠端預設",
+                "body": "敬請期待…"
+              },
+              "manual": {
+                "name": "手動",
+                "description": "手動設定專案"
+              },
+              "remote": {
+                "name": "遠端預設",
+                "description": "從 git 倉庫拉取預設"
+              },
               "default-preset": "預設"
             },
             "features": {
               "title": "功能",
               "description": "在專案新增之後，你仍然可以通過安裝插件來增加功能。",
               "enable": "選擇功能",
-              "buttons": { "previous": "上一步", "next": "下一步", "create": "新增專案" },
+              "buttons": {
+                "previous": "上一步",
+                "next": "下一步",
+                "create": "新增專案"
+              },
               "userConfigFiles": {
                 "name": "使用設定文件",
                 "description": "將插件的設定保存在各自的設定文件 (比如 '.babelrc') 中。"
@@ -140,10 +247,16 @@
             },
             "configuration": {
               "title": "設定",
-              "buttons": { "previous": "上一步", "create": "新增專案" },
+              "buttons": {
+                "previous": "上一步",
+                "create": "新增專案"
+              },
               "modal": {
                 "title": "保存為新預設",
-                "body": { "title": "預設名", "subtitle": "將功能和設定保存為一套新的預設" },
+                "body": {
+                  "title": "預設名",
+                  "subtitle": "將功能和設定保存為一套新的預設"
+                },
                 "buttons": {
                   "cancel": "取消",
                   "continue": "新增專案，不保存預設",
@@ -153,7 +266,11 @@
             }
           }
         },
-        "project-plugins": { "title": "插件", "button": "新增插件", "heading": "已安裝的插件" },
+        "project-plugins": {
+          "title": "插件",
+          "button": "新增插件",
+          "heading": "已安裝的插件"
+        },
         "project-plugins-add": {
           "title": "新增插件",
           "plugin": "插件",
@@ -162,28 +279,52 @@
               "label": "所有插件",
               "search-input": "查找插件",
               "not-found": "未找到相關插件",
-              "buttons": { "cancel": "取消", "install": "安裝 {target}" }
+              "buttons": {
+                "cancel": "取消",
+                "install": "安裝 {target}"
+              }
             },
             "configuration": {
               "label": "設定插件",
               "heading": "安裝 {target}",
-              "buttons": { "cancel": "取消", "finish": "完成安裝" }
+              "buttons": {
+                "cancel": "取消",
+                "finish": "完成安裝"
+              }
             },
-            "diff": { "label": "文件改動" }
+            "diff": {
+              "label": "文件改動"
+            }
           },
           "modal": {
             "title": "卸載 {target}？",
             "body": "確認卸載插件 {target} 嗎？",
-            "buttons": { "back": "不", "cancel": "取消不卸載", "uninstall": "卸載" }
+            "buttons": {
+              "back": "不",
+              "cancel": "取消不卸載",
+              "uninstall": "卸載"
+            }
           }
         },
-        "project-configurations": { "title": "專案設定" },
-        "project-configuration-details": {
-          "actions": { "cancel": "取消修改", "save": "保存修改", "more-info": "更多信息" }
+        "project-configurations": {
+          "title": "專案設定"
         },
-        "project-tasks": { "title": "任務" },
+        "project-configuration-details": {
+          "actions": {
+            "cancel": "取消修改",
+            "save": "保存修改",
+            "more-info": "更多信息"
+          }
+        },
+        "project-tasks": {
+          "title": "任務"
+        },
         "project-task-details": {
-          "actions": { "play": "執行", "stop": "停止", "close": "關閉" },
+          "actions": {
+            "play": "執行",
+            "stop": "停止",
+            "close": "關閉"
+          },
           "command": "腳本命令",
           "parameters": "變量",
           "parameters-info": "變量將在執行任務時保存",
@@ -192,10 +333,8 @@
         },
         "about": {
           "title": "關於",
-          "description":
-            "<a href=\"https://github.com/vuejs/vue-cli/tree/dev/packages/%40vue/cli-ui\" target=\"_blank\">@vue/cli-ui</a> 是 vue-cli 內建的一個包可以提供充分的 UI。",
-          "quote":
-            "Vue-cli 3.x is a complete rewrite, with a lot of new awesome features. You will be to select features like routing, Vuex or Typescript, then add and upgrade building blocks called \"vue-cli plugins\". But having so much more options also means the tool is now more complex and harder to start using. That's why we thought having a full-blown GUI would help discover the new features, search and install vue-cli plugins and unlock more possibilities overall while not being limited by a terminal interface. To sum up, vue-cli will not only allow you to bootstrap a new project easily, but it will also remain useful for ongoing work afterwards!",
+          "description": "<a href=\"https://github.com/vuejs/vue-cli/tree/dev/packages/%40vue/cli-ui\" target=\"_blank\">@vue/cli-ui</a> 是 vue-cli 內建的一個包可以提供充分的 UI。",
+          "quote": "Vue-cli 3.x is a complete rewrite, with a lot of new awesome features. You will be to select features like routing, Vuex or Typescript, then add and upgrade building blocks called \"vue-cli plugins\". But having so much more options also means the tool is now more complex and harder to start using. That's why we thought having a full-blown GUI would help discover the new features, search and install vue-cli plugins and unlock more possibilities overall while not being limited by a terminal interface. To sum up, vue-cli will not only allow you to bootstrap a new project easily, but it will also remain useful for ongoing work afterwards!",
           "links": "資源連結",
           "back": "返回"
         }
@@ -221,17 +360,28 @@
               "deps": "依賴項"
             }
           },
-          "speed-stats": { "title": "速度統計" },
-          "module-list": { "title": "依賴項" },
-          "asset-list": { "title": "資源", "size-warning": "這個資產很大，考慮使用代碼拆分來新增更小的資產。" }
+          "speed-stats": {
+            "title": "速度統計"
+          },
+          "module-list": {
+            "title": "依賴項"
+          },
+          "asset-list": {
+            "title": "資源",
+            "size-warning": "這個資產很大，考慮使用代碼拆分來新增更小的資產。"
+          }
         },
-        "analyzer": { "title": "分析", "go-up": "上一層", "go-home": "主目錄", "chunk": "塊" },
+        "analyzer": {
+          "title": "分析",
+          "go-up": "上一層",
+          "go-home": "主目錄",
+          "chunk": "塊"
+        },
         "sizes": {
           "stats": "統計",
           "parsed": "已解析",
           "gzip": "Gzip",
-          "help":
-            "<b>統計:</ b>來自webpack統計數據的大小。<b>解析:</ b>大小來自提取的來源（縮小插件後）。更準確。<b>Gzip:</b> gzipped提取的大小。"
+          "help": "<b>統計:</ b>來自webpack統計數據的大小。<b>解析:</ b>大小來自提取的來源（縮小插件後）。更準確。<b>Gzip:</b> gzipped提取的大小。"
         },
         "tasks": {
           "serve": {
@@ -256,31 +406,61 @@
             "name": "庫名/組件名 (預設為 package.json 的 name 或 entry 文件名)",
             "watch": "監聽變化"
           },
-          "inspect": { "description": "檢查 webpack 設定", "mode": "環境", "verbose": "完整顯示函數定義" }
+          "inspect": {
+            "description": "檢查 webpack 設定",
+            "mode": "環境",
+            "verbose": "完整顯示函數定義"
+          }
         }
       },
       "eslint": {
         "config": {
           "eslint": {
             "description": "代碼質量和偵錯",
-            "groups": { "strongly-recommended": "強烈推薦", "recommended": "推薦" }
+            "groups": {
+              "strongly-recommended": "強烈推薦",
+              "recommended": "推薦"
+            }
           },
           "eslint-extra": {
             "description": "更多設置",
-            "lintOnSave": { "message": "Lint保存", "description": "每當源文件保存時自動檢查" }
+            "lintOnSave": {
+              "message": "Lint保存",
+              "description": "每當源文件保存時自動檢查"
+            }
           }
         },
-        "tasks": { "lint": { "description": "檢查並修復源文件", "noFix": "僅檢查，不要自動修復錯誤" } }
+        "tasks": {
+          "lint": {
+            "description": "檢查並修復源文件",
+            "noFix": "僅檢查，不要自動修復錯誤"
+          }
+        }
       },
       "pwa": {
         "config": {
           "pwa": {
             "description": "漸進式Web應用程序",
-            "workboxPluginMode": { "message": "插件模式", "description": "用於設定 `workbox-webpack-plugin`" },
-            "name": { "message": "App 名", "description": "用於啟動頁顯示、 `apple-mobile-web-app-title` 等處" },
-            "themeColor": { "message": "主題色", "description": "顯示在瀏覽器中的主題色" },
-            "backgroundColor": { "message": "啟動頁背景色", "description": "啟動頁（閃屏頁）背景色" },
-            "msTileColor": { "message": "Windows 磁貼顏色", "description": "Windows 磁貼顏色" },
+            "workboxPluginMode": {
+              "message": "插件模式",
+              "description": "用於設定 `workbox-webpack-plugin`"
+            },
+            "name": {
+              "message": "App 名",
+              "description": "用於啟動頁顯示、 `apple-mobile-web-app-title` 等處"
+            },
+            "themeColor": {
+              "message": "主題色",
+              "description": "顯示在瀏覽器中的主題色"
+            },
+            "backgroundColor": {
+              "message": "啟動頁背景色",
+              "description": "啟動頁（閃屏頁）背景色"
+            },
+            "msTileColor": {
+              "message": "Windows 磁貼顏色",
+              "description": "Windows 磁貼顏色"
+            },
             "appleMobileWebAppStatusBarStyle": {
               "message": "Apple 狀態欄樣式",
               "description": "iOS webapp 狀態欄樣式"
@@ -298,7 +478,14 @@
           }
         }
       },
-      "nightwatch": { "tasks": { "test": { "description": "使用 nightwatch 執行 e2e 測試", "url": "遠端測試 URL" } } }
+      "nightwatch": {
+        "tasks": {
+          "test": {
+            "description": "使用 nightwatch 執行 e2e 測試",
+            "url": "遠端測試 URL"
+          }
+        }
+      }
     }
   }
 }
