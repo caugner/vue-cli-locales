@@ -1,6 +1,8 @@
 #!/usr/bin/env bash
 
 wget -O ./locales/ar.json https://unpkg.com/vue-cli-locale-ar/locales/ar.json
+wget -O ./locales/ca.json https://unpkg.com/vue-cli-locale-ca/locales/ca.json
+wget -O ./locales/da.json https://unpkg.com/vue-cli-locale-da/locales/da.json
 wget -O ./locales/de.json https://unpkg.com/vue-cli-locale-de/locales/de.json
 wget -O ./locales/es.json https://unpkg.com/vue-cli-locale-es/locales/es.json
 wget -O ./locales/fr.json https://unpkg.com/vue-cli-locale-fr/locales/fr.json
