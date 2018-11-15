@@ -1,7 +1,16 @@
 {
   "org": {
     "vue": {
+      "common": {
+        "close": "Закрыть",
+        "back": "Назад",
+        "more-info": "Подробнее"
+      },
       "components": {
+        "client-addon-component": {
+          "timeout": "Component load timeout",
+          "timeout-info": "The custom component takes too much time to load, there might be an error"
+        },
         "connection-status": {
           "disconnected": "Отключен от UI сервера",
           "connected": "Подключен!"
@@ -16,14 +25,14 @@
           "files-changed": "Измененные файлы",
           "search-file": "Найти файл",
           "empty": "Изменения не обнаружены",
-          "error": "Couldn't get file changes",
+          "error": "Не удалось получить изменения файла",
           "modals": {
             "commit": {
-              "title": "Commit changes",
+              "title": "Фиксировать изменения",
               "input": "Введите сообщение коммита",
               "subtitle": "Запись изменений в репозиторий",
               "actions": {
-                "commit": "Commit",
+                "commit": "Запись",
                 "cancel": "Отменить"
               }
             }
@@ -48,17 +57,17 @@
             },
             "placeholder": "Введите полный путь к папке",
             "empty": "Пока нет избранных папок.",
-            "show-hidden": "Show hidden folders"
+            "show-hidden": "Показать скрытые папки"
           },
           "new-folder": {
-            "action": "New folder",
-            "title": "Create new folder",
+            "action": "Новая папка",
+            "title": "Создать новую папку",
             "field": {
-              "title": "New folder",
-              "subtitle": "You can use the folder separator to create multiple nested folders at once."
+              "title": "Новая папка",
+              "subtitle": "Вы можете использовать разделитель папок для одновременного создания нескольких вложенных папок."
             },
-            "cancel": "Cancel",
-            "create": "Create"
+            "cancel": "Отмена",
+            "create": "Создать"
           }
         },
         "list-item-info": {
@@ -78,8 +87,9 @@
         },
         "project-nav": {
           "tooltips": {
+            "dashboard": "Информационная панель",
             "plugins": "Плагины",
-            "dependencies": "Dependencies",
+            "dependencies": "Зависимости",
             "configuration": "Конфигурация",
             "tasks": "Задачи",
             "more": "Еще"
@@ -96,7 +106,7 @@
           "tooltips": {
             "favorite": "Добавить/убрать в избранное",
             "delete": "Удалить",
-            "open-in-editor": "Open in editor"
+            "open-in-editor": "Открыть в редакторе"
           }
         },
         "project-plugin-item": {
@@ -105,23 +115,25 @@
           "official": "Официальный",
           "installed": "Установлен",
           "actions": {
-            "update": "Обновить {target}"
-          }
+            "update": "Обновить {target}",
+            "refresh": "Force Refresh {target}<br><i>Press [Shift] for Quick Refresh (node_modules won't be updated)</i>"
+          },
+          "local": "Локальный"
         },
         "project-dependency-item": {
-          "version": "version",
-          "wanted": "wanted",
-          "latest": "latest",
-          "installed": "Installed",
+          "version": "версия",
+          "wanted": "необходимо",
+          "latest": "последнее",
+          "installed": "Установлено",
           "actions": {
-            "update": "Update {target}",
-            "uninstall": "Uninstall {target}"
+            "update": "Обновить {target}",
+            "uninstall": "Удалить {target}"
           }
         },
         "project-tasks-dropdown": {
           "tooltips": {
-            "tasks": "Tasks",
-            "running-tasks": "{count} running task(s)"
+            "tasks": "Задачи",
+            "running-tasks": "{count} запущенных задач"
           }
         },
         "prompt-list": {
@@ -144,14 +156,14 @@
           },
           "report-bug": "Сообщить об ошибке",
           "translate": "Помочь перевести",
-          "dark-mode": "Toggle dark mode",
-          "reset-plugin-api": "Refresh plugins API"
+          "dark-mode": "Переключить темный режим",
+          "reset-plugin-api": "Обновить API плагинов"
         },
         "suggestion-bar": {
-          "suggestion": "Suggestion",
+          "suggestion": "Предложение",
           "modal": {
-            "cancel": "Cancel",
-            "continue": "Continue"
+            "cancel": "Отмена",
+            "continue": "Продолжить"
           }
         },
         "terminal-view": {
@@ -162,9 +174,9 @@
         },
         "top-bar": {
           "no-favorites": "Нет избранных проектов",
-          "favorite-projects": "Favorite projects",
-          "recent-projects": "Recent projects",
-          "homepage": "Home page"
+          "favorite-projects": "Избранные проекты",
+          "recent-projects": "Недавние проекты",
+          "homepage": "Домашняя страница"
         },
         "view-badge": {
           "labels": {
@@ -173,6 +185,24 @@
               "running": "Статус запуска",
               "done": "Статус готовности"
             }
+          }
+        },
+        "widget": {
+          "remove": "Удалить виджет",
+          "configure": "Настроить виджет",
+          "save": "Сохранить",
+          "reset-config": "Сбросить конфигурацию",
+          "open-details": "Показать больше"
+        },
+        "widget-add-pane": {
+          "title": "Добавить виджеты"
+        },
+        "widget-add-item": {
+          "add": "Добавить виджет",
+          "details": {
+            "title": "Детали виджета",
+            "max-instances": "Max instance count: {count}/{total}",
+            "unlimited": "неограниченно"
           }
         }
       },
@@ -190,11 +220,11 @@
           "plugin-uninstall": "Удаляем {arg0}...",
           "plugin-invoke": "Вызываем {arg0}...",
           "plugin-update": "Обновляем {arg0}...",
-          "plugins-update": "Updating {arg0} plugins...",
-          "dependency-install": "Installing {arg0}...",
-          "dependency-uninstall": "Uninstalling {arg0}...",
-          "dependency-update": "Updating {arg0}...",
-          "dependencies-update": "Updating {arg0} packages..."
+          "plugins-update": "Обновление {arg0} плагинов...",
+          "dependency-install": "Установка {arg0}...",
+          "dependency-uninstall": "Удаление {arg0}...",
+          "dependency-update": "Обновление {arg0}...",
+          "dependencies-update": "Обновление {arg0} пакетов..."
         }
       },
       "types": {
@@ -222,10 +252,11 @@
           },
           "import": {
             "no-modules": {
-              "title": "Missing modules",
+              "title": "Отсутствующие модули",
               "message": "It seems the project is missing the 'node_modules' folder. Please check you installed the dependencies before importing.",
-              "close": "Got it"
-            }
+              "close": "Понятно"
+            },
+            "force": "Import anyway"
           }
         },
         "project-create": {
@@ -236,11 +267,11 @@
               "form": {
                 "folder": {
                   "label": "Папка проекта",
-                  "placeholder": "my-app",
+                  "placeholder": "Укажите название",
                   "tooltip": "Изменить основную папку",
                   "action": "Выбрать эту папку",
-                  "folder-exists": "This folder already exists",
-                  "folder-name-invalid": "Folder name invalid"
+                  "folder-exists": "Эта папка уже существует",
+                  "folder-name-invalid": "Недопустимое имя папки"
                 },
                 "manager": {
                   "label": "Менеджер пакетов",
@@ -249,8 +280,8 @@
                 "options": {
                   "label": "Дополнительные опции",
                   "force": "Overwrite target folder if it exists",
-                  "git-title": "Git repository",
-                  "git": "Initialize git repository (recommended)",
+                  "git-title": "Репозиторий Git",
+                  "git": "Инициализировать репозиторий git (рекомендуется)",
                   "git-commit-message": "Initial commit message (optional)"
                 }
               },
@@ -291,10 +322,10 @@
                   "title": "Preset URL",
                   "subtitle": "Git repo, for example 'username/repo'. You can also prefix with 'gitlab:' or 'bitbucket:'."
                 },
-                "options": "Other options",
-                "clone": "Cloner/Private repository",
-                "cancel": "Cancel",
-                "done": "Done"
+                "options": "Другие опции",
+                "clone": "Clone/Private repository",
+                "cancel": "Отмена",
+                "done": "Готово"
               },
               "default-preset": "Пресет по-умолчанию"
             },
@@ -313,9 +344,9 @@
               }
             },
             "configuration": {
-              "title": "Configuration",
+              "title": "Конфигурация",
               "buttons": {
-                "previous": "Previous",
+                "previous": "Предыдущий",
                 "create": "Создать проект"
               },
               "modal": {
@@ -337,7 +368,7 @@
           "title": "Плагины проекта",
           "button": "Добавить плагин",
           "heading": "Установленные плагины",
-          "update-all": "Update all plugins"
+          "update-all": "Обновить все плагины"
         },
         "project-plugins-add": {
           "title": "Добавить плагин",
@@ -350,7 +381,7 @@
               "buttons": {
                 "cancel": "Отменить",
                 "install": "Установить {target}",
-                "default-install": "Install"
+                "default-install": "Установить"
               }
             },
             "configuration": {
@@ -373,6 +404,15 @@
               "cancel": "Отменить без удаления",
               "uninstall": "Удалить"
             }
+          },
+          "buttons": {
+            "add-local": "Browse local plugin"
+          }
+        },
+        "project-plugin-add-local": {
+          "title": "Add a local plugin",
+          "buttons": {
+            "add": "Add local plugin"
           }
         },
         "project-configurations": {
@@ -383,7 +423,7 @@
             "cancel": "Отменить изменения",
             "save": "Сохранить изменения",
             "more-info": "Дополнительная информация",
-            "refresh": "Refresh"
+            "refresh": "Обновить"
           }
         },
         "project-tasks": {
@@ -393,38 +433,46 @@
           "actions": {
             "play": "Запустить задачу",
             "stop": "Остановить задачу",
-            "close": "Закрыть"
+            "close": "Закрыть",
+            "save": "Сохранить"
           },
           "command": "Команда скрипта",
           "parameters": "Параметры",
-          "parameters-info": "Параметры будут сохранены при выполнении задачи.",
           "more-info": "Дополнительная информация",
           "output": "Вывод"
         },
         "project-dependencies": {
-          "title": "Project dependencies",
+          "title": "Зависимости проекта",
           "heading": {
-            "dependencies": "Main dependencies",
-            "devDependencies": "Development dependencies"
+            "dependencies": "Основные зависимости",
+            "devDependencies": "Зависимости для разработки"
           },
           "actions": {
-            "install": "Install dependency",
+            "install": "Установить зависимость",
             "update-all": "Update all dependencies"
           },
           "install": {
-            "title": "Install new dependency"
+            "title": "Установить новую зависимость"
           },
           "uninstall": {
             "title": "Confirm uninstall",
             "body": "Are you sure you want to uninstall {id}?",
-            "cancel": "Cancel",
-            "uninstall": "Uninstall {id}"
+            "cancel": "Отмена",
+            "uninstall": "Удалить {id}"
           }
+        },
+        "project-dashboard": {
+          "title": "Информационная панель проекта",
+          "cutomize": "Customize",
+          "done": "Готово"
+        },
+        "settings": {
+          "title": "Настройки"
         },
         "about": {
           "title": "О Vue-cli UI",
           "description": "<a href=\"https://github.com/vuejs/vue-cli/tree/dev/packages/%40vue/cli-ui\" target=\"_blank\">@vue/cli-ui</a> это встроенное расширение vue-cli, предоставляющее полноценный пользовательский интерфейс.",
-          "quote": "Vue-cli 3.x is a complete rewrite, with a lot of new awesome features. You will be to select features like routing, Vuex or Typescript, then add and upgrade building blocks called \"vue-cli plugins\". But having so much more options also means the tool is now more complex and harder to start using. That's why we thought having a full-blown GUI would help discover the new features, search and install vue-cli plugins and unlock more possibilities overall while not being limited by a terminal interface. To sum up, vue-cli will not only allow you to bootstrap a new project easily, but it will also remain useful for ongoing work afterwards!",
+          "quote": "Vue-cli 3.x - это полностью переписан, с множеством новых потрясающих функций. Вы сможете выбирать такие функции, как маршрутизация, Vuex или Typecript, а затем добавлять и обновлять блоки, называемые «vue-cli плагины». Но наличие гораздо большего количества опций также означает, что теперь инструмент становится более сложным и сложнее начать использовать. Вот почему мы думали, что полномасштабный графический интерфейс поможет обнаружить новые функции, найти и установить «vue-cli плагины» и разблокировать больше возможностей в целом, не ограничиваясь интерфейсом терминала. Подводя итог, vue-cli не только позволит вам легко загружать новый проект, но он также будет полезен для дальнейшей работы после этого!",
           "links": "Полезные ссылки",
           "back": "Назад"
         }
@@ -432,18 +480,18 @@
       "cli-service": {
         "suggestions": {
           "vue-router-add": {
-            "label": "Add vue-router",
+            "label": "Добавить vue-router",
             "message": "Official library to support multiple virtual pages in a Single-Page App. Each route renders a different component."
           },
           "vuex-add": {
-            "label": "Add vuex",
+            "label": "Добавить vuex",
             "message": "Official centralized State Management solution for large-scale apps. Very useful if multiple components need to access the same data."
           },
           "vue-devtools": {
-            "label": "Install devtools",
+            "label": "Установить инструменты разработки",
             "message": "Browser devtools official extension for debugging Vue.js applications where you can inspect your components, vuex store and events."
           },
-          "progress": "Installing {arg0}..."
+          "progress": "Установка {arg0}..."
         }
       },
       "vue-webpack": {
@@ -514,7 +562,7 @@
             "name": "Имя библиотеки или режим web-компоненты (по-умолчанию: 'name' в package.json или название файла)",
             "watch": "Следить за изменениями",
             "modern": {
-              "label": "Modern mode",
+              "label": "Современный режим",
               "description": "Build app targeting modern browsers with auto fallback"
             }
           },
@@ -526,13 +574,13 @@
         },
         "config": {
           "vue-cli": {
-            "description": "Configure your Vue project",
+            "description": "Настроить проект Vue",
             "groups": {
-              "general": "General settings",
-              "css": "CSS settings"
+              "general": "Основные настройки",
+              "css": "Настройки CSS"
             },
             "baseUrl": {
-              "label": "Base URL",
+              "label": "Базовый URL",
               "description": "The base URL your application will be deployed at, for example '/my-app/'. Use an empty string ('') so that all assets are linked using relative paths."
             },
             "outputDir": {
@@ -544,7 +592,7 @@
               "description": "A directory to nest generated static assets (js, css, img, fonts) under."
             },
             "runtimeCompiler": {
-              "label": "Enable runtime compiler",
+              "label": "Включить компиляцию во время выполнения",
               "description": "This will allow you to use the template option in Vue components, but will incur around an extra 10kb payload for your app."
             },
             "productionSourceMap": {
@@ -552,16 +600,16 @@
               "description": "Disabling this can speed up production builds if you don't need source maps for production"
             },
             "parallel": {
-              "label": "Parallel compilation",
+              "label": "Параллельная компиляция",
               "description": "Whether to use multiple processors to compile Babel or Typescript."
             },
             "css": {
               "modules": {
-                "label": "Enable CSS Modules",
+                "label": "Включить CSS модули",
                 "description": "By default, only files that ends in *.module.[ext] are treated as CSS modules. Enabling this will treat all style files as CSS modules."
               },
               "extract": {
-                "label": "Extract CSS",
+                "label": "Извлечь CSS",
                 "description": "Whether to extract CSS in your components into a standalone CSS files (instead of inlined in JavaScript and injected dynamically)."
               },
               "sourceMap": {
@@ -572,7 +620,7 @@
           }
         },
         "suggestions": {
-          "vue-config-open": "Open vue config"
+          "vue-config-open": "Открыть конфигурацию Vue"
         }
       },
       "eslint": {
@@ -580,18 +628,31 @@
           "eslint": {
             "description": "Проверка на ошибки & качество кода",
             "groups": {
+              "base": "Основание",
+              "essential": "Основной",
               "strongly-recommended": "Настоятельно рекомедуется",
-              "recommended": "Рекомендуется"
+              "recommended": "Рекомендуется",
+              "uncategorized": "Без категории"
             },
-            "vue": {
-              "label": "Vue"
+            "setting": {
+              "off": "выкл",
+              "error": "Ошибка",
+              "warning": "Предупреждение",
+              "custom": "Настраиваемый"
             },
-            "extra": {
-              "label": "Extra",
+            "general": {
+              "label": "Основное",
               "lintOnSave": {
-                "message": "Lint on save",
-                "description": "Automatically lint source files when saved"
+                "message": "Проверка при сохранении",
+                "description": "Автоматическая проверка файлов при сохранении"
+              },
+              "config": {
+                "message": "Выбрать настройку",
+                "description": "Выберите предварительную конфигурацию"
               }
+            },
+            "rules": {
+              "label": "Правила"
             }
           }
         },
@@ -603,7 +664,7 @@
         },
         "suggestions": {
           "open-eslintrc": {
-            "label": "Open eslintrc"
+            "label": "Открыть eslintrc"
           }
         }
       },
@@ -639,7 +700,7 @@
         },
         "suggestions": {
           "open-vue": {
-            "label": "Open vue config"
+            "label": "Открыть конфигурацию Vue"
           },
           "open-manifest": {
             "label": "Open manifest"
@@ -669,9 +730,9 @@
       "jest": {
         "tasks": {
           "test": {
-            "description": "Run unit tests with Jest",
+            "description": "Запустить юнит тесты используя Jest",
             "watch": "Watch files for changes and rerun tests related to changed files",
-            "notify": "Display a notification after each run",
+            "notify": "Отображать уведомление после каждого запуска",
             "update": "Re-record every snapshot that fails during this test run"
           }
         }
@@ -679,8 +740,98 @@
       "mocha": {
         "tasks": {
           "test": {
-            "description": "Run unit tests with Mocha",
+            "description": "Запустить юнит тесты используя Mocha",
             "watch": "Watch files for changes and rerun tests related to changed files"
+          }
+        }
+      },
+      "widgets": {
+        "welcome": {
+          "title": "Welcome tips",
+          "description": "Some tips to help you get started",
+          "content": {
+            "title": "Welcome to your new project!",
+            "tip1": "You are looking at the project dashboard where your can put widgets. Use the 'Customize' button to add more! Everything is automatically saved.",
+            "tip2": "On the left are the different available pages. 'Plugins' let you add new Vue CLI plugins, 'Dependencies' for managing the packages, 'Configuration' to configure the tools and 'Tasks' to run scripts (for example webpack).",
+            "tip3": "Return to the project manager with the dropdown at the top left of the screen or the home button in the status bar at the bottom.",
+            "ok": "Understood"
+          }
+        },
+        "kill-port": {
+          "title": "Убить порт",
+          "description": "Kill processes using a specific network port",
+          "input": {
+            "placeholder": "Enter a network port"
+          },
+          "kill": "Убить",
+          "status": {
+            "idle": "Ready to kill",
+            "killing": "Killing procress...",
+            "killed": "Killed successfully!",
+            "error": "Couldn't kill process"
+          }
+        },
+        "status-widget": {
+          "last-updated": "Обновлено",
+          "never": "Еще не обновлено",
+          "check": "Проверить на наличие обновлений",
+          "more-info": "Подробнее"
+        },
+        "plugin-updates": {
+          "title": "Обнвления плагина",
+          "description": "Отслеживать обнвления плагина",
+          "messages": {
+            "ok": "All plugins up-to-date",
+            "loading": "Проверка на наличие обновлений ...",
+            "attention": "В наличии {n} обновлений для плагинов"
+          },
+          "page": "Перейти к плагинам"
+        },
+        "dependency-updates": {
+          "title": "Обновление зависимостей",
+          "description": "Отслеживать обновление зависимостей",
+          "messages": {
+            "ok": "All dependencies up-to-date",
+            "loading": "Проверка на наличие обновлений ...",
+            "attention": "В наличии {n} обновлений для зависимостей"
+          },
+          "page": "Перейти к Зависимостям"
+        },
+        "vulnerability": {
+          "title": "Проверка на уязвимость",
+          "description": "Проверка на наличие известных уязвимостей в зависимостях проекта",
+          "messages": {
+            "ok": "Уязвимость не найдена",
+            "loading": "Checking security reports...",
+            "attention": "Найдено {n} уязвимостей"
+          },
+          "severity": {
+            "high": "Высокая точность",
+            "medium": "Средняя точность",
+            "low": "Низкая точность"
+          },
+          "direct-dep": "Прямая зависимость"
+        },
+        "run-task": {
+          "title": "Запустить задачу",
+          "description": "Shortcut to run a task",
+          "prompts": {
+            "task": "Выбрать задачу"
+          },
+          "page": "Перейти к Задаче"
+        },
+        "news": {
+          "title": "News feed",
+          "description": "Read news feed",
+          "refresh": "Обновить принудительно",
+          "select-tip": "Select an item on the left",
+          "prompts": {
+            "url": "RSS feed URL or GitHub repository"
+          },
+          "errors": {
+            "fetch": "Couldn't fetch feed",
+            "offline": "You are offline",
+            "empty": "Empty feed"
           }
         }
       }

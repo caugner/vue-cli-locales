@@ -1,9 +1,18 @@
 {
   "org": {
     "vue": {
+      "common": {
+        "close": "Kapat",
+        "back": "Geri dön",
+        "more-info": "Daha fazla bilgi"
+      },
       "components": {
+        "client-addon-component": {
+          "timeout": "Bileşen yüklenemedi",
+          "timeout-info": "Özel bileşenin yüklenmesi çok uzun sürdü, problem yaşanmış olabilir."
+        },
         "connection-status": {
-          "disconnected": "UI sunucusuna olan bağlantı koptu.",
+          "disconnected": "Arayüz sunucusuna olan bağlantı koptu.",
           "connected": "Bağlantı kuruldu!"
         },
         "file-diff": {
@@ -13,10 +22,10 @@
           }
         },
         "file-diff-view": {
-          "files-changed": "Files changed",
-          "search-file": "Search file",
+          "files-changed": "Değişen dosyalar",
+          "search-file": "Dosya ara",
           "empty": "Değişiklik bulunamadı",
-          "error": "Couldn't get file changes",
+          "error": "Dosya değişiklikleri alınamadı",
           "modals": {
             "commit": {
               "title": "Değişiklikleri gönder",
@@ -52,13 +61,13 @@
           },
           "new-folder": {
             "action": "Yeni klasör",
-            "title": "Yeni klasör oluştur",
+            "title": "Yeni klasör yarat",
             "field": {
               "title": "Yeni klasör",
-              "subtitle": "Aynı anda birden çok iç içe geçmiş klasör oluşturmak için klasör ayırıcısını kullanabilirsiniz."
+              "subtitle": "Tek seferde iç içe geçmiş klasör yaratmak için klasör ayrıştırıcı kullanabilirsiniz"
             },
             "cancel": "İptal",
-            "create": "Oluştur"
+            "create": "Yarat"
           }
         },
         "list-item-info": {
@@ -66,7 +75,7 @@
         },
         "logger-view": {
           "title": "Geçmiş",
-          "empty": "Geçmiş kaydı yok",
+          "empty": "Henüz log yok",
           "buttons": {
             "clear": "Geçmişi temizle",
             "scroll": "Alta kaydır",
@@ -78,6 +87,7 @@
         },
         "project-nav": {
           "tooltips": {
+            "dashboard": "Dashboard",
             "plugins": "Eklentiler",
             "dependencies": "Bağımlılıklar",
             "configuration": "Yapılandırma",
@@ -95,8 +105,8 @@
         "project-select-list-item": {
           "tooltips": {
             "favorite": "Sık kullanılan ekle/kaldır",
-            "delete": "Listeden Kaldır",
-            "open-in-editor": "Editörde aç"
+            "delete": "Sil",
+            "open-in-editor": "Düzenleyici ile aç"
           }
         },
         "project-plugin-item": {
@@ -105,74 +115,94 @@
           "official": "Resmi",
           "installed": "Yüklendi",
           "actions": {
-            "update": "Güncelle {target}"
-          }
+            "update": "Güncelle {target}",
+            "refresh": "Force Refresh {target}<br><i>Press [Shift] for Quick Refresh (node_modules won't be updated)</i>"
+          },
+          "local": "Local"
         },
         "project-dependency-item": {
-          "version": "version",
+          "version": "versiyon",
           "wanted": "wanted",
-          "latest": "latest",
-          "installed": "Installed",
+          "latest": "en son",
+          "installed": "Yüklendi",
           "actions": {
-            "update": "Update {target}",
-            "uninstall": "Uninstall {target}"
+            "update": "{target} güncelle",
+            "uninstall": "{target} sil"
           }
         },
         "project-tasks-dropdown": {
           "tooltips": {
-            "tasks": "Tasks",
-            "running-tasks": "{count} running task(s)"
+            "tasks": "Görevler",
+            "running-tasks": "{count} görev çalışıyor"
           }
         },
         "prompt-list": {
-          "default": "Default"
+          "default": "Varsayılan"
         },
         "prompts-list": {
-          "empty": "No configuration"
+          "empty": "Yapılandırma yok"
         },
         "status-bar": {
           "project": {
-            "tooltip": "Click to toggle Project Manager",
-            "empty": "No project open"
+            "tooltip": "Geçerli proje<br><i>Proje yöneticisini açmak/kapatmak için tıklayın</i>",
+            "empty": "Proje yok"
           },
           "path": {
-            "tooltip": "Current Working Folder"
+            "tooltip": "Geçerli çalışma dizini"
           },
           "log": {
-            "tooltip": "Logs<br><i>Click to toggle Vue CLI logs</i>",
-            "empty": "No logs yet"
+            "tooltip": "Geçmiş<br><i>Vue CLI geçmişini açmak/kapatmak için tıklayın</i>",
+            "empty": "Geçmiş kaydı yok"
           },
-          "report-bug": "Report bug",
-          "translate": "Help translate",
-          "dark-mode": "Toggle dark mode",
+          "report-bug": "Hata bildir",
+          "translate": "Çeviriye yardım et",
+          "dark-mode": "Karanlık modu değiştir",
           "reset-plugin-api": "Refresh plugins API"
         },
         "suggestion-bar": {
-          "suggestion": "Suggestion",
+          "suggestion": "Öneri",
           "modal": {
-            "cancel": "Cancel",
-            "continue": "Continue"
+            "cancel": "İptal et",
+            "continue": "Devam et"
           }
         },
         "terminal-view": {
           "buttons": {
-            "clear": "Clear console",
-            "scroll": "Scroll to bottom"
+            "clear": "Konsolu temizle",
+            "scroll": "Alta kaydır"
           }
         },
         "top-bar": {
-          "no-favorites": "No favorite projects",
-          "favorite-projects": "Favorite projects",
-          "recent-projects": "Recent projects",
-          "homepage": "Home page"
+          "no-favorites": "Sık kullanılan proje yok",
+          "favorite-projects": "Favori projeler",
+          "recent-projects": "Son projeler",
+          "homepage": "Ana sayfa"
         },
         "view-badge": {
           "labels": {
             "tasks": {
-              "error": "Error status",
-              "running": "Running status",
-              "done": "Done status"
+              "error": "Hata durumu",
+              "running": "Çalışma durumu",
+              "done": "Tamamlanma durumu"
             }
+          }
+        },
+        "widget": {
+          "remove": "Parçacığı sil",
+          "configure": "Parçacığı ayarla",
+          "save": "Kaydet",
+          "reset-config": "Ayarları sıfırla",
+          "open-details": "Show more"
+        },
+        "widget-add-pane": {
+          "title": "Parçacıklar ekle"
+        },
+        "widget-add-item": {
+          "add": "Parçacık ekle",
+          "details": {
+            "title": "Parçacık detayı",
+            "max-instances": "Max instance count: {count}/{total}",
+            "unlimited": "limitsiz"
           }
         }
       },
@@ -191,10 +221,10 @@
           "plugin-invoke": "{arg0} çalıştırılıyor...",
           "plugin-update": "{arg0} güncelleniyor...",
           "plugins-update": "Updating {arg0} plugins...",
-          "dependency-install": "{arg0} yükleniyor...",
-          "dependency-uninstall": "{arg0} kaldırılıyor...",
-          "dependency-update": "{arg0} güncelleniyor...",
-          "dependencies-update": "{arg0} paketi güncelleniyor..."
+          "dependency-install": "Installing {arg0}...",
+          "dependency-uninstall": "Uninstalling {arg0}...",
+          "dependency-update": "Updating {arg0}...",
+          "dependencies-update": "Updating {arg0} packages..."
         }
       },
       "types": {
@@ -222,10 +252,11 @@
           },
           "import": {
             "no-modules": {
-              "title": "Eksik modül(ler)",
-              "message": "Projenin 'node_modules' klasörü eksik görünüyor. Lütfen içe aktarmadan önce bağımlılıkları kurduğunuzdan emin olun.",
+              "title": "Missing modules",
+              "message": "It seems the project is missing the 'node_modules' folder. Please check you installed the dependencies before importing.",
               "close": "Got it"
-            }
+            },
+            "force": "Import anyway"
           }
         },
         "project-create": {
@@ -236,11 +267,11 @@
               "form": {
                 "folder": {
                   "label": "Proje klasörü",
-                  "placeholder": "my-app",
+                  "placeholder": "Type a name",
                   "tooltip": "Temel klasörü değiştir",
                   "action": "Bu klasörü seç",
-                  "folder-exists": "Bu klasör zaten mevcut",
-                  "folder-name-invalid": "Klasör ismi geçersiz"
+                  "folder-exists": "This folder already exists",
+                  "folder-name-invalid": "Folder name invalid"
                 },
                 "manager": {
                   "label": "Paket yöneticisi",
@@ -249,7 +280,7 @@
                 "options": {
                   "label": "Ek seçenekler",
                   "force": "Varsa hedef klasörün üzerine yaz",
-                  "git-title": "Git deposu",
+                  "git-title": "Git repository",
                   "git": "Git deposunu başlat (önerilir)",
                   "git-commit-message": "İlk işlem mesajı (isteğe bağlı)"
                 }
@@ -268,101 +299,101 @@
               }
             },
             "presets": {
-              "title": "Presets",
-              "description": "A preset is an association of plugins and configurations. After you've selected features, you can optionally save it as a preset so that you can reuse it for future projects, without having to reconfigure everything again.",
-              "select": "Select a preset",
+              "title": "Şablon ayarları",
+              "description": "Şablon, eklenti ve yapılandırmaların birleşimidir. Özellikleri seçtikten sonra isteğe bağlı olarak bir şablon olarak kaydedebilir, böylece her şeyi yeniden yapılandırmak zorunda kalmadan gelecekteki projeler için yeniden kullanabilirsiniz.",
+              "select": "Bir şablon seçin",
               "buttons": {
-                "previous": "Previous",
-                "next": "Next",
-                "create": "Create Project"
+                "previous": "Önceki",
+                "next": "Sonraki",
+                "create": "Proje Oluştur"
               },
               "modal": {
-                "title": "Configure Remote preset",
-                "body": "Available soon..."
+                "title": "Sunucu şablonlarını yapılandır",
+                "body": "Yakında..."
               },
               "manual": {
-                "name": "Manual",
-                "description": "Manually select features"
+                "name": "El ile",
+                "description": "Özellikleri el ile seç"
               },
               "remote": {
-                "name": "Remote preset",
-                "description": "Fetch a preset from a git repository",
+                "name": "Sunucu şablonları",
+                "description": "Git deposundan şablon al",
                 "url": {
                   "title": "Preset URL",
                   "subtitle": "Git repo, for example 'username/repo'. You can also prefix with 'gitlab:' or 'bitbucket:'."
                 },
                 "options": "Other options",
-                "clone": "Cloner/Private repository",
+                "clone": "Clone/Private repository",
                 "cancel": "Cancel",
                 "done": "Done"
               },
-              "default-preset": "Default preset"
+              "default-preset": "Varsayılan şablon"
             },
             "features": {
-              "title": "Features",
-              "description": "You will be able to add features after the project is created by installing plugins.",
-              "enable": "Enable features",
+              "title": "Özellikler",
+              "description": "Eklentileri yükleyerek proje oluşturulduktan sonra özellikler ekleyebileceksiniz.",
+              "enable": "Özellikleri etkinleştir",
               "buttons": {
-                "previous": "Previous",
-                "next": "Next",
-                "create": "Create Project"
+                "previous": "Önceki",
+                "next": "Sonraki",
+                "create": "Proje Oluştur"
               },
               "userConfigFiles": {
-                "name": "Use config files",
-                "description": "Use specific configuration files (like '.babelrc') instead of using 'package.json'."
+                "name": "Yapılandırma dosyası kullan",
+                "description": "'Package.json' yerine farklı bir yapılandırma dosyası ('.babelrc' gibi) kullanın."
               }
             },
             "configuration": {
-              "title": "Configuration",
+              "title": "Yapılandırma",
               "buttons": {
-                "previous": "Previous",
-                "create": "Create Project"
+                "previous": "Önceki",
+                "create": "Proje Oluştur"
               },
               "modal": {
-                "title": "Save as a new preset",
+                "title": "Yeni bir ön ayar olarak kaydet",
                 "body": {
-                  "title": "Preset name",
-                  "subtitle": "Save the features and configuration into a new preset"
+                  "title": "Ön ayar adı",
+                  "subtitle": "Özellikleri ve yapılandırmayı yeni bir önayara kaydet"
                 },
                 "buttons": {
-                  "cancel": "Cancel",
-                  "continue": "Continue without saving",
-                  "create": "Create a new preset"
+                  "cancel": "Vazgeç",
+                  "continue": "Kaydetmeden devam et",
+                  "create": "Yeni bir şablon oluştur"
                 }
               }
             }
           }
         },
         "project-plugins": {
-          "title": "Project plugins",
-          "button": "Add plugin",
-          "heading": "Installed plugins",
-          "update-all": "Update all plugins"
+          "title": "Proje eklentileri",
+          "button": "Eklenti yükle",
+          "heading": "Yüklü eklentiler",
+          "update-all": "Tüm eklentileri güncelle"
         },
         "project-plugins-add": {
-          "title": "Add a plugin",
+          "title": "Bir eklenti yükle",
           "plugin": "plugin",
           "tabs": {
             "search": {
-              "label": "Search",
-              "search-input": "Search a plugin",
-              "not-found": "No results found",
+              "label": "Ara",
+              "search-input": "Bir eklenti ara",
+              "not-found": "Sonuç bulunamadı",
               "buttons": {
-                "cancel": "Cancel",
-                "install": "Install {target}",
+                "cancel": "Vazgeç",
+                "install": "{target}'i yükle",
                 "default-install": "Install"
               }
             },
             "configuration": {
-              "label": "Configuration",
+              "label": "Yapılandırma",
               "heading": "Installation of {target}",
               "buttons": {
-                "cancel": "Cancel",
-                "finish": "Finish installation"
+                "cancel": "Vazgeç",
+                "finish": "Kurulumu tamamla"
               }
             },
             "diff": {
-              "label": "Files changed"
+              "label": "Dosyalar değişti"
             }
           },
           "modal": {
@@ -373,33 +404,42 @@
               "cancel": "Cancel without uninstalling",
               "uninstall": "Uninstall"
             }
+          },
+          "buttons": {
+            "add-local": "Browse local plugin"
+          }
+        },
+        "project-plugin-add-local": {
+          "title": "Add a local plugin",
+          "buttons": {
+            "add": "Add local plugin"
           }
         },
         "project-configurations": {
-          "title": "Project configuration"
+          "title": "Proje yapılandırması"
         },
         "project-configuration-details": {
           "actions": {
-            "cancel": "Cancel changes",
-            "save": "Save changes",
-            "more-info": "More info",
-            "refresh": "Refresh"
+            "cancel": "Değişiklikleri iptal et",
+            "save": "Değişiklikleri Kaydet",
+            "more-info": "Daha Fazla Bilgi",
+            "refresh": "Yenile"
           }
         },
         "project-tasks": {
-          "title": "Project tasks"
+          "title": "Proje Görevleri"
         },
         "project-task-details": {
           "actions": {
-            "play": "Run task",
-            "stop": "Stop task",
-            "close": "Close",
+            "play": "Görevi çalıştır",
+            "stop": "Görevi durdur",
+            "close": "Kapat",
             "save": "Save"
           },
           "command": "Script command",
-          "parameters": "Parameters",
-          "more-info": "More Info",
-          "output": "Output"
+          "parameters": "Parametreler",
+          "more-info": "Daha Fazla Bilgi",
+          "output": "Çıktı"
         },
         "project-dependencies": {
           "title": "Project dependencies",
@@ -421,57 +461,65 @@
             "uninstall": "Uninstall {id}"
           }
         },
+        "project-dashboard": {
+          "title": "Project dashboard",
+          "cutomize": "Customize",
+          "done": "Done"
+        },
+        "settings": {
+          "title": "Settings"
+        },
         "about": {
-          "title": "About",
+          "title": "Hakkında",
           "description": "<a href=\"https://github.com/vuejs/vue-cli/tree/dev/packages/%40vue/cli-ui\" target=\"_blank\">@vue/cli-ui</a> is a built-in package of vue-cli which opens a full-blown UI.",
-          "quote": "Vue-cli 3.x is a complete rewrite, with a lot of new awesome features. You will be to select features like routing, Vuex or Typescript, then add and upgrade building blocks called \"vue-cli plugins\". But having so much more options also means the tool is now more complex and harder to start using. That's why we thought having a full-blown GUI would help discover the new features, search and install vue-cli plugins and unlock more possibilities overall while not being limited by a terminal interface. To sum up, vue-cli will not only allow you to bootstrap a new project easily, but it will also remain useful for ongoing work afterwards!",
-          "links": "Useful links",
-          "back": "Go back"
+          "quote": "Vue-cli 3.x is a complete rewrite, with a lot of new awesome features. You will be able to select features like routing, Vuex or Typescript, then add and upgrade building blocks called \"vue-cli plugins\". But having so much more options also means the tool is now more complex and harder to start using. That's why we thought having a full-blown GUI would help discover the new features, search and install vue-cli plugins and unlock more possibilities overall while not being limited by a terminal interface. To sum up, vue-cli will not only allow you to bootstrap a new project easily, but it will also remain useful for ongoing work afterwards!",
+          "links": "Faydalı bağlantılar",
+          "back": "Geri dön"
         }
       },
       "cli-service": {
         "suggestions": {
           "vue-router-add": {
-            "label": "Add vue-router",
-            "message": "Official library to support multiple virtual pages in a Single-Page App. Each route renders a different component."
+            "label": "Vue-router'ı Ekle",
+            "message": "SPA uygulamanızda birden fazla sanal sayfayı yönetmek için resmi kütüphane. Tanımlnan her rota farklı bir bileşeni sunar."
           },
           "vuex-add": {
-            "label": "Add vuex",
-            "message": "Official centralized State Management solution for large-scale apps. Very useful if multiple components need to access the same data."
+            "label": "Vuex'i Ekle",
+            "message": "Büyük ölçekli uygulamalar için resmi merkezi veri yönetimi çözümü. Birden fazla bileşenin aynı verilere erişmesi gerektiğinde çok faydalıdır."
           },
           "vue-devtools": {
-            "label": "Install devtools",
-            "message": "Browser devtools official extension for debugging Vue.js applications where you can inspect your components, vuex store and events."
+            "label": "Geliştirici araçlarını yükle",
+            "message": "Bileşenlerinizi, vuex depolarınızı ve olaylarınızı inceleyebileceğiniz ayrıca Vue.js uygulamanızda hata ayıklaması yapabileceğiniz resmi tarayıcı uzantısı."
           },
-          "progress": "Installing {arg0}..."
+          "progress": "Yükleniyor {arg0}..."
         }
       },
       "vue-webpack": {
         "dashboard": {
-          "title": "Dashboard",
-          "open-app": "Open app",
+          "title": "Pano",
+          "open-app": "Uygulamayı aç",
           "webpack-status": {
-            "Success": "Success",
-            "Failed": "Failed",
-            "Compiling": "Compiling",
-            "Invalidated": "Invalidated",
-            "Idle": "Idle"
+            "Success": "Başarılı",
+            "Failed": "Hata oluştu",
+            "Compiling": "Derleniyor",
+            "Invalidated": "Geçersiz",
+            "Idle": "Boşta"
           },
           "build-status": {
             "labels": {
-              "status": "Status",
-              "errors": "Errors",
-              "warnings": "Warnings",
+              "status": "Durum",
+              "errors": "Hatalar",
+              "warnings": "Uyarılar",
               "assets": "Assets",
-              "modules": "Modules",
-              "deps": "Dependencies"
+              "modules": "Modüller",
+              "deps": "Bağımlılıklar"
             }
           },
           "speed-stats": {
-            "title": "Speed stats"
+            "title": "Hız istatistikleri"
           },
           "module-list": {
-            "title": "Dependencies"
+            "title": "Bağımlılıklar"
           },
           "asset-list": {
             "title": "Assets",
@@ -479,9 +527,9 @@
           }
         },
         "analyzer": {
-          "title": "Analyzer",
-          "go-up": "Go up",
-          "go-home": "Go to home",
+          "title": "Çözümleyici",
+          "go-up": "Yukarı git",
+          "go-home": "Başa dön",
           "chunk": "Chunk"
         },
         "sizes": {
@@ -493,35 +541,35 @@
         "modern-mode": "Show modern build",
         "tasks": {
           "serve": {
-            "description": "Compiles and hot-reloads for development",
-            "open": "Open browser on server start",
-            "mode": "Specify env mode",
-            "host": "Specify host",
-            "port": "Specify port",
-            "https": "Use HTTPS"
+            "description": "Geliştirme için derleme ve yeniden yükleme",
+            "open": "Sunucu başlatıldığında tarayıcıyı aç",
+            "mode": "Env modunu belirt",
+            "host": "Host'u belirt",
+            "port": "Port'u belirt",
+            "https": "HTTPS kullan"
           },
           "build": {
-            "description": "Compiles and minifies for production",
-            "mode": "Specify env mode",
-            "dest": "Output directory",
+            "description": "Üretim için derleme ve sıkıştırma",
+            "mode": "Env modunu belirt",
+            "dest": "Çıktı dizini",
             "target": {
               "description": "Build target",
-              "app": "Web app",
-              "lib": "Library",
-              "wc": "Web component",
-              "wc-async": "Async web component"
+              "app": "Web uygulaması",
+              "lib": "Kütüphane",
+              "wc": "Web bileşeni",
+              "wc-async": "Async web bileşeni"
             },
             "name": "Name for library or web-component mode (default: 'name' in package.json or entry filename)",
-            "watch": "Watch for changes",
+            "watch": "Değişiklikleri izle",
             "modern": {
               "label": "Modern mode",
               "description": "Build app targeting modern browsers with auto fallback"
             }
           },
           "inspect": {
-            "description": "Inspect the resolved webpack config",
-            "mode": "Specify env mode",
-            "verbose": "Show full function definitions in output"
+            "description": "Webpack yapılandırmasını inceleyin",
+            "mode": "Env modunu belirt",
+            "verbose": "Oluşturulacak çıktıda tam işlev tanımlarını göster"
           }
         },
         "config": {
@@ -578,12 +626,12 @@
       "eslint": {
         "config": {
           "eslint": {
-            "description": "Error checking & Code quality",
+            "description": "Hata kontrolü & kod kalitesi",
             "groups": {
               "base": "Base",
               "essential": "Essential",
-              "strongly-recommended": "Strongly recommended",
-              "recommended": "Recommended",
+              "strongly-recommended": "Kesinlikle önerilir",
+              "recommended": "Önerilir",
               "uncategorized": "Uncategorized"
             },
             "setting": {
@@ -610,13 +658,13 @@
         },
         "tasks": {
           "lint": {
-            "description": "Lints and fixes files",
-            "noFix": "Do not fix errors"
+            "description": "Dosyaları denetle ve düzelt",
+            "noFix": "Hataları düzeltme"
           }
         },
         "suggestions": {
           "open-eslintrc": {
-            "label": "Open eslintrc"
+            "label": "Eslintrc dosyasını aç"
           }
         }
       },
@@ -652,10 +700,10 @@
         },
         "suggestions": {
           "open-vue": {
-            "label": "Open vue config"
+            "label": "Vue yapılandırma dosyasını aç"
           },
           "open-manifest": {
-            "label": "Open manifest"
+            "label": "Manifest dosyasını aç"
           }
         }
       },
@@ -672,7 +720,7 @@
       "nightwatch": {
         "tasks": {
           "test": {
-            "description": "Run e2e tests with nightwatch",
+            "description": "Nightwatch ile uçtan uca testleri (e2e) çalıştırın",
             "url": "Run e2e tests against given url instead of auto-starting dev server",
             "config": "Use custom nightwatch config file (overrides internals)",
             "env": "Comma-delimited browser envs to run in"
@@ -692,8 +740,98 @@
       "mocha": {
         "tasks": {
           "test": {
-            "description": "Run unit tests with Mocha",
-            "watch": "Watch files for changes and rerun tests related to changed files"
+            "description": "Mocha ile birim testlerini çalıştır",
+            "watch": "Değişiklik yapılan dosyaları izleyin ve değiştirilen dosyalarla ilgili olan testleri yeniden çalıştırın"
+          }
+        }
+      },
+      "widgets": {
+        "welcome": {
+          "title": "Welcome tips",
+          "description": "Some tips to help you get started",
+          "content": {
+            "title": "Welcome to your new project!",
+            "tip1": "You are looking at the project dashboard where your can put widgets. Use the 'Customize' button to add more! Everything is automatically saved.",
+            "tip2": "On the left are the different available pages. 'Plugins' let you add new Vue CLI plugins, 'Dependencies' for managing the packages, 'Configuration' to configure the tools and 'Tasks' to run scripts (for example webpack).",
+            "tip3": "Return to the project manager with the dropdown at the top left of the screen or the home button in the status bar at the bottom.",
+            "ok": "Understood"
+          }
+        },
+        "kill-port": {
+          "title": "Kill port",
+          "description": "Kill processes using a specific network port",
+          "input": {
+            "placeholder": "Enter a network port"
+          },
+          "kill": "Kill",
+          "status": {
+            "idle": "Ready to kill",
+            "killing": "Killing procress...",
+            "killed": "Killed successfully!",
+            "error": "Couldn't kill process"
+          }
+        },
+        "status-widget": {
+          "last-updated": "Updated",
+          "never": "Not updated yet",
+          "check": "Check for updates",
+          "more-info": "More details"
+        },
+        "plugin-updates": {
+          "title": "Plugin updates",
+          "description": "Monitor plugin updates",
+          "messages": {
+            "ok": "All plugins up-to-date",
+            "loading": "Checking for updates...",
+            "attention": "{n} plugin updates available"
+          },
+          "page": "Go to Plugins"
+        },
+        "dependency-updates": {
+          "title": "Dependency updates",
+          "description": "Monitor dependencies updates",
+          "messages": {
+            "ok": "Tüm bağımlılıklar güncel",
+            "loading": "Güncellemeler kontrol ediliyor...",
+            "attention": "{n} dependency updates available"
+          },
+          "page": "Go to Dependencies"
+        },
+        "vulnerability": {
+          "title": "Açık kontrolü",
+          "description": "Check for known vulnerabilities in your project dependencies",
+          "messages": {
+            "ok": "Açık bulunamadı",
+            "loading": "Checking security reports...",
+            "attention": "{n} açık bulundu"
+          },
+          "severity": {
+            "high": "Yüksek önem",
+            "medium": "Orta önem",
+            "low": "Düşük önem"
+          },
+          "direct-dep": "Direkt bağımlılık"
+        },
+        "run-task": {
+          "title": "Görevi çalıştır",
+          "description": "Shortcut to run a task",
+          "prompts": {
+            "task": "Görev seç"
+          },
+          "page": "Göreve git"
+        },
+        "news": {
+          "title": "News feed",
+          "description": "Read news feed",
+          "refresh": "Yenilemeye zorla",
+          "select-tip": "Sol taraftan seçim yapın",
+          "prompts": {
+            "url": "RSS feed URL or GitHub repository"
+          },
+          "errors": {
+            "fetch": "Couldn't fetch feed",
+            "offline": "Bağlı değilsiniz",
+            "empty": "Empty feed"
           }
         }
       }

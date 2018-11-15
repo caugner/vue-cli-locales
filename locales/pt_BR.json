@@ -1,10 +1,19 @@
 {
   "org": {
     "vue": {
+      "common": {
+        "close": "Fechar",
+        "back": "Voltar",
+        "more-info": "Mais informações"
+      },
       "components": {
+        "client-addon-component": {
+          "timeout": "Tempo esgotado do carregamento do componente",
+          "timeout-info": "O componente customizado está demorando muito tempo para carregar, talvez tenha ocorrido um erro."
+        },
         "connection-status": {
-          "disconnected": "Disconnected from UI server",
-          "connected": "Connected!"
+          "disconnected": "Desconectado do servidor UI",
+          "connected": "Conectado!"
         },
         "file-diff": {
           "binary": "Arquivo binário não exibido",
@@ -16,10 +25,10 @@
           "files-changed": "Arquivos alterados",
           "search-file": "Pesquisar um arquivo",
           "empty": "Nenhuma alteração encontrada",
-          "error": "Couldn't get file changes",
+          "error": "Não foi possível obter alterações de arquivo",
           "modals": {
             "commit": {
-              "title": "Commit alterações",
+              "title": "Alterações de Commit",
               "input": "Digite uma mensagem para o commit",
               "subtitle": "Registra alterações no repositório",
               "actions": {
@@ -31,7 +40,7 @@
           "actions": {
             "collapse-all": "Fechar tudo",
             "expand-all": "Abrir tudo",
-            "commit": "Commit alterações",
+            "commit": "Alterações de Commit",
             "skip": "Pular",
             "continue": "Continuar",
             "refresh": "Atualizar"
@@ -66,7 +75,7 @@
         },
         "logger-view": {
           "title": "Logs",
-          "empty": "Nenhuma entrada de log ainda.",
+          "empty": "Nenhum log ainda",
           "buttons": {
             "clear": "Limpar log",
             "scroll": "Rolar para baixo",
@@ -78,6 +87,7 @@
         },
         "project-nav": {
           "tooltips": {
+            "dashboard": "Painel",
             "plugins": "Plugins",
             "dependencies": "Dependencies",
             "configuration": "Configurações",
@@ -105,8 +115,10 @@
           "official": "Oficial",
           "installed": "Instalado",
           "actions": {
-            "update": "Atualizar {target}"
-          }
+            "update": "Atualizar {target}",
+            "refresh": "Forçar recarregamento {target} <br> Pressione [Shift] para Recarregamento Rápido (node_modules não serão atualizados)</i>"
+          },
+          "local": "Local"
         },
         "project-dependency-item": {
           "version": "version",
@@ -174,6 +186,24 @@
               "done": "Status finalizado"
             }
           }
+        },
+        "widget": {
+          "remove": "Remover widget",
+          "configure": "Configurar widget",
+          "save": "Salvar",
+          "reset-config": "Resetar config",
+          "open-details": "Mostrar mais"
+        },
+        "widget-add-pane": {
+          "title": "Adicionar widgets"
+        },
+        "widget-add-item": {
+          "add": "Adicionar widget",
+          "details": {
+            "title": "Detalhes do widget",
+            "max-instances": "Contagem máxima de instâncias: {count}/{total}",
+            "unlimited": "Ilimitado"
+          }
         }
       },
       "mixins": {
@@ -225,7 +255,8 @@
               "title": "Missing modules",
               "message": "It seems the project is missing the 'node_modules' folder. Please check you installed the dependencies before importing.",
               "close": "Got it"
-            }
+            },
+            "force": "Importar mesmo assim"
           }
         },
         "project-create": {
@@ -236,7 +267,7 @@
               "form": {
                 "folder": {
                   "label": "Pasta do projeto",
-                  "placeholder": "meu-app",
+                  "placeholder": "Digite um nome",
                   "tooltip": "Edite a pasta de destino",
                   "action": "Selecione esta pasta",
                   "folder-exists": "This folder already exists",
@@ -292,7 +323,7 @@
                   "subtitle": "Git repo, for example 'username/repo'. You can also prefix with 'gitlab:' or 'bitbucket:'."
                 },
                 "options": "Other options",
-                "clone": "Cloner/Private repository",
+                "clone": "Clonar para repositório privado",
                 "cancel": "Cancel",
                 "done": "Done"
               },
@@ -373,6 +404,15 @@
               "cancel": "Cancelar desinstalação",
               "uninstall": "Desinstalar"
             }
+          },
+          "buttons": {
+            "add-local": "Procurar plugin local"
+          }
+        },
+        "project-plugin-add-local": {
+          "title": "Adicionar um plugin local",
+          "buttons": {
+            "add": "Adicionar plugin local"
           }
         },
         "project-configurations": {
@@ -393,11 +433,11 @@
           "actions": {
             "play": "Iniciar tarefa",
             "stop": "Parar tarefa",
-            "close": "Fechar"
+            "close": "Fechar",
+            "save": "Salvar"
           },
           "command": "Comando de script",
           "parameters": "Parâmetros",
-          "parameters-info": "Os parâmetros serão salvos quando a tarefa for executada.",
           "more-info": "Mais informaçoes",
           "output": "Saída"
         },
@@ -421,10 +461,18 @@
             "uninstall": "Uninstall {id}"
           }
         },
+        "project-dashboard": {
+          "title": "Painel do projeto",
+          "cutomize": "Customizar",
+          "done": "Feito"
+        },
+        "settings": {
+          "title": "Configurações"
+        },
         "about": {
           "title": "Sobre",
           "description": "<a href=\"https://github.com/vuejs/vue-cli/tree/dev/packages/%40vue/cli-ui\" target=\"_blank\">@vue/cli-ui</a> é um pacote incluído no @vue/cli que exibe uma interface gráfica.",
-          "quote": "Vue-cli 3.x é uma reescrita completa, com muitos novos recursos impressionantes. Você terá que selecionar recursos como roteamento, Vuex ou Typescript, depois adicionar e atualizar blocos de construção chamados \"plugins vue-cli\". Mas ter muito mais opções também significa que a ferramenta agora está mais complexa e mais difícil de começar a usar. É por isso que pensamos que ter uma GUI completa ajudaria a descobrir os novos recursos, pesquisar e instalar plug-ins vue-cli e desbloquear mais possibilidades em geral, sem ser limitado por uma interface de terminal. Resumindo, o vue-cli não apenas permitirá que você inicialize um novo projeto facilmente, mas também permanecerá útil para o trabalho em andamento!",
+          "quote": "Vue-cli 3.x foi completamente reescrito, com muitas novas features incrível. Você poderá selecionar features como routing, Vuex ou Typescript, e então adicionar e fazer um upgrade dos \"building blocks\" chamados de \"vue-cli plugins\". Mas ter muito mais opções també significa que a ferramenta está agora mais complexa e difícil de começar a utilizar. Por isso que pensamos em ter uma GUI completa para ajudar a descobrir as novas features, procurar e instalar vue-cli plugins e desbloquear mais possibilidades para não ficar limitado à interface do terminal. Resumindo, vue-cli não permitirá que você inicie um projeto facilmente mas continuará funcionando para projetos já iniciados.",
           "links": "Links úteis",
           "back": "Voltar"
         }
@@ -580,18 +628,31 @@
           "eslint": {
             "description": "Verificação de erros e qualidade do código",
             "groups": {
+              "base": "Base",
+              "essential": "Essencial",
               "strongly-recommended": "Altamente recomendado",
-              "recommended": "Recomendado"
+              "recommended": "Recomendado",
+              "uncategorized": "Sem categoria"
             },
-            "vue": {
-              "label": "Vue"
+            "setting": {
+              "off": "Off",
+              "error": "Erro",
+              "warning": "Alerta",
+              "custom": "Personalizado"
             },
-            "extra": {
-              "label": "Extra",
+            "general": {
+              "label": "Geral",
               "lintOnSave": {
-                "message": "Lint on save",
-                "description": "Automatically lint source files when saved"
+                "message": "Verificar código ao salvar",
+                "description": "Verificar código fonte automaticamente quando salvo"
+              },
+              "config": {
+                "message": "Selecionar configuração",
+                "description": "Selecionar configuração predefinida"
               }
+            },
+            "rules": {
+              "label": "Regras"
             }
           }
         },
@@ -681,6 +742,96 @@
           "test": {
             "description": "Run unit tests with Mocha",
             "watch": "Watch files for changes and rerun tests related to changed files"
+          }
+        }
+      },
+      "widgets": {
+        "welcome": {
+          "title": "Dicas de boas-vindas",
+          "description": "Algumas dicas para ajudar você a começar",
+          "content": {
+            "title": "Bem vindo ao seu novo projeto!",
+            "tip1": "Você está olhando para a dashboard do projeto onde você pode colocar widgets. Use o botão \"Customizar\" para adicionar mais! Tudo é salvo automaticamente.",
+            "tip2": "À esquerda estão as diferentes páginas disponíveis. 'Plugins' permitem adicionar novos plugins do Vue CLI, 'Dependências' para gerenciar os pacotes, 'Configuração' para configurar as ferramentas e 'Tarefas' para executar scripts (por exemplo, webpack).",
+            "tip3": "Volte para o gerenciador de projetos com a lista suspensa no canto superior esquerdo da tela ou o botão inicial na barra de status na parte inferior.",
+            "ok": "Entendido"
+          }
+        },
+        "kill-port": {
+          "title": "Eliminar porta",
+          "description": "Eliminar processos usando uma porta de rede específica",
+          "input": {
+            "placeholder": "Digite uma porta de rede"
+          },
+          "kill": "Eliminar",
+          "status": {
+            "idle": "Pronto para ser eliminado",
+            "killing": "Eliminando Processo...",
+            "killed": "Eliminado com sucesso!",
+            "error": "Não foi possível eliminar o processo"
+          }
+        },
+        "status-widget": {
+          "last-updated": "Atualizado",
+          "never": "Ainda não atualizado",
+          "check": "Verificar atualizações",
+          "more-info": "Mais detalhes"
+        },
+        "plugin-updates": {
+          "title": "Atualizações de Plugin",
+          "description": "Monitorar atualizações de plugins",
+          "messages": {
+            "ok": "Todos os plugins atualizados",
+            "loading": "Buscando atualizações...",
+            "attention": "{n} atualizações de plugin disponíveis"
+          },
+          "page": "Ir para Plugins"
+        },
+        "dependency-updates": {
+          "title": "Atualizações de Dependências",
+          "description": "Monitorar atualizações de dependências",
+          "messages": {
+            "ok": "Todas as dependências atualizadas",
+            "loading": "Buscando atualizações...",
+            "attention": "{n} atualizações de dependências disponíveis"
+          },
+          "page": "Ir para Dependências"
+        },
+        "vulnerability": {
+          "title": "Ir para Dependências",
+          "description": "Verifique se há vulnerabilidades conhecidas nas dependências do seu projeto",
+          "messages": {
+            "ok": "Nenhuma vulnerabilidade encontrada",
+            "loading": "Verificando relatórios de segurança...",
+            "attention": "{n} vulnerabilidades encontradas"
+          },
+          "severity": {
+            "high": "Alta severidade",
+            "medium": "Severidade média",
+            "low": "Baixa severidade"
+          },
+          "direct-dep": "Dependência direta"
+        },
+        "run-task": {
+          "title": "Iniciar tarefa",
+          "description": "Atalho para iniciar uma tarefa",
+          "prompts": {
+            "task": "Selecione uma tarefa"
+          },
+          "page": "Ir para a Tarefa"
+        },
+        "news": {
+          "title": "Feed de Notícias",
+          "description": "Ler feed de notícias",
+          "refresh": "Forçar atualização",
+          "select-tip": "Selecione um item à esquerda",
+          "prompts": {
+            "url": "URL do feed RSS ou repositório GitHub"
+          },
+          "errors": {
+            "fetch": "Não foi possível encontrar o feed",
+            "offline": "Você está offline",
+            "empty": "Feed vazio"
           }
         }
       }

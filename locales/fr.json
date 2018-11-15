@@ -1,7 +1,16 @@
 {
   "org": {
     "vue": {
+      "common": {
+        "close": "Close",
+        "back": "Go back",
+        "more-info": "More info"
+      },
       "components": {
+        "client-addon-component": {
+          "timeout": "Component load timeout",
+          "timeout-info": "The custom component takes too much time to load, there might be an error"
+        },
         "connection-status": {
           "disconnected": "Déconnecté du serveur UI",
           "connected": "Connecté!"
@@ -66,7 +75,7 @@
         },
         "logger-view": {
           "title": "Journal",
-          "empty": "Aucune entrée du journal",
+          "empty": "No logs yet",
           "buttons": {
             "clear": "Nettoyer le journal",
             "scroll": "Défiler en bas",
@@ -78,6 +87,7 @@
         },
         "project-nav": {
           "tooltips": {
+            "dashboard": "Dashboard",
             "plugins": "Plugins",
             "dependencies": "Dépendances",
             "configuration": "Configuration",
@@ -105,8 +115,10 @@
           "official": "Officiel",
           "installed": "Installé",
           "actions": {
-            "update": "Mettre à jour {target}"
-          }
+            "update": "Mettre à jour {target}",
+            "refresh": "Force Refresh {target}<br><i>Press [Shift] for Quick Refresh (node_modules won't be updated)</i>"
+          },
+          "local": "Local"
         },
         "project-dependency-item": {
           "version": "version",
@@ -174,6 +186,24 @@
               "done": "Statut terminé"
             }
           }
+        },
+        "widget": {
+          "remove": "Remove widget",
+          "configure": "Configure widget",
+          "save": "Save",
+          "reset-config": "Reset config",
+          "open-details": "Show more"
+        },
+        "widget-add-pane": {
+          "title": "Add widgets"
+        },
+        "widget-add-item": {
+          "add": "Add widget",
+          "details": {
+            "title": "Widget details",
+            "max-instances": "Max instance count: {count}/{total}",
+            "unlimited": "unlimited"
+          }
         }
       },
       "mixins": {
@@ -225,7 +255,8 @@
               "title": "Modules manquants",
               "message": "Il semblerait que ce projet ne contient pas le dossier 'node_modules'. Veuillez vérifier d'avoir installé les dépendances avant de l'importer.",
               "close": "Compris"
-            }
+            },
+            "force": "Import anyway"
           }
         },
         "project-create": {
@@ -236,7 +267,7 @@
               "form": {
                 "folder": {
                   "label": "Dossier du projet",
-                  "placeholder": "mon-app",
+                  "placeholder": "Type a name",
                   "tooltip": "Modifier le dossier cible",
                   "action": "Sélectionner ce dossier",
                   "folder-exists": "Ce dossier éxiste déjà",
@@ -292,7 +323,7 @@
                   "subtitle": "Dépît Git, par exemple 'nomutilisateur/depo'. Vous pouvez préfixer avec 'gitlab:' ou 'bitbucket:'."
                 },
                 "options": "Autres options",
-                "clone": "Cloner/Dépôt privé",
+                "clone": "Clone/Private repository",
                 "cancel": "Annuler",
                 "done": "Terminer"
               },
@@ -373,6 +404,15 @@
               "cancel": "Annuler sans désinstaller",
               "uninstall": "Désinstaller"
             }
+          },
+          "buttons": {
+            "add-local": "Browse local plugin"
+          }
+        },
+        "project-plugin-add-local": {
+          "title": "Add a local plugin",
+          "buttons": {
+            "add": "Add local plugin"
           }
         },
         "project-configurations": {
@@ -393,11 +433,11 @@
           "actions": {
             "play": "Lancer la tâche",
             "stop": "Arrêter la tâche",
-            "close": "Fermer"
+            "close": "Fermer",
+            "save": "Save"
           },
           "command": "Commande de script",
           "parameters": "Paramètres",
-          "parameters-info": "Les paramètres seront sauvegardés la prochaine fois que la tâche est lancée.",
           "more-info": "Plus d'infos",
           "output": "Sortie"
         },
@@ -421,10 +461,18 @@
             "uninstall": "Désinstaller {id}"
           }
         },
+        "project-dashboard": {
+          "title": "Project dashboard",
+          "cutomize": "Customize",
+          "done": "Done"
+        },
+        "settings": {
+          "title": "Settings"
+        },
         "about": {
           "title": "A propos",
           "description": "<a href=\"https://github.com/vuejs/vue-cli/tree/dev/packages/%40vue/cli-ui\" target=\"_blank\">@vue/cli-ui</a> est un paquet inclus dans @vue/cli qui affiche une interface graphique.",
-          "quote": "Vue-cli 3.x is a complete rewrite, with a lot of new awesome features. You will be to select features like routing, Vuex or Typescript, then add and upgrade building blocks called \"vue-cli plugins\". But having so much more options also means the tool is now more complex and harder to start using. That's why we thought having a full-blown GUI would help discover the new features, search and install vue-cli plugins and unlock more possibilities overall while not being limited by a terminal interface. To sum up, vue-cli will not only allow you to bootstrap a new project easily, but it will also remain useful for ongoing work afterwards!",
+          "quote": "Vue-cli 3.x is a complete rewrite, with a lot of new awesome features. You will be able to select features like routing, Vuex or Typescript, then add and upgrade building blocks called \"vue-cli plugins\". But having so much more options also means the tool is now more complex and harder to start using. That's why we thought having a full-blown GUI would help discover the new features, search and install vue-cli plugins and unlock more possibilities overall while not being limited by a terminal interface. To sum up, vue-cli will not only allow you to bootstrap a new project easily, but it will also remain useful for ongoing work afterwards!",
           "links": "Liens utiles",
           "back": "Retour"
         }
@@ -490,13 +538,89 @@
           "gzip": "Gzip",
           "help": "<b>Stats:</b> taille depuis les données statistiques de webpack.<br><b>Parsé:</b> taille depuis les sources extraites (après les plugins de minifications). Plus précis.<br><b>Gzip:</b> taille en source extraites compressée."
         },
+        "modern-mode": "Show modern build",
         "tasks": {
           "serve": {
-            "description": "Compile et recharge à chaud pour le développement"
+            "description": "Compile et recharge à chaud pour le développement",
+            "open": "Open browser on server start",
+            "mode": "Specify env mode",
+            "host": "Specify host",
+            "port": "Specify port",
+            "https": "Use HTTPS"
           },
           "build": {
-            "description": "Compile et minifie pour la production"
+            "description": "Compile et minifie pour la production",
+            "mode": "Specify env mode",
+            "dest": "Output directory",
+            "target": {
+              "description": "Build target",
+              "app": "Web app",
+              "lib": "Library",
+              "wc": "Web component",
+              "wc-async": "Async web component"
+            },
+            "name": "Name for library or web-component mode (default: 'name' in package.json or entry filename)",
+            "watch": "Watch for changes",
+            "modern": {
+              "label": "Modern mode",
+              "description": "Build app targeting modern browsers with auto fallback"
+            }
+          },
+          "inspect": {
+            "description": "Inspect the resolved webpack config",
+            "mode": "Specify env mode",
+            "verbose": "Show full function definitions in output"
           }
+        },
+        "config": {
+          "vue-cli": {
+            "description": "Configure your Vue project",
+            "groups": {
+              "general": "General settings",
+              "css": "CSS settings"
+            },
+            "baseUrl": {
+              "label": "Base URL",
+              "description": "The base URL your application will be deployed at, for example '/my-app/'. Use an empty string ('') so that all assets are linked using relative paths."
+            },
+            "outputDir": {
+              "label": "Output directory",
+              "description": "The directory where the production build files will be generated"
+            },
+            "assetsDir": {
+              "label": "Assets directory",
+              "description": "A directory to nest generated static assets (js, css, img, fonts) under."
+            },
+            "runtimeCompiler": {
+              "label": "Enable runtime compiler",
+              "description": "This will allow you to use the template option in Vue components, but will incur around an extra 10kb payload for your app."
+            },
+            "productionSourceMap": {
+              "label": "Enable Production Source Maps",
+              "description": "Disabling this can speed up production builds if you don't need source maps for production"
+            },
+            "parallel": {
+              "label": "Parallel compilation",
+              "description": "Whether to use multiple processors to compile Babel or Typescript."
+            },
+            "css": {
+              "modules": {
+                "label": "Enable CSS Modules",
+                "description": "By default, only files that ends in *.module.[ext] are treated as CSS modules. Enabling this will treat all style files as CSS modules."
+              },
+              "extract": {
+                "label": "Extract CSS",
+                "description": "Whether to extract CSS in your components into a standalone CSS files (instead of inlined in JavaScript and injected dynamically)."
+              },
+              "sourceMap": {
+                "label": "Enable CSS Source Maps",
+                "description": "Whether to enable source maps for CSS. Enabling this may affect build performance."
+              }
+            }
+          }
+        },
+        "suggestions": {
+          "vue-config-open": "Open vue config"
         }
       },
       "eslint": {
@@ -504,9 +628,43 @@
           "eslint": {
             "description": "Vérification des erreurs & Qualité du code",
             "groups": {
+              "base": "Base",
+              "essential": "Essential",
               "strongly-recommended": "Fortement recommandé",
-              "recommended": "Recommandé"
+              "recommended": "Recommandé",
+              "uncategorized": "Uncategorized"
+            },
+            "setting": {
+              "off": "Off",
+              "error": "Error",
+              "warning": "Warning",
+              "custom": "Custom"
+            },
+            "general": {
+              "label": "General",
+              "lintOnSave": {
+                "message": "Lint on save",
+                "description": "Automatically lint source files when saved"
+              },
+              "config": {
+                "message": "Select config",
+                "description": "Select pre-defined configuration"
+              }
+            },
+            "rules": {
+              "label": "Rules"
             }
+          }
+        },
+        "tasks": {
+          "lint": {
+            "description": "Lints and fixes files",
+            "noFix": "Do not fix errors"
+          }
+        },
+        "suggestions": {
+          "open-eslintrc": {
+            "label": "Open eslintrc"
           }
         }
       },
@@ -584,6 +742,96 @@
           "test": {
             "description": "Run unit tests with Mocha",
             "watch": "Watch files for changes and rerun tests related to changed files"
+          }
+        }
+      },
+      "widgets": {
+        "welcome": {
+          "title": "Welcome tips",
+          "description": "Some tips to help you get started",
+          "content": {
+            "title": "Welcome to your new project!",
+            "tip1": "You are looking at the project dashboard where your can put widgets. Use the 'Customize' button to add more! Everything is automatically saved.",
+            "tip2": "On the left are the different available pages. 'Plugins' let you add new Vue CLI plugins, 'Dependencies' for managing the packages, 'Configuration' to configure the tools and 'Tasks' to run scripts (for example webpack).",
+            "tip3": "Return to the project manager with the dropdown at the top left of the screen or the home button in the status bar at the bottom.",
+            "ok": "Understood"
+          }
+        },
+        "kill-port": {
+          "title": "Kill port",
+          "description": "Kill processes using a specific network port",
+          "input": {
+            "placeholder": "Enter a network port"
+          },
+          "kill": "Kill",
+          "status": {
+            "idle": "Ready to kill",
+            "killing": "Killing procress...",
+            "killed": "Killed successfully!",
+            "error": "Couldn't kill process"
+          }
+        },
+        "status-widget": {
+          "last-updated": "Updated",
+          "never": "Not updated yet",
+          "check": "Check for updates",
+          "more-info": "More details"
+        },
+        "plugin-updates": {
+          "title": "Plugin updates",
+          "description": "Monitor plugin updates",
+          "messages": {
+            "ok": "All plugins up-to-date",
+            "loading": "Checking for updates...",
+            "attention": "{n} plugin updates available"
+          },
+          "page": "Go to Plugins"
+        },
+        "dependency-updates": {
+          "title": "Dependency updates",
+          "description": "Monitor dependencies updates",
+          "messages": {
+            "ok": "All dependencies up-to-date",
+            "loading": "Checking for updates...",
+            "attention": "{n} dependency updates available"
+          },
+          "page": "Go to Dependencies"
+        },
+        "vulnerability": {
+          "title": "Vulnerability check",
+          "description": "Check for known vulnerabilities in your project dependencies",
+          "messages": {
+            "ok": "No vulnerability found",
+            "loading": "Checking security reports...",
+            "attention": "{n} vulnerabilities found"
+          },
+          "severity": {
+            "high": "High severity",
+            "medium": "Medium severity",
+            "low": "Low severity"
+          },
+          "direct-dep": "Direct dependency"
+        },
+        "run-task": {
+          "title": "Run task",
+          "description": "Shortcut to run a task",
+          "prompts": {
+            "task": "Select a task"
+          },
+          "page": "Go to Task"
+        },
+        "news": {
+          "title": "News feed",
+          "description": "Read news feed",
+          "refresh": "Force refresh",
+          "select-tip": "Select an item on the left",
+          "prompts": {
+            "url": "RSS feed URL or GitHub repository"
+          },
+          "errors": {
+            "fetch": "Couldn't fetch feed",
+            "offline": "You are offline",
+            "empty": "Empty feed"
           }
         }
       }

@@ -1,9 +1,18 @@
 {
   "org": {
     "vue": {
+      "common": {
+        "close": "Schließen",
+        "back": "Gehe zurück",
+        "more-info": "Weitere Informationen"
+      },
       "components": {
+        "client-addon-component": {
+          "timeout": "Komponente benötigt zu lange zum Laden",
+          "timeout-info": "Diese benutzerdefinierte Komponente braucht zu viel Zeit um zu laden, es liegt möglicherweise ein Fehler vor"
+        },
         "connection-status": {
-          "disconnected": "Getrennt vom GUI-Server",
+          "disconnected": "Getrennt vom UI-Server",
           "connected": "Verbunden!"
         },
         "file-diff": {
@@ -40,22 +49,22 @@
         "folder-explorer": {
           "toolbar": {
             "tooltips": {
-              "parent-folder": "Öffne übergeordnetes Verzeichnis",
+              "parent-folder": "Übergeordnetes Verzeichnis öffnen",
               "edit-path": "Pfad bearbeiten",
-              "favorite": "Lesezeichen",
-              "favorite-folders": "Lesezeichen-Ordner",
+              "favorite": "Lesezeichen umschalten",
+              "favorite-folders": "Lesezeichen",
               "refresh": "Aktualisieren"
             },
             "placeholder": "Gib einen vollständigen Ordnerpfad ein",
-            "empty": "Noch keine Lesezeichen-Ordner.",
-            "show-hidden": "Zeige versteckte Ordner"
+            "empty": "Noch keine Lesezeichen.",
+            "show-hidden": "Versteckte Ordner anzeigen"
           },
           "new-folder": {
             "action": "Neuer Ordner",
-            "title": "Erstelle neuen Ordner",
+            "title": "Neuen Ordner erstellen",
             "field": {
               "title": "Neuer Ordner",
-              "subtitle": "Du kannst den Ordner-Separator verwenden, um mehrere verschachtelte Verzeichnisse auf einmal zu erstellen."
+              "subtitle": "Du kannst das Ordner-Trennzeichen (/) verwenden, um mehrere verschachtelte Ordner auf einmal zu erstellen."
             },
             "cancel": "Abbrechen",
             "create": "Erstellen"
@@ -78,6 +87,7 @@
         },
         "project-nav": {
           "tooltips": {
+            "dashboard": "Dashboard",
             "plugins": "Plugins",
             "dependencies": "Abhängigkeiten",
             "configuration": "Konfiguration",
@@ -105,8 +115,10 @@
           "official": "Offiziell",
           "installed": "Installiert",
           "actions": {
-            "update": "Aktualisiere {target}"
-          }
+            "update": "Aktualisiere {target}",
+            "refresh": "Erzwinge Aktualisierung von {target}<br><i>Drücke [Umschalt] für eine schnelle Aktualisierung (node_modules wird nicht aktualisiert)</i>"
+          },
+          "local": "Lokal"
         },
         "project-dependency-item": {
           "version": "Version",
@@ -174,6 +186,24 @@
               "done": "Erledigt-Status"
             }
           }
+        },
+        "widget": {
+          "remove": "Widget entfernen",
+          "configure": "Widget konfigurieren",
+          "save": "Speichern",
+          "reset-config": "Konfiguration zurücksetzen",
+          "open-details": "Zeige mehr"
+        },
+        "widget-add-pane": {
+          "title": "Widgets hinzufügen"
+        },
+        "widget-add-item": {
+          "add": "Widget hinzufügen",
+          "details": {
+            "title": "Widget-Details",
+            "max-instances": "Maximale Anzahl von Instanzen: {count}/{total}",
+            "unlimited": "unbeschränkt"
+          }
         }
       },
       "mixins": {
@@ -225,7 +255,8 @@
               "title": "Fehlendes Modul",
               "message": "Es sieht so aus, als fehlt in deinem Projekt der 'node_modules' Ordner. Bitte prüfe vor dem Import, dass die Abhängigkeiten installiert hast.",
               "close": "Alles klar"
-            }
+            },
+            "force": "Trotzdem importieren"
           }
         },
         "project-create": {
@@ -249,9 +280,9 @@
                 "options": {
                   "label": "Zusätzliche Optionen",
                   "force": "Zielordner überschreiben, falls er existiert",
-                  "git-title": "Git-Repository",
-                  "git": "Git-Repository initialisieren (empfohlen)",
-                  "git-commit-message": "Initiale Commit-Nachricht (optional)"
+                  "git-title": "Versionsverwaltung mit Git",
+                  "git": "Git-Repository einrichten (empfohlen)",
+                  "git-commit-message": "Erste Commit-Nachricht (optional)"
                 }
               },
               "buttons": {
@@ -269,7 +300,7 @@
             },
             "presets": {
               "title": "Voreinstellungen",
-              "description": "Eine Voreinstellung ist eine Zusammenstellung von Plugins und Konfigurationen. Nachdem du Funktionen ausgewählt hast, kannst sie wahlweise als Voreinstellung speichern, damit du sie in zukünftigen Projekten wiederverwenden kannst, ohne alles erneut konfigurieren zu müssen.",
+              "description": "Eine Voreinstellung ist eine Zusammenstellung von Plugins und Konfigurationen. Nachdem du Funktionen ausgewählt hast, kannst du die Auswahl wahlweise als Voreinstellung speichern, damit du sie in zukünftigen Projekten einfach wiederverwenden kannst, ohne alles erneut konfigurieren zu müssen.",
               "select": "Wähle eine Voreinstellung",
               "buttons": {
                 "previous": "Vorherige",
@@ -301,7 +332,7 @@
             "features": {
               "title": "Funktionen",
               "description": "Du kannst Funktionen durch Installation von Plugins hinzufügen, sobald das Projekt erstellt ist.",
-              "enable": "Funktionen aktivieren",
+              "enable": "Funktionen auswählen",
               "buttons": {
                 "previous": "Vorherige",
                 "next": "Nächste",
@@ -319,15 +350,15 @@
                 "create": "Projekt erstellen"
               },
               "modal": {
-                "title": "Als neue Voreinstellung speichern",
+                "title": "Als Voreinstellung speichern",
                 "body": {
                   "title": "Name der Voreinstellung",
-                  "subtitle": "Funktionen und Konfigurationen in einer neuen Voreinstellung speichern"
+                  "subtitle": "Funktionen und Konfigurationen als Voreinstellung speichern"
                 },
                 "buttons": {
                   "cancel": "Abbrechen",
                   "continue": "Weiter ohne speichern",
-                  "create": "Neue Voreinstellung erstellen"
+                  "create": "Voreinstellung speichern"
                 }
               }
             }
@@ -373,6 +404,15 @@
               "cancel": "Abbrechen ohne deinstallieren",
               "uninstall": "Deinstallieren"
             }
+          },
+          "buttons": {
+            "add-local": "Lokales Plugin anschauen"
+          }
+        },
+        "project-plugin-add-local": {
+          "title": "Lokales Plugin hinzufügen",
+          "buttons": {
+            "add": "Lokales Plugin hinzufügen"
           }
         },
         "project-configurations": {
@@ -421,10 +461,18 @@
             "uninstall": "Deinstalliert {id}"
           }
         },
+        "project-dashboard": {
+          "title": "Projekt-Dashboard",
+          "cutomize": "Anpassen",
+          "done": "Erledigt"
+        },
+        "settings": {
+          "title": "Einstellungen"
+        },
         "about": {
           "title": "Über",
           "description": "<a href=\"https://github.com/vuejs/vue-cli/tree/dev/packages/%40vue/cli-ui\" target=\"_blank\">@vue/cli-ui</a> ist ein eingebautes Paket von vue-cli, das eine vollwertige GUI öffnet.",
-          "quote": "Vue-cli 3.x ist eine vollständige Neuimplementierung mit vielen großartigen Funktionen. Du wirst Funktionen wie Routing, Vuex oder TypeScript auswählen und schließlich Bausteine hinzufügen und aktualisieren, die wir \"vue-cli plugins\" nennen. So viel mehr Optionen bedeutet auch, dass das Werkzeug nun komplexer ist und der Einstieg in die Benutzung schwerer ist. Deshalb haben wir uns gedacht, dass eine vollwertige GUI bei der Entdeckung der neuen Funktionen und die Verwaltung der vue-cli-Plugin helfen würde und insgesamt mehr Möglichkeiten freischaltet, ohne durch eine Kommandozeile eingeschränkt zu sein. Kurzum erlaubt dir vue-cli nicht nur, einfach ein neues Projekt zu starten, sondern es bleibt auch danach stets nützlich für die fortlaufenden Arbeiten danach!",
+          "quote": "Version 3 von vue-cli ist eine vollständige Neuentwicklung mit vielen großartigen Funktionen. Du kannst Funktionen wie Routing, Vuex oder TypeScript auswählen und anschließend Bausteine hinzufügen und aktualisieren, die wir Plugins nennen. So viel mehr Möglichkeiten bedeuten aber auch, dass das Werkzeug nun komplexer ist und der Einstieg in die Benutzung schwerer ist. Deshalb haben wir uns gedacht, dass eine vollwertige grafische Oberfläche bei der Entdeckung neuer Funktionen und bei der Verwaltung der Plugins helfen würde und insgesamt mehr Möglichkeiten erschließt, ohne durch eine Kommandozeile eingeschränkt zu sein. Kurzum erlaubt dir vue-cli nicht nur, einfach ein neues Projekt zu starten, sondern es bleibt auch danach nützlich für die weitere Arbeit am Projekt!",
           "links": "Nützliche Links",
           "back": "Gehe zurück"
         }
@@ -694,6 +742,96 @@
           "test": {
             "description": "Unit-Tests mit Mocha ausführen",
             "watch": "Dateien auf Änderungen beobachten und zugehörige Tests zu den geänderten Dateien ausführen"
+          }
+        }
+      },
+      "widgets": {
+        "welcome": {
+          "title": "Willkommenstipps",
+          "description": "Ein paar Tipps für den Anfang",
+          "content": {
+            "title": "Willkommen in deinem neuen Projekt!",
+            "tip1": "Du schaust auf das Projekt-Dashboard, auf dem du Widgets platzieren kannst. Verwende die 'Anpassen'-Schaltfläche, um weitere hinzuzufügen! Alles wird automatisch gespeichert.",
+            "tip2": "Auf der linken Seite sind die verfügbaren Seiten. 'Plugins' ermöglicht es dir, neue Vue CLI-Plugins hinzuzufügen, 'Abhängigkeiten' die Pakete zu verwalten, 'Konfigurationen' um die Werkzeuge zu verwalten und 'Aufgaben' um Aufgaben auszuführen (zum Beispiel Webpack).",
+            "tip3": "Gehe zurück zum Projekt-Manager über die Dropdown-Liste oben links oder über die Home-Schaltfläche in der Statusleiste unten.",
+            "ok": "Verstanden"
+          }
+        },
+        "kill-port": {
+          "title": "Port beenden",
+          "description": "Prozesse beenden, die einen bestimmten Netzwerk-Port belegen",
+          "input": {
+            "placeholder": "Gib’ einen Netzwerk-Port an"
+          },
+          "kill": "Beenden",
+          "status": {
+            "idle": "Bereit zum Beenden",
+            "killing": "Prozesse werden beendet...",
+            "killed": "Erfolgreich beendet!",
+            "error": "Prozess konnte nicht beendet werden"
+          }
+        },
+        "status-widget": {
+          "last-updated": "Aktualisiert",
+          "never": "Noch nicht aktualisiert",
+          "check": "Nach Updates suchen",
+          "more-info": "Mehr Details"
+        },
+        "plugin-updates": {
+          "title": "Plugin-Aktualisierungen",
+          "description": "Plugin-Aktualisierungen überwachen",
+          "messages": {
+            "ok": "Alle Plugins sind auf dem aktuellen Stand",
+            "loading": "Suche nach Updates...",
+            "attention": "{n} verfügbare Aktualisierungen für Plugins"
+          },
+          "page": "Gehe zu den Plugins"
+        },
+        "dependency-updates": {
+          "title": "Aktualisierungen für Abhängigkeiten",
+          "description": "Aktualisierungen von Abhängigkeiten überwachen",
+          "messages": {
+            "ok": "Alle Abhängigkeiten sind auf dem aktuellen Stand.",
+            "loading": "Suche nach Updates...",
+            "attention": "{n} verfügbare Aktualisierungen für Abhängigkeiten"
+          },
+          "page": "Gehe zu den Abhängigkeiten"
+        },
+        "vulnerability": {
+          "title": "Prüfung auf Schwachstellen",
+          "description": "Prüfe auf bekannte Schwachstellen in deinen Projektabhängigkeiten",
+          "messages": {
+            "ok": "Keine Schwachstelle gefunden",
+            "loading": "Sicherheitsberichte werden geprüft...",
+            "attention": "{n} Schwachstellen gefunden"
+          },
+          "severity": {
+            "high": "Hoher Schweregrad",
+            "medium": "Mittlerer Schweregrad",
+            "low": "Geringer Schweregrad"
+          },
+          "direct-dep": "Direkte Abhängigkeit"
+        },
+        "run-task": {
+          "title": "Aufgabe ausführen",
+          "description": "Abkürzung, um eine Aufgabe auszuführen",
+          "prompts": {
+            "task": "Wähle eine Aufgabe"
+          },
+          "page": "Gehe zu Aufgabe"
+        },
+        "news": {
+          "title": "News-Feed",
+          "description": "News-Feed einlesen",
+          "refresh": "Aktualisierung erzwingen",
+          "select-tip": "Wähle links einen Eintrag aus",
+          "prompts": {
+            "url": "RSS-Feed-URL oder GitHub-Repository"
+          },
+          "errors": {
+            "fetch": "Feed konnte nicht abgerufen werden",
+            "offline": "Du bist offline",
+            "empty": "Leerer Feed"
           }
         }
       }

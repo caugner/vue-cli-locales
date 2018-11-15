@@ -1,7 +1,16 @@
 {
   "org": {
     "vue": {
+      "common": {
+        "close": "关闭",
+        "back": "返回",
+        "more-info": "更多信息"
+      },
       "components": {
+        "client-addon-component": {
+          "timeout": "Component load timeout",
+          "timeout-info": "The custom component takes too much time to load, there might be an error"
+        },
         "connection-status": {
           "disconnected": "连接已断开",
           "connected": "已连接 Vue 项目管理器!"
@@ -78,6 +87,7 @@
         },
         "project-nav": {
           "tooltips": {
+            "dashboard": "看板",
             "plugins": "插件",
             "dependencies": "依赖",
             "configuration": "配置",
@@ -105,8 +115,10 @@
           "official": "官方",
           "installed": "已安装",
           "actions": {
-            "update": "更新 {target}"
-          }
+            "update": "更新 {target}",
+            "refresh": "Force Refresh {target}<br><i>Press [Shift] for Quick Refresh (node_modules won't be updated)</i>"
+          },
+          "local": "Local"
         },
         "project-dependency-item": {
           "version": "版本",
@@ -174,6 +186,24 @@
               "done": "已完成"
             }
           }
+        },
+        "widget": {
+          "remove": "Remove widget",
+          "configure": "Configure widget",
+          "save": "Save",
+          "reset-config": "Reset config",
+          "open-details": "Show more"
+        },
+        "widget-add-pane": {
+          "title": "Add widgets"
+        },
+        "widget-add-item": {
+          "add": "Add widget",
+          "details": {
+            "title": "Widget details",
+            "max-instances": "Max instance count: {count}/{total}",
+            "unlimited": "unlimited"
+          }
         }
       },
       "mixins": {
@@ -222,10 +252,11 @@
           },
           "import": {
             "no-modules": {
-              "title": "Missing modules",
-              "message": "It seems the project is missing the 'node_modules' folder. Please check you installed the dependencies before importing.",
-              "close": "Got it"
-            }
+              "title": "找不到依赖",
+              "message": "此文件夹缺少 'node_modules'。请安装依赖后再尝试导入。",
+              "close": "知道了"
+            },
+            "force": "Import anyway"
           }
         },
         "project-create": {
@@ -236,7 +267,7 @@
               "form": {
                 "folder": {
                   "label": "项目文件夹",
-                  "placeholder": "my-app",
+                  "placeholder": "输入项目名",
                   "tooltip": "修改项目路径",
                   "action": "选定",
                   "folder-exists": "文件夹已存在",
@@ -292,7 +323,7 @@
                   "subtitle": "Git 仓库地址, 如 'username/repo'. 可以使用前缀如 'gitlab:' 或 'bitbucket:'."
                 },
                 "options": "选项",
-                "clone": "这是私有仓库",
+                "clone": "Clone/Private repository",
                 "cancel": "取消",
                 "done": "完成"
               },
@@ -350,7 +381,7 @@
               "buttons": {
                 "cancel": "取消",
                 "install": "安装 {target}",
-                "default-install": "Install"
+                "default-install": "安装"
               }
             },
             "configuration": {
@@ -373,6 +404,15 @@
               "cancel": "Cancel without uninstalling",
               "uninstall": "卸载"
             }
+          },
+          "buttons": {
+            "add-local": "Browse local plugin"
+          }
+        },
+        "project-plugin-add-local": {
+          "title": "Add a local plugin",
+          "buttons": {
+            "add": "Add local plugin"
           }
         },
         "project-configurations": {
@@ -421,10 +461,18 @@
             "uninstall": "卸载 {id}"
           }
         },
+        "project-dashboard": {
+          "title": "Project dashboard",
+          "cutomize": "Customize",
+          "done": "Done"
+        },
+        "settings": {
+          "title": "Settings"
+        },
         "about": {
           "title": "关于",
-          "description": "<a href=\"https://github.com/vuejs/vue-cli/tree/dev/packages/%40vue/cli-ui\" target=\"_blank\">@vue/cli-ui</a> is a built-in package of vue-cli which opens a full-blown UI.",
-          "quote": "Vue-cli 3.x is a complete rewrite, with a lot of new awesome features. You will be to select features like routing, Vuex or Typescript, then add and upgrade building blocks called \"vue-cli plugins\". But having so much more options also means the tool is now more complex and harder to start using. That's why we thought having a full-blown GUI would help discover the new features, search and install vue-cli plugins and unlock more possibilities overall while not being limited by a terminal interface. To sum up, vue-cli will not only allow you to bootstrap a new project easily, but it will also remain useful for ongoing work afterwards!",
+          "description": "<a href=\"https://github.com/vuejs/vue-cli/tree/dev/packages/%40vue/cli-ui\" target=\"_blank\">@vue/cli-ui</a> 是 vue-cli 内置的一套成熟的 UI。",
+          "quote": "Vue-cli 的 3.x 版本由内到外完全重写，带来了许多很棒的新特性。你可以在你的项目中选用路由、Vuex 和 Typescript 等等特性，并为项目添加“vue-cli 插件”。不过，这么多的选项也意味着它更加复杂，难以上手。因此我们认为，相比局限的命令行界面，一个成熟的 GUI 更能帮助你发掘这些新特性，搜索和安装 vue-cli 插件，解锁更多可能。总的来说，vue-cli 不仅能让你轻松启动新项目，并且在后续的工作中仍会是你的得力助手。",
           "links": "资源链接",
           "back": "返回"
         }
@@ -433,15 +481,15 @@
         "suggestions": {
           "vue-router-add": {
             "label": "添加 vue-router",
-            "message": "Official library to support multiple virtual pages in a Single-Page App. Each route renders a different component."
+            "message": "官方 SPA 路由库"
           },
           "vuex-add": {
             "label": "添加 vuex",
-            "message": "Official centralized State Management solution for large-scale apps. Very useful if multiple components need to access the same data."
+            "message": "官方状态管理库"
           },
           "vue-devtools": {
             "label": "安装 devtools",
-            "message": "Browser devtools official extension for debugging Vue.js applications where you can inspect your components, vuex store and events."
+            "message": "官方浏览器插件，用于调试 Vue.js 应用。你可以检查组件、vuex store 和事件等。"
           },
           "progress": "正在安装 {arg0}..."
         }
@@ -454,7 +502,7 @@
             "Success": "编译成功",
             "Failed": "编译失败",
             "Compiling": "编译中",
-            "Invalidated": "Invalidated",
+            "Invalidated": "无效",
             "Idle": "空闲"
           },
           "build-status": {
@@ -462,8 +510,8 @@
               "status": "状态",
               "errors": "错误",
               "warnings": "警告",
-              "assets": "Assets",
-              "modules": "Modules",
+              "assets": "资源",
+              "modules": "模块",
               "deps": "依赖项"
             }
           },
@@ -475,7 +523,7 @@
           },
           "asset-list": {
             "title": "资源",
-            "size-warning": "This asset is big, consider using Code splitting to create smaller assets."
+            "size-warning": "资源过大，可以使用代码拆分来创建更小的资源。"
           }
         },
         "analyzer": {
@@ -515,7 +563,7 @@
             "watch": "监听变化",
             "modern": {
               "label": "Modern mode",
-              "description": "Build app targeting modern browsers with auto fallback"
+              "description": "针对现代浏览器构建应用，自动向后兼容。"
             }
           },
           "inspect": {
@@ -533,18 +581,18 @@
             },
             "baseUrl": {
               "label": "Base URL",
-              "description": "The base URL your application will be deployed at, for example '/my-app/'. Use an empty string ('') so that all assets are linked using relative paths."
+              "description": "应用的部署地址，如 '/my-app/'。如果留空，所有资源将使用相对路径。"
             },
             "outputDir": {
-              "label": "Output directory",
-              "description": "The directory where the production build files will be generated"
+              "label": "输出目录",
+              "description": "构建产生的文件将会生成在这里。"
             },
             "assetsDir": {
-              "label": "Assets directory",
-              "description": "A directory to nest generated static assets (js, css, img, fonts) under."
+              "label": "资源目录",
+              "description": "静态资源会生成在这里。"
             },
             "runtimeCompiler": {
-              "label": "Enable runtime compiler",
+              "label": "启用运行时编译",
               "description": "This will allow you to use the template option in Vue components, but will incur around an extra 10kb payload for your app."
             },
             "productionSourceMap": {
@@ -552,27 +600,27 @@
               "description": "Disabling this can speed up production builds if you don't need source maps for production"
             },
             "parallel": {
-              "label": "Parallel compilation",
-              "description": "Whether to use multiple processors to compile Babel or Typescript."
+              "label": "并行编译",
+              "description": "使用多个处理器来编译 Babel 或 Typescript。"
             },
             "css": {
               "modules": {
-                "label": "Enable CSS Modules",
-                "description": "By default, only files that ends in *.module.[ext] are treated as CSS modules. Enabling this will treat all style files as CSS modules."
+                "label": "启用 CSS Modules",
+                "description": "默认只有 *.module.[ext] 文件名被视为 CSS modules 文件。启用后将所有样式文件视为 CSS modules。"
               },
               "extract": {
-                "label": "Extract CSS",
-                "description": "Whether to extract CSS in your components into a standalone CSS files (instead of inlined in JavaScript and injected dynamically)."
+                "label": "抽取 CSS",
+                "description": "将组件中的样式抽取为单独的样式文件（不开启则使用 JavaScript 动态注入样式）。"
               },
               "sourceMap": {
-                "label": "Enable CSS Source Maps",
-                "description": "Whether to enable source maps for CSS. Enabling this may affect build performance."
+                "label": "启用 CSS Source Map",
+                "description": "启用对构建性能稍有影响。"
               }
             }
           }
         },
         "suggestions": {
-          "vue-config-open": "Open vue config"
+          "vue-config-open": "打开 vue 配置"
         }
       },
       "eslint": {
@@ -580,18 +628,31 @@
           "eslint": {
             "description": "代码质量和纠错",
             "groups": {
+              "base": "基本",
+              "essential": "必要",
               "strongly-recommended": "强烈推荐",
-              "recommended": "推荐"
+              "recommended": "推荐",
+              "uncategorized": "未分类"
             },
-            "vue": {
-              "label": "Vue"
+            "setting": {
+              "off": "关闭",
+              "error": "错误",
+              "warning": "警告",
+              "custom": "自定义"
             },
-            "extra": {
-              "label": "更多设置",
+            "general": {
+              "label": "通用",
               "lintOnSave": {
-                "message": "Lint on save",
-                "description": "每当源文件保存时自动检查"
+                "message": "保存时检查",
+                "description": "当文件保存时自动检查"
+              },
+              "config": {
+                "message": "选择配置",
+                "description": "选择预设配置"
               }
+            },
+            "rules": {
+              "label": "规则"
             }
           }
         },
@@ -610,9 +671,9 @@
       "pwa": {
         "config": {
           "pwa": {
-            "description": "Progressive Web App",
+            "description": "PWA",
             "workboxPluginMode": {
-              "message": "Plugin mode",
+              "message": "插件模式",
               "description": "用于配置 `workbox-webpack-plugin`"
             },
             "name": {
@@ -639,10 +700,10 @@
         },
         "suggestions": {
           "open-vue": {
-            "label": "Open vue config"
+            "label": "打开 vue 配置"
           },
           "open-manifest": {
-            "label": "Open manifest"
+            "label": "打开 manifest"
           }
         }
       },
@@ -661,26 +722,116 @@
           "test": {
             "description": "使用 nightwatch 运行 e2e 测试",
             "url": "远程测试 URL",
-            "config": "Use custom nightwatch config file (overrides internals)",
-            "env": "Comma-delimited browser envs to run in"
+            "config": "使用自定义 nightwatch 配置文件",
+            "env": "浏览器环境（用逗号分隔）"
           }
         }
       },
       "jest": {
         "tasks": {
           "test": {
-            "description": "Run unit tests with Jest",
-            "watch": "Watch files for changes and rerun tests related to changed files",
-            "notify": "Display a notification after each run",
-            "update": "Re-record every snapshot that fails during this test run"
+            "description": "运行 Jest 单元测试",
+            "watch": "监听文件变化并重新运行测试",
+            "notify": "每次运行后显示通知",
+            "update": "为每次失败的测试保存快照"
           }
         }
       },
       "mocha": {
         "tasks": {
           "test": {
-            "description": "Run unit tests with Mocha",
-            "watch": "Watch files for changes and rerun tests related to changed files"
+            "description": "运行 Mocha 单元测试",
+            "watch": "监听文件变化并重新运行测试"
+          }
+        }
+      },
+      "widgets": {
+        "welcome": {
+          "title": "Welcome tips",
+          "description": "Some tips to help you get started",
+          "content": {
+            "title": "Welcome to your new project!",
+            "tip1": "You are looking at the project dashboard where your can put widgets. Use the 'Customize' button to add more! Everything is automatically saved.",
+            "tip2": "On the left are the different available pages. 'Plugins' let you add new Vue CLI plugins, 'Dependencies' for managing the packages, 'Configuration' to configure the tools and 'Tasks' to run scripts (for example webpack).",
+            "tip3": "Return to the project manager with the dropdown at the top left of the screen or the home button in the status bar at the bottom.",
+            "ok": "Understood"
+          }
+        },
+        "kill-port": {
+          "title": "Kill port",
+          "description": "Kill processes using a specific network port",
+          "input": {
+            "placeholder": "Enter a network port"
+          },
+          "kill": "Kill",
+          "status": {
+            "idle": "Ready to kill",
+            "killing": "Killing procress...",
+            "killed": "Killed successfully!",
+            "error": "Couldn't kill process"
+          }
+        },
+        "status-widget": {
+          "last-updated": "Updated",
+          "never": "Not updated yet",
+          "check": "Check for updates",
+          "more-info": "More details"
+        },
+        "plugin-updates": {
+          "title": "Plugin updates",
+          "description": "Monitor plugin updates",
+          "messages": {
+            "ok": "All plugins up-to-date",
+            "loading": "Checking for updates...",
+            "attention": "{n} plugin updates available"
+          },
+          "page": "Go to Plugins"
+        },
+        "dependency-updates": {
+          "title": "Dependency updates",
+          "description": "Monitor dependencies updates",
+          "messages": {
+            "ok": "All dependencies up-to-date",
+            "loading": "Checking for updates...",
+            "attention": "{n} dependency updates available"
+          },
+          "page": "Go to Dependencies"
+        },
+        "vulnerability": {
+          "title": "Vulnerability check",
+          "description": "Check for known vulnerabilities in your project dependencies",
+          "messages": {
+            "ok": "No vulnerability found",
+            "loading": "Checking security reports...",
+            "attention": "{n} vulnerabilities found"
+          },
+          "severity": {
+            "high": "High severity",
+            "medium": "Medium severity",
+            "low": "Low severity"
+          },
+          "direct-dep": "Direct dependency"
+        },
+        "run-task": {
+          "title": "Run task",
+          "description": "Shortcut to run a task",
+          "prompts": {
+            "task": "Select a task"
+          },
+          "page": "Go to Task"
+        },
+        "news": {
+          "title": "News feed",
+          "description": "Read news feed",
+          "refresh": "Force refresh",
+          "select-tip": "Select an item on the left",
+          "prompts": {
+            "url": "RSS feed URL or GitHub repository"
+          },
+          "errors": {
+            "fetch": "Couldn't fetch feed",
+            "offline": "You are offline",
+            "empty": "Empty feed"
           }
         }
       }
