@@ -2,14 +2,14 @@
   "org": {
     "vue": {
       "common": {
-        "close": "Close",
-        "back": "Go back",
-        "more-info": "More info"
+        "close": "Fermer",
+        "back": "Retour",
+        "more-info": "Plus d'infos"
       },
       "components": {
         "client-addon-component": {
-          "timeout": "Component load timeout",
-          "timeout-info": "The custom component takes too much time to load, there might be an error"
+          "timeout": "Chargement du composant expiré",
+          "timeout-info": "Le composant personnalisé met trop de temps à se charger, une erreur est peut-être survenue"
         },
         "connection-status": {
           "disconnected": "Déconnecté du serveur UI",
@@ -75,7 +75,7 @@
         },
         "logger-view": {
           "title": "Journal",
-          "empty": "No logs yet",
+          "empty": "Aucun log",
           "buttons": {
             "clear": "Nettoyer le journal",
             "scroll": "Défiler en bas",
@@ -87,7 +87,7 @@
         },
         "project-nav": {
           "tooltips": {
-            "dashboard": "Dashboard",
+            "dashboard": "Tableau de bord",
             "plugins": "Plugins",
             "dependencies": "Dépendances",
             "configuration": "Configuration",
@@ -188,21 +188,21 @@
           }
         },
         "widget": {
-          "remove": "Remove widget",
-          "configure": "Configure widget",
-          "save": "Save",
-          "reset-config": "Reset config",
-          "open-details": "Show more"
+          "remove": "Supprimer le widget",
+          "configure": "Configurer le widget",
+          "save": "Sauvegarder",
+          "reset-config": "Réinitialiser la configuration",
+          "open-details": "Voir plus"
         },
         "widget-add-pane": {
-          "title": "Add widgets"
+          "title": "Ajouter des widgets"
         },
         "widget-add-item": {
-          "add": "Add widget",
+          "add": "Ajouter le widget",
           "details": {
-            "title": "Widget details",
-            "max-instances": "Max instance count: {count}/{total}",
-            "unlimited": "unlimited"
+            "title": "Détails du widget",
+            "max-instances": "Nombre maximum d'instances: {count}/{total}",
+            "unlimited": "illimité"
           }
         }
       },
@@ -256,7 +256,7 @@
               "message": "Il semblerait que ce projet ne contient pas le dossier 'node_modules'. Veuillez vérifier d'avoir installé les dépendances avant de l'importer.",
               "close": "Compris"
             },
-            "force": "Import anyway"
+            "force": "Importer tout de même"
           }
         },
         "project-create": {
@@ -267,7 +267,7 @@
               "form": {
                 "folder": {
                   "label": "Dossier du projet",
-                  "placeholder": "Type a name",
+                  "placeholder": "Entrez un nom",
                   "tooltip": "Modifier le dossier cible",
                   "action": "Sélectionner ce dossier",
                   "folder-exists": "Ce dossier éxiste déjà",
@@ -323,7 +323,7 @@
                   "subtitle": "Dépît Git, par exemple 'nomutilisateur/depo'. Vous pouvez préfixer avec 'gitlab:' ou 'bitbucket:'."
                 },
                 "options": "Autres options",
-                "clone": "Clone/Private repository",
+                "clone": "Cloner/Repo privé",
                 "cancel": "Annuler",
                 "done": "Terminer"
               },
@@ -406,13 +406,13 @@
             }
           },
           "buttons": {
-            "add-local": "Browse local plugin"
+            "add-local": "Parcourir un plugin local"
           }
         },
         "project-plugin-add-local": {
-          "title": "Add a local plugin",
+          "title": "Ajouter un plugin local",
           "buttons": {
-            "add": "Add local plugin"
+            "add": "Ajouter le plugin local"
           }
         },
         "project-configurations": {
@@ -434,7 +434,7 @@
             "play": "Lancer la tâche",
             "stop": "Arrêter la tâche",
             "close": "Fermer",
-            "save": "Save"
+            "save": "Sauvegarder"
           },
           "command": "Commande de script",
           "parameters": "Paramètres",
@@ -462,12 +462,12 @@
           }
         },
         "project-dashboard": {
-          "title": "Project dashboard",
-          "cutomize": "Customize",
-          "done": "Done"
+          "title": "Tableau de bord du projet",
+          "cutomize": "Personnaliser",
+          "done": "Terminé"
         },
         "settings": {
-          "title": "Settings"
+          "title": "Paramètres"
         },
         "about": {
           "title": "A propos",
@@ -538,61 +538,61 @@
           "gzip": "Gzip",
           "help": "<b>Stats:</b> taille depuis les données statistiques de webpack.<br><b>Parsé:</b> taille depuis les sources extraites (après les plugins de minifications). Plus précis.<br><b>Gzip:</b> taille en source extraites compressée."
         },
-        "modern-mode": "Show modern build",
+        "modern-mode": "Build moderne",
         "tasks": {
           "serve": {
             "description": "Compile et recharge à chaud pour le développement",
-            "open": "Open browser on server start",
-            "mode": "Specify env mode",
-            "host": "Specify host",
-            "port": "Specify port",
-            "https": "Use HTTPS"
+            "open": "Ouvrir le navigateur au démarrage du serveur",
+            "mode": "Spécifier le mode d'env",
+            "host": "Spécifier l'hôte",
+            "port": "Spécifier le port",
+            "https": "Utiliser HTTPS"
           },
           "build": {
             "description": "Compile et minifie pour la production",
-            "mode": "Specify env mode",
-            "dest": "Output directory",
+            "mode": "Spécifier le mode d'env",
+            "dest": "Dossier de sortie",
             "target": {
-              "description": "Build target",
-              "app": "Web app",
-              "lib": "Library",
-              "wc": "Web component",
-              "wc-async": "Async web component"
+              "description": "Cible de compilation",
+              "app": "App web",
+              "lib": "Librairie",
+              "wc": "Composant web",
+              "wc-async": "Composant web asynchrone"
             },
             "name": "Name for library or web-component mode (default: 'name' in package.json or entry filename)",
-            "watch": "Watch for changes",
+            "watch": "Observer les changements",
             "modern": {
-              "label": "Modern mode",
-              "description": "Build app targeting modern browsers with auto fallback"
+              "label": "Mode moderne",
+              "description": "Compiler l'application en ciblant les navigateurs modernes avec un fallback automatique"
             }
           },
           "inspect": {
-            "description": "Inspect the resolved webpack config",
-            "mode": "Specify env mode",
-            "verbose": "Show full function definitions in output"
+            "description": "Inspecter la configuration webpack résolue",
+            "mode": "Spécifiez le mode d'env",
+            "verbose": "Afficher les définitions de fonction complètes dans la sortie"
           }
         },
         "config": {
           "vue-cli": {
-            "description": "Configure your Vue project",
+            "description": "Configurez votre projet Vue",
             "groups": {
-              "general": "General settings",
-              "css": "CSS settings"
+              "general": "Paramètres généraux",
+              "css": "Paramètres CSS"
             },
             "baseUrl": {
-              "label": "Base URL",
+              "label": "URL de base",
               "description": "The base URL your application will be deployed at, for example '/my-app/'. Use an empty string ('') so that all assets are linked using relative paths."
             },
             "outputDir": {
-              "label": "Output directory",
+              "label": "Dossier de sortie",
               "description": "The directory where the production build files will be generated"
             },
             "assetsDir": {
-              "label": "Assets directory",
+              "label": "Dossier des ressources",
               "description": "A directory to nest generated static assets (js, css, img, fonts) under."
             },
             "runtimeCompiler": {
-              "label": "Enable runtime compiler",
+              "label": "Activer le compilateur runtime",
               "description": "This will allow you to use the template option in Vue components, but will incur around an extra 10kb payload for your app."
             },
             "productionSourceMap": {
@@ -747,28 +747,28 @@
       },
       "widgets": {
         "welcome": {
-          "title": "Welcome tips",
-          "description": "Some tips to help you get started",
+          "title": "Astuces de bienvenue",
+          "description": "Quelques astuces pour commencer",
           "content": {
-            "title": "Welcome to your new project!",
-            "tip1": "You are looking at the project dashboard where your can put widgets. Use the 'Customize' button to add more! Everything is automatically saved.",
-            "tip2": "On the left are the different available pages. 'Plugins' let you add new Vue CLI plugins, 'Dependencies' for managing the packages, 'Configuration' to configure the tools and 'Tasks' to run scripts (for example webpack).",
-            "tip3": "Return to the project manager with the dropdown at the top left of the screen or the home button in the status bar at the bottom.",
-            "ok": "Understood"
+            "title": "Bienvenue dans votre nouveau projet!",
+            "tip1": "Ce que vous voyez actuellement est le tableau de bord de votre projet où vous pouvez disposer des widgets. Utilisez le bouton 'Personnaliser' pour en ajouter! Tout est automatiquement sauvegardé.",
+            "tip2": "Sur la gauche se trouvent les différentes pages. 'Plugins' pour permet d'ajouter des plugins Vue CLI, 'Dépendances' pour gérer les paquets, 'Configurations' pour configurer les outils de développement et 'Tâches' pour lancer des scripts (par exemple webpack).",
+            "tip3": "Retournez au gestionnaire de projets avec le menu déroulant en haut à gauche ou le bouton accueil dans la barre de statut en bas.",
+            "ok": "Compris"
           }
         },
         "kill-port": {
-          "title": "Kill port",
-          "description": "Kill processes using a specific network port",
+          "title": "Tuer un port",
+          "description": "Tuer un processus qui utilise un port réseau spécifique",
           "input": {
-            "placeholder": "Enter a network port"
+            "placeholder": "Entrer un port réseau"
           },
-          "kill": "Kill",
+          "kill": "Tuer",
           "status": {
-            "idle": "Ready to kill",
-            "killing": "Killing procress...",
-            "killed": "Killed successfully!",
-            "error": "Couldn't kill process"
+            "idle": "Prêt à tuer",
+            "killing": "En cours...",
+            "killed": "Processus tué!",
+            "error": "Impossible de tuer le processus"
           }
         },
         "status-widget": {
@@ -813,25 +813,25 @@
           "direct-dep": "Direct dependency"
         },
         "run-task": {
-          "title": "Run task",
-          "description": "Shortcut to run a task",
+          "title": "Lancer la tâche",
+          "description": "Raccourci pour lancer une tâche",
           "prompts": {
-            "task": "Select a task"
+            "task": "Sélectionner une tâche"
           },
-          "page": "Go to Task"
+          "page": "Aller à la tâche"
         },
         "news": {
-          "title": "News feed",
-          "description": "Read news feed",
-          "refresh": "Force refresh",
-          "select-tip": "Select an item on the left",
+          "title": "Fil d'actualités",
+          "description": "Lire un fil d'actualités",
+          "refresh": "Forcer le rafraîchissement",
+          "select-tip": "Sélectionnez un élément à gauche",
           "prompts": {
-            "url": "RSS feed URL or GitHub repository"
+            "url": "Fil RSS ou repo GitHub"
           },
           "errors": {
-            "fetch": "Couldn't fetch feed",
-            "offline": "You are offline",
-            "empty": "Empty feed"
+            "fetch": "Impossible de charger le fil",
+            "offline": "Vous êtes hors-ligne",
+            "empty": "Fil vide"
           }
         }
       }

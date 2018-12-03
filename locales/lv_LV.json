@@ -1,0 +1,840 @@
+{
+  "org": {
+    "vue": {
+      "common": {
+        "close": "Aizvērt",
+        "back": "Atgriezties",
+        "more-info": "Papildinformācija"
+      },
+      "components": {
+        "client-addon-component": {
+          "timeout": "Komponentes ielādes taimauts",
+          "timeout-info": "Pielāgotājai komponentei nepieciešams pārāk ilgi lādējas, iespējams ir kāda kļūda"
+        },
+        "connection-status": {
+          "disconnected": "Atvienots no UI servera",
+          "connected": "Savienots!"
+        },
+        "file-diff": {
+          "binary": "Binārais fails netiek rādīts",
+          "actions": {
+            "open": "Atvērt redaktorā"
+          }
+        },
+        "file-diff-view": {
+          "files-changed": "Faili izmainīti",
+          "search-file": "Meklēt failu",
+          "empty": "Nav izmaiņu",
+          "error": "Neizdevās iegūt faila izmaiņas",
+          "modals": {
+            "commit": {
+              "title": "Veikt izmaiņas",
+              "input": "Ievadiet izpildes ziņojumu",
+              "subtitle": "Ierakstīt izmaiņas repozitorijā",
+              "actions": {
+                "commit": "Veikt",
+                "cancel": "Atcelt"
+              }
+            }
+          },
+          "actions": {
+            "collapse-all": "Sakļaut visu",
+            "expand-all": "Izvērst visu",
+            "commit": "Veikt izmaiņas",
+            "skip": "Izlaist",
+            "continue": "Turpināt",
+            "refresh": "Atsvaidzināt"
+          }
+        },
+        "folder-explorer": {
+          "toolbar": {
+            "tooltips": {
+              "parent-folder": "Atvērt vēcākmapi",
+              "edit-path": "Rediģēt ceļu",
+              "favorite": "Pārslēgt izlasi",
+              "favorite-folders": "Izlases mapes",
+              "refresh": "Atsvaidzināt"
+            },
+            "placeholder": "Ievadiet pilnu ceļu uz mapi",
+            "empty": "Vēl nav nevienas izlases mapes.",
+            "show-hidden": "Rādīt slēptās mapes"
+          },
+          "new-folder": {
+            "action": "Jauna mape",
+            "title": "Izveidot jaunu mapi",
+            "field": {
+              "title": "Jauna mape",
+              "subtitle": "Jūs varat izmantot mapju atdalītāju lai izveidotu vairākas apakš mapes uzreiz."
+            },
+            "cancel": "Atcelt",
+            "create": "Izveidot"
+          }
+        },
+        "list-item-info": {
+          "more-info": "Papildinformācija"
+        },
+        "logger-view": {
+          "title": "Žurnāli",
+          "empty": "Vēl nav žurnālu",
+          "buttons": {
+            "clear": "Iztīrīt žurnālus",
+            "scroll": "Ritināt līdz apakšai",
+            "close": "Aizvērt"
+          }
+        },
+        "progress-screen": {
+          "close": "Aizvērt"
+        },
+        "project-nav": {
+          "tooltips": {
+            "dashboard": "Informācijas panelis",
+            "plugins": "Spraudņi",
+            "dependencies": "Atkarības",
+            "configuration": "Konfigurācija",
+            "tasks": "Uzdevumi",
+            "more": "Vairāk"
+          }
+        },
+        "project-select-list": {
+          "empty": "Nav eksistējošu projektu",
+          "titles": {
+            "favorite": "Izlases projekti",
+            "other": "Citi projekti"
+          }
+        },
+        "project-select-list-item": {
+          "tooltips": {
+            "favorite": "Pārslēgt izlasi",
+            "delete": "Izņemt no saraksta",
+            "open-in-editor": "Atvērt redaktorā"
+          }
+        },
+        "project-plugin-item": {
+          "version": "versija",
+          "latest": "jaunākais",
+          "official": "Oficiāls",
+          "installed": "Instalēts",
+          "actions": {
+            "update": "Atjaunot  {target}",
+            "refresh": "Piespiedu Atsvaidzināšana {target}<br><i>Nospiediet [Shift] lai veiktu Ātro Asvaidzināšanu (node_modules mapes netiks atjaunotas)</i>"
+          },
+          "local": "Lokāls"
+        },
+        "project-dependency-item": {
+          "version": "versija",
+          "wanted": "vajadzīgais",
+          "latest": "jaunākais",
+          "installed": "Instalēts",
+          "actions": {
+            "update": "Atjaunot  {target}",
+            "uninstall": "Atinstalēt {target}"
+          }
+        },
+        "project-tasks-dropdown": {
+          "tooltips": {
+            "tasks": "Uzdevumi",
+            "running-tasks": "{skaits} uzdevums(-u) darbojas"
+          }
+        },
+        "prompt-list": {
+          "default": "Noklusēts"
+        },
+        "prompts-list": {
+          "empty": "Nav konfigurācijas"
+        },
+        "status-bar": {
+          "project": {
+            "tooltip": "Noklikšķiniet, lai pārslēgtu Projektu Pārvaldnieku",
+            "empty": "Nav atvērtu projektu"
+          },
+          "path": {
+            "tooltip": "Tekošā Darba Mape"
+          },
+          "log": {
+            "tooltip": "Žurnāli<br><i>Noklikšķiniet, lai pārslēgtu Vue CLI žurnālus</i>",
+            "empty": "Pagaidām nav žurnālu"
+          },
+          "report-bug": "Ziņot par kļūdu",
+          "translate": "Palīdzēt tulkot",
+          "dark-mode": "Pārslēgt tumšo režīmu",
+          "reset-plugin-api": "Atsvaidzināt spraudņu API"
+        },
+        "suggestion-bar": {
+          "suggestion": "Ieteikums",
+          "modal": {
+            "cancel": "Atcelt",
+            "continue": "Turpināt"
+          }
+        },
+        "terminal-view": {
+          "buttons": {
+            "clear": "Notīrīt konsoli",
+            "scroll": "Ritināt līdz apakšai"
+          }
+        },
+        "top-bar": {
+          "no-favorites": "Nav eksistējošu projektu",
+          "favorite-projects": "Izlases projekti",
+          "recent-projects": "Jaunākie projekti",
+          "homepage": "Mājas lapa"
+        },
+        "view-badge": {
+          "labels": {
+            "tasks": {
+              "error": "Kļūdas status",
+              "running": "Darbības status",
+              "done": "Pabeigšanas status"
+            }
+          }
+        },
+        "widget": {
+          "remove": "Noņemt logrīku",
+          "configure": "Konfigurēt logrīku",
+          "save": "Saglabāt",
+          "reset-config": "Atstatīt konfigurāciju",
+          "open-details": "Parādīt vairāk"
+        },
+        "widget-add-pane": {
+          "title": "Pievienot logrīkus"
+        },
+        "widget-add-item": {
+          "add": "Pievienot logrīku",
+          "details": {
+            "title": "Logrīka detaļas",
+            "max-instances": "Maksimālais instances skaits: {skaits}/{kopējais}",
+            "unlimited": "neierobežots"
+          }
+        }
+      },
+      "mixins": {
+        "progress": {
+          "creating": "Notiek projekta izveide...",
+          "git-init": "Notiek git repozitorija inicializēšana...",
+          "plugins-install": "Vue CLI spraudņi tiek instalēti. Tas var aizņemt kādu laiku...",
+          "invoking-generators": "Notiek ģeneratoru izsaukšana...",
+          "deps-install": "Notiek papildu atkarību instalēšana...",
+          "completion-hooks": "Pabeigšanas āķi palaisti...",
+          "fetch-remote-preset": "Notiek attālā standarta iegūšana...",
+          "done": "Veiksmīgi izveidots projekts",
+          "plugin-install": "Instalē {arg0}...",
+          "plugin-uninstall": "Atinstalē {arg0}...",
+          "plugin-invoke": "Izsauc {arg0}...",
+          "plugin-update": "Atjauno {arg0}...",
+          "plugins-update": "Atjauno {arg0} spraudņus...",
+          "dependency-install": "Instalē {arg0}...",
+          "dependency-uninstall": "Atinstalē {arg0}...",
+          "dependency-update": "Atjauno {arg0}...",
+          "dependencies-update": "Atjauno {arg0} pakas..."
+        }
+      },
+      "types": {
+        "task": {
+          "status": {
+            "idle": "Dīkstāve",
+            "running": "Darbojas",
+            "done": "Pabeigts",
+            "error": "Kļūda",
+            "terminated": "Pārtraukts"
+          }
+        }
+      },
+      "views": {
+        "project-select": {
+          "title": "Vue Projekta Pārvaldnieks",
+          "tabs": {
+            "projects": "Projekti",
+            "create": "Izveidot",
+            "import": "Importēt"
+          },
+          "buttons": {
+            "create": "Izveidot jaunu projektu šeit",
+            "import": "Importēt šo mapi"
+          },
+          "import": {
+            "no-modules": {
+              "title": "Trūkstošie moduļi",
+              "message": "Šķiet, ka projektam trūkst mapes 'node_modules'. Pirms importēšanas pārbaudiet, vai esat instalējis atkarības.",
+              "close": "Sadabūts"
+            },
+            "force": "Importēt tik un tā"
+          }
+        },
+        "project-create": {
+          "title": "Izveidot jaunu projektu",
+          "tabs": {
+            "details": {
+              "title": "Detaļas",
+              "form": {
+                "folder": {
+                  "label": "Projekta mape",
+                  "placeholder": "Ievadiet nosaukumu",
+                  "tooltip": "Mainīt bāzes mapi",
+                  "action": "Izvēlēties šo mapi",
+                  "folder-exists": "Šī mape jau eksistē",
+                  "folder-name-invalid": "Mapes nosaukums nav derīgs"
+                },
+                "manager": {
+                  "label": "Paku pārvaldnieks",
+                  "default": "Noklusēts"
+                },
+                "options": {
+                  "label": "Papildus opcijas",
+                  "force": "Pārrakstīt mērķa mapi, ja tā eksistē",
+                  "git-title": "Git repozitorijs",
+                  "git": "Inicializēt git repozitoriju (ieteikums)",
+                  "git-commit-message": "Sākotnējais izpildes ziņojums (nav obligāts)"
+                }
+              },
+              "buttons": {
+                "cancel": "Atcelt",
+                "next": "Tālāk"
+              },
+              "modal": {
+                "title": "Atcelt un atstatīt projekta izveidi",
+                "body": "Vai esat drošs, ka gribat atstatīt projekta izveidi?",
+                "buttons": {
+                  "back": "Atgriezties",
+                  "clear": "Notīrīt projektu"
+                }
+              }
+            },
+            "presets": {
+              "title": "iepriekšnoteiktie iestatījumi",
+              "description": "Iepriekšnoteikts iestatījums ir spraudņu un konfigurāciju asociācija. Pēc tam, kad esat izvēlējies līdzekļus, jums ir iespēja saglabāt šo iestatījumu kopu lai pēc tam varētu izmantot to atkārtoti nākotnes projektos bez nepieciešamības visu konfigurēt no sākuma.",
+              "select": "Izvēlēties iepriekšnoteiktu iestatījumu",
+              "buttons": {
+                "previous": "Iepriekšējais",
+                "next": "Nākamais",
+                "create": "Izveidot Projektu"
+              },
+              "modal": {
+                "title": "Konfigurēt Attālinātu Iepriekšnoteiktu Iestatījumu",
+                "body": "Drīzumā pieejams..."
+              },
+              "manual": {
+                "name": "Manuāls",
+                "description": "Manuāli atlasīt līdzekļus"
+              },
+              "remote": {
+                "name": "Attālināts iepriekšnoteikts iestatījums",
+                "description": "Iegūt iepriekšnoteiktu iestatījumu no git repozitorija",
+                "url": {
+                  "title": "Iepriekšnoteikta iestatījuma URL",
+                  "subtitle": "Git repozitorijs, piemēram 'username/repo'. Jūs varat arī lietot priedēkli 'gitlab:' vai 'bitbucket:'."
+                },
+                "options": "Citas opcijas",
+                "clone": "Klonēt/Privatizēt repozitoriju",
+                "cancel": "Atcelt",
+                "done": "Pabeigts"
+              },
+              "default-preset": "Noklusētais iepriekšnoteiktais iestatījums"
+            },
+            "features": {
+              "title": "Līdzekļi",
+              "description": "Jums būs iespēja pievienot līdzekļus pēc tam, kad projekts tiks izveidots, uzstādot spraudņus.",
+              "enable": "Iespējot līdzekļus",
+              "buttons": {
+                "previous": "Iepriekšējais",
+                "next": "Nākamais",
+                "create": "Izveidot Projektu"
+              },
+              "userConfigFiles": {
+                "name": "Lietot konfigurācijas failus",
+                "description": "Lietot specifiskus konfigurācijas failus (kā '.babelrc') nevis 'package.json'."
+              }
+            },
+            "configuration": {
+              "title": "Konfigurācija",
+              "buttons": {
+                "previous": "Iepriekšējais",
+                "create": "Izveidot Projektu"
+              },
+              "modal": {
+                "title": "Saglabāt kā jaunu iepriekšnoteiktu iestatījumu",
+                "body": {
+                  "title": "Iepriekšnoteiktā iestatījuma nosaukums",
+                  "subtitle": "Saglabāt līdzekļus un konfigurāciju jaunā iepriekšnoteiktā iestatījumā"
+                },
+                "buttons": {
+                  "cancel": "Atcelt",
+                  "continue": "Turpināt nesaglabājot",
+                  "create": "Izveidot jaunu iepriekšnoteiktu iestatījumu"
+                }
+              }
+            }
+          }
+        },
+        "project-plugins": {
+          "title": "Projekta spraudņi",
+          "button": "Pievienot spraudni",
+          "heading": "Ieinstalētie spraudņi",
+          "update-all": "Atjaunot visus spraudņus"
+        },
+        "project-plugins-add": {
+          "title": "Pievienot spraudni",
+          "plugin": "spraudnis",
+          "tabs": {
+            "search": {
+              "label": "Meklēt",
+              "search-input": "Meklēt spraudni",
+              "not-found": "Rezultāti nav atrasti",
+              "buttons": {
+                "cancel": "Atcelt",
+                "install": "Instalēt {target}",
+                "default-install": "Instalēt"
+              }
+            },
+            "configuration": {
+              "label": "Konfigurācija",
+              "heading": "{target} instalēšana",
+              "buttons": {
+                "cancel": "Atcelt",
+                "finish": "Pabeigt instalāciju"
+              }
+            },
+            "diff": {
+              "label": "Faili izmainīti"
+            }
+          },
+          "modal": {
+            "title": "Atinstalēt {target}?",
+            "body": "Vai jūs vēlaties atintalēt {target} spraudni?",
+            "buttons": {
+              "back": "Atgriezties",
+              "cancel": "Atcelt bez atinstalēšanas",
+              "uninstall": "Atinstalēt"
+            }
+          },
+          "buttons": {
+            "add-local": "Pārlūkot vietējo spraudni"
+          }
+        },
+        "project-plugin-add-local": {
+          "title": "Pievienot lokālu spraudni",
+          "buttons": {
+            "add": "Pievienot lokālu spraudni"
+          }
+        },
+        "project-configurations": {
+          "title": "Projekta konfigurācija"
+        },
+        "project-configuration-details": {
+          "actions": {
+            "cancel": "Atcelt izmaiņas",
+            "save": "Saglabāt izmaiņas",
+            "more-info": "Papildinformācija",
+            "refresh": "Atsvaidzināt"
+          }
+        },
+        "project-tasks": {
+          "title": "Projekta uzdevumi"
+        },
+        "project-task-details": {
+          "actions": {
+            "play": "Palaist uzdevumu",
+            "stop": "Apstādināt uzdevumu",
+            "close": "Aizvērt",
+            "save": "Saglabāt"
+          },
+          "command": "Skripta komanda",
+          "parameters": "Parametri",
+          "more-info": "Papildinformācija",
+          "output": "Izvade"
+        },
+        "project-dependencies": {
+          "title": "Projekta atkarības",
+          "heading": {
+            "dependencies": "Galvenās atkarības",
+            "devDependencies": "Izstrādes atkarības"
+          },
+          "actions": {
+            "install": "Instalēt atkarību",
+            "update-all": "Atjaunot visas atkarības"
+          },
+          "install": {
+            "title": "Instalēt jaunu atkarību"
+          },
+          "uninstall": {
+            "title": "Atstiprināt atinstalēšanu",
+            "body": "Vai jūs esat drošs, ka vēlaties atinstalēt {id}?",
+            "cancel": "Atcelt",
+            "uninstall": "Atinstalēt {id}"
+          }
+        },
+        "project-dashboard": {
+          "title": "Projekta informācijas panelis",
+          "cutomize": "Pielāgot",
+          "done": "Pabeigts"
+        },
+        "settings": {
+          "title": "Iestatījumi"
+        },
+        "about": {
+          "title": "Par",
+          "description": "<a href=\"https://github.com/vuejs/vue-cli/tree/dev/packages/%40vue/cli-ui\" target=\"_blank\">@vue/cli-ui</a>ir iebūvēta vue-cli paka, kas atver pilnu UI. ",
+          "quote": "Vue-cli 3.x ir pilnībā pārrakstīts ar daudzām jaunām, brīnišķīgām iezīmēm. Jums būs iespēja atlasīt tādus līdzekļus kā maršrutēšana, Vuex vai Typescript, pēc tam pievienot un atjaunināt veidošanas blokus, ko sauc par “vue-cli spraudņi”. Tomēr, daudzo iespēju dēļ šis rīks tagad ir sarežģītāks un grūtāk izmantojams. Tāpēc mēs domājām, ka pilnais GUI palīdzēs atklāt jaunās funkcijas, meklēt un instalēt vue-cli spraudņus un pavērt plašākas iespējas kopumā, vienlaikus neaprobežojoties ar termināla saskarni. Rezumējot, vue-cli ne tikai ļaus viegli uzburt jaunu projektu, bet arī paliks noderīgs notiekošajam darbam pēc tam!",
+          "links": "Noderīgas saites",
+          "back": "Atgriezties"
+        }
+      },
+      "cli-service": {
+        "suggestions": {
+          "vue-router-add": {
+            "label": "Pievienot vue-router",
+            "message": "Oficiālā bibliotēka, lai Vienas Lapas Lietojumprogrammā atbalstītu vairākas virtuālās lapas. Katrs maršruts atveido citu komponenti."
+          },
+          "vuex-add": {
+            "label": "Pievienot vuex",
+            "message": "Oficiāls centralizēts stāvokļa pārvaldes risinājums liela mēroga lietotnēm. Ļoti noderīgi, ja ir nepieciešamas vairākas komponentes, lai piekļūtu vieniem un tiem pašiem datiem."
+          },
+          "vue-devtools": {
+            "label": "Instalēt izstrādātāju rīkus",
+            "message": "Pārlūkprogrammas izstrādātāju rīku oficiāls paplašinājums, lai atkļūdotu Vue.js lietojumprogrammas, kurās var apskatīt komponentess, vuex krātuvi un notikumus."
+          },
+          "progress": "Instalē {arg0}..."
+        }
+      },
+      "vue-webpack": {
+        "dashboard": {
+          "title": "Informācijas panelis",
+          "open-app": "Atvērt lietojumprogrammu",
+          "webpack-status": {
+            "Success": "Izdevās",
+            "Failed": "Neizdevās",
+            "Compiling": "Kompilē",
+            "Invalidated": "Spēkā neesošs",
+            "Idle": "Dīkstāve"
+          },
+          "build-status": {
+            "labels": {
+              "status": "Statuss",
+              "errors": "Kļūdas",
+              "warnings": "Brīdinājumi",
+              "assets": "Aktīvi",
+              "modules": "Moduļi",
+              "deps": "Atkarības"
+            }
+          },
+          "speed-stats": {
+            "title": "Ātruma statistika"
+          },
+          "module-list": {
+            "title": "Atkarības"
+          },
+          "asset-list": {
+            "title": "Aktīvi",
+            "size-warning": "Aktīvi ir lieli, ieteicams lietot koda dalīšanu, lai izveidotu mazākus aktīvus."
+          }
+        },
+        "analyzer": {
+          "title": "Analizētājs",
+          "go-up": "Uz augšu",
+          "go-home": "Uz sākumu",
+          "chunk": "Gabals"
+        },
+        "sizes": {
+          "stats": "Statistika",
+          "parsed": "Analizēts",
+          "gzip": "Gzip",
+          "help": "<b>Statistika:</b> izmērs no webpack statistikas datiem. <br><b>Analizēts:</b>izmērs no izvilktā avota (pēc minifikācijas spraudņiem). Daudz precīzāk. <br><b>Gzip: </b>izmērs arhivētam izvilktam avotam."
+        },
+        "modern-mode": "Parādīt mūsdienīgu veidojumu",
+        "tasks": {
+          "serve": {
+            "description": "Kompilē un 'karsti' pārlādē priekš izstrādes",
+            "open": "Atvērt pārlūkprogrammu kad serveris startējas",
+            "mode": "Norādiet vides režīmu",
+            "host": "Norādiet resursdatoru",
+            "port": "Norādiet portu",
+            "https": "Lietot HTTPS"
+          },
+          "build": {
+            "description": "Kompilē un minificē priekš produkcijas",
+            "mode": "Norādiet vides režīmu",
+            "dest": "Izvades mape",
+            "target": {
+              "description": "Veidojuma mērķis",
+              "app": "Web lietojumprogramma",
+              "lib": "Bibliotēka",
+              "wc": "Web komponente",
+              "wc-async": "Asinhrona web komponente"
+            },
+            "name": "Nosaukums bibliotēkai vai web komponentes režīms (pēc noklusējuma: 'name' package.json failā vai ievades failā).",
+            "watch": "Vērot izmaiņas",
+            "modern": {
+              "label": "Modernais režīms",
+              "description": "Veidot lietojumprogrammu priekš modernām pārlūkprogrammām ar auto atkāpšanos"
+            }
+          },
+          "inspect": {
+            "description": "Pārbaudīt atrisināto webpack konfigurāciju",
+            "mode": "Norādiet vides režīmu",
+            "verbose": "Rādīt pilnas funkcijas definīcijas izvadē"
+          }
+        },
+        "config": {
+          "vue-cli": {
+            "description": "Konfigurēt jūsu Vue projektu",
+            "groups": {
+              "general": "Vispārīgie uzstādījumi",
+              "css": "CSS uzstādījumi"
+            },
+            "baseUrl": {
+              "label": "Pamata URL",
+              "description": "Pamata URL, kur jūsu lietotne tiks izvietota, piemēram, '/my-app/'. Izmantojiet tukšu virkni (''), lai visi aktīvi būtu saistīti, izmantojot relatīvos ceļus."
+            },
+            "outputDir": {
+              "label": "Izvades mape",
+              "description": "Mape, kur produkcijas faili tiks ģenerēti"
+            },
+            "assetsDir": {
+              "label": "Aktīvu mape",
+              "description": "Mape, zem kuras tiks ģenerēti statiskie aktīvi (js, css, img, fonti)."
+            },
+            "runtimeCompiler": {
+              "label": "Iespējot izpildlaika kompilatoru",
+              "description": "Būs iespējams lietot veidnes opciju Vue komponentēs, bet jūsu lietotnei būs jāsaskaras ar papildu 10 kb izmēru."
+            },
+            "productionSourceMap": {
+              "label": "Iespējot Produkcijas Avotu Kartes",
+              "description": "Izslēdzot šo ir iespējams paātrināt produkcijas rezultātu, ja jums nav nepieciešamas avotu kartes produkcijā."
+            },
+            "parallel": {
+              "label": "Paralēlā kompilācija",
+              "description": "Vai lietot vai nē vairākus procesorus Babel vai Typescript kompilēšanai."
+            },
+            "css": {
+              "modules": {
+                "label": "Iespējot CSS Moduļus",
+                "description": "Pēc noklusējuma tikai faili, kas beidzas ar *.module.[ext], tiek uzskatīti par CSS moduļiem. Iespējojot šo opciju, visi stila faili tiks uzskatīti par CSS moduļiem."
+              },
+              "extract": {
+                "label": "Izvilkt CSS",
+                "description": "Vai izvilkt vai nē CSS no jūsu komponentēm atsevišķā CSS failā (nevis ievietoti iekšā JavaScript un injicēti dinamiski)."
+              },
+              "sourceMap": {
+                "label": "Iespējot CSS Avotu Kartes",
+                "description": "Vai iespējot vai nē avotu kartes priekš CSS. Iespējojot šo ietekmēsiet būvēšanas veiktspēju."
+              }
+            }
+          }
+        },
+        "suggestions": {
+          "vue-config-open": "Atvērt vue konfigurāciju"
+        }
+      },
+      "eslint": {
+        "config": {
+          "eslint": {
+            "description": "Kļūdu pārbaudīšana un Koda kvalitāte",
+            "groups": {
+              "base": "Pamats",
+              "essential": "Būtisks",
+              "strongly-recommended": "Ļoti ieteicams",
+              "recommended": "Ieteicams",
+              "uncategorized": "Neklasificēts"
+            },
+            "setting": {
+              "off": "Izslēgts",
+              "error": "Kļūda",
+              "warning": "Brīdinājums",
+              "custom": "Pielāgots"
+            },
+            "general": {
+              "label": "Vispārīgs",
+              "lintOnSave": {
+                "message": "Lintot kad saglabā",
+                "description": "Automātiski lintot avotu failus kad saglabā"
+              },
+              "config": {
+                "message": "Izvēlēties konfigurāciju",
+                "description": "Izvēlēties iepriekš definētu konfigurāciju"
+              }
+            },
+            "rules": {
+              "label": "Noteikumi"
+            }
+          }
+        },
+        "tasks": {
+          "lint": {
+            "description": "Linto un salabo failus",
+            "noFix": "Nelabot kļūdas"
+          }
+        },
+        "suggestions": {
+          "open-eslintrc": {
+            "label": "Atvērt eslintrc"
+          }
+        }
+      },
+      "pwa": {
+        "config": {
+          "pwa": {
+            "description": "Progresīvā Web Lietojumprogramma",
+            "workboxPluginMode": {
+              "message": "Spraudņu režīms",
+              "description": "Tas ļauj izvēlēties starp diviem režīmiem, kurus atbalsta pamatā esošais `workbox-webpack-plugin`"
+            },
+            "name": {
+              "message": "Lietojumprogrammas nosaukums",
+              "description": "Programmas nosaukums, kas tiks parādīts Sākuma ekrānā un dažādās citās vietās. Tiek izmantots arī kā vērtība ģenerētajā HTML `apple-mobile-web-app-title` meta tagam"
+            },
+            "themeColor": {
+              "message": "Dizaina krāsa",
+              "description": "Pārlūkprogrammas dizainam izmantotā krāsa"
+            },
+            "backgroundColor": {
+              "message": "Sākuma ekrāna fona krāsa",
+              "description": "Fona krāsa priekš lietojumprogrammas sākuma ekrāna"
+            },
+            "msTileColor": {
+              "message": "Windows lietojumprogrammas elementa krāsa",
+              "description": "Krāsa, kas tiek lietota lietojumprogrammas elementam uz Windows"
+            },
+            "appleMobileWebAppStatusBarStyle": {
+              "message": "Apple mobīlā telefona statusa joslas stils",
+              "description": "Stils priekš web lietojumprogrammas statusa joslas uz iOS platformas"
+            }
+          }
+        },
+        "suggestions": {
+          "open-vue": {
+            "label": "Atvērt vue konfigurāciju"
+          },
+          "open-manifest": {
+            "label": "Atvērt manifestu"
+          }
+        }
+      },
+      "cypress": {
+        "tasks": {
+          "test": {
+            "description": "Palaist e2e testus ar `cypress run`",
+            "headless": "Palaist režīmā bez GUI",
+            "mode": "Norādīt režīmu kādā izstrādes serverim vajadzētu tikt palaistam",
+            "url": "Palaists e2e testus ar norādītu url nevis auto startējot izstrādes serveri"
+          }
+        }
+      },
+      "nightwatch": {
+        "tasks": {
+          "test": {
+            "description": "Palaist e2e testus ar nightwatch",
+            "url": "Palaists e2e testus ar norādītu url nevis auto startējot izstrādes serveri",
+            "config": "Lietot pielāgotu nightwatch konfigurācijas failu (neievēro iekšējo loģiku)",
+            "env": "Komata atdalītas pārlūkprogrammu vides kurās darboties"
+          }
+        }
+      },
+      "jest": {
+        "tasks": {
+          "test": {
+            "description": "Palaist vienību testus ar Jest",
+            "watch": "Vērot failu izmaiņas un atkārtoti palaist testus saistītus ar izmainītajiem failiem",
+            "notify": "Pēc katras palaišanas parādīt paziņojumu",
+            "update": "Atkārtoti ierakstīt katru momentuzņēmumu, kas izgāžas pēc šī testa palaišanas"
+          }
+        }
+      },
+      "mocha": {
+        "tasks": {
+          "test": {
+            "description": "Palaist vienību testus ar Mocha",
+            "watch": "Vērot failu izmaiņas un atkārtoti palaist testus saistītus ar izmainītajiem failiem"
+          }
+        }
+      },
+      "widgets": {
+        "welcome": {
+          "title": "Iepazīšanās padomi",
+          "description": "Daži padomi, kas palīdzēs Tev uzsākt",
+          "content": {
+            "title": "Laipni lūdzam jaunajā projektā!",
+            "tip1": "Jūs skatāties uz projekta informācijas paneli, kur varat ievietot logrīkus. Izmantojiet pogu 'Pielāgot', lai pievienotu vairāk! Viss tiek automātiski saglabāts.",
+            "tip2": "Kreisajā pusē ir dažādas pieejamās lapas. ' Spraudņi' ļauj pievienot jaunus Vue CLI spraudņus, 'Atkarības', lai pārvaldītu pakotnes, ' Konfigurācija', lai konfigurētu rīkus, un 'Uzdevumi ', lai palaistu skriptus (piemēram, webpack).",
+            "tip3": "Atgriezieties pie projekta vadītāja ar nolaižamo izvēlni ekrāna augšējā kreisajā stūrī vai sākuma pogu statusa joslā apakšējā daļā.",
+            "ok": "Sapratu"
+          }
+        },
+        "kill-port": {
+          "title": "Nogalināt portu",
+          "description": "Nogalināt procesus, kas izmanto noteikto tīkla portu",
+          "input": {
+            "placeholder": "Ievadiet tīkla portu"
+          },
+          "kill": "Nogalināt",
+          "status": {
+            "idle": "Gatavs apturēt",
+            "killing": "Nogalina procesu...",
+            "killed": "Nogalināts veiksmīgi!",
+            "error": "Neizdevās nogalināt procesu"
+          }
+        },
+        "status-widget": {
+          "last-updated": "Atjaunots",
+          "never": "Nav vēl atjaunots",
+          "check": "Pārbaudīt atjauninājumus",
+          "more-info": "Vairāk detaļu"
+        },
+        "plugin-updates": {
+          "title": "Spraudņu atjauninājumi",
+          "description": "Pieskatīt spraudņu atjauninājumus",
+          "messages": {
+            "ok": "Visi spraudņi ir atjaunoti",
+            "loading": "Pārbauda atjauninājumus...",
+            "attention": "{n} spraudņu atjauninājumi pieejami"
+          },
+          "page": "Doties uz Spraudņi"
+        },
+        "dependency-updates": {
+          "title": "Atkarību atjauninājumi",
+          "description": "Pieskatīt atkarību atjauninājumus",
+          "messages": {
+            "ok": "Visas atkarības atjaunotas",
+            "loading": "Pārbauda atjauninājumus...",
+            "attention": "{n} atkarību atjauninājumi pieejami"
+          },
+          "page": "Doties uz Atkarības"
+        },
+        "vulnerability": {
+          "title": "Ievainojumu pārbaude",
+          "description": "Pārbaudīt zināmās ievainojamības projekta atkarībās",
+          "messages": {
+            "ok": "Neatrada ievainojamības",
+            "loading": "Pārbauda drošības pārskatus...",
+            "attention": "{n} ievainojamības atrastas"
+          },
+          "severity": {
+            "high": "Augsta smaguma pakāpe",
+            "medium": "Vidēja smaguma pakāpe",
+            "low": "Zema smaguma pakāpe"
+          },
+          "direct-dep": "Tiešā atkarība"
+        },
+        "run-task": {
+          "title": "Palaist uzdevumu",
+          "description": "Saīsne uzdevuma izpildei",
+          "prompts": {
+            "task": "Izvēlēties uzdevumu"
+          },
+          "page": "Doties uz Uzdevumu"
+        },
+        "news": {
+          "title": "Ziņu plūsma",
+          "description": "Lasīt ziņu plūsmu",
+          "refresh": "Piespiedu atsvaidzināšana",
+          "select-tip": "Atlasīt vienumu pa kreisi",
+          "prompts": {
+            "url": "RSS plūsmas URL vai GitHub repozitorijs"
+          },
+          "errors": {
+            "fetch": "Nevarēja sadabūt plūsmu",
+            "offline": "Jūs esat bezsaistē",
+            "empty": "Tukša plūsma"
+          }
+        }
+      }
+    }
+  }
+}

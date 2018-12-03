@@ -2,181 +2,181 @@
   "org": {
     "vue": {
       "common": {
-        "close": "إغلاق",
-        "back": "الرجوع",
-        "more-info": "المزيد من المعلومات"
+        "close": "Sulje",
+        "back": "Takaisin",
+        "more-info": "Lisätiedot"
       },
       "components": {
         "client-addon-component": {
-          "timeout": "تحميل مهلة المكون",
-          "timeout-info": "يأخذ تحميل المكون المخصص وقتًا طويلاً ، فقد يكون هناك مشكلة"
+          "timeout": "Component load timeout",
+          "timeout-info": "Mukautetun komponentin lataus kestää liian kauan, komponentissa saattaa olla virhe"
         },
         "connection-status": {
-          "disconnected": "Disconnected from UI server",
-          "connected": "متصل!"
+          "disconnected": "Yhteys UI serveriin katkaistu",
+          "connected": "Yhdistetty!"
         },
         "file-diff": {
           "binary": "Binary file not shown",
           "actions": {
-            "open": "فتح في المحرر"
+            "open": "Avaa editorissa"
           }
         },
         "file-diff-view": {
-          "files-changed": "تم تغيير الملفات",
-          "search-file": "البحث عن ملف",
-          "empty": "لم يتم إيجاد أي تغيير",
-          "error": "Couldn't get file changes",
+          "files-changed": "Muuttuneet tiedostot",
+          "search-file": "Etsi tiedosto",
+          "empty": "Ei muutoksia",
+          "error": "Tiedostomuutoksia ei voitu hakea",
           "modals": {
             "commit": {
-              "title": "Commit changes",
-              "input": "Enter a commit message",
-              "subtitle": "Record changes to the repository",
+              "title": "Kommitoi muutokset",
+              "input": "Anna muutosviesti",
+              "subtitle": "Tallenna muutokset repositoryyn.",
               "actions": {
-                "commit": "Commit",
-                "cancel": "إلغاء"
+                "commit": "Kommitoi",
+                "cancel": "Peruuta"
               }
             }
           },
           "actions": {
-            "collapse-all": "غلق الكل",
-            "expand-all": "فتح الكل",
-            "commit": "Commit changes",
-            "skip": "تخطي",
-            "continue": "مواصلة",
-            "refresh": "إعادة تحديث"
+            "collapse-all": "Piilota kaikki",
+            "expand-all": "Näytä kaikki",
+            "commit": "Kommitoi muutokset",
+            "skip": "Ohita",
+            "continue": "Jatka",
+            "refresh": "Päivitä"
           }
         },
         "folder-explorer": {
           "toolbar": {
             "tooltips": {
-              "parent-folder": "فتح المجلد الرئيسي",
-              "edit-path": "تعديل المسار",
-              "favorite": "Toggle favorite",
-              "favorite-folders": "Favorite folders",
-              "refresh": "إعادة تحديث"
+              "parent-folder": "Avaa pääkansio",
+              "edit-path": "Muokkaa polkua",
+              "favorite": "Suosikki",
+              "favorite-folders": "Suosikkikansiot",
+              "refresh": "Päivitä"
             },
-            "placeholder": "Enter the full path to a folder",
-            "empty": "No favorite folders yet.",
-            "show-hidden": "إظهار المجلدات المخفية"
+            "placeholder": "Anna koko polku kansioon",
+            "empty": "Ei vielä suosikkikansioita.",
+            "show-hidden": "Näytä piilotetut kansiot"
           },
           "new-folder": {
-            "action": "مجلد جديد",
-            "title": "إنشاء مجلد جديد",
+            "action": "Uusi kansio",
+            "title": "Luo uusi kansio",
             "field": {
-              "title": "مجلد جديد",
-              "subtitle": "You can use the folder separator to create multiple nested folders at once."
+              "title": "Uusi kansio",
+              "subtitle": "Voit käyttää kansiojakajaa luodaksesi useampia sisäkkäisiä kansioita kerralla."
             },
-            "cancel": "إلغاء",
-            "create": "إنشاء"
+            "cancel": "Peruuta",
+            "create": "Luo"
           }
         },
         "list-item-info": {
-          "more-info": "معلومات أكثر"
+          "more-info": "Lisätiedot"
         },
         "logger-view": {
-          "title": "السجلات",
-          "empty": "لا يوجد سجلات بعد",
+          "title": "Lokit",
+          "empty": "Ei vielä lokeja",
           "buttons": {
-            "clear": "مسح السجلات",
-            "scroll": "إنتقل الى اسفل",
-            "close": "إغلاق"
+            "clear": "Tyhennä lokit",
+            "scroll": "Vieritä alas",
+            "close": "Sulje"
           }
         },
         "progress-screen": {
-          "close": "إغلاق"
+          "close": "Sulje"
         },
         "project-nav": {
           "tooltips": {
-            "dashboard": "Dashboard",
-            "plugins": "الإضافات",
-            "dependencies": "Dependencies",
-            "configuration": "تهيئة",
-            "tasks": "المهام",
-            "more": "المزيد"
+            "dashboard": "Hallintapaneeli",
+            "plugins": "Lisäosat",
+            "dependencies": "Riippuvuudet",
+            "configuration": "Asetukset",
+            "tasks": "Tehtävät",
+            "more": "Lisää"
           }
         },
         "project-select-list": {
-          "empty": "لا توجد مشاريع حالية",
+          "empty": "Ei projekteja",
           "titles": {
-            "favorite": "مشاريع مفضلة",
-            "other": "مشاريع أخرى"
+            "favorite": "Suosikkiprojektit",
+            "other": "Muut projektit"
           }
         },
         "project-select-list-item": {
           "tooltips": {
-            "favorite": "Toggle favorite",
-            "delete": "حذف",
-            "open-in-editor": "فتح في المحرر"
+            "favorite": "Vaihda suosikiksi",
+            "delete": "Poista listalta",
+            "open-in-editor": "Avaa editorissa"
           }
         },
         "project-plugin-item": {
-          "version": "الإصدار",
-          "latest": "الأحدث",
-          "official": "رسمي",
-          "installed": "مثبت",
+          "version": "versio",
+          "latest": "viimeisin",
+          "official": "Virallinen",
+          "installed": "Asennettu",
           "actions": {
-            "update": "Update {target}",
+            "update": "Päivitä {target}",
             "refresh": "Force Refresh {target}<br><i>Press [Shift] for Quick Refresh (node_modules won't be updated)</i>"
           },
-          "local": "Local"
+          "local": "Paikallinen"
         },
         "project-dependency-item": {
-          "version": "الإصدار",
-          "wanted": "wanted",
-          "latest": "الاخير",
-          "installed": "مثبت",
+          "version": "versio",
+          "wanted": "haluttu",
+          "latest": "viimeisin",
+          "installed": "Asennettu",
           "actions": {
-            "update": "Update {target}",
-            "uninstall": "Uninstall {target}"
+            "update": "Päivitä {target}",
+            "uninstall": "Poista {target}"
           }
         },
         "project-tasks-dropdown": {
           "tooltips": {
-            "tasks": "مهام",
-            "running-tasks": "{count} running task(s)"
+            "tasks": "Tehtävät",
+            "running-tasks": "{count} tehtävä(ä) käynnissä"
           }
         },
         "prompt-list": {
-          "default": "الافتراضي"
+          "default": "Oletus"
         },
         "prompts-list": {
-          "empty": "No configuration"
+          "empty": "Ei asetuksia"
         },
         "status-bar": {
           "project": {
             "tooltip": "Click to toggle Project Manager",
-            "empty": "No project open"
+            "empty": "Ei avattua projektia"
           },
           "path": {
             "tooltip": "Current Working Folder"
           },
           "log": {
             "tooltip": "Logs<br><i>Click to toggle Vue CLI logs</i>",
-            "empty": "لا يوجد سجلات بعد"
+            "empty": "Ei vielä lokeja"
           },
-          "report-bug": "الإبلاغ عن خطأ",
-          "translate": "Help translate",
+          "report-bug": "Raportoi virhe",
+          "translate": "Auta kääntämään",
           "dark-mode": "Toggle dark mode",
           "reset-plugin-api": "Refresh plugins API"
         },
         "suggestion-bar": {
-          "suggestion": "Suggestion",
+          "suggestion": "Ehdotus",
           "modal": {
-            "cancel": "إلغاء",
-            "continue": "Continue"
+            "cancel": "Peruuta",
+            "continue": "Jatka"
           }
         },
         "terminal-view": {
           "buttons": {
-            "clear": "Clear console",
-            "scroll": "إنتقل الى اسفل"
+            "clear": "Tyhjennä konsoli",
+            "scroll": "Vieritä alas"
           }
         },
         "top-bar": {
-          "no-favorites": "No favorite projects",
-          "favorite-projects": "Favorite projects",
-          "recent-projects": "Recent projects",
-          "homepage": "الصفحة الرئيسية"
+          "no-favorites": "Ei suosikkiprojekteja",
+          "favorite-projects": "Suosikkiprojektit",
+          "recent-projects": "Viimeisimmät projektit",
+          "homepage": "Kotisivu"
         },
         "view-badge": {
           "labels": {
@@ -190,9 +190,9 @@
         "widget": {
           "remove": "Remove widget",
           "configure": "Configure widget",
-          "save": "حفظ",
-          "reset-config": "Reset config",
-          "open-details": "Show more"
+          "save": "Tallenna",
+          "reset-config": "Nollaa asetukset",
+          "open-details": "Näytä lisää"
         },
         "widget-add-pane": {
           "title": "Add widgets"
@@ -202,207 +202,207 @@
           "details": {
             "title": "Widget details",
             "max-instances": "Max instance count: {count}/{total}",
-            "unlimited": "غير محدود"
+            "unlimited": "rajaton"
           }
         }
       },
       "mixins": {
         "progress": {
-          "creating": "Creating project...",
-          "git-init": "Initializing git repository...",
+          "creating": "Luodaan projektia...",
+          "git-init": "Alustetaan git-tietolähde...",
           "plugins-install": "Installing Vue CLI plugins. This might take a while...",
           "invoking-generators": "Invoking generators...",
           "deps-install": "Installing additional dependencies...",
           "completion-hooks": "Running completion hooks...",
           "fetch-remote-preset": "Fetching remote preset...",
           "done": "Successfully created project",
-          "plugin-install": "Installing {arg0}...",
-          "plugin-uninstall": "Uninstalling {arg0}...",
-          "plugin-invoke": "Invoking {arg0}...",
-          "plugin-update": "Updating {arg0}...",
-          "plugins-update": "Updating {arg0} plugins...",
-          "dependency-install": "Installing {arg0}...",
-          "dependency-uninstall": "Uninstalling {arg0}...",
-          "dependency-update": "Updating {arg0}...",
-          "dependencies-update": "Updating {arg0} packages..."
+          "plugin-install": "Asennetaan {arg0}...",
+          "plugin-uninstall": "Poistetaan {arg0}...",
+          "plugin-invoke": "Kutsutaan {arg0}...",
+          "plugin-update": "Päivitetään {arg0}...",
+          "plugins-update": "Päivitetään {arg0} lisäosia...",
+          "dependency-install": "Asennetaan {arg0}...",
+          "dependency-uninstall": "Poistetaan {arg0}...",
+          "dependency-update": "Päivitetään {arg0}...",
+          "dependencies-update": "Päivitetään {arg0} paketteja..."
         }
       },
       "types": {
         "task": {
           "status": {
-            "idle": "Idle",
-            "running": "Running",
-            "done": "تم",
-            "error": "خطأ",
-            "terminated": "Terminated"
+            "idle": "Valmiudessa",
+            "running": "Käynnissä",
+            "done": "Valmis",
+            "error": "Virhe",
+            "terminated": "Lopetettu"
           }
         }
       },
       "views": {
         "project-select": {
-          "title": "Vue Project Manager",
+          "title": "Vue Projektinhallinta",
           "tabs": {
-            "projects": "Projects",
-            "create": "إنشاء",
-            "import": "Import"
+            "projects": "Projektit",
+            "create": "Luo",
+            "import": "Tuo"
           },
           "buttons": {
-            "create": "Create a new project here",
-            "import": "Import this folder"
+            "create": "Luo uusi projekti tähän",
+            "import": "Tuo tämä kansio"
           },
           "import": {
             "no-modules": {
-              "title": "Missing modules",
-              "message": "It seems the project is missing the 'node_modules' folder. Please check you installed the dependencies before importing.",
-              "close": "Got it"
+              "title": "Moduulit puuttuvat",
+              "message": "Projektista näyttää puuttuvan 'mode_modules' kansio. Tarkista että asensit riippuvuudet ennen tuontia.",
+              "close": "Selvä"
             },
-            "force": "Import anyway"
+            "force": "Tuo silti"
           }
         },
         "project-create": {
-          "title": "Create a new project",
+          "title": "Luo uusi projekti",
           "tabs": {
             "details": {
-              "title": "Details",
+              "title": "Tiedot",
               "form": {
                 "folder": {
-                  "label": "Project folder",
-                  "placeholder": "أكتب اسم",
-                  "tooltip": "Change base folder",
-                  "action": "Select this folder",
-                  "folder-exists": "This folder already exists",
-                  "folder-name-invalid": "Folder name invalid"
+                  "label": "Projektikansio",
+                  "placeholder": "Kirjoita nimi",
+                  "tooltip": "Vaihda juurikansiota",
+                  "action": "Valitse tämä kansio",
+                  "folder-exists": "Tämä kansio on jo olemassa",
+                  "folder-name-invalid": "Kansion nimi ei kelpaa"
                 },
                 "manager": {
-                  "label": "Package manager",
-                  "default": "الافتراضي"
+                  "label": "Pakettienhallinta",
+                  "default": "Oletus"
                 },
                 "options": {
-                  "label": "خيارات أخرى",
-                  "force": "Overwrite target folder if it exists",
-                  "git-title": "Git repository",
-                  "git": "Initialize git repository (recommended)",
-                  "git-commit-message": "Initial commit message (optional)"
+                  "label": "Lisäasetukset",
+                  "force": "Ylikirjoita olemassaoleva kansio",
+                  "git-title": "Git-tietolähde",
+                  "git": "Alusta git-tietolähde (suositeltu)",
+                  "git-commit-message": "Ensimmäinen commit-viesti (vapaaehtoinen)"
                 }
               },
               "buttons": {
-                "cancel": "إلغاء",
-                "next": "التالي"
+                "cancel": "Peruuta",
+                "next": "Seuraava"
               },
               "modal": {
-                "title": "Cancel and reset project creation",
-                "body": "Are you sure you want to reset the project creation?",
+                "title": "Peruuta projektin luonti",
+                "body": "Haluatko varmasti peruuttaa projektin luonnin?",
                 "buttons": {
-                  "back": "Go back",
-                  "clear": "Clear project"
+                  "back": "Takaisin",
+                  "clear": "Tyhjää projekti"
                 }
               }
             },
             "presets": {
-              "title": "Presets",
+              "title": "Esiasetukset",
               "description": "A preset is an association of plugins and configurations. After you've selected features, you can optionally save it as a preset so that you can reuse it for future projects, without having to reconfigure everything again.",
-              "select": "Select a preset",
+              "select": "Valitse esiasetus",
               "buttons": {
-                "previous": "السابق",
-                "next": "التالي",
-                "create": "Create Project"
+                "previous": "Edellinen",
+                "next": "Seuraava",
+                "create": "Luo Projekti"
               },
               "modal": {
                 "title": "Configure Remote preset",
-                "body": "متوفر قريباً"
+                "body": "Saatavilla pian..."
               },
               "manual": {
-                "name": "Manual",
-                "description": "Manually select features"
+                "name": "Manuaalinen",
+                "description": "Valitse toiminnallisuudet manuaalisesti"
               },
               "remote": {
                 "name": "Remote preset",
                 "description": "Fetch a preset from a git repository",
                 "url": {
-                  "title": "Preset URL",
-                  "subtitle": "Git repo, for example 'username/repo'. You can also prefix with 'gitlab:' or 'bitbucket:'."
+                  "title": "Esiasetuksen URL",
+                  "subtitle": "Git-tietolähde, esimerkiksi 'käyttäjänimi/tietolähde'. Voit käyttää myös etuliitettä 'gitlab:' tai 'bitbucket:'."
                 },
-                "options": "خيارات أخرى",
+                "options": "Muut asetukset",
                 "clone": "Clone/Private repository",
-                "cancel": "إلغاء",
-                "done": "تم"
+                "cancel": "Peruuta",
+                "done": "Valmis"
               },
-              "default-preset": "Default preset"
+              "default-preset": "Oletus esiasetus"
             },
             "features": {
-              "title": "الميزات",
+              "title": "Toiminnallisuudet",
               "description": "You will be able to add features after the project is created by installing plugins.",
-              "enable": "Enable features",
+              "enable": "Aktivoi toiminnallisuudet",
               "buttons": {
-                "previous": "السابق",
-                "next": "التالي",
-                "create": "Create Project"
+                "previous": "Edellinen",
+                "next": "Seuraava",
+                "create": "Luo Projekti"
               },
               "userConfigFiles": {
-                "name": "Use config files",
-                "description": "Use specific configuration files (like '.babelrc') instead of using 'package.json'."
+                "name": "Käytä asetustiedostoja",
+                "description": "Käytä spesifejä asetustiedostoja (kuten '.babelrc') 'package-json'-tiedoston sijaan."
               }
             },
             "configuration": {
-              "title": "Configuration",
+              "title": "Asetukset",
               "buttons": {
-                "previous": "السابق",
-                "create": "Create Project"
+                "previous": "Edellinen",
+                "create": "Luo Projekti"
               },
               "modal": {
-                "title": "Save as a new preset",
+                "title": "Tallenna uutena esiasetuksena",
                 "body": {
-                  "title": "Preset name",
-                  "subtitle": "Save the features and configuration into a new preset"
+                  "title": "Esiasetuksen nimi",
+                  "subtitle": "Tallenna toiminnallisuudet ja asetukset uuteen esiasetukseen"
                 },
                 "buttons": {
-                  "cancel": "إلغاء",
-                  "continue": "Continue without saving",
-                  "create": "Create a new preset"
+                  "cancel": "Peruuta",
+                  "continue": "Jatka tallentamatta",
+                  "create": "Luo uusi esiasetus"
                 }
               }
             }
           }
         },
         "project-plugins": {
-          "title": "Project plugins",
-          "button": "Add plugin",
-          "heading": "Installed plugins",
-          "update-all": "Update all plugins"
+          "title": "Projektin lisäosat",
+          "button": "Lisää lisäosa",
+          "heading": "Asennetut lisäosat",
+          "update-all": "Päivitä kaikki lisäosat"
         },
         "project-plugins-add": {
-          "title": "Add a plugin",
-          "plugin": "plugin",
+          "title": "Lisää lisäosa",
+          "plugin": "lisäosa",
           "tabs": {
             "search": {
-              "label": "Search",
-              "search-input": "Search a plugin",
-              "not-found": "No results found",
+              "label": "Etsi",
+              "search-input": "Etsi lisäosaa",
+              "not-found": "Ei hakutuloksia",
               "buttons": {
-                "cancel": "Cancel",
-                "install": "Install {target}",
-                "default-install": "Install"
+                "cancel": "Peruuta",
+                "install": "Asenna {target}",
+                "default-install": "Asenna"
               }
             },
             "configuration": {
-              "label": "Configuration",
+              "label": "Asetukset",
               "heading": "Installation of {target}",
               "buttons": {
-                "cancel": "إلغاء",
-                "finish": "Finish installation"
+                "cancel": "Peruuta",
+                "finish": "Viimeistele asennus"
               }
             },
             "diff": {
-              "label": "Files changed"
+              "label": "Muuttuneet tiedostot"
             }
           },
           "modal": {
-            "title": "Uninstall {target}?",
-            "body": "Do you want to uninstall the {target} plugin?",
+            "title": "Poistetaanko {target}?",
+            "body": "Haluatko poistaa lisäosan {target}?",
             "buttons": {
-              "back": "Go back",
-              "cancel": "Cancel without uninstalling",
-              "uninstall": "Uninstall"
+              "back": "Takaisin",
+              "cancel": "Peruuta poistamatta",
+              "uninstall": "Poista"
             }
           },
           "buttons": {
@@ -410,116 +410,116 @@
           }
         },
         "project-plugin-add-local": {
-          "title": "Add a local plugin",
+          "title": "Lisää lokaali lisäosa",
           "buttons": {
-            "add": "Add local plugin"
+            "add": "Lisää lokaali lisäosa"
           }
         },
         "project-configurations": {
-          "title": "Project configuration"
+          "title": "Projektin asetukset"
         },
         "project-configuration-details": {
           "actions": {
-            "cancel": "إلغاء التغييرات",
-            "save": "Save changes",
-            "more-info": "More info",
-            "refresh": "Refresh"
+            "cancel": "Peruuta muutokset",
+            "save": "Tallenna muutokset",
+            "more-info": "Lisätiedot",
+            "refresh": "Päivitä"
           }
         },
         "project-tasks": {
-          "title": "Project tasks"
+          "title": "Projektin tehtävät"
         },
         "project-task-details": {
           "actions": {
-            "play": "Run task",
-            "stop": "Stop task",
-            "close": "إغلاق",
-            "save": "Save"
+            "play": "Käynnistä tehtävä",
+            "stop": "Lopeta tehtävä",
+            "close": "Sulje",
+            "save": "Tallenna"
           },
           "command": "Script command",
-          "parameters": "Parameters",
-          "more-info": "More Info",
-          "output": "Output"
+          "parameters": "Parametrit",
+          "more-info": "Lisätiedot",
+          "output": "Tuloste"
         },
         "project-dependencies": {
-          "title": "Project dependencies",
+          "title": "Projektin riippuvuudet",
           "heading": {
-            "dependencies": "Main dependencies",
-            "devDependencies": "Development dependencies"
+            "dependencies": "Pääriippuvuudet",
+            "devDependencies": "Kehitysriippuvuudet"
           },
           "actions": {
-            "install": "Install dependency",
-            "update-all": "Update all dependencies"
+            "install": "Asenna riippuvuus",
+            "update-all": "Päivitä riippuvuudet"
           },
           "install": {
-            "title": "Install new dependency"
+            "title": "Asenna uusi riippuvuus"
           },
           "uninstall": {
-            "title": "Confirm uninstall",
-            "body": "Are you sure you want to uninstall {id}?",
-            "cancel": "إلغاء",
-            "uninstall": "Uninstall {id}"
+            "title": "Vahvista poisto",
+            "body": "Haluatko varmasti poistaa {id}?",
+            "cancel": "Peruuta",
+            "uninstall": "Poista {id}"
           }
         },
         "project-dashboard": {
-          "title": "Project dashboard",
-          "cutomize": "Customize",
-          "done": "Done"
+          "title": "Projektin hallintapaneeli",
+          "cutomize": "Mukauta",
+          "done": "Valmis"
         },
         "settings": {
-          "title": "Settings"
+          "title": "Asetukset"
         },
         "about": {
-          "title": "About",
+          "title": "Tietoa",
           "description": "<a href=\"https://github.com/vuejs/vue-cli/tree/dev/packages/%40vue/cli-ui\" target=\"_blank\">@vue/cli-ui</a> is a built-in package of vue-cli which opens a full-blown UI.",
           "quote": "Vue-cli 3.x is a complete rewrite, with a lot of new awesome features. You will be able to select features like routing, Vuex or Typescript, then add and upgrade building blocks called \"vue-cli plugins\". But having so much more options also means the tool is now more complex and harder to start using. That's why we thought having a full-blown GUI would help discover the new features, search and install vue-cli plugins and unlock more possibilities overall while not being limited by a terminal interface. To sum up, vue-cli will not only allow you to bootstrap a new project easily, but it will also remain useful for ongoing work afterwards!",
-          "links": "Useful links",
-          "back": "Go back"
+          "links": "Hyödyllisiä linkkeja",
+          "back": "Takaisin"
         }
       },
       "cli-service": {
         "suggestions": {
           "vue-router-add": {
-            "label": "Add vue-router",
+            "label": "Lisää vue-router",
             "message": "Official library to support multiple virtual pages in a Single-Page App. Each route renders a different component."
           },
           "vuex-add": {
-            "label": "Add vuex",
+            "label": "Lisää vuex",
             "message": "Official centralized State Management solution for large-scale apps. Very useful if multiple components need to access the same data."
           },
           "vue-devtools": {
-            "label": "Install devtools",
+            "label": "Asenna devtools",
             "message": "Browser devtools official extension for debugging Vue.js applications where you can inspect your components, vuex store and events."
           },
-          "progress": "Installing {arg0}..."
+          "progress": "Asennetaan {arg0}..."
         }
       },
       "vue-webpack": {
         "dashboard": {
-          "title": "Dashboard",
-          "open-app": "فتح التطبيق",
+          "title": "Hallintapaneeli",
+          "open-app": "Avaa sovellus",
           "webpack-status": {
-            "Success": "Success",
-            "Failed": "Failed",
-            "Compiling": "Compiling",
+            "Success": "Onnistui",
+            "Failed": "Epäonnistui",
+            "Compiling": "Käännetään",
             "Invalidated": "Invalidated",
-            "Idle": "Idle"
+            "Idle": "Valmiudessa"
           },
           "build-status": {
             "labels": {
-              "status": "Status",
-              "errors": "Errors",
-              "warnings": "Warnings",
+              "status": "Tila",
+              "errors": "Virheet",
+              "warnings": "Varoitukset",
               "assets": "Assets",
-              "modules": "Modules",
-              "deps": "Dependencies"
+              "modules": "Moduulit",
+              "deps": "Riippuvuudet"
             }
           },
           "speed-stats": {
-            "title": "Speed stats"
+            "title": "Nopeusstatistiikka"
           },
           "module-list": {
-            "title": "Dependencies"
+            "title": "Riippuvuudet"
           },
           "asset-list": {
             "title": "Assets",
@@ -528,12 +528,12 @@
         },
         "analyzer": {
           "title": "Analyzer",
-          "go-up": "Go up",
-          "go-home": "Go to home",
+          "go-up": "Mene ulos",
+          "go-home": "Mene kotisivulle",
           "chunk": "Chunk"
         },
         "sizes": {
-          "stats": "Stats",
+          "stats": "Statistiikka",
           "parsed": "Parsed",
           "gzip": "Gzip",
           "help": "<b>Stats:</b> size from webpack stats data.<br><b>Parsed:</b> size from extracted source (after minification plugins). More accurate.<br><b>Gzip:</b> size of gzipped extracted source."
@@ -542,22 +542,22 @@
         "tasks": {
           "serve": {
             "description": "Compiles and hot-reloads for development",
-            "open": "Open browser on server start",
-            "mode": "Specify env mode",
-            "host": "Specify host",
-            "port": "Specify port",
-            "https": "Use HTTPS"
+            "open": "Avaa selain palvelimen käynnistyttyä",
+            "mode": "Määritä ympäristön tila",
+            "host": "Määritä host",
+            "port": "Määritä portti",
+            "https": "Käytä HTTPS"
           },
           "build": {
-            "description": "Compiles and minifies for production",
-            "mode": "Specify env mode",
-            "dest": "Output directory",
+            "description": "Kääntää ja minifoi tuotantoa varten",
+            "mode": "Määritä ympäristön tila",
+            "dest": "Output kansio",
             "target": {
               "description": "Build target",
-              "app": "Web app",
-              "lib": "Library",
-              "wc": "Web component",
-              "wc-async": "Async web component"
+              "app": "Web-sovellus",
+              "lib": "Kirjasto",
+              "wc": "Web-komponentit",
+              "wc-async": "Async web-komponentti"
             },
             "name": "Name for library or web-component mode (default: 'name' in package.json or entry filename)",
             "watch": "Watch for changes",
@@ -568,27 +568,27 @@
           },
           "inspect": {
             "description": "Inspect the resolved webpack config",
-            "mode": "Specify env mode",
-            "verbose": "Show full function definitions in output"
+            "mode": "Määritä ympäristön tila",
+            "verbose": "Näytä funktioiden täydet määritelmät outputissa"
           }
         },
         "config": {
           "vue-cli": {
-            "description": "Configure your Vue project",
+            "description": "Konfigorui Vue-projektisi",
             "groups": {
-              "general": "General settings",
-              "css": "CSS settings"
+              "general": "Yleiset asetukset",
+              "css": "CSS asetukset"
             },
             "baseUrl": {
-              "label": "Base URL",
+              "label": "Juuri URL",
               "description": "The base URL your application will be deployed at, for example '/my-app/'. Use an empty string ('') so that all assets are linked using relative paths."
             },
             "outputDir": {
-              "label": "Output directory",
+              "label": "Output kansio",
               "description": "The directory where the production build files will be generated"
             },
             "assetsDir": {
-              "label": "Assets directory",
+              "label": "Assets kansio",
               "description": "A directory to nest generated static assets (js, css, img, fonts) under."
             },
             "runtimeCompiler": {
@@ -631,40 +631,40 @@
               "base": "Base",
               "essential": "Essential",
               "strongly-recommended": "Strongly recommended",
-              "recommended": "Recommended",
+              "recommended": "Suositeltu",
               "uncategorized": "Uncategorized"
             },
             "setting": {
-              "off": "Off",
-              "error": "Error",
-              "warning": "Warning",
-              "custom": "Custom"
+              "off": "Pois päältä",
+              "error": "Virhe",
+              "warning": "Varoitus",
+              "custom": "Mukautettu"
             },
             "general": {
-              "label": "General",
+              "label": "Yleinen",
               "lintOnSave": {
-                "message": "Lint on save",
+                "message": "Aja lint tallentaessa",
                 "description": "Automatically lint source files when saved"
               },
               "config": {
-                "message": "Select config",
+                "message": "Valitse asetukset",
                 "description": "Select pre-defined configuration"
               }
             },
             "rules": {
-              "label": "Rules"
+              "label": "Säännöt"
             }
           }
         },
         "tasks": {
           "lint": {
             "description": "Lints and fixes files",
-            "noFix": "Do not fix errors"
+            "noFix": "Älä korjaa virheitä"
           }
         },
         "suggestions": {
           "open-eslintrc": {
-            "label": "Open eslintrc"
+            "label": "Avaa eslintrc"
           }
         }
       },
@@ -673,15 +673,15 @@
           "pwa": {
             "description": "Progressive Web App",
             "workboxPluginMode": {
-              "message": "Plugin mode",
+              "message": "Lisäosa tila",
               "description": "This allows you to the choose between the two modes supported by the underlying `workbox-webpack-plugin`"
             },
             "name": {
-              "message": "App name",
+              "message": "Sovelluksen nimi",
               "description": "App name displayed on the Splash screen and various other places. Also used as the value for the `apple-mobile-web-app-title` meta tag in the generated HTML."
             },
             "themeColor": {
-              "message": "Theme color",
+              "message": "Teeman väri",
               "description": "Color used to theme the browser"
             },
             "backgroundColor": {
@@ -700,10 +700,10 @@
         },
         "suggestions": {
           "open-vue": {
-            "label": "Open vue config"
+            "label": "Avaa Vue asetukset"
           },
           "open-manifest": {
-            "label": "Open manifest"
+            "label": "Avaa manifest"
           }
         }
       },
@@ -711,7 +711,7 @@
         "tasks": {
           "test": {
             "description": "Run e2e tests with `cypress run`",
-            "headless": "Run in headless mode without GUI",
+            "headless": "Suorita headless-tilassa ilman käyttöliittymää",
             "mode": "Specify the mode the dev server should run in",
             "url": "Run e2e tests against given url instead of auto-starting dev server"
           }
@@ -720,7 +720,7 @@
       "nightwatch": {
         "tasks": {
           "test": {
-            "description": "Run e2e tests with nightwatch",
+            "description": "Suorita e2e testit nightwatchilla",
             "url": "Run e2e tests against given url instead of auto-starting dev server",
             "config": "Use custom nightwatch config file (overrides internals)",
             "env": "Comma-delimited browser envs to run in"
@@ -730,7 +730,7 @@
       "jest": {
         "tasks": {
           "test": {
-            "description": "Run unit tests with Jest",
+            "description": "Suorita yksikkötestit Jestillä",
             "watch": "Watch files for changes and rerun tests related to changed files",
             "notify": "Display a notification after each run",
             "update": "Re-record every snapshot that fails during this test run"
@@ -740,7 +740,7 @@
       "mocha": {
         "tasks": {
           "test": {
-            "description": "Run unit tests with Mocha",
+            "description": "Suorita yksikkötestit Mochalla",
             "watch": "Watch files for changes and rerun tests related to changed files"
           }
         }
@@ -750,7 +750,7 @@
           "title": "Welcome tips",
           "description": "Some tips to help you get started",
           "content": {
-            "title": "Welcome to your new project!",
+            "title": "Tervetuloa uuteen projektiisi!",
             "tip1": "You are looking at the project dashboard where your can put widgets. Use the 'Customize' button to add more! Everything is automatically saved.",
             "tip2": "On the left are the different available pages. 'Plugins' let you add new Vue CLI plugins, 'Dependencies' for managing the packages, 'Configuration' to configure the tools and 'Tasks' to run scripts (for example webpack).",
             "tip3": "Return to the project manager with the dropdown at the top left of the screen or the home button in the status bar at the bottom.",
@@ -772,27 +772,27 @@
           }
         },
         "status-widget": {
-          "last-updated": "Updated",
-          "never": "Not updated yet",
-          "check": "Check for updates",
-          "more-info": "More details"
+          "last-updated": "Päivitetty",
+          "never": "Ei vielä päivitetty",
+          "check": "Tarkista päivitykset",
+          "more-info": "Lisätietoja"
         },
         "plugin-updates": {
-          "title": "Plugin updates",
-          "description": "Monitor plugin updates",
+          "title": "Lisäosien päivitykset",
+          "description": "Tarkkaile lisäosien päivityksiä",
           "messages": {
-            "ok": "All plugins up-to-date",
-            "loading": "Checking for updates...",
-            "attention": "{n} plugin updates available"
+            "ok": "Kaikki lisäosat ajan tasalla",
+            "loading": "Tarkistetaan päivityksiä...",
+            "attention": "{n} lisäosien päivityksiä saatavilla"
           },
-          "page": "Go to Plugins"
+          "page": "Mene Lisäosiin"
         },
         "dependency-updates": {
           "title": "Dependency updates",
           "description": "Monitor dependencies updates",
           "messages": {
             "ok": "All dependencies up-to-date",
-            "loading": "Checking for updates...",
+            "loading": "Tarkistetaan päivityksiä...",
             "attention": "{n} dependency updates available"
           },
           "page": "Go to Dependencies"
@@ -813,25 +813,25 @@
           "direct-dep": "Direct dependency"
         },
         "run-task": {
-          "title": "Run task",
+          "title": "Käynnistä tehtävä",
           "description": "Shortcut to run a task",
           "prompts": {
-            "task": "Select a task"
+            "task": "Valitse tehtävä"
           },
-          "page": "Go to Task"
+          "page": "Mene Tehtävään"
         },
         "news": {
-          "title": "News feed",
-          "description": "Read news feed",
+          "title": "Uutisvirta",
+          "description": "Lue uutisvirtaa",
           "refresh": "Force refresh",
-          "select-tip": "Select an item on the left",
+          "select-tip": "Valitse osio vasemmalta",
           "prompts": {
             "url": "RSS feed URL or GitHub repository"
           },
           "errors": {
-            "fetch": "Couldn't fetch feed",
-            "offline": "You are offline",
-            "empty": "Empty feed"
+            "fetch": "Uutisvirtaa ei voitu hakea",
+            "offline": "Olet offline-tilassa",
+            "empty": "Tyhjä uutisvirta"
           }
         }
       }

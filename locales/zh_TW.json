@@ -2,9 +2,9 @@
   "org": {
     "vue": {
       "common": {
-        "close": "Close",
-        "back": "Go back",
-        "more-info": "More info"
+        "close": "關閉",
+        "back": "返回",
+        "more-info": "更多訊息"
       },
       "components": {
         "client-addon-component": {
@@ -12,18 +12,18 @@
           "timeout-info": "The custom component takes too much time to load, there might be an error"
         },
         "connection-status": {
-          "disconnected": "連接已斷開",
+          "disconnected": "連接已中斷",
           "connected": "已連接 Vue 專案管理器!"
         },
         "file-diff": {
-          "binary": "二進位文件",
+          "binary": "二進位檔案",
           "actions": {
             "open": "在編輯器中打開"
           }
         },
         "file-diff-view": {
-          "files-changed": "文件修改",
-          "search-file": "搜索文件",
+          "files-changed": "檔案修改",
+          "search-file": "搜尋檔案",
           "empty": "沒有修改",
           "error": "無法獲取修改",
           "modals": {
@@ -75,7 +75,7 @@
         },
         "logger-view": {
           "title": "紀錄",
-          "empty": "No logs yet",
+          "empty": "暫無紀錄",
           "buttons": {
             "clear": "清空紀錄",
             "scroll": "至底部",
@@ -192,7 +192,7 @@
           "configure": "Configure widget",
           "save": "Save",
           "reset-config": "Reset config",
-          "open-details": "Show more"
+          "open-details": "顯示更多"
         },
         "widget-add-pane": {
           "title": "Add widgets"
@@ -202,7 +202,7 @@
           "details": {
             "title": "Widget details",
             "max-instances": "Max instance count: {count}/{total}",
-            "unlimited": "unlimited"
+            "unlimited": "無限制"
           }
         }
       },
@@ -323,7 +323,7 @@
                   "subtitle": "Git Repository 地址, 如 'username/repo'. 可以使用前綴如 'gitlab:' 或 'bitbucket:'."
                 },
                 "options": "選項",
-                "clone": "Clone/Private repository",
+                "clone": "這是私有 Repository",
                 "cancel": "取消",
                 "done": "完成"
               },
@@ -339,8 +339,8 @@
                 "create": "新增專案"
               },
               "userConfigFiles": {
-                "name": "使用設定文件",
-                "description": "將插件的設定保存在各自的配置文件 (比如 '.babelrc') 中。"
+                "name": "使用設定檔案",
+                "description": "將插件的設定保存在各自的配置檔案 (比如 '.babelrc') 中。"
               }
             },
             "configuration": {
@@ -393,7 +393,7 @@
               }
             },
             "diff": {
-              "label": "文件修改"
+              "label": "檔案修改"
             }
           },
           "modal": {
@@ -406,13 +406,13 @@
             }
           },
           "buttons": {
-            "add-local": "Browse local plugin"
+            "add-local": "瀏覽本地插件"
           }
         },
         "project-plugin-add-local": {
-          "title": "Add a local plugin",
+          "title": "新增一個本地插件",
           "buttons": {
-            "add": "Add local plugin"
+            "add": "新增本地插件"
           }
         },
         "project-configurations": {
@@ -464,15 +464,15 @@
         "project-dashboard": {
           "title": "Project dashboard",
           "cutomize": "Customize",
-          "done": "Done"
+          "done": "完成"
         },
         "settings": {
-          "title": "Settings"
+          "title": "設定"
         },
         "about": {
           "title": "關於",
-          "description": "<a href=\"https://github.com/vuejs/vue-cli/tree/dev/packages/%40vue/cli-ui\" target=\"_blank\"> @ vue / cli-ui </a>是一個內置的 vue-cli 包打開了一個完整的用戶界面。",
-          "quote": "Vue-cli 3.x 是一個完整的重寫，具有許多新的強大功能。您將能夠選擇路由，Vuex 或 Typescript 等功能，然後新增和升級名為“vue-cli plugins”的構建塊。但擁有更多選項也意味著該工具現在更加複雜，難以開始使用。這就是為什麼我們認為擁有一個完整的 GUI 將有助於發現新功能，搜索和安裝 vue-cli 插件，並在不受終端接口限制的情況下解鎖更多可能性。總而言之，vue-cli 不僅可以讓您輕鬆地引導新專案，而且還可以用於之後的持續工作！",
+          "description": "<a href=\"https://github.com/vuejs/vue-cli/tree/dev/packages/%40vue/cli-ui\" target=\"_blank\">@vue/cli-ui</a> 是 vue -cli 內置的一套成熟的 UI。",
+          "quote": "Vue-cli 的 3.x 版本由內到外完全重寫，帶來了許多很棒的新特性。你可以在你的專案中選用路由、Vuex 和 Typescript 等等特性，並為項目新增“vue-cli 插件”。不過，這麼多的選項也意味著它更加複雜，難以上手。因此我們認為，相比局限的命令行界面，一個成熟的 GUI 更能幫助你發掘這些新特性，搜尋和安裝 vue-cli 插件，解鎖更多可能。總的來說，vue-cli 不僅能讓你輕鬆啟動新項目，並且在後續的工作中仍會是你的得力助手。",
           "links": "資源連結",
           "back": "返回"
         }
@@ -489,7 +489,7 @@
           },
           "vue-devtools": {
             "label": "安裝 devtools",
-            "message": "瀏覽器 devtools 官方擴展，用於調試 Vue.js 應用程式，您可以在其中檢查組件，vuex 存儲和事件。"
+            "message": "官方瀏覽器插件，用於調試 Vue.js 應用。你可以檢查組件、vuex store 和事件等。"
           },
           "progress": "正在安裝 {arg0}..."
         }
@@ -523,7 +523,7 @@
           },
           "asset-list": {
             "title": "資源",
-            "size-warning": "此資源很大，請考慮使用程式碼拆分來新增較小的資產。"
+            "size-warning": "資源過大，可以使用程式碼拆分來新增更小的資源。"
           }
         },
         "analyzer": {
@@ -559,11 +559,11 @@
               "wc": "組件",
               "wc-async": "異步組件"
             },
-            "name": "庫名/組件名 (預設為 package.json 的 name 或 entry 文件名)",
+            "name": "庫名/組件名 (預設為 package.json 的 name 或 entry 檔案名)",
             "watch": "監聽變化",
             "modern": {
               "label": "現代模式",
-              "description": "使用自動回退構建針對現代瀏覽器的應用"
+              "description": "針對現代瀏覽器構建應用，自動向後兼容。"
             }
           },
           "inspect": {
@@ -581,18 +581,18 @@
             },
             "baseUrl": {
               "label": "基本 URL",
-              "description": "應用程式將部署在其中的基本 URL，例如“/ my-app /”。使用空字串（''），以便使用相對路徑連結所有資源。"
+              "description": "應用的部署地址，如 '/my-app/'。如果留空，所有資源將使用相對路徑。"
             },
             "outputDir": {
               "label": "輸出目錄",
-              "description": "生成生成構建文件的目錄"
+              "description": "構建產生的檔案將會生成在這裡。"
             },
             "assetsDir": {
               "label": "資源目錄",
-              "description": "用於嵌套生成的靜態資源（js，css，img，fonts）的目錄。"
+              "description": "靜態資源會生成在這裡。"
             },
             "runtimeCompiler": {
-              "label": "啟用執行時編譯器",
+              "label": "啟用執行時編譯",
               "description": "這將允許您在 Vue 組件中使用模板選項，但會為您的應用帶來額外的10kb 負載。"
             },
             "productionSourceMap": {
@@ -601,20 +601,20 @@
             },
             "parallel": {
               "label": "並行編譯",
-              "description": "是否使用多個處理器來編譯 Babel 或 Typescript。"
+              "description": "使用多個處理器來編譯 Babel 或 Typescript。"
             },
             "css": {
               "modules": {
-                "label": "啟用 CSSModule",
-                "description": "預設情況下，只有以* .module。[ext]結尾的文件才會被視為 CSSModule。啟用此功能會將所有樣式文件視為 CSS 模塊。"
+                "label": "啟用 CSS Modules",
+                "description": "預設只有 *.module.[ext] 檔案名被視為 CSS modules 文件。啟用後將所有樣式文件視為 CSS modules。"
               },
               "extract": {
-                "label": "提取 CSS",
-                "description": "是否將組件中的 CSS 提取到獨立的 CSS 文件中（而不是在 JavaScript 中內聯並動態注入）。"
+                "label": "抽取 CSS",
+                "description": "將組件中的樣式抽取為單獨的樣式檔案（不開啟則使用 JavaScript 動態注入樣式）。"
               },
               "sourceMap": {
-                "label": "啟用 CSSSource Map",
-                "description": "是否為 CSS 啟用源映射。啟用此功能可能會影響構建性能。"
+                "label": "啟用 CSS Source Map",
+                "description": "啟用對構建性能稍有影響。"
               }
             }
           }
@@ -628,7 +628,7 @@
           "eslint": {
             "description": "程式碼品質和偵錯",
             "groups": {
-              "base": "基礎",
+              "base": "基本",
               "essential": "必要",
               "strongly-recommended": "強烈推薦",
               "recommended": "推薦",
@@ -638,13 +638,13 @@
               "off": "關閉",
               "error": "錯誤",
               "warning": "警告",
-              "custom": "習慣"
+              "custom": "自訂"
             },
             "general": {
-              "label": "一般",
+              "label": "通用",
               "lintOnSave": {
                 "message": "保存時檢查",
-                "description": "當文件保存時自動檢查"
+                "description": "當檔案保存時自動檢查"
               },
               "config": {
                 "message": "選擇設定",
@@ -658,7 +658,7 @@
         },
         "tasks": {
           "lint": {
-            "description": "檢查並修復源文件",
+            "description": "檢查並修復源檔案",
             "noFix": "僅檢查，不要自動修復錯誤"
           }
         },
@@ -671,7 +671,7 @@
       "pwa": {
         "config": {
           "pwa": {
-            "description": "漸進式 Web 應用程式",
+            "description": "WEIGHT",
             "workboxPluginMode": {
               "message": "插件模式",
               "description": "用於設定 `workbox-webpack-plugin`"
@@ -703,7 +703,7 @@
             "label": "打開 vue 設定"
           },
           "open-manifest": {
-            "label": "打開清單"
+            "label": "打開 manifest"
           }
         }
       },
@@ -722,35 +722,35 @@
           "test": {
             "description": "使用 nightwatch 執行 e2e 測試",
             "url": "遠端測試 URL",
-            "config": "使用自訂 nightwatch 設定文件（覆蓋內部）",
-            "env": "以逗號分隔的瀏覽器可以執行"
+            "config": "使用自訂 nightwatch 設定檔案",
+            "env": "瀏覽器環境（用逗號分隔）"
           }
         }
       },
       "jest": {
         "tasks": {
           "test": {
-            "description": "使用 Jest 執行單元測試",
-            "watch": "監視文件以獲取更改並重新執行與已更改文件相關的測試",
+            "description": "執行 Jest 單元測試",
+            "watch": "監聽檔案變化並重新執行測試",
             "notify": "每次執行後顯示通知",
-            "update": "重新記錄在此測試執行期間失敗的每個快照"
+            "update": "為每次失敗的測試保存快照"
           }
         }
       },
       "mocha": {
         "tasks": {
           "test": {
-            "description": "使用 Mocha 執行單元測試",
-            "watch": "監視文件以獲取更改並重新執行與已更改文件相關的測試"
+            "description": "執行 Mocha 單元測試",
+            "watch": "監聽檔案變化並重新執行測試"
           }
         }
       },
       "widgets": {
         "welcome": {
-          "title": "Welcome tips",
+          "title": "歡迎提示",
           "description": "Some tips to help you get started",
           "content": {
-            "title": "Welcome to your new project!",
+            "title": "歡迎來到您的新專案!",
             "tip1": "You are looking at the project dashboard where your can put widgets. Use the 'Customize' button to add more! Everything is automatically saved.",
             "tip2": "On the left are the different available pages. 'Plugins' let you add new Vue CLI plugins, 'Dependencies' for managing the packages, 'Configuration' to configure the tools and 'Tasks' to run scripts (for example webpack).",
             "tip3": "Return to the project manager with the dropdown at the top left of the screen or the home button in the status bar at the bottom.",
@@ -772,18 +772,18 @@
           }
         },
         "status-widget": {
-          "last-updated": "Updated",
-          "never": "Not updated yet",
-          "check": "Check for updates",
-          "more-info": "More details"
+          "last-updated": "已經更新",
+          "never": "尚未更新",
+          "check": "檢查更新",
+          "more-info": "更多詳情"
         },
         "plugin-updates": {
-          "title": "Plugin updates",
-          "description": "Monitor plugin updates",
+          "title": "插件更新",
+          "description": "監測插件更新",
           "messages": {
-            "ok": "All plugins up-to-date",
-            "loading": "Checking for updates...",
-            "attention": "{n} plugin updates available"
+            "ok": "所有的插件已經最新",
+            "loading": "正在檢查更新",
+            "attention": "{n} 個插件可以更新"
           },
           "page": "Go to Plugins"
         },
@@ -792,18 +792,18 @@
           "description": "Monitor dependencies updates",
           "messages": {
             "ok": "All dependencies up-to-date",
-            "loading": "Checking for updates...",
+            "loading": "正在檢查更新",
             "attention": "{n} dependency updates available"
           },
           "page": "Go to Dependencies"
         },
         "vulnerability": {
-          "title": "Vulnerability check",
+          "title": "漏洞檢查",
           "description": "Check for known vulnerabilities in your project dependencies",
           "messages": {
-            "ok": "No vulnerability found",
-            "loading": "Checking security reports...",
-            "attention": "{n} vulnerabilities found"
+            "ok": "沒有發現漏洞",
+            "loading": "檢視安全報告",
+            "attention": "{n} 個漏洞被發現"
           },
           "severity": {
             "high": "High severity",
@@ -813,17 +813,17 @@
           "direct-dep": "Direct dependency"
         },
         "run-task": {
-          "title": "Run task",
+          "title": "執行任務",
           "description": "Shortcut to run a task",
           "prompts": {
-            "task": "Select a task"
+            "task": "選擇一個任務"
           },
           "page": "Go to Task"
         },
         "news": {
           "title": "News feed",
           "description": "Read news feed",
-          "refresh": "Force refresh",
+          "refresh": "強制刷新",
           "select-tip": "Select an item on the left",
           "prompts": {
             "url": "RSS feed URL or GitHub repository"

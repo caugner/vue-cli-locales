@@ -8,7 +8,7 @@
       },
       "components": {
         "client-addon-component": {
-          "timeout": "Component load timeout",
+          "timeout": "组件加载超时",
           "timeout-info": "The custom component takes too much time to load, there might be an error"
         },
         "connection-status": {
@@ -188,20 +188,20 @@
           }
         },
         "widget": {
-          "remove": "Remove widget",
-          "configure": "Configure widget",
-          "save": "Save",
-          "reset-config": "Reset config",
-          "open-details": "Show more"
+          "remove": "移除部件",
+          "configure": "修改部件",
+          "save": "保存",
+          "reset-config": "重置设定",
+          "open-details": "显示更多"
         },
         "widget-add-pane": {
-          "title": "Add widgets"
+          "title": "添加部件"
         },
         "widget-add-item": {
-          "add": "Add widget",
+          "add": "添加部件",
           "details": {
-            "title": "Widget details",
-            "max-instances": "Max instance count: {count}/{total}",
+            "title": "部件细节",
+            "max-instances": "最大实例数量：{count}/{total}",
             "unlimited": "unlimited"
           }
         }
@@ -406,13 +406,13 @@
             }
           },
           "buttons": {
-            "add-local": "Browse local plugin"
+            "add-local": "浏览本地插件"
           }
         },
         "project-plugin-add-local": {
-          "title": "Add a local plugin",
+          "title": "添加本地插件",
           "buttons": {
-            "add": "Add local plugin"
+            "add": "添加本地插件"
           }
         },
         "project-configurations": {
@@ -462,12 +462,12 @@
           }
         },
         "project-dashboard": {
-          "title": "Project dashboard",
-          "cutomize": "Customize",
-          "done": "Done"
+          "title": "项目仪表盘",
+          "cutomize": "自定义",
+          "done": "完成"
         },
         "settings": {
-          "title": "Settings"
+          "title": "设置"
         },
         "about": {
           "title": "关于",
@@ -754,51 +754,51 @@
             "tip1": "You are looking at the project dashboard where your can put widgets. Use the 'Customize' button to add more! Everything is automatically saved.",
             "tip2": "On the left are the different available pages. 'Plugins' let you add new Vue CLI plugins, 'Dependencies' for managing the packages, 'Configuration' to configure the tools and 'Tasks' to run scripts (for example webpack).",
             "tip3": "Return to the project manager with the dropdown at the top left of the screen or the home button in the status bar at the bottom.",
-            "ok": "Understood"
+            "ok": "了解"
           }
         },
         "kill-port": {
           "title": "Kill port",
-          "description": "Kill processes using a specific network port",
+          "description": "终止占用指定端口的进程",
           "input": {
-            "placeholder": "Enter a network port"
+            "placeholder": "输入一个网络端口"
           },
-          "kill": "Kill",
+          "kill": "终止",
           "status": {
-            "idle": "Ready to kill",
-            "killing": "Killing procress...",
-            "killed": "Killed successfully!",
-            "error": "Couldn't kill process"
+            "idle": "准备好终止",
+            "killing": "终止进程中",
+            "killed": "成功终止进程！",
+            "error": "无法终止进程"
           }
         },
         "status-widget": {
-          "last-updated": "Updated",
+          "last-updated": "已更新",
           "never": "Not updated yet",
-          "check": "Check for updates",
-          "more-info": "More details"
+          "check": "检查更新",
+          "more-info": "更多细节"
         },
         "plugin-updates": {
-          "title": "Plugin updates",
+          "title": "插件更新",
           "description": "Monitor plugin updates",
           "messages": {
-            "ok": "All plugins up-to-date",
-            "loading": "Checking for updates...",
-            "attention": "{n} plugin updates available"
+            "ok": "所有插件已最新",
+            "loading": "检查更新中……",
+            "attention": "有{n}个插件可更新"
           },
           "page": "Go to Plugins"
         },
         "dependency-updates": {
-          "title": "Dependency updates",
+          "title": "依赖更新",
           "description": "Monitor dependencies updates",
           "messages": {
-            "ok": "All dependencies up-to-date",
-            "loading": "Checking for updates...",
-            "attention": "{n} dependency updates available"
+            "ok": "所有依赖已最新",
+            "loading": "检查更新中……",
+            "attention": "有{n}个依赖可更新"
           },
           "page": "Go to Dependencies"
         },
         "vulnerability": {
-          "title": "Vulnerability check",
+          "title": "安全隐患检查",
           "description": "Check for known vulnerabilities in your project dependencies",
           "messages": {
             "ok": "No vulnerability found",
@@ -813,24 +813,24 @@
           "direct-dep": "Direct dependency"
         },
         "run-task": {
-          "title": "Run task",
+          "title": "运行任务",
           "description": "Shortcut to run a task",
           "prompts": {
-            "task": "Select a task"
+            "task": "选择一项任务"
           },
           "page": "Go to Task"
         },
         "news": {
-          "title": "News feed",
-          "description": "Read news feed",
-          "refresh": "Force refresh",
+          "title": "新闻流",
+          "description": "阅读新闻流",
+          "refresh": "强制刷新",
           "select-tip": "Select an item on the left",
           "prompts": {
             "url": "RSS feed URL or GitHub repository"
           },
           "errors": {
             "fetch": "Couldn't fetch feed",
-            "offline": "You are offline",
+            "offline": "你已离线",
             "empty": "Empty feed"
           }
         }

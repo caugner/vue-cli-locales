@@ -2,9 +2,9 @@
   "org": {
     "vue": {
       "common": {
-        "close": "Close",
-        "back": "Go back",
-        "more-info": "More info"
+        "close": "Luk",
+        "back": "Gå tilbage",
+        "more-info": "Mere info"
       },
       "components": {
         "client-addon-component": {
@@ -75,7 +75,7 @@
         },
         "logger-view": {
           "title": "Logfiler",
-          "empty": "No logs yet",
+          "empty": "Ingen logfiler endnu",
           "buttons": {
             "clear": "Ryd logfiler",
             "scroll": "Scroll til bunden",
@@ -87,7 +87,7 @@
         },
         "project-nav": {
           "tooltips": {
-            "dashboard": "Dashboard",
+            "dashboard": "Kontrolpanel",
             "plugins": "Plugins",
             "dependencies": "Afhængigheder",
             "configuration": "Konfiguration",
@@ -118,7 +118,7 @@
             "update": "Opdatering {target}",
             "refresh": "Force Refresh {target}<br><i>Press [Shift] for Quick Refresh (node_modules won't be updated)</i>"
           },
-          "local": "Local"
+          "local": "Lokal"
         },
         "project-dependency-item": {
           "version": "version",
@@ -188,21 +188,21 @@
           }
         },
         "widget": {
-          "remove": "Remove widget",
-          "configure": "Configure widget",
-          "save": "Save",
-          "reset-config": "Reset config",
-          "open-details": "Show more"
+          "remove": "Fjern widget",
+          "configure": "Konfigurer widget",
+          "save": "Gem",
+          "reset-config": "Nulstil konfiguration",
+          "open-details": "Vis mere"
         },
         "widget-add-pane": {
-          "title": "Add widgets"
+          "title": "Tilføj widgets"
         },
         "widget-add-item": {
-          "add": "Add widget",
+          "add": "Tilføj widget",
           "details": {
-            "title": "Widget details",
-            "max-instances": "Max instance count: {count}/{total}",
-            "unlimited": "unlimited"
+            "title": "Widget detaljer",
+            "max-instances": "Max antal instanser: {antal}/{total}",
+            "unlimited": "ubegrænset"
           }
         }
       },

@@ -57,17 +57,17 @@
             },
             "placeholder": "Digite o caminho completo para uma pasta",
             "empty": "Nenhuma pasta favorita ainda.",
-            "show-hidden": "Show hidden folders"
+            "show-hidden": "Mostrar pastas ocultas"
           },
           "new-folder": {
-            "action": "New folder",
-            "title": "Create new folder",
+            "action": "Nova pasta",
+            "title": "Criar nova pasta",
             "field": {
-              "title": "New folder",
-              "subtitle": "You can use the folder separator to create multiple nested folders at once."
+              "title": "Nova pasta",
+              "subtitle": "Você pode usar o separador de pasta para criar múltiplas subpastas de uma vez."
             },
-            "cancel": "Cancel",
-            "create": "Create"
+            "cancel": "Cancelar",
+            "create": "Criar"
           }
         },
         "list-item-info": {
@@ -89,7 +89,7 @@
           "tooltips": {
             "dashboard": "Painel",
             "plugins": "Plugins",
-            "dependencies": "Dependencies",
+            "dependencies": "Dependências",
             "configuration": "Configurações",
             "tasks": "Tarefas",
             "more": "Mais"
@@ -106,7 +106,7 @@
           "tooltips": {
             "favorite": "Adicionar/Remover dos favoritos",
             "delete": "Remover",
-            "open-in-editor": "Open in editor"
+            "open-in-editor": "Abra no editor"
           }
         },
         "project-plugin-item": {
@@ -122,18 +122,18 @@
         },
         "project-dependency-item": {
           "version": "version",
-          "wanted": "wanted",
+          "wanted": "desejado",
           "latest": "latest",
-          "installed": "Installed",
+          "installed": "Instalado",
           "actions": {
-            "update": "Update {target}",
-            "uninstall": "Uninstall {target}"
+            "update": "Atualizar {target}",
+            "uninstall": "Desinstalar {target}"
           }
         },
         "project-tasks-dropdown": {
           "tooltips": {
-            "tasks": "Tasks",
-            "running-tasks": "{count} running task(s)"
+            "tasks": "Tarefas",
+            "running-tasks": "{count} executando tarefa(s)"
           }
         },
         "prompt-list": {
@@ -152,18 +152,18 @@
           },
           "log": {
             "tooltip": "Logs<br><i>Clique para mostrar/ocultar logs do Vue CLI</i>",
-            "empty": "Nenhuma entrada de log ainda."
+            "empty": "Nenhum log"
           },
           "report-bug": "Reportar bug",
-          "translate": "Help translate",
+          "translate": "Ajudar traduzir",
           "dark-mode": "Toggle dark mode",
-          "reset-plugin-api": "Refresh plugins API"
+          "reset-plugin-api": "Atualizar plugins API"
         },
         "suggestion-bar": {
-          "suggestion": "Suggestion",
+          "suggestion": "Sugestão",
           "modal": {
-            "cancel": "Cancel",
-            "continue": "Continue"
+            "cancel": "Cancelar",
+            "continue": "Continuar"
           }
         },
         "terminal-view": {
@@ -173,9 +173,9 @@
           }
         },
         "top-bar": {
-          "no-favorites": "No favorite projects",
-          "favorite-projects": "Favorite projects",
-          "recent-projects": "Recent projects",
+          "no-favorites": "Nenhum projeto favorito",
+          "favorite-projects": "Projetos favoritos",
+          "recent-projects": "Projetos recentes",
           "homepage": "Home page"
         },
         "view-badge": {
@@ -244,7 +244,7 @@
           "tabs": {
             "projects": "Projetos",
             "create": "Criar",
-            "import": "Improtar"
+            "import": "Importar"
           },
           "buttons": {
             "create": "Criar um novo projeto aqui",
@@ -252,9 +252,9 @@
           },
           "import": {
             "no-modules": {
-              "title": "Missing modules",
-              "message": "It seems the project is missing the 'node_modules' folder. Please check you installed the dependencies before importing.",
-              "close": "Got it"
+              "title": "Faltando módulos",
+              "message": "Parece estar faltando a pasta 'node_modules' no projeto. Por favor instale as dependências antes de importar. ",
+              "close": "Entendi"
             },
             "force": "Importar mesmo assim"
           }
@@ -270,8 +270,8 @@
                   "placeholder": "Digite um nome",
                   "tooltip": "Edite a pasta de destino",
                   "action": "Selecione esta pasta",
-                  "folder-exists": "This folder already exists",
-                  "folder-name-invalid": "Folder name invalid"
+                  "folder-exists": "Esta pasta já existe",
+                  "folder-name-invalid": "Nome da pasta inválido"
                 },
                 "manager": {
                   "label": "Gerenciador de Pacotes",
@@ -279,8 +279,8 @@
                 },
                 "options": {
                   "label": "Opções adicionais",
-                  "force": "Overwrite target folder if it exists",
-                  "git-title": "Git repository",
+                  "force": "Sobrescrever pasta de destino caso exista",
+                  "git-title": "Repositório Git",
                   "git": "Initialize git repository (recommended)",
                   "git-commit-message": "Initial commit message (optional)"
                 }
@@ -322,7 +322,7 @@
                   "title": "Preset URL",
                   "subtitle": "Git repo, for example 'username/repo'. You can also prefix with 'gitlab:' or 'bitbucket:'."
                 },
-                "options": "Other options",
+                "options": "Outras opções",
                 "clone": "Clonar para repositório privado",
                 "cancel": "Cancel",
                 "done": "Done"
@@ -401,7 +401,7 @@
             "body": "Você quer desinstalar o plugin {target}?",
             "buttons": {
               "back": "Voltar",
-              "cancel": "Cancelar desinstalação",
+              "cancel": "Cancelar sem desinstalar",
               "uninstall": "Desinstalar"
             }
           },
@@ -458,7 +458,7 @@
             "title": "Confirm uninstall",
             "body": "Are you sure you want to uninstall {id}?",
             "cancel": "Cancel",
-            "uninstall": "Uninstall {id}"
+            "uninstall": "Desinstalar {id}"
           }
         },
         "project-dashboard": {
@@ -588,7 +588,7 @@
               "description": "The directory where the production build files will be generated"
             },
             "assetsDir": {
-              "label": "Assets directory",
+              "label": "Diretório de ativos",
               "description": "A directory to nest generated static assets (js, css, img, fonts) under."
             },
             "runtimeCompiler": {
@@ -596,25 +596,25 @@
               "description": "This will allow you to use the template option in Vue components, but will incur around an extra 10kb payload for your app."
             },
             "productionSourceMap": {
-              "label": "Enable Production Source Maps",
-              "description": "Disabling this can speed up production builds if you don't need source maps for production"
+              "label": "Ativar mapas de origem em produção",
+              "description": "Desativar isso pode acelerar a construção em produção se você não precisar de mapas de origem para produção"
             },
             "parallel": {
-              "label": "Parallel compilation",
-              "description": "Whether to use multiple processors to compile Babel or Typescript."
+              "label": "Compilação paralela",
+              "description": "Se deve usar vários processadores para compilar Babel ou Typescript."
             },
             "css": {
               "modules": {
-                "label": "Enable CSS Modules",
-                "description": "By default, only files that ends in *.module.[ext] are treated as CSS modules. Enabling this will treat all style files as CSS modules."
+                "label": "Ativar Módulos CSS",
+                "description": "By default, only files that ends in *.module.[ext] are treated as CSS modules. Enabling this will treat all style files as CSS modules.\n\nPor padrão, somente arquivos com extensão *.module.[ext] são considerados módulos CSS. Ativar isso tratará todos os arquivos de estilo como módulos CSS."
               },
               "extract": {
-                "label": "Extract CSS",
+                "label": "Extrair CSS",
                 "description": "Whether to extract CSS in your components into a standalone CSS files (instead of inlined in JavaScript and injected dynamically)."
               },
               "sourceMap": {
-                "label": "Enable CSS Source Maps",
-                "description": "Whether to enable source maps for CSS. Enabling this may affect build performance."
+                "label": "Ativar mapas de origem CSS.",
+                "description": "Se deve ativar os mapas de origem para CSS. Ativá-los pode afetar o desempenho de construção."
               }
             }
           }
@@ -658,13 +658,13 @@
         },
         "tasks": {
           "lint": {
-            "description": "Lints and fixes files",
-            "noFix": "Do not fix errors"
+            "description": "Verifica e corrije arquivos",
+            "noFix": "Não corrija os erros"
           }
         },
         "suggestions": {
           "open-eslintrc": {
-            "label": "Open eslintrc"
+            "label": "Abrir eslintrc"
           }
         }
       },
@@ -677,7 +677,7 @@
               "description": "Isso permite que você escolha entre os dois modos suportados pelo `workbox-webpack-plugin` subjacente"
             },
             "name": {
-              "message": "App name",
+              "message": "Nome do aplicativo",
               "description": "App name displayed on the Splash screen and various other places. Also used as the value for the `apple-mobile-web-app-title` meta tag in the generated HTML."
             },
             "themeColor": {
@@ -700,10 +700,10 @@
         },
         "suggestions": {
           "open-vue": {
-            "label": "Open vue config"
+            "label": "Abrir vue config"
           },
           "open-manifest": {
-            "label": "Open manifest"
+            "label": "Abrir manifesto"
           }
         }
       },
@@ -712,7 +712,7 @@
           "test": {
             "description": "Run e2e tests with `cypress run`",
             "headless": "Run in headless mode without GUI",
-            "mode": "Specify the mode the dev server should run in",
+            "mode": "Especifique o modo que o dev server deve ser executado",
             "url": "Run e2e tests against given url instead of auto-starting dev server"
           }
         }
@@ -720,7 +720,7 @@
       "nightwatch": {
         "tasks": {
           "test": {
-            "description": "Run e2e tests with nightwatch",
+            "description": "Execute testes e2e usando nightwatch",
             "url": "Run e2e tests against given url instead of auto-starting dev server",
             "config": "Use custom nightwatch config file (overrides internals)",
             "env": "Comma-delimited browser envs to run in"
@@ -730,9 +730,9 @@
       "jest": {
         "tasks": {
           "test": {
-            "description": "Run unit tests with Jest",
-            "watch": "Watch files for changes and rerun tests related to changed files",
-            "notify": "Display a notification after each run",
+            "description": "Execute testes unitários usando Jest",
+            "watch": "Observe mudanças nos arquivos e execute novamente testes relacionados à arquivos modificados.",
+            "notify": "Mostrar notificação após cada execução",
             "update": "Re-record every snapshot that fails during this test run"
           }
         }
@@ -740,8 +740,8 @@
       "mocha": {
         "tasks": {
           "test": {
-            "description": "Run unit tests with Mocha",
-            "watch": "Watch files for changes and rerun tests related to changed files"
+            "description": "Execute testes unitários usando Mocha",
+            "watch": "Observe mudanças nos arquivos e execute novamente testes relacionados à arquivos modificados."
           }
         }
       },

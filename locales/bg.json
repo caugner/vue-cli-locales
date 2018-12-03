@@ -1,0 +1,840 @@
+{
+  "org": {
+    "vue": {
+      "common": {
+        "close": "Затвори",
+        "back": "Върни се",
+        "more-info": "Повече информация"
+      },
+      "components": {
+        "client-addon-component": {
+          "timeout": "Компонента не зареди на време.",
+          "timeout-info": "Компонента зарежда твърде дълго, възможно е да има грешка."
+        },
+        "connection-status": {
+          "disconnected": "Връзката с UI сървъра е спряна.",
+          "connected": "Свързано!"
+        },
+        "file-diff": {
+          "binary": "Бинарният файл не е визуализиран.",
+          "actions": {
+            "open": "Отвори в редактор."
+          }
+        },
+        "file-diff-view": {
+          "files-changed": "Файлът е променен",
+          "search-file": "Търси файл",
+          "empty": "Няма намерени промени",
+          "error": "Промените във файла не са намерени.",
+          "modals": {
+            "commit": {
+              "title": "Направи commit",
+              "input": "Въведи съобщение за commit",
+              "subtitle": "Записвай промените в respository-то.",
+              "actions": {
+                "commit": "Commit",
+                "cancel": "Откажи"
+              }
+            }
+          },
+          "actions": {
+            "collapse-all": "Затвори всички",
+            "expand-all": "Отвори всички",
+            "commit": "Commit промените",
+            "skip": "Пропусни",
+            "continue": "Продължи",
+            "refresh": "Обнови"
+          }
+        },
+        "folder-explorer": {
+          "toolbar": {
+            "tooltips": {
+              "parent-folder": "Отвори родителска папка",
+              "edit-path": "Редактирай пътя",
+              "favorite": "Направи любим",
+              "favorite-folders": "Любими папки",
+              "refresh": "Обнови"
+            },
+            "placeholder": "Въведи пълният път към папката",
+            "empty": "Няма любими папки.",
+            "show-hidden": "Покажи скрити папки"
+          },
+          "new-folder": {
+            "action": "Нова папка",
+            "title": "Направи нова папка",
+            "field": {
+              "title": "Нова папка",
+              "subtitle": "Може да използваш сепаратора за да направиш няколко вложени папки наведнъж."
+            },
+            "cancel": "Откажи",
+            "create": "Създай"
+          }
+        },
+        "list-item-info": {
+          "more-info": "Повече информация"
+        },
+        "logger-view": {
+          "title": "Логове",
+          "empty": "Няма логове.",
+          "buttons": {
+            "clear": "Изчисти логове",
+            "scroll": "Иди накрая",
+            "close": "Затвори"
+          }
+        },
+        "progress-screen": {
+          "close": "Затвори"
+        },
+        "project-nav": {
+          "tooltips": {
+            "dashboard": "Табло",
+            "plugins": "Плъгини",
+            "dependencies": "Зависимости",
+            "configuration": "Конфигурация",
+            "tasks": "Задачи",
+            "more": "Повече"
+          }
+        },
+        "project-select-list": {
+          "empty": "Не съществуват проекти",
+          "titles": {
+            "favorite": "Любими проекти",
+            "other": "Други проекти"
+          }
+        },
+        "project-select-list-item": {
+          "tooltips": {
+            "favorite": "Направи любим",
+            "delete": "Премахни от списък",
+            "open-in-editor": "Отвори в редактор."
+          }
+        },
+        "project-plugin-item": {
+          "version": "версия",
+          "latest": "последна",
+          "official": "Официален ",
+          "installed": "Инсталиран",
+          "actions": {
+            "update": "Обнови {target}",
+            "refresh": "Обнови на сила {target}<br><i>Натисни [Shift] за бързо обновяване (node_modules няма да се обнови)</i>"
+          },
+          "local": "Локален"
+        },
+        "project-dependency-item": {
+          "version": "версия",
+          "wanted": "нужна",
+          "latest": "последна",
+          "installed": "Инсталиран",
+          "actions": {
+            "update": "Обнови {target}",
+            "uninstall": "Премахни {target}"
+          }
+        },
+        "project-tasks-dropdown": {
+          "tooltips": {
+            "tasks": "Задачи",
+            "running-tasks": "{count} активни задачи"
+          }
+        },
+        "prompt-list": {
+          "default": "По подразбиране"
+        },
+        "prompts-list": {
+          "empty": "Няма конфигурация"
+        },
+        "status-bar": {
+          "project": {
+            "tooltip": "Кликни за Мениджър на Проекти",
+            "empty": "Няма отворен проект"
+          },
+          "path": {
+            "tooltip": "Текуща работна папка"
+          },
+          "log": {
+            "tooltip": "Логове<br><i>Кликни за Vue CLI логове</i>",
+            "empty": "Няма логове"
+          },
+          "report-bug": "Докладвай бъг",
+          "translate": "Предложи превод",
+          "dark-mode": "Пусни тъмен режим",
+          "reset-plugin-api": "Обнови плъгин API"
+        },
+        "suggestion-bar": {
+          "suggestion": "Предложение",
+          "modal": {
+            "cancel": "Откажи",
+            "continue": "Продължи"
+          }
+        },
+        "terminal-view": {
+          "buttons": {
+            "clear": "Изчисти конзола",
+            "scroll": "Иди накрая"
+          }
+        },
+        "top-bar": {
+          "no-favorites": "Няма любими проекти.",
+          "favorite-projects": "Любими проекти",
+          "recent-projects": "Последни проекти",
+          "homepage": "Начална страница"
+        },
+        "view-badge": {
+          "labels": {
+            "tasks": {
+              "error": "Статус на грешката",
+              "running": "Текущо състояние",
+              "done": "Завършен статус"
+            }
+          }
+        },
+        "widget": {
+          "remove": "Премахни widget",
+          "configure": "Конфигурирай widget",
+          "save": "Запиши",
+          "reset-config": "Рестартирай конфигурация",
+          "open-details": "Покажи още"
+        },
+        "widget-add-pane": {
+          "title": "Добави widget-и"
+        },
+        "widget-add-item": {
+          "add": "Добави widget",
+          "details": {
+            "title": "Widget детайли",
+            "max-instances": "Максимален брой инстанции: {count}/{total}",
+            "unlimited": "неограничен"
+          }
+        }
+      },
+      "mixins": {
+        "progress": {
+          "creating": "Създаване на проект...",
+          "git-init": "Инициализиране на git repository...",
+          "plugins-install": "Инсталиране на Vue CLI плъгини. Може да отнеме известно време...",
+          "invoking-generators": "Извикване на генератори...",
+          "deps-install": "Инсталиране на допълнителни пакети...",
+          "completion-hooks": "Изпълняване на завършващи задачи...",
+          "fetch-remote-preset": "Извличане на отдалечени шаблони...",
+          "done": "Проектът е създаден успешно.",
+          "plugin-install": "Инсталиране {arg0}...",
+          "plugin-uninstall": "Премахване {arg0}...",
+          "plugin-invoke": "Извикване {arg0}...",
+          "plugin-update": "Обновяване {arg0}...",
+          "plugins-update": "Обновяване на {arg0} плъгини...",
+          "dependency-install": "Инсталиране {arg0}...",
+          "dependency-uninstall": "Премахване {arg0}...",
+          "dependency-update": "Обновяване {arg0}...",
+          "dependencies-update": "Обновяване на {arg0} пакети..."
+        }
+      },
+      "types": {
+        "task": {
+          "status": {
+            "idle": "Неактивен",
+            "running": "Работещ",
+            "done": "Приключил",
+            "error": "Грешка",
+            "terminated": "Спрян"
+          }
+        }
+      },
+      "views": {
+        "project-select": {
+          "title": "Vue Project Manager",
+          "tabs": {
+            "projects": "Проекти",
+            "create": "Създай",
+            "import": "Вмъкни"
+          },
+          "buttons": {
+            "create": "Създай нов проект тук",
+            "import": "Вмъкни тази папка"
+          },
+          "import": {
+            "no-modules": {
+              "title": "Липсващи модули",
+              "message": "Изглежда в проекта липсва папка 'node_modules'. Моля проверете дали сте инсталирали всички dependencies преди да го импортирате.",
+              "close": "Разбрах"
+            },
+            "force": "Импортирай"
+          }
+        },
+        "project-create": {
+          "title": "Създай нов проект",
+          "tabs": {
+            "details": {
+              "title": "Детайли",
+              "form": {
+                "folder": {
+                  "label": "Папка на проекта",
+                  "placeholder": "Напиши име",
+                  "tooltip": "Смени основна папка",
+                  "action": "Избери тази папка",
+                  "folder-exists": "Тази папка вече съществува ",
+                  "folder-name-invalid": "Името на папката е невалидно"
+                },
+                "manager": {
+                  "label": "Мениджър на пакети",
+                  "default": "По подразбиране"
+                },
+                "options": {
+                  "label": "Допълнителни опции",
+                  "force": "Презапиши целевата папка, ако съществува",
+                  "git-title": "Git repository",
+                  "git": "Инициализирай git repository (препоръчително)",
+                  "git-commit-message": "Първо commit съобщение (опционално)"
+                }
+              },
+              "buttons": {
+                "cancel": "Откажи",
+                "next": "Напред"
+              },
+              "modal": {
+                "title": "Откажи и започни създаването на проект отново",
+                "body": "Сигурен ли си, че искаш да рестартираш създаването на проекта?",
+                "buttons": {
+                  "back": "Върни се",
+                  "clear": "Изчисти проект"
+                }
+              }
+            },
+            "presets": {
+              "title": "Шаблони",
+              "description": "Шаблона е асоциация между плъгини и техните конфигурации. След като сте избрали дадени функционалности, можете да ги запишете като шаблон. Ще можете да го използвате при създаването на следващи проекти, без да се налага да конфигурирате всичко наново.",
+              "select": "Избери шаблон",
+              "buttons": {
+                "previous": "Предишен",
+                "next": "Следващ",
+                "create": "Създай проект"
+              },
+              "modal": {
+                "title": "Конфигурирай отдалечен шаблон",
+                "body": "Очаквайте скоро..."
+              },
+              "manual": {
+                "name": "Ръчен",
+                "description": "Избери опции ръчно"
+              },
+              "remote": {
+                "name": "Отдалечен шаблон",
+                "description": "Извлечи шаблон от git repository",
+                "url": {
+                  "title": "УРЛ на шаблона",
+                  "subtitle": "Git repo, например 'username/repo'. Можете да сложите префикс 'gitlab:' или 'bitbucket:'."
+                },
+                "options": "Други опци",
+                "clone": "Clone/Private repository",
+                "cancel": "Откажи",
+                "done": "Приключи"
+              },
+              "default-preset": "Шаблон по подразбиране"
+            },
+            "features": {
+              "title": "Функционалности",
+              "description": "Ще можете да добавяте функционалности чрез инсталиране на плъгини, едва след като проекта е създаден.",
+              "enable": "Включи функционалности",
+              "buttons": {
+                "previous": "Предишен",
+                "next": "Следващ",
+                "create": "Създай проект"
+              },
+              "userConfigFiles": {
+                "name": "Използвай конфигурационен файл",
+                "description": "Използвай специфични конфигурационни файлове вместо в 'package.json' (напр. .babelrc)."
+              }
+            },
+            "configuration": {
+              "title": "Конфигурация",
+              "buttons": {
+                "previous": "Предишен",
+                "create": "Създай проект"
+              },
+              "modal": {
+                "title": "Запиши като нов шаблон",
+                "body": {
+                  "title": "Име на шаблона",
+                  "subtitle": "Запиши избраните опции като нов шаблон"
+                },
+                "buttons": {
+                  "cancel": "Откажи",
+                  "continue": "Продължи без запис",
+                  "create": "Създай нов шаблон"
+                }
+              }
+            }
+          }
+        },
+        "project-plugins": {
+          "title": "Плъгини в проекта",
+          "button": "Добави плъгин",
+          "heading": "Инсталирани плъгини",
+          "update-all": "Обнови всички плъгини"
+        },
+        "project-plugins-add": {
+          "title": "Добави плъгин",
+          "plugin": "плъгин",
+          "tabs": {
+            "search": {
+              "label": "Търси",
+              "search-input": "Намери плъгин",
+              "not-found": "Няма резултати",
+              "buttons": {
+                "cancel": "Откажи",
+                "install": "Инсталирай {target}",
+                "default-install": "Инсталирай"
+              }
+            },
+            "configuration": {
+              "label": "Конфигурация",
+              "heading": "Инсталиране на {target}",
+              "buttons": {
+                "cancel": "Откажи",
+                "finish": "Завърши инсталацията"
+              }
+            },
+            "diff": {
+              "label": "Променени файлове"
+            }
+          },
+          "modal": {
+            "title": "Премахни {target}?",
+            "body": "Искаш ли да премахнем {target} плъгина?",
+            "buttons": {
+              "back": "Върни се",
+              "cancel": "Откажи без да премахваш",
+              "uninstall": "Премахни"
+            }
+          },
+          "buttons": {
+            "add-local": "Разгледай локални плъгини"
+          }
+        },
+        "project-plugin-add-local": {
+          "title": "Добави локален плъгин",
+          "buttons": {
+            "add": "Добави локален плъгин"
+          }
+        },
+        "project-configurations": {
+          "title": "Конфигурация на проекта"
+        },
+        "project-configuration-details": {
+          "actions": {
+            "cancel": "Откажи промените",
+            "save": "Запиши промените",
+            "more-info": "Повече информация",
+            "refresh": "Обнови"
+          }
+        },
+        "project-tasks": {
+          "title": "Задачи в проекта"
+        },
+        "project-task-details": {
+          "actions": {
+            "play": "Изпълни задача",
+            "stop": "Спри задача",
+            "close": "Затвори",
+            "save": "Запиши"
+          },
+          "command": "Скрипт команда",
+          "parameters": "Параметри",
+          "more-info": "Повече информация",
+          "output": "Резултат"
+        },
+        "project-dependencies": {
+          "title": "Зависимости на проекта",
+          "heading": {
+            "dependencies": "Основни зависимости",
+            "devDependencies": "Зависимости по време на разработка"
+          },
+          "actions": {
+            "install": "Инсталирай зависимости",
+            "update-all": "Обнови всички зависимости"
+          },
+          "install": {
+            "title": "Инсталирай нови зависимости"
+          },
+          "uninstall": {
+            "title": "Потвърди премахване ",
+            "body": "Сигурен ли си. че искаш да премахнеш {id}?",
+            "cancel": "Откажи",
+            "uninstall": "Премахни {id}"
+          }
+        },
+        "project-dashboard": {
+          "title": "Табло на проекта",
+          "cutomize": "Пресонализирай",
+          "done": "Приключи"
+        },
+        "settings": {
+          "title": "Настройки"
+        },
+        "about": {
+          "title": "Относно",
+          "description": "<a href=\"https://github.com/vuejs/vue-cli/tree/dev/packages/%40vue/cli-ui\" target=\"_blank\">@vue/cli-ui</a> е вграден пакет във vue-cli, който предлага пълноценен UI.",
+          "quote": "Vue-cli 3.x е изцяло пренаписан, с много нови функционалности.  Можеш да избираш между опции като routing, Vuex или Typescript, да добавиш или обновиш допълнителни пакети, наречени \"vue-cli plugins\". С добавянето на повече функционалности, инструмента стана по-сложен за работа. Затова преценихме, че GUI интерфейс ще помогне със запознаването на новият потребител с новите функционалности, ще помогне с търсенето и инсталирането на vue-cli плъгини и ще отключи много възможности, без да ограничава потребителя към терминалният интерфейс. На кратко, vue-cli не само ще ти помогне да стартираш своят нов проект, но ще остане полезен и занапред, по време на разработката му.",
+          "links": "Полезни линкове",
+          "back": "Върни се"
+        }
+      },
+      "cli-service": {
+        "suggestions": {
+          "vue-router-add": {
+            "label": "Добави vue-router",
+            "message": "Официална библиотека, която поддържа множество виртуални страници в Single-Page App. Всяка страница визуализира отделен компонент."
+          },
+          "vuex-add": {
+            "label": "Добави vuex",
+            "message": "Официално решение за централизиран State Management, подходящ за големи приложения. Много удобен, когато множество компоненти трябва да имат достъп до едни данни."
+          },
+          "vue-devtools": {
+            "label": "Инсталирай devtools",
+            "message": "Това е разширение за браузъра, което позволява дебъгване на Vue.js приложения. С него можеш да инспектираш компоненти, Vuex store и евенти. "
+          },
+          "progress": "Инсталиране {arg0}..."
+        }
+      },
+      "vue-webpack": {
+        "dashboard": {
+          "title": "Табло",
+          "open-app": "Отвори приложение",
+          "webpack-status": {
+            "Success": "Успешно",
+            "Failed": "Провалено",
+            "Compiling": "Компилиране",
+            "Invalidated": "Невалидно",
+            "Idle": "Неактивен"
+          },
+          "build-status": {
+            "labels": {
+              "status": "Статус",
+              "errors": "Грешки",
+              "warnings": "Предупреждения",
+              "assets": "Ресурси",
+              "modules": "Модул",
+              "deps": "Зависимости"
+            }
+          },
+          "speed-stats": {
+            "title": "Данни за скорост"
+          },
+          "module-list": {
+            "title": "Зависимости"
+          },
+          "asset-list": {
+            "title": "Ресурси",
+            "size-warning": "Този ресурс е голям, може да използвате Code Splitting за да го разделите на по-малки части."
+          }
+        },
+        "analyzer": {
+          "title": "Анализатор",
+          "go-up": "Иди нагоре",
+          "go-home": "Върни се обратно",
+          "chunk": "Chunk"
+        },
+        "sizes": {
+          "stats": "Статистика",
+          "parsed": "Анализиран",
+          "gzip": "Gzip",
+          "help": "<b>Статистика:</b> размер, директно от webpack данните.<br><b>Анализирани:</b> размера на извлеченият source (след минификация). По-точен.<br><b>Gzip:</b> размера на кода след gzip компресия."
+        },
+        "modern-mode": "Покажи модерна форма",
+        "tasks": {
+          "serve": {
+            "description": "Компилира и презарежда по време на разработка",
+            "open": "Отвори браузъра при рестарт на сървъра",
+            "mode": "Посочи env режим",
+            "host": "Посочи host",
+            "port": "Посочи порт",
+            "https": "Използвай HTTPS"
+          },
+          "build": {
+            "description": "Компилира и компресира за production среда",
+            "mode": "Посочи env режим",
+            "dest": "Изходна директория",
+            "target": {
+              "description": "Крайна цел",
+              "app": "Web app",
+              "lib": "Библиотека",
+              "wc": "Web component",
+              "wc-async": "Async web component"
+            },
+            "name": "Име на библиотеката или web component-а. По подразбиране се използва 'name' полето от package.json файла.",
+            "watch": "Следене за промени",
+            "modern": {
+              "label": "Модерен режим",
+              "description": "Изградете приложение, което е предвидено за модерни браузъри с автоматична поддръжка за по-старите."
+            }
+          },
+          "inspect": {
+            "description": "Прегледай крайната webpack конфигурация",
+            "mode": "Посочи env режим",
+            "verbose": "Покажи пълните дефиниции на функциите"
+          }
+        },
+        "config": {
+          "vue-cli": {
+            "description": "Конфигурирай своя Vue проект",
+            "groups": {
+              "general": "Основни настройки",
+              "css": "CSS настройки"
+            },
+            "baseUrl": {
+              "label": "Основен URL",
+              "description": "Основният URL, от който приложението ще бъде инсталирано, например '/my-app/'. Използвайте празен string (''), ако искате всички ресурси да са с релативни пътища."
+            },
+            "outputDir": {
+              "label": "Изходна директория",
+              "description": "Директорията, в която крайните файлове ще бъдат генерирани"
+            },
+            "assetsDir": {
+              "label": "Ресурс директория",
+              "description": "Директория, в която ще бъдат генерирани статични ресурси (js, css, img, fonts)."
+            },
+            "runtimeCompiler": {
+              "label": "Включи runtime compiler",
+              "description": "Ще ти позволи да ползваш template опцията във Vue компонентите, но ще добави около 10kb към приложението."
+            },
+            "productionSourceMap": {
+              "label": "Включи Production Source Maps",
+              "description": "Ако нямате нужда от source maps , премахването им ще ускори компилирането на проекта."
+            },
+            "parallel": {
+              "label": "Паралелна компилация",
+              "description": "Дали да се използват множество процеси за компилация на Babel или Typescript."
+            },
+            "css": {
+              "modules": {
+                "label": "Включи CSS Модули",
+                "description": "По подразбиране, само файлове, които завършват на *.module.[ext] се третират като CSS модули. Включването на тази опция, ще третира всички стилове като CSS модули."
+              },
+              "extract": {
+                "label": "Извлечи CSS",
+                "description": "Дали да се извлича CSS-a от вашите компоненти в отделни CSS файлове (вместо динамично да се инжектира от JavaScript)"
+              },
+              "sourceMap": {
+                "label": "Включи CSS Source Maps",
+                "description": "Дали да се включат source maps за CSS. Включването им ще забави компилацията на проекта."
+              }
+            }
+          }
+        },
+        "suggestions": {
+          "vue-config-open": "Отвори vue конфигурационният файл"
+        }
+      },
+      "eslint": {
+        "config": {
+          "eslint": {
+            "description": "Преглеждане за грешки и качество на кода",
+            "groups": {
+              "base": "Базови",
+              "essential": "Основни",
+              "strongly-recommended": "Силно препоръчителни",
+              "recommended": "Препоръчителни",
+              "uncategorized": "Не категоризирани"
+            },
+            "setting": {
+              "off": "Изключени",
+              "error": "Грешка",
+              "warning": "Предупреждения",
+              "custom": "Пресонални"
+            },
+            "general": {
+              "label": "Генерални",
+              "lintOnSave": {
+                "message": "Проверка при запис",
+                "description": "Автоматично провери файловете при запис"
+              },
+              "config": {
+                "message": "Избери конфигурация",
+                "description": "Избери предефинирана конфигурация"
+              }
+            },
+            "rules": {
+              "label": "Правила"
+            }
+          }
+        },
+        "tasks": {
+          "lint": {
+            "description": "Провери и оправи файловете",
+            "noFix": "Не оправяй файловете"
+          }
+        },
+        "suggestions": {
+          "open-eslintrc": {
+            "label": "Отвори eslintrc"
+          }
+        }
+      },
+      "pwa": {
+        "config": {
+          "pwa": {
+            "description": "Progressive Web App",
+            "workboxPluginMode": {
+              "message": "Плъгин режим",
+              "description": "Дава избор между двата режима, поддържани от 'workbox-webpack-plugin'"
+            },
+            "name": {
+              "message": "Име на приложението",
+              "description": "Името на приложението се показва в Splash screen и на различни други места. Същи така се използва и в `apple-mobile-web-app-title` мета тага на генерираният HTML."
+            },
+            "themeColor": {
+              "message": "Цвят на темата",
+              "description": "Цвят, използван в темата на браузъра"
+            },
+            "backgroundColor": {
+              "message": "Цвят на Splash Screen фона",
+              "description": "Цвета, който се ползва за фон на splash screen-а на приложението"
+            },
+            "msTileColor": {
+              "message": "Цвят на Windows tile.",
+              "description": "Цвят, който се ползва в tiles при Windows приложенията"
+            },
+            "appleMobileWebAppStatusBarStyle": {
+              "message": "Стил за Apple мобилен статус бар",
+              "description": "Стил на web app статус бара на iOS"
+            }
+          }
+        },
+        "suggestions": {
+          "open-vue": {
+            "label": "Отвори vue конфигурационният файл"
+          },
+          "open-manifest": {
+            "label": "Отвори manifest"
+          }
+        }
+      },
+      "cypress": {
+        "tasks": {
+          "test": {
+            "description": "Пусни e2e тестове чрез `cypress run`",
+            "headless": "Пусни в headless режим, без GUI",
+            "mode": "Посочи режима, в който dev server-a трябва да работи",
+            "url": "Пусни e2e тестове срещу даденият url. Не се стартира dev server."
+          }
+        }
+      },
+      "nightwatch": {
+        "tasks": {
+          "test": {
+            "description": "Пусни е2e тестове чрез nightwatch",
+            "url": "Пусни e2e тестове срещу даденият url. Не се стартира dev server.",
+            "config": "Използвай специфичен nightwatch конфигурационен файл (предимство пред предефинираните)",
+            "env": "Браузър env настройки, разделени със запетайки."
+          }
+        }
+      },
+      "jest": {
+        "tasks": {
+          "test": {
+            "description": "Пусни unit тестове чрез Jest",
+            "watch": "Следи файловете за промени и пусни тестовете отново при промяна в тях.",
+            "notify": "Покажи известие при приключване.",
+            "update": "Презаписва всеки snapshot, който се провали по време на тестовете."
+          }
+        }
+      },
+      "mocha": {
+        "tasks": {
+          "test": {
+            "description": "Пусни всички тестове чрез Mocha",
+            "watch": "Следи файловете за промени и пусни тестовете отново при промяна в тях."
+          }
+        }
+      },
+      "widgets": {
+        "welcome": {
+          "title": "Помощни съвети",
+          "description": "Съвети, които да помогнат в началото",
+          "content": {
+            "title": "Добре дошъл в новият ти проект!",
+            "tip1": "Гледаш таблото на своя проект. Тук можеш да добавят widgets. Използвай бутона \"Персонализирай\" за да добавиш още. Всичко се записва автоматично.",
+            "tip2": "От ляво се виждат различните налични страници. 'Плъгини' позволява добавянето на нови Vue CLI плъгини, 'Зависимости' управлява пакети, 'Конфигурация' конфигурира различните инструменти, а 'Задачи' е за пускане на скриптове (например webpack). ",
+            "tip3": "Върни се към мениджъра на проекта чрез падащото меню горе в ляво на екрана или използвайки home бутона в статус лентата в долната част на екрана.",
+            "ok": "Разбирам"
+          }
+        },
+        "kill-port": {
+          "title": "Освободи порт",
+          "description": "Спира процесите, които използват даден порт",
+          "input": {
+            "placeholder": "Въведи порт"
+          },
+          "kill": "Спри",
+          "status": {
+            "idle": "Готов за спиране",
+            "killing": "Спиране на процеса...",
+            "killed": "Спирането успешно!",
+            "error": "Процеса не може да бъде спрян"
+          }
+        },
+        "status-widget": {
+          "last-updated": "Обновен",
+          "never": "Не е обновен",
+          "check": "Проверка за обновления",
+          "more-info": "Повече детайли"
+        },
+        "plugin-updates": {
+          "title": "Плъгин обновления",
+          "description": "Следи за плъгин обновления",
+          "messages": {
+            "ok": "Всички плъгини са обновени",
+            "loading": "Проверка за обновления",
+            "attention": "{n} обновления са налични"
+          },
+          "page": "Иди към плъгини"
+        },
+        "dependency-updates": {
+          "title": "Обновления на зависимости",
+          "description": "Следи за обновления на зависимостите",
+          "messages": {
+            "ok": "Всички зависимости са с последни версии",
+            "loading": "Проверка за обновления",
+            "attention": "{n} обновления са налични"
+          },
+          "page": "Иди към Зависимости"
+        },
+        "vulnerability": {
+          "title": "Проверка за уязвимост",
+          "description": "Провери за често срещани уязвимости в зависимостите на проекта",
+          "messages": {
+            "ok": "Не са намерени уязвимости",
+            "loading": "Проверка на докладите за сигурност...",
+            "attention": "{n} намерени уязвимости"
+          },
+          "severity": {
+            "high": "Висока заплаха",
+            "medium": "Средна заплаха",
+            "low": "Ниска заплаха"
+          },
+          "direct-dep": "Директни зависимости"
+        },
+        "run-task": {
+          "title": "Изпълни задача",
+          "description": "Пряк път към задача",
+          "prompts": {
+            "task": "Избери задача"
+          },
+          "page": "Иди към задача"
+        },
+        "news": {
+          "title": "Новини",
+          "description": "Чети новини",
+          "refresh": "Обнови",
+          "select-tip": "Избери елемент от ляво",
+          "prompts": {
+            "url": "RSS feed url или GitHub repository"
+          },
+          "errors": {
+            "fetch": "Не може да вземе новини",
+            "offline": "Ти си офлайн",
+            "empty": "Няма новини"
+          }
+        }
+      }
+    }
+  }
+}

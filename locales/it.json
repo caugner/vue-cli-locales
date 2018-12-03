@@ -2,181 +2,181 @@
   "org": {
     "vue": {
       "common": {
-        "close": "Close",
-        "back": "Go back",
-        "more-info": "More info"
+        "close": "Chiudi",
+        "back": "Indietro",
+        "more-info": "Maggiori informazioni"
       },
       "components": {
         "client-addon-component": {
-          "timeout": "Component load timeout",
-          "timeout-info": "The custom component takes too much time to load, there might be an error"
+          "timeout": "Timeout sul caricamento del componente",
+          "timeout-info": "Il componente sta impiegando troppo tempo a caricarsi, potrebbe esserci un errore"
         },
         "connection-status": {
-          "disconnected": "Disconnected from UI server",
-          "connected": "Connected!"
+          "disconnected": "Disconnesso dal server UI",
+          "connected": "Connesso!"
         },
         "file-diff": {
-          "binary": "Binary file not shown",
+          "binary": "File binario, anteprima non disponibile",
           "actions": {
-            "open": "Open in editor"
+            "open": "Apri in un editor"
           }
         },
         "file-diff-view": {
-          "files-changed": "Files changed",
-          "search-file": "Search file",
-          "empty": "No change found",
-          "error": "Couldn't get file changes",
+          "files-changed": "File modificati",
+          "search-file": "Cerca un file",
+          "empty": "Nessuna modifica rilevata",
+          "error": "Impossibile ottenere le modifiche al file",
           "modals": {
             "commit": {
-              "title": "Commit changes",
-              "input": "Enter a commit message",
-              "subtitle": "Record changes to the repository",
+              "title": "Committa modifiche",
+              "input": "Inserisci un messaggio per la commit",
+              "subtitle": "Salva modifiche nel repository",
               "actions": {
-                "commit": "Commit",
-                "cancel": "Cancel"
+                "commit": "Committa",
+                "cancel": "Cancella"
               }
             }
           },
           "actions": {
-            "collapse-all": "Collapse all",
-            "expand-all": "Expand all",
-            "commit": "Commit changes",
-            "skip": "Skip",
-            "continue": "Continue",
-            "refresh": "Refresh"
+            "collapse-all": "Minimizza tutto",
+            "expand-all": "Espandi tutto",
+            "commit": "Committa modifiche",
+            "skip": "Salta",
+            "continue": "Continua",
+            "refresh": "Aggiorna"
           }
         },
         "folder-explorer": {
           "toolbar": {
             "tooltips": {
-              "parent-folder": "Open parent folder",
-              "edit-path": "Edit path",
-              "favorite": "Toggle favorite",
-              "favorite-folders": "Favorite folders",
-              "refresh": "Refresh"
+              "parent-folder": "Apri la cartella superiore",
+              "edit-path": "Modifica il percorso",
+              "favorite": "Mostra/Nascondi preferito",
+              "favorite-folders": "Cartelle preferite",
+              "refresh": "Aggiorna"
             },
-            "placeholder": "Enter the full path to a folder",
-            "empty": "No favorite folders yet.",
-            "show-hidden": "Show hidden folders"
+            "placeholder": "Inserisci il percorso completo alla cartella",
+            "empty": "Nessuna cartella preferita",
+            "show-hidden": "Mostra cartelle nascoste"
           },
           "new-folder": {
-            "action": "New folder",
-            "title": "Create new folder",
+            "action": "Nuova cartella",
+            "title": "Crea una nuova cartella",
             "field": {
-              "title": "New folder",
-              "subtitle": "You can use the folder separator to create multiple nested folders at once."
+              "title": "Nuova cartella",
+              "subtitle": "Puoi usare il separatore delle cartelle per creare più cartelle nidificate in una sola operazione."
             },
-            "cancel": "Cancel",
-            "create": "Create"
+            "cancel": "Annulla",
+            "create": "Crea"
           }
         },
         "list-item-info": {
-          "more-info": "More Info"
+          "more-info": "Maggiori informazioni"
         },
         "logger-view": {
-          "title": "Logs",
-          "empty": "No logs yet",
+          "title": "Log",
+          "empty": "Nessun log disponibile",
           "buttons": {
-            "clear": "Clear logs",
-            "scroll": "Scroll to bottom",
-            "close": "Close"
+            "clear": "Cancella i log",
+            "scroll": "Scrolla in basso",
+            "close": "Chiudi"
           }
         },
         "progress-screen": {
-          "close": "Close"
+          "close": "Chiudi"
         },
         "project-nav": {
           "tooltips": {
             "dashboard": "Dashboard",
-            "plugins": "Plugins",
-            "dependencies": "Dependencies",
-            "configuration": "Configuration",
-            "tasks": "Tasks",
-            "more": "More"
+            "plugins": "Plugin",
+            "dependencies": "Dipendenze",
+            "configuration": "Configurazione",
+            "tasks": "Task",
+            "more": "Altro"
           }
         },
         "project-select-list": {
-          "empty": "No existing projects",
+          "empty": "Nessun progetto disponibile",
           "titles": {
-            "favorite": "Favorite projects",
-            "other": "Other projects"
+            "favorite": "Progetti preferiti",
+            "other": "Altri progetti"
           }
         },
         "project-select-list-item": {
           "tooltips": {
-            "favorite": "Toggle favorite",
-            "delete": "Remove from list",
-            "open-in-editor": "Open in editor"
+            "favorite": "Mostra/Nascondi favorito",
+            "delete": "Rimuovi dalla lista",
+            "open-in-editor": "Apri in un editor"
           }
         },
         "project-plugin-item": {
-          "version": "version",
-          "latest": "latest",
-          "official": "Official",
-          "installed": "Installed",
+          "version": "versione",
+          "latest": "ultima",
+          "official": "Ufficiale",
+          "installed": "Installata",
           "actions": {
-            "update": "Update {target}",
-            "refresh": "Force Refresh {target}<br><i>Press [Shift] for Quick Refresh (node_modules won't be updated)</i>"
+            "update": "Aggiorna {target}",
+            "refresh": "Forza l’aggiornamento di {target}<br><i>Premi [Maiuscolo] per l'Aggiornamento Rapido (non aggiorna node_modules)</i>"
           },
-          "local": "Local"
+          "local": "Locale"
         },
         "project-dependency-item": {
           "version": "version",
-          "wanted": "wanted",
-          "latest": "latest",
-          "installed": "Installed",
+          "wanted": "richiesta",
+          "latest": "ultima",
+          "installed": "Installata",
           "actions": {
-            "update": "Update {target}",
-            "uninstall": "Uninstall {target}"
+            "update": "Aggiorna {target}",
+            "uninstall": "Disinstalla {target}"
           }
         },
         "project-tasks-dropdown": {
           "tooltips": {
-            "tasks": "Tasks",
-            "running-tasks": "{count} running task(s)"
+            "tasks": "Task",
+            "running-tasks": "{conta} task(s) in esecuzione"
           }
         },
         "prompt-list": {
           "default": "Default"
         },
         "prompts-list": {
-          "empty": "No configuration"
+          "empty": "Nessuna configurazione"
         },
         "status-bar": {
           "project": {
-            "tooltip": "Click to toggle Project Manager",
-            "empty": "No project open"
+            "tooltip": "Fai clic per visualizzare o nascondere la Gestione Progetti",
+            "empty": "Nessun progetto aperto"
           },
           "path": {
-            "tooltip": "Current Working Folder"
+            "tooltip": "Cartella di lavoro corrente"
           },
           "log": {
-            "tooltip": "Logs<br><i>Click to toggle Vue CLI logs</i>",
-            "empty": "No logs yet"
+            "tooltip": "Log<br><i>Fai clic per alternare la visibilità dei Log di Vue CLI</i>",
+            "empty": "Nessun log disponibile"
           },
-          "report-bug": "Report bug",
-          "translate": "Help translate",
-          "dark-mode": "Toggle dark mode",
-          "reset-plugin-api": "Refresh plugins API"
+          "report-bug": "Segnala un bug",
+          "translate": "Dacci una mano a tradurre Vue-CLI!",
+          "dark-mode": "Alterna la modalità scura",
+          "reset-plugin-api": "Aggiorna le API dei plugin"
         },
         "suggestion-bar": {
-          "suggestion": "Suggestion",
+          "suggestion": "Suggerimento",
           "modal": {
-            "cancel": "Cancel",
-            "continue": "Continue"
+            "cancel": "Annulla",
+            "continue": "Continua"
           }
         },
         "terminal-view": {
           "buttons": {
-            "clear": "Clear console",
-            "scroll": "Scroll to bottom"
+            "clear": "Pulisci la console",
+            "scroll": "Scrolla in basso"
           }
         },
         "top-bar": {
-          "no-favorites": "No favorite projects",
-          "favorite-projects": "Favorite projects",
-          "recent-projects": "Recent projects",
-          "homepage": "Home page"
+          "no-favorites": "Nessun progetto preferito",
+          "favorite-projects": "Progetti preferiti",
+          "recent-projects": "Progetti recenti",
+          "homepage": "Homepage"
         },
         "view-badge": {
           "labels": {
@@ -188,43 +188,43 @@
           }
         },
         "widget": {
-          "remove": "Remove widget",
-          "configure": "Configure widget",
-          "save": "Save",
-          "reset-config": "Reset config",
-          "open-details": "Show more"
+          "remove": "Rimuovi il widget",
+          "configure": "Configura il widget",
+          "save": "Salva",
+          "reset-config": "Ripristina configurazione",
+          "open-details": "Mostra altro"
         },
         "widget-add-pane": {
-          "title": "Add widgets"
+          "title": "Aggiungi widget"
         },
         "widget-add-item": {
-          "add": "Add widget",
+          "add": "Aggiungi widget",
           "details": {
-            "title": "Widget details",
+            "title": "Dettagli widget",
             "max-instances": "Max instance count: {count}/{total}",
-            "unlimited": "unlimited"
+            "unlimited": "illimitato"
           }
         }
       },
       "mixins": {
         "progress": {
-          "creating": "Creating project...",
-          "git-init": "Initializing git repository...",
-          "plugins-install": "Installing Vue CLI plugins. This might take a while...",
-          "invoking-generators": "Invoking generators...",
-          "deps-install": "Installing additional dependencies...",
+          "creating": "Creazione progetto in corso...",
+          "git-init": "Inizializzazione repository git in corso...",
+          "plugins-install": "Sto installando i plugin Vue CLI. Potrebbe volerci un po’ di tempo...",
+          "invoking-generators": "Recupero generatori in corso...",
+          "deps-install": "Sto installando le dipendenze aggiuntive...",
           "completion-hooks": "Running completion hooks...",
-          "fetch-remote-preset": "Fetching remote preset...",
-          "done": "Successfully created project",
-          "plugin-install": "Installing {arg0}...",
-          "plugin-uninstall": "Uninstalling {arg0}...",
-          "plugin-invoke": "Invoking {arg0}...",
-          "plugin-update": "Updating {arg0}...",
-          "plugins-update": "Updating {arg0} plugins...",
-          "dependency-install": "Installing {arg0}...",
-          "dependency-uninstall": "Uninstalling {arg0}...",
-          "dependency-update": "Updating {arg0}...",
-          "dependencies-update": "Updating {arg0} packages..."
+          "fetch-remote-preset": "Download preset remoto in corso",
+          "done": "Progetto creato con successo",
+          "plugin-install": "Sto installando {arg0}...",
+          "plugin-uninstall": "Sto rimuovendo {arg0}...",
+          "plugin-invoke": "Sto richiamando {arg0}...",
+          "plugin-update": "Sto aggiornando {arg0}...",
+          "plugins-update": "Sto aggiornando {arg0} plugin ...",
+          "dependency-install": "Sto installando {arg0}...",
+          "dependency-uninstall": "Sto rimuovendo {arg0}...",
+          "dependency-update": "Sto aggiornando i plugin {arg0} ...",
+          "dependencies-update": "Sto aggiornando {arg0} pacchetti..."
         }
       },
       "types": {
@@ -232,9 +232,9 @@
           "status": {
             "idle": "Idle",
             "running": "Running",
-            "done": "Done",
-            "error": "Error",
-            "terminated": "Terminated"
+            "done": "Completato",
+            "error": "Errore",
+            "terminated": "Terminato"
           }
         }
       },
@@ -242,266 +242,266 @@
         "project-select": {
           "title": "Vue Project Manager",
           "tabs": {
-            "projects": "Projects",
-            "create": "Create",
-            "import": "Import"
+            "projects": "Progetti",
+            "create": "Crea",
+            "import": "Importa"
           },
           "buttons": {
-            "create": "Create a new project here",
-            "import": "Import this folder"
+            "create": "Crea un nuovo progetto qui",
+            "import": "Importa questa cartella"
           },
           "import": {
             "no-modules": {
-              "title": "Missing modules",
-              "message": "It seems the project is missing the 'node_modules' folder. Please check you installed the dependencies before importing.",
-              "close": "Got it"
+              "title": "Moduli mancanti",
+              "message": "Sembra che nel progetto manchi la cartella 'node_modules'. Controlla di aver installato tutte le dipendenze prima di importarle.",
+              "close": "Ricevuto"
             },
-            "force": "Import anyway"
+            "force": "Importa comunque"
           }
         },
         "project-create": {
-          "title": "Create a new project",
+          "title": "Crea un nuovo progetto",
           "tabs": {
             "details": {
-              "title": "Details",
+              "title": "Dettagli",
               "form": {
                 "folder": {
-                  "label": "Project folder",
-                  "placeholder": "Type a name",
-                  "tooltip": "Change base folder",
-                  "action": "Select this folder",
-                  "folder-exists": "This folder already exists",
-                  "folder-name-invalid": "Folder name invalid"
+                  "label": "Cartella del progetto",
+                  "placeholder": "Inserisci un nome",
+                  "tooltip": "Cambia cartella principale",
+                  "action": "Seleziona questa cartella",
+                  "folder-exists": "Questa cartella esiste già",
+                  "folder-name-invalid": "Nome cartella invalido"
                 },
                 "manager": {
-                  "label": "Package manager",
-                  "default": "Default"
+                  "label": "Gestore pacchetti",
+                  "default": "Predefinito/a"
                 },
                 "options": {
-                  "label": "Additional options",
-                  "force": "Overwrite target folder if it exists",
+                  "label": "Opzioni aggiuntive",
+                  "force": "Sovrascrivi la cartella target se esiste",
                   "git-title": "Git repository",
-                  "git": "Initialize git repository (recommended)",
-                  "git-commit-message": "Initial commit message (optional)"
+                  "git": "Inizializza il repository git (raccomandato)",
+                  "git-commit-message": "Messaggio commit iniziale (opzionale)"
                 }
               },
               "buttons": {
-                "cancel": "Cancel",
-                "next": "Next"
+                "cancel": "Annulla",
+                "next": "Avanti"
               },
               "modal": {
-                "title": "Cancel and reset project creation",
-                "body": "Are you sure you want to reset the project creation?",
+                "title": "Annulla e resetta creazione progetto",
+                "body": "Sei sicuro di voler resettare la creazione del progetto?",
                 "buttons": {
-                  "back": "Go back",
+                  "back": "Indietro",
                   "clear": "Clear project"
                 }
               }
             },
             "presets": {
               "title": "Presets",
-              "description": "A preset is an association of plugins and configurations. After you've selected features, you can optionally save it as a preset so that you can reuse it for future projects, without having to reconfigure everything again.",
-              "select": "Select a preset",
+              "description": "Un preset é un insieme di plugins e configurazioni. Dopo aver selezionato alcuni tra questi é possibile salvare tali selezioni come un dato preset cosí da poterlo riutilizzare per altri progetti futuri, senza dover riconfigurare tutto da capo.",
+              "select": "Seleziona un preset",
               "buttons": {
-                "previous": "Previous",
-                "next": "Next",
-                "create": "Create Project"
+                "previous": "Precedente",
+                "next": "Successivo",
+                "create": "Crea Progetto"
               },
               "modal": {
-                "title": "Configure Remote preset",
-                "body": "Available soon..."
+                "title": "Configura preset Remoto",
+                "body": "Disponibile a breve..."
               },
               "manual": {
-                "name": "Manual",
-                "description": "Manually select features"
+                "name": "Modalitá manuale",
+                "description": "Configura manualmente"
               },
               "remote": {
-                "name": "Remote preset",
-                "description": "Fetch a preset from a git repository",
+                "name": "Preset Remoto",
+                "description": "Scarica un preset da un repository git",
                 "url": {
                   "title": "Preset URL",
-                  "subtitle": "Git repo, for example 'username/repo'. You can also prefix with 'gitlab:' or 'bitbucket:'."
+                  "subtitle": "Repository Git, per esempio 'username/repo'. É anche possibile prefixare con 'gitlab:' oppure 'bitbucket:'."
                 },
-                "options": "Other options",
-                "clone": "Clone/Private repository",
-                "cancel": "Cancel",
-                "done": "Done"
+                "options": "Altre opzioni",
+                "clone": "Clona/Privatizza repository",
+                "cancel": "Annulla",
+                "done": "Completato"
               },
-              "default-preset": "Default preset"
+              "default-preset": "Preset predefinito"
             },
             "features": {
-              "title": "Features",
-              "description": "You will be able to add features after the project is created by installing plugins.",
-              "enable": "Enable features",
+              "title": "Funzionalitá",
+              "description": "Potrai aggiungere funzionalità al progetto dopo che è stato creato installando plugin.",
+              "enable": "Abilita funzionalitá",
               "buttons": {
-                "previous": "Previous",
-                "next": "Next",
-                "create": "Create Project"
+                "previous": "Indietro",
+                "next": "Avanti",
+                "create": "Crea progetto"
               },
               "userConfigFiles": {
-                "name": "Use config files",
-                "description": "Use specific configuration files (like '.babelrc') instead of using 'package.json'."
+                "name": "Usa config files",
+                "description": "Usa uno specifico file di configurazione (es. '.babelrc') anziché usare 'package.json'"
               }
             },
             "configuration": {
-              "title": "Configuration",
+              "title": "Configurazione",
               "buttons": {
-                "previous": "Previous",
-                "create": "Create Project"
+                "previous": "Precedente",
+                "create": "Crea Progetto"
               },
               "modal": {
-                "title": "Save as a new preset",
+                "title": "Salva come nuovo preset",
                 "body": {
-                  "title": "Preset name",
-                  "subtitle": "Save the features and configuration into a new preset"
+                  "title": "Nome preset",
+                  "subtitle": "Salva funzionalitá e configurazioni in un nuovo preset"
                 },
                 "buttons": {
-                  "cancel": "Cancel",
-                  "continue": "Continue without saving",
-                  "create": "Create a new preset"
+                  "cancel": "Annulla",
+                  "continue": "Continua senza salvare",
+                  "create": "Crea un nuovo preset"
                 }
               }
             }
           }
         },
         "project-plugins": {
-          "title": "Project plugins",
-          "button": "Add plugin",
-          "heading": "Installed plugins",
-          "update-all": "Update all plugins"
+          "title": "Plugins del progetto",
+          "button": "Aggiungi plugin",
+          "heading": "Plugin installati",
+          "update-all": "Aggiorna tutti i plugin"
         },
         "project-plugins-add": {
-          "title": "Add a plugin",
+          "title": "Aggiungi un plugin",
           "plugin": "plugin",
           "tabs": {
             "search": {
-              "label": "Search",
-              "search-input": "Search a plugin",
-              "not-found": "No results found",
+              "label": "Cerca",
+              "search-input": "Cerca un plugin",
+              "not-found": "Nessun risultato",
               "buttons": {
-                "cancel": "Cancel",
-                "install": "Install {target}",
-                "default-install": "Install"
+                "cancel": "Annulla",
+                "install": "Installa {target}",
+                "default-install": "Installa"
               }
             },
             "configuration": {
-              "label": "Configuration",
-              "heading": "Installation of {target}",
+              "label": "Configurazione",
+              "heading": "Installazione di {target}",
               "buttons": {
-                "cancel": "Cancel",
-                "finish": "Finish installation"
+                "cancel": "Annulla",
+                "finish": "Completa l’installazione"
               }
             },
             "diff": {
-              "label": "Files changed"
+              "label": "Files modificati"
             }
           },
           "modal": {
-            "title": "Uninstall {target}?",
-            "body": "Do you want to uninstall the {target} plugin?",
+            "title": "Rimuovere {target}?",
+            "body": "Vuoi davvero rimuovere il plugin {target}?",
             "buttons": {
-              "back": "Go back",
-              "cancel": "Cancel without uninstalling",
-              "uninstall": "Uninstall"
+              "back": "Indietro",
+              "cancel": "Annulla senza rimozione ",
+              "uninstall": "Rimuovi"
             }
           },
           "buttons": {
-            "add-local": "Browse local plugin"
+            "add-local": "Cerca plugin in locale"
           }
         },
         "project-plugin-add-local": {
-          "title": "Add a local plugin",
+          "title": "Aggiungi un plugin locale",
           "buttons": {
-            "add": "Add local plugin"
+            "add": "Aggiungi plugin locale"
           }
         },
         "project-configurations": {
-          "title": "Project configuration"
+          "title": "Configurazione progetto"
         },
         "project-configuration-details": {
           "actions": {
-            "cancel": "Cancel changes",
-            "save": "Save changes",
-            "more-info": "More info",
-            "refresh": "Refresh"
+            "cancel": "Annulla modifiche",
+            "save": "Salva modifiche",
+            "more-info": "Maggiori informazioni",
+            "refresh": "Aggiorna"
           }
         },
         "project-tasks": {
-          "title": "Project tasks"
+          "title": "Task del progetto"
         },
         "project-task-details": {
           "actions": {
-            "play": "Run task",
-            "stop": "Stop task",
-            "close": "Close",
-            "save": "Save"
+            "play": "Esegui un task",
+            "stop": "Ferma un task",
+            "close": "Chiudi",
+            "save": "Salva"
           },
-          "command": "Script command",
-          "parameters": "Parameters",
-          "more-info": "More Info",
+          "command": "Comando script",
+          "parameters": "Parametri",
+          "more-info": "Maggiori Informazioni",
           "output": "Output"
         },
         "project-dependencies": {
-          "title": "Project dependencies",
+          "title": "Dipendenze del progetto",
           "heading": {
-            "dependencies": "Main dependencies",
-            "devDependencies": "Development dependencies"
+            "dependencies": "Dipendenze principali",
+            "devDependencies": "Dipendenze di sviluppo"
           },
           "actions": {
-            "install": "Install dependency",
-            "update-all": "Update all dependencies"
+            "install": "Installa le dipendenze",
+            "update-all": "Aggiorna tutte le dipendenze"
           },
           "install": {
-            "title": "Install new dependency"
+            "title": "Installa una nuova dipendenza"
           },
           "uninstall": {
-            "title": "Confirm uninstall",
-            "body": "Are you sure you want to uninstall {id}?",
-            "cancel": "Cancel",
-            "uninstall": "Uninstall {id}"
+            "title": "Conferma la rimozione",
+            "body": "Sei sicuro di voler rimuovere {id}?",
+            "cancel": "Annulla",
+            "uninstall": "Rimuovi {id}"
           }
         },
         "project-dashboard": {
-          "title": "Project dashboard",
-          "cutomize": "Customize",
-          "done": "Done"
+          "title": "Dashboard di progetto",
+          "cutomize": "Personalizza",
+          "done": "Fatto"
         },
         "settings": {
-          "title": "Settings"
+          "title": "Impostazioni"
         },
         "about": {
-          "title": "About",
-          "description": "<a href=\"https://github.com/vuejs/vue-cli/tree/dev/packages/%40vue/cli-ui\" target=\"_blank\">@vue/cli-ui</a> is a built-in package of vue-cli which opens a full-blown UI.",
-          "quote": "Vue-cli 3.x is a complete rewrite, with a lot of new awesome features. You will be able to select features like routing, Vuex or Typescript, then add and upgrade building blocks called \"vue-cli plugins\". But having so much more options also means the tool is now more complex and harder to start using. That's why we thought having a full-blown GUI would help discover the new features, search and install vue-cli plugins and unlock more possibilities overall while not being limited by a terminal interface. To sum up, vue-cli will not only allow you to bootstrap a new project easily, but it will also remain useful for ongoing work afterwards!",
-          "links": "Useful links",
-          "back": "Go back"
+          "title": "Informazioni",
+          "description": "<a href=\"https://github.com/vuejs/vue-cli/tree/dev/packages/%40vue/cli-ui\" target=\"_blank\">@vue/cli-ui</a> è un pacchetto interno di vue-cli che abilita una GUI completa.",
+          "quote": "Vue-cli 3.x è una riscrittura completa, con molte nuove fantastiche caratteristiche, dello strumento di gestione dei progetti vue da riga di comando. Puoi selezionare caratteristiche come il routing, Vuex o Typescript, e aggiungere e aggiornare componenti strutturali chiamati “vue-cli plugin”. \nCon così tante opzioni lo strumento è però anche più complesso e difficile da usare. Ecco perché ci è sembrato che mettere a disposizione una interfaccia grafica completa potesse aiutare a scoprirne le nuove caratteristiche, cercare e installare facilmente i plugin vue-cli, e abilitare ancora più possibilità senza essere più vincolati all’interfaccia a terminale.\nPer riassumere, vue-cli non solo permette di creare facilmente un nuovo progetto, ma resta uno strumento utile anche durante il lavoro successivo.",
+          "links": "Risorse utili",
+          "back": "Indietro"
         }
       },
       "cli-service": {
         "suggestions": {
           "vue-router-add": {
-            "label": "Add vue-router",
-            "message": "Official library to support multiple virtual pages in a Single-Page App. Each route renders a different component."
+            "label": "Aggiungi vue-router",
+            "message": "Libreria ufficiale per il supporto di pagine virtuali multiple in una Single-Page-App. Ogni route renderizza un componente diverso."
           },
           "vuex-add": {
-            "label": "Add vuex",
-            "message": "Official centralized State Management solution for large-scale apps. Very useful if multiple components need to access the same data."
+            "label": "Aggiungi Vuex",
+            "message": "Soluzione ufficiale e centralizzata per la Gestione dello Stato di grandi applicazioni, ovvero large-scale apps. Molto utile se componenti diversi hanno bisogno di accedere agli stessi dati "
           },
           "vue-devtools": {
-            "label": "Install devtools",
-            "message": "Browser devtools official extension for debugging Vue.js applications where you can inspect your components, vuex store and events."
+            "label": "Installa i devtool",
+            "message": "Estensione ufficiale per i devtool dei browser per fare debugging su applicazioni Vue.js. Permette di ispezionare i componenti, lo store Vuex e gli eventi."
           },
-          "progress": "Installing {arg0}..."
+          "progress": "Sto installando {arg0}..."
         }
       },
       "vue-webpack": {
         "dashboard": {
           "title": "Dashboard",
-          "open-app": "Open app",
+          "open-app": "Apri app",
           "webpack-status": {
-            "Success": "Success",
-            "Failed": "Failed",
-            "Compiling": "Compiling",
+            "Success": "Completato con successo",
+            "Failed": "Fallito",
+            "Compiling": "Sto compilando",
             "Invalidated": "Invalidated",
             "Idle": "Idle"
           },
@@ -512,18 +512,18 @@
               "warnings": "Warnings",
               "assets": "Assets",
               "modules": "Modules",
-              "deps": "Dependencies"
+              "deps": "Dipendenze"
             }
           },
           "speed-stats": {
             "title": "Speed stats"
           },
           "module-list": {
-            "title": "Dependencies"
+            "title": "Dipendenze"
           },
           "asset-list": {
             "title": "Assets",
-            "size-warning": "This asset is big, consider using Code splitting to create smaller assets."
+            "size-warning": "Questa risorsa è grossa, prendi in considerazione di usare il code splitting per creare risorse più piccole."
           }
         },
         "analyzer": {
@@ -576,7 +576,7 @@
           "vue-cli": {
             "description": "Configure your Vue project",
             "groups": {
-              "general": "General settings",
+              "general": "Impostazioni generali",
               "css": "CSS settings"
             },
             "baseUrl": {
@@ -747,28 +747,28 @@
       },
       "widgets": {
         "welcome": {
-          "title": "Welcome tips",
-          "description": "Some tips to help you get started",
+          "title": "Suggerimenti di benvenuto",
+          "description": "Alcuni suggerimenti per iniziare",
           "content": {
-            "title": "Welcome to your new project!",
-            "tip1": "You are looking at the project dashboard where your can put widgets. Use the 'Customize' button to add more! Everything is automatically saved.",
-            "tip2": "On the left are the different available pages. 'Plugins' let you add new Vue CLI plugins, 'Dependencies' for managing the packages, 'Configuration' to configure the tools and 'Tasks' to run scripts (for example webpack).",
-            "tip3": "Return to the project manager with the dropdown at the top left of the screen or the home button in the status bar at the bottom.",
-            "ok": "Understood"
+            "title": "Benvenuto in un nuovo progetto!",
+            "tip1": "Questa che vedi è la dashboard di progetto, dove puoi aggiungere widget. Usa il tasto 'Personalizza' per aggiungerne altri. Tutte le modifiche sono salvate automaticamente.",
+            "tip2": "A sinistra trovi le diverse sezioni disponibili. 'Plugin' permette di aggiungere plugin a Vue CLI. 'Dipendenze' gestisce i pacchetti delle dipendenze. 'Configurazione' permette di configurare gli strumenti, e 'Task' permette di avviare gli script (ad esempio, Webpack).",
+            "tip3": "Puoi tornare alla gestione dei progetti con la tendina in alto a sinistra o con il tasto home nella barra di stato in basso.",
+            "ok": "Ok, ho capito"
           }
         },
         "kill-port": {
-          "title": "Kill port",
-          "description": "Kill processes using a specific network port",
+          "title": "Termina un processo su una porta",
+          "description": "Termina un processo su una porta di rete specifica",
           "input": {
-            "placeholder": "Enter a network port"
+            "placeholder": "Inserisci una porta di rete"
           },
-          "kill": "Kill",
+          "kill": "Termina",
           "status": {
-            "idle": "Ready to kill",
-            "killing": "Killing procress...",
-            "killed": "Killed successfully!",
-            "error": "Couldn't kill process"
+            "idle": "Pronto",
+            "killing": "Sto terminando il processo...",
+            "killed": "Processo terminato con successo!",
+            "error": "Impossibile terminare il processo"
           }
         },
         "status-widget": {
@@ -778,30 +778,30 @@
           "more-info": "More details"
         },
         "plugin-updates": {
-          "title": "Plugin updates",
-          "description": "Monitor plugin updates",
+          "title": "Aggiornamenti dei plugin",
+          "description": "Controlla gli aggiornamenti dei plugin",
           "messages": {
-            "ok": "All plugins up-to-date",
+            "ok": "Tutti i plugin sono aggiornati",
             "loading": "Checking for updates...",
-            "attention": "{n} plugin updates available"
+            "attention": "{n} aggiornamenti di plugin disponibili"
           },
-          "page": "Go to Plugins"
+          "page": "Vai ai plugin"
         },
         "dependency-updates": {
-          "title": "Dependency updates",
-          "description": "Monitor dependencies updates",
+          "title": "Aggiornamenti delle dipendenze",
+          "description": "Controlla gli aggiornamenti delle dipendenze",
           "messages": {
-            "ok": "All dependencies up-to-date",
+            "ok": "Tutte le dipendenze sono aggiornate",
             "loading": "Checking for updates...",
-            "attention": "{n} dependency updates available"
+            "attention": "{n} aggiornamenti di dipendenze disponibili"
           },
-          "page": "Go to Dependencies"
+          "page": "Vai alle Dipendenze"
         },
         "vulnerability": {
-          "title": "Vulnerability check",
-          "description": "Check for known vulnerabilities in your project dependencies",
+          "title": "Controllo vulnerabilità",
+          "description": "Verifica le dipendenze di progetto rispetto a vulnerabilità conosciute",
           "messages": {
-            "ok": "No vulnerability found",
+            "ok": "Nessuna vulnerabilità riscontrata",
             "loading": "Checking security reports...",
             "attention": "{n} vulnerabilities found"
           },
@@ -810,11 +810,11 @@
             "medium": "Medium severity",
             "low": "Low severity"
           },
-          "direct-dep": "Direct dependency"
+          "direct-dep": "Dipendenza diretta"
         },
         "run-task": {
-          "title": "Run task",
-          "description": "Shortcut to run a task",
+          "title": "Esegui un task",
+          "description": "Scorciatoia per eseguire un task",
           "prompts": {
             "task": "Select a task"
           },
@@ -824,7 +824,7 @@
           "title": "News feed",
           "description": "Read news feed",
           "refresh": "Force refresh",
-          "select-tip": "Select an item on the left",
+          "select-tip": "Seleziona un elemento a sinistra",
           "prompts": {
             "url": "RSS feed URL or GitHub repository"
           },

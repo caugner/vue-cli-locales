@@ -8,8 +8,8 @@
       },
       "components": {
         "client-addon-component": {
-          "timeout": "Component load timeout",
-          "timeout-info": "The custom component takes too much time to load, there might be an error"
+          "timeout": "Время ожидания загрузки компонента",
+          "timeout-info": "Загрузка пользовательского компонента занимает слишком много времени, возможно, произошла ошибка"
         },
         "connection-status": {
           "disconnected": "Отключен от UI сервера",
@@ -116,7 +116,7 @@
           "installed": "Установлен",
           "actions": {
             "update": "Обновить {target}",
-            "refresh": "Force Refresh {target}<br><i>Press [Shift] for Quick Refresh (node_modules won't be updated)</i>"
+            "refresh": "Принудительно обновиь {target}<br><i>Нажмите [Shift] для Быстрого Обновления (node_modules не будут обновлены)</i>"
           },
           "local": "Локальный"
         },
@@ -201,7 +201,7 @@
           "add": "Добавить виджет",
           "details": {
             "title": "Детали виджета",
-            "max-instances": "Max instance count: {count}/{total}",
+            "max-instances": "Максимальное количество экземпляров: {count} / {всего}",
             "unlimited": "неограниченно"
           }
         }
@@ -253,10 +253,10 @@
           "import": {
             "no-modules": {
               "title": "Отсутствующие модули",
-              "message": "It seems the project is missing the 'node_modules' folder. Please check you installed the dependencies before importing.",
+              "message": "Кажется, у проекта отсутствует папка 'node_modules' .Пожалуйста проверьте установленные зависимости перед импортом.",
               "close": "Понятно"
             },
-            "force": "Import anyway"
+            "force": "Импортировать в любом случае"
           }
         },
         "project-create": {
@@ -282,7 +282,7 @@
                   "force": "Overwrite target folder if it exists",
                   "git-title": "Репозиторий Git",
                   "git": "Инициализировать репозиторий git (рекомендуется)",
-                  "git-commit-message": "Initial commit message (optional)"
+                  "git-commit-message": " Введите сообщение первого коммита(не обязательно) "
                 }
               },
               "buttons": {
@@ -319,8 +319,8 @@
                 "name": "Удаленный пресет",
                 "description": "Скачать пресет из git репозитория",
                 "url": {
-                  "title": "Preset URL",
-                  "subtitle": "Git repo, for example 'username/repo'. You can also prefix with 'gitlab:' or 'bitbucket:'."
+                  "title": "URL пресета",
+                  "subtitle": "Git репозиторий (например, 'username/repo'). Вы также можете использовать префикс 'gitlab:' или 'bitbucket:'."
                 },
                 "options": "Другие опции",
                 "clone": "Clone/Private repository",
@@ -340,7 +340,7 @@
               },
               "userConfigFiles": {
                 "name": "Использовать файл ",
-                "description": "Use specific configuration files (like '.babelrc') instead of using 'package.json'."
+                "description": "Использовать отдельные файлы (такие как '.babelrc') вместо использования 'package.json'."
               }
             },
             "configuration": {
@@ -353,7 +353,7 @@
                 "title": "Сохранить как новый пресет",
                 "body": {
                   "title": "Имя пресета",
-                  "subtitle": "Save the features and configuration into a new preset"
+                  "subtitle": "Сохранить конфигурацию в новый пресет"
                 },
                 "buttons": {
                   "cancel": "Отменить",
@@ -406,13 +406,13 @@
             }
           },
           "buttons": {
-            "add-local": "Browse local plugin"
+            "add-local": "Найти локальный плагин"
           }
         },
         "project-plugin-add-local": {
-          "title": "Add a local plugin",
+          "title": "Добавить локальный плагин",
           "buttons": {
-            "add": "Add local plugin"
+            "add": "Добавить локальный плагин"
           }
         },
         "project-configurations": {
@@ -455,15 +455,15 @@
             "title": "Установить новую зависимость"
           },
           "uninstall": {
-            "title": "Confirm uninstall",
-            "body": "Are you sure you want to uninstall {id}?",
+            "title": "Подтвердить удаление",
+            "body": "Вы уверены что хотите удалить {id}?",
             "cancel": "Отмена",
             "uninstall": "Удалить {id}"
           }
         },
         "project-dashboard": {
           "title": "Информационная панель проекта",
-          "cutomize": "Customize",
+          "cutomize": "Настроить",
           "done": "Готово"
         },
         "settings": {
@@ -472,7 +472,7 @@
         "about": {
           "title": "О Vue-cli UI",
           "description": "<a href=\"https://github.com/vuejs/vue-cli/tree/dev/packages/%40vue/cli-ui\" target=\"_blank\">@vue/cli-ui</a> это встроенное расширение vue-cli, предоставляющее полноценный пользовательский интерфейс.",
-          "quote": "Vue-cli 3.x - это полностью переписан, с множеством новых потрясающих функций. Вы сможете выбирать такие функции, как маршрутизация, Vuex или Typecript, а затем добавлять и обновлять блоки, называемые «vue-cli плагины». Но наличие гораздо большего количества опций также означает, что теперь инструмент становится более сложным и сложнее начать использовать. Вот почему мы думали, что полномасштабный графический интерфейс поможет обнаружить новые функции, найти и установить «vue-cli плагины» и разблокировать больше возможностей в целом, не ограничиваясь интерфейсом терминала. Подводя итог, vue-cli не только позволит вам легко загружать новый проект, но он также будет полезен для дальнейшей работы после этого!",
+          "quote": "Vue-cli 3.x полностью переписан с добавлением множества новых потрясающих функций. Вы сможете выбирать такие функции, как маршрутизация, Vuex или Typecript, а затем добавлять и обновлять блоки — vue-cli плагины. Но наличие гораздо большего количества опций также означает, что теперь инструмент становится более сложным в использовании и изучении его возможностей. Вот почему мы подумали, что полномасштабный графический интерфейс поможет обнаружить новые функции, найти и установить vue-cli плагины и, в целом, дать больше возможностей не ограничиваясь интерфейсом командной строки. Подводя итог, vue-cli не только позволит вам легко создать новый проект, но также будет полезен для дальнейшей работы с проектом!",
           "links": "Полезные ссылки",
           "back": "Назад"
         }
@@ -481,15 +481,15 @@
         "suggestions": {
           "vue-router-add": {
             "label": "Добавить vue-router",
-            "message": "Official library to support multiple virtual pages in a Single-Page App. Each route renders a different component."
+            "message": "Официальная библиотека для поддержки нескольких виртуальных страниц в одностраничном приложении. Каждый маршрут Отображает отдельный компонент."
           },
           "vuex-add": {
             "label": "Добавить vuex",
-            "message": "Official centralized State Management solution for large-scale apps. Very useful if multiple components need to access the same data."
+            "message": "Официальное централизованное решение для управления крупномасштабными приложениями. Очень полезно, если нескольким компонентам требуется доступ к одним и тем же данным."
           },
           "vue-devtools": {
             "label": "Установить инструменты разработки",
-            "message": "Browser devtools official extension for debugging Vue.js applications where you can inspect your components, vuex store and events."
+            "message": " официальное браузерное расширение для отладки Vue.js приложения где вы можете проверить ваши компоненты, vuex хранилища и события."
           },
           "progress": "Установка {arg0}..."
         }
@@ -563,7 +563,7 @@
             "watch": "Следить за изменениями",
             "modern": {
               "label": "Современный режим",
-              "description": "Build app targeting modern browsers with auto fallback"
+              "description": "Включить дополнительную сборку для современных браузеров"
             }
           },
           "inspect": {
@@ -584,11 +584,11 @@
               "description": "The base URL your application will be deployed at, for example '/my-app/'. Use an empty string ('') so that all assets are linked using relative paths."
             },
             "outputDir": {
-              "label": "Output directory",
-              "description": "The directory where the production build files will be generated"
+              "label": "Выходной каталог",
+              "description": "Каталог, в котором будут сохранены сгенерированные файлы production-сборки"
             },
             "assetsDir": {
-              "label": "Assets directory",
+              "label": "Каталог статических ресурсов",
               "description": "A directory to nest generated static assets (js, css, img, fonts) under."
             },
             "runtimeCompiler": {
@@ -596,8 +596,8 @@
               "description": "This will allow you to use the template option in Vue components, but will incur around an extra 10kb payload for your app."
             },
             "productionSourceMap": {
-              "label": "Enable Production Source Maps",
-              "description": "Disabling this can speed up production builds if you don't need source maps for production"
+              "label": "Включить source maps для production сборки",
+              "description": "Отключение этой опции может ускорить сборку для production, если вы не нуждаетесь в source maps в production."
             },
             "parallel": {
               "label": "Параллельная компиляция",
@@ -613,7 +613,7 @@
                 "description": "Whether to extract CSS in your components into a standalone CSS files (instead of inlined in JavaScript and injected dynamically)."
               },
               "sourceMap": {
-                "label": "Enable CSS Source Maps",
+                "label": "Включить Source Maps для CSS",
                 "description": "Whether to enable source maps for CSS. Enabling this may affect build performance."
               }
             }
@@ -731,7 +731,7 @@
         "tasks": {
           "test": {
             "description": "Запустить юнит тесты используя Jest",
-            "watch": "Watch files for changes and rerun tests related to changed files",
+            "watch": "Отслеживать изменения в файлах и перезапускать тесты, связанные с изменёнными файлами",
             "notify": "Отображать уведомление после каждого запуска",
             "update": "Re-record every snapshot that fails during this test run"
           }
@@ -741,34 +741,34 @@
         "tasks": {
           "test": {
             "description": "Запустить юнит тесты используя Mocha",
-            "watch": "Watch files for changes and rerun tests related to changed files"
+            "watch": "Отслеживать изменения в файлах и перезапускать тесты, связанные с изменёнными файлами"
           }
         }
       },
       "widgets": {
         "welcome": {
           "title": "Welcome tips",
-          "description": "Some tips to help you get started",
+          "description": "Несколько советов, которые помогут вам начать работу",
           "content": {
-            "title": "Welcome to your new project!",
-            "tip1": "You are looking at the project dashboard where your can put widgets. Use the 'Customize' button to add more! Everything is automatically saved.",
-            "tip2": "On the left are the different available pages. 'Plugins' let you add new Vue CLI plugins, 'Dependencies' for managing the packages, 'Configuration' to configure the tools and 'Tasks' to run scripts (for example webpack).",
-            "tip3": "Return to the project manager with the dropdown at the top left of the screen or the home button in the status bar at the bottom.",
-            "ok": "Understood"
+            "title": "Добро пожаловать в ваш новый проект!",
+            "tip1": "Сейчас перед вами главная страница проекта, где вы можете разместить различные виджеты. Нажмите кнопку \"Настроить\" чтобы добавить виджеты! Все изменения автоматически сохраняются.",
+            "tip2": "Слева находятся различные страницы.'Плагины' позволяет добавлять новые плагины CLI , 'Зависимости' для управления пакетами , 'Конфигурация' чтобы настроить инструменты и \"задачи\" для выполнения скриптов(например webpack)",
+            "tip3": "Вернитесь к менеджеру проектов с помощью выпадающего меню в левом верхнем углу экрана или кнопки \"Домой\" в строке состояния внизу.",
+            "ok": "Понятно"
           }
         },
         "kill-port": {
           "title": "Убить порт",
-          "description": "Kill processes using a specific network port",
+          "description": "Убить процессы, использующие указанный сетевой порт",
           "input": {
-            "placeholder": "Enter a network port"
+            "placeholder": "Введите сетевой порт"
           },
           "kill": "Убить",
           "status": {
-            "idle": "Ready to kill",
-            "killing": "Killing procress...",
-            "killed": "Killed successfully!",
-            "error": "Couldn't kill process"
+            "idle": "Готов к убийству",
+            "killing": "Убиваем процесс...",
+            "killed": "Процесс успешно убит!",
+            "error": "Не удается убить процесс"
           }
         },
         "status-widget": {
@@ -781,7 +781,7 @@
           "title": "Обнвления плагина",
           "description": "Отслеживать обнвления плагина",
           "messages": {
-            "ok": "All plugins up-to-date",
+            "ok": "Все плагины последней версии ",
             "loading": "Проверка на наличие обновлений ...",
             "attention": "В наличии {n} обновлений для плагинов"
           },
@@ -791,7 +791,7 @@
           "title": "Обновление зависимостей",
           "description": "Отслеживать обновление зависимостей",
           "messages": {
-            "ok": "All dependencies up-to-date",
+            "ok": "Все зависимости последней версии ",
             "loading": "Проверка на наличие обновлений ...",
             "attention": "В наличии {n} обновлений для зависимостей"
           },
@@ -814,24 +814,24 @@
         },
         "run-task": {
           "title": "Запустить задачу",
-          "description": "Shortcut to run a task",
+          "description": "Ярлык для запуска задачи",
           "prompts": {
             "task": "Выбрать задачу"
           },
           "page": "Перейти к Задаче"
         },
         "news": {
-          "title": "News feed",
-          "description": "Read news feed",
+          "title": "Лента новостей",
+          "description": "Читать ленту новостей",
           "refresh": "Обновить принудительно",
-          "select-tip": "Select an item on the left",
+          "select-tip": "Выберете элемент слева",
           "prompts": {
-            "url": "RSS feed URL or GitHub repository"
+            "url": "URL RSS-ленты или репозитория GitHub "
           },
           "errors": {
-            "fetch": "Couldn't fetch feed",
-            "offline": "You are offline",
-            "empty": "Empty feed"
+            "fetch": "Не удается получить ленту",
+            "offline": "Вы не в сети",
+            "empty": "Очистить ленту"
           }
         }
       }

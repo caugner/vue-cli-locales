@@ -2,14 +2,14 @@
   "org": {
     "vue": {
       "common": {
-        "close": "Close",
-        "back": "Go back",
-        "more-info": "More info"
+        "close": "閉じる",
+        "back": "戻る",
+        "more-info": "詳細情報"
       },
       "components": {
         "client-addon-component": {
-          "timeout": "Component load timeout",
-          "timeout-info": "The custom component takes too much time to load, there might be an error"
+          "timeout": "コンポーネントの読み込みがタイムアウトしました",
+          "timeout-info": "カスタムコンポーネントの読み込みに時間がかかりすぎです、エラーがあるかもしれません"
         },
         "connection-status": {
           "disconnected": "UI サーバから切断されました",
@@ -75,7 +75,7 @@
         },
         "logger-view": {
           "title": "ログ",
-          "empty": "No logs yet",
+          "empty": "まだログはありません",
           "buttons": {
             "clear": "ログをクリアする",
             "scroll": "一番下にスクロールする",
@@ -87,7 +87,7 @@
         },
         "project-nav": {
           "tooltips": {
-            "dashboard": "Dashboard",
+            "dashboard": "ダッシュボード",
             "plugins": "プラグイン",
             "dependencies": "依存",
             "configuration": "設定",
@@ -116,9 +116,9 @@
           "installed": "インストール済み",
           "actions": {
             "update": "{target} を更新する",
-            "refresh": "Force Refresh {target}<br><i>Press [Shift] for Quick Refresh (node_modules won't be updated)</i>"
+            "refresh": "強制リフレッシュ {target}<br><i> [シフト] を押すとクイックリフレッシュ (node_modules は更新されません)</i>"
           },
-          "local": "Local"
+          "local": "ローカル"
         },
         "project-dependency-item": {
           "version": "バージョン",
@@ -156,7 +156,7 @@
           },
           "report-bug": "バグをレポートする",
           "translate": "翻訳をヘルプする",
-          "dark-mode": "ダークモードにトグル",
+          "dark-mode": "ダークモードに切り替え",
           "reset-plugin-api": "プラグイン API をリフレッシュ"
         },
         "suggestion-bar": {
@@ -188,21 +188,21 @@
           }
         },
         "widget": {
-          "remove": "Remove widget",
-          "configure": "Configure widget",
-          "save": "Save",
-          "reset-config": "Reset config",
-          "open-details": "Show more"
+          "remove": "ウィジェットを削除する",
+          "configure": "ウィジェットの設定",
+          "save": "保存",
+          "reset-config": "設定をリセット",
+          "open-details": "もっと見る"
         },
         "widget-add-pane": {
-          "title": "Add widgets"
+          "title": "ウィジェットを追加"
         },
         "widget-add-item": {
-          "add": "Add widget",
+          "add": "ウィジェットを追加",
           "details": {
-            "title": "Widget details",
-            "max-instances": "Max instance count: {count}/{total}",
-            "unlimited": "unlimited"
+            "title": "ウィジェットの詳細",
+            "max-instances": "最大インスタンス数: {count}/{total}",
+            "unlimited": "無制限"
           }
         }
       },
@@ -256,7 +256,7 @@
               "message": "プロジェクトは 'node_modules' フォルダがないようです。どうか、インポートする前に依存がインストール済みか確認してください。",
               "close": "了解"
             },
-            "force": "Import anyway"
+            "force": "とにかくインポート"
           }
         },
         "project-create": {
@@ -323,7 +323,7 @@
                   "subtitle": "Git リポジトリ、例えば 'username/repo'。'gitlab:' または 'bitbucket:' でプリフィックスもできます。"
                 },
                 "options": "他のオプション",
-                "clone": "Clone/Private repository",
+                "clone": "クローン/プライベート リポジトリ",
                 "cancel": "キャンセル",
                 "done": "完了"
               },
@@ -406,13 +406,13 @@
             }
           },
           "buttons": {
-            "add-local": "Browse local plugin"
+            "add-local": "ローカルのプラグインを閲覧する"
           }
         },
         "project-plugin-add-local": {
-          "title": "Add a local plugin",
+          "title": "ローカルのプラグインを追加する",
           "buttons": {
-            "add": "Add local plugin"
+            "add": "ローカルのプラグインを追加する"
           }
         },
         "project-configurations": {
@@ -462,12 +462,12 @@
           }
         },
         "project-dashboard": {
-          "title": "Project dashboard",
-          "cutomize": "Customize",
-          "done": "Done"
+          "title": "プロジェクト ダッシュボード",
+          "cutomize": "カスタマイズ",
+          "done": "完了"
         },
         "settings": {
-          "title": "Settings"
+          "title": "設定"
         },
         "about": {
           "title": "Vue CLI について",
@@ -732,7 +732,7 @@
           "test": {
             "description": "Jest で単体テストを実行する",
             "watch": "変更に対してファイルを監視し、そして変更されたファイルに関連するテストを再実行する",
-            "notify": "Display a notification after each run",
+            "notify": "実行ごとに通知を表示する",
             "update": "このテスト実行中に失敗した全てのスナップショットを再記録する"
           }
         }
@@ -747,91 +747,91 @@
       },
       "widgets": {
         "welcome": {
-          "title": "Welcome tips",
-          "description": "Some tips to help you get started",
+          "title": "ようこそ",
+          "description": "始めるのに役立つヒント",
           "content": {
-            "title": "Welcome to your new project!",
-            "tip1": "You are looking at the project dashboard where your can put widgets. Use the 'Customize' button to add more! Everything is automatically saved.",
-            "tip2": "On the left are the different available pages. 'Plugins' let you add new Vue CLI plugins, 'Dependencies' for managing the packages, 'Configuration' to configure the tools and 'Tasks' to run scripts (for example webpack).",
-            "tip3": "Return to the project manager with the dropdown at the top left of the screen or the home button in the status bar at the bottom.",
-            "ok": "Understood"
+            "title": "あなたの新しいプロジェクトにようこそ",
+            "tip1": "ウィジェットを置くことができるプロジェクトダッシュボードを見ています。 'カスタマイズ'ボタンを使用してさらに追加してください! すべてが自動的に保存されます。",
+            "tip2": "左側には利用可能なページがあります。 'プラグイン' では、新しいVue CLIプラグインを追加、'依存' ではパッケージを管理、'設定' ではツールの設定 、'タスク' ではスクリプトの実行 (例えばwebpack) ができます。",
+            "tip3": "画面左上のプルダウンまたは下部のステータスバーのホームボタンを使用してプロジェクトマネージャに戻ります。",
+            "ok": "理解した"
           }
         },
         "kill-port": {
-          "title": "Kill port",
-          "description": "Kill processes using a specific network port",
+          "title": "ポートの終了",
+          "description": "特定のネットワークポートを使用してプロセスを終了する",
           "input": {
-            "placeholder": "Enter a network port"
+            "placeholder": "ポートを入力してください"
           },
-          "kill": "Kill",
+          "kill": "終了",
           "status": {
-            "idle": "Ready to kill",
-            "killing": "Killing procress...",
-            "killed": "Killed successfully!",
-            "error": "Couldn't kill process"
+            "idle": "終了の準備ができました",
+            "killing": "プロセスを終了しています...",
+            "killed": "プロセスの終了に成功しました!",
+            "error": "プロセスを終了できませんでした"
           }
         },
         "status-widget": {
-          "last-updated": "Updated",
-          "never": "Not updated yet",
-          "check": "Check for updates",
-          "more-info": "More details"
+          "last-updated": "更新しました",
+          "never": "まだ更新されていません",
+          "check": "アップデートを確認する",
+          "more-info": "詳細"
         },
         "plugin-updates": {
-          "title": "Plugin updates",
-          "description": "Monitor plugin updates",
+          "title": "プラグインの更新",
+          "description": "プラグインの更新を監視する",
           "messages": {
-            "ok": "All plugins up-to-date",
-            "loading": "Checking for updates...",
-            "attention": "{n} plugin updates available"
+            "ok": "すべてのプラグインを最新の状態にする",
+            "loading": "アップデートの確認中です...",
+            "attention": "{n}個のプラグインの更新が利用可能です"
           },
-          "page": "Go to Plugins"
+          "page": "プラグインへ移動"
         },
         "dependency-updates": {
-          "title": "Dependency updates",
-          "description": "Monitor dependencies updates",
+          "title": "依存関係の更新",
+          "description": "依存関係の更新を監視する",
           "messages": {
-            "ok": "All dependencies up-to-date",
-            "loading": "Checking for updates...",
-            "attention": "{n} dependency updates available"
+            "ok": "すべての依存関係を最新の状態にする",
+            "loading": "アップデートの確認中です...",
+            "attention": "{n}個の依存関係の更新が利用可能です"
           },
-          "page": "Go to Dependencies"
+          "page": "依存関係へ移動"
         },
         "vulnerability": {
-          "title": "Vulnerability check",
-          "description": "Check for known vulnerabilities in your project dependencies",
+          "title": "脆弱性チェック",
+          "description": "プロジェクトの依存関係の中で既知の脆弱性をチェックする",
           "messages": {
-            "ok": "No vulnerability found",
-            "loading": "Checking security reports...",
-            "attention": "{n} vulnerabilities found"
+            "ok": "脆弱性は見つかりません",
+            "loading": "セキュリティレポートの確認中...",
+            "attention": "{n}個の脆弱性が見つかりました"
           },
           "severity": {
-            "high": "High severity",
-            "medium": "Medium severity",
-            "low": "Low severity"
+            "high": "大規模な損害",
+            "medium": "中規模な損害",
+            "low": "小規模な損害"
           },
-          "direct-dep": "Direct dependency"
+          "direct-dep": "直接の依存"
         },
         "run-task": {
-          "title": "Run task",
-          "description": "Shortcut to run a task",
+          "title": "タスクの実行",
+          "description": "タスクを実行するためのショートカット",
           "prompts": {
-            "task": "Select a task"
+            "task": "タスクの選択"
           },
-          "page": "Go to Task"
+          "page": "タスクへ移動"
         },
         "news": {
-          "title": "News feed",
-          "description": "Read news feed",
-          "refresh": "Force refresh",
-          "select-tip": "Select an item on the left",
+          "title": "ニュースフィード",
+          "description": "ニュースフィードを読む",
+          "refresh": "強制リフレッシュ",
+          "select-tip": "左の項目を選択",
           "prompts": {
-            "url": "RSS feed URL or GitHub repository"
+            "url": "RSSフィード か GitHubリポジトリ"
           },
           "errors": {
-            "fetch": "Couldn't fetch feed",
-            "offline": "You are offline",
-            "empty": "Empty feed"
+            "fetch": "フィードを取得できませんでした",
+            "offline": "オフラインです",
+            "empty": "空のフィード"
           }
         }
       }

@@ -2,30 +2,30 @@
   "org": {
     "vue": {
       "common": {
-        "close": "إغلاق",
-        "back": "الرجوع",
-        "more-info": "المزيد من المعلومات"
+        "close": "Sluit",
+        "back": "Ga terug",
+        "more-info": "Meer info"
       },
       "components": {
         "client-addon-component": {
-          "timeout": "تحميل مهلة المكون",
-          "timeout-info": "يأخذ تحميل المكون المخصص وقتًا طويلاً ، فقد يكون هناك مشكلة"
+          "timeout": "Component load timeout",
+          "timeout-info": "Het custom component duurt te lang om te laden, er is mogelijk een fout"
         },
         "connection-status": {
-          "disconnected": "Disconnected from UI server",
-          "connected": "متصل!"
+          "disconnected": "De verbinding met de UI server is verbroken",
+          "connected": "Verbonden!"
         },
         "file-diff": {
-          "binary": "Binary file not shown",
+          "binary": "Binair bestand niet getoond",
           "actions": {
-            "open": "فتح في المحرر"
+            "open": "Openen in bewerkprogramma"
           }
         },
         "file-diff-view": {
-          "files-changed": "تم تغيير الملفات",
-          "search-file": "البحث عن ملف",
-          "empty": "لم يتم إيجاد أي تغيير",
-          "error": "Couldn't get file changes",
+          "files-changed": "Bestanden gewijzigd",
+          "search-file": "Zoek bestand",
+          "empty": "Geen verandering gevonden",
+          "error": "Kon de bestandswijzigingen niet ophalen",
           "modals": {
             "commit": {
               "title": "Commit changes",
@@ -33,208 +33,208 @@
               "subtitle": "Record changes to the repository",
               "actions": {
                 "commit": "Commit",
-                "cancel": "إلغاء"
+                "cancel": "Annuleer"
               }
             }
           },
           "actions": {
-            "collapse-all": "غلق الكل",
-            "expand-all": "فتح الكل",
+            "collapse-all": "Alles inklappen",
+            "expand-all": "Alles uitklappen",
             "commit": "Commit changes",
-            "skip": "تخطي",
-            "continue": "مواصلة",
-            "refresh": "إعادة تحديث"
+            "skip": "Sla over",
+            "continue": "Ga door",
+            "refresh": "Ververs"
           }
         },
         "folder-explorer": {
           "toolbar": {
             "tooltips": {
-              "parent-folder": "فتح المجلد الرئيسي",
-              "edit-path": "تعديل المسار",
-              "favorite": "Toggle favorite",
-              "favorite-folders": "Favorite folders",
-              "refresh": "إعادة تحديث"
+              "parent-folder": "Bovenliggende map openen",
+              "edit-path": "Bewerk pad",
+              "favorite": "Favoriet wijzigen",
+              "favorite-folders": "Favoriete mappen",
+              "refresh": "Verversen"
             },
-            "placeholder": "Enter the full path to a folder",
-            "empty": "No favorite folders yet.",
-            "show-hidden": "إظهار المجلدات المخفية"
+            "placeholder": "Geef het volledige pad naar een map in",
+            "empty": "Nog geen favoriete mappen.",
+            "show-hidden": "Toon verborgen mappen"
           },
           "new-folder": {
-            "action": "مجلد جديد",
-            "title": "إنشاء مجلد جديد",
+            "action": "Nieuwe map",
+            "title": "Nieuwe map maken",
             "field": {
-              "title": "مجلد جديد",
-              "subtitle": "You can use the folder separator to create multiple nested folders at once."
+              "title": "Nieuwe map",
+              "subtitle": "Je kunt de map seperator gebruiken om meerdere geneste mappen tegelijk te maken"
             },
-            "cancel": "إلغاء",
-            "create": "إنشاء"
+            "cancel": "Annuleren",
+            "create": "Aanmaken"
           }
         },
         "list-item-info": {
-          "more-info": "معلومات أكثر"
+          "more-info": "Meer informatie"
         },
         "logger-view": {
-          "title": "السجلات",
-          "empty": "لا يوجد سجلات بعد",
+          "title": "Logs",
+          "empty": "Nog geen logs",
           "buttons": {
-            "clear": "مسح السجلات",
-            "scroll": "إنتقل الى اسفل",
-            "close": "إغلاق"
+            "clear": "Logs leegmaken",
+            "scroll": "Scroll naar beneden",
+            "close": "Sluiten"
           }
         },
         "progress-screen": {
-          "close": "إغلاق"
+          "close": "Sluiten"
         },
         "project-nav": {
           "tooltips": {
             "dashboard": "Dashboard",
-            "plugins": "الإضافات",
-            "dependencies": "Dependencies",
-            "configuration": "تهيئة",
-            "tasks": "المهام",
-            "more": "المزيد"
+            "plugins": "Plugins",
+            "dependencies": "Afhankelijkheden",
+            "configuration": "Configuratie",
+            "tasks": "Taken",
+            "more": "Meer"
           }
         },
         "project-select-list": {
-          "empty": "لا توجد مشاريع حالية",
+          "empty": "Geen bestaande projecten",
           "titles": {
-            "favorite": "مشاريع مفضلة",
-            "other": "مشاريع أخرى"
+            "favorite": "Favoriete projecten",
+            "other": "Andere projecten"
           }
         },
         "project-select-list-item": {
           "tooltips": {
-            "favorite": "Toggle favorite",
-            "delete": "حذف",
-            "open-in-editor": "فتح في المحرر"
+            "favorite": "Favoriet wijzigen",
+            "delete": "Uit de lijst verwijderen",
+            "open-in-editor": "Openen in bewerkprogramma"
           }
         },
         "project-plugin-item": {
-          "version": "الإصدار",
-          "latest": "الأحدث",
-          "official": "رسمي",
-          "installed": "مثبت",
+          "version": "versie",
+          "latest": "recentst",
+          "official": "Officieel",
+          "installed": "Geïnstalleerd",
           "actions": {
-            "update": "Update {target}",
-            "refresh": "Force Refresh {target}<br><i>Press [Shift] for Quick Refresh (node_modules won't be updated)</i>"
+            "update": "{target} bijwerken",
+            "refresh": "{target} Hard Verversen <br><i>Druk op [Shift] voor Snel Verversen (node_modules wordt niet bijgewerkt)"
           },
-          "local": "Local"
+          "local": "Lokaal"
         },
         "project-dependency-item": {
-          "version": "الإصدار",
-          "wanted": "wanted",
-          "latest": "الاخير",
-          "installed": "مثبت",
+          "version": "versie",
+          "wanted": "gewenst",
+          "latest": "recentst",
+          "installed": "Geïnstalleerd",
           "actions": {
-            "update": "Update {target}",
-            "uninstall": "Uninstall {target}"
+            "update": "{target} bijwerken",
+            "uninstall": "{target} deïnstalleren"
           }
         },
         "project-tasks-dropdown": {
           "tooltips": {
-            "tasks": "مهام",
-            "running-tasks": "{count} running task(s)"
+            "tasks": "Taken",
+            "running-tasks": "{3} lopende taken"
           }
         },
         "prompt-list": {
-          "default": "الافتراضي"
+          "default": "Standaard"
         },
         "prompts-list": {
-          "empty": "No configuration"
+          "empty": "Geen configuratie"
         },
         "status-bar": {
           "project": {
             "tooltip": "Click to toggle Project Manager",
-            "empty": "No project open"
+            "empty": "Geen project open"
           },
           "path": {
             "tooltip": "Current Working Folder"
           },
           "log": {
-            "tooltip": "Logs<br><i>Click to toggle Vue CLI logs</i>",
-            "empty": "لا يوجد سجلات بعد"
+            "tooltip": "Logs<br><i>Klik om tussen de weergavemodi van Vue CLI logs te wisselen</i>",
+            "empty": "Nog geen logs"
           },
-          "report-bug": "الإبلاغ عن خطأ",
-          "translate": "Help translate",
-          "dark-mode": "Toggle dark mode",
-          "reset-plugin-api": "Refresh plugins API"
+          "report-bug": "Bug melden",
+          "translate": "Help met vertalen",
+          "dark-mode": "Wisselen naar donkere modus",
+          "reset-plugin-api": "Ververs plugins API"
         },
         "suggestion-bar": {
-          "suggestion": "Suggestion",
+          "suggestion": "Suggesties",
           "modal": {
-            "cancel": "إلغاء",
-            "continue": "Continue"
+            "cancel": "Annuleren",
+            "continue": "Doorgaan"
           }
         },
         "terminal-view": {
           "buttons": {
-            "clear": "Clear console",
-            "scroll": "إنتقل الى اسفل"
+            "clear": "Console leegmaken",
+            "scroll": "Scroll naar beneden"
           }
         },
         "top-bar": {
-          "no-favorites": "No favorite projects",
-          "favorite-projects": "Favorite projects",
-          "recent-projects": "Recent projects",
-          "homepage": "الصفحة الرئيسية"
+          "no-favorites": "Geen favoriete projecten",
+          "favorite-projects": "Favoriete projecten",
+          "recent-projects": "Recente projecten",
+          "homepage": "Startpagina"
         },
         "view-badge": {
           "labels": {
             "tasks": {
               "error": "Error status",
-              "running": "Running status",
-              "done": "Done status"
+              "running": "Lopende status",
+              "done": "Afgerond status"
             }
           }
         },
         "widget": {
-          "remove": "Remove widget",
-          "configure": "Configure widget",
-          "save": "حفظ",
-          "reset-config": "Reset config",
-          "open-details": "Show more"
+          "remove": "Widget verwijderen",
+          "configure": "Widget configureren",
+          "save": "Opslaan",
+          "reset-config": "Config resetten",
+          "open-details": "Toon meer"
         },
         "widget-add-pane": {
-          "title": "Add widgets"
+          "title": "Widgets toevoegen"
         },
         "widget-add-item": {
-          "add": "Add widget",
+          "add": "Widget toevoegen",
           "details": {
-            "title": "Widget details",
-            "max-instances": "Max instance count: {count}/{total}",
-            "unlimited": "غير محدود"
+            "title": "Widget-details",
+            "max-instances": "Max aantal instanties: {count}/{total}",
+            "unlimited": "ongelimiteerd"
           }
         }
       },
       "mixins": {
         "progress": {
-          "creating": "Creating project...",
-          "git-init": "Initializing git repository...",
-          "plugins-install": "Installing Vue CLI plugins. This might take a while...",
-          "invoking-generators": "Invoking generators...",
-          "deps-install": "Installing additional dependencies...",
-          "completion-hooks": "Running completion hooks...",
-          "fetch-remote-preset": "Fetching remote preset...",
-          "done": "Successfully created project",
-          "plugin-install": "Installing {arg0}...",
-          "plugin-uninstall": "Uninstalling {arg0}...",
-          "plugin-invoke": "Invoking {arg0}...",
-          "plugin-update": "Updating {arg0}...",
-          "plugins-update": "Updating {arg0} plugins...",
-          "dependency-install": "Installing {arg0}...",
-          "dependency-uninstall": "Uninstalling {arg0}...",
-          "dependency-update": "Updating {arg0}...",
-          "dependencies-update": "Updating {arg0} packages..."
+          "creating": "Project aanmaken...",
+          "git-init": "Git-repository initialiseren...",
+          "plugins-install": "Vue CLI plugins installeren. Dit kan wel even duren...",
+          "invoking-generators": "Generatoren aanroepen...",
+          "deps-install": "Aanvullende afhankelijkheden installeren...",
+          "completion-hooks": "Hooks op voltooiing draaien...",
+          "fetch-remote-preset": "Presets ophalen van de server...",
+          "done": "Project succesvol aangemaakt",
+          "plugin-install": "{arg0} installeren...",
+          "plugin-uninstall": "{arg0} deïnstalleren...",
+          "plugin-invoke": "{arg0} aanroepen...",
+          "plugin-update": "{arg0} bijwerken...",
+          "plugins-update": "Plugins van {arg0} bijwerken...",
+          "dependency-install": "{arg0} installeren...",
+          "dependency-uninstall": "{arg0} deïnstalleren...",
+          "dependency-update": "{arg0} bijwerken...",
+          "dependencies-update": "Pakketten van {arg0} bijwerken..."
         }
       },
       "types": {
         "task": {
           "status": {
-            "idle": "Idle",
-            "running": "Running",
-            "done": "تم",
-            "error": "خطأ",
-            "terminated": "Terminated"
+            "idle": "Vrij",
+            "running": "Lopend",
+            "done": "Klaar",
+            "error": "Fout",
+            "terminated": "Beëindigd"
           }
         }
       },
@@ -242,199 +242,199 @@
         "project-select": {
           "title": "Vue Project Manager",
           "tabs": {
-            "projects": "Projects",
-            "create": "إنشاء",
-            "import": "Import"
+            "projects": "Projecten",
+            "create": "Aanmaken",
+            "import": "Importeren"
           },
           "buttons": {
-            "create": "Create a new project here",
-            "import": "Import this folder"
+            "create": "Hier een nieuw project maken",
+            "import": "Deze map importeren"
           },
           "import": {
             "no-modules": {
-              "title": "Missing modules",
-              "message": "It seems the project is missing the 'node_modules' folder. Please check you installed the dependencies before importing.",
-              "close": "Got it"
+              "title": "Missende modules",
+              "message": "Het lijkt erop dat het project de 'node_modules' map mist. Kijk alsjeblieft na of je de afhankelijkheden hebt geïnstalleerd voordat je importeert.",
+              "close": "Ik snap het"
             },
-            "force": "Import anyway"
+            "force": "Importeer toch"
           }
         },
         "project-create": {
-          "title": "Create a new project",
+          "title": "Maak een nieuw project",
           "tabs": {
             "details": {
               "title": "Details",
               "form": {
                 "folder": {
-                  "label": "Project folder",
-                  "placeholder": "أكتب اسم",
+                  "label": "Project map",
+                  "placeholder": "Typ een naam",
                   "tooltip": "Change base folder",
-                  "action": "Select this folder",
-                  "folder-exists": "This folder already exists",
-                  "folder-name-invalid": "Folder name invalid"
+                  "action": "Deze map selecteren",
+                  "folder-exists": "Deze map bestaat al",
+                  "folder-name-invalid": "Ongeldige mapnaam"
                 },
                 "manager": {
-                  "label": "Package manager",
-                  "default": "الافتراضي"
+                  "label": "Pakket-manager",
+                  "default": "Standaard"
                 },
                 "options": {
-                  "label": "خيارات أخرى",
-                  "force": "Overwrite target folder if it exists",
-                  "git-title": "Git repository",
-                  "git": "Initialize git repository (recommended)",
+                  "label": "Extra opties",
+                  "force": "Overschrijf de doelmap als deze bestaat",
+                  "git-title": "Git-repository",
+                  "git": "Git-repository initialiseren (aangeraden)",
                   "git-commit-message": "Initial commit message (optional)"
                 }
               },
               "buttons": {
-                "cancel": "إلغاء",
-                "next": "التالي"
+                "cancel": "Annuleer",
+                "next": "Volgende"
               },
               "modal": {
-                "title": "Cancel and reset project creation",
-                "body": "Are you sure you want to reset the project creation?",
+                "title": "Annuleer en reset het aanmaken van het project",
+                "body": "Weet je zeker dat je het aanmaken van het project wilt resetten?",
                 "buttons": {
-                  "back": "Go back",
-                  "clear": "Clear project"
+                  "back": "Ga terug",
+                  "clear": "Project opruimen"
                 }
               }
             },
             "presets": {
               "title": "Presets",
-              "description": "A preset is an association of plugins and configurations. After you've selected features, you can optionally save it as a preset so that you can reuse it for future projects, without having to reconfigure everything again.",
-              "select": "Select a preset",
+              "description": "Een preset is een combinatie van plugins en configuraties. Nadat je features hebt geselecteerd kun je deze eventueel opslaan als een preset, zodat je deze bij een volgend project opnieuw kunt gebruiken zonder dat je alles opnieuw moet instellen.",
+              "select": "Selecteer een preset",
               "buttons": {
-                "previous": "السابق",
-                "next": "التالي",
-                "create": "Create Project"
+                "previous": "Vorige",
+                "next": "Volgende",
+                "create": "Maak project"
               },
               "modal": {
-                "title": "Configure Remote preset",
-                "body": "متوفر قريباً"
+                "title": "Configureer een preset op de server",
+                "body": "Binnenkort beschikbaar..."
               },
               "manual": {
-                "name": "Manual",
-                "description": "Manually select features"
+                "name": "Handmatig",
+                "description": "Handmatig features selecteren"
               },
               "remote": {
-                "name": "Remote preset",
-                "description": "Fetch a preset from a git repository",
+                "name": "Preset op de server",
+                "description": "Haal een preset op van een git repository",
                 "url": {
                   "title": "Preset URL",
-                  "subtitle": "Git repo, for example 'username/repo'. You can also prefix with 'gitlab:' or 'bitbucket:'."
+                  "subtitle": "Git repo, bijvoorbeeld 'gebruikersnaam/repo'. Je kunt er ook 'gitlab:' of 'bitbucket:' voor plaatsen."
                 },
-                "options": "خيارات أخرى",
-                "clone": "Clone/Private repository",
-                "cancel": "إلغاء",
-                "done": "تم"
+                "options": "Andere opties",
+                "clone": "Kloon/Privé-repository",
+                "cancel": "Annuleer",
+                "done": "Klaar"
               },
-              "default-preset": "Default preset"
+              "default-preset": "Standaard preset"
             },
             "features": {
-              "title": "الميزات",
-              "description": "You will be able to add features after the project is created by installing plugins.",
-              "enable": "Enable features",
+              "title": "Features",
+              "description": "Je zult, nadat het project is aangemaakt, features kunnen toevoegen door plugins te installeren.",
+              "enable": "Features inschakelen",
               "buttons": {
-                "previous": "السابق",
-                "next": "التالي",
-                "create": "Create Project"
+                "previous": "Vorige",
+                "next": "Volgende",
+                "create": "Maak project"
               },
               "userConfigFiles": {
-                "name": "Use config files",
-                "description": "Use specific configuration files (like '.babelrc') instead of using 'package.json'."
+                "name": "Gebruik config-bestand",
+                "description": "Gebruik specifieke configuratiebestanden (zoals '.babelrc') in plaats van 'package.json'."
               }
             },
             "configuration": {
-              "title": "Configuration",
+              "title": "Configuratie",
               "buttons": {
-                "previous": "السابق",
-                "create": "Create Project"
+                "previous": "Vorige",
+                "create": "Maak project"
               },
               "modal": {
-                "title": "Save as a new preset",
+                "title": "Opslaan als nieuwe preset",
                 "body": {
-                  "title": "Preset name",
-                  "subtitle": "Save the features and configuration into a new preset"
+                  "title": "Preset-naam",
+                  "subtitle": "Sla de features en configuratie op in een nieuwe preset"
                 },
                 "buttons": {
-                  "cancel": "إلغاء",
-                  "continue": "Continue without saving",
-                  "create": "Create a new preset"
+                  "cancel": "Annuleer",
+                  "continue": "Doorgaan zonder op te slaan",
+                  "create": "Maak een nieuwe preset aan"
                 }
               }
             }
           }
         },
         "project-plugins": {
-          "title": "Project plugins",
-          "button": "Add plugin",
-          "heading": "Installed plugins",
-          "update-all": "Update all plugins"
+          "title": "Project-plugins",
+          "button": "Plugin toevoegen",
+          "heading": "Geïnstalleerde plugins",
+          "update-all": "Alle plugins bijwerken"
         },
         "project-plugins-add": {
-          "title": "Add a plugin",
+          "title": "Een plugin toevoegen",
           "plugin": "plugin",
           "tabs": {
             "search": {
-              "label": "Search",
-              "search-input": "Search a plugin",
-              "not-found": "No results found",
+              "label": "Zoeken",
+              "search-input": "Een plugin zoeken",
+              "not-found": "Geen resultaten gevonden",
               "buttons": {
-                "cancel": "Cancel",
-                "install": "Install {target}",
-                "default-install": "Install"
+                "cancel": "Annuleren",
+                "install": "Installeer {target}",
+                "default-install": "Installeren"
               }
             },
             "configuration": {
-              "label": "Configuration",
-              "heading": "Installation of {target}",
+              "label": "Configuratie",
+              "heading": "Installatie van {target}",
               "buttons": {
-                "cancel": "إلغاء",
-                "finish": "Finish installation"
+                "cancel": "Annuleren",
+                "finish": "Installatie afronden"
               }
             },
             "diff": {
-              "label": "Files changed"
+              "label": "Bestanden gewijzigd"
             }
           },
           "modal": {
-            "title": "Uninstall {target}?",
-            "body": "Do you want to uninstall the {target} plugin?",
+            "title": "{target} deïnstalleren?",
+            "body": "Wil je de plugin {target} deïnstalleren?",
             "buttons": {
-              "back": "Go back",
-              "cancel": "Cancel without uninstalling",
-              "uninstall": "Uninstall"
+              "back": "Ga terug",
+              "cancel": "Annuleer zonder deïnstallatie",
+              "uninstall": "Deïnstalleren"
             }
           },
           "buttons": {
-            "add-local": "Browse local plugin"
+            "add-local": "Door lokale plugins bladeren"
           }
         },
         "project-plugin-add-local": {
-          "title": "Add a local plugin",
+          "title": "Een lokale plugin toevoegen",
           "buttons": {
-            "add": "Add local plugin"
+            "add": "Lokale plugin toevoegen"
           }
         },
         "project-configurations": {
-          "title": "Project configuration"
+          "title": "Project-configuratie"
         },
         "project-configuration-details": {
           "actions": {
-            "cancel": "إلغاء التغييرات",
-            "save": "Save changes",
-            "more-info": "More info",
-            "refresh": "Refresh"
+            "cancel": "Wijzigingen annuleren",
+            "save": "Wijzigingen opslaan",
+            "more-info": "Meer informatie",
+            "refresh": "Verversen"
           }
         },
         "project-tasks": {
-          "title": "Project tasks"
+          "title": "Projecttaken"
         },
         "project-task-details": {
           "actions": {
-            "play": "Run task",
-            "stop": "Stop task",
-            "close": "إغلاق",
-            "save": "Save"
+            "play": "Taak uitvoeren",
+            "stop": "Taak stoppen",
+            "close": "Sluiten",
+            "save": "Opslaan"
           },
           "command": "Script command",
           "parameters": "Parameters",
@@ -457,7 +457,7 @@
           "uninstall": {
             "title": "Confirm uninstall",
             "body": "Are you sure you want to uninstall {id}?",
-            "cancel": "إلغاء",
+            "cancel": "Cancel",
             "uninstall": "Uninstall {id}"
           }
         },
@@ -497,7 +497,7 @@
       "vue-webpack": {
         "dashboard": {
           "title": "Dashboard",
-          "open-app": "فتح التطبيق",
+          "open-app": "Open app",
           "webpack-status": {
             "Success": "Success",
             "Failed": "Failed",
@@ -816,22 +816,22 @@
           "title": "Run task",
           "description": "Shortcut to run a task",
           "prompts": {
-            "task": "Select a task"
+            "task": "Selecteer een taak"
           },
-          "page": "Go to Task"
+          "page": "Ga naar Taak"
         },
         "news": {
-          "title": "News feed",
-          "description": "Read news feed",
-          "refresh": "Force refresh",
-          "select-tip": "Select an item on the left",
+          "title": "Nieuws feed",
+          "description": "Lees nieuws feed",
+          "refresh": "Forceer refresh",
+          "select-tip": "Selecteer een item aan de linkerkant",
           "prompts": {
             "url": "RSS feed URL or GitHub repository"
           },
           "errors": {
             "fetch": "Couldn't fetch feed",
-            "offline": "You are offline",
-            "empty": "Empty feed"
+            "offline": "Je bent offline",
+            "empty": "Lege feed"
           }
         }
       }
