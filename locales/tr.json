@@ -87,7 +87,7 @@
         },
         "project-nav": {
           "tooltips": {
-            "dashboard": "Dashboard",
+            "dashboard": "Gösterge Paneli",
             "plugins": "Eklentiler",
             "dependencies": "Bağımlılıklar",
             "configuration": "Yapılandırma",
@@ -118,7 +118,7 @@
             "update": "Güncelle {target}",
             "refresh": "Force Refresh {target}<br><i>Press [Shift] for Quick Refresh (node_modules won't be updated)</i>"
           },
-          "local": "Local"
+          "local": "Yerel"
         },
         "project-dependency-item": {
           "version": "versiyon",
@@ -192,7 +192,7 @@
           "configure": "Parçacığı ayarla",
           "save": "Kaydet",
           "reset-config": "Ayarları sıfırla",
-          "open-details": "Show more"
+          "open-details": "Daha fazla göster"
         },
         "widget-add-pane": {
           "title": "Parçacıklar ekle"
@@ -201,7 +201,7 @@
           "add": "Parçacık ekle",
           "details": {
             "title": "Parçacık detayı",
-            "max-instances": "Max instance count: {count}/{total}",
+            "max-instances": "Maksimum örnekleme sayısı: {count}/{total}",
             "unlimited": "limitsiz"
           }
         }
@@ -220,11 +220,11 @@
           "plugin-uninstall": "{arg0} kaldırılıyor...",
           "plugin-invoke": "{arg0} çalıştırılıyor...",
           "plugin-update": "{arg0} güncelleniyor...",
-          "plugins-update": "Updating {arg0} plugins...",
-          "dependency-install": "Installing {arg0}...",
-          "dependency-uninstall": "Uninstalling {arg0}...",
-          "dependency-update": "Updating {arg0}...",
-          "dependencies-update": "Updating {arg0} packages..."
+          "plugins-update": "{arg0} eklentisi güncelleniyor...",
+          "dependency-install": "{arg0} kuruluyor...",
+          "dependency-uninstall": "{arg0} kaldırılıyor...",
+          "dependency-update": "{arg0} güncelleniyor...",
+          "dependencies-update": "{arg0} paketleri güncelleniyor..."
         }
       },
       "types": {
@@ -252,7 +252,7 @@
           },
           "import": {
             "no-modules": {
-              "title": "Missing modules",
+              "title": "Eksik modüller",
               "message": "It seems the project is missing the 'node_modules' folder. Please check you installed the dependencies before importing.",
               "close": "Got it"
             },
@@ -267,11 +267,11 @@
               "form": {
                 "folder": {
                   "label": "Proje klasörü",
-                  "placeholder": "Type a name",
+                  "placeholder": "Bir isim yazın",
                   "tooltip": "Temel klasörü değiştir",
                   "action": "Bu klasörü seç",
-                  "folder-exists": "This folder already exists",
-                  "folder-name-invalid": "Folder name invalid"
+                  "folder-exists": "Bu klasör zaten mevcut",
+                  "folder-name-invalid": "Klasör ismi geçersiz"
                 },
                 "manager": {
                   "label": "Paket yöneticisi",
@@ -322,9 +322,9 @@
                   "title": "Preset URL",
                   "subtitle": "Git repo, for example 'username/repo'. You can also prefix with 'gitlab:' or 'bitbucket:'."
                 },
-                "options": "Other options",
+                "options": "Diğer seçenekler",
                 "clone": "Clone/Private repository",
-                "cancel": "Cancel",
+                "cancel": "İptal",
                 "done": "Done"
               },
               "default-preset": "Varsayılan şablon"
@@ -372,7 +372,7 @@
         },
         "project-plugins-add": {
           "title": "Bir eklenti yükle",
-          "plugin": "plugin",
+          "plugin": "Eklenti",
           "tabs": {
             "search": {
               "label": "Ara",
@@ -381,12 +381,12 @@
               "buttons": {
                 "cancel": "Vazgeç",
                 "install": "{target}'i yükle",
-                "default-install": "Install"
+                "default-install": "Yükle"
               }
             },
             "configuration": {
               "label": "Yapılandırma",
-              "heading": "Installation of {target}",
+              "heading": "{target} kurulumu",
               "buttons": {
                 "cancel": "Vazgeç",
                 "finish": "Kurulumu tamamla"
@@ -397,22 +397,22 @@
             }
           },
           "modal": {
-            "title": "Uninstall {target}?",
-            "body": "Do you want to uninstall the {target} plugin?",
+            "title": "{target} kaldır?",
+            "body": "{target} eklentisini kaldırmak istiyor musunuz?",
             "buttons": {
-              "back": "Go back",
-              "cancel": "Cancel without uninstalling",
-              "uninstall": "Uninstall"
+              "back": "Geri dön",
+              "cancel": "Kaldırmadan iptal et",
+              "uninstall": "Kaldır"
             }
           },
           "buttons": {
-            "add-local": "Browse local plugin"
+            "add-local": "Yerel eklentiye gözat"
           }
         },
         "project-plugin-add-local": {
-          "title": "Add a local plugin",
+          "title": "Yerel bir eklenti ekle",
           "buttons": {
-            "add": "Add local plugin"
+            "add": "Yerel eklenti ekle"
           }
         },
         "project-configurations": {
@@ -434,7 +434,7 @@
             "play": "Görevi çalıştır",
             "stop": "Görevi durdur",
             "close": "Kapat",
-            "save": "Save"
+            "save": "Kaydet"
           },
           "command": "Script command",
           "parameters": "Parametreler",
@@ -442,32 +442,32 @@
           "output": "Çıktı"
         },
         "project-dependencies": {
-          "title": "Project dependencies",
+          "title": "Proje bağımlılıkları",
           "heading": {
-            "dependencies": "Main dependencies",
+            "dependencies": "Ana bağımlılıklar",
             "devDependencies": "Development dependencies"
           },
           "actions": {
-            "install": "Install dependency",
-            "update-all": "Update all dependencies"
+            "install": "Bağımlılık kur",
+            "update-all": "Bütün bağımlılıkları güncelle"
           },
           "install": {
-            "title": "Install new dependency"
+            "title": "Yeni bağımlılık yükle"
           },
           "uninstall": {
-            "title": "Confirm uninstall",
+            "title": "Kaldırma işlemini onayla",
             "body": "Are you sure you want to uninstall {id}?",
-            "cancel": "Cancel",
-            "uninstall": "Uninstall {id}"
+            "cancel": "Vazgeç",
+            "uninstall": "Kaldır {id}"
           }
         },
         "project-dashboard": {
-          "title": "Project dashboard",
-          "cutomize": "Customize",
+          "title": "Proje Gösterge Paneli",
+          "cutomize": "Özelleştir",
           "done": "Done"
         },
         "settings": {
-          "title": "Settings"
+          "title": "Ayarlar"
         },
         "about": {
           "title": "Hakkında",
@@ -530,15 +530,15 @@
           "title": "Çözümleyici",
           "go-up": "Yukarı git",
           "go-home": "Başa dön",
-          "chunk": "Chunk"
+          "chunk": "Yığın"
         },
         "sizes": {
-          "stats": "Stats",
-          "parsed": "Parsed",
+          "stats": "İstatistikler",
+          "parsed": "Çözümlenmiş",
           "gzip": "Gzip",
           "help": "<b>Stats:</b> size from webpack stats data.<br><b>Parsed:</b> size from extracted source (after minification plugins). More accurate.<br><b>Gzip:</b> size of gzipped extracted source."
         },
-        "modern-mode": "Show modern build",
+        "modern-mode": "Modern derlemeyi göster",
         "tasks": {
           "serve": {
             "description": "Geliştirme için derleme ve yeniden yükleme",
@@ -553,7 +553,7 @@
             "mode": "Env modunu belirt",
             "dest": "Çıktı dizini",
             "target": {
-              "description": "Build target",
+              "description": "Derleme hedefi",
               "app": "Web uygulaması",
               "lib": "Kütüphane",
               "wc": "Web bileşeni",
@@ -574,17 +574,21 @@
         },
         "config": {
           "vue-cli": {
-            "description": "Configure your Vue project",
+            "description": "Vue projenizi yapılandırın",
             "groups": {
-              "general": "General settings",
-              "css": "CSS settings"
+              "general": "Genel ayarlar",
+              "css": "CSS ayarları"
             },
             "baseUrl": {
               "label": "Base URL",
               "description": "The base URL your application will be deployed at, for example '/my-app/'. Use an empty string ('') so that all assets are linked using relative paths."
             },
+            "publicPath": {
+              "label": "Public Path",
+              "description": "The base URL your application will be deployed at, for example '/my-app/'. Use an empty string ('') so that all assets are linked using relative paths."
+            },
             "outputDir": {
-              "label": "Output directory",
+              "label": "Çıktı klasörü",
               "description": "The directory where the production build files will be generated"
             },
             "assetsDir": {
@@ -600,7 +604,7 @@
               "description": "Disabling this can speed up production builds if you don't need source maps for production"
             },
             "parallel": {
-              "label": "Parallel compilation",
+              "label": "Eşzamanlı derleme",
               "description": "Whether to use multiple processors to compile Babel or Typescript."
             },
             "css": {
@@ -641,7 +645,7 @@
               "custom": "Custom"
             },
             "general": {
-              "label": "General",
+              "label": "Genel",
               "lintOnSave": {
                 "message": "Lint on save",
                 "description": "Automatically lint source files when saved"
@@ -652,7 +656,7 @@
               }
             },
             "rules": {
-              "label": "Rules"
+              "label": "Kurallar"
             }
           }
         },
@@ -681,7 +685,7 @@
               "description": "App name displayed on the Splash screen and various other places. Also used as the value for the `apple-mobile-web-app-title` meta tag in the generated HTML."
             },
             "themeColor": {
-              "message": "Theme color",
+              "message": "Tema rengi",
               "description": "Color used to theme the browser"
             },
             "backgroundColor": {
@@ -732,7 +736,7 @@
           "test": {
             "description": "Run unit tests with Jest",
             "watch": "Watch files for changes and rerun tests related to changed files",
-            "notify": "Display a notification after each run",
+            "notify": "Her çalıştırmadan sonra bir bildirim göster",
             "update": "Re-record every snapshot that fails during this test run"
           }
         }
@@ -748,10 +752,10 @@
       "widgets": {
         "welcome": {
           "title": "Welcome tips",
-          "description": "Some tips to help you get started",
+          "description": "Başlangıç için bazı ipuçları",
           "content": {
-            "title": "Welcome to your new project!",
-            "tip1": "You are looking at the project dashboard where your can put widgets. Use the 'Customize' button to add more! Everything is automatically saved.",
+            "title": "Yeni projenize hoşgeldiniz",
+            "tip1": "You are looking at the project dashboard where you can put widgets. Use the 'Customize' button to add more! Everything is automatically saved.",
             "tip2": "On the left are the different available pages. 'Plugins' let you add new Vue CLI plugins, 'Dependencies' for managing the packages, 'Configuration' to configure the tools and 'Tasks' to run scripts (for example webpack).",
             "tip3": "Return to the project manager with the dropdown at the top left of the screen or the home button in the status bar at the bottom.",
             "ok": "Understood"
@@ -775,34 +779,34 @@
           "last-updated": "Updated",
           "never": "Not updated yet",
           "check": "Check for updates",
-          "more-info": "More details"
+          "more-info": "Daha fazla ayrıntı"
         },
         "plugin-updates": {
-          "title": "Plugin updates",
-          "description": "Monitor plugin updates",
+          "title": "Eklenti güncelleştirmeleri",
+          "description": "Eklenti güncelleştirmelerini görüntüle",
           "messages": {
-            "ok": "All plugins up-to-date",
-            "loading": "Checking for updates...",
-            "attention": "{n} plugin updates available"
+            "ok": "Bütün eklentiler güncel",
+            "loading": "Güncelleştirmeler kontrol ediliyor...",
+            "attention": "{n} eklenti güncellemesi mevcut"
           },
-          "page": "Go to Plugins"
+          "page": "Eklentilere git"
         },
         "dependency-updates": {
-          "title": "Dependency updates",
-          "description": "Monitor dependencies updates",
+          "title": "Bağımlılık güncelleştirmeleri",
+          "description": "Bağımlılık güncelleştirmelerini görüntüle",
           "messages": {
             "ok": "Tüm bağımlılıklar güncel",
             "loading": "Güncellemeler kontrol ediliyor...",
             "attention": "{n} dependency updates available"
           },
-          "page": "Go to Dependencies"
+          "page": "Bağımlılıklara git"
         },
         "vulnerability": {
           "title": "Açık kontrolü",
           "description": "Check for known vulnerabilities in your project dependencies",
           "messages": {
             "ok": "Açık bulunamadı",
-            "loading": "Checking security reports...",
+            "loading": "Güvenlik raporları kontrol ediliyor...",
             "attention": "{n} açık bulundu"
           },
           "severity": {

@@ -256,7 +256,7 @@
               "message": "Det lader til, at projektet mangler 'node_modules' mappen. Tjek venligst, om du har installeret afhængighederne før du importerer.",
               "close": "Forstået"
             },
-            "force": "Import anyway"
+            "force": "Importer alligevel"
           }
         },
         "project-create": {
@@ -323,7 +323,7 @@
                   "subtitle": "Git arkiv, for eksempel 'username/repo'. Du kan også præfikse med 'gitlab:' eller 'bitbucket:'."
                 },
                 "options": "Andre muligheder",
-                "clone": "Clone/Private repository",
+                "clone": "Klon/Privat arkiv",
                 "cancel": "Fortryd",
                 "done": "Færdig"
               },
@@ -410,9 +410,9 @@
           }
         },
         "project-plugin-add-local": {
-          "title": "Add a local plugin",
+          "title": "Tilføj et lokalt plugin",
           "buttons": {
-            "add": "Add local plugin"
+            "add": "Tilføj lokalt plugin"
           }
         },
         "project-configurations": {
@@ -462,12 +462,12 @@
           }
         },
         "project-dashboard": {
-          "title": "Project dashboard",
+          "title": "Projektkontrolpanel",
           "cutomize": "Customize",
-          "done": "Done"
+          "done": "Færdig"
         },
         "settings": {
-          "title": "Settings"
+          "title": "Indstillinger"
         },
         "about": {
           "title": "Om",
@@ -582,6 +582,10 @@
             "baseUrl": {
               "label": "Grund-URL",
               "description": "Grund-URLet, som din applikation vil blive deployet til, for eksempel '/my-app/'. Anvend en tom streng (''), så alle aktiver linkes med relative stier."
+            },
+            "publicPath": {
+              "label": "Public Path",
+              "description": "The base URL your application will be deployed at, for example '/my-app/'. Use an empty string ('') so that all assets are linked using relative paths."
             },
             "outputDir": {
               "label": "Output-mappe",
@@ -750,11 +754,11 @@
           "title": "Welcome tips",
           "description": "Some tips to help you get started",
           "content": {
-            "title": "Welcome to your new project!",
-            "tip1": "You are looking at the project dashboard where your can put widgets. Use the 'Customize' button to add more! Everything is automatically saved.",
+            "title": "Velkommen til dit nye projekt",
+            "tip1": "You are looking at the project dashboard where you can put widgets. Use the 'Customize' button to add more! Everything is automatically saved.",
             "tip2": "On the left are the different available pages. 'Plugins' let you add new Vue CLI plugins, 'Dependencies' for managing the packages, 'Configuration' to configure the tools and 'Tasks' to run scripts (for example webpack).",
             "tip3": "Return to the project manager with the dropdown at the top left of the screen or the home button in the status bar at the bottom.",
-            "ok": "Understood"
+            "ok": "Forstået"
           }
         },
         "kill-port": {
@@ -772,66 +776,66 @@
           }
         },
         "status-widget": {
-          "last-updated": "Updated",
-          "never": "Not updated yet",
-          "check": "Check for updates",
-          "more-info": "More details"
+          "last-updated": "Opdateret",
+          "never": "Ingen opdateringer endnu",
+          "check": "Kontroller for opdateringer",
+          "more-info": "Flere detaljer"
         },
         "plugin-updates": {
-          "title": "Plugin updates",
-          "description": "Monitor plugin updates",
+          "title": "Plugin opdateringer",
+          "description": "Overvåg plugin opdateringer",
           "messages": {
-            "ok": "All plugins up-to-date",
-            "loading": "Checking for updates...",
-            "attention": "{n} plugin updates available"
+            "ok": "Alle plugins er opdaterede",
+            "loading": "Kontollerer for opdateringer...",
+            "attention": "{n} plugin opdateringer tilgængelige"
           },
-          "page": "Go to Plugins"
+          "page": "Gå til Plugins"
         },
         "dependency-updates": {
-          "title": "Dependency updates",
-          "description": "Monitor dependencies updates",
+          "title": "Afhængigheds opdateringer",
+          "description": "Overvåg afhængigheds opdateringer",
           "messages": {
-            "ok": "All dependencies up-to-date",
-            "loading": "Checking for updates...",
-            "attention": "{n} dependency updates available"
+            "ok": "Alle afhængigheder er opdaterede",
+            "loading": "Kontollerer for opdateringer...",
+            "attention": "{n} afhængigheds opdateringer tilgængelige"
           },
-          "page": "Go to Dependencies"
+          "page": "Gå til Afhængigheder"
         },
         "vulnerability": {
-          "title": "Vulnerability check",
-          "description": "Check for known vulnerabilities in your project dependencies",
+          "title": "Sårbarheds kontrol",
+          "description": "Kontroller for kendte sårbarheder i dit projkts afhængigheder",
           "messages": {
-            "ok": "No vulnerability found",
-            "loading": "Checking security reports...",
-            "attention": "{n} vulnerabilities found"
+            "ok": "Ingen sårbarheder fundet",
+            "loading": "Kontrollerer sikkerheds rapporter...",
+            "attention": "{n} sårbarheder fundet"
           },
           "severity": {
-            "high": "High severity",
-            "medium": "Medium severity",
-            "low": "Low severity"
+            "high": "Høj alvorlighed",
+            "medium": "Medium alvorlighed",
+            "low": "Lav alvorlighed"
           },
-          "direct-dep": "Direct dependency"
+          "direct-dep": "Direkte afhængighed"
         },
         "run-task": {
-          "title": "Run task",
-          "description": "Shortcut to run a task",
+          "title": "Kør opgave",
+          "description": "Genvej til kør en opgave",
           "prompts": {
-            "task": "Select a task"
+            "task": "Vælg en opgave"
           },
-          "page": "Go to Task"
+          "page": "Gå til Opgaver"
         },
         "news": {
-          "title": "News feed",
-          "description": "Read news feed",
+          "title": "Nyhedsfeed",
+          "description": "Læs nyhedsfeed",
           "refresh": "Force refresh",
           "select-tip": "Select an item on the left",
           "prompts": {
-            "url": "RSS feed URL or GitHub repository"
+            "url": "RSS feed URL eller GitHub repository"
           },
           "errors": {
-            "fetch": "Couldn't fetch feed",
-            "offline": "You are offline",
-            "empty": "Empty feed"
+            "fetch": "Kunne ikke hente feed",
+            "offline": "Du er offline",
+            "empty": "Tomt feed"
           }
         }
       }

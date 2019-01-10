@@ -8,8 +8,8 @@
       },
       "components": {
         "client-addon-component": {
-          "timeout": "Component load timeout",
-          "timeout-info": "The custom component takes too much time to load, there might be an error"
+          "timeout": "Bileşen yükleme zaman aşımı",
+          "timeout-info": "Özel bileşeni yüklemek çok fazla zaman alıyor. Bir hata olabilir."
         },
         "connection-status": {
           "disconnected": "UI sunucusuna olan bağlantı koptu.",
@@ -22,10 +22,10 @@
           }
         },
         "file-diff-view": {
-          "files-changed": "Files changed",
-          "search-file": "Search file",
+          "files-changed": "Dosyalar değişti",
+          "search-file": "Dosya ara",
           "empty": "Değişiklik bulunamadı",
-          "error": "Couldn't get file changes",
+          "error": "Dosya değişiklikleri alınamadı",
           "modals": {
             "commit": {
               "title": "Değişiklikleri gönder",
@@ -75,7 +75,7 @@
         },
         "logger-view": {
           "title": "Geçmiş",
-          "empty": "No logs yet",
+          "empty": "Henüz log yok.",
           "buttons": {
             "clear": "Geçmişi temizle",
             "scroll": "Alta kaydır",
@@ -87,7 +87,7 @@
         },
         "project-nav": {
           "tooltips": {
-            "dashboard": "Dashboard",
+            "dashboard": "Gösterge Paneli",
             "plugins": "Eklentiler",
             "dependencies": "Bağımlılıklar",
             "configuration": "Yapılandırma",
@@ -116,31 +116,31 @@
           "installed": "Yüklendi",
           "actions": {
             "update": "Güncelle {target}",
-            "refresh": "Force Refresh {target}<br><i>Press [Shift] for Quick Refresh (node_modules won't be updated)</i>"
+            "refresh": "Yenilemeye zorla {target}<br> <i>Hızlı yenileme için [Shift] tuşuna basın (node_modules güncellenmeyecek).</i>"
           },
-          "local": "Local"
+          "local": "Yerel"
         },
         "project-dependency-item": {
-          "version": "version",
-          "wanted": "wanted",
-          "latest": "latest",
-          "installed": "Installed",
+          "version": "sürüm",
+          "wanted": "aranan",
+          "latest": "en son",
+          "installed": "Yüklendi",
           "actions": {
-            "update": "Update {target}",
-            "uninstall": "Uninstall {target}"
+            "update": "Güncelle {target}",
+            "uninstall": "Kaldır {target}"
           }
         },
         "project-tasks-dropdown": {
           "tooltips": {
-            "tasks": "Tasks",
-            "running-tasks": "{count} running task(s)"
+            "tasks": "Görevler",
+            "running-tasks": "{count} adet görev çalışıyor"
           }
         },
         "prompt-list": {
           "default": "Varsayılan"
         },
         "prompts-list": {
-          "empty": "No configuration"
+          "empty": "Yapılandırma yok."
         },
         "status-bar": {
           "project": {
@@ -188,21 +188,21 @@
           }
         },
         "widget": {
-          "remove": "Remove widget",
-          "configure": "Configure widget",
-          "save": "Save",
-          "reset-config": "Reset config",
-          "open-details": "Show more"
+          "remove": "Parçacığı kaldır.",
+          "configure": "Parçacığı yapılandır.",
+          "save": "Kaydet",
+          "reset-config": "Yapılandırmayı sıfırla",
+          "open-details": "Daha fazla"
         },
         "widget-add-pane": {
-          "title": "Add widgets"
+          "title": "Parçacıkları ekle"
         },
         "widget-add-item": {
-          "add": "Add widget",
+          "add": "Parçacık ekle",
           "details": {
-            "title": "Widget details",
-            "max-instances": "Max instance count: {count}/{total}",
-            "unlimited": "unlimited"
+            "title": "Parçacık detayları",
+            "max-instances": "Azami örnek sayısı: {count}/{total}",
+            "unlimited": "sınırsız"
           }
         }
       },
@@ -220,7 +220,7 @@
           "plugin-uninstall": "{arg0} kaldırılıyor...",
           "plugin-invoke": "{arg0} çalıştırılıyor...",
           "plugin-update": "{arg0} güncelleniyor...",
-          "plugins-update": "Updating {arg0} plugins...",
+          "plugins-update": " {arg0} eklentisi güncelleniyor...",
           "dependency-install": "{arg0} yükleniyor...",
           "dependency-uninstall": "{arg0} kaldırılıyor...",
           "dependency-update": "{arg0} güncelleniyor...",
@@ -254,9 +254,9 @@
             "no-modules": {
               "title": "Eksik modül(ler)",
               "message": "Projenin 'node_modules' klasörü eksik görünüyor. Lütfen içe aktarmadan önce bağımlılıkları kurduğunuzdan emin olun.",
-              "close": "Got it"
+              "close": "Anladım"
             },
-            "force": "Import anyway"
+            "force": "Yine de içeri aktar"
           }
         },
         "project-create": {
@@ -267,7 +267,7 @@
               "form": {
                 "folder": {
                   "label": "Proje klasörü",
-                  "placeholder": "Type a name",
+                  "placeholder": "Bir isim yazın",
                   "tooltip": "Temel klasörü değiştir",
                   "action": "Bu klasörü seç",
                   "folder-exists": "Bu klasör zaten mevcut",
@@ -320,12 +320,12 @@
                 "description": "Git deposundan şablon al",
                 "url": {
                   "title": "Şablon Bağlantısı",
-                  "subtitle": "Git repo, for example 'username/repo'. You can also prefix with 'gitlab:' or 'bitbucket:'."
+                  "subtitle": "Git deposu, örneğin  'kullanıcıadı/depo'. Ayrıca önüne 'gitlab:' ya da 'bitbucket:' ekleyebilirsiniz."
                 },
-                "options": "Other options",
-                "clone": "Clone/Private repository",
-                "cancel": "Cancel",
-                "done": "Done"
+                "options": "Diğer seçenekler",
+                "clone": "Çoğalt/Özel depo",
+                "cancel": "İptal",
+                "done": "Tamamlandı"
               },
               "default-preset": "Varsayılan şablon"
             },
@@ -397,22 +397,22 @@
             }
           },
           "modal": {
-            "title": "Uninstall {target}?",
-            "body": "Do you want to uninstall the {target} plugin?",
+            "title": "{target} kaldırılsın mı?",
+            "body": "{target} eklentisini kaldırmak istiyor musunuz?",
             "buttons": {
-              "back": "Go back",
-              "cancel": "Cancel without uninstalling",
-              "uninstall": "Uninstall"
+              "back": "Geri dön",
+              "cancel": "Kaldırmadan iptal et",
+              "uninstall": "Kaldır"
             }
           },
           "buttons": {
-            "add-local": "Browse local plugin"
+            "add-local": "Yerel eklentiye gözat"
           }
         },
         "project-plugin-add-local": {
-          "title": "Add a local plugin",
+          "title": "Yerel bir eklenti ekle",
           "buttons": {
-            "add": "Add local plugin"
+            "add": "Yerel eklenti ekle"
           }
         },
         "project-configurations": {
@@ -436,7 +436,7 @@
             "close": "Kapat",
             "save": "Kaydet"
           },
-          "command": "Script command",
+          "command": "Betik komutu",
           "parameters": "Parametreler",
           "more-info": "Daha Fazla Bilgi",
           "output": "Çıktı"
@@ -462,17 +462,17 @@
           }
         },
         "project-dashboard": {
-          "title": "Project dashboard",
-          "cutomize": "Customize",
-          "done": "Done"
+          "title": "Proje kontrol paneli",
+          "cutomize": "Özelleştir",
+          "done": "Tamamlandı"
         },
         "settings": {
-          "title": "Settings"
+          "title": "Ayarlar"
         },
         "about": {
           "title": "Hakkında",
-          "description": "<a href=\"https://github.com/vuejs/vue-cli/tree/dev/packages/%40vue/cli-ui\" target=\"_blank\">@vue/cli-ui</a> is a built-in package of vue-cli which opens a full-blown UI.",
-          "quote": "Vue-cli 3.x is a complete rewrite, with a lot of new awesome features. You will be able to select features like routing, Vuex or Typescript, then add and upgrade building blocks called \"vue-cli plugins\". But having so much more options also means the tool is now more complex and harder to start using. That's why we thought having a full-blown GUI would help discover the new features, search and install vue-cli plugins and unlock more possibilities overall while not being limited by a terminal interface. To sum up, vue-cli will not only allow you to bootstrap a new project easily, but it will also remain useful for ongoing work afterwards!",
+          "description": "<a href=\"https://github.com/vuejs/vue-cli/tree/dev/packages/%40vue/cli-ui\" target=\"_blank\">@vue/cli-ui</a> tam teşekküllü bir kullanıcı arayüzü açan dahili vue-cli paketidir.",
+          "quote": "Vue-cli 3.x bir sürü yeni harika özellikler ile yeniden yazıldı. Yönlendirme, Vuex ve Typescript gibi özellikleri seçebilir, ardından 'vue-cli eklentileri' adı verilen yapı taşlarını ekleyebilir ve yükseltebilirsiniz. Ancak; çok daha fazla seçeneğe sahip olması, aracın artık kullanmaya başlamak için daha karmaşık ve zor olduğu anlamına geliyor. Bu yüzden, tam donanımlı bir GUI'nin yeni özellikleri keşfetmeye, vue-cli eklentileri arama ve kurmaya yardımcı olacağını ve genel olarak bir terminal arabirim tarafından sınırlandırılmadan daha fazla olasılığı mümkün kılacağını düşündük. Özetle, vue-cli sadece yeni bir projeyi kolayca ön yüklemenize izin vermeyecek, aynı zamanda devam eden çalışmalar için de yararlı olmaya devam edecek!",
           "links": "Faydalı bağlantılar",
           "back": "Geri dön"
         }
@@ -522,23 +522,23 @@
             "title": "Bağımlılıklar"
           },
           "asset-list": {
-            "title": "Assets",
-            "size-warning": "This asset is big, consider using Code splitting to create smaller assets."
+            "title": "Varlıklar",
+            "size-warning": "Bu varlık büyük, daha küçük varlıklar oluşturmak için Kod bölmeyi kullanmayı düşünün."
           }
         },
         "analyzer": {
           "title": "Çözümleyici",
           "go-up": "Yukarı git",
           "go-home": "Başa dön",
-          "chunk": "Chunk"
+          "chunk": "Yığın"
         },
         "sizes": {
-          "stats": "Stats",
-          "parsed": "Parsed",
+          "stats": "İstatistik",
+          "parsed": "Ayrıştırıldı",
           "gzip": "Gzip",
-          "help": "<b>Stats:</b> size from webpack stats data.<br><b>Parsed:</b> size from extracted source (after minification plugins). More accurate.<br><b>Gzip:</b> size of gzipped extracted source."
+          "help": "<b>İstatistik:</b> webpack istatistik verilerinden boyut. <br> </b>Ayrıştırıldı:</b> çıkarılan kaynaktan boyut (eklentiler küçültüldükten sonra). Daha kesin.<br><b>Gzip:</b>gzipli çıkartılmış kaynağın boyutu."
         },
-        "modern-mode": "Show modern build",
+        "modern-mode": "En yeni yapıyı göster",
         "tasks": {
           "serve": {
             "description": "Geliştirme için derleme ve yeniden yükleme",
@@ -553,7 +553,7 @@
             "mode": "Env modunu belirt",
             "dest": "Çıktı dizini",
             "target": {
-              "description": "Build target",
+              "description": "Hedefi oluştur.",
               "app": "Web uygulaması",
               "lib": "Kütüphane",
               "wc": "Web bileşeni",
@@ -562,8 +562,8 @@
             "name": "Name for library or web-component mode (default: 'name' in package.json or entry filename)",
             "watch": "Değişiklikleri izle",
             "modern": {
-              "label": "Modern mode",
-              "description": "Build app targeting modern browsers with auto fallback"
+              "label": "Modern mod",
+              "description": "Otomatik geri dönüşlü tarayıcıları hedefleyerek uygulamayı oluştur"
             }
           },
           "inspect": {
@@ -580,47 +580,51 @@
               "css": "CSS ayarları"
             },
             "baseUrl": {
-              "label": "Base URL",
+              "label": "Temel URL",
+              "description": "Uygulamanızın dağıtılacağı temel URL, örneğin '/uygulamam/. Boş bir dize ('') kullanın, böylece tüm varlıklar göreceli yollar kullanılarak bağlanır."
+            },
+            "publicPath": {
+              "label": "Public Path",
               "description": "The base URL your application will be deployed at, for example '/my-app/'. Use an empty string ('') so that all assets are linked using relative paths."
             },
             "outputDir": {
               "label": "Çıktı dizini",
-              "description": "The directory where the production build files will be generated"
+              "description": "Üretim oluşturma dosyalarının oluşturulacağı dizin"
             },
             "assetsDir": {
-              "label": "Assets directory",
-              "description": "A directory to nest generated static assets (js, css, img, fonts) under."
+              "label": "Varlıklar dizini",
+              "description": "Altında oluşturulan statik varlıkları (js, css, img, fontlar) barındıran bir dizin."
             },
             "runtimeCompiler": {
-              "label": "Enable runtime compiler",
-              "description": "This will allow you to use the template option in Vue components, but will incur around an extra 10kb payload for your app."
+              "label": "Çalışma zamanı derleyicisini etkinleştir",
+              "description": "Bu, şablon seçeneğini Vue bileşenlerinde kullanmanıza olanak tanır, ancak uygulamanız için 10kB'lık fazladan bir yük sağlar."
             },
             "productionSourceMap": {
-              "label": "Enable Production Source Maps",
-              "description": "Disabling this can speed up production builds if you don't need source maps for production"
+              "label": "Üretim Kaynak Haritalarını etkinleştir",
+              "description": "Üretim için kaynak haritalarına ihtiyacınız yoksa bunu devre dışı bırakmak üretim yapılarını hızlandırabilir."
             },
             "parallel": {
-              "label": "Parallel compilation",
-              "description": "Whether to use multiple processors to compile Babel or Typescript."
+              "label": "Paralel derleme",
+              "description": "Babel ya da Typescript'i derlemek için birden fazla işlemci kullanılıp kullanılmayacağı"
             },
             "css": {
               "modules": {
-                "label": "Enable CSS Modules",
-                "description": "By default, only files that ends in *.module.[ext] are treated as CSS modules. Enabling this will treat all style files as CSS modules."
+                "label": "CSS Modüllerini etkinleştir",
+                "description": "Varsayılan olarak, sadece *.module.[ext] ile biten dosyalar CSS modülleri olarak ele alır. Bunu etkinleştirmek, tüm stil dosyalarını CSS modülleri olarak ele alacaktır."
               },
               "extract": {
-                "label": "Extract CSS",
-                "description": "Whether to extract CSS in your components into a standalone CSS files (instead of inlined in JavaScript and injected dynamically)."
+                "label": "CSS'i çıkar",
+                "description": "Bileşenlerinizdeki CSS'in bağımsız bir CSS dosyasına ayıklanıp ayıklanmayacağı (JavaScript'te satır içi ve dinamik olarak yerleştirmek yerine)"
               },
               "sourceMap": {
-                "label": "Enable CSS Source Maps",
-                "description": "Whether to enable source maps for CSS. Enabling this may affect build performance."
+                "label": "CSS Kaynak Haritasını etkinleştir.",
+                "description": "CSS için kaynak haritalarının etkinleştirilip etkinleştirilmeyeceği. Bunu etkinleştirmek, yapı performansını etkileyebilir."
               }
             }
           }
         },
         "suggestions": {
-          "vue-config-open": "Open vue config"
+          "vue-config-open": "Vue yapılandırmasını aç"
         }
       },
       "eslint": {
@@ -628,210 +632,210 @@
           "eslint": {
             "description": "Hata kontrolü & kod kalitesi",
             "groups": {
-              "base": "Base",
-              "essential": "Essential",
-              "strongly-recommended": "Strongly recommended",
-              "recommended": "Recommended",
-              "uncategorized": "Uncategorized"
+              "base": "Temel",
+              "essential": "Gerekli",
+              "strongly-recommended": "Şiddetle önerilen",
+              "recommended": "Önerilen",
+              "uncategorized": "Sınıflandırılmamış"
             },
             "setting": {
-              "off": "Off",
-              "error": "Error",
-              "warning": "Warning",
-              "custom": "Custom"
+              "off": "Kapalı",
+              "error": "Hata",
+              "warning": "Uyarı",
+              "custom": "Özel"
             },
             "general": {
-              "label": "General",
+              "label": "Genel",
               "lintOnSave": {
-                "message": "Lint on save",
-                "description": "Automatically lint source files when saved"
+                "message": "Kaydederken analiz et",
+                "description": "Kaydedildiğinde kaynak dosyalarını analiz et"
               },
               "config": {
-                "message": "Select config",
-                "description": "Select pre-defined configuration"
+                "message": "Yapılandırma seç",
+                "description": "Önceden tanımlanmış yapılandırmayı seç"
               }
             },
             "rules": {
-              "label": "Rules"
+              "label": "Kurallar"
             }
           }
         },
         "tasks": {
           "lint": {
-            "description": "Lints and fixes files",
-            "noFix": "Do not fix errors"
+            "description": "Dosyaları analiz edip düzeltir.",
+            "noFix": "Hataları düzeltme"
           }
         },
         "suggestions": {
           "open-eslintrc": {
-            "label": "Open eslintrc"
+            "label": "eslintrc'yi aç"
           }
         }
       },
       "pwa": {
         "config": {
           "pwa": {
-            "description": "Progressive Web App",
+            "description": "Aşamalı Web Uygulaması",
             "workboxPluginMode": {
-              "message": "Plugin mode",
-              "description": "This allows you to the choose between the two modes supported by the underlying `workbox-webpack-plugin`"
+              "message": "Eklenti modu",
+              "description": "Bu, 'workbox-webpack-plugin' tarafından desteklenen iki mod arasında seçim yapmanızı sağlar."
             },
             "name": {
-              "message": "App name",
-              "description": "App name displayed on the Splash screen and various other places. Also used as the value for the `apple-mobile-web-app-title` meta tag in the generated HTML."
+              "message": "Uygulama adı",
+              "description": "Başlangıç ekranında ve diğer çeşitli yerlerde gösterilen uygulama adı. Ayrıca oluşturulan HTML'de 'apple-mobile-web-app-title' meta etiketinin değeri olarak da kullanılır."
             },
             "themeColor": {
-              "message": "Theme color",
-              "description": "Color used to theme the browser"
+              "message": "Tema rengi",
+              "description": "Tarayıcıya tema vermek için kullanılan renk"
             },
             "backgroundColor": {
-              "message": "Splash background color",
-              "description": "Background color used for the app splash screen"
+              "message": "Başlangıç ekranı arka plan rengi",
+              "description": "Uygulama başlangıç ekranı için kullanılan arka plan rengi"
             },
             "msTileColor": {
-              "message": "Windows app tile color",
-              "description": "Color used for the app tile on Windows"
+              "message": "Windows uygulaması döşeme rengi",
+              "description": "Windows'ta uygulama döşeme için kullanılan renk"
             },
             "appleMobileWebAppStatusBarStyle": {
-              "message": "Apple mobile status bar style",
-              "description": "Style for the web app status bar on iOS"
+              "message": "Apple mobil durum çubuğu stili",
+              "description": "iOS'taki web uygulaması durum çubuğu için stili"
             }
           }
         },
         "suggestions": {
           "open-vue": {
-            "label": "Open vue config"
+            "label": "Vue yapılandırmasını aç"
           },
           "open-manifest": {
-            "label": "Open manifest"
+            "label": "Manifestoyu aç"
           }
         }
       },
       "cypress": {
         "tasks": {
           "test": {
-            "description": "Run e2e tests with `cypress run`",
-            "headless": "Run in headless mode without GUI",
-            "mode": "Specify the mode the dev server should run in",
-            "url": "Run e2e tests against given url instead of auto-starting dev server"
+            "description": "e2e testlerini `cypress run` ile çalıştır",
+            "headless": " GUI olmadan başsız modda çalıştır",
+            "mode": "Geliştirme sunucunun içinde çalışması gereken modunu belirtin.",
+            "url": "e2e testlerini otomatik çalışan geliştirme sunucusu yerine verilen adrese karşı çalıştır."
           }
         }
       },
       "nightwatch": {
         "tasks": {
           "test": {
-            "description": "Run e2e tests with nightwatch",
-            "url": "Run e2e tests against given url instead of auto-starting dev server",
-            "config": "Use custom nightwatch config file (overrides internals)",
-            "env": "Comma-delimited browser envs to run in"
+            "description": "e2e testlerini nightwatch ile çalıştır.",
+            "url": "e2e testlerini otomatik çalışan geliştirme sunucusu yerine verilen adrese karşı çalıştır.",
+            "config": "Özel nightwatch  yapılandırmasını kullan (dahilleri çiğner)",
+            "env": "İçinde çalıştırılacak virgülle ayrılmış tarayıcı zarfları "
           }
         }
       },
       "jest": {
         "tasks": {
           "test": {
-            "description": "Run unit tests with Jest",
-            "watch": "Watch files for changes and rerun tests related to changed files",
-            "notify": "Display a notification after each run",
-            "update": "Re-record every snapshot that fails during this test run"
+            "description": "Birim testlerini Jest ile çalıştır.",
+            "watch": "Değişikliklerle ilgili dosyaları izle ve değiştirilen dosyalarla ilgili testleri yeniden çalıştır",
+            "notify": "Her çalıştırmadan sonra bir bildirim görüntüle",
+            "update": "Bu test sırasında başarısız olan her anlık görüntüyü yeniden kaydet"
           }
         }
       },
       "mocha": {
         "tasks": {
           "test": {
-            "description": "Run unit tests with Mocha",
-            "watch": "Watch files for changes and rerun tests related to changed files"
+            "description": "Birim testlerini Mocha ile çalıştır.",
+            "watch": "Değişikliklerle ilgili dosyaları izle ve değiştirilen dosyalarla ilgili testleri yeniden çalıştır"
           }
         }
       },
       "widgets": {
         "welcome": {
-          "title": "Welcome tips",
-          "description": "Some tips to help you get started",
+          "title": "Karşılama ipuçları",
+          "description": "Başlamanıza yardımcı olacak bazı ipuçları",
           "content": {
-            "title": "Welcome to your new project!",
-            "tip1": "You are looking at the project dashboard where your can put widgets. Use the 'Customize' button to add more! Everything is automatically saved.",
-            "tip2": "On the left are the different available pages. 'Plugins' let you add new Vue CLI plugins, 'Dependencies' for managing the packages, 'Configuration' to configure the tools and 'Tasks' to run scripts (for example webpack).",
-            "tip3": "Return to the project manager with the dropdown at the top left of the screen or the home button in the status bar at the bottom.",
-            "ok": "Understood"
+            "title": "Yeni projenize hoş geldiniz!",
+            "tip1": "You are looking at the project dashboard where you can put widgets. Use the 'Customize' button to add more! Everything is automatically saved.",
+            "tip2": "Solda farklı kullanılabilir sayfalar var. 'Eklentiler' yeni Vue CLI eklentileri eklemenizi, 'Bağımlılıklar' paketleri yönetmenizi, 'Yapılandırma' araçları yapılandırmanızı ve 'Görevler' betikleri (örneğin webpack) çalıştırmanızı sağlar.",
+            "tip3": "Ekranın sol üstündeki açılır menü ile veya alt kısımdaki durum çubuğundaki ana düğme ile proje yöneticisine geri dön.",
+            "ok": "Anladım"
           }
         },
         "kill-port": {
-          "title": "Kill port",
-          "description": "Kill processes using a specific network port",
+          "title": "Bağlantı noktasını sonlandır",
+          "description": "Belirli bir ağ bağlantı noktasını kullanan işlemleri sonlandır",
           "input": {
-            "placeholder": "Enter a network port"
+            "placeholder": "Bir ağ bağlantı noktası girin"
           },
-          "kill": "Kill",
+          "kill": "Sonlandır",
           "status": {
-            "idle": "Ready to kill",
-            "killing": "Killing procress...",
-            "killed": "Killed successfully!",
-            "error": "Couldn't kill process"
+            "idle": "Sonlandırmaya hazır",
+            "killing": "İşlemler sonlandırılıyor...",
+            "killed": "Başarıyla sonlandırıldı!",
+            "error": "İşlem sonlandırılamadı"
           }
         },
         "status-widget": {
-          "last-updated": "Updated",
-          "never": "Not updated yet",
-          "check": "Check for updates",
-          "more-info": "More details"
+          "last-updated": "Güncellendi",
+          "never": "Henüz güncellenmedi",
+          "check": "Güncellemeleri kontrol et",
+          "more-info": "Daha fazla detay"
         },
         "plugin-updates": {
-          "title": "Plugin updates",
-          "description": "Monitor plugin updates",
+          "title": "Eklenti güncellemeleri",
+          "description": "Eklenti güncellemelerini görüntüle",
           "messages": {
-            "ok": "All plugins up-to-date",
-            "loading": "Checking for updates...",
-            "attention": "{n} plugin updates available"
+            "ok": "Tüm eklentiler güncel",
+            "loading": "Güncellemeler kontrol ediliyor...",
+            "attention": "{n} eklenti güncellemesi mevcut"
           },
-          "page": "Go to Plugins"
+          "page": "Eklentilere git"
         },
         "dependency-updates": {
-          "title": "Dependency updates",
-          "description": "Monitor dependencies updates",
+          "title": "Bağımlılık güncellemeleri",
+          "description": "Bağımlılık güncellemelerini görüntüle",
           "messages": {
-            "ok": "All dependencies up-to-date",
-            "loading": "Checking for updates...",
-            "attention": "{n} dependency updates available"
+            "ok": "Tüm bağımlılıklar güncel",
+            "loading": "Güncellemeler kontrol ediliyor...",
+            "attention": "{n} bağımlılık güncellemesi mevcut"
           },
-          "page": "Go to Dependencies"
+          "page": "Bağımlılıklara git"
         },
         "vulnerability": {
-          "title": "Vulnerability check",
-          "description": "Check for known vulnerabilities in your project dependencies",
+          "title": "Güvenlik açığı kontrolü",
+          "description": "Proje bağımlılarınızdaki bilinen güvenlik açıklarını kontrol edin",
           "messages": {
-            "ok": "No vulnerability found",
-            "loading": "Checking security reports...",
-            "attention": "{n} vulnerabilities found"
+            "ok": "Güvenlik açığı bulunamadı",
+            "loading": "Güvenlik raporları kontrol ediliyor...",
+            "attention": "{n} güvenlik açığı bulundu"
           },
           "severity": {
-            "high": "High severity",
-            "medium": "Medium severity",
-            "low": "Low severity"
+            "high": "Yüksek önem derecesi",
+            "medium": "Orta önem derecesi",
+            "low": "Düşük önem derecesi"
           },
-          "direct-dep": "Direct dependency"
+          "direct-dep": "Doğrudan bağımlılık"
         },
         "run-task": {
-          "title": "Run task",
-          "description": "Shortcut to run a task",
+          "title": "Görevi çalıştır",
+          "description": "Bir görevi çalıştırmak için kısayol",
           "prompts": {
-            "task": "Select a task"
+            "task": "Bir görev seç"
           },
-          "page": "Go to Task"
+          "page": "Göreve Git"
         },
         "news": {
-          "title": "News feed",
-          "description": "Read news feed",
-          "refresh": "Force refresh",
-          "select-tip": "Select an item on the left",
+          "title": "Haber beslemesi",
+          "description": "Haber beslemesini oku",
+          "refresh": "Yenilemeyi zorla",
+          "select-tip": "Soldaki bir öğeyi seçin",
           "prompts": {
-            "url": "RSS feed URL or GitHub repository"
+            "url": "RSS besleme URL'si ya da GitHub deposu"
           },
           "errors": {
-            "fetch": "Couldn't fetch feed",
-            "offline": "You are offline",
-            "empty": "Empty feed"
+            "fetch": "Besleme getirilemedi",
+            "offline": "Çevrimdışısınız",
+            "empty": "Boş besleme"
           }
         }
       }

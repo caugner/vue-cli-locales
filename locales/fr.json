@@ -116,7 +116,7 @@
           "installed": "Installé",
           "actions": {
             "update": "Mettre à jour {target}",
-            "refresh": "Force Refresh {target}<br><i>Press [Shift] for Quick Refresh (node_modules won't be updated)</i>"
+            "refresh": "Forcer le rafraîchissement pour {target}<br><i>Appuyez sur [Shift] pour un Rafraîchissement Rapide (node_modules ne sera pas mis à jour)"
           },
           "local": "Local"
         },
@@ -472,7 +472,7 @@
         "about": {
           "title": "A propos",
           "description": "<a href=\"https://github.com/vuejs/vue-cli/tree/dev/packages/%40vue/cli-ui\" target=\"_blank\">@vue/cli-ui</a> est un paquet inclus dans @vue/cli qui affiche une interface graphique.",
-          "quote": "Vue-cli 3.x is a complete rewrite, with a lot of new awesome features. You will be able to select features like routing, Vuex or Typescript, then add and upgrade building blocks called \"vue-cli plugins\". But having so much more options also means the tool is now more complex and harder to start using. That's why we thought having a full-blown GUI would help discover the new features, search and install vue-cli plugins and unlock more possibilities overall while not being limited by a terminal interface. To sum up, vue-cli will not only allow you to bootstrap a new project easily, but it will also remain useful for ongoing work afterwards!",
+          "quote": "Vue-cli 3.x est une réécriture complète, avec un grand nombre de nouvelles fonctionnalités. Il est possible de sélectionner des fonctionnalités comme du routage, Vuex ou Typescript, ainsi que d'ajouter et maintenir à jour des blocs de construction appelés \"plugins vue-cli\". Mais avoir autant d'options veut aussi dire que l'outil est désormais plus complexe et difficile à apprendre à maîtriser. C'est pourquoi nous avons pensé qu'avoir une nouvelle interface graphique (GUI) complète devrait aider à découvrir ces nouvelles fonctionnalités, rechercher et installer des plugins vue-cli, et plus globalement ouvrir à de nouvelles possibilités sans être limité par une interface de terminal. Pour résumer, vue-cli ne vous permettra pas seulement de démarrer a un nouveau projet facilement, il restera tout aussi utile pour la suite du travail sur celui-ci!",
           "links": "Liens utiles",
           "back": "Retour"
         }
@@ -559,7 +559,7 @@
               "wc": "Composant web",
               "wc-async": "Composant web asynchrone"
             },
-            "name": "Name for library or web-component mode (default: 'name' in package.json or entry filename)",
+            "name": "Nom d'une librairie ou d'un composant web (par défaut: 'name' dans package.json ou nom de fichier d'entrée)",
             "watch": "Observer les changements",
             "modern": {
               "label": "Mode moderne",
@@ -581,11 +581,15 @@
             },
             "baseUrl": {
               "label": "URL de base",
-              "description": "The base URL your application will be deployed at, for example '/my-app/'. Use an empty string ('') so that all assets are linked using relative paths."
+              "description": "L'URL de base où sera déployée votre application, comme par exemple '/my-app/'. Utilisez une chaîne vide ('') pour que tous les assets soient liés via des chemins relatifs."
+            },
+            "publicPath": {
+              "label": "Chemin public",
+              "description": "L'url de base de votre application sera déployée dans, par exemple, '/my-app/'. Utilisez une chaine vide ('') pour que tous les assets soient liés en utilisant des chemins relatifs."
             },
             "outputDir": {
               "label": "Dossier de sortie",
-              "description": "The directory where the production build files will be generated"
+              "description": "Le dossier où les fichiers du build de production seront générés"
             },
             "assetsDir": {
               "label": "Dossier des ressources",
@@ -593,34 +597,34 @@
             },
             "runtimeCompiler": {
               "label": "Activer le compilateur runtime",
-              "description": "This will allow you to use the template option in Vue components, but will incur around an extra 10kb payload for your app."
+              "description": "Cela vous permettra d'utiliser les templates dans les composants Vue, mais entraînera un surcoût d'environ 10kb dans le poids de votre application."
             },
             "productionSourceMap": {
-              "label": "Enable Production Source Maps",
-              "description": "Disabling this can speed up production builds if you don't need source maps for production"
+              "label": "Activer la production de Source Maps",
+              "description": "Désactiver ceci peut améliorer la vitesse de compilation en production si vous n'avez pas besoin de source maps en production."
             },
             "parallel": {
-              "label": "Parallel compilation",
-              "description": "Whether to use multiple processors to compile Babel or Typescript."
+              "label": "Compilation en parallèle",
+              "description": "Utiliser plusieurs processeurs pour compiler Babel ou Typescript."
             },
             "css": {
               "modules": {
-                "label": "Enable CSS Modules",
-                "description": "By default, only files that ends in *.module.[ext] are treated as CSS modules. Enabling this will treat all style files as CSS modules."
+                "label": "Activer des Modules CSS",
+                "description": "Par défaut, seuls les fichiers terminant par *.module.[ext] sont considérés comme des modules CSS. En activant ceci, tous les fichiers de style seront considérés comme des modules CSS."
               },
               "extract": {
-                "label": "Extract CSS",
+                "label": "Extraire le CSS",
                 "description": "Whether to extract CSS in your components into a standalone CSS files (instead of inlined in JavaScript and injected dynamically)."
               },
               "sourceMap": {
-                "label": "Enable CSS Source Maps",
-                "description": "Whether to enable source maps for CSS. Enabling this may affect build performance."
+                "label": "Activer les Source Maps CSS",
+                "description": "Activer les source maps CSS. Activer ceci peut affecter la performance de la compilation."
               }
             }
           }
         },
         "suggestions": {
-          "vue-config-open": "Open vue config"
+          "vue-config-open": "Ouvrir la configuration de vue"
         }
       },
       "eslint": {
@@ -629,42 +633,42 @@
             "description": "Vérification des erreurs & Qualité du code",
             "groups": {
               "base": "Base",
-              "essential": "Essential",
+              "essential": "Essentiel",
               "strongly-recommended": "Fortement recommandé",
               "recommended": "Recommandé",
-              "uncategorized": "Uncategorized"
+              "uncategorized": "Non catégorisé"
             },
             "setting": {
               "off": "Off",
-              "error": "Error",
-              "warning": "Warning",
-              "custom": "Custom"
+              "error": "Erreur",
+              "warning": "Avertissement",
+              "custom": "Personnalisé"
             },
             "general": {
-              "label": "General",
+              "label": "Général",
               "lintOnSave": {
                 "message": "Lint on save",
                 "description": "Automatically lint source files when saved"
               },
               "config": {
-                "message": "Select config",
-                "description": "Select pre-defined configuration"
+                "message": "Sélectionner la configuration",
+                "description": "Sélectionnez la configuration prédéfinie"
               }
             },
             "rules": {
-              "label": "Rules"
+              "label": "Règles"
             }
           }
         },
         "tasks": {
           "lint": {
             "description": "Lints and fixes files",
-            "noFix": "Do not fix errors"
+            "noFix": "Ne pas corriger les erreurs"
           }
         },
         "suggestions": {
           "open-eslintrc": {
-            "label": "Open eslintrc"
+            "label": "Ouvrir eslintrc"
           }
         }
       },
@@ -751,7 +755,7 @@
           "description": "Quelques astuces pour commencer",
           "content": {
             "title": "Bienvenue dans votre nouveau projet!",
-            "tip1": "Ce que vous voyez actuellement est le tableau de bord de votre projet où vous pouvez disposer des widgets. Utilisez le bouton 'Personnaliser' pour en ajouter! Tout est automatiquement sauvegardé.",
+            "tip1": "You are looking at the project dashboard where you can put widgets. Use the 'Customize' button to add more! Everything is automatically saved.",
             "tip2": "Sur la gauche se trouvent les différentes pages. 'Plugins' pour permet d'ajouter des plugins Vue CLI, 'Dépendances' pour gérer les paquets, 'Configurations' pour configurer les outils de développement et 'Tâches' pour lancer des scripts (par exemple webpack).",
             "tip3": "Retournez au gestionnaire de projets avec le menu déroulant en haut à gauche ou le bouton accueil dans la barre de statut en bas.",
             "ok": "Compris"
@@ -772,45 +776,45 @@
           }
         },
         "status-widget": {
-          "last-updated": "Updated",
-          "never": "Not updated yet",
-          "check": "Check for updates",
-          "more-info": "More details"
+          "last-updated": "Mis à jour",
+          "never": "Pas encore mis à jour",
+          "check": "Chercher des mises à jour",
+          "more-info": "Plus de détails"
         },
         "plugin-updates": {
-          "title": "Plugin updates",
+          "title": "Mises à jour des plugins",
           "description": "Monitor plugin updates",
           "messages": {
             "ok": "All plugins up-to-date",
-            "loading": "Checking for updates...",
-            "attention": "{n} plugin updates available"
+            "loading": "Recherche de mises à jour...",
+            "attention": "{n} mises à jour de plugins disponibles"
           },
-          "page": "Go to Plugins"
+          "page": "Voir les plugins"
         },
         "dependency-updates": {
-          "title": "Dependency updates",
-          "description": "Monitor dependencies updates",
+          "title": "Mises à jour de dépendances",
+          "description": "Vérifier les nouvelles versions de dépendances",
           "messages": {
-            "ok": "All dependencies up-to-date",
-            "loading": "Checking for updates...",
-            "attention": "{n} dependency updates available"
+            "ok": "Toutes les dépendances sont à jour",
+            "loading": "Recherche de mises à jour...",
+            "attention": "{n} mises à jour de dépendances disponibles"
           },
-          "page": "Go to Dependencies"
+          "page": "Voir les dépendances"
         },
         "vulnerability": {
-          "title": "Vulnerability check",
-          "description": "Check for known vulnerabilities in your project dependencies",
+          "title": "Vérification des vulnérabilités",
+          "description": "Rechercher des vulnérabilités connues dans votre projet et ses dépendances",
           "messages": {
-            "ok": "No vulnerability found",
-            "loading": "Checking security reports...",
-            "attention": "{n} vulnerabilities found"
+            "ok": "Pas de vulnérabilité trouvée",
+            "loading": "Vérification des rapports de sécurité...",
+            "attention": "{n} vulnérabilités trouvées"
           },
           "severity": {
-            "high": "High severity",
-            "medium": "Medium severity",
-            "low": "Low severity"
+            "high": "Sévérité élevée",
+            "medium": "Sévérité moyenne",
+            "low": "Sévérité faible"
           },
-          "direct-dep": "Direct dependency"
+          "direct-dep": "Dépendance directe"
         },
         "run-task": {
           "title": "Lancer la tâche",

@@ -2,14 +2,14 @@
   "org": {
     "vue": {
       "common": {
-        "close": "Close",
-        "back": "Go back",
-        "more-info": "More info"
+        "close": "Lukk",
+        "back": "Gå tilbake",
+        "more-info": "Mer info"
       },
       "components": {
         "client-addon-component": {
-          "timeout": "Component load timeout",
-          "timeout-info": "The custom component takes too much time to load, there might be an error"
+          "timeout": "Komponenten fikk et tidsavbrudd under innlastning",
+          "timeout-info": "Den tilpassede modulen tar for lang tid å laste, det er kanskje en feil"
         },
         "connection-status": {
           "disconnected": "Mistet kontakt med UI-serveren",
@@ -75,7 +75,7 @@
         },
         "logger-view": {
           "title": "Logg",
-          "empty": "No logs yet",
+          "empty": "Ingen logghistorikk ennå",
           "buttons": {
             "clear": "Tøm logg",
             "scroll": "Scroll til bunnen",
@@ -87,7 +87,7 @@
         },
         "project-nav": {
           "tooltips": {
-            "dashboard": "Dashboard",
+            "dashboard": "Instrumentpanel",
             "plugins": "Plugins",
             "dependencies": "Dependencies",
             "configuration": "Konfigurasjon",
@@ -105,7 +105,7 @@
         "project-select-list-item": {
           "tooltips": {
             "favorite": "Toggle favoritt",
-            "delete": "Slett",
+            "delete": "Fjern fra listen",
             "open-in-editor": "Åpne i editoren"
           }
         },
@@ -116,9 +116,9 @@
           "installed": "Installert",
           "actions": {
             "update": "Oppdater {target}",
-            "refresh": "Force Refresh {target}<br><i>Press [Shift] for Quick Refresh (node_modules won't be updated)</i>"
+            "refresh": "Tving oppdatering av {target} <br><i>Trykk på [Shift] for rask oppdatering (node_modules vil ikke bli oppdatert) </i>"
           },
-          "local": "Local"
+          "local": "Lokal"
         },
         "project-dependency-item": {
           "version": "versjon",
@@ -144,7 +144,7 @@
         },
         "status-bar": {
           "project": {
-            "tooltip": "Gjeldende prosjekt<br><i>Trykk for å toggle prosjektmanageren</i>",
+            "tooltip": "Trykk for å toggle prosjektmanageren",
             "empty": "Ingen prosjekter"
           },
           "path": {
@@ -188,21 +188,21 @@
           }
         },
         "widget": {
-          "remove": "Remove widget",
-          "configure": "Configure widget",
-          "save": "Save",
-          "reset-config": "Reset config",
-          "open-details": "Show more"
+          "remove": "Fjern modul",
+          "configure": "Konfigurer modul",
+          "save": "Lagre",
+          "reset-config": "Tilbakestill konfigurasjon",
+          "open-details": "Vis mer"
         },
         "widget-add-pane": {
-          "title": "Add widgets"
+          "title": "Legg til moduler"
         },
         "widget-add-item": {
-          "add": "Add widget",
+          "add": "Legg til modul",
           "details": {
-            "title": "Widget details",
-            "max-instances": "Max instance count: {count}/{total}",
-            "unlimited": "unlimited"
+            "title": "Moduldetaljer",
+            "max-instances": "Maks antall instanser: {count}/{total}",
+            "unlimited": "ubegrenset"
           }
         }
       },
@@ -256,7 +256,7 @@
               "message": "Dette prosjektet mangler 'node_modules'-mappen. Kontroller at du har installert dependencies før du importerer prosjektet.",
               "close": "Forstått"
             },
-            "force": "Import anyway"
+            "force": "Importer uansett"
           }
         },
         "project-create": {
@@ -293,7 +293,7 @@
                 "title": "Avbryt og nullstill prosjektopprettingen",
                 "body": "Er du sikker på at du vil avslutte og nullstille prosjektopprettingen?",
                 "buttons": {
-                  "back": "Go tilbake",
+                  "back": "Gå tilbake",
                   "clear": "Tilbakestill prosjektet"
                 }
               }
@@ -323,7 +323,7 @@
                   "subtitle": "Git repo, for eksempel 'brukernavn/repo'. Du kan også skrive 'gitlab:' eller 'bitbucket:' foran."
                 },
                 "options": "Andre muligheter",
-                "clone": "Clone/Private repository",
+                "clone": "Klone/privat repository",
                 "cancel": "Avbryt",
                 "done": "Ferdig"
               },
@@ -406,13 +406,13 @@
             }
           },
           "buttons": {
-            "add-local": "Browse local plugin"
+            "add-local": "Bla gjennom lokal plugin"
           }
         },
         "project-plugin-add-local": {
-          "title": "Add a local plugin",
+          "title": "Legg til en lokal plugin",
           "buttons": {
-            "add": "Add local plugin"
+            "add": "Legg til lokal plugin"
           }
         },
         "project-configurations": {
@@ -434,7 +434,7 @@
             "play": "Start oppgave",
             "stop": "Stopp oppgave",
             "close": "Lukk",
-            "save": "Save"
+            "save": "Lagre"
           },
           "command": "Script-kommando",
           "parameters": "Parametere",
@@ -462,12 +462,12 @@
           }
         },
         "project-dashboard": {
-          "title": "Project dashboard",
-          "cutomize": "Customize",
-          "done": "Done"
+          "title": "Prosjektinstrumentpanel",
+          "cutomize": "Tilpass",
+          "done": "Ferdig"
         },
         "settings": {
-          "title": "Settings"
+          "title": "Innstillinger"
         },
         "about": {
           "title": "Om",
@@ -563,7 +563,7 @@
             "watch": "Se etter endringer",
             "modern": {
               "label": "Modern-modus",
-              "description": "Lag en app som er rettet mot nettlesere med auto-fallback"
+              "description": "Lag en app som er rettet mot moderne nettlesere med auto-fallback"
             }
           },
           "inspect": {
@@ -582,6 +582,10 @@
             "baseUrl": {
               "label": "URL-utgangspunkt",
               "description": "URL-utgangspunktet som applikasjonen din vil bli deployed fra, for eksempel '/my-app/'. Bruk en tom string ('') slik at alle ressurser kan lenkes til med relative filbaner."
+            },
+            "publicPath": {
+              "label": "Public Path",
+              "description": "The base URL your application will be deployed at, for example '/my-app/'. Use an empty string ('') so that all assets are linked using relative paths."
             },
             "outputDir": {
               "label": "Utgangskatalog",
@@ -747,91 +751,91 @@
       },
       "widgets": {
         "welcome": {
-          "title": "Welcome tips",
-          "description": "Some tips to help you get started",
+          "title": "Velkomsttips",
+          "description": "Noen tips for å hjelpe deg å komme i gang",
           "content": {
-            "title": "Welcome to your new project!",
-            "tip1": "You are looking at the project dashboard where your can put widgets. Use the 'Customize' button to add more! Everything is automatically saved.",
-            "tip2": "On the left are the different available pages. 'Plugins' let you add new Vue CLI plugins, 'Dependencies' for managing the packages, 'Configuration' to configure the tools and 'Tasks' to run scripts (for example webpack).",
-            "tip3": "Return to the project manager with the dropdown at the top left of the screen or the home button in the status bar at the bottom.",
-            "ok": "Understood"
+            "title": "Velkommen til ditt nye prosjekt!",
+            "tip1": "You are looking at the project dashboard where you can put widgets. Use the 'Customize' button to add more! Everything is automatically saved.",
+            "tip2": "Til venstre finner du de forskjellige sidene som er tilgjengelige. Under 'Plugins' kan du legge til nye Vue CLI plugins, under 'Dependencies' kan du administrere pakkene dine, under 'Konfigurasjon' konfigurerer du verktøyene dine og under 'Oppgaver' kan du kjøre scripts (for eksempel webpack).",
+            "tip3": "Gå tilbake til prosjektmanageren med rullegardinmenyen i øvre venstre hjørne eller klikk på hjem-knappen i statusbaren nederst på skjermen.",
+            "ok": "Forstått"
           }
         },
         "kill-port": {
-          "title": "Kill port",
-          "description": "Kill processes using a specific network port",
+          "title": "Steng port",
+          "description": "Avslutt prosesser som bruker en spesfikk nettverksport",
           "input": {
-            "placeholder": "Enter a network port"
+            "placeholder": "Skriv inn en nettverksport"
           },
-          "kill": "Kill",
+          "kill": "Steng",
           "status": {
-            "idle": "Ready to kill",
-            "killing": "Killing procress...",
-            "killed": "Killed successfully!",
-            "error": "Couldn't kill process"
+            "idle": "Klar til å avslutte",
+            "killing": "Avslutter prosess",
+            "killed": "Vellykket avsluttning",
+            "error": "Kunne ikke avslutte prosess"
           }
         },
         "status-widget": {
-          "last-updated": "Updated",
-          "never": "Not updated yet",
-          "check": "Check for updates",
-          "more-info": "More details"
+          "last-updated": "Oppdatert",
+          "never": "Ikke oppdatert ennå",
+          "check": "Se etter oppdateringer",
+          "more-info": "Mer detaljer"
         },
         "plugin-updates": {
-          "title": "Plugin updates",
-          "description": "Monitor plugin updates",
+          "title": "Plugin-oppdateringer",
+          "description": "Overvåk plugin-oppdateringer",
           "messages": {
-            "ok": "All plugins up-to-date",
-            "loading": "Checking for updates...",
-            "attention": "{n} plugin updates available"
+            "ok": "Alle plugins er oppdaterte til siste versjon",
+            "loading": "Ser etter oppdateringer...",
+            "attention": "{n} plugin-oppdateringer tilgjengelig"
           },
-          "page": "Go to Plugins"
+          "page": "Gå til plugins"
         },
         "dependency-updates": {
-          "title": "Dependency updates",
-          "description": "Monitor dependencies updates",
+          "title": "Dependency-oppdateringer",
+          "description": "Overvåk dependencies-oppdateringer",
           "messages": {
-            "ok": "All dependencies up-to-date",
-            "loading": "Checking for updates...",
-            "attention": "{n} dependency updates available"
+            "ok": "Alle dependencies er oppdaterte til siste versjon",
+            "loading": "Ser etter oppdateringer...",
+            "attention": "{n} dependency-oppdateringer tilgjengelig"
           },
-          "page": "Go to Dependencies"
+          "page": "Gå til dependencies"
         },
         "vulnerability": {
-          "title": "Vulnerability check",
-          "description": "Check for known vulnerabilities in your project dependencies",
+          "title": "Sårbarhetssjekk",
+          "description": "Se etter kjente sårbarheter i ditt prosjekts dependencies",
           "messages": {
-            "ok": "No vulnerability found",
-            "loading": "Checking security reports...",
-            "attention": "{n} vulnerabilities found"
+            "ok": "Ingen sårbarhet funnet",
+            "loading": "Kontrollerer sikkerhetsrapporter",
+            "attention": "{n} sårbarheter funnet"
           },
           "severity": {
-            "high": "High severity",
-            "medium": "Medium severity",
-            "low": "Low severity"
+            "high": "Høy alvorlighetsgrad",
+            "medium": "Medium alvorlighetsgrad",
+            "low": "Lav alvorlighetsgrad"
           },
-          "direct-dep": "Direct dependency"
+          "direct-dep": "Direkte dependency"
         },
         "run-task": {
-          "title": "Run task",
-          "description": "Shortcut to run a task",
+          "title": "Kjør oppgave",
+          "description": "Snarvei til å kjøre en oppgave",
           "prompts": {
-            "task": "Select a task"
+            "task": "Velg en oppgave"
           },
-          "page": "Go to Task"
+          "page": "Gå til oppgave"
         },
         "news": {
-          "title": "News feed",
-          "description": "Read news feed",
-          "refresh": "Force refresh",
-          "select-tip": "Select an item on the left",
+          "title": "Nyhetsstrøm",
+          "description": "Les nyhetsstrøm",
+          "refresh": "Tving oppdatering",
+          "select-tip": "Velg et element på venstre side",
           "prompts": {
-            "url": "RSS feed URL or GitHub repository"
+            "url": "RSS nyhetsstrøm URL eller GitHub oppbevaringssted"
           },
           "errors": {
-            "fetch": "Couldn't fetch feed",
-            "offline": "You are offline",
-            "empty": "Empty feed"
+            "fetch": "Kunne ikke hente nyhetsstrøm",
+            "offline": "Du er frakoblet",
+            "empty": "Tom nyhetsstrøm"
           }
         }
       }

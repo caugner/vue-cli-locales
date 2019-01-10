@@ -8,7 +8,7 @@
       },
       "components": {
         "client-addon-component": {
-          "timeout": "Tiempo de carga del component excedido",
+          "timeout": "Tiempo de carga del componente excedido",
           "timeout-info": "El component personalizado está tomando demaciado tiempo en cargar, puede que un error haya ocurrido"
         },
         "connection-status": {
@@ -87,7 +87,7 @@
         },
         "project-nav": {
           "tooltips": {
-            "dashboard": "Dashboard",
+            "dashboard": "Panel de control",
             "plugins": "Complementos",
             "dependencies": "Dependencias",
             "configuration": "Configuración",
@@ -174,9 +174,9 @@
         },
         "top-bar": {
           "no-favorites": "No hay proyectos favoritos",
-          "favorite-projects": "Favorite projects",
-          "recent-projects": "Recent projects",
-          "homepage": "Home page"
+          "favorite-projects": "Proyectos Favoritos",
+          "recent-projects": "Proyectos Recientes",
+          "homepage": "Página de Inicio"
         },
         "view-badge": {
           "labels": {
@@ -190,9 +190,9 @@
         "widget": {
           "remove": "Remove widget",
           "configure": "Configure widget",
-          "save": "Save",
-          "reset-config": "Reset config",
-          "open-details": "Show more"
+          "save": "Guardar",
+          "reset-config": "Restablecer Configuración",
+          "open-details": "Mostrar Más"
         },
         "widget-add-pane": {
           "title": "Add widgets"
@@ -202,7 +202,7 @@
           "details": {
             "title": "Widget details",
             "max-instances": "Max instance count: {count}/{total}",
-            "unlimited": "unlimited"
+            "unlimited": "ilimitado"
           }
         }
       },
@@ -254,7 +254,7 @@
             "no-modules": {
               "title": "Missing modules",
               "message": "It seems the project is missing the 'node_modules' folder. Please check you installed the dependencies before importing.",
-              "close": "Got it"
+              "close": "Entendido"
             },
             "force": "Import anyway"
           }
@@ -270,8 +270,8 @@
                   "placeholder": "my-app",
                   "tooltip": "Cambiar directorio del proyecto",
                   "action": "Seleccionar este directorio",
-                  "folder-exists": "This folder already exists",
-                  "folder-name-invalid": "Folder name invalid"
+                  "folder-exists": "Esta carpeta ya existe",
+                  "folder-name-invalid": "Nombre de carpeta inválido"
                 },
                 "manager": {
                   "label": "Gestor de paquetes",
@@ -322,10 +322,10 @@
                   "title": "Preset URL",
                   "subtitle": "Git repo, for example 'username/repo'. You can also prefix with 'gitlab:' or 'bitbucket:'."
                 },
-                "options": "Other options",
+                "options": "Otras opciones",
                 "clone": "Clone/Private repository",
-                "cancel": "Cancel",
-                "done": "Done"
+                "cancel": "Cancelar",
+                "done": "Listo"
               },
               "default-preset": "Preset por defecto"
             },
@@ -381,7 +381,7 @@
               "buttons": {
                 "cancel": "Cancelar",
                 "install": "Instalar {target}",
-                "default-install": "Install"
+                "default-install": "Instalar"
               }
             },
             "configuration": {
@@ -423,7 +423,7 @@
             "cancel": "Cancelar",
             "save": "Guardar cambios",
             "more-info": "Más información",
-            "refresh": "Refresh"
+            "refresh": "Actualizar"
           }
         },
         "project-tasks": {
@@ -434,7 +434,7 @@
             "play": "Ejecutar tarea",
             "stop": "Detener tarea",
             "close": "Cerrar",
-            "save": "Save"
+            "save": "Guardar"
           },
           "command": "Comandos de Script",
           "parameters": "Parámetros",
@@ -442,9 +442,9 @@
           "output": "Salida"
         },
         "project-dependencies": {
-          "title": "Project dependencies",
+          "title": "Dependencias del proyecto",
           "heading": {
-            "dependencies": "Main dependencies",
+            "dependencies": "Dependencias principales",
             "devDependencies": "Development dependencies"
           },
           "actions": {
@@ -464,10 +464,10 @@
         "project-dashboard": {
           "title": "Project dashboard",
           "cutomize": "Customize",
-          "done": "Done"
+          "done": "Listo"
         },
         "settings": {
-          "title": "Settings"
+          "title": "Configuración"
         },
         "about": {
           "title": "Acerca",
@@ -581,6 +581,10 @@
             },
             "baseUrl": {
               "label": "Base URL",
+              "description": "The base URL your application will be deployed at, for example '/my-app/'. Use an empty string ('') so that all assets are linked using relative paths."
+            },
+            "publicPath": {
+              "label": "Public Path",
               "description": "The base URL your application will be deployed at, for example '/my-app/'. Use an empty string ('') so that all assets are linked using relative paths."
             },
             "outputDir": {
@@ -751,7 +755,7 @@
           "description": "Some tips to help you get started",
           "content": {
             "title": "Welcome to your new project!",
-            "tip1": "You are looking at the project dashboard where your can put widgets. Use the 'Customize' button to add more! Everything is automatically saved.",
+            "tip1": "You are looking at the project dashboard where you can put widgets. Use the 'Customize' button to add more! Everything is automatically saved.",
             "tip2": "On the left are the different available pages. 'Plugins' let you add new Vue CLI plugins, 'Dependencies' for managing the packages, 'Configuration' to configure the tools and 'Tasks' to run scripts (for example webpack).",
             "tip3": "Return to the project manager with the dropdown at the top left of the screen or the home button in the status bar at the bottom.",
             "ok": "Understood"

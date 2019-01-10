@@ -52,11 +52,11 @@
               "parent-folder": "Übergeordnetes Verzeichnis öffnen",
               "edit-path": "Pfad bearbeiten",
               "favorite": "Lesezeichen umschalten",
-              "favorite-folders": "Lesezeichen",
+              "favorite-folders": "Lesezeichen-Ordner",
               "refresh": "Aktualisieren"
             },
-            "placeholder": "Gib einen vollständigen Ordnerpfad ein",
-            "empty": "Noch keine Lesezeichen.",
+            "placeholder": "Gib einen vollständigen Verzeichnispfad ein",
+            "empty": "Noch keine Lesezeichen-Ordner.",
             "show-hidden": "Versteckte Ordner anzeigen"
           },
           "new-folder": {
@@ -96,16 +96,16 @@
           }
         },
         "project-select-list": {
-          "empty": "Noch keine Projekte",
+          "empty": "Keine Projekte vorhanden",
           "titles": {
-            "favorite": "Favoriten-Projekte",
+            "favorite": "Lesezeichen-Projekte",
             "other": "Andere Projekte"
           }
         },
         "project-select-list-item": {
           "tooltips": {
-            "favorite": "Favorit umschalten",
-            "delete": "Löschen",
+            "favorite": "Lesezeichen umschalten",
+            "delete": "Aus Liste entfernen",
             "open-in-editor": "Im Editor öffnen"
           }
         },
@@ -156,7 +156,7 @@
           },
           "report-bug": "Fehler melden",
           "translate": "Übersetzung verbessern",
-          "dark-mode": "Dunkelmodus anschalten",
+          "dark-mode": "Dunkles Theme umschalten",
           "reset-plugin-api": "Plugin-API aktualisieren"
         },
         "suggestion-bar": {
@@ -173,8 +173,8 @@
           }
         },
         "top-bar": {
-          "no-favorites": "Noch keine Favoriten-Projekte",
-          "favorite-projects": "Lieblingsprojekte",
+          "no-favorites": "Noch keine Lesezeichen-Projekte",
+          "favorite-projects": "Lesezeichen-Projekte",
           "recent-projects": "Letzte Projekte",
           "homepage": "Startseite"
         },
@@ -252,7 +252,7 @@
           },
           "import": {
             "no-modules": {
-              "title": "Fehlendes Modul",
+              "title": "Fehlende Module",
               "message": "Es sieht so aus, als fehlt in deinem Projekt der 'node_modules' Ordner. Bitte prüfe vor dem Import, dass die Abhängigkeiten installiert hast.",
               "close": "Alles klar"
             },
@@ -401,7 +401,7 @@
             "body": "Möchtest du das Plugin {target} deinstallieren?",
             "buttons": {
               "back": "Gehe zurück",
-              "cancel": "Abbrechen ohne deinstallieren",
+              "cancel": "Abbrechen ohne Deinstallation",
               "uninstall": "Deinstallieren"
             }
           },
@@ -523,7 +523,7 @@
           },
           "asset-list": {
             "title": "Assets",
-            "size-warning": "Dieses Asset ist groß, erwäge es durch Code-Splitting in kleinere Assets aufzuspalten."
+            "size-warning": "Dieses Asset ist groß, du solltest die Verwendung von Code-Splitting in Betracht ziehen, um kleinere Assets zu erstellen."
           }
         },
         "analyzer": {
@@ -543,7 +543,7 @@
           "serve": {
             "description": "Kompiliert mit Hot-Reload für Entwicklungszwecke",
             "open": "Browser beim Server-Start öffnen",
-            "mode": "Umgebungsmodus auswählen",
+            "mode": "Umgebungsmodus festlegen",
             "host": "Host angeben",
             "port": "Port angeben",
             "https": "HTTPS verwenden"
@@ -581,7 +581,11 @@
             },
             "baseUrl": {
               "label": "Basis-URL",
-              "description": "Die Basis-URL deiner Anwendung, auf der diese eingerichtet wird, zum Beispiel '/my-app/'. Verwende einen leeren String (''), damit alle Assets mit relativen Pfaden verlinkt werden."
+              "description": "Die Basis-URL, unter der deine Anwendung bereitgestellt wird, zum Beispiel '/my-app/'. Verwende einen leeren String (''), wenn alle Assets mit relativen Pfaden verlinkt werden sollen."
+            },
+            "publicPath": {
+              "label": "Public Path",
+              "description": "The base URL your application will be deployed at, for example '/my-app/'. Use an empty string ('') so that all assets are linked using relative paths."
             },
             "outputDir": {
               "label": "Ausgabe-Verzeichnis",
@@ -589,7 +593,7 @@
             },
             "assetsDir": {
               "label": "Assets-Verzeichnis",
-              "description": "Ein Verzeichnis, um generierte statische Assets (js, css, img, fonts) verschachtelt abzulegen."
+              "description": "Ein Verzeichnis, in dem die generierten statischen Assets in Unterverzeichnissen (js, css, img, fonts) abgelegt werden."
             },
             "runtimeCompiler": {
               "label": "Laufzeit-Compiler aktivieren",
@@ -671,7 +675,7 @@
       "pwa": {
         "config": {
           "pwa": {
-            "description": "Progressive Web-App",
+            "description": "Progressive Web App",
             "workboxPluginMode": {
               "message": "Plugin-Modus",
               "description": "Dies erlaubt, eine der beiden Modi auszuwählen, die das verwendete `workbox-webpack-plugin` unterstützt"
@@ -751,7 +755,7 @@
           "description": "Ein paar Tipps für den Anfang",
           "content": {
             "title": "Willkommen in deinem neuen Projekt!",
-            "tip1": "Du schaust auf das Projekt-Dashboard, auf dem du Widgets platzieren kannst. Verwende die 'Anpassen'-Schaltfläche, um weitere hinzuzufügen! Alles wird automatisch gespeichert.",
+            "tip1": "You are looking at the project dashboard where you can put widgets. Use the 'Customize' button to add more! Everything is automatically saved.",
             "tip2": "Auf der linken Seite sind die verfügbaren Seiten. 'Plugins' ermöglicht es dir, neue Vue CLI-Plugins hinzuzufügen, 'Abhängigkeiten' die Pakete zu verwalten, 'Konfigurationen' um die Werkzeuge zu verwalten und 'Aufgaben' um Aufgaben auszuführen (zum Beispiel Webpack).",
             "tip3": "Gehe zurück zum Projekt-Manager über die Dropdown-Liste oben links oder über die Home-Schaltfläche in der Statusleiste unten.",
             "ok": "Verstanden"

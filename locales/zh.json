@@ -9,7 +9,7 @@
       "components": {
         "client-addon-component": {
           "timeout": "组件加载超时",
-          "timeout-info": "The custom component takes too much time to load, there might be an error"
+          "timeout-info": "这个自定义组件花了太多时间加载，可能是哪里出错了"
         },
         "connection-status": {
           "disconnected": "连接已断开",
@@ -116,7 +116,7 @@
           "installed": "已安装",
           "actions": {
             "update": "更新 {target}",
-            "refresh": "Force Refresh {target}<br><i>Press [Shift] for Quick Refresh (node_modules won't be updated)</i>"
+            "refresh": "强制刷新 {target}<br><i>按 [Shift] 快速刷新 (node_modules 不会更新)</i>"
           },
           "local": "Local"
         },
@@ -202,7 +202,7 @@
           "details": {
             "title": "部件细节",
             "max-instances": "最大实例数量：{count}/{total}",
-            "unlimited": "unlimited"
+            "unlimited": "不作限制"
           }
         }
       },
@@ -256,7 +256,7 @@
               "message": "此文件夹缺少 'node_modules'。请安装依赖后再尝试导入。",
               "close": "知道了"
             },
-            "force": "Import anyway"
+            "force": "仍然导入"
           }
         },
         "project-create": {
@@ -583,6 +583,10 @@
               "label": "Base URL",
               "description": "应用的部署地址，如 '/my-app/'。如果留空，所有资源将使用相对路径。"
             },
+            "publicPath": {
+              "label": "Public Path",
+              "description": "The base URL your application will be deployed at, for example '/my-app/'. Use an empty string ('') so that all assets are linked using relative paths."
+            },
             "outputDir": {
               "label": "输出目录",
               "description": "构建产生的文件将会生成在这里。"
@@ -751,7 +755,7 @@
           "description": "Some tips to help you get started",
           "content": {
             "title": "Welcome to your new project!",
-            "tip1": "You are looking at the project dashboard where your can put widgets. Use the 'Customize' button to add more! Everything is automatically saved.",
+            "tip1": "You are looking at the project dashboard where you can put widgets. Use the 'Customize' button to add more! Everything is automatically saved.",
             "tip2": "On the left are the different available pages. 'Plugins' let you add new Vue CLI plugins, 'Dependencies' for managing the packages, 'Configuration' to configure the tools and 'Tasks' to run scripts (for example webpack).",
             "tip3": "Return to the project manager with the dropdown at the top left of the screen or the home button in the status bar at the bottom.",
             "ok": "了解"

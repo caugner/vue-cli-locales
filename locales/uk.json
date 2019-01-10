@@ -2,836 +2,840 @@
   "org": {
     "vue": {
       "common": {
-        "close": "Close",
-        "back": "Go back",
-        "more-info": "More info"
+        "close": "Закрити",
+        "back": "Назад",
+        "more-info": "Детальніше"
       },
       "components": {
         "client-addon-component": {
-          "timeout": "Component load timeout",
-          "timeout-info": "The custom component takes too much time to load, there might be an error"
+          "timeout": "Затримка завантаження компонента",
+          "timeout-info": "Користувацький компонент надто довго завантажується, можливо сталась помилка"
         },
         "connection-status": {
-          "disconnected": "Disconnected from UI server",
-          "connected": "Connected!"
+          "disconnected": "Від'єднано від сервера інтерфейсу користувача",
+          "connected": "З'єднано!"
         },
         "file-diff": {
-          "binary": "Binary file not shown",
+          "binary": "Двійковий файл не відображається",
           "actions": {
-            "open": "Open in editor"
+            "open": "Відкрити у редакторі"
           }
         },
         "file-diff-view": {
-          "files-changed": "Files changed",
-          "search-file": "Search file",
-          "empty": "No change found",
-          "error": "Couldn't get file changes",
+          "files-changed": "Зміненні файли",
+          "search-file": "Пошук файлу",
+          "empty": "Змін не знайдено",
+          "error": "Не вдалося завантажити зміни файлу",
           "modals": {
             "commit": {
-              "title": "Commit changes",
-              "input": "Enter a commit message",
-              "subtitle": "Record changes to the repository",
+              "title": "Прийняти зміни",
+              "input": "Введіть повідомлення до змін",
+              "subtitle": "Записати зміни у  репозиторій",
               "actions": {
-                "commit": "Commit",
-                "cancel": "Cancel"
+                "commit": "Комміт",
+                "cancel": "Скасувати"
               }
             }
           },
           "actions": {
-            "collapse-all": "Collapse all",
-            "expand-all": "Expand all",
-            "commit": "Commit changes",
-            "skip": "Skip",
-            "continue": "Continue",
-            "refresh": "Refresh"
+            "collapse-all": "Згорнути все",
+            "expand-all": "Розгорнути все",
+            "commit": "Прийняти зміни",
+            "skip": "Пропустити",
+            "continue": "Продовжити",
+            "refresh": "Оновити"
           }
         },
         "folder-explorer": {
           "toolbar": {
             "tooltips": {
-              "parent-folder": "Open parent folder",
-              "edit-path": "Edit path",
-              "favorite": "Toggle favorite",
-              "favorite-folders": "Favorite folders",
-              "refresh": "Refresh"
+              "parent-folder": "Відкрити батьківську папку",
+              "edit-path": "Редагувати шлях",
+              "favorite": "Переключити улюблене",
+              "favorite-folders": "Улюблені папки",
+              "refresh": "Оновити"
             },
-            "placeholder": "Enter the full path to a folder",
-            "empty": "No favorite folders yet.",
-            "show-hidden": "Show hidden folders"
+            "placeholder": "Ввести повний шлях до папки",
+            "empty": "Улюблених папок ще немає",
+            "show-hidden": "Показати прихованні папки"
           },
           "new-folder": {
-            "action": "New folder",
-            "title": "Create new folder",
+            "action": "Нова папка",
+            "title": "Створити нову папку",
             "field": {
-              "title": "New folder",
-              "subtitle": "You can use the folder separator to create multiple nested folders at once."
+              "title": "Нова папка",
+              "subtitle": "Ви можете використовувати роздільник папок для створення декількох вкладених папок одночасно."
             },
-            "cancel": "Cancel",
-            "create": "Create"
+            "cancel": "Скасувати",
+            "create": "Створити"
           }
         },
         "list-item-info": {
-          "more-info": "More Info"
+          "more-info": "Детальніше"
         },
         "logger-view": {
-          "title": "Logs",
-          "empty": "No logs yet",
+          "title": "Журнали",
+          "empty": "Журналів ще немає",
           "buttons": {
-            "clear": "Clear logs",
-            "scroll": "Scroll to bottom",
-            "close": "Close"
+            "clear": "Очистити журнали",
+            "scroll": "Проскролити вниз",
+            "close": "Закрити"
           }
         },
         "progress-screen": {
-          "close": "Close"
+          "close": "Закрити"
         },
         "project-nav": {
           "tooltips": {
-            "dashboard": "Dashboard",
-            "plugins": "Plugins",
-            "dependencies": "Dependencies",
-            "configuration": "Configuration",
-            "tasks": "Tasks",
-            "more": "More"
+            "dashboard": "Панель керування",
+            "plugins": "Плагіни",
+            "dependencies": "Залежності",
+            "configuration": "Конфігурація",
+            "tasks": "Завдання",
+            "more": "Більше"
           }
         },
         "project-select-list": {
-          "empty": "No existing projects",
+          "empty": "Немає проектів",
           "titles": {
-            "favorite": "Favorite projects",
-            "other": "Other projects"
+            "favorite": "Улюблені проекти",
+            "other": "Інші проекти"
           }
         },
         "project-select-list-item": {
           "tooltips": {
-            "favorite": "Toggle favorite",
-            "delete": "Remove from list",
-            "open-in-editor": "Open in editor"
+            "favorite": "Переключити улюблене",
+            "delete": "Видалити з списку",
+            "open-in-editor": "Відкрити у редакторі"
           }
         },
         "project-plugin-item": {
-          "version": "version",
-          "latest": "latest",
-          "official": "Official",
-          "installed": "Installed",
+          "version": "версія",
+          "latest": "останній",
+          "official": "Офіційний",
+          "installed": "Встановлений",
           "actions": {
-            "update": "Update {target}",
-            "refresh": "Force Refresh {target}<br><i>Press [Shift] for Quick Refresh (node_modules won't be updated)</i>"
+            "update": "Оновити {target}",
+            "refresh": "Примусове оновлення {target} <br> <i>Нажміть [Shift] для швидкого оновлення (node_modules не буде оновлено) </i>"
           },
-          "local": "Local"
+          "local": "Локальний"
         },
         "project-dependency-item": {
-          "version": "version",
-          "wanted": "wanted",
-          "latest": "latest",
-          "installed": "Installed",
+          "version": "версія",
+          "wanted": "потрібний",
+          "latest": "останній",
+          "installed": "Встановлено",
           "actions": {
-            "update": "Update {target}",
-            "uninstall": "Uninstall {target}"
+            "update": "Оновити {target}",
+            "uninstall": "Видалити {target}"
           }
         },
         "project-tasks-dropdown": {
           "tooltips": {
-            "tasks": "Tasks",
-            "running-tasks": "{count} running task(s)"
+            "tasks": "Завдання",
+            "running-tasks": "{count} запущених завдань"
           }
         },
         "prompt-list": {
-          "default": "Default"
+          "default": "За замовчуванням"
         },
         "prompts-list": {
-          "empty": "No configuration"
+          "empty": "Немає конфігурації"
         },
         "status-bar": {
           "project": {
-            "tooltip": "Click to toggle Project Manager",
-            "empty": "No project open"
+            "tooltip": "Натисніть, щоб переключити менеджера проектів",
+            "empty": "Немає відкритих проектів"
           },
           "path": {
-            "tooltip": "Current Working Folder"
+            "tooltip": "Актуальна робоча папка"
           },
           "log": {
-            "tooltip": "Logs<br><i>Click to toggle Vue CLI logs</i>",
-            "empty": "No logs yet"
+            "tooltip": "Журнали<br><i>Натисніть, щоб переключити Vue CLI журнали ",
+            "empty": "Журналів немає"
           },
-          "report-bug": "Report bug",
-          "translate": "Help translate",
-          "dark-mode": "Toggle dark mode",
-          "reset-plugin-api": "Refresh plugins API"
+          "report-bug": "Повідомити про проблему",
+          "translate": "Допомогти з перекладом",
+          "dark-mode": "Перемкнути в темний режим",
+          "reset-plugin-api": "Оновити плагіни API"
         },
         "suggestion-bar": {
-          "suggestion": "Suggestion",
+          "suggestion": "Пропозиція",
           "modal": {
-            "cancel": "Cancel",
-            "continue": "Continue"
+            "cancel": "Скасувати",
+            "continue": "Продовжити"
           }
         },
         "terminal-view": {
           "buttons": {
-            "clear": "Clear console",
-            "scroll": "Scroll to bottom"
+            "clear": "Очистити консоль",
+            "scroll": "Проскролити вниз"
           }
         },
         "top-bar": {
-          "no-favorites": "No favorite projects",
-          "favorite-projects": "Favorite projects",
-          "recent-projects": "Recent projects",
-          "homepage": "Home page"
+          "no-favorites": "Немає улюблених проектів",
+          "favorite-projects": "Улюблені проекти",
+          "recent-projects": "Нещодавні проекти",
+          "homepage": "Головна сторінка"
         },
         "view-badge": {
           "labels": {
             "tasks": {
-              "error": "Error status",
-              "running": "Running status",
-              "done": "Done status"
+              "error": "Статус помилки",
+              "running": "Запущений статус",
+              "done": "Виконаний статус"
             }
           }
         },
         "widget": {
-          "remove": "Remove widget",
-          "configure": "Configure widget",
-          "save": "Save",
-          "reset-config": "Reset config",
-          "open-details": "Show more"
+          "remove": "Видалити віджет",
+          "configure": "Налаштувати віджет",
+          "save": "Зберегти",
+          "reset-config": "Скинути налаштування",
+          "open-details": "Показати більше"
         },
         "widget-add-pane": {
-          "title": "Add widgets"
+          "title": "Додати віджети"
         },
         "widget-add-item": {
-          "add": "Add widget",
+          "add": "Додати віджет",
           "details": {
-            "title": "Widget details",
-            "max-instances": "Max instance count: {count}/{total}",
-            "unlimited": "unlimited"
+            "title": "Деталі віджета",
+            "max-instances": "Максимальна кількість екземплярів: {count}/{total}",
+            "unlimited": "безлімітно"
           }
         }
       },
       "mixins": {
         "progress": {
-          "creating": "Creating project...",
-          "git-init": "Initializing git repository...",
-          "plugins-install": "Installing Vue CLI plugins. This might take a while...",
-          "invoking-generators": "Invoking generators...",
-          "deps-install": "Installing additional dependencies...",
-          "completion-hooks": "Running completion hooks...",
-          "fetch-remote-preset": "Fetching remote preset...",
-          "done": "Successfully created project",
-          "plugin-install": "Installing {arg0}...",
-          "plugin-uninstall": "Uninstalling {arg0}...",
-          "plugin-invoke": "Invoking {arg0}...",
-          "plugin-update": "Updating {arg0}...",
-          "plugins-update": "Updating {arg0} plugins...",
-          "dependency-install": "Installing {arg0}...",
-          "dependency-uninstall": "Uninstalling {arg0}...",
-          "dependency-update": "Updating {arg0}...",
-          "dependencies-update": "Updating {arg0} packages..."
+          "creating": "Створити проект...",
+          "git-init": "Ініціалізація репозиторія git...",
+          "plugins-install": "Встановлення Vue CLI плагінів. Це може зайняти якийсь час...",
+          "invoking-generators": "Викликаємо генератори...",
+          "deps-install": "Встановлення додаткових залежностей",
+          "completion-hooks": "Запускаємо хуки завершення",
+          "fetch-remote-preset": "Отримання віддаленого пресету...",
+          "done": "Проект успішно створений",
+          "plugin-install": "Встановлення {arg0}...",
+          "plugin-uninstall": "Видалення {arg0}...",
+          "plugin-invoke": "Викликаємо {arg0}...",
+          "plugin-update": "Оновлення {arg0}...",
+          "plugins-update": "Оновлення {arg0} плагінів...",
+          "dependency-install": "Встановлення {arg0}...",
+          "dependency-uninstall": "Видалення {arg0}...",
+          "dependency-update": "Оновлення {arg0}...",
+          "dependencies-update": "Оновлення {arg0} пакетів..."
         }
       },
       "types": {
         "task": {
           "status": {
-            "idle": "Idle",
-            "running": "Running",
-            "done": "Done",
-            "error": "Error",
-            "terminated": "Terminated"
+            "idle": "Невдача",
+            "running": "Запущено",
+            "done": "Виконано",
+            "error": "Помилка",
+            "terminated": "Припинено"
           }
         }
       },
       "views": {
         "project-select": {
-          "title": "Vue Project Manager",
+          "title": "Vue Проект Менеджер",
           "tabs": {
-            "projects": "Projects",
-            "create": "Create",
-            "import": "Import"
+            "projects": "Проекти",
+            "create": "Створити",
+            "import": "Імпорт"
           },
           "buttons": {
-            "create": "Create a new project here",
-            "import": "Import this folder"
+            "create": "Створити новий проект тут",
+            "import": "Імпортувати цю папку"
           },
           "import": {
             "no-modules": {
-              "title": "Missing modules",
-              "message": "It seems the project is missing the 'node_modules' folder. Please check you installed the dependencies before importing.",
-              "close": "Got it"
+              "title": "Відсутні модулі",
+              "message": "Це значить, що у проекті відсутня папка 'node_modules'. Будь ласка перевірте чи ви встановили залежність перед імпортом.",
+              "close": "Зрозуміло"
             },
-            "force": "Import anyway"
+            "force": "Імпорт у будь-якому випадку"
           }
         },
         "project-create": {
-          "title": "Create a new project",
+          "title": "Створити новий проект",
           "tabs": {
             "details": {
-              "title": "Details",
+              "title": "Деталі",
               "form": {
                 "folder": {
-                  "label": "Project folder",
-                  "placeholder": "Type a name",
-                  "tooltip": "Change base folder",
-                  "action": "Select this folder",
-                  "folder-exists": "This folder already exists",
-                  "folder-name-invalid": "Folder name invalid"
+                  "label": "Папка проекту",
+                  "placeholder": "Введіть назву",
+                  "tooltip": "Змінити базову папку",
+                  "action": "Вибрати цю папку",
+                  "folder-exists": "Ця папка вже зайнята",
+                  "folder-name-invalid": "Ім'я папки недійсне"
                 },
                 "manager": {
-                  "label": "Package manager",
-                  "default": "Default"
+                  "label": "Пакетний менеджер",
+                  "default": "По замовчуванні"
                 },
                 "options": {
-                  "label": "Additional options",
-                  "force": "Overwrite target folder if it exists",
-                  "git-title": "Git repository",
-                  "git": "Initialize git repository (recommended)",
-                  "git-commit-message": "Initial commit message (optional)"
+                  "label": "Додаткові опції",
+                  "force": "Перезаписати цільову папку, якщо вона вже існує",
+                  "git-title": "Git репозиторій",
+                  "git": "Ініціалізувати git репозиторій (рекомендовано)",
+                  "git-commit-message": "Початкове повідомлення комміта (вибірково)"
                 }
               },
               "buttons": {
-                "cancel": "Cancel",
-                "next": "Next"
+                "cancel": "Скасувати",
+                "next": "Далі"
               },
               "modal": {
-                "title": "Cancel and reset project creation",
-                "body": "Are you sure you want to reset the project creation?",
+                "title": "Скасувати та скинути створення проекту",
+                "body": "Ви впевнені, що бажаєте скинути створення проекту?",
                 "buttons": {
-                  "back": "Go back",
-                  "clear": "Clear project"
+                  "back": "Назад",
+                  "clear": "Очистити проект"
                 }
               }
             },
             "presets": {
-              "title": "Presets",
-              "description": "A preset is an association of plugins and configurations. After you've selected features, you can optionally save it as a preset so that you can reuse it for future projects, without having to reconfigure everything again.",
-              "select": "Select a preset",
+              "title": "Пресети",
+              "description": "Пресетом є асоціація плагінів і конфігурацій. Після того, як ви вибрали особливості, ви можете за бажанням зберегти його як попередньо встановлений, щоб ви могли його повторно використовувати для майбутніх проектів, не повторюючи все необхідне.",
+              "select": "Обрати пресет",
               "buttons": {
-                "previous": "Previous",
-                "next": "Next",
-                "create": "Create Project"
+                "previous": "Попередній",
+                "next": "Наступний",
+                "create": "Створити проект"
               },
               "modal": {
-                "title": "Configure Remote preset",
-                "body": "Available soon..."
+                "title": "Налаштування віддаленого пресету",
+                "body": "Скоро буде доступно"
               },
               "manual": {
-                "name": "Manual",
-                "description": "Manually select features"
+                "name": "Вручну",
+                "description": "Ручний вибір особливостей"
               },
               "remote": {
-                "name": "Remote preset",
-                "description": "Fetch a preset from a git repository",
+                "name": "Віддалений пресет",
+                "description": "Отримати пресет з git репозиторія",
                 "url": {
-                  "title": "Preset URL",
-                  "subtitle": "Git repo, for example 'username/repo'. You can also prefix with 'gitlab:' or 'bitbucket:'."
+                  "title": "URL пресета",
+                  "subtitle": "Git репозиторій, наприклад 'username/repo'. Також можете використовувати префікс 'gitlab:' або 'bitbucket:'."
                 },
-                "options": "Other options",
-                "clone": "Clone/Private repository",
-                "cancel": "Cancel",
-                "done": "Done"
+                "options": "Інші опції",
+                "clone": "Клонувати/Приватний репозиторій",
+                "cancel": "Скасувати",
+                "done": "Виконано"
               },
-              "default-preset": "Default preset"
+              "default-preset": "Стандартний пресет"
             },
             "features": {
-              "title": "Features",
-              "description": "You will be able to add features after the project is created by installing plugins.",
-              "enable": "Enable features",
+              "title": "Особливості",
+              "description": "Ви зможете додавати особливості після створення проекту, встановивши плагіни.",
+              "enable": "Включити особливості",
               "buttons": {
-                "previous": "Previous",
-                "next": "Next",
-                "create": "Create Project"
+                "previous": "Попередній",
+                "next": "Наступний",
+                "create": "Створити проект"
               },
               "userConfigFiles": {
-                "name": "Use config files",
-                "description": "Use specific configuration files (like '.babelrc') instead of using 'package.json'."
+                "name": "Використовувати файли конфігурацій",
+                "description": "Використовувати спеціальні файли конфігурацій (як '.babelrc') замість використання 'package.json'"
               }
             },
             "configuration": {
-              "title": "Configuration",
+              "title": "Конфігурація",
               "buttons": {
-                "previous": "Previous",
-                "create": "Create Project"
+                "previous": "Попередній",
+                "create": "Створити проект"
               },
               "modal": {
-                "title": "Save as a new preset",
+                "title": "Зберегти як новий пресет",
                 "body": {
-                  "title": "Preset name",
-                  "subtitle": "Save the features and configuration into a new preset"
+                  "title": "Назва пресету",
+                  "subtitle": "Зберегти особливості та конфігурації в новий пресет"
                 },
                 "buttons": {
-                  "cancel": "Cancel",
-                  "continue": "Continue without saving",
-                  "create": "Create a new preset"
+                  "cancel": "Скасувати",
+                  "continue": "Продовжити без збереження",
+                  "create": "Створити новий пресет"
                 }
               }
             }
           }
         },
         "project-plugins": {
-          "title": "Project plugins",
-          "button": "Add plugin",
-          "heading": "Installed plugins",
-          "update-all": "Update all plugins"
+          "title": "Плагіни проекту",
+          "button": "Додати плагін",
+          "heading": "Встановленні плагіни",
+          "update-all": "Оновити всі плагіни"
         },
         "project-plugins-add": {
-          "title": "Add a plugin",
-          "plugin": "plugin",
+          "title": "Додати плагін",
+          "plugin": "плагін",
           "tabs": {
             "search": {
-              "label": "Search",
-              "search-input": "Search a plugin",
-              "not-found": "No results found",
+              "label": "Пошук",
+              "search-input": "Пошук плагіна",
+              "not-found": "Нічого не знайдено",
               "buttons": {
-                "cancel": "Cancel",
-                "install": "Install {target}",
-                "default-install": "Install"
+                "cancel": "Скасувати",
+                "install": "Встановити {target}",
+                "default-install": "Встановити"
               }
             },
             "configuration": {
-              "label": "Configuration",
-              "heading": "Installation of {target}",
+              "label": "Конфігурація",
+              "heading": "Встановлення {target}",
               "buttons": {
-                "cancel": "Cancel",
-                "finish": "Finish installation"
+                "cancel": "Скасувати",
+                "finish": "Встановлення завершено"
               }
             },
             "diff": {
-              "label": "Files changed"
+              "label": "Зміненні файли"
             }
           },
           "modal": {
-            "title": "Uninstall {target}?",
-            "body": "Do you want to uninstall the {target} plugin?",
+            "title": "Видалити {target}?",
+            "body": "Ви бажаєте видалити {target} плагін?",
             "buttons": {
-              "back": "Go back",
-              "cancel": "Cancel without uninstalling",
-              "uninstall": "Uninstall"
+              "back": "Назад",
+              "cancel": "Скасувати без видалення",
+              "uninstall": "Видалити"
             }
           },
           "buttons": {
-            "add-local": "Browse local plugin"
+            "add-local": "Переглянути локальні плагіни"
           }
         },
         "project-plugin-add-local": {
-          "title": "Add a local plugin",
+          "title": "Додати локальний плагін",
           "buttons": {
-            "add": "Add local plugin"
+            "add": "Додати локальний плагін"
           }
         },
         "project-configurations": {
-          "title": "Project configuration"
+          "title": "Конфігурація проекту"
         },
         "project-configuration-details": {
           "actions": {
-            "cancel": "Cancel changes",
-            "save": "Save changes",
-            "more-info": "More info",
-            "refresh": "Refresh"
+            "cancel": "Скасувати зміни",
+            "save": "Зберегти зміни",
+            "more-info": "Детальніше",
+            "refresh": "Оновити"
           }
         },
         "project-tasks": {
-          "title": "Project tasks"
+          "title": "Завдання проекту"
         },
         "project-task-details": {
           "actions": {
-            "play": "Run task",
-            "stop": "Stop task",
-            "close": "Close",
-            "save": "Save"
+            "play": "Запустити завдання",
+            "stop": "Зупинити задачу",
+            "close": "Закрити",
+            "save": "Зберегти"
           },
-          "command": "Script command",
-          "parameters": "Parameters",
-          "more-info": "More Info",
-          "output": "Output"
+          "command": "Команда сценарію",
+          "parameters": "Параметри",
+          "more-info": "Детальніше",
+          "output": "Вивід"
         },
         "project-dependencies": {
-          "title": "Project dependencies",
+          "title": "Залежності проекту",
           "heading": {
-            "dependencies": "Main dependencies",
-            "devDependencies": "Development dependencies"
+            "dependencies": "Основні залежності",
+            "devDependencies": "Залежності розробки"
           },
           "actions": {
-            "install": "Install dependency",
-            "update-all": "Update all dependencies"
+            "install": "Встановити залежність",
+            "update-all": "Оновити всі залежності"
           },
           "install": {
-            "title": "Install new dependency"
+            "title": "Встановити нову залежність"
           },
           "uninstall": {
-            "title": "Confirm uninstall",
-            "body": "Are you sure you want to uninstall {id}?",
-            "cancel": "Cancel",
-            "uninstall": "Uninstall {id}"
+            "title": "Підтвердити видалення",
+            "body": "Ви впевнені, що хочете видалити {id}?",
+            "cancel": "Скасувати",
+            "uninstall": "Видалити {id}"
           }
         },
         "project-dashboard": {
-          "title": "Project dashboard",
-          "cutomize": "Customize",
-          "done": "Done"
+          "title": "Панель керування проектом",
+          "cutomize": "Налаштувати",
+          "done": "Виконано"
         },
         "settings": {
-          "title": "Settings"
+          "title": "Налаштування"
         },
         "about": {
-          "title": "About",
-          "description": "<a href=\"https://github.com/vuejs/vue-cli/tree/dev/packages/%40vue/cli-ui\" target=\"_blank\">@vue/cli-ui</a> is a built-in package of vue-cli which opens a full-blown UI.",
-          "quote": "Vue-cli 3.x is a complete rewrite, with a lot of new awesome features. You will be able to select features like routing, Vuex or Typescript, then add and upgrade building blocks called \"vue-cli plugins\". But having so much more options also means the tool is now more complex and harder to start using. That's why we thought having a full-blown GUI would help discover the new features, search and install vue-cli plugins and unlock more possibilities overall while not being limited by a terminal interface. To sum up, vue-cli will not only allow you to bootstrap a new project easily, but it will also remain useful for ongoing work afterwards!",
-          "links": "Useful links",
-          "back": "Go back"
+          "title": "Про нас",
+          "description": "<a href=\"https://github.com/vuejs/vue-cli/tree/dev/packages/%40vue/cli-ui\" target=\"_blank\">@vue/cli-ui</a> це вбудований пакет vue-cli, який відкриває повноцінний інтерфейс користувача.",
+          "quote": "Vue-cli 3.x - повністю переписаний пакет з багатьма новими дивовижними функціями. Ви зможете вибрати такі функції, як маршрутизація, Vuex або Typescript, а потім додати та оновити будівельні блоки під назвою \"vue-cli plugins\". Але, маючи набагато більше варіантів, це означає, що інструмент тепер більш складний і ним важче почати використовувати. Ось чому ми подумали, що повноцінний GUI допоможе розібратись з новими функціями, шукати та встановлювати плагіни vue-cli та отримувати більше можливостей, не обмежуючись термінальним інтерфейсом. Підбиваючи підсумок, vue-cli не тільки дозволить вам легко створити новий проект, але також буде корисним для подальшої роботи в майбутньому!",
+          "links": "Корисні посилання",
+          "back": "Назад"
         }
       },
       "cli-service": {
         "suggestions": {
           "vue-router-add": {
-            "label": "Add vue-router",
-            "message": "Official library to support multiple virtual pages in a Single-Page App. Each route renders a different component."
+            "label": "Додати vue-router",
+            "message": "Офіційна бібліотека для підтримки багатьох віртуальних сторінок в SPA. Кожен шлях показує різний компонент."
           },
           "vuex-add": {
-            "label": "Add vuex",
-            "message": "Official centralized State Management solution for large-scale apps. Very useful if multiple components need to access the same data."
+            "label": "Додати vuex",
+            "message": "Офіційне рішення для централізованого керування сховищем в великих проектах. Дуже корисний коли компонентам потрібно обмінюватись даними між собою."
           },
           "vue-devtools": {
-            "label": "Install devtools",
-            "message": "Browser devtools official extension for debugging Vue.js applications where you can inspect your components, vuex store and events."
+            "label": "Встановити інструменти розробки",
+            "message": "Офіційне браузерне розширення для наладки Vue.js додатків де ви можете проінспектувати ваші компоненти, vuex сховище та події."
           },
-          "progress": "Installing {arg0}..."
+          "progress": "Встановлення {arg0}..."
         }
       },
       "vue-webpack": {
         "dashboard": {
-          "title": "Dashboard",
-          "open-app": "Open app",
+          "title": "Панель керування",
+          "open-app": "Відкрити додаток",
           "webpack-status": {
-            "Success": "Success",
-            "Failed": "Failed",
-            "Compiling": "Compiling",
-            "Invalidated": "Invalidated",
-            "Idle": "Idle"
+            "Success": "Успішно",
+            "Failed": "Помилка",
+            "Compiling": "Компіляція",
+            "Invalidated": "Недійсний",
+            "Idle": "Невдача"
           },
           "build-status": {
             "labels": {
-              "status": "Status",
-              "errors": "Errors",
-              "warnings": "Warnings",
-              "assets": "Assets",
-              "modules": "Modules",
-              "deps": "Dependencies"
+              "status": "Статус",
+              "errors": "Помилки",
+              "warnings": "Попередження",
+              "assets": "Додатки",
+              "modules": "Модулі",
+              "deps": "Залежності"
             }
           },
           "speed-stats": {
-            "title": "Speed stats"
+            "title": "Статистика швидкості"
           },
           "module-list": {
-            "title": "Dependencies"
+            "title": "Залежності"
           },
           "asset-list": {
-            "title": "Assets",
-            "size-warning": "This asset is big, consider using Code splitting to create smaller assets."
+            "title": "Додатки",
+            "size-warning": "Цей додаток великий, розгляньте використання розбивання коду для створення менших додатків."
           }
         },
         "analyzer": {
-          "title": "Analyzer",
-          "go-up": "Go up",
-          "go-home": "Go to home",
-          "chunk": "Chunk"
+          "title": "Аналізатор",
+          "go-up": "Вверх",
+          "go-home": "На головну",
+          "chunk": "Шматок (chunk)"
         },
         "sizes": {
-          "stats": "Stats",
-          "parsed": "Parsed",
+          "stats": "Статистика",
+          "parsed": "Проаналізовано",
           "gzip": "Gzip",
-          "help": "<b>Stats:</b> size from webpack stats data.<br><b>Parsed:</b> size from extracted source (after minification plugins). More accurate.<br><b>Gzip:</b> size of gzipped extracted source."
+          "help": "<b>Статистика:</b> розмір з webpack даних.<br><b>Проаналізовано:</b> розмір з видобутих джерел (після плагінів мініфікації). Точніше.<br><b>Gzip:</b> розмір видобутого gzip-ного джерела"
         },
-        "modern-mode": "Show modern build",
+        "modern-mode": "Показати актуальний білд",
         "tasks": {
           "serve": {
-            "description": "Compiles and hot-reloads for development",
-            "open": "Open browser on server start",
-            "mode": "Specify env mode",
-            "host": "Specify host",
-            "port": "Specify port",
-            "https": "Use HTTPS"
+            "description": "Компіляція та \"гаряче перезавантаження\" для розробки",
+            "open": "Відкрити браузер при запуску сервера",
+            "mode": "Вкажіть режим env",
+            "host": "Вкажіть хост",
+            "port": "Вкажіть порт",
+            "https": "Використовувати HTTPS"
           },
           "build": {
-            "description": "Compiles and minifies for production",
-            "mode": "Specify env mode",
-            "dest": "Output directory",
+            "description": "Компіляція та мініфікація для продакшена",
+            "mode": "Вкажіть режим env",
+            "dest": "Вихідна папка",
             "target": {
-              "description": "Build target",
-              "app": "Web app",
-              "lib": "Library",
-              "wc": "Web component",
-              "wc-async": "Async web component"
+              "description": "Побудувати ціль",
+              "app": "Веб додаток",
+              "lib": "Бібліотека",
+              "wc": "Веб компонент",
+              "wc-async": "Асинхронний веб компонент"
             },
-            "name": "Name for library or web-component mode (default: 'name' in package.json or entry filename)",
-            "watch": "Watch for changes",
+            "name": "Назва для бібліотеки або веб-компонент режиму (по замовчуванні 'name' в package.json або ім'я файлу запису)",
+            "watch": "Очікування змін",
             "modern": {
-              "label": "Modern mode",
-              "description": "Build app targeting modern browsers with auto fallback"
+              "label": "Актуальний режим",
+              "description": "Створення орієнтації додатків на сучасні веб-переглядачі з автоматичним відновленням"
             }
           },
           "inspect": {
-            "description": "Inspect the resolved webpack config",
-            "mode": "Specify env mode",
-            "verbose": "Show full function definitions in output"
+            "description": "Огляньте конфігурацію вирішеного веб-пакет",
+            "mode": "Вкажіть режим env",
+            "verbose": "Показати повні визначення функцій у виведенні"
           }
         },
         "config": {
           "vue-cli": {
-            "description": "Configure your Vue project",
+            "description": "Налаштувати свій проект Vue",
             "groups": {
-              "general": "General settings",
-              "css": "CSS settings"
+              "general": "Загальні налаштування",
+              "css": "CSS налаштування"
             },
             "baseUrl": {
-              "label": "Base URL",
+              "label": "Базова URL-адреса",
+              "description": "Базова URL-адреса вашої заявки буде розгорнута, наприклад '/my-app/'. Використовуйте порожній рядок ('') щоб всі активи були пов'язані за допомогою відносних шляхів."
+            },
+            "publicPath": {
+              "label": "Public Path",
               "description": "The base URL your application will be deployed at, for example '/my-app/'. Use an empty string ('') so that all assets are linked using relative paths."
             },
             "outputDir": {
-              "label": "Output directory",
-              "description": "The directory where the production build files will be generated"
+              "label": "Вихідний каталог",
+              "description": "Каталог, в якій створюються файли збірки виробів"
             },
             "assetsDir": {
-              "label": "Assets directory",
-              "description": "A directory to nest generated static assets (js, css, img, fonts) under."
+              "label": "Каталог активів",
+              "description": "Каталог, що містить генеровані статичні активи (js, css, img, fonts)."
             },
             "runtimeCompiler": {
-              "label": "Enable runtime compiler",
-              "description": "This will allow you to use the template option in Vue components, but will incur around an extra 10kb payload for your app."
+              "label": "Увімкнути Runtime Compiler",
+              "description": "Це дозволить вам скористатися опцією шаблону у компонентах Vue, але він потягне за собою додаткове завантаження 10kb для вашого додатка."
             },
             "productionSourceMap": {
-              "label": "Enable Production Source Maps",
-              "description": "Disabling this can speed up production builds if you don't need source maps for production"
+              "label": "Увімкнути Source Maps",
+              "description": "Відключення цього може призвести до прискорення виробництва, якщо вам не потрібні вихідні карти для виробництва"
             },
             "parallel": {
-              "label": "Parallel compilation",
-              "description": "Whether to use multiple processors to compile Babel or Typescript."
+              "label": "Паралельна компіляція",
+              "description": "Чи потрібно використовувати кілька процесорів для складання Babel або Typescript."
             },
             "css": {
               "modules": {
-                "label": "Enable CSS Modules",
-                "description": "By default, only files that ends in *.module.[ext] are treated as CSS modules. Enabling this will treat all style files as CSS modules."
+                "label": "Увімкнути модулі CSS",
+                "description": "За замовчуванням тільки файли, що закінчуються в * .module. [ext] розглядаються як модулі CSS. Увімкнення цього дозволить обробляти всі файли стилів як модулі CSS."
               },
               "extract": {
-                "label": "Extract CSS",
-                "description": "Whether to extract CSS in your components into a standalone CSS files (instead of inlined in JavaScript and injected dynamically)."
+                "label": "Витяг CSS",
+                "description": "Чи потрібно витягувати CSS у ваших компонентах у окремі файли CSS (замість вкладеного в JavaScript і вводити динамічно)."
               },
               "sourceMap": {
-                "label": "Enable CSS Source Maps",
-                "description": "Whether to enable source maps for CSS. Enabling this may affect build performance."
+                "label": "Увімкнути CSS Source Maps",
+                "description": "Необхідно ввімкнути вихідні карти для CSS. Включення цього може вплинути на ефективність збірки."
               }
             }
           }
         },
         "suggestions": {
-          "vue-config-open": "Open vue config"
+          "vue-config-open": "Відкрита конфігурація vue"
         }
       },
       "eslint": {
         "config": {
           "eslint": {
-            "description": "Error checking & Code quality",
+            "description": "Перевірка помилок та якість коду",
             "groups": {
-              "base": "Base",
-              "essential": "Essential",
-              "strongly-recommended": "Strongly recommended",
-              "recommended": "Recommended",
-              "uncategorized": "Uncategorized"
+              "base": "База",
+              "essential": "Основне",
+              "strongly-recommended": "Настійно рекомендується",
+              "recommended": "Рекомендовано",
+              "uncategorized": "Без рубрики"
             },
             "setting": {
-              "off": "Off",
-              "error": "Error",
-              "warning": "Warning",
-              "custom": "Custom"
+              "off": "Вимкнено",
+              "error": "Помилка",
+              "warning": "Попередження",
+              "custom": "Користувацький"
             },
             "general": {
-              "label": "General",
+              "label": "Загальні",
               "lintOnSave": {
-                "message": "Lint on save",
-                "description": "Automatically lint source files when saved"
+                "message": "Напишіть на збереження",
+                "description": "Автоматично завантажувати вихідні файли при збереженні"
               },
               "config": {
-                "message": "Select config",
-                "description": "Select pre-defined configuration"
+                "message": "Вибрати конфігурацію",
+                "description": "Вибрати заздалегідь визначену конфігурацію"
               }
             },
             "rules": {
-              "label": "Rules"
+              "label": "Правила"
             }
           }
         },
         "tasks": {
           "lint": {
-            "description": "Lints and fixes files",
-            "noFix": "Do not fix errors"
+            "description": "Встановлює і фіксує файли",
+            "noFix": "Не виправляйте помилки"
           }
         },
         "suggestions": {
           "open-eslintrc": {
-            "label": "Open eslintrc"
+            "label": "Відкрити eslintrc"
           }
         }
       },
       "pwa": {
         "config": {
           "pwa": {
-            "description": "Progressive Web App",
+            "description": "Прогресивний веб-додаток",
             "workboxPluginMode": {
-              "message": "Plugin mode",
-              "description": "This allows you to the choose between the two modes supported by the underlying `workbox-webpack-plugin`"
+              "message": "Режим плагіна",
+              "description": "Це дозволяє вам вибирати між двома режимами, що підтримуються основним `workbox-webpack-plugin`"
             },
             "name": {
-              "message": "App name",
-              "description": "App name displayed on the Splash screen and various other places. Also used as the value for the `apple-mobile-web-app-title` meta tag in the generated HTML."
+              "message": "Назва додатка",
+              "description": "Назва додатка відображається на екрані Splash та в інших місцях. Також використовується як значення для метатегів `apple-mobile-web-app-title` у створеному HTML-файлі."
             },
             "themeColor": {
-              "message": "Theme color",
-              "description": "Color used to theme the browser"
+              "message": "Колір теми",
+              "description": "Колір, який використовується для тестування браузера"
             },
             "backgroundColor": {
-              "message": "Splash background color",
-              "description": "Background color used for the app splash screen"
+              "message": "Колір фону",
+              "description": "Колір фону, який використовується для спливаючого екрану програми"
             },
             "msTileColor": {
-              "message": "Windows app tile color",
-              "description": "Color used for the app tile on Windows"
+              "message": "Колір плитки для додатка Windows",
+              "description": "Колір, використовуваний для плитки додатка в ОС Windows"
             },
             "appleMobileWebAppStatusBarStyle": {
-              "message": "Apple mobile status bar style",
-              "description": "Style for the web app status bar on iOS"
+              "message": "Apple стиль для панелі стану",
+              "description": "Стиль для панелі стану веб-програми на пристроях iOS"
             }
           }
         },
         "suggestions": {
           "open-vue": {
-            "label": "Open vue config"
+            "label": "Відкрита конфігурація vue"
           },
           "open-manifest": {
-            "label": "Open manifest"
+            "label": "Відкритий маніфест"
           }
         }
       },
       "cypress": {
         "tasks": {
           "test": {
-            "description": "Run e2e tests with `cypress run`",
-            "headless": "Run in headless mode without GUI",
-            "mode": "Specify the mode the dev server should run in",
-            "url": "Run e2e tests against given url instead of auto-starting dev server"
+            "description": "Запустити тести e2e за допомогою `cypress run`",
+            "headless": "Запустити безгольовий режим без графічного інтерфейсу",
+            "mode": "Вкажіть режим, яким повинен працювати сервер DEV",
+            "url": "Виконати тести e2e проти даної URL-адреси замість автоматичного запуску сервера dev"
           }
         }
       },
       "nightwatch": {
         "tasks": {
           "test": {
-            "description": "Run e2e tests with nightwatch",
-            "url": "Run e2e tests against given url instead of auto-starting dev server",
-            "config": "Use custom nightwatch config file (overrides internals)",
-            "env": "Comma-delimited browser envs to run in"
+            "description": "Виконайте тести e2e за допомогою нічного спостереження",
+            "url": "Виконати тести e2e проти даної URL-адреси замість автоматичного запуску сервера dev",
+            "config": "Використовувати спеціальний файл налаштувань nightwatch (перевизначає внутрішні елементи)",
+            "env": "Обмежений браузер з комами для запуску"
           }
         }
       },
       "jest": {
         "tasks": {
           "test": {
-            "description": "Run unit tests with Jest",
-            "watch": "Watch files for changes and rerun tests related to changed files",
-            "notify": "Display a notification after each run",
-            "update": "Re-record every snapshot that fails during this test run"
+            "description": "Запуск одиничних тестів з Jest",
+            "watch": "Дивитись файли для змін і повторних тестів, пов'язаних із змінами файлів",
+            "notify": "Відображати сповіщення після кожного запуску",
+            "update": "Повторно записувати кожен знімок, який не вдається під час цього тестового запуску"
           }
         }
       },
       "mocha": {
         "tasks": {
           "test": {
-            "description": "Run unit tests with Mocha",
-            "watch": "Watch files for changes and rerun tests related to changed files"
+            "description": "Запуск модульних тестів з Mocha",
+            "watch": "Дивитися файли для змін і повторних тестів, пов'язаних із змінами файлів"
           }
         }
       },
       "widgets": {
         "welcome": {
-          "title": "Welcome tips",
-          "description": "Some tips to help you get started",
+          "title": "Поради для початку",
+          "description": "Деякі поради, які допоможуть вам розпочати роботу",
           "content": {
-            "title": "Welcome to your new project!",
-            "tip1": "You are looking at the project dashboard where your can put widgets. Use the 'Customize' button to add more! Everything is automatically saved.",
-            "tip2": "On the left are the different available pages. 'Plugins' let you add new Vue CLI plugins, 'Dependencies' for managing the packages, 'Configuration' to configure the tools and 'Tasks' to run scripts (for example webpack).",
-            "tip3": "Return to the project manager with the dropdown at the top left of the screen or the home button in the status bar at the bottom.",
-            "ok": "Understood"
+            "title": "Ласкаво просимо до вашого нового проекту!",
+            "tip1": "You are looking at the project dashboard where you can put widgets. Use the 'Customize' button to add more! Everything is automatically saved.",
+            "tip2": "Зліва розташовані різні доступні сторінки. 'Плагіни' дозволяють додавати нові плагіни Vue CLI, 'Залежності' для керування пакунками, 'Конфігурація', щоб налаштувати інструменти та 'Завдання' для запуску скриптів (наприклад, веб-пакет).",
+            "tip3": "Повернутися до менеджера проекту зі спадного меню у верхньому лівому куті екрана або домашній кнопці в рядку стану знизу.",
+            "ok": "Зрозумів"
           }
         },
         "kill-port": {
-          "title": "Kill port",
-          "description": "Kill processes using a specific network port",
+          "title": "Вбити порт",
+          "description": "Вбити процеси за допомогою певного мережевого порту",
           "input": {
-            "placeholder": "Enter a network port"
+            "placeholder": "Введіть мережний порт"
           },
-          "kill": "Kill",
+          "kill": "Вбити",
           "status": {
-            "idle": "Ready to kill",
-            "killing": "Killing procress...",
-            "killed": "Killed successfully!",
-            "error": "Couldn't kill process"
+            "idle": "Готовий вбити",
+            "killing": "Вбивство процесу...",
+            "killed": "Убито успішно!",
+            "error": "Не вдалося вбити процес"
           }
         },
         "status-widget": {
-          "last-updated": "Updated",
-          "never": "Not updated yet",
-          "check": "Check for updates",
-          "more-info": "More details"
+          "last-updated": "Оновлено",
+          "never": "Ще не оновлено",
+          "check": "Перевірити наявність оновлень",
+          "more-info": "Більш детальна інформація"
         },
         "plugin-updates": {
-          "title": "Plugin updates",
-          "description": "Monitor plugin updates",
+          "title": "Оновлення плагіна",
+          "description": "Оновити плагін монітора",
           "messages": {
-            "ok": "All plugins up-to-date",
-            "loading": "Checking for updates...",
-            "attention": "{n} plugin updates available"
+            "ok": "Усі плагіни актуальні",
+            "loading": "Перевірка наявності оновлень...",
+            "attention": "Доступні оновлення плагінів {n}"
           },
-          "page": "Go to Plugins"
+          "page": "Перейти до плагінів"
         },
         "dependency-updates": {
-          "title": "Dependency updates",
-          "description": "Monitor dependencies updates",
+          "title": "Оновлення залежностей",
+          "description": "Оновіть моніторинг залежностей",
           "messages": {
-            "ok": "All dependencies up-to-date",
-            "loading": "Checking for updates...",
-            "attention": "{n} dependency updates available"
+            "ok": "Всі залежності сучасні",
+            "loading": "Перевірка наявності оновлень...",
+            "attention": "Доступні оновлення залежностей {n}"
           },
-          "page": "Go to Dependencies"
+          "page": "Перейти до залежностей"
         },
         "vulnerability": {
-          "title": "Vulnerability check",
-          "description": "Check for known vulnerabilities in your project dependencies",
+          "title": "Перевірка вразливості",
+          "description": "Перевірте наявність відомих вразливостей у ваших залежностях за проектом",
           "messages": {
-            "ok": "No vulnerability found",
-            "loading": "Checking security reports...",
-            "attention": "{n} vulnerabilities found"
+            "ok": "Не знайдено жодної вразливості",
+            "loading": "Перевірка звітів про безпеку...",
+            "attention": "Виявлено {n} вразливості"
           },
           "severity": {
-            "high": "High severity",
-            "medium": "Medium severity",
-            "low": "Low severity"
+            "high": "Висока ступінь",
+            "medium": "Середня ступінь",
+            "low": "Низька ступінь"
           },
-          "direct-dep": "Direct dependency"
+          "direct-dep": "Пряма залежність"
         },
         "run-task": {
-          "title": "Run task",
-          "description": "Shortcut to run a task",
+          "title": "Виконати завдання",
+          "description": "Ярлик для запуску завдання",
           "prompts": {
-            "task": "Select a task"
+            "task": "Вибрати завдання"
           },
-          "page": "Go to Task"
+          "page": "Перейти до завдання"
         },
         "news": {
-          "title": "News feed",
-          "description": "Read news feed",
-          "refresh": "Force refresh",
-          "select-tip": "Select an item on the left",
+          "title": "Стрічка новин",
+          "description": "Читати новини",
+          "refresh": "Оновити",
+          "select-tip": "Вибрати елемент зліва",
           "prompts": {
-            "url": "RSS feed URL or GitHub repository"
+            "url": "URL-адреса каналу RSS або сховище GitHub"
           },
           "errors": {
-            "fetch": "Couldn't fetch feed",
-            "offline": "You are offline",
-            "empty": "Empty feed"
+            "fetch": "Не вдається завантажити канал",
+            "offline": "Ви в автономному режимі",
+            "empty": "Порожній канал"
           }
         }
       }

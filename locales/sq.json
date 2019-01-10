@@ -4,7 +4,7 @@
       "common": {
         "close": "Mbyll",
         "back": "Shko Mbrapa",
-        "more-info": "Me shume"
+        "more-info": "Më shumë informacion"
       },
       "components": {
         "client-addon-component": {
@@ -22,109 +22,109 @@
           }
         },
         "file-diff-view": {
-          "files-changed": "Files changed",
-          "search-file": "Search file",
-          "empty": "No change found",
-          "error": "Couldn't get file changes",
+          "files-changed": "Skedarët ndryshuan",
+          "search-file": "Kërko skedarin",
+          "empty": "Nuk u gjet asnjë ndryshim",
+          "error": "Nuk mund të merrnin ndryshime në skedarë",
           "modals": {
             "commit": {
-              "title": "Commit changes",
-              "input": "Enter a commit message",
-              "subtitle": "Record changes to the repository",
+              "title": "Commit ndryshimet",
+              "input": "Shkruani një mesazh për commit",
+              "subtitle": "Regjistro ndryshime në repository",
               "actions": {
                 "commit": "Commit",
-                "cancel": "Cancel"
+                "cancel": "Anulo"
               }
             }
           },
           "actions": {
-            "collapse-all": "Collapse all",
-            "expand-all": "Expand all",
-            "commit": "Commit changes",
-            "skip": "Skip",
-            "continue": "Continue",
-            "refresh": "Refresh"
+            "collapse-all": "Mbyllni të gjitha",
+            "expand-all": "Zgjero të gjitha",
+            "commit": "Commit ndryshimet",
+            "skip": "Tejkalo",
+            "continue": "Vazhdo",
+            "refresh": "Rifresko"
           }
         },
         "folder-explorer": {
           "toolbar": {
             "tooltips": {
-              "parent-folder": "Open parent folder",
+              "parent-folder": "Hapni dosjen kryesore",
               "edit-path": "Edit path",
-              "favorite": "Toggle favorite",
-              "favorite-folders": "Favorite folders",
-              "refresh": "Refresh"
+              "favorite": "Toggle preferuar",
+              "favorite-folders": "Skedaret e preferuara",
+              "refresh": "Rifresko"
             },
-            "placeholder": "Enter the full path to a folder",
-            "empty": "No favorite folders yet.",
-            "show-hidden": "Show hidden folders"
+            "placeholder": "Shkruani path-in e plotë tëk një skedar",
+            "empty": "Asnjë skedar e preferuar ende.",
+            "show-hidden": "Shfaq skedarët e fshehura"
           },
           "new-folder": {
-            "action": "New folder",
-            "title": "Create new folder",
+            "action": "Skedar i ri",
+            "title": "Krijo një skedar te ri",
             "field": {
-              "title": "New folder",
-              "subtitle": "You can use the folder separator to create multiple nested folders at once."
+              "title": "Skedar i ri",
+              "subtitle": "Ju mund të përdorni ndarësin e dosjeve për të krijuar njëkohësisht skedare brenda njeri tjetrit."
             },
-            "cancel": "Cancel",
-            "create": "Create"
+            "cancel": "Anulo",
+            "create": "Krijo"
           }
         },
         "list-item-info": {
-          "more-info": "More Info"
+          "more-info": "Më shumë informacion"
         },
         "logger-view": {
-          "title": "Logs",
-          "empty": "No logs yet",
+          "title": "Dosje Regjistrimi",
+          "empty": "Asnje dosje regjistrimi",
           "buttons": {
-            "clear": "Clear logs",
-            "scroll": "Scroll to bottom",
-            "close": "Close"
+            "clear": "Pastro dosjet e regjistrimit",
+            "scroll": "Scroll në fund",
+            "close": "Mbyll"
           }
         },
         "progress-screen": {
-          "close": "Close"
+          "close": "Mbyll"
         },
         "project-nav": {
           "tooltips": {
             "dashboard": "Dashboard",
             "plugins": "Plugins",
             "dependencies": "Dependencies",
-            "configuration": "Configuration",
-            "tasks": "Tasks",
-            "more": "More"
+            "configuration": "Konfigurime",
+            "tasks": "Detyra",
+            "more": "Më shumë"
           }
         },
         "project-select-list": {
-          "empty": "No existing projects",
+          "empty": "Asnjë projekt ekzistues",
           "titles": {
-            "favorite": "Favorite projects",
-            "other": "Other projects"
+            "favorite": "Projektet e preferuara",
+            "other": "Projekte të tjera"
           }
         },
         "project-select-list-item": {
           "tooltips": {
-            "favorite": "Toggle favorite",
-            "delete": "Remove from list",
-            "open-in-editor": "Open in editor"
+            "favorite": "Ndryshoni të preferuarat",
+            "delete": "Hiq nga lista",
+            "open-in-editor": "Hap në editor"
           }
         },
         "project-plugin-item": {
-          "version": "version",
-          "latest": "latest",
-          "official": "Official",
-          "installed": "Installed",
+          "version": "versioni",
+          "latest": "të fundit",
+          "official": "Zyrtare",
+          "installed": "Të instaluara",
           "actions": {
-            "update": "Update {target}",
-            "refresh": "Force Refresh {target}<br><i>Press [Shift] for Quick Refresh (node_modules won't be updated)</i>"
+            "update": "Update { target }",
+            "refresh": "Rifresko me forcë { target } <br><i> Shtyp [shift] për rifreskim të shpejtë  (node_modules nuk do të updatohen) </i>"
           },
-          "local": "Local"
+          "local": "Lokal"
         },
         "project-dependency-item": {
-          "version": "version",
-          "wanted": "wanted",
-          "latest": "latest",
-          "installed": "Installed",
+          "version": "versioni",
+          "wanted": "kerkohet",
+          "latest": "E fundit",
+          "installed": "E instaluar",
           "actions": {
             "update": "Update {target}",
             "uninstall": "Uninstall {target}"
@@ -132,207 +132,207 @@
         },
         "project-tasks-dropdown": {
           "tooltips": {
-            "tasks": "Tasks",
-            "running-tasks": "{count} running task(s)"
+            "tasks": "Detyra",
+            "running-tasks": "{count} detyra(t) në proces "
           }
         },
         "prompt-list": {
-          "default": "Default"
+          "default": "E paracaktuar"
         },
         "prompts-list": {
-          "empty": "No configuration"
+          "empty": "Asnjë konfigurim"
         },
         "status-bar": {
           "project": {
-            "tooltip": "Click to toggle Project Manager",
-            "empty": "No project open"
+            "tooltip": "Kliko për të bërë toggle Menaxherin e Projekteve",
+            "empty": "Asnjë projekt i hapur"
           },
           "path": {
-            "tooltip": "Current Working Folder"
+            "tooltip": "Skedari I hapur"
           },
           "log": {
-            "tooltip": "Logs<br><i>Click to toggle Vue CLI logs</i>",
-            "empty": "No logs yet"
+            "tooltip": "Dosjet e regjistrimit <br><i> Kliko për të bërë toggle dosjet e regjistrimit të Vue CLI </i>",
+            "empty": "Asnjë dosje regjistrimi"
           },
-          "report-bug": "Report bug",
-          "translate": "Help translate",
-          "dark-mode": "Toggle dark mode",
-          "reset-plugin-api": "Refresh plugins API"
+          "report-bug": "Raporto një gabim",
+          "translate": "Ndihmo në përkthim",
+          "dark-mode": "Bëj toggle modën e errët",
+          "reset-plugin-api": "Rifresko plugin API"
         },
         "suggestion-bar": {
-          "suggestion": "Suggestion",
+          "suggestion": "Sygjerim",
           "modal": {
-            "cancel": "Cancel",
-            "continue": "Continue"
+            "cancel": "Dil",
+            "continue": "Vazhdo"
           }
         },
         "terminal-view": {
           "buttons": {
-            "clear": "Clear console",
-            "scroll": "Scroll to bottom"
+            "clear": "Pastro console",
+            "scroll": "Shko në fund"
           }
         },
         "top-bar": {
-          "no-favorites": "No favorite projects",
-          "favorite-projects": "Favorite projects",
-          "recent-projects": "Recent projects",
-          "homepage": "Home page"
+          "no-favorites": "Asnjë projekt i preferuar",
+          "favorite-projects": "Projektet e preferuara",
+          "recent-projects": "Projektet e fundit",
+          "homepage": "Kryefaqja"
         },
         "view-badge": {
           "labels": {
             "tasks": {
-              "error": "Error status",
-              "running": "Running status",
-              "done": "Done status"
+              "error": "Gjendja e erroreve ",
+              "running": "Gjendja e procesimit ",
+              "done": "Gjendje ne rregull"
             }
           }
         },
         "widget": {
-          "remove": "Remove widget",
-          "configure": "Configure widget",
-          "save": "Save",
-          "reset-config": "Reset config",
-          "open-details": "Show more"
+          "remove": "Hiq widget",
+          "configure": "Konfiguro widget",
+          "save": "Ruaj",
+          "reset-config": "Kthej konfigurimet sic ishin",
+          "open-details": "Shiko më shumë"
         },
         "widget-add-pane": {
-          "title": "Add widgets"
+          "title": "Të gjitha widgets"
         },
         "widget-add-item": {
-          "add": "Add widget",
+          "add": "Shko një widget të ri",
           "details": {
-            "title": "Widget details",
-            "max-instances": "Max instance count: {count}/{total}",
-            "unlimited": "unlimited"
+            "title": "Detajet e widget ",
+            "max-instances": "Instanca maksimale: {count}/{total}",
+            "unlimited": "Pa limit"
           }
         }
       },
       "mixins": {
         "progress": {
-          "creating": "Creating project...",
-          "git-init": "Initializing git repository...",
-          "plugins-install": "Installing Vue CLI plugins. This might take a while...",
-          "invoking-generators": "Invoking generators...",
-          "deps-install": "Installing additional dependencies...",
-          "completion-hooks": "Running completion hooks...",
-          "fetch-remote-preset": "Fetching remote preset...",
-          "done": "Successfully created project",
-          "plugin-install": "Installing {arg0}...",
-          "plugin-uninstall": "Uninstalling {arg0}...",
-          "plugin-invoke": "Invoking {arg0}...",
-          "plugin-update": "Updating {arg0}...",
-          "plugins-update": "Updating {arg0} plugins...",
-          "dependency-install": "Installing {arg0}...",
-          "dependency-uninstall": "Uninstalling {arg0}...",
-          "dependency-update": "Updating {arg0}...",
-          "dependencies-update": "Updating {arg0} packages..."
+          "creating": "Duke krijuar një projekt të ri",
+          "git-init": "Git repository po inicializohet ",
+          "plugins-install": "Vue CLI plugins po instalohen. Ky proces mund të marri pak kohë",
+          "invoking-generators": "Duke ekzekutuar gjeneratoret...",
+          "deps-install": "Duke instaluar dependencies te shtuara",
+          "completion-hooks": "Duke procesuar completion hooks...",
+          "fetch-remote-preset": "Duke marrë remote preset...",
+          "done": "Projekti i ri u krijua me sukses",
+          "plugin-install": "Duke instaluar {arg0}...",
+          "plugin-uninstall": "Duke cinstaluar {arg0}...",
+          "plugin-invoke": "Duke thirrur {arg0}...",
+          "plugin-update": "Duke bere update {arg0}...",
+          "plugins-update": "Duke bere update {arg0} plugins ...",
+          "dependency-install": "Duke instaluar {arg0}...",
+          "dependency-uninstall": "Duke cinstaluar {arg0}...",
+          "dependency-update": "Duke bere update {arg0}...",
+          "dependencies-update": "Duke bere update {arg0} paketat ..."
         }
       },
       "types": {
         "task": {
           "status": {
-            "idle": "Idle",
-            "running": "Running",
-            "done": "Done",
-            "error": "Error",
-            "terminated": "Terminated"
+            "idle": "Jo ne proces",
+            "running": "Në proces ekzekutimi",
+            "done": "U krye",
+            "error": "Gabim",
+            "terminated": "U ndërprit"
           }
         }
       },
       "views": {
         "project-select": {
-          "title": "Vue Project Manager",
+          "title": "Vue project menaxheri",
           "tabs": {
-            "projects": "Projects",
-            "create": "Create",
-            "import": "Import"
+            "projects": "Projektet",
+            "create": "Krijo",
+            "import": "Importo"
           },
           "buttons": {
-            "create": "Create a new project here",
-            "import": "Import this folder"
+            "create": "Krijo nje project ketu",
+            "import": "Importo ketë skedar"
           },
           "import": {
             "no-modules": {
-              "title": "Missing modules",
-              "message": "It seems the project is missing the 'node_modules' folder. Please check you installed the dependencies before importing.",
-              "close": "Got it"
+              "title": "Module që mungojnë",
+              "message": "Duket se projektit i mungon skedari 'node_modules'. Ju lutemi sigurohuni te instaloni dependencies para importimit.",
+              "close": "E kuptova"
             },
-            "force": "Import anyway"
+            "force": "Importo gjithsesi"
           }
         },
         "project-create": {
-          "title": "Create a new project",
+          "title": "Krijo një projekt të ri",
           "tabs": {
             "details": {
-              "title": "Details",
+              "title": "Detajet",
               "form": {
                 "folder": {
-                  "label": "Project folder",
-                  "placeholder": "Type a name",
-                  "tooltip": "Change base folder",
-                  "action": "Select this folder",
-                  "folder-exists": "This folder already exists",
-                  "folder-name-invalid": "Folder name invalid"
+                  "label": "Skerari i projektit",
+                  "placeholder": "Shkruaj një emër",
+                  "tooltip": "Ndrysho skedarin bazë",
+                  "action": "Zgjidh ketë skedar",
+                  "folder-exists": "Ky skedar ekziston",
+                  "folder-name-invalid": "Emri i skedarit nuk është i saktë"
                 },
                 "manager": {
-                  "label": "Package manager",
-                  "default": "Default"
+                  "label": "Menaxheri i packages",
+                  "default": "E paracaktuar"
                 },
                 "options": {
-                  "label": "Additional options",
-                  "force": "Overwrite target folder if it exists",
+                  "label": "Opsione shtesë",
+                  "force": "Mbishkruani folderin nqs ekziston",
                   "git-title": "Git repository",
-                  "git": "Initialize git repository (recommended)",
-                  "git-commit-message": "Initial commit message (optional)"
+                  "git": "Inicializo git repository (rekomandohet)",
+                  "git-commit-message": "Mesazhi i commit (opsionale)"
                 }
               },
               "buttons": {
-                "cancel": "Cancel",
-                "next": "Next"
+                "cancel": "Dil",
+                "next": "Vazhdo"
               },
               "modal": {
-                "title": "Cancel and reset project creation",
-                "body": "Are you sure you want to reset the project creation?",
+                "title": "Dil edhe rikthe krijimin e projektit",
+                "body": "Jeni të sigurtë që doni të riktheni krijimin e projektit?",
                 "buttons": {
-                  "back": "Go back",
-                  "clear": "Clear project"
+                  "back": "Shko mbrapsht",
+                  "clear": "Pastro projektin"
                 }
               }
             },
             "presets": {
               "title": "Presets",
-              "description": "A preset is an association of plugins and configurations. After you've selected features, you can optionally save it as a preset so that you can reuse it for future projects, without having to reconfigure everything again.",
-              "select": "Select a preset",
+              "description": "Nje preset është një lidhje plugins dhe konfigurimesh. Pasi të zgjidhni opsionet, ju mundeni të ruani keto opsione si preset, pra ju mund ti riperdorni keto opsione për projekte në të adhmen pa patur nevojë që të rizgjidhni opsionet sërish nga fillimi.",
+              "select": "Zgjidhni një preset.",
               "buttons": {
-                "previous": "Previous",
-                "next": "Next",
-                "create": "Create Project"
+                "previous": "E mëparshme",
+                "next": "Më pas",
+                "create": "Krijo projekt"
               },
               "modal": {
-                "title": "Configure Remote preset",
-                "body": "Available soon..."
+                "title": "Konfiguro remote preset ",
+                "body": "E disponueshme së shpejti"
               },
               "manual": {
-                "name": "Manual",
-                "description": "Manually select features"
+                "name": "Manuale",
+                "description": "Zgjidhni opsione manualisht"
               },
               "remote": {
                 "name": "Remote preset",
-                "description": "Fetch a preset from a git repository",
+                "description": "Merrni një preset nga një git repository",
                 "url": {
                   "title": "Preset URL",
-                  "subtitle": "Git repo, for example 'username/repo'. You can also prefix with 'gitlab:' or 'bitbucket:'."
+                  "subtitle": "Git repo, për shëmbull 'username/repo'. Ju mundeni gjithashtu të shtoni parashtesë 'gitlab:' ose 'bitbucket:'."
                 },
-                "options": "Other options",
+                "options": "Opsione të tjera",
                 "clone": "Clone/Private repository",
-                "cancel": "Cancel",
-                "done": "Done"
+                "cancel": "Dil",
+                "done": "U krye"
               },
-              "default-preset": "Default preset"
+              "default-preset": "Preset i paracaktuar"
             },
             "features": {
               "title": "Features",
-              "description": "You will be able to add features after the project is created by installing plugins.",
-              "enable": "Enable features",
+              "description": "Ju do të keni mundesinë të shtoni features pasi projekti të jetë krijuar duke instaluar plugins",
+              "enable": "Aktivizo features",
               "buttons": {
                 "previous": "Previous",
                 "next": "Next",
@@ -583,6 +583,10 @@
               "label": "Base URL",
               "description": "The base URL your application will be deployed at, for example '/my-app/'. Use an empty string ('') so that all assets are linked using relative paths."
             },
+            "publicPath": {
+              "label": "Public Path",
+              "description": "The base URL your application will be deployed at, for example '/my-app/'. Use an empty string ('') so that all assets are linked using relative paths."
+            },
             "outputDir": {
               "label": "Output directory",
               "description": "The directory where the production build files will be generated"
@@ -751,7 +755,7 @@
           "description": "Some tips to help you get started",
           "content": {
             "title": "Welcome to your new project!",
-            "tip1": "You are looking at the project dashboard where your can put widgets. Use the 'Customize' button to add more! Everything is automatically saved.",
+            "tip1": "You are looking at the project dashboard where you can put widgets. Use the 'Customize' button to add more! Everything is automatically saved.",
             "tip2": "On the left are the different available pages. 'Plugins' let you add new Vue CLI plugins, 'Dependencies' for managing the packages, 'Configuration' to configure the tools and 'Tasks' to run scripts (for example webpack).",
             "tip3": "Return to the project manager with the dropdown at the top left of the screen or the home button in the status bar at the bottom.",
             "ok": "Understood"

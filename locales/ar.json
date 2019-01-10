@@ -3,20 +3,20 @@
     "vue": {
       "common": {
         "close": "إغلاق",
-        "back": "الرجوع",
+        "back": "رجوع",
         "more-info": "المزيد من المعلومات"
       },
       "components": {
         "client-addon-component": {
-          "timeout": "تحميل مهلة المكون",
-          "timeout-info": "يأخذ تحميل المكون المخصص وقتًا طويلاً ، فقد يكون هناك مشكلة"
+          "timeout": "نفذ وقت تحميل المكون",
+          "timeout-info": "يأخذ تحميل المكون المخصص وقتًا طويلاً ، قد يكون هناك مشكلة"
         },
         "connection-status": {
-          "disconnected": "Disconnected from UI server",
+          "disconnected": "قطع الااتصال مع خادم واجهة المستخدم",
           "connected": "متصل!"
         },
         "file-diff": {
-          "binary": "Binary file not shown",
+          "binary": "الملف الثنائي لا يظهر",
           "actions": {
             "open": "فتح في المحرر"
           }
@@ -25,22 +25,22 @@
           "files-changed": "تم تغيير الملفات",
           "search-file": "البحث عن ملف",
           "empty": "لم يتم إيجاد أي تغيير",
-          "error": "Couldn't get file changes",
+          "error": "لا يمكن الحصول على تغييرات الملف",
           "modals": {
             "commit": {
-              "title": "Commit changes",
-              "input": "Enter a commit message",
+              "title": "إيداع التغييرات",
+              "input": "أدخل رسالة الإيداع",
               "subtitle": "Record changes to the repository",
               "actions": {
-                "commit": "Commit",
+                "commit": "إيداع",
                 "cancel": "إلغاء"
               }
             }
           },
           "actions": {
-            "collapse-all": "غلق الكل",
+            "collapse-all": "طوي الكل",
             "expand-all": "فتح الكل",
-            "commit": "Commit changes",
+            "commit": "إيداع التغييرات",
             "skip": "تخطي",
             "continue": "مواصلة",
             "refresh": "إعادة تحديث"
@@ -52,7 +52,7 @@
               "parent-folder": "فتح المجلد الرئيسي",
               "edit-path": "تعديل المسار",
               "favorite": "Toggle favorite",
-              "favorite-folders": "Favorite folders",
+              "favorite-folders": "مجلدات مفضلة",
               "refresh": "إعادة تحديث"
             },
             "placeholder": "Enter the full path to a folder",
@@ -208,9 +208,9 @@
       },
       "mixins": {
         "progress": {
-          "creating": "Creating project...",
-          "git-init": "Initializing git repository...",
-          "plugins-install": "Installing Vue CLI plugins. This might take a while...",
+          "creating": "جاري تكوين المشروع...",
+          "git-init": "جار تهيئة ال'git repository'",
+          "plugins-install": "يتم تثبيت إضافات Vue CLI. قد يستغرق ذلك بعض الوقت...",
           "invoking-generators": "Invoking generators...",
           "deps-install": "Installing additional dependencies...",
           "completion-hooks": "Running completion hooks...",
@@ -583,6 +583,10 @@
               "label": "Base URL",
               "description": "The base URL your application will be deployed at, for example '/my-app/'. Use an empty string ('') so that all assets are linked using relative paths."
             },
+            "publicPath": {
+              "label": "Public Path",
+              "description": "The base URL your application will be deployed at, for example '/my-app/'. Use an empty string ('') so that all assets are linked using relative paths."
+            },
             "outputDir": {
               "label": "Output directory",
               "description": "The directory where the production build files will be generated"
@@ -751,7 +755,7 @@
           "description": "Some tips to help you get started",
           "content": {
             "title": "Welcome to your new project!",
-            "tip1": "You are looking at the project dashboard where your can put widgets. Use the 'Customize' button to add more! Everything is automatically saved.",
+            "tip1": "You are looking at the project dashboard where you can put widgets. Use the 'Customize' button to add more! Everything is automatically saved.",
             "tip2": "On the left are the different available pages. 'Plugins' let you add new Vue CLI plugins, 'Dependencies' for managing the packages, 'Configuration' to configure the tools and 'Tasks' to run scripts (for example webpack).",
             "tip3": "Return to the project manager with the dropdown at the top left of the screen or the home button in the status bar at the bottom.",
             "ok": "Understood"

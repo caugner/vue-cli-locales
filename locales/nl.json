@@ -8,7 +8,7 @@
       },
       "components": {
         "client-addon-component": {
-          "timeout": "Component load timeout",
+          "timeout": "Component laad timeout",
           "timeout-info": "Het custom component duurt te lang om te laden, er is mogelijk een fout"
         },
         "connection-status": {
@@ -28,9 +28,9 @@
           "error": "Kon de bestandswijzigingen niet ophalen",
           "modals": {
             "commit": {
-              "title": "Commit changes",
-              "input": "Enter a commit message",
-              "subtitle": "Record changes to the repository",
+              "title": "Commit veranderingen ",
+              "input": "Schrijf een commit bericht",
+              "subtitle": "Let op veranderingen in de repository",
               "actions": {
                 "commit": "Commit",
                 "cancel": "Annuleer"
@@ -40,7 +40,7 @@
           "actions": {
             "collapse-all": "Alles inklappen",
             "expand-all": "Alles uitklappen",
-            "commit": "Commit changes",
+            "commit": "Commit veranderingen",
             "skip": "Sla over",
             "continue": "Ga door",
             "refresh": "Ververs"
@@ -133,7 +133,7 @@
         "project-tasks-dropdown": {
           "tooltips": {
             "tasks": "Taken",
-            "running-tasks": "{3} lopende taken"
+            "running-tasks": "{count} lopende taken"
           }
         },
         "prompt-list": {
@@ -144,11 +144,11 @@
         },
         "status-bar": {
           "project": {
-            "tooltip": "Click to toggle Project Manager",
+            "tooltip": "Klik voor de Project Manager",
             "empty": "Geen project open"
           },
           "path": {
-            "tooltip": "Current Working Folder"
+            "tooltip": "Huidige werkende map"
           },
           "log": {
             "tooltip": "Logs<br><i>Klik om tussen de weergavemodi van Vue CLI logs te wisselen</i>",
@@ -268,7 +268,7 @@
                 "folder": {
                   "label": "Project map",
                   "placeholder": "Typ een naam",
-                  "tooltip": "Change base folder",
+                  "tooltip": "Verander base map",
                   "action": "Deze map selecteren",
                   "folder-exists": "Deze map bestaat al",
                   "folder-name-invalid": "Ongeldige mapnaam"
@@ -282,7 +282,7 @@
                   "force": "Overschrijf de doelmap als deze bestaat",
                   "git-title": "Git-repository",
                   "git": "Git-repository initialiseren (aangeraden)",
-                  "git-commit-message": "Initial commit message (optional)"
+                  "git-commit-message": "Initieel commit bericht (optioneel)"
                 }
               },
               "buttons": {
@@ -583,6 +583,10 @@
               "label": "Base URL",
               "description": "The base URL your application will be deployed at, for example '/my-app/'. Use an empty string ('') so that all assets are linked using relative paths."
             },
+            "publicPath": {
+              "label": "Public Path",
+              "description": "The base URL your application will be deployed at, for example '/my-app/'. Use an empty string ('') so that all assets are linked using relative paths."
+            },
             "outputDir": {
               "label": "Output directory",
               "description": "The directory where the production build files will be generated"
@@ -751,7 +755,7 @@
           "description": "Some tips to help you get started",
           "content": {
             "title": "Welcome to your new project!",
-            "tip1": "You are looking at the project dashboard where your can put widgets. Use the 'Customize' button to add more! Everything is automatically saved.",
+            "tip1": "You are looking at the project dashboard where you can put widgets. Use the 'Customize' button to add more! Everything is automatically saved.",
             "tip2": "On the left are the different available pages. 'Plugins' let you add new Vue CLI plugins, 'Dependencies' for managing the packages, 'Configuration' to configure the tools and 'Tasks' to run scripts (for example webpack).",
             "tip3": "Return to the project manager with the dropdown at the top left of the screen or the home button in the status bar at the bottom.",
             "ok": "Understood"
@@ -806,15 +810,15 @@
             "attention": "{n} vulnerabilities found"
           },
           "severity": {
-            "high": "High severity",
-            "medium": "Medium severity",
-            "low": "Low severity"
+            "high": "Hoge ernst",
+            "medium": "Middel ernst",
+            "low": "Lage ernst"
           },
           "direct-dep": "Direct dependency"
         },
         "run-task": {
-          "title": "Run task",
-          "description": "Shortcut to run a task",
+          "title": "Start taak",
+          "description": "Snelkoppeling om taak te starten",
           "prompts": {
             "task": "Selecteer een taak"
           },
@@ -826,10 +830,10 @@
           "refresh": "Forceer refresh",
           "select-tip": "Selecteer een item aan de linkerkant",
           "prompts": {
-            "url": "RSS feed URL or GitHub repository"
+            "url": "RSS feed URL of GitHub repository"
           },
           "errors": {
-            "fetch": "Couldn't fetch feed",
+            "fetch": "Kan feed niet fetchen",
             "offline": "Je bent offline",
             "empty": "Lege feed"
           }

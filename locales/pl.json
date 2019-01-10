@@ -87,7 +87,7 @@
         },
         "project-nav": {
           "tooltips": {
-            "dashboard": "Kokpit",
+            "dashboard": "Panel sterowania",
             "plugins": "Pluginy",
             "dependencies": "Zależności",
             "configuration": "Konfiguracja",
@@ -116,7 +116,7 @@
           "installed": "Zainstalowane",
           "actions": {
             "update": "Aktualizuj {target}",
-            "refresh": "Force Refresh {target}<br><i>Press [Shift] for Quick Refresh (node_modules won't be updated)</i>"
+            "refresh": "Przymusowe przeładowanie {target} <br> <i> Naciśnij [Shift], żeby szybko odświeżyć (node_modules nie będą zaktualizowane) </i>"
           },
           "local": "Lokalny"
         },
@@ -189,7 +189,7 @@
         },
         "widget": {
           "remove": "Usuń widżet",
-          "configure": "Konfiguracja widżeta",
+          "configure": "Konfiguracja widżetu",
           "save": "Zapisz",
           "reset-config": "Reset konfiguracji",
           "open-details": "Pokaż więcej"
@@ -213,7 +213,7 @@
           "plugins-install": "Instalacja pluginów Vue CLI. Może to zająć chwilę...",
           "invoking-generators": "Uruchamianie generatorów...",
           "deps-install": "Instalacja dodatkowych zależności...",
-          "completion-hooks": "Running completion hooks...",
+          "completion-hooks": "Kończenie pracy hooków",
           "fetch-remote-preset": "Pobieranie zdalnych presetów...",
           "done": "Sukces! Utworzono projekt.",
           "plugin-install": "Instalacja {arg0}...",
@@ -462,7 +462,7 @@
           }
         },
         "project-dashboard": {
-          "title": "Kokpit projektu",
+          "title": "Panel projektu",
           "cutomize": "Dostosuj",
           "done": "Gotowe"
         },
@@ -582,6 +582,10 @@
             "baseUrl": {
               "label": "Bazowy URL",
               "description": "Podstawowy adres URL, na którym zostanie wdrożona aplikacja, na przykład \"/my-app/\". Użyj pustego ciągu (\"\"), aby wszystkie zasoby były połączone przy użyciu ścieżek względnych."
+            },
+            "publicPath": {
+              "label": "Public Path",
+              "description": "The base URL your application will be deployed at, for example '/my-app/'. Use an empty string ('') so that all assets are linked using relative paths."
             },
             "outputDir": {
               "label": "Katalog wyjściowy",
@@ -751,7 +755,7 @@
           "description": "Kilka porad, aby pomóc Ci zacząć",
           "content": {
             "title": "Witaj w swoim nowym projekcie!",
-            "tip1": "You are looking at the project dashboard where your can put widgets. Use the 'Customize' button to add more! Everything is automatically saved.",
+            "tip1": "You are looking at the project dashboard where you can put widgets. Use the 'Customize' button to add more! Everything is automatically saved.",
             "tip2": "On the left are the different available pages. 'Plugins' let you add new Vue CLI plugins, 'Dependencies' for managing the packages, 'Configuration' to configure the tools and 'Tasks' to run scripts (for example webpack).",
             "tip3": "Return to the project manager with the dropdown at the top left of the screen or the home button in the status bar at the bottom.",
             "ok": "Zrozumiano"

@@ -583,6 +583,10 @@
               "label": "Основен URL",
               "description": "Основният URL, от който приложението ще бъде инсталирано, например '/my-app/'. Използвайте празен string (''), ако искате всички ресурси да са с релативни пътища."
             },
+            "publicPath": {
+              "label": "Public Path",
+              "description": "The base URL your application will be deployed at, for example '/my-app/'. Use an empty string ('') so that all assets are linked using relative paths."
+            },
             "outputDir": {
               "label": "Изходна директория",
               "description": "Директорията, в която крайните файлове ще бъдат генерирани"
@@ -751,7 +755,7 @@
           "description": "Съвети, които да помогнат в началото",
           "content": {
             "title": "Добре дошъл в новият ти проект!",
-            "tip1": "Гледаш таблото на своя проект. Тук можеш да добавят widgets. Използвай бутона \"Персонализирай\" за да добавиш още. Всичко се записва автоматично.",
+            "tip1": "You are looking at the project dashboard where you can put widgets. Use the 'Customize' button to add more! Everything is automatically saved.",
             "tip2": "От ляво се виждат различните налични страници. 'Плъгини' позволява добавянето на нови Vue CLI плъгини, 'Зависимости' управлява пакети, 'Конфигурация' конфигурира различните инструменти, а 'Задачи' е за пускане на скриптове (например webpack). ",
             "tip3": "Върни се към мениджъра на проекта чрез падащото меню горе в ляво на екрана или използвайки home бутона в статус лентата в долната част на екрана.",
             "ok": "Разбирам"

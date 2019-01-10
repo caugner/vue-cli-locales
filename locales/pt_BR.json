@@ -583,6 +583,10 @@
               "label": "Base URL",
               "description": "The base URL your application will be deployed at, for example '/my-app/'. Use an empty string ('') so that all assets are linked using relative paths."
             },
+            "publicPath": {
+              "label": "Public Path",
+              "description": "The base URL your application will be deployed at, for example '/my-app/'. Use an empty string ('') so that all assets are linked using relative paths."
+            },
             "outputDir": {
               "label": "Output directory",
               "description": "The directory where the production build files will be generated"
@@ -751,7 +755,7 @@
           "description": "Algumas dicas para ajudar você a começar",
           "content": {
             "title": "Bem vindo ao seu novo projeto!",
-            "tip1": "Você está olhando para a dashboard do projeto onde você pode colocar widgets. Use o botão \"Customizar\" para adicionar mais! Tudo é salvo automaticamente.",
+            "tip1": "You are looking at the project dashboard where you can put widgets. Use the 'Customize' button to add more! Everything is automatically saved.",
             "tip2": "À esquerda estão as diferentes páginas disponíveis. 'Plugins' permitem adicionar novos plugins do Vue CLI, 'Dependências' para gerenciar os pacotes, 'Configuração' para configurar as ferramentas e 'Tarefas' para executar scripts (por exemplo, webpack).",
             "tip3": "Volte para o gerenciador de projetos com a lista suspensa no canto superior esquerdo da tela ou o botão inicial na barra de status na parte inferior.",
             "ok": "Entendido"

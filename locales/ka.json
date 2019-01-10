@@ -49,173 +49,173 @@
         "folder-explorer": {
           "toolbar": {
             "tooltips": {
-              "parent-folder": "მშობელი დირექტორიის გახსნა",
+              "parent-folder": "მშობელი საქაღალდის გახსნა",
               "edit-path": "გზის რედაქტირება",
               "favorite": "ფავორიტის გადართვა",
-              "favorite-folders": "Favorite folders",
-              "refresh": "Refresh"
+              "favorite-folders": "რჩეული საქაღალდეები",
+              "refresh": "განახლება"
             },
             "placeholder": "Enter the full path to a folder",
-            "empty": "No favorite folders yet.",
-            "show-hidden": "Show hidden folders"
+            "empty": "რჩეული დირექტორიები ჯერ არ არის",
+            "show-hidden": "ფარული საქაღალდეების ჩვენება"
           },
           "new-folder": {
-            "action": "New folder",
-            "title": "Create new folder",
+            "action": "ახალი საქაღალდე",
+            "title": "ახალი საქაღალდის შექმნა",
             "field": {
-              "title": "New folder",
-              "subtitle": "You can use the folder separator to create multiple nested folders at once."
+              "title": "ახალი საქაღალდე",
+              "subtitle": "შეგიძლიათ გამოიყენოთ საქაღალდეების გამყოფი რამდენიმე ჩასმული საქაღალდის ერთდროულად შესაქმნელად."
             },
-            "cancel": "Cancel",
-            "create": "Create"
+            "cancel": "გაუქმება",
+            "create": "შექმნა"
           }
         },
         "list-item-info": {
-          "more-info": "More Info"
+          "more-info": "დაწვრილებით"
         },
         "logger-view": {
           "title": "Logs",
           "empty": "No logs yet",
           "buttons": {
             "clear": "Clear logs",
-            "scroll": "Scroll to bottom",
-            "close": "Close"
+            "scroll": "გადახვევა ქვემოთ",
+            "close": "დახურვა"
           }
         },
         "progress-screen": {
-          "close": "Close"
+          "close": "დახურვა"
         },
         "project-nav": {
           "tooltips": {
-            "dashboard": "Dashboard",
-            "plugins": "Plugins",
-            "dependencies": "Dependencies",
-            "configuration": "Configuration",
-            "tasks": "Tasks",
-            "more": "More"
+            "dashboard": "საინფორმაციო დაფა",
+            "plugins": "ფლაგინები",
+            "dependencies": "დამოკიდებულებები",
+            "configuration": "კონფიგურაცია",
+            "tasks": "ამოცანები",
+            "more": "მეტი"
           }
         },
         "project-select-list": {
-          "empty": "No existing projects",
+          "empty": "არსებული პროექტები არ არის",
           "titles": {
-            "favorite": "Favorite projects",
-            "other": "Other projects"
+            "favorite": "რჩეული პროექტები",
+            "other": "სხვა პროექტები"
           }
         },
         "project-select-list-item": {
           "tooltips": {
-            "favorite": "Toggle favorite",
-            "delete": "Remove from list",
-            "open-in-editor": "Open in editor"
+            "favorite": "რჩეულის დამატება/წაშლა",
+            "delete": "წაშლა სიიდან",
+            "open-in-editor": "რდაქტორში გახსნა"
           }
         },
         "project-plugin-item": {
-          "version": "version",
-          "latest": "latest",
-          "official": "Official",
-          "installed": "Installed",
+          "version": "ვერსია",
+          "latest": "უკანასკნელი",
+          "official": "ოფიციალური",
+          "installed": "დაინსტალირებული",
           "actions": {
-            "update": "Update {target}",
+            "update": "განახლება {target}",
             "refresh": "Force Refresh {target}<br><i>Press [Shift] for Quick Refresh (node_modules won't be updated)</i>"
           },
-          "local": "Local"
+          "local": "ლოკალური"
         },
         "project-dependency-item": {
-          "version": "version",
-          "wanted": "wanted",
-          "latest": "latest",
-          "installed": "Installed",
+          "version": "ვერსია",
+          "wanted": "აუცილებელია",
+          "latest": "უკანასკნელი",
+          "installed": "დაინსტალირებული",
           "actions": {
-            "update": "Update {target}",
-            "uninstall": "Uninstall {target}"
+            "update": "განახლება {target}",
+            "uninstall": "წაშლა {target}"
           }
         },
         "project-tasks-dropdown": {
           "tooltips": {
-            "tasks": "Tasks",
+            "tasks": "ამოცანები",
             "running-tasks": "{count} running task(s)"
           }
         },
         "prompt-list": {
-          "default": "Default"
+          "default": "დეფოლტი"
         },
         "prompts-list": {
-          "empty": "No configuration"
+          "empty": "კონფიგურაცია არ არის"
         },
         "status-bar": {
           "project": {
             "tooltip": "Click to toggle Project Manager",
-            "empty": "No project open"
+            "empty": "პროექტი არ არის"
           },
           "path": {
-            "tooltip": "Current Working Folder"
+            "tooltip": "მიმდინარე მუშა საქაღალდე"
           },
           "log": {
             "tooltip": "Logs<br><i>Click to toggle Vue CLI logs</i>",
             "empty": "No logs yet"
           },
-          "report-bug": "Report bug",
-          "translate": "Help translate",
-          "dark-mode": "Toggle dark mode",
-          "reset-plugin-api": "Refresh plugins API"
+          "report-bug": "შეტყობინება შეცდომაზე",
+          "translate": "დახმარება თარგმნაში",
+          "dark-mode": "მუქი რეჟიმის გადართვა",
+          "reset-plugin-api": "API პლაგინების განახლება"
         },
         "suggestion-bar": {
-          "suggestion": "Suggestion",
+          "suggestion": "შეთავაზება",
           "modal": {
-            "cancel": "Cancel",
-            "continue": "Continue"
+            "cancel": "გაუქმება",
+            "continue": "გაგრძელება"
           }
         },
         "terminal-view": {
           "buttons": {
-            "clear": "Clear console",
-            "scroll": "Scroll to bottom"
+            "clear": "კონსოლის გასუფთავება",
+            "scroll": "ქვემოთ ჩამოსქროლვა"
           }
         },
         "top-bar": {
-          "no-favorites": "No favorite projects",
-          "favorite-projects": "Favorite projects",
-          "recent-projects": "Recent projects",
-          "homepage": "Home page"
+          "no-favorites": "არ არის რჩეული პროექტები",
+          "favorite-projects": "რჩეული პროექტები",
+          "recent-projects": "ბოლო პროექტები",
+          "homepage": "მთავარი გვერდი"
         },
         "view-badge": {
           "labels": {
             "tasks": {
-              "error": "Error status",
-              "running": "Running status",
-              "done": "Done status"
+              "error": "შეცდომის სტატუსი",
+              "running": "გაშვების სტატუსი",
+              "done": "შესრულების სტატუსი"
             }
           }
         },
         "widget": {
-          "remove": "Remove widget",
-          "configure": "Configure widget",
-          "save": "Save",
-          "reset-config": "Reset config",
-          "open-details": "Show more"
+          "remove": "ვიჯეტის წაშლა",
+          "configure": "ვიჯეტის კონფიგურაცია",
+          "save": "შენახვა",
+          "reset-config": "კონფიგურაციის რესეტი",
+          "open-details": "მეტის ნახვა"
         },
         "widget-add-pane": {
-          "title": "Add widgets"
+          "title": "ვიჯეტების დამატება"
         },
         "widget-add-item": {
-          "add": "Add widget",
+          "add": "ვიჯეტის დამატება",
           "details": {
-            "title": "Widget details",
-            "max-instances": "Max instance count: {count}/{total}",
-            "unlimited": "unlimited"
+            "title": "ვიჯეტის დეტალები",
+            "max-instances": "ეგზემპლარების მაქსიმალური რაოდენობა: {დათვლა}/{მთლიანად}",
+            "unlimited": "შეუზღუდავად"
           }
         }
       },
       "mixins": {
         "progress": {
-          "creating": "Creating project...",
-          "git-init": "Initializing git repository...",
-          "plugins-install": "Installing Vue CLI plugins. This might take a while...",
-          "invoking-generators": "Invoking generators...",
-          "deps-install": "Installing additional dependencies...",
-          "completion-hooks": "Running completion hooks...",
+          "creating": "პროექტის შექმნა",
+          "git-init": "git რეპოზიტორის ინიციალიზაცია",
+          "plugins-install": "Vie CLI ფლაგინების ინსტალაცია. დასჭირდება გარკვული დრო...",
+          "invoking-generators": "გენერატორების გამოძახება",
+          "deps-install": "დამატებითი დამოკიდებულებების ინსტალაცია",
+          "completion-hooks": "საბოლოო ჰუკების გაშვება",
           "fetch-remote-preset": "Fetching remote preset...",
-          "done": "Successfully created project",
+          "done": "პროექტი წარმატებით შეიქმნა",
           "plugin-install": "Installing {arg0}...",
           "plugin-uninstall": "Uninstalling {arg0}...",
           "plugin-invoke": "Invoking {arg0}...",
@@ -233,7 +233,7 @@
             "idle": "Idle",
             "running": "Running",
             "done": "Done",
-            "error": "Error",
+            "error": "შეცდომა",
             "terminated": "Terminated"
           }
         }
@@ -242,7 +242,7 @@
         "project-select": {
           "title": "Vue Project Manager",
           "tabs": {
-            "projects": "Projects",
+            "projects": "პროექტები",
             "create": "Create",
             "import": "Import"
           },
@@ -400,7 +400,7 @@
             "title": "Uninstall {target}?",
             "body": "Do you want to uninstall the {target} plugin?",
             "buttons": {
-              "back": "Go back",
+              "back": "უკან დაბრუნება",
               "cancel": "Cancel without uninstalling",
               "uninstall": "Uninstall"
             }
@@ -583,6 +583,10 @@
               "label": "Base URL",
               "description": "The base URL your application will be deployed at, for example '/my-app/'. Use an empty string ('') so that all assets are linked using relative paths."
             },
+            "publicPath": {
+              "label": "Public Path",
+              "description": "The base URL your application will be deployed at, for example '/my-app/'. Use an empty string ('') so that all assets are linked using relative paths."
+            },
             "outputDir": {
               "label": "Output directory",
               "description": "The directory where the production build files will be generated"
@@ -751,7 +755,7 @@
           "description": "Some tips to help you get started",
           "content": {
             "title": "Welcome to your new project!",
-            "tip1": "You are looking at the project dashboard where your can put widgets. Use the 'Customize' button to add more! Everything is automatically saved.",
+            "tip1": "You are looking at the project dashboard where you can put widgets. Use the 'Customize' button to add more! Everything is automatically saved.",
             "tip2": "On the left are the different available pages. 'Plugins' let you add new Vue CLI plugins, 'Dependencies' for managing the packages, 'Configuration' to configure the tools and 'Tasks' to run scripts (for example webpack).",
             "tip3": "Return to the project manager with the dropdown at the top left of the screen or the home button in the status bar at the bottom.",
             "ok": "Understood"

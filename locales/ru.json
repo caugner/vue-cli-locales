@@ -211,7 +211,7 @@
           "creating": "Создаем проект...",
           "git-init": "Инициализируем git репозиторий...",
           "plugins-install": "Устанавливаем Vue CLI плагины. Это займет какое-то время...",
-          "invoking-generators": "Вызоваем генераторы...",
+          "invoking-generators": "Вызываем генераторы...",
           "deps-install": "Устанавливаем дополнительные зависимости...",
           "completion-hooks": "Запускаем завершающие хуки...",
           "fetch-remote-preset": "Получаем удаленный preset...",
@@ -323,7 +323,7 @@
                   "subtitle": "Git репозиторий (например, 'username/repo'). Вы также можете использовать префикс 'gitlab:' или 'bitbucket:'."
                 },
                 "options": "Другие опции",
-                "clone": "Clone/Private repository",
+                "clone": "Клонировать/Приватный репозиторий",
                 "cancel": "Отмена",
                 "done": "Готово"
               },
@@ -527,7 +527,7 @@
           }
         },
         "analyzer": {
-          "title": "Аналзатор",
+          "title": "Анализатор",
           "go-up": "Наверх",
           "go-home": "Домой",
           "chunk": "Кусок (chunk)"
@@ -538,7 +538,7 @@
           "gzip": "Gzip",
           "help": "<b>Статистика:</b> размер из аналитики webpack.<br><b>Проанализировано:</b> размер из извлеченных исходных кодов (после минификации плагинов). Более точно.<br><b>Gzip:</b> размер извлеченных исходников сжатых gzip."
         },
-        "modern-mode": "Show modern build",
+        "modern-mode": "Показать актуальную сборку",
         "tasks": {
           "serve": {
             "description": "Компилируется и поддерживает горячую перезагрузку для разработки.",
@@ -581,6 +581,10 @@
             },
             "baseUrl": {
               "label": "Базовый URL",
+              "description": "Базовый URL вашего приложения на которое оно будет развернуто, например, '/my-app/'. Используйте пустую строку ('') чтобы все ассеты  были связаны с использованием относительных путей."
+            },
+            "publicPath": {
+              "label": "Public Path",
               "description": "The base URL your application will be deployed at, for example '/my-app/'. Use an empty string ('') so that all assets are linked using relative paths."
             },
             "outputDir": {
@@ -589,7 +593,7 @@
             },
             "assetsDir": {
               "label": "Каталог статических ресурсов",
-              "description": "A directory to nest generated static assets (js, css, img, fonts) under."
+              "description": "Каталог для хранения вложенных сгенерированных статических ресурсов (js, css, img, fonts)."
             },
             "runtimeCompiler": {
               "label": "Включить компиляцию во время выполнения",
@@ -601,20 +605,20 @@
             },
             "parallel": {
               "label": "Параллельная компиляция",
-              "description": "Whether to use multiple processors to compile Babel or Typescript."
+              "description": "Использовать ли несколько процессоров для компиляции Babel или Typescript."
             },
             "css": {
               "modules": {
                 "label": "Включить CSS модули",
-                "description": "By default, only files that ends in *.module.[ext] are treated as CSS modules. Enabling this will treat all style files as CSS modules."
+                "description": "По умолчанию только файлы, оканчивающиеся на *.module.[ext], считаются модулями CSS. Включение этого будет рассматривать все файлы стилей как модули CSS."
               },
               "extract": {
                 "label": "Извлечь CSS",
-                "description": "Whether to extract CSS in your components into a standalone CSS files (instead of inlined in JavaScript and injected dynamically)."
+                "description": "Нужно ли извлекать CSS из компонентов в отдельные CSS файлы (вместо встроенного в Javascript и динамически вставляемого)"
               },
               "sourceMap": {
                 "label": "Включить Source Maps для CSS",
-                "description": "Whether to enable source maps for CSS. Enabling this may affect build performance."
+                "description": "Включить ли source maps для CSS. Включение может повлиять на производительность сборки."
               }
             }
           }
@@ -722,8 +726,8 @@
           "test": {
             "description": "Запустить e2e тесты в Nightwatch",
             "url": "Запустить e2e тесты с указанным URL адресом вместо автозапуска dev сервера",
-            "config": "Use custom nightwatch config file (overrides internals)",
-            "env": "Comma-delimited browser envs to run in"
+            "config": "Использовать пользовательский конфигурационный файл Nightwatch (переопределяет внутренний)",
+            "env": "Окружения браузера для запуска разделенные запятыми."
           }
         }
       },
@@ -733,7 +737,7 @@
             "description": "Запустить юнит тесты используя Jest",
             "watch": "Отслеживать изменения в файлах и перезапускать тесты, связанные с изменёнными файлами",
             "notify": "Отображать уведомление после каждого запуска",
-            "update": "Re-record every snapshot that fails during this test run"
+            "update": "Перезаписать каждый снимок, который не удался во время запуска этого теста."
           }
         }
       },
@@ -751,7 +755,7 @@
           "description": "Несколько советов, которые помогут вам начать работу",
           "content": {
             "title": "Добро пожаловать в ваш новый проект!",
-            "tip1": "Сейчас перед вами главная страница проекта, где вы можете разместить различные виджеты. Нажмите кнопку \"Настроить\" чтобы добавить виджеты! Все изменения автоматически сохраняются.",
+            "tip1": "You are looking at the project dashboard where you can put widgets. Use the 'Customize' button to add more! Everything is automatically saved.",
             "tip2": "Слева находятся различные страницы.'Плагины' позволяет добавлять новые плагины CLI , 'Зависимости' для управления пакетами , 'Конфигурация' чтобы настроить инструменты и \"задачи\" для выполнения скриптов(например webpack)",
             "tip3": "Вернитесь к менеджеру проектов с помощью выпадающего меню в левом верхнем углу экрана или кнопки \"Домой\" в строке состояния внизу.",
             "ok": "Понятно"
@@ -802,7 +806,7 @@
           "description": "Проверка на наличие известных уязвимостей в зависимостях проекта",
           "messages": {
             "ok": "Уязвимость не найдена",
-            "loading": "Checking security reports...",
+            "loading": "Проверка отчётов безопасности...",
             "attention": "Найдено {n} уязвимостей"
           },
           "severity": {

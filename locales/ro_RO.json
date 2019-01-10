@@ -2,9 +2,9 @@
   "org": {
     "vue": {
       "common": {
-        "close": "Close",
-        "back": "Go back",
-        "more-info": "More info"
+        "close": "Inchide",
+        "back": "Inapoi",
+        "more-info": "Mai multe informatii"
       },
       "components": {
         "client-addon-component": {
@@ -13,17 +13,17 @@
         },
         "connection-status": {
           "disconnected": "Disconnected from UI server",
-          "connected": "Connected!"
+          "connected": "Conectat!"
         },
         "file-diff": {
           "binary": "Binary file not shown",
           "actions": {
-            "open": "Open in editor"
+            "open": "Deschide in editor"
           }
         },
         "file-diff-view": {
-          "files-changed": "Files changed",
-          "search-file": "Search file",
+          "files-changed": "Fisiere modificate",
+          "search-file": "Cauta fisiere",
           "empty": "No change found",
           "error": "Couldn't get file changes",
           "modals": {
@@ -32,18 +32,18 @@
               "input": "Enter a commit message",
               "subtitle": "Record changes to the repository",
               "actions": {
-                "commit": "Commit",
-                "cancel": "Cancel"
+                "commit": "Comite",
+                "cancel": "Anulare"
               }
             }
           },
           "actions": {
-            "collapse-all": "Collapse all",
-            "expand-all": "Expand all",
+            "collapse-all": "Restrângeți tot",
+            "expand-all": "Extinde tot",
             "commit": "Commit changes",
             "skip": "Skip",
-            "continue": "Continue",
-            "refresh": "Refresh"
+            "continue": "Continua",
+            "refresh": "Reîncarca"
           }
         },
         "folder-explorer": {
@@ -53,20 +53,20 @@
               "edit-path": "Edit path",
               "favorite": "Toggle favorite",
               "favorite-folders": "Favorite folders",
-              "refresh": "Refresh"
+              "refresh": "Reîncarca"
             },
             "placeholder": "Enter the full path to a folder",
             "empty": "No favorite folders yet.",
             "show-hidden": "Show hidden folders"
           },
           "new-folder": {
-            "action": "New folder",
-            "title": "Create new folder",
+            "action": "Folder nou",
+            "title": "Creati un folder nou",
             "field": {
-              "title": "New folder",
+              "title": "Folder nou",
               "subtitle": "You can use the folder separator to create multiple nested folders at once."
             },
-            "cancel": "Cancel",
+            "cancel": "Anulare",
             "create": "Create"
           }
         },
@@ -79,18 +79,18 @@
           "buttons": {
             "clear": "Clear logs",
             "scroll": "Scroll to bottom",
-            "close": "Close"
+            "close": "Inchide"
           }
         },
         "progress-screen": {
-          "close": "Close"
+          "close": "Inchide"
         },
         "project-nav": {
           "tooltips": {
             "dashboard": "Dashboard",
             "plugins": "Plugins",
-            "dependencies": "Dependencies",
-            "configuration": "Configuration",
+            "dependencies": "Dependinte",
+            "configuration": "Configuraţie",
             "tasks": "Tasks",
             "more": "More"
           }
@@ -110,10 +110,10 @@
           }
         },
         "project-plugin-item": {
-          "version": "version",
+          "version": "versiune",
           "latest": "latest",
-          "official": "Official",
-          "installed": "Installed",
+          "official": "Oficial",
+          "installed": "Instalat",
           "actions": {
             "update": "Update {target}",
             "refresh": "Force Refresh {target}<br><i>Press [Shift] for Quick Refresh (node_modules won't be updated)</i>"
@@ -121,13 +121,13 @@
           "local": "Local"
         },
         "project-dependency-item": {
-          "version": "version",
+          "version": "versiune",
           "wanted": "wanted",
           "latest": "latest",
-          "installed": "Installed",
+          "installed": "Instalat",
           "actions": {
-            "update": "Update {target}",
-            "uninstall": "Uninstall {target}"
+            "update": "Actualizare {target}",
+            "uninstall": "Dezinstalare {target}"
           }
         },
         "project-tasks-dropdown": {
@@ -137,7 +137,7 @@
           }
         },
         "prompt-list": {
-          "default": "Default"
+          "default": "Implicit"
         },
         "prompts-list": {
           "empty": "No configuration"
@@ -162,8 +162,8 @@
         "suggestion-bar": {
           "suggestion": "Suggestion",
           "modal": {
-            "cancel": "Cancel",
-            "continue": "Continue"
+            "cancel": "Anulare",
+            "continue": "Continua"
           }
         },
         "terminal-view": {
@@ -190,7 +190,7 @@
         "widget": {
           "remove": "Remove widget",
           "configure": "Configure widget",
-          "save": "Save",
+          "save": "Salveaza",
           "reset-config": "Reset config",
           "open-details": "Show more"
         },
@@ -202,7 +202,7 @@
           "details": {
             "title": "Widget details",
             "max-instances": "Max instance count: {count}/{total}",
-            "unlimited": "unlimited"
+            "unlimited": "nelimitat"
           }
         }
       },
@@ -233,7 +233,7 @@
             "idle": "Idle",
             "running": "Running",
             "done": "Done",
-            "error": "Error",
+            "error": "Eroare",
             "terminated": "Terminated"
           }
         }
@@ -242,12 +242,12 @@
         "project-select": {
           "title": "Vue Project Manager",
           "tabs": {
-            "projects": "Projects",
+            "projects": "Proiecte",
             "create": "Create",
             "import": "Import"
           },
           "buttons": {
-            "create": "Create a new project here",
+            "create": "Creati un proiect nou aici",
             "import": "Import this folder"
           },
           "import": {
@@ -260,10 +260,10 @@
           }
         },
         "project-create": {
-          "title": "Create a new project",
+          "title": "Creati un proiect nou",
           "tabs": {
             "details": {
-              "title": "Details",
+              "title": "Detalii",
               "form": {
                 "folder": {
                   "label": "Project folder",
@@ -275,7 +275,7 @@
                 },
                 "manager": {
                   "label": "Package manager",
-                  "default": "Default"
+                  "default": "Implicit"
                 },
                 "options": {
                   "label": "Additional options",
@@ -286,7 +286,7 @@
                 }
               },
               "buttons": {
-                "cancel": "Cancel",
+                "cancel": "Anulare",
                 "next": "Next"
               },
               "modal": {
@@ -324,7 +324,7 @@
                 },
                 "options": "Other options",
                 "clone": "Clone/Private repository",
-                "cancel": "Cancel",
+                "cancel": "Anulare",
                 "done": "Done"
               },
               "default-preset": "Default preset"
@@ -356,7 +356,7 @@
                   "subtitle": "Save the features and configuration into a new preset"
                 },
                 "buttons": {
-                  "cancel": "Cancel",
+                  "cancel": "Anulare",
                   "continue": "Continue without saving",
                   "create": "Create a new preset"
                 }
@@ -379,7 +379,7 @@
               "search-input": "Search a plugin",
               "not-found": "No results found",
               "buttons": {
-                "cancel": "Cancel",
+                "cancel": "Anulare",
                 "install": "Install {target}",
                 "default-install": "Install"
               }
@@ -388,7 +388,7 @@
               "label": "Configuration",
               "heading": "Installation of {target}",
               "buttons": {
-                "cancel": "Cancel",
+                "cancel": "Anulare",
                 "finish": "Finish installation"
               }
             },
@@ -420,7 +420,7 @@
         },
         "project-configuration-details": {
           "actions": {
-            "cancel": "Cancel changes",
+            "cancel": "Anuleaza modificarile",
             "save": "Save changes",
             "more-info": "More info",
             "refresh": "Refresh"
@@ -457,7 +457,7 @@
           "uninstall": {
             "title": "Confirm uninstall",
             "body": "Are you sure you want to uninstall {id}?",
-            "cancel": "Cancel",
+            "cancel": "Anulare",
             "uninstall": "Uninstall {id}"
           }
         },
@@ -581,6 +581,10 @@
             },
             "baseUrl": {
               "label": "Base URL",
+              "description": "The base URL your application will be deployed at, for example '/my-app/'. Use an empty string ('') so that all assets are linked using relative paths."
+            },
+            "publicPath": {
+              "label": "Public Path",
               "description": "The base URL your application will be deployed at, for example '/my-app/'. Use an empty string ('') so that all assets are linked using relative paths."
             },
             "outputDir": {
@@ -751,7 +755,7 @@
           "description": "Some tips to help you get started",
           "content": {
             "title": "Welcome to your new project!",
-            "tip1": "You are looking at the project dashboard where your can put widgets. Use the 'Customize' button to add more! Everything is automatically saved.",
+            "tip1": "You are looking at the project dashboard where you can put widgets. Use the 'Customize' button to add more! Everything is automatically saved.",
             "tip2": "On the left are the different available pages. 'Plugins' let you add new Vue CLI plugins, 'Dependencies' for managing the packages, 'Configuration' to configure the tools and 'Tasks' to run scripts (for example webpack).",
             "tip3": "Return to the project manager with the dropdown at the top left of the screen or the home button in the status bar at the bottom.",
             "ok": "Understood"

@@ -2,14 +2,14 @@
   "org": {
     "vue": {
       "common": {
-        "close": "Close",
-        "back": "Go back",
-        "more-info": "More info"
+        "close": "닫기",
+        "back": "뒤로가기",
+        "more-info": "더보기"
       },
       "components": {
         "client-addon-component": {
-          "timeout": "Component load timeout",
-          "timeout-info": "The custom component takes too much time to load, there might be an error"
+          "timeout": "컴포넌트를 불러오기 시간초과",
+          "timeout-info": "사용자 정의 컴포넌트를 불러오는데 너무 많은 시간이 걸립니다. 오류가 있을 수 있습니다."
         },
         "connection-status": {
           "disconnected": "UI 서버와 연결이 끊겼습니다.",
@@ -25,7 +25,7 @@
           "files-changed": "파일 변경됨",
           "search-file": "파일 검색",
           "empty": "변경사항이 없습니다.",
-          "error": "Couldn't get file changes",
+          "error": "변경사항을 가져올 수 없습니다.",
           "modals": {
             "commit": {
               "title": "커밋 변경사항",
@@ -75,7 +75,7 @@
         },
         "logger-view": {
           "title": "로그",
-          "empty": "No logs yet",
+          "empty": "로그가 없습니다.",
           "buttons": {
             "clear": "로그 비우기",
             "scroll": "맨 아래로 이동",
@@ -87,7 +87,7 @@
         },
         "project-nav": {
           "tooltips": {
-            "dashboard": "Dashboard",
+            "dashboard": "대시보드",
             "plugins": "플러그인",
             "dependencies": "Dependencies",
             "configuration": "설정",
@@ -116,9 +116,9 @@
           "installed": "설치됨",
           "actions": {
             "update": "업데이트 {target}",
-            "refresh": "Force Refresh {target}<br><i>Press [Shift] for Quick Refresh (node_modules won't be updated)</i>"
+            "refresh": "{target}을 강제로 새로 고침합니다.<br><i> 빠른 새로 고침을 위해 [Shift] 키를 누릅니다. (node_modules가 업데이트되지 않음)</i>"
           },
-          "local": "Local"
+          "local": "로컬"
         },
         "project-dependency-item": {
           "version": "version",
@@ -188,21 +188,21 @@
           }
         },
         "widget": {
-          "remove": "Remove widget",
-          "configure": "Configure widget",
-          "save": "Save",
-          "reset-config": "Reset config",
-          "open-details": "Show more"
+          "remove": "위젯 제거",
+          "configure": "위젯 설정",
+          "save": "저장",
+          "reset-config": "설정 초기화",
+          "open-details": "더보기"
         },
         "widget-add-pane": {
-          "title": "Add widgets"
+          "title": "위젯 추가"
         },
         "widget-add-item": {
-          "add": "Add widget",
+          "add": "위젯 추가",
           "details": {
-            "title": "Widget details",
-            "max-instances": "Max instance count: {count}/{total}",
-            "unlimited": "unlimited"
+            "title": "위젯 상세",
+            "max-instances": "최대 인스턴스 수: {count}/{total}",
+            "unlimited": "무제한"
           }
         }
       },
@@ -256,7 +256,7 @@
               "message": "It seems the project is missing the 'node_modules' folder. Please check you installed the dependencies before importing.",
               "close": "Got it"
             },
-            "force": "Import anyway"
+            "force": "가져오기"
           }
         },
         "project-create": {
@@ -267,7 +267,7 @@
               "form": {
                 "folder": {
                   "label": "프로젝트 폴더",
-                  "placeholder": "Type a name",
+                  "placeholder": "이름 입력",
                   "tooltip": "베이스 폴더 변경",
                   "action": "폴더 선택하기",
                   "folder-exists": "This folder already exists",
@@ -323,7 +323,7 @@
                   "subtitle": "Git repo, for example 'username/repo'. You can also prefix with 'gitlab:' or 'bitbucket:'."
                 },
                 "options": "Other options",
-                "clone": "Clone/Private repository",
+                "clone": "클론/비공계 저장소",
                 "cancel": "Cancel",
                 "done": "Done"
               },
@@ -406,13 +406,13 @@
             }
           },
           "buttons": {
-            "add-local": "Browse local plugin"
+            "add-local": "로컬 플러그인 살펴보기"
           }
         },
         "project-plugin-add-local": {
-          "title": "Add a local plugin",
+          "title": "로컬 플러그인 추가",
           "buttons": {
-            "add": "Add local plugin"
+            "add": "로컬 플러그인 추가 "
           }
         },
         "project-configurations": {
@@ -434,7 +434,7 @@
             "play": "실행",
             "stop": "중지",
             "close": "닫기",
-            "save": "Save"
+            "save": "저장"
           },
           "command": "스크립트 커맨드",
           "parameters": "파라미터",
@@ -462,17 +462,17 @@
           }
         },
         "project-dashboard": {
-          "title": "Project dashboard",
-          "cutomize": "Customize",
-          "done": "Done"
+          "title": "프로젝트 대시보드",
+          "cutomize": "사용자 정의",
+          "done": "완료"
         },
         "settings": {
-          "title": "Settings"
+          "title": "설정"
         },
         "about": {
           "title": "Vue CLI에 대하여",
           "description": "<a href=\"https://github.com/vuejs/vue-cli/tree/dev/packages/%40vue/cli-ui\" target=\"_blank\">@vue/cli-ui</a> is a built-in package of vue-cli which opens a full-blown UI.",
-          "quote": "Vue-cli 3.x is a complete rewrite, with a lot of new awesome features. You will be able to select features like routing, Vuex or Typescript, then add and upgrade building blocks called \"vue-cli plugins\". But having so much more options also means the tool is now more complex and harder to start using. That's why we thought having a full-blown GUI would help discover the new features, search and install vue-cli plugins and unlock more possibilities overall while not being limited by a terminal interface. To sum up, vue-cli will not only allow you to bootstrap a new project easily, but it will also remain useful for ongoing work afterwards!",
+          "quote": "Vue-cli 3.x는 새로운 멋진 기능들을 포함하여 새로 작성되었습니다  라우터와 Vuex 그리고 타입스크립트 등을 선택한 다음 \"vue-cli 플러그인\" 이라는 빌드용 블럭을 추가하고 업그레이드 할 수 있습니다. 옵션이 너무 많아지면 도구가 너무 복잡해지고 사용하기 어려워집니다. 그래서 완전한 GUI를 이용해 vue-cli 플러그인을 찾거나 설치하고, 터미널에 제한되지 않아도 됩니다. 결국, vue-cli는 새로운 프로젝트를 쉽게 만들 수 있을 뿐 아니라 이후에도 유용하게 사용할 수 있습니다.",
           "links": "유용한 링크",
           "back": "뒤로가기"
         }
@@ -583,6 +583,10 @@
               "label": "Base URL",
               "description": "The base URL your application will be deployed at, for example '/my-app/'. Use an empty string ('') so that all assets are linked using relative paths."
             },
+            "publicPath": {
+              "label": "Public Path",
+              "description": "The base URL your application will be deployed at, for example '/my-app/'. Use an empty string ('') so that all assets are linked using relative paths."
+            },
             "outputDir": {
               "label": "Output directory",
               "description": "The directory where the production build files will be generated"
@@ -628,31 +632,31 @@
           "eslint": {
             "description": "에러 체크 & 코드 품질",
             "groups": {
-              "base": "Base",
-              "essential": "Essential",
+              "base": "기본",
+              "essential": "필수",
               "strongly-recommended": "매우 추천함",
               "recommended": "추천함",
-              "uncategorized": "Uncategorized"
+              "uncategorized": "미분류"
             },
             "setting": {
-              "off": "Off",
-              "error": "Error",
-              "warning": "Warning",
-              "custom": "Custom"
+              "off": "끄기",
+              "error": "오류",
+              "warning": "경고",
+              "custom": "사용자정의"
             },
             "general": {
-              "label": "General",
+              "label": "일반",
               "lintOnSave": {
-                "message": "Lint on save",
-                "description": "Automatically lint source files when saved"
+                "message": "저장시 린트",
+                "description": "저장할 때 자동으로 린트"
               },
               "config": {
-                "message": "Select config",
-                "description": "Select pre-defined configuration"
+                "message": "설정 선택하기",
+                "description": "정의된 설정 선택"
               }
             },
             "rules": {
-              "label": "Rules"
+              "label": "규칙"
             }
           }
         },
@@ -747,91 +751,91 @@
       },
       "widgets": {
         "welcome": {
-          "title": "Welcome tips",
-          "description": "Some tips to help you get started",
+          "title": "오늘의 팁",
+          "description": "시작하는데 도움을 줄 팁입니다",
           "content": {
-            "title": "Welcome to your new project!",
-            "tip1": "You are looking at the project dashboard where your can put widgets. Use the 'Customize' button to add more! Everything is automatically saved.",
-            "tip2": "On the left are the different available pages. 'Plugins' let you add new Vue CLI plugins, 'Dependencies' for managing the packages, 'Configuration' to configure the tools and 'Tasks' to run scripts (for example webpack).",
-            "tip3": "Return to the project manager with the dropdown at the top left of the screen or the home button in the status bar at the bottom.",
-            "ok": "Understood"
+            "title": "새 프로젝트를 환영합니다!",
+            "tip1": "You are looking at the project dashboard where you can put widgets. Use the 'Customize' button to add more! Everything is automatically saved.",
+            "tip2": "왼쪽에 사용할 수 있는 다른 페이지가 있습니다. '플러그인'에서 Vue CLI 플러그인을 추가할 수 있고, '의존성' 에서는 패키지를 관리합니다. '설정'은 개발도구를 설정할 수 있으며 '태스크'는 스크립트를 실행할 수있습니다. (에를 들어 웹팩)",
+            "tip3": "화면 왼쪽 상단의 드랍다운을 이용하거나 아래에 있는 상태표시줄의 홈 버튼을 눌러 프로젝트 매니저로 돌아갈 수 있습니다.",
+            "ok": "이해했습니다."
           }
         },
         "kill-port": {
-          "title": "Kill port",
-          "description": "Kill processes using a specific network port",
+          "title": "포트 중지",
+          "description": "특정 포트를 사용하는 프로세스 종료",
           "input": {
-            "placeholder": "Enter a network port"
+            "placeholder": "네트워크 포트를 입력하세요"
           },
-          "kill": "Kill",
+          "kill": "종료",
           "status": {
-            "idle": "Ready to kill",
-            "killing": "Killing procress...",
-            "killed": "Killed successfully!",
-            "error": "Couldn't kill process"
+            "idle": "종료할 준비",
+            "killing": "종료중입니다.",
+            "killed": "종료했습니다!",
+            "error": "프로세스를 종료할 수 없습니다"
           }
         },
         "status-widget": {
-          "last-updated": "Updated",
-          "never": "Not updated yet",
-          "check": "Check for updates",
-          "more-info": "More details"
+          "last-updated": "갱신됨",
+          "never": "아직 최신이 아님",
+          "check": "업데이트 확인",
+          "more-info": "자세히 보기"
         },
         "plugin-updates": {
-          "title": "Plugin updates",
-          "description": "Monitor plugin updates",
+          "title": "플러그인 업데이트",
+          "description": "플러그인 업데이트 확인",
           "messages": {
-            "ok": "All plugins up-to-date",
-            "loading": "Checking for updates...",
-            "attention": "{n} plugin updates available"
+            "ok": "모든 플러그인이 최신입니다",
+            "loading": "업데이트 확인 중입니다...",
+            "attention": "플러그인 {n}개를 업데이트 할 수 있습니다."
           },
-          "page": "Go to Plugins"
+          "page": "플러그인 보기"
         },
         "dependency-updates": {
-          "title": "Dependency updates",
-          "description": "Monitor dependencies updates",
+          "title": "의존성 업데이트",
+          "description": "의존성 업데이트 확인",
           "messages": {
-            "ok": "All dependencies up-to-date",
-            "loading": "Checking for updates...",
-            "attention": "{n} dependency updates available"
+            "ok": "모든 의존성이 최신입니다",
+            "loading": "업데이트 확인 중입니다...",
+            "attention": "의존성 {n}개를 업데이트 할 수 있습니다."
           },
-          "page": "Go to Dependencies"
+          "page": "의존성 보기"
         },
         "vulnerability": {
-          "title": "Vulnerability check",
-          "description": "Check for known vulnerabilities in your project dependencies",
+          "title": "취약점 확인",
+          "description": "프로젝트 의존성에서 알려진 취약점을 확인합니다",
           "messages": {
-            "ok": "No vulnerability found",
-            "loading": "Checking security reports...",
-            "attention": "{n} vulnerabilities found"
+            "ok": "취약점이 없습니다.",
+            "loading": "보안 결과를 확인합니다",
+            "attention": "취약점 {n}개 발견"
           },
           "severity": {
-            "high": "High severity",
-            "medium": "Medium severity",
-            "low": "Low severity"
+            "high": "높은 심각성",
+            "medium": "중간 심각성",
+            "low": "낮은 심각성"
           },
-          "direct-dep": "Direct dependency"
+          "direct-dep": "직접적인 의존성"
         },
         "run-task": {
-          "title": "Run task",
-          "description": "Shortcut to run a task",
+          "title": "태스크 실행",
+          "description": "태스크 바로가기",
           "prompts": {
-            "task": "Select a task"
+            "task": "태스크 선택"
           },
-          "page": "Go to Task"
+          "page": "태스크로 가기"
         },
         "news": {
-          "title": "News feed",
-          "description": "Read news feed",
-          "refresh": "Force refresh",
-          "select-tip": "Select an item on the left",
+          "title": "뉴스피드",
+          "description": "뉴스피드 읽기",
+          "refresh": "강제 새로고침",
+          "select-tip": "왼쪽에서 항목을 선택하세요",
           "prompts": {
-            "url": "RSS feed URL or GitHub repository"
+            "url": "RSS 피드 URL 또는 Github 저장소"
           },
           "errors": {
-            "fetch": "Couldn't fetch feed",
-            "offline": "You are offline",
-            "empty": "Empty feed"
+            "fetch": "피드를 가져올 수 업습니다.",
+            "offline": "오프라인입니다.",
+            "empty": "피드가 없습니다"
           }
         }
       }
