@@ -38,7 +38,7 @@
             }
           },
           "actions": {
-            "collapse-all": "Collapse all",
+            "collapse-all": "ყველას დახურვა",
             "expand-all": "ყველაფრის გაშლა",
             "commit": "ცვლილებების დაფიქსირება",
             "skip": "გამოტოვება",
@@ -55,7 +55,7 @@
               "favorite-folders": "რჩეული საქაღალდეები",
               "refresh": "განახლება"
             },
-            "placeholder": "Enter the full path to a folder",
+            "placeholder": "შეიყვანე სრული გზა საქაღალდემდე",
             "empty": "რჩეული დირექტორიები ჯერ არ არის",
             "show-hidden": "ფარული საქაღალდეების ჩვენება"
           },
@@ -216,85 +216,85 @@
           "completion-hooks": "საბოლოო ჰუკების გაშვება",
           "fetch-remote-preset": "Fetching remote preset...",
           "done": "პროექტი წარმატებით შეიქმნა",
-          "plugin-install": "Installing {arg0}...",
-          "plugin-uninstall": "Uninstalling {arg0}...",
-          "plugin-invoke": "Invoking {arg0}...",
-          "plugin-update": "Updating {arg0}...",
-          "plugins-update": "Updating {arg0} plugins...",
-          "dependency-install": "Installing {arg0}...",
-          "dependency-uninstall": "Uninstalling {arg0}...",
-          "dependency-update": "Updating {arg0}...",
-          "dependencies-update": "Updating {arg0} packages..."
+          "plugin-install": "ვაინსტალირებთ {arg0}...",
+          "plugin-uninstall": "დეინსტალაცია {arg0}...",
+          "plugin-invoke": "ვიწვევთ {arg0}...",
+          "plugin-update": "განახლება{arg0}...",
+          "plugins-update": "{arf0} ფლაგინების განახლება...",
+          "dependency-install": "ინსტალაცია {arg0}...",
+          "dependency-uninstall": "დეინსტალაცია {arg0}...",
+          "dependency-update": "განახლება {arg0}...",
+          "dependencies-update": "{arg0} პაკეტების განახლება..."
         }
       },
       "types": {
         "task": {
           "status": {
-            "idle": "Idle",
-            "running": "Running",
-            "done": "Done",
+            "idle": "არააქტიური",
+            "running": "გაშვებულია",
+            "done": "მზად არის",
             "error": "შეცდომა",
-            "terminated": "Terminated"
+            "terminated": "შეწყვეტილი"
           }
         }
       },
       "views": {
         "project-select": {
-          "title": "Vue Project Manager",
+          "title": "Vue პროექტ-მენეჯერი",
           "tabs": {
             "projects": "პროექტები",
-            "create": "Create",
-            "import": "Import"
+            "create": "შექმნა",
+            "import": "იმპორტირება"
           },
           "buttons": {
-            "create": "Create a new project here",
-            "import": "Import this folder"
+            "create": "ახალი პროექტის შექმნა აქ",
+            "import": "ამ საქაღალდის იმპორტირება"
           },
           "import": {
             "no-modules": {
-              "title": "Missing modules",
-              "message": "It seems the project is missing the 'node_modules' folder. Please check you installed the dependencies before importing.",
-              "close": "Got it"
+              "title": "დაკარგული მოდულები",
+              "message": "როგრც ჩანს, პროექტს არ გააჩნია საქაღალდე 'node_modules'. გთხოვთ შეამოწმოთ დაინსტალირებული დამოკიდებულებები იმპორტის დაწყებამდე.",
+              "close": "გასაგებია"
             },
-            "force": "Import anyway"
+            "force": "იმპორტირება ნებისმიერ შემთხვევაში"
           }
         },
         "project-create": {
-          "title": "Create a new project",
+          "title": "ახალი პროექტის შექმნა",
           "tabs": {
             "details": {
-              "title": "Details",
+              "title": "დეტალები",
               "form": {
                 "folder": {
-                  "label": "Project folder",
-                  "placeholder": "Type a name",
-                  "tooltip": "Change base folder",
-                  "action": "Select this folder",
-                  "folder-exists": "This folder already exists",
-                  "folder-name-invalid": "Folder name invalid"
+                  "label": "პროექტის საქაღალდე",
+                  "placeholder": "მიუთითეთ სახელი",
+                  "tooltip": "ძირითადი საქაღალდის ცვლილება",
+                  "action": "საქაღალდის მონიშვნა",
+                  "folder-exists": "ეს საქაღალდე უკვე არსებობს",
+                  "folder-name-invalid": "საქაღალდის სახელი არასწორია"
                 },
                 "manager": {
-                  "label": "Package manager",
+                  "label": "პაკეტ-მენეჯერი",
                   "default": "Default"
                 },
                 "options": {
-                  "label": "Additional options",
+                  "label": "დამატებითი პარამეტრები",
                   "force": "Overwrite target folder if it exists",
-                  "git-title": "Git repository",
-                  "git": "Initialize git repository (recommended)",
+                  "git-title": "გიტ რეპოზიტორი",
+                  "git": "გიტ რპოზიტორის ინიციალიზაცია (რეკომენდებულია)",
                   "git-commit-message": "Initial commit message (optional)"
                 }
               },
               "buttons": {
-                "cancel": "Cancel",
-                "next": "Next"
+                "cancel": "გაუქმება",
+                "next": "შემდეგი"
               },
               "modal": {
                 "title": "Cancel and reset project creation",
                 "body": "Are you sure you want to reset the project creation?",
                 "buttons": {
-                  "back": "Go back",
-                  "clear": "Clear project"
+                  "back": "უკან",
+                  "clear": "პროექტის წაშლა"
                 }
               }
             },

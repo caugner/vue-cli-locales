@@ -584,8 +584,8 @@
               "description": "Die Basis-URL, unter der deine Anwendung bereitgestellt wird, zum Beispiel '/my-app/'. Verwende einen leeren String (''), wenn alle Assets mit relativen Pfaden verlinkt werden sollen."
             },
             "publicPath": {
-              "label": "Public Path",
-              "description": "The base URL your application will be deployed at, for example '/my-app/'. Use an empty string ('') so that all assets are linked using relative paths."
+              "label": "Öffentlicher Pfad",
+              "description": "Die Basis-URL, unter der deine Anwendung bereitgestellt wird, zum Beispiel '/my-app/'. Verwende einen leeren String (''), wenn alle Assets mit relativen Pfaden verlinkt werden sollen."
             },
             "outputDir": {
               "label": "Ausgabe-Verzeichnis",
@@ -755,7 +755,7 @@
           "description": "Ein paar Tipps für den Anfang",
           "content": {
             "title": "Willkommen in deinem neuen Projekt!",
-            "tip1": "You are looking at the project dashboard where you can put widgets. Use the 'Customize' button to add more! Everything is automatically saved.",
+            "tip1": "Du schaust auf das Projekt-Dashboard, auf dem du Widgets platzieren kannst. Verwende die 'Anpassen'-Schaltfläche, um weitere hinzuzufügen! Alles wird automatisch gespeichert.",
             "tip2": "Auf der linken Seite sind die verfügbaren Seiten. 'Plugins' ermöglicht es dir, neue Vue CLI-Plugins hinzuzufügen, 'Abhängigkeiten' die Pakete zu verwalten, 'Konfigurationen' um die Werkzeuge zu verwalten und 'Aufgaben' um Aufgaben auszuführen (zum Beispiel Webpack).",
             "tip3": "Gehe zurück zum Projekt-Manager über die Dropdown-Liste oben links oder über die Home-Schaltfläche in der Statusleiste unten.",
             "ok": "Verstanden"

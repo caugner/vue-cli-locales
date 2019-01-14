@@ -585,7 +585,7 @@
             },
             "publicPath": {
               "label": "Public Path",
-              "description": "The base URL your application will be deployed at, for example '/my-app/'. Use an empty string ('') so that all assets are linked using relative paths."
+              "description": "アプリケーションが配置されるベース URL、例えば '/my-app'。空文字 (\"\") を使用すると全てのアセットが相対パスで解決されます。"
             },
             "outputDir": {
               "label": "出力ディレクトリ",
@@ -755,7 +755,7 @@
           "description": "始めるのに役立つヒント",
           "content": {
             "title": "あなたの新しいプロジェクトにようこそ",
-            "tip1": "You are looking at the project dashboard where you can put widgets. Use the 'Customize' button to add more! Everything is automatically saved.",
+            "tip1": "ウィジェットを置くことができるプロジェクトダッシュボードを見ています。 'カスタマイズ'ボタンを使用してさらに追加してください! すべてが自動的に保存されます。",
             "tip2": "左側には利用可能なページがあります。 'プラグイン' では、新しいVue CLIプラグインを追加、'依存' ではパッケージを管理、'設定' ではツールの設定 、'タスク' ではスクリプトの実行 (例えばwebpack) ができます。",
             "tip3": "画面左上のプルダウンまたは下部のステータスバーのホームボタンを使用してプロジェクトマネージャに戻ります。",
             "ok": "理解した"

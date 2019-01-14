@@ -106,7 +106,7 @@
           "tooltips": {
             "favorite": "Toggle favorite",
             "delete": "Remove from list",
-            "open-in-editor": "Open in editor"
+            "open-in-editor": "Deschide in editor"
           }
         },
         "project-plugin-item": {
@@ -433,7 +433,7 @@
           "actions": {
             "play": "Run task",
             "stop": "Stop task",
-            "close": "Close",
+            "close": "Inchide",
             "save": "Save"
           },
           "command": "Script command",
@@ -668,7 +668,7 @@
         },
         "suggestions": {
           "open-eslintrc": {
-            "label": "Open eslintrc"
+            "label": "Deschide eslintrc"
           }
         }
       },

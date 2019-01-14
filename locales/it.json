@@ -133,7 +133,7 @@
         "project-tasks-dropdown": {
           "tooltips": {
             "tasks": "Task",
-            "running-tasks": "{conta} task(s) in esecuzione"
+            "running-tasks": "{count} task in esecuzione"
           }
         },
         "prompt-list": {
@@ -181,9 +181,9 @@
         "view-badge": {
           "labels": {
             "tasks": {
-              "error": "Error status",
-              "running": "Running status",
-              "done": "Done status"
+              "error": "Stato errore",
+              "running": "Stato esecuzione",
+              "done": "Stato completato"
             }
           }
         },
@@ -230,8 +230,8 @@
       "types": {
         "task": {
           "status": {
-            "idle": "Idle",
-            "running": "Running",
+            "idle": "Inattivo",
+            "running": "In esecuzione",
             "done": "Completato",
             "error": "Errore",
             "terminated": "Terminato"
@@ -240,7 +240,7 @@
       },
       "views": {
         "project-select": {
-          "title": "Vue Project Manager",
+          "title": "Gestore Progetti Vue",
           "tabs": {
             "projects": "Progetti",
             "create": "Crea",
@@ -281,7 +281,7 @@
                   "label": "Opzioni aggiuntive",
                   "force": "Sovrascrivi la cartella target se esiste",
                   "git-title": "Git repository",
-                  "git": "Inizializza il repository git (raccomandato)",
+                  "git": "Inizializza il repository git (consigliato)",
                   "git-commit-message": "Messaggio commit iniziale (opzionale)"
                 }
               },
@@ -294,13 +294,13 @@
                 "body": "Sei sicuro di voler resettare la creazione del progetto?",
                 "buttons": {
                   "back": "Indietro",
-                  "clear": "Clear project"
+                  "clear": "Elimina progetto"
                 }
               }
             },
             "presets": {
               "title": "Presets",
-              "description": "Un preset é un insieme di plugins e configurazioni. Dopo aver selezionato alcuni tra questi é possibile salvare tali selezioni come un dato preset cosí da poterlo riutilizzare per altri progetti futuri, senza dover riconfigurare tutto da capo.",
+              "description": "Un preset è un combinazione di plugin e configurazioni. Dopo aver effettuato una selezione di queste caratteristiche, è possibile salvarla  come nuovo preset, in modo da poterla riutilizzare in progetti futuri senza dover nuovamente riconfigurare tutto.",
               "select": "Seleziona un preset",
               "buttons": {
                 "previous": "Precedente",
@@ -503,37 +503,37 @@
             "Failed": "Fallito",
             "Compiling": "Sto compilando",
             "Invalidated": "Invalidated",
-            "Idle": "Idle"
+            "Idle": "Inattivo"
           },
           "build-status": {
             "labels": {
-              "status": "Status",
-              "errors": "Errors",
-              "warnings": "Warnings",
-              "assets": "Assets",
-              "modules": "Modules",
+              "status": "Stato",
+              "errors": "rrori",
+              "warnings": "Avvisi",
+              "assets": "Risorse",
+              "modules": "Moduli",
               "deps": "Dipendenze"
             }
           },
           "speed-stats": {
-            "title": "Speed stats"
+            "title": "Statistiche velocità"
           },
           "module-list": {
             "title": "Dipendenze"
           },
           "asset-list": {
-            "title": "Assets",
+            "title": "Risorse",
             "size-warning": "Questa risorsa è grossa, prendi in considerazione di usare il code splitting per creare risorse più piccole."
           }
         },
         "analyzer": {
           "title": "Analyzer",
-          "go-up": "Go up",
-          "go-home": "Go to home",
+          "go-up": "Sali",
+          "go-home": "Torna alla home",
           "chunk": "Chunk"
         },
         "sizes": {
-          "stats": "Stats",
+          "stats": "Statistiche",
           "parsed": "Parsed",
           "gzip": "Gzip",
           "help": "<b>Stats:</b> size from webpack stats data.<br><b>Parsed:</b> size from extracted source (after minification plugins). More accurate.<br><b>Gzip:</b> size of gzipped extracted source."
@@ -542,121 +542,121 @@
         "tasks": {
           "serve": {
             "description": "Compiles and hot-reloads for development",
-            "open": "Open browser on server start",
-            "mode": "Specify env mode",
-            "host": "Specify host",
-            "port": "Specify port",
-            "https": "Use HTTPS"
+            "open": "Apri il browser all'avvio del server",
+            "mode": "Specifica l'ambiente env",
+            "host": "Specifica l'host",
+            "port": "Specifica la porta del server",
+            "https": "Usa HTTPS"
           },
           "build": {
-            "description": "Compiles and minifies for production",
-            "mode": "Specify env mode",
-            "dest": "Output directory",
+            "description": "Compila e minifica per la produzione",
+            "mode": "Specifica l'ambiente env",
+            "dest": "Cartella di destinazione",
             "target": {
-              "description": "Build target",
+              "description": "Obiettivo della build",
               "app": "Web app",
-              "lib": "Library",
+              "lib": "Libreria",
               "wc": "Web component",
-              "wc-async": "Async web component"
+              "wc-async": "Web component asincrono"
             },
             "name": "Name for library or web-component mode (default: 'name' in package.json or entry filename)",
-            "watch": "Watch for changes",
+            "watch": "Controlla le modifiche",
             "modern": {
-              "label": "Modern mode",
-              "description": "Build app targeting modern browsers with auto fallback"
+              "label": "Modalità moderna",
+              "description": "Genera un app per browser moderni con fallback automatico"
             }
           },
           "inspect": {
-            "description": "Inspect the resolved webpack config",
-            "mode": "Specify env mode",
-            "verbose": "Show full function definitions in output"
+            "description": "Ispeziona la configurazione di webpack",
+            "mode": "Specifica l'ambiente env",
+            "verbose": "Mostra la definizione completa delle funzioni nell'output"
           }
         },
         "config": {
           "vue-cli": {
-            "description": "Configure your Vue project",
+            "description": "Configura il progetto Vue",
             "groups": {
               "general": "Impostazioni generali",
-              "css": "CSS settings"
+              "css": "Impostazioni CSS"
             },
             "baseUrl": {
-              "label": "Base URL",
-              "description": "The base URL your application will be deployed at, for example '/my-app/'. Use an empty string ('') so that all assets are linked using relative paths."
+              "label": "URL di base",
+              "description": "L'URL di base in cui verrà eseguita l'applicazione, per esempio '/my-app/'. Usando una stringa vuota ('') i riferimenti a tutte le risorse saranno relativi."
             },
             "publicPath": {
-              "label": "Public Path",
-              "description": "The base URL your application will be deployed at, for example '/my-app/'. Use an empty string ('') so that all assets are linked using relative paths."
+              "label": "Percorso pubblico",
+              "description": "L'URL di base in cui verrà eseguita l'applicazione, per esempio '/my-app/'. Usando una stringa vuota ('') i riferimenti a tutte le risorse saranno relativi."
             },
             "outputDir": {
-              "label": "Output directory",
-              "description": "The directory where the production build files will be generated"
+              "label": "Cartella di destinazione",
+              "description": "La cartella in cui verranno generati i file con il codice di produzione"
             },
             "assetsDir": {
-              "label": "Assets directory",
-              "description": "A directory to nest generated static assets (js, css, img, fonts) under."
+              "label": "Cartella delle risorse",
+              "description": "Cartella all'interno della quale generare le risorse statiche (js, css, immagini, font)."
             },
             "runtimeCompiler": {
-              "label": "Enable runtime compiler",
-              "description": "This will allow you to use the template option in Vue components, but will incur around an extra 10kb payload for your app."
+              "label": "Abilita il compilatore a runtime",
+              "description": "Permette di usare l'opzione template nei componenti Vue, ma aggiunge circa 10kb al codice dell'applicazione."
             },
             "productionSourceMap": {
-              "label": "Enable Production Source Maps",
-              "description": "Disabling this can speed up production builds if you don't need source maps for production"
+              "label": "Abilita source map di produzione",
+              "description": "Disabilitare questa opzione può velocizzare la generazione del codice di produzione se non servono le source map"
             },
             "parallel": {
-              "label": "Parallel compilation",
-              "description": "Whether to use multiple processors to compile Babel or Typescript."
+              "label": "Compilazione parallela",
+              "description": "Se usare più di un processore per compilare Babel o Typescript"
             },
             "css": {
               "modules": {
-                "label": "Enable CSS Modules",
-                "description": "By default, only files that ends in *.module.[ext] are treated as CSS modules. Enabling this will treat all style files as CSS modules."
+                "label": "Abilita i CSS Modules",
+                "description": "Di norma, solo i file che terminano in *.module.[ext] sono considerati moduli CSS. Abilitare questa opzione impostera ogni file di stile come un modulo CSS."
               },
               "extract": {
-                "label": "Extract CSS",
-                "description": "Whether to extract CSS in your components into a standalone CSS files (instead of inlined in JavaScript and injected dynamically)."
+                "label": "Estrai CSS",
+                "description": "Se estrarre il CSS dai componenti in un singolo file CSS (invece che averlo in linea nel JavaScript e iniettarlo dinamicamente)."
               },
               "sourceMap": {
-                "label": "Enable CSS Source Maps",
-                "description": "Whether to enable source maps for CSS. Enabling this may affect build performance."
+                "label": "Abilita le CSS source map",
+                "description": "Se abilitare le source map per i CSS. Abilitare questa opzione può rallentare la generazione del codice."
               }
             }
           }
         },
         "suggestions": {
-          "vue-config-open": "Open vue config"
+          "vue-config-open": "Apre la configurazione di Vue"
         }
       },
       "eslint": {
         "config": {
           "eslint": {
-            "description": "Error checking & Code quality",
+            "description": "Controllo errori e Qualità del codice",
             "groups": {
               "base": "Base",
-              "essential": "Essential",
-              "strongly-recommended": "Strongly recommended",
-              "recommended": "Recommended",
-              "uncategorized": "Uncategorized"
+              "essential": "Essenziale",
+              "strongly-recommended": "Fortemente consigliato",
+              "recommended": "Consigliato",
+              "uncategorized": "Senza categoria"
             },
             "setting": {
-              "off": "Off",
-              "error": "Error",
-              "warning": "Warning",
-              "custom": "Custom"
+              "off": "Spento",
+              "error": "rrore",
+              "warning": "Avviso",
+              "custom": "Personalizzato"
             },
             "general": {
-              "label": "General",
+              "label": "Generale",
               "lintOnSave": {
-                "message": "Lint on save",
-                "description": "Automatically lint source files when saved"
+                "message": "Controlla quando salvo",
+                "description": "Controlla automaticamente i file sorgenti quando salvo"
               },
               "config": {
-                "message": "Select config",
-                "description": "Select pre-defined configuration"
+                "message": "Seleziona la configurazione",
+                "description": "Seleziona una configurazione predefinita"
               }
             },
             "rules": {
-              "label": "Rules"
+              "label": "Regole"
             }
           }
         },
@@ -810,9 +810,9 @@
             "attention": "{n} vulnerabilities found"
           },
           "severity": {
-            "high": "High severity",
-            "medium": "Medium severity",
-            "low": "Low severity"
+            "high": "Alto impatto",
+            "medium": "Impatto medio",
+            "low": "Basso impatto"
           },
           "direct-dep": "Dipendenza diretta"
         },
@@ -820,7 +820,7 @@
           "title": "Esegui un task",
           "description": "Scorciatoia per eseguire un task",
           "prompts": {
-            "task": "Select a task"
+            "task": "Seleziona un task"
           },
           "page": "Go to Task"
         },
@@ -830,7 +830,7 @@
           "refresh": "Force refresh",
           "select-tip": "Seleziona un elemento a sinistra",
           "prompts": {
-            "url": "RSS feed URL or GitHub repository"
+            "url": "URL di un feed RSS o di un repo GitHub"
           },
           "errors": {
             "fetch": "Couldn't fetch feed",

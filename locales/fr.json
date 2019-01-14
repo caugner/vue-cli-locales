@@ -755,7 +755,7 @@
           "description": "Quelques astuces pour commencer",
           "content": {
             "title": "Bienvenue dans votre nouveau projet!",
-            "tip1": "You are looking at the project dashboard where you can put widgets. Use the 'Customize' button to add more! Everything is automatically saved.",
+            "tip1": "Ce que vous voyez actuellement est le tableau de bord de votre projet où vous pouvez disposer des widgets. Utilisez le bouton 'Personnaliser' pour en ajouter! Tout est automatiquement sauvegardé.",
             "tip2": "Sur la gauche se trouvent les différentes pages. 'Plugins' pour permet d'ajouter des plugins Vue CLI, 'Dépendances' pour gérer les paquets, 'Configurations' pour configurer les outils de développement et 'Tâches' pour lancer des scripts (par exemple webpack).",
             "tip3": "Retournez au gestionnaire de projets avec le menu déroulant en haut à gauche ou le bouton accueil dans la barre de statut en bas.",
             "ok": "Compris"
@@ -783,9 +783,9 @@
         },
         "plugin-updates": {
           "title": "Mises à jour des plugins",
-          "description": "Monitor plugin updates",
+          "description": "Vérifier les nouvelles versions des plugins",
           "messages": {
-            "ok": "All plugins up-to-date",
+            "ok": "Toutes les plugins sont à jour",
             "loading": "Recherche de mises à jour...",
             "attention": "{n} mises à jour de plugins disponibles"
           },

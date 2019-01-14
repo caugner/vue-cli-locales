@@ -481,11 +481,11 @@
         "suggestions": {
           "vue-router-add": {
             "label": "Vue-router'ı Ekle",
-            "message": "SPA uygulamanızda birden fazla sanal sayfayı yönetmek için resmi kütüphane. Tanımlnan her rota farklı bir bileşeni sunar."
+            "message": "SPA uygulamanızda birden fazla sanal sayfayı yönetmek için resmi kütüphane. Tanımlanan her rota farklı bir bileşeni sunar."
           },
           "vuex-add": {
             "label": "Vuex'i Ekle",
-            "message": "Büyük ölçekli uygulamalar için resmi merkezi veri yönetimi çözümü. Birden fazla bileşenin aynı verilere erişmesi gerektiğinde çok faydalıdır."
+            "message": "Büyük ölçekli uygulamalar için resmi Merkezi Veri Yönetimi çözümü. Birden fazla bileşenin aynı verilere erişmesi gerektiğinde çok faydalıdır."
           },
           "vue-devtools": {
             "label": "Geliştirici araçlarını yükle",
@@ -510,7 +510,7 @@
               "status": "Durum",
               "errors": "Hatalar",
               "warnings": "Uyarılar",
-              "assets": "Assets",
+              "assets": "Varlıklar",
               "modules": "Modüller",
               "deps": "Bağımlılıklar"
             }
@@ -559,11 +559,11 @@
               "wc": "Web bileşeni",
               "wc-async": "Async web bileşeni"
             },
-            "name": "Name for library or web-component mode (default: 'name' in package.json or entry filename)",
+            "name": "Kütüphane veya web bileşeni modu için isim (varsayılan: package.json dosyasındaki 'name' girdisi veya başlangıç dosyasının ismi)",
             "watch": "Değişiklikleri izle",
             "modern": {
               "label": "Modern mod",
-              "description": "Otomatik geri dönüşlü tarayıcıları hedefleyerek uygulamayı oluştur"
+              "description": "Modern tarayıcıları hedefleyen aynı zamanda eski tarayıcılar için yedek strateji içeren uygulama oluştur"
             }
           },
           "inspect": {
@@ -584,8 +584,8 @@
               "description": "Uygulamanızın dağıtılacağı temel URL, örneğin '/uygulamam/. Boş bir dize ('') kullanın, böylece tüm varlıklar göreceli yollar kullanılarak bağlanır."
             },
             "publicPath": {
-              "label": "Public Path",
-              "description": "The base URL your application will be deployed at, for example '/my-app/'. Use an empty string ('') so that all assets are linked using relative paths."
+              "label": "Genel Yol",
+              "description": "Uygulamanızın dağıtılacağı temel URL, örneğin '/uygulamam/. Boş bir dize ('') kullanın, böylece tüm varlıklar göreceli yollar kullanılarak bağlanır."
             },
             "outputDir": {
               "label": "Çıktı dizini",
@@ -726,7 +726,7 @@
           "test": {
             "description": "e2e testlerini nightwatch ile çalıştır.",
             "url": "e2e testlerini otomatik çalışan geliştirme sunucusu yerine verilen adrese karşı çalıştır.",
-            "config": "Özel nightwatch  yapılandırmasını kullan (dahilleri çiğner)",
+            "config": "Özel nightwatch yapılandırmasını kullan (dahilleri geçersiz kılar)",
             "env": "İçinde çalıştırılacak virgülle ayrılmış tarayıcı zarfları "
           }
         }
@@ -755,7 +755,7 @@
           "description": "Başlamanıza yardımcı olacak bazı ipuçları",
           "content": {
             "title": "Yeni projenize hoş geldiniz!",
-            "tip1": "You are looking at the project dashboard where you can put widgets. Use the 'Customize' button to add more! Everything is automatically saved.",
+            "tip1": "Parçacıkları koyabileceğiniz proje panosuna bakıyorsunuz. Daha fazlasını eklemek için 'Özelleştir' düğmesini kullanın! Her şey otomatik olarak kaydedilir.",
             "tip2": "Solda farklı kullanılabilir sayfalar var. 'Eklentiler' yeni Vue CLI eklentileri eklemenizi, 'Bağımlılıklar' paketleri yönetmenizi, 'Yapılandırma' araçları yapılandırmanızı ve 'Görevler' betikleri (örneğin webpack) çalıştırmanızı sağlar.",
             "tip3": "Ekranın sol üstündeki açılır menü ile veya alt kısımdaki durum çubuğundaki ana düğme ile proje yöneticisine geri dön.",
             "ok": "Anladım"

@@ -182,7 +182,7 @@
           "labels": {
             "tasks": {
               "error": "Feilstatus",
-              "running": "Running-status",
+              "running": "Kjørestatus",
               "done": "Ferdigstatus"
             }
           }
@@ -584,8 +584,8 @@
               "description": "URL-utgangspunktet som applikasjonen din vil bli deployed fra, for eksempel '/my-app/'. Bruk en tom string ('') slik at alle ressurser kan lenkes til med relative filbaner."
             },
             "publicPath": {
-              "label": "Public Path",
-              "description": "The base URL your application will be deployed at, for example '/my-app/'. Use an empty string ('') so that all assets are linked using relative paths."
+              "label": "Offentlig sti",
+              "description": "URL-utgangspunktet som applikasjonen din vil bli deployed fra, for eksempel '/my-app/'. Bruk en tom string ('') slik at alle ressurser kan lenkes til med relative filbaner."
             },
             "outputDir": {
               "label": "Utgangskatalog",
@@ -755,7 +755,7 @@
           "description": "Noen tips for å hjelpe deg å komme i gang",
           "content": {
             "title": "Velkommen til ditt nye prosjekt!",
-            "tip1": "You are looking at the project dashboard where you can put widgets. Use the 'Customize' button to add more! Everything is automatically saved.",
+            "tip1": "Du ser nå på prosjektinstrumentpanelet hvor du kan legge til moduler. Bruk 'Tilpass'-knappen for å legge til mer! Alt blir lagret automatisk.",
             "tip2": "Til venstre finner du de forskjellige sidene som er tilgjengelige. Under 'Plugins' kan du legge til nye Vue CLI plugins, under 'Dependencies' kan du administrere pakkene dine, under 'Konfigurasjon' konfigurerer du verktøyene dine og under 'Oppgaver' kan du kjøre scripts (for eksempel webpack).",
             "tip3": "Gå tilbake til prosjektmanageren med rullegardinmenyen i øvre venstre hjørne eller klikk på hjem-knappen i statusbaren nederst på skjermen.",
             "ok": "Forstått"

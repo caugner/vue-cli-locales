@@ -585,7 +585,7 @@
             },
             "publicPath": {
               "label": "Public Path",
-              "description": "The base URL your application will be deployed at, for example '/my-app/'. Use an empty string ('') so that all assets are linked using relative paths."
+              "description": "Pamata URL, kur jūsu lietotne tiks izvietota, piemēram, '/my-app/'. Izmantojiet tukšu virkni (''), lai visi aktīvi būtu saistīti, izmantojot relatīvos ceļus."
             },
             "outputDir": {
               "label": "Izvades mape",
@@ -755,7 +755,7 @@
           "description": "Daži padomi, kas palīdzēs Tev uzsākt",
           "content": {
             "title": "Laipni lūdzam jaunajā projektā!",
-            "tip1": "You are looking at the project dashboard where you can put widgets. Use the 'Customize' button to add more! Everything is automatically saved.",
+            "tip1": "Jūs skatāties uz projekta informācijas paneli, kur varat ievietot logrīkus. Izmantojiet pogu 'Pielāgot', lai pievienotu vairāk! Viss tiek automātiski saglabāts.",
             "tip2": "Kreisajā pusē ir dažādas pieejamās lapas. ' Spraudņi' ļauj pievienot jaunus Vue CLI spraudņus, 'Atkarības', lai pārvaldītu pakotnes, ' Konfigurācija', lai konfigurētu rīkus, un 'Uzdevumi ', lai palaistu skriptus (piemēram, webpack).",
             "tip3": "Atgriezieties pie projekta vadītāja ar nolaižamo izvēlni ekrāna augšējā kreisajā stūrī vai sākuma pogu statusa joslā apakšējā daļā.",
             "ok": "Sapratu"

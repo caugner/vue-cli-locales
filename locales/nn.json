@@ -12,13 +12,13 @@
           "timeout-info": "The custom component takes too much time to load, there might be an error"
         },
         "connection-status": {
-          "disconnected": "Disconnected from UI server",
+          "disconnected": "Fråkopla frå brukargrensesnitttenar",
           "connected": "Tilkopla!"
         },
         "file-diff": {
           "binary": "Binary file not shown",
           "actions": {
-            "open": "Open in editor"
+            "open": "Opne i teksthandsamingsprogram"
           }
         },
         "file-diff-view": {
@@ -221,9 +221,9 @@
           "plugin-invoke": "Invoking {arg0}...",
           "plugin-update": "Updating {arg0}...",
           "plugins-update": "Updating {arg0} plugins...",
-          "dependency-install": "Installing {arg0}...",
+          "dependency-install": "Installerar {arg0}...",
           "dependency-uninstall": "Uninstalling {arg0}...",
-          "dependency-update": "Updating {arg0}...",
+          "dependency-update": "Oppdaterar {arg0}...",
           "dependencies-update": "Updating {arg0} packages..."
         }
       },
@@ -233,16 +233,16 @@
             "idle": "Idle",
             "running": "Køyrer",
             "done": "Ferdig",
-            "error": "Error",
+            "error": "Feil",
             "terminated": "Terminated"
           }
         }
       },
       "views": {
         "project-select": {
-          "title": "Vue Project Manager",
+          "title": "Vue prosjektshandsaming",
           "tabs": {
-            "projects": "Projects",
+            "projects": "Prosjekt",
             "create": "Create",
             "import": "Import"
           },
@@ -267,7 +267,7 @@
               "form": {
                 "folder": {
                   "label": "Project folder",
-                  "placeholder": "Type a name",
+                  "placeholder": "Skriv inn eit namn",
                   "tooltip": "Change base folder",
                   "action": "Select this folder",
                   "folder-exists": "This folder already exists",
@@ -287,7 +287,7 @@
               },
               "buttons": {
                 "cancel": "Cancel",
-                "next": "Next"
+                "next": "Neste"
               },
               "modal": {
                 "title": "Cancel and reset project creation",
@@ -303,16 +303,16 @@
               "description": "A preset is an association of plugins and configurations. After you've selected features, you can optionally save it as a preset so that you can reuse it for future projects, without having to reconfigure everything again.",
               "select": "Select a preset",
               "buttons": {
-                "previous": "Previous",
-                "next": "Next",
+                "previous": "Førre",
+                "next": "Neste",
                 "create": "Create Project"
               },
               "modal": {
                 "title": "Configure Remote preset",
-                "body": "Available soon..."
+                "body": "Tilgjengeleg snart"
               },
               "manual": {
-                "name": "Manual",
+                "name": "Manuelt",
                 "description": "Manually select features"
               },
               "remote": {

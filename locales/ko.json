@@ -57,17 +57,17 @@
             },
             "placeholder": "폴더의 전체 경로를 입력하세요",
             "empty": "즐겨찾는 폴더가 없습니다.",
-            "show-hidden": "Show hidden folders"
+            "show-hidden": "숨긴 폴더 보이기"
           },
           "new-folder": {
-            "action": "New folder",
-            "title": "Create new folder",
+            "action": "새 폴더",
+            "title": "새 폴더 생성",
             "field": {
-              "title": "New folder",
-              "subtitle": "You can use the folder separator to create multiple nested folders at once."
+              "title": "새 폴더",
+              "subtitle": "폴더 구분 기호를 사용하여 한 번에 여러 개의 중첩 폴더를 만들 수 있습니다."
             },
-            "cancel": "Cancel",
-            "create": "Create"
+            "cancel": "취소",
+            "create": "만들기"
           }
         },
         "list-item-info": {
@@ -89,7 +89,7 @@
           "tooltips": {
             "dashboard": "대시보드",
             "plugins": "플러그인",
-            "dependencies": "Dependencies",
+            "dependencies": "의존성",
             "configuration": "설정",
             "tasks": "작업목록",
             "more": "더보기"
@@ -106,7 +106,7 @@
           "tooltips": {
             "favorite": "즐겨찾기 토글",
             "delete": "삭제",
-            "open-in-editor": "Open in editor"
+            "open-in-editor": "에디터에서 열기"
           }
         },
         "project-plugin-item": {
@@ -121,19 +121,19 @@
           "local": "로컬"
         },
         "project-dependency-item": {
-          "version": "version",
-          "wanted": "wanted",
-          "latest": "latest",
-          "installed": "Installed",
+          "version": "버전",
+          "wanted": "요구됨",
+          "latest": "최신",
+          "installed": "설치됨",
           "actions": {
-            "update": "Update {target}",
-            "uninstall": "Uninstall {target}"
+            "update": "업데이트 {target}",
+            "uninstall": "{target}을 삭제?"
           }
         },
         "project-tasks-dropdown": {
           "tooltips": {
-            "tasks": "Tasks",
-            "running-tasks": "{count} running task(s)"
+            "tasks": "작업목록",
+            "running-tasks": "실행 중인 {count} 개의 작업"
           }
         },
         "prompt-list": {
@@ -155,15 +155,15 @@
             "empty": "로그가 없습니다."
           },
           "report-bug": "버그 리포트",
-          "translate": "Help translate",
-          "dark-mode": "Toggle dark mode",
-          "reset-plugin-api": "Refresh plugins API"
+          "translate": "번역 도움",
+          "dark-mode": "다크 모드 토글",
+          "reset-plugin-api": "플러그인 API 새로고침"
         },
         "suggestion-bar": {
-          "suggestion": "Suggestion",
+          "suggestion": "추천",
           "modal": {
-            "cancel": "Cancel",
-            "continue": "Continue"
+            "cancel": "취소",
+            "continue": "계속"
           }
         },
         "terminal-view": {
@@ -174,9 +174,9 @@
         },
         "top-bar": {
           "no-favorites": "즐겨찾기한 프로젝트가 없습니다.",
-          "favorite-projects": "Favorite projects",
-          "recent-projects": "Recent projects",
-          "homepage": "Home page"
+          "favorite-projects": "즐겨찾는 프로젝트",
+          "recent-projects": "최근 프로젝트",
+          "homepage": "홈페이지"
         },
         "view-badge": {
           "labels": {
@@ -220,11 +220,11 @@
           "plugin-uninstall": "{arg0} 삭제 중...",
           "plugin-invoke": "{arg0} 호출 중...",
           "plugin-update": "{arg0} 갱신 중...",
-          "plugins-update": "Updating {arg0} plugins...",
-          "dependency-install": "Installing {arg0}...",
-          "dependency-uninstall": "Uninstalling {arg0}...",
-          "dependency-update": "Updating {arg0}...",
-          "dependencies-update": "Updating {arg0} packages..."
+          "plugins-update": "{arg0} 플러그인 업데이트 중...",
+          "dependency-install": "{arg0} 설치 중...",
+          "dependency-uninstall": "{arg0} 삭제 중...",
+          "dependency-update": "{arg0} 갱신 중...",
+          "dependencies-update": "{arg0} 패키지 업데이트 중..."
         }
       },
       "types": {
@@ -252,9 +252,9 @@
           },
           "import": {
             "no-modules": {
-              "title": "Missing modules",
-              "message": "It seems the project is missing the 'node_modules' folder. Please check you installed the dependencies before importing.",
-              "close": "Got it"
+              "title": "없는 모듈",
+              "message": "프로젝트에 'node_modules'폴더가 없습니다. 가져 오기 전에 의존성을 설치했는지 확인하십시오.",
+              "close": "알겠다"
             },
             "force": "가져오기"
           }
@@ -270,8 +270,8 @@
                   "placeholder": "이름 입력",
                   "tooltip": "베이스 폴더 변경",
                   "action": "폴더 선택하기",
-                  "folder-exists": "This folder already exists",
-                  "folder-name-invalid": "Folder name invalid"
+                  "folder-exists": "이 폴더는 이미 있습니다.",
+                  "folder-name-invalid": "잘못된 폴더 이름"
                 },
                 "manager": {
                   "label": "패키지 매니저",
@@ -279,10 +279,10 @@
                 },
                 "options": {
                   "label": "추가 옵션",
-                  "force": "Overwrite target folder if it exists",
-                  "git-title": "Git repository",
-                  "git": "Initialize git repository (recommended)",
-                  "git-commit-message": "Initial commit message (optional)"
+                  "force": "이미 폴더가 있으면 덮어씁니다.",
+                  "git-title": "Git 저장소",
+                  "git": "Git 저장소 만들기 (추천)",
+                  "git-commit-message": "초기 커밋 메시지 (선택)"
                 }
               },
               "buttons": {
@@ -312,22 +312,22 @@
                 "body": "곧 가능합니다..."
               },
               "manual": {
-                "name": "Manual",
-                "description": "Manually select features"
+                "name": "수동",
+                "description": "수동으로 기능 선택"
               },
               "remote": {
-                "name": "Remote preset",
-                "description": "Fetch a preset from a git repository",
+                "name": "리모트 프리셋",
+                "description": "Git 저장소에서 사전 설정 가져 오기",
                 "url": {
-                  "title": "Preset URL",
-                  "subtitle": "Git repo, for example 'username/repo'. You can also prefix with 'gitlab:' or 'bitbucket:'."
+                  "title": "프리셋 경로",
+                  "subtitle": "예를 들어 'username/repo'와 같은 Git 저장소를 선택하십시오. 또한 'gitlab:' 또는 'bitbucket:'로 접두사를 지정할 수 있습니다."
                 },
-                "options": "Other options",
+                "options": "기타 설정",
                 "clone": "클론/비공계 저장소",
-                "cancel": "Cancel",
-                "done": "Done"
+                "cancel": "취소",
+                "done": "완료"
               },
-              "default-preset": "Default preset"
+              "default-preset": "기본 프리셋"
             },
             "features": {
               "title": "기능",
@@ -339,8 +339,8 @@
                 "create": "프로젝트 만들기"
               },
               "userConfigFiles": {
-                "name": "Use config files",
-                "description": "Use specific configuration files (like '.babelrc') instead of using 'package.json'."
+                "name": "설정 파일 사용",
+                "description": "'package.json'대신 '.babelrc'와 같은 특정 설정 파일을 사용하십시오."
               }
             },
             "configuration": {
@@ -381,7 +381,7 @@
               "buttons": {
                 "cancel": "취소",
                 "install": "{target} 설치",
-                "default-install": "Install"
+                "default-install": "설치"
               }
             },
             "configuration": {
@@ -423,7 +423,7 @@
             "cancel": "되돌리기",
             "save": "변경사항 저장",
             "more-info": "더보기",
-            "refresh": "Refresh"
+            "refresh": "새로고침"
           }
         },
         "project-tasks": {
@@ -442,23 +442,23 @@
           "output": "출력"
         },
         "project-dependencies": {
-          "title": "Project dependencies",
+          "title": "프로젝트 의존성",
           "heading": {
-            "dependencies": "Main dependencies",
-            "devDependencies": "Development dependencies"
+            "dependencies": "메인 의존성",
+            "devDependencies": "개발 의존성"
           },
           "actions": {
-            "install": "Install dependency",
-            "update-all": "Update all dependencies"
+            "install": "의존성 설치",
+            "update-all": "모든 의존성 업데이트"
           },
           "install": {
-            "title": "Install new dependency"
+            "title": "새로운 의존성 설치"
           },
           "uninstall": {
-            "title": "Confirm uninstall",
-            "body": "Are you sure you want to uninstall {id}?",
-            "cancel": "Cancel",
-            "uninstall": "Uninstall {id}"
+            "title": "제거 확인",
+            "body": "정말로 {id}를 제거하시겠습니까?",
+            "cancel": "취소",
+            "uninstall": "{id} 제거"
           }
         },
         "project-dashboard": {
@@ -471,7 +471,7 @@
         },
         "about": {
           "title": "Vue CLI에 대하여",
-          "description": "<a href=\"https://github.com/vuejs/vue-cli/tree/dev/packages/%40vue/cli-ui\" target=\"_blank\">@vue/cli-ui</a> is a built-in package of vue-cli which opens a full-blown UI.",
+          "description": "<a href=\"https://github.com/vuejs/vue-cli/tree/dev/packages/%40vue/cli-ui\" target=\"_blank\">@vue/cli-ui</a>은 완전한 UI를 여는 내장 패키지입니다.",
           "quote": "Vue-cli 3.x는 새로운 멋진 기능들을 포함하여 새로 작성되었습니다  라우터와 Vuex 그리고 타입스크립트 등을 선택한 다음 \"vue-cli 플러그인\" 이라는 빌드용 블럭을 추가하고 업그레이드 할 수 있습니다. 옵션이 너무 많아지면 도구가 너무 복잡해지고 사용하기 어려워집니다. 그래서 완전한 GUI를 이용해 vue-cli 플러그인을 찾거나 설치하고, 터미널에 제한되지 않아도 됩니다. 결국, vue-cli는 새로운 프로젝트를 쉽게 만들 수 있을 뿐 아니라 이후에도 유용하게 사용할 수 있습니다.",
           "links": "유용한 링크",
           "back": "뒤로가기"
@@ -480,18 +480,18 @@
       "cli-service": {
         "suggestions": {
           "vue-router-add": {
-            "label": "Add vue-router",
-            "message": "Official library to support multiple virtual pages in a Single-Page App. Each route renders a different component."
+            "label": "vue-router 추가",
+            "message": "싱글 페이지 앱에서 여러 가상 페이지를 지원하는 공식 라이브러리입니다. 각 경로는 다른 컴포넌트를 렌더링합니다."
           },
           "vuex-add": {
-            "label": "Add vuex",
-            "message": "Official centralized State Management solution for large-scale apps. Very useful if multiple components need to access the same data."
+            "label": "vuex 추가",
+            "message": "대규모 애플리케이션을 위한 공식 중앙 집중식 상태 관리 솔루션. 여러 컴포넌트가 동일한 데이터에 접근해야 하는 경우 매우 유용합니다."
           },
           "vue-devtools": {
-            "label": "Install devtools",
-            "message": "Browser devtools official extension for debugging Vue.js applications where you can inspect your components, vuex store and events."
+            "label": "devtools 설치",
+            "message": "컴포넌트와 vuex 저장소 및 이벤트를 검사할 수 있고, Vue.js 응용 프로그램을 디버깅하는  공식 브라우저 devtools 확장프로그램입니다."
           },
-          "progress": "Installing {arg0}..."
+          "progress": "{arg0} 설치 중..."
         }
       },
       "vue-webpack": {
@@ -538,7 +538,7 @@
           "gzip": "Gzip",
           "help": "<b>통계:</b> webpack의 통계 데이터 크기<br>\n<b>변환됨:</b> 추출된 소스(최소화 후)의 크기. 더 정확합니다.<br><b>Gzip:</b> Gzip을 거친 추출된 소스의 크기."
         },
-        "modern-mode": "Show modern build",
+        "modern-mode": "모던 빌드 보이기",
         "tasks": {
           "serve": {
             "description": "개발용 컴파일 및 핫 리로드",
@@ -562,8 +562,8 @@
             "name": "라이브러리 또는 웹 컴포넌트 모드의 이름 (기본값: 'package.json'또는 엔트리 파일이름)",
             "watch": "변경 감지",
             "modern": {
-              "label": "Modern mode",
-              "description": "Build app targeting modern browsers with auto fallback"
+              "label": "모던 모드",
+              "description": "자동 폴백 기능을 갖춘 최신 브라우저를 대상으로 하는 앱 빌드"
             }
           },
           "inspect": {
@@ -574,57 +574,57 @@
         },
         "config": {
           "vue-cli": {
-            "description": "Configure your Vue project",
+            "description": "Vue 프로젝트 설정하기",
             "groups": {
-              "general": "General settings",
-              "css": "CSS settings"
+              "general": "일반 설정",
+              "css": "CSS 설정"
             },
             "baseUrl": {
-              "label": "Base URL",
-              "description": "The base URL your application will be deployed at, for example '/my-app/'. Use an empty string ('') so that all assets are linked using relative paths."
+              "label": "기본 경로",
+              "description": "응용 프로그램을 배포할 기본 URL(예: '/my-app/'). 모든 에셋이 상대 경로를 사용하여 연결되도록 빈 문자열('')을 사용하십시오."
             },
             "publicPath": {
-              "label": "Public Path",
-              "description": "The base URL your application will be deployed at, for example '/my-app/'. Use an empty string ('') so that all assets are linked using relative paths."
+              "label": "퍼블릭 경로",
+              "description": "응용 프로그램을 배포할 기본 URL(예: '/my-app/'). 모든 에셋이 상대 경로를 사용하여 연결되도록 빈 문자열('')을 사용하십시오."
             },
             "outputDir": {
-              "label": "Output directory",
-              "description": "The directory where the production build files will be generated"
+              "label": "빌드 디렉터리",
+              "description": "프로덕션 빌드 파일이 생성 될 디렉터리"
             },
             "assetsDir": {
-              "label": "Assets directory",
-              "description": "A directory to nest generated static assets (js, css, img, fonts) under."
+              "label": "에셋 디렉터리",
+              "description": "생성 된 정적 자산(js, css, img, fonts)을 아래에 중첩하는 디렉터리."
             },
             "runtimeCompiler": {
-              "label": "Enable runtime compiler",
-              "description": "This will allow you to use the template option in Vue components, but will incur around an extra 10kb payload for your app."
+              "label": "런타임 컴파일러 켜기",
+              "description": "이렇게 하면 Vue 컴포넌트에서 템플릿 옵션을 사용할 수 있지만 앱에 추가 10KB 페이로드가 발생합니다."
             },
             "productionSourceMap": {
-              "label": "Enable Production Source Maps",
-              "description": "Disabling this can speed up production builds if you don't need source maps for production"
+              "label": "프로덕션 소스 맵 켜기",
+              "description": "이 기능을 사용하지 않으면 프로덕션용 소스 맵이 필요하지 않은 경우 프로덕션 빌드 속도를 높일 수 있습니다."
             },
             "parallel": {
-              "label": "Parallel compilation",
-              "description": "Whether to use multiple processors to compile Babel or Typescript."
+              "label": "병렬 컴파일",
+              "description": "멀티 프로세서를 사용하여 Babel 또는 Typescript를 컴파일할지 여부."
             },
             "css": {
               "modules": {
-                "label": "Enable CSS Modules",
-                "description": "By default, only files that ends in *.module.[ext] are treated as CSS modules. Enabling this will treat all style files as CSS modules."
+                "label": "CSS 모듈 켜기",
+                "description": "기본적으로 *.module.[ext]로 끝나는 파일만이 CSS 모듈로 처리됩니다. 이 기능을 사용하면 모든 스타일 파일이 CSS 모듈로 취급됩니다."
               },
               "extract": {
-                "label": "Extract CSS",
-                "description": "Whether to extract CSS in your components into a standalone CSS files (instead of inlined in JavaScript and injected dynamically)."
+                "label": "CSS 추출",
+                "description": "컴포넌트의 CSS를 독립 실행형 CSS파일 (JavaScript에서 인라인으로 동적 주입을 대신하여)로 추출할지 여부."
               },
               "sourceMap": {
-                "label": "Enable CSS Source Maps",
-                "description": "Whether to enable source maps for CSS. Enabling this may affect build performance."
+                "label": "CSS 소스 맵  켜기",
+                "description": "CSS용 소스 맵을 사용할지 여부. 이 기능을 사용하면 빌드 성능에 영향을 미칠 수 있습니다."
               }
             }
           }
         },
         "suggestions": {
-          "vue-config-open": "Open vue config"
+          "vue-config-open": "Vue 설정 열기"
         }
       },
       "eslint": {
@@ -668,7 +668,7 @@
         },
         "suggestions": {
           "open-eslintrc": {
-            "label": "Open eslintrc"
+            "label": "eslintrc 열기"
           }
         }
       },
@@ -704,48 +704,48 @@
         },
         "suggestions": {
           "open-vue": {
-            "label": "Open vue config"
+            "label": "Vue 설정 열기"
           },
           "open-manifest": {
-            "label": "Open manifest"
+            "label": "메니페스트 열기"
           }
         }
       },
       "cypress": {
         "tasks": {
           "test": {
-            "description": "Run e2e tests with `cypress run`",
-            "headless": "Run in headless mode without GUI",
-            "mode": "Specify the mode the dev server should run in",
-            "url": "Run e2e tests against given url instead of auto-starting dev server"
+            "description": "`cypress run`으로  e2e 테스트 실행",
+            "headless": "GUI 없이 헤드리스 모드로 실행",
+            "mode": "개발 서버가 실행될 모드 지정",
+            "url": "자동 실행 개발 서버 대신 지정된 URL에 대해 e2e 테스트 실행"
           }
         }
       },
       "nightwatch": {
         "tasks": {
           "test": {
-            "description": "Run e2e tests with nightwatch",
-            "url": "Run e2e tests against given url instead of auto-starting dev server",
-            "config": "Use custom nightwatch config file (overrides internals)",
-            "env": "Comma-delimited browser envs to run in"
+            "description": "nightwatch로 e2e 테스트 실행",
+            "url": "자동 실행 개발 서버 대신 지정된 URL에 대해 e2e 테스트 실행",
+            "config": "사용자 지정 nightwatch 구성 파일 사용(내부 오버라이드)",
+            "env": "쉼표로 구분 된 브라우저 env가 실행됩니다."
           }
         }
       },
       "jest": {
         "tasks": {
           "test": {
-            "description": "Run unit tests with Jest",
-            "watch": "Watch files for changes and rerun tests related to changed files",
-            "notify": "Display a notification after each run",
-            "update": "Re-record every snapshot that fails during this test run"
+            "description": "Jest로 유닛 테스트 실행",
+            "watch": "변경된 파일을 감시하고, 변경된 파일과 관련된 테스트를 다시 실행합니다.",
+            "notify": "실행할 때마다 알림 표시",
+            "update": "이 테스트를 실행하는 중에 실패한 모든 스냅샷을 다시 기록하기"
           }
         }
       },
       "mocha": {
         "tasks": {
           "test": {
-            "description": "Run unit tests with Mocha",
-            "watch": "Watch files for changes and rerun tests related to changed files"
+            "description": "Mocha로 유닛 테스트 실행",
+            "watch": "변경된 파일을 감시하고, 변경된 파일과 관련된 테스트를 다시 실행합니다."
           }
         }
       },
@@ -755,7 +755,7 @@
           "description": "시작하는데 도움을 줄 팁입니다",
           "content": {
             "title": "새 프로젝트를 환영합니다!",
-            "tip1": "You are looking at the project dashboard where you can put widgets. Use the 'Customize' button to add more! Everything is automatically saved.",
+            "tip1": "위젯을 사용할 수 있는 프로젝트 대시보드입니다. '사용자 정의' 버튼을 눌러 추가하세요! 모든 것들은 자동으로 저장됩니다.",
             "tip2": "왼쪽에 사용할 수 있는 다른 페이지가 있습니다. '플러그인'에서 Vue CLI 플러그인을 추가할 수 있고, '의존성' 에서는 패키지를 관리합니다. '설정'은 개발도구를 설정할 수 있으며 '태스크'는 스크립트를 실행할 수있습니다. (에를 들어 웹팩)",
             "tip3": "화면 왼쪽 상단의 드랍다운을 이용하거나 아래에 있는 상태표시줄의 홈 버튼을 눌러 프로젝트 매니저로 돌아갈 수 있습니다.",
             "ok": "이해했습니다."
