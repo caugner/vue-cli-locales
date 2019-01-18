@@ -3,7 +3,7 @@
     "vue": {
       "common": {
         "close": "Cerrar",
-        "back": "Ir atrás",
+        "back": "Regresar",
         "more-info": "Más información"
       },
       "components": {
@@ -157,7 +157,7 @@
           "report-bug": "Reportar un error",
           "translate": "Ayudar con la traducción",
           "dark-mode": "Cambiar a modo oscuro",
-          "reset-plugin-api": "Refresh plugins API"
+          "reset-plugin-api": "Actualizar API de complementos"
         },
         "suggestion-bar": {
           "suggestion": "Sugerencia",
@@ -188,20 +188,20 @@
           }
         },
         "widget": {
-          "remove": "Remove widget",
-          "configure": "Configure widget",
+          "remove": "Eliminar widget",
+          "configure": "Configurar widget",
           "save": "Guardar",
           "reset-config": "Restablecer Configuración",
           "open-details": "Mostrar Más"
         },
         "widget-add-pane": {
-          "title": "Add widgets"
+          "title": "Añadir widgets"
         },
         "widget-add-item": {
-          "add": "Add widget",
+          "add": "Añadir widget",
           "details": {
-            "title": "Widget details",
-            "max-instances": "Max instance count: {count}/{total}",
+            "title": "Detalles del widget",
+            "max-instances": "Recuento máximo de instancias: {conteo}/{total}",
             "unlimited": "ilimitado"
           }
         }
@@ -220,11 +220,11 @@
           "plugin-uninstall": "Desinstalando {arg0}...",
           "plugin-invoke": "Invocando {arg0}...",
           "plugin-update": "Actualizando {arg0}...",
-          "plugins-update": "Updating {arg0} plugins...",
-          "dependency-install": "Installing {arg0}...",
-          "dependency-uninstall": "Uninstalling {arg0}...",
-          "dependency-update": "Updating {arg0}...",
-          "dependencies-update": "Updating {arg0} packages..."
+          "plugins-update": "Actualizando complementos {arg0}...",
+          "dependency-install": "Instalando {arg0}...",
+          "dependency-uninstall": "Desinstalando {arg0}...",
+          "dependency-update": "Actualizando {arg0}...",
+          "dependencies-update": "Actualizando paquetes {arg0}..."
         }
       },
       "types": {
@@ -252,11 +252,11 @@
           },
           "import": {
             "no-modules": {
-              "title": "Missing modules",
-              "message": "It seems the project is missing the 'node_modules' folder. Please check you installed the dependencies before importing.",
+              "title": "Módulos faltantes",
+              "message": "Parece que el proyecto no encuentra la carpeta 'node_modules'. Por favor verifique que instaló las dependencias antes de importarlas.",
               "close": "Entendido"
             },
-            "force": "Import anyway"
+            "force": "Importar de todas formas"
           }
         },
         "project-create": {
@@ -279,9 +279,9 @@
                 },
                 "options": {
                   "label": "Opciones adicionales",
-                  "force": "Overwrite target folder if it exists",
-                  "git-title": "Git repository",
-                  "git": "Initialize git repository (recommended)",
+                  "force": "Sobrescribir la carpeta de destino si existe",
+                  "git-title": "Repositorio Git",
+                  "git": "Inicializar repositorio git (recomendado)",
                   "git-commit-message": "Initial commit message (optional)"
                 }
               },
@@ -323,7 +323,7 @@
                   "subtitle": "Git repo, for example 'username/repo'. You can also prefix with 'gitlab:' or 'bitbucket:'."
                 },
                 "options": "Otras opciones",
-                "clone": "Clone/Private repository",
+                "clone": "Clonar/Repositorio privado",
                 "cancel": "Cancelar",
                 "done": "Listo"
               },
@@ -368,7 +368,7 @@
           "title": "Complementos del proyecto",
           "button": "Agregar complemento",
           "heading": "Complementos instalados",
-          "update-all": "Update all plugins"
+          "update-all": "Actualizar todos los complementos"
         },
         "project-plugins-add": {
           "title": "Agregar un complemento",
@@ -406,13 +406,13 @@
             }
           },
           "buttons": {
-            "add-local": "Browse local plugin"
+            "add-local": "Buscar complemento local"
           }
         },
         "project-plugin-add-local": {
-          "title": "Add a local plugin",
+          "title": "Añadir un complemento local",
           "buttons": {
-            "add": "Add local plugin"
+            "add": "Añadir complemento local"
           }
         },
         "project-configurations": {
@@ -445,25 +445,25 @@
           "title": "Dependencias del proyecto",
           "heading": {
             "dependencies": "Dependencias principales",
-            "devDependencies": "Development dependencies"
+            "devDependencies": "Dependencias de desarrollo"
           },
           "actions": {
-            "install": "Install dependency",
-            "update-all": "Update all dependencies"
+            "install": "Instalar dependencias",
+            "update-all": "Actualizar todas las dependencias"
           },
           "install": {
-            "title": "Install new dependency"
+            "title": "Instalar nueva dependencia"
           },
           "uninstall": {
-            "title": "Confirm uninstall",
-            "body": "Are you sure you want to uninstall {id}?",
-            "cancel": "Cancel",
-            "uninstall": "Uninstall {id}"
+            "title": "Confirmar desinstalación",
+            "body": "¿Estás seguro que quieres desinstalar {id}?",
+            "cancel": "Cancelar",
+            "uninstall": "Desinstalar {id}"
           }
         },
         "project-dashboard": {
-          "title": "Project dashboard",
-          "cutomize": "Customize",
+          "title": "Panel de control del proyecto",
+          "cutomize": "Personalizar",
           "done": "Listo"
         },
         "settings": {
@@ -480,18 +480,18 @@
       "cli-service": {
         "suggestions": {
           "vue-router-add": {
-            "label": "Add vue-router",
-            "message": "Official library to support multiple virtual pages in a Single-Page App. Each route renders a different component."
+            "label": "Añadir vue-router",
+            "message": "Catálogo oficial para el soporte de páginas virtuales en aplicaciones de una sola página. Cada ruta renderiza un componente diferente."
           },
           "vuex-add": {
-            "label": "Add vuex",
+            "label": "Añadir vuex",
             "message": "Official centralized State Management solution for large-scale apps. Very useful if multiple components need to access the same data."
           },
           "vue-devtools": {
-            "label": "Install devtools",
+            "label": "Instalar devtools",
             "message": "Browser devtools official extension for debugging Vue.js applications where you can inspect your components, vuex store and events."
           },
-          "progress": "Installing {arg0}..."
+          "progress": "Instalando {arg0}..."
         }
       },
       "vue-webpack": {
@@ -562,7 +562,7 @@
             "name": "Nombre para el modo librería o componente web (por defector: 'name' en package.json o el nombre del archivo de entrada)",
             "watch": "Observar cambios",
             "modern": {
-              "label": "Modern mode",
+              "label": "Modo moderno",
               "description": "Build app targeting modern browsers with auto fallback"
             }
           },
@@ -574,22 +574,22 @@
         },
         "config": {
           "vue-cli": {
-            "description": "Configure your Vue project",
+            "description": "Configura tu proyecto Vue",
             "groups": {
-              "general": "General settings",
-              "css": "CSS settings"
+              "general": "Configuración general",
+              "css": "Configuración CSS"
             },
             "baseUrl": {
-              "label": "Base URL",
+              "label": "URL base",
               "description": "The base URL your application will be deployed at, for example '/my-app/'. Use an empty string ('') so that all assets are linked using relative paths."
             },
             "publicPath": {
-              "label": "Public Path",
+              "label": "Ruta pública",
               "description": "The base URL your application will be deployed at, for example '/my-app/'. Use an empty string ('') so that all assets are linked using relative paths."
             },
             "outputDir": {
-              "label": "Output directory",
-              "description": "The directory where the production build files will be generated"
+              "label": "Directorio de salida",
+              "description": "El directorio donde  los archivos compilados de producción serán generados"
             },
             "assetsDir": {
               "label": "Assets directory",
@@ -609,11 +609,11 @@
             },
             "css": {
               "modules": {
-                "label": "Enable CSS Modules",
+                "label": "Habilitar Módulos CSS",
                 "description": "By default, only files that ends in *.module.[ext] are treated as CSS modules. Enabling this will treat all style files as CSS modules."
               },
               "extract": {
-                "label": "Extract CSS",
+                "label": "Extraer CSS",
                 "description": "Whether to extract CSS in your components into a standalone CSS files (instead of inlined in JavaScript and injected dynamically)."
               },
               "sourceMap": {

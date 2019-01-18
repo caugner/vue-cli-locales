@@ -2,9 +2,9 @@
   "org": {
     "vue": {
       "common": {
-        "close": "Close",
-        "back": "Go back",
-        "more-info": "More info"
+        "close": "Cerrar",
+        "back": "Regresar",
+        "more-info": "Más información"
       },
       "components": {
         "client-addon-component": {
@@ -75,7 +75,7 @@
         },
         "logger-view": {
           "title": "Actividad",
-          "empty": "No logs yet",
+          "empty": "Aún no hay registros",
           "buttons": {
             "clear": "Limpiar actividad",
             "scroll": "Desplazar hacia abajo",
@@ -87,7 +87,7 @@
         },
         "project-nav": {
           "tooltips": {
-            "dashboard": "Dashboard",
+            "dashboard": "Panel de control",
             "plugins": "Complementos",
             "dependencies": "Dependencies",
             "configuration": "Configuración",
@@ -190,8 +190,8 @@
         "widget": {
           "remove": "Remove widget",
           "configure": "Configure widget",
-          "save": "Save",
-          "reset-config": "Reset config",
+          "save": "Guardar",
+          "reset-config": "Reiniciar configuración",
           "open-details": "Show more"
         },
         "widget-add-pane": {
@@ -202,7 +202,7 @@
           "details": {
             "title": "Widget details",
             "max-instances": "Max instance count: {count}/{total}",
-            "unlimited": "unlimited"
+            "unlimited": "ilimitado"
           }
         }
       },
@@ -323,7 +323,7 @@
                   "subtitle": "Repositorio git, por ejemplo 'usuario/repositorio'. Puedes agregar el prefijo 'gitlab:' o 'bitbucket:'."
                 },
                 "options": "Otras opciones",
-                "clone": "Clone/Private repository",
+                "clone": "Clonar/Repositorio privado",
                 "cancel": "Cancelar",
                 "done": "Hecho"
               },
@@ -464,10 +464,10 @@
         "project-dashboard": {
           "title": "Project dashboard",
           "cutomize": "Customize",
-          "done": "Done"
+          "done": "Hecho"
         },
         "settings": {
-          "title": "Settings"
+          "title": "Configuración"
         },
         "about": {
           "title": "Acerca de...",

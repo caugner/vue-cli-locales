@@ -67,11 +67,11 @@
               "subtitle": "You can use the folder separator to create multiple nested folders at once."
             },
             "cancel": "Anulare",
-            "create": "Create"
+            "create": "Creaza"
           }
         },
         "list-item-info": {
-          "more-info": "More Info"
+          "more-info": "Mai multe informatii"
         },
         "logger-view": {
           "title": "Logs",
@@ -92,20 +92,20 @@
             "dependencies": "Dependinte",
             "configuration": "Configuraţie",
             "tasks": "Tasks",
-            "more": "More"
+            "more": "Mai mult"
           }
         },
         "project-select-list": {
-          "empty": "No existing projects",
+          "empty": "Nici un proiect existent",
           "titles": {
-            "favorite": "Favorite projects",
-            "other": "Other projects"
+            "favorite": "Proiecte favorite",
+            "other": "Alte proiecte"
           }
         },
         "project-select-list-item": {
           "tooltips": {
-            "favorite": "Toggle favorite",
-            "delete": "Remove from list",
+            "favorite": "Comuta favorite",
+            "delete": "Elimina din lista",
             "open-in-editor": "Deschide in editor"
           }
         },
@@ -168,15 +168,15 @@
         },
         "terminal-view": {
           "buttons": {
-            "clear": "Clear console",
+            "clear": "Curata consola",
             "scroll": "Scroll to bottom"
           }
         },
         "top-bar": {
-          "no-favorites": "No favorite projects",
-          "favorite-projects": "Favorite projects",
-          "recent-projects": "Recent projects",
-          "homepage": "Home page"
+          "no-favorites": "Nici un proiect favorit",
+          "favorite-projects": "Proiecte favorite",
+          "recent-projects": "Proiecte recente",
+          "homepage": "Prima pagina"
         },
         "view-badge": {
           "labels": {
@@ -188,31 +188,31 @@
           }
         },
         "widget": {
-          "remove": "Remove widget",
-          "configure": "Configure widget",
+          "remove": "Elimina widget",
+          "configure": "Configureaza widget",
           "save": "Salveaza",
           "reset-config": "Reset config",
-          "open-details": "Show more"
+          "open-details": "Arata mai multe"
         },
         "widget-add-pane": {
-          "title": "Add widgets"
+          "title": "Adauga widget-uri"
         },
         "widget-add-item": {
-          "add": "Add widget",
+          "add": "Adauga widget",
           "details": {
-            "title": "Widget details",
-            "max-instances": "Max instance count: {count}/{total}",
+            "title": "Detalii widget",
+            "max-instances": "Numar maxim de instante: {count}/{total}",
             "unlimited": "nelimitat"
           }
         }
       },
       "mixins": {
         "progress": {
-          "creating": "Creating project...",
-          "git-init": "Initializing git repository...",
-          "plugins-install": "Installing Vue CLI plugins. This might take a while...",
+          "creating": "Se creaza proiect...",
+          "git-init": "Se initializeaza repository git...",
+          "plugins-install": "Se instaleaza componentele Vue CLI. Poate sa dureze un timp...",
           "invoking-generators": "Invoking generators...",
-          "deps-install": "Installing additional dependencies...",
+          "deps-install": "Se instaleaza dependente aditionale...",
           "completion-hooks": "Running completion hooks...",
           "fetch-remote-preset": "Fetching remote preset...",
           "done": "Successfully created project",

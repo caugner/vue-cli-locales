@@ -8,8 +8,8 @@
       },
       "components": {
         "client-addon-component": {
-          "timeout": "Component load timeout",
-          "timeout-info": "The custom component takes too much time to load, there might be an error"
+          "timeout": "組件載入逾時",
+          "timeout-info": "這個自訂組件花太多時間來載入了，一定有個錯誤"
         },
         "connection-status": {
           "disconnected": "連接已中斷",
@@ -87,7 +87,7 @@
         },
         "project-nav": {
           "tooltips": {
-            "dashboard": "Dashboard",
+            "dashboard": "儀表板",
             "plugins": "插件",
             "dependencies": "依賴",
             "configuration": "設定",
@@ -116,9 +116,9 @@
           "installed": "已安裝",
           "actions": {
             "update": "更新 {target}",
-            "refresh": "Force Refresh {target}<br><i>Press [Shift] for Quick Refresh (node_modules won't be updated)</i>"
+            "refresh": "強制重新整理 {target} <br> <i> 按下 [Shift] 以快速重新整理 (node_modules 將不會被更新)"
           },
-          "local": "Local"
+          "local": "本地"
         },
         "project-dependency-item": {
           "version": "版本",
@@ -140,7 +140,7 @@
           "default": "預設"
         },
         "prompts-list": {
-          "empty": "（暫無設定）"
+          "empty": "沒有設定"
         },
         "status-bar": {
           "project": {
@@ -188,20 +188,20 @@
           }
         },
         "widget": {
-          "remove": "Remove widget",
-          "configure": "Configure widget",
-          "save": "Save",
-          "reset-config": "Reset config",
+          "remove": "移除小工具",
+          "configure": "設定小工具",
+          "save": "儲存",
+          "reset-config": "重設設定",
           "open-details": "顯示更多"
         },
         "widget-add-pane": {
-          "title": "Add widgets"
+          "title": "新增小工具"
         },
         "widget-add-item": {
-          "add": "Add widget",
+          "add": "新增小工具",
           "details": {
-            "title": "Widget details",
-            "max-instances": "Max instance count: {count}/{total}",
+            "title": "小工具詳情",
+            "max-instances": "最大實例數量: {count}/{total}",
             "unlimited": "無限制"
           }
         }
@@ -209,12 +209,12 @@
       "mixins": {
         "progress": {
           "creating": "正在新增專案...",
-          "git-init": "初始化 Git Repository...",
+          "git-init": "初始化 Git 倉庫...",
           "plugins-install": "正在安裝 Vue CLI 插件. 這需要一點時間...",
           "invoking-generators": "正在生成專案...",
           "deps-install": "正在安裝依賴...",
           "completion-hooks": "即將完成...",
-          "fetch-remote-preset": "拉取遠端預設...",
+          "fetch-remote-preset": "拉取遠端模板...",
           "done": "專案新增成功",
           "plugin-install": "正在安裝 {arg0}...",
           "plugin-uninstall": "正在移除 {arg0}...",
@@ -256,7 +256,7 @@
               "message": "此資料夾缺少 'node_modules'。請安裝依賴後再嘗試匯入。",
               "close": "知道了"
             },
-            "force": "Import anyway"
+            "force": "無論如何都要匯入"
           }
         },
         "project-create": {
@@ -280,8 +280,8 @@
                 "options": {
                   "label": "更多選項",
                   "force": "若目標資料夾已存在則將其覆蓋",
-                  "git-title": "去",
-                  "git": "初始化 git Repository (建議)",
+                  "git-title": "Git 倉庫",
+                  "git": "初始化 git 倉庫(建議)",
                   "git-commit-message": "初始提交訊息 (選填)"
                 }
               },
@@ -299,16 +299,16 @@
               }
             },
             "presets": {
-              "title": "預設",
-              "description": "預設就是一套定義好的插件和設定。你也可以將自己的配置保存成預設，方便以後新增專案使用。",
-              "select": "選擇一套預設",
+              "title": "模板",
+              "description": "模板就是一套定義好的插件和設定。你也可以將自己的配置保存成預設，方便以後新增專案使用。",
+              "select": "選擇一套模板",
               "buttons": {
                 "previous": "上一步",
                 "next": "下一步",
                 "create": "新增專案"
               },
               "modal": {
-                "title": "設定遠端預設",
+                "title": "設定遠端模板",
                 "body": "敬請期待…"
               },
               "manual": {
@@ -316,18 +316,18 @@
                 "description": "手動設定專案"
               },
               "remote": {
-                "name": "遠端預設",
-                "description": "從 git Repository 拉取預設",
+                "name": "遠端模板",
+                "description": "從 git 倉庫拉取模板",
                 "url": {
-                  "title": "網址",
+                  "title": "模板網址",
                   "subtitle": "Git Repository 地址, 如 'username/repo'. 可以使用前綴如 'gitlab:' 或 'bitbucket:'."
                 },
                 "options": "選項",
-                "clone": "這是私有 Repository",
+                "clone": "這是私有倉庫",
                 "cancel": "取消",
                 "done": "完成"
               },
-              "default-preset": "預設"
+              "default-preset": "預設模板"
             },
             "features": {
               "title": "功能",
@@ -350,15 +350,15 @@
                 "create": "新增專案"
               },
               "modal": {
-                "title": "保存為新預設",
+                "title": "保存為新模板",
                 "body": {
-                  "title": "預設名",
-                  "subtitle": "將功能和設定保存為一套新的預設"
+                  "title": "模板名",
+                  "subtitle": "將功能和設定保存為一套新的模板"
                 },
                 "buttons": {
                   "cancel": "取消",
                   "continue": "新增專案，不保存預設",
-                  "create": "保存預設並新增專案"
+                  "create": "保存模板並新增專案"
                 }
               }
             }
@@ -462,8 +462,8 @@
           }
         },
         "project-dashboard": {
-          "title": "Project dashboard",
-          "cutomize": "Customize",
+          "title": "專案儀表板",
+          "cutomize": "自訂",
           "done": "完成"
         },
         "settings": {
@@ -584,8 +584,8 @@
               "description": "應用的部署地址，如 '/my-app/'。如果留空，所有資源將使用相對路徑。"
             },
             "publicPath": {
-              "label": "Public Path",
-              "description": "The base URL your application will be deployed at, for example '/my-app/'. Use an empty string ('') so that all assets are linked using relative paths."
+              "label": "公開路徑",
+              "description": "應用程式的部屬位置，例如 '/my-app/'。\n如果留空，所有資源將使用相對路徑。"
             },
             "outputDir": {
               "label": "輸出目錄",
@@ -752,27 +752,27 @@
       "widgets": {
         "welcome": {
           "title": "歡迎提示",
-          "description": "Some tips to help you get started",
+          "description": "這些建議能幫助您開始",
           "content": {
             "title": "歡迎來到您的新專案!",
-            "tip1": "You are looking at the project dashboard where you can put widgets. Use the 'Customize' button to add more! Everything is automatically saved.",
-            "tip2": "On the left are the different available pages. 'Plugins' let you add new Vue CLI plugins, 'Dependencies' for managing the packages, 'Configuration' to configure the tools and 'Tasks' to run scripts (for example webpack).",
-            "tip3": "Return to the project manager with the dropdown at the top left of the screen or the home button in the status bar at the bottom.",
-            "ok": "Understood"
+            "tip1": "您看到的是專案儀表板，您可以在上面放上小工具。使用 '自訂' 按鈕以新增更多! 所有東西都會自動儲存。",
+            "tip2": "不同的可用頁面在左側。 您可以在 '插件' 加入新的 Vue CLI 插件， '依賴' 是用來管理包 (package) 的，'設定' 可以設定工具，'任務' 可以執行腳本 (例如 webpack)。",
+            "tip3": "使用左上的下拉選單或是下方狀態欄的 '家' 按鈕來回到專案管理器。",
+            "ok": "了解"
           }
         },
         "kill-port": {
-          "title": "Kill port",
-          "description": "Kill processes using a specific network port",
+          "title": "停止此端口",
+          "description": "停止使用特定端口的進程",
           "input": {
-            "placeholder": "Enter a network port"
+            "placeholder": "輸入一個網路端口"
           },
-          "kill": "Kill",
+          "kill": "停止",
           "status": {
-            "idle": "Ready to kill",
-            "killing": "Killing procress...",
-            "killed": "Killed successfully!",
-            "error": "Couldn't kill process"
+            "idle": "準備要停止了",
+            "killing": "停止進程中...",
+            "killed": "成功停止!",
+            "error": "無法停止進程"
           }
         },
         "status-widget": {
@@ -789,53 +789,53 @@
             "loading": "正在檢查更新",
             "attention": "{n} 個插件可以更新"
           },
-          "page": "Go to Plugins"
+          "page": "前往插件"
         },
         "dependency-updates": {
-          "title": "Dependency updates",
-          "description": "Monitor dependencies updates",
+          "title": "依賴更新",
+          "description": "監控依賴更新",
           "messages": {
-            "ok": "All dependencies up-to-date",
+            "ok": "所有的依賴都已更新到最新。",
             "loading": "正在檢查更新",
-            "attention": "{n} dependency updates available"
+            "attention": "有 {n} 個依賴的更新可用。"
           },
-          "page": "Go to Dependencies"
+          "page": "前往依賴"
         },
         "vulnerability": {
           "title": "漏洞檢查",
-          "description": "Check for known vulnerabilities in your project dependencies",
+          "description": "在依賴中檢查已知的漏洞。",
           "messages": {
             "ok": "沒有發現漏洞",
             "loading": "檢視安全報告",
             "attention": "{n} 個漏洞被發現"
           },
           "severity": {
-            "high": "High severity",
-            "medium": "Medium severity",
-            "low": "Low severity"
+            "high": "高危險性",
+            "medium": "中危險性",
+            "low": "低危險性"
           },
-          "direct-dep": "Direct dependency"
+          "direct-dep": "直接依賴"
         },
         "run-task": {
           "title": "執行任務",
-          "description": "Shortcut to run a task",
+          "description": "執行任務的捷徑",
           "prompts": {
             "task": "選擇一個任務"
           },
-          "page": "Go to Task"
+          "page": "前往任務"
         },
         "news": {
-          "title": "News feed",
-          "description": "Read news feed",
-          "refresh": "強制刷新",
-          "select-tip": "Select an item on the left",
+          "title": "新聞動態",
+          "description": "閱讀新聞動態",
+          "refresh": "強制重新整理",
+          "select-tip": "從左邊選擇一項",
           "prompts": {
-            "url": "RSS feed URL or GitHub repository"
+            "url": "GitHub 倉庫的 RSS feed 網址"
           },
           "errors": {
-            "fetch": "Couldn't fetch feed",
-            "offline": "You are offline",
-            "empty": "Empty feed"
+            "fetch": "無法取得動態",
+            "offline": "目前在離線模式",
+            "empty": "沒有動態"
           }
         }
       }

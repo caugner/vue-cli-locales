@@ -2,9 +2,9 @@
   "org": {
     "vue": {
       "common": {
-        "close": "Close",
-        "back": "Go back",
-        "more-info": "More info"
+        "close": "بستن ",
+        "back": "بازگشت به عقب",
+        "more-info": "اطلاعات بیشتر"
       },
       "components": {
         "client-addon-component": {
@@ -13,18 +13,18 @@
         },
         "connection-status": {
           "disconnected": "Disconnected from UI server",
-          "connected": "Connected!"
+          "connected": "متصل!"
         },
         "file-diff": {
           "binary": "Binary file not shown",
           "actions": {
-            "open": "Open in editor"
+            "open": "باز کردن در ویرایشگر"
           }
         },
         "file-diff-view": {
-          "files-changed": "Files changed",
-          "search-file": "Search file",
-          "empty": "No change found",
+          "files-changed": "فایل ها تغییر کرده اند",
+          "search-file": "جستجوی فایل",
+          "empty": "تغییری پیدا نشد",
           "error": "Couldn't get file changes",
           "modals": {
             "commit": {
@@ -33,182 +33,182 @@
               "subtitle": "Record changes to the repository",
               "actions": {
                 "commit": "Commit",
-                "cancel": "Cancel"
+                "cancel": "لغو"
               }
             }
           },
           "actions": {
-            "collapse-all": "Collapse all",
-            "expand-all": "Expand all",
+            "collapse-all": "جمع کردن همه",
+            "expand-all": "باز شدن همه",
             "commit": "Commit changes",
-            "skip": "Skip",
-            "continue": "Continue",
-            "refresh": "Refresh"
+            "skip": "رد کردن",
+            "continue": "ادامه ",
+            "refresh": "تازه کردن"
           }
         },
         "folder-explorer": {
           "toolbar": {
             "tooltips": {
-              "parent-folder": "Open parent folder",
-              "edit-path": "Edit path",
-              "favorite": "Toggle favorite",
-              "favorite-folders": "Favorite folders",
-              "refresh": "Refresh"
+              "parent-folder": "باز کردن پوشه والد",
+              "edit-path": "ویرایش مسیر",
+              "favorite": "تغییر مورد علاقه",
+              "favorite-folders": "پوشه های مورد علاقه",
+              "refresh": "دوباره سازی"
             },
-            "placeholder": "Enter the full path to a folder",
-            "empty": "No favorite folders yet.",
-            "show-hidden": "Show hidden folders"
+            "placeholder": "مسیر کامل به یک پوشه را وارد کنید",
+            "empty": "هنوز هیچ پوشه ی مورد علاقه ای وجود ندارد.",
+            "show-hidden": "نمایش پوشه های مخفی"
           },
           "new-folder": {
-            "action": "New folder",
-            "title": "Create new folder",
+            "action": "پوشه جدید",
+            "title": "ایجاد پوشه جدید",
             "field": {
-              "title": "New folder",
+              "title": "پوشه حدید",
               "subtitle": "You can use the folder separator to create multiple nested folders at once."
             },
-            "cancel": "Cancel",
-            "create": "Create"
+            "cancel": "لغو ",
+            "create": "ساختن"
           }
         },
         "list-item-info": {
-          "more-info": "More Info"
+          "more-info": "اطلاعات بیشتر"
         },
         "logger-view": {
-          "title": "Logs",
+          "title": "وقایع",
           "empty": "No logs yet",
           "buttons": {
-            "clear": "Clear logs",
-            "scroll": "Scroll to bottom",
-            "close": "Close"
+            "clear": "پاک کردن وقایع",
+            "scroll": "رفتن به پایین",
+            "close": "بستن "
           }
         },
         "progress-screen": {
-          "close": "Close"
+          "close": "بستن"
         },
         "project-nav": {
           "tooltips": {
-            "dashboard": "Dashboard",
-            "plugins": "Plugins",
-            "dependencies": "Dependencies",
-            "configuration": "Configuration",
-            "tasks": "Tasks",
-            "more": "More"
+            "dashboard": "میزکار",
+            "plugins": "پلاگین ها",
+            "dependencies": "وابستگی ها",
+            "configuration": "پیکربندی",
+            "tasks": "وظایف",
+            "more": "بیشتر"
           }
         },
         "project-select-list": {
-          "empty": "No existing projects",
+          "empty": "هیچ پروژه ای وجود ندارد",
           "titles": {
-            "favorite": "Favorite projects",
-            "other": "Other projects"
+            "favorite": "پوشه های مورد علاقه",
+            "other": "دیگر پروژه ها"
           }
         },
         "project-select-list-item": {
           "tooltips": {
-            "favorite": "Toggle favorite",
-            "delete": "Remove from list",
-            "open-in-editor": "Open in editor"
+            "favorite": "تغییر مورد علاقه ",
+            "delete": "حذف از لیست ",
+            "open-in-editor": "باز کردن در ویرایشگر"
           }
         },
         "project-plugin-item": {
-          "version": "version",
-          "latest": "latest",
-          "official": "Official",
-          "installed": "Installed",
+          "version": "نسخه",
+          "latest": "آخرين",
+          "official": "رسمی",
+          "installed": "نصب شد",
           "actions": {
-            "update": "Update {target}",
-            "refresh": "Force Refresh {target}<br><i>Press [Shift] for Quick Refresh (node_modules won't be updated)</i>"
+            "update": "به روز رسانی{target}",
+            "refresh": "تازه سازی اجباری {target}<br> <i>فشار [Shift] برای تازه سازی سریع (node_modules به روز نخواهد شد)</i>"
           },
-          "local": "Local"
+          "local": "محلی"
         },
         "project-dependency-item": {
-          "version": "version",
+          "version": "نسخه ",
           "wanted": "wanted",
-          "latest": "latest",
-          "installed": "Installed",
+          "latest": "آخرین",
+          "installed": "نصب شد",
           "actions": {
-            "update": "Update {target}",
-            "uninstall": "Uninstall {target}"
+            "update": "به روز رسانی {target}",
+            "uninstall": "حذف کردن {target}"
           }
         },
         "project-tasks-dropdown": {
           "tooltips": {
-            "tasks": "Tasks",
-            "running-tasks": "{count} running task(s)"
+            "tasks": "وظایف",
+            "running-tasks": "{count} وظیفه (های) در حال اجرا"
           }
         },
         "prompt-list": {
-          "default": "Default"
+          "default": "پیشفرض"
         },
         "prompts-list": {
-          "empty": "No configuration"
+          "empty": "بدون پیکربندی"
         },
         "status-bar": {
           "project": {
-            "tooltip": "Click to toggle Project Manager",
-            "empty": "No project open"
+            "tooltip": "برای تغییر مدیر پروژه کلیک کنید",
+            "empty": "هیچ پروژه ای باز نیست"
           },
           "path": {
-            "tooltip": "Current Working Folder"
+            "tooltip": "پوشه کاری فعلی"
           },
           "log": {
-            "tooltip": "Logs<br><i>Click to toggle Vue CLI logs</i>",
+            "tooltip": "وقایع<br><i> برای تغییر وقایع Vue CLI کلیک کنید</i>",
             "empty": "No logs yet"
           },
-          "report-bug": "Report bug",
-          "translate": "Help translate",
+          "report-bug": "گزارش اشکال",
+          "translate": "کمک برای ترجمه",
           "dark-mode": "Toggle dark mode",
           "reset-plugin-api": "Refresh plugins API"
         },
         "suggestion-bar": {
-          "suggestion": "Suggestion",
+          "suggestion": "پیشنهادی",
           "modal": {
-            "cancel": "Cancel",
-            "continue": "Continue"
+            "cancel": "بستن",
+            "continue": "ادامه"
           }
         },
         "terminal-view": {
           "buttons": {
-            "clear": "Clear console",
-            "scroll": "Scroll to bottom"
+            "clear": "پاک کردن کنسول",
+            "scroll": "رفتن به پایین"
           }
         },
         "top-bar": {
           "no-favorites": "No favorite projects",
-          "favorite-projects": "Favorite projects",
-          "recent-projects": "Recent projects",
-          "homepage": "Home page"
+          "favorite-projects": "پروژه های مورد علاقه",
+          "recent-projects": "پروژه های اخیر",
+          "homepage": "صفحه نخست"
         },
         "view-badge": {
           "labels": {
             "tasks": {
-              "error": "Error status",
-              "running": "Running status",
-              "done": "Done status"
+              "error": "وضعیت خطا",
+              "running": "وضعیت در حال اجرا",
+              "done": "وضعیت انجام شده"
             }
           }
         },
         "widget": {
-          "remove": "Remove widget",
-          "configure": "Configure widget",
-          "save": "Save",
-          "reset-config": "Reset config",
-          "open-details": "Show more"
+          "remove": "حذف ویجت",
+          "configure": "پیکربندی ویجت",
+          "save": "ذخیره",
+          "reset-config": "تنظیم مجدد پیکربندی",
+          "open-details": "اطلاعت بیشتر"
         },
         "widget-add-pane": {
-          "title": "Add widgets"
+          "title": "اضافه کردن ویجت ها"
         },
         "widget-add-item": {
-          "add": "Add widget",
+          "add": "اضافه کردن ویجت",
           "details": {
-            "title": "Widget details",
+            "title": "جزئیات ویجت",
             "max-instances": "Max instance count: {count}/{total}",
-            "unlimited": "unlimited"
+            "unlimited": "نامحدود"
           }
         }
       },
       "mixins": {
         "progress": {
-          "creating": "Creating project...",
+          "creating": "ایجاد پروژه...",
           "git-init": "Initializing git repository...",
           "plugins-install": "Installing Vue CLI plugins. This might take a while...",
           "invoking-generators": "Invoking generators...",
@@ -260,22 +260,22 @@
           }
         },
         "project-create": {
-          "title": "Create a new project",
+          "title": "ساخت پروژه ی جدید",
           "tabs": {
             "details": {
-              "title": "Details",
+              "title": "جزئیات",
               "form": {
                 "folder": {
-                  "label": "Project folder",
+                  "label": "پوشه پروژه ",
                   "placeholder": "Type a name",
                   "tooltip": "Change base folder",
                   "action": "Select this folder",
-                  "folder-exists": "This folder already exists",
-                  "folder-name-invalid": "Folder name invalid"
+                  "folder-exists": "این پوشه در حال حاضر وجود دارد",
+                  "folder-name-invalid": "نام  پوشه نامعتبر است"
                 },
                 "manager": {
-                  "label": "Package manager",
-                  "default": "Default"
+                  "label": "مدیر بسته ",
+                  "default": "پیشفرض"
                 },
                 "options": {
                   "label": "Additional options",
@@ -375,11 +375,11 @@
           "plugin": "plugin",
           "tabs": {
             "search": {
-              "label": "Search",
-              "search-input": "Search a plugin",
-              "not-found": "No results found",
+              "label": "جستجو ",
+              "search-input": "جستجوی پلاگین",
+              "not-found": "نتیجه ای پیدا نشد",
               "buttons": {
-                "cancel": "Cancel",
+                "cancel": "لغو",
                 "install": "Install {target}",
                 "default-install": "Install"
               }
