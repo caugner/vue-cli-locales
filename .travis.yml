@@ -10,6 +10,7 @@ matrix:
       language: python
       script: |
         if [ -n "$GH_TOKEN" -a -n "$TX_TOKEN" ]; then
+          git checkout "$TRAVIS_BRANCH"
           tx pull --parallel -asf
           git add .
           git -c user.name='vue-cli-locales-bot' -c user.email='vue-cli-locales-bot@caugner.de' commit -m "[tx-bot] updated from transifex"
@@ -17,3 +18,5 @@ matrix:
         fi
     - stage: test
       language: node_js
+      node_js:
+        - "node"
