@@ -3,6 +3,8 @@ stages:
     if: branch = master AND type = cron
   - name: test
     if: branch = master AND type = cron
+  - name: publish
+    if: branch = master AND type = push AND tag IS present
 
 matrix:
   include:
@@ -20,3 +22,16 @@ matrix:
       language: node_js
       node_js:
         - "node"
+    - stage: publish
+      language: node_js
+      node_js:
+        - "node"
+      deploy:
+        provider: npm
+        email: node@caugner.de
+        api_key:
+          secure: kBT7GVNN6Cv6T+S5UtDKfhnwEudkN1pVRDCHXJntNIfKDvwqGH6rfnOKaRVGvXDf0Kw3XcLf9RdKR24/E/nwUqVVU4BAZapbCDHPaue+tRNuT8/R22Jp6oiOiFoxnhw7FVfgEQLWFAMq/t3plBAb5xzrbBWHOfhbdwzHScbUC11XGxRqUdU4u3pRPXmol2OoMNLmyzZGgPl+xv22yPHRTTjwo/gzNT6RHpbsHEZfcPGwYq/H3zZoP+wAZUh3DFgOzy91lPiysy7qJ2XybrLcLgYUVHVpBwKcItTMHGMZYwVZLtlAxG6miGvnzmLDhw66Ixm71Kc4opdFYDrkTfeQwhiinVRYuvuahKYYRG76IJtPg73rvc+AcF0w3fbO7+Al0XeUR/QWNDfIm7c55v5fuZ+paxy4ghCkGOKz6hAqxtRzr122yU5aQVMgx7NJA+lnSRPJGTAdyS+wpPGMVa/PifbCtavZ1X2i+vvO3fdQVKEdvd6cYg/SQbIWiSajLVoGd6hNeOWqGzTvV+rMZ+zXwLgcZgH57IKnLmk4s538UmNr+qSgMwLhooeZ1mx0i2mLHQAtko1MMNP5J7xgpcjlOQqh1kfml/KuuuXd7hCOW7yX05x7s+mMf3jB3YTWKiJQPDPQvC63ET+l0B1M1HdEcGUUWL9pzC1we/dP316tsbo=
+        on:
+          branch: master
+          tags: true
+          repo: caugner/vue-cli-locales
