@@ -156,8 +156,8 @@
           },
           "report-bug": "گزارش اشکال",
           "translate": "کمک برای ترجمه",
-          "dark-mode": "Toggle dark mode",
-          "reset-plugin-api": "Refresh plugins API"
+          "dark-mode": "تغییر حالت به تاریک",
+          "reset-plugin-api": "نوسازی پلاگین های API"
         },
         "suggestion-bar": {
           "suggestion": "پیشنهادی",
@@ -173,7 +173,7 @@
           }
         },
         "top-bar": {
-          "no-favorites": "No favorite projects",
+          "no-favorites": "پروژه های غیر مورد علاقه",
           "favorite-projects": "پروژه های مورد علاقه",
           "recent-projects": "پروژه های اخیر",
           "homepage": "صفحه نخست"
@@ -201,7 +201,7 @@
           "add": "اضافه کردن ویجت",
           "details": {
             "title": "جزئیات ویجت",
-            "max-instances": "Max instance count: {count}/{total}",
+            "max-instances": "حداکثر تعداد نمونه: {count}/{total}",
             "unlimited": "نامحدود"
           }
         }
@@ -209,54 +209,54 @@
       "mixins": {
         "progress": {
           "creating": "ایجاد پروژه...",
-          "git-init": "Initializing git repository...",
-          "plugins-install": "Installing Vue CLI plugins. This might take a while...",
-          "invoking-generators": "Invoking generators...",
-          "deps-install": "Installing additional dependencies...",
-          "completion-hooks": "Running completion hooks...",
-          "fetch-remote-preset": "Fetching remote preset...",
-          "done": "Successfully created project",
-          "plugin-install": "Installing {arg0}...",
-          "plugin-uninstall": "Uninstalling {arg0}...",
-          "plugin-invoke": "Invoking {arg0}...",
-          "plugin-update": "Updating {arg0}...",
-          "plugins-update": "Updating {arg0} plugins...",
-          "dependency-install": "Installing {arg0}...",
-          "dependency-uninstall": "Uninstalling {arg0}...",
-          "dependency-update": "Updating {arg0}...",
-          "dependencies-update": "Updating {arg0} packages..."
+          "git-init": "در حال راه اندازی مخزن git...",
+          "plugins-install": "در حال نصب پلاگین های Vue CLI. ممکنه یه مدتی طول بکشه...",
+          "invoking-generators": "فراخوانی generators...",
+          "deps-install": "در حال نصب وابستگی های اضافه...",
+          "completion-hooks": "در حال تکمیل hooks..",
+          "fetch-remote-preset": "در حال دریافت از ریموت های از پیش تعیین شده...",
+          "done": "پروژه با موفقیت ایجاد شد",
+          "plugin-install": "درحال نصب {arg0}...",
+          "plugin-uninstall": "در حال حذف کردن {arg0}...",
+          "plugin-invoke": "در حال فراخوانی {arg0}...",
+          "plugin-update": "در حال به روز رسانی {arg0}...",
+          "plugins-update": "در حال بروز رسانی {arg0} پلاگین ها..",
+          "dependency-install": "در حال نصب {arg0}...",
+          "dependency-uninstall": "در حال حذف کردن {arg0}...",
+          "dependency-update": "در حال به روز رسانی {arg0}...",
+          "dependencies-update": "در حال بروز رسانی {arg0} بسته ها..."
         }
       },
       "types": {
         "task": {
           "status": {
-            "idle": "Idle",
-            "running": "Running",
-            "done": "Done",
-            "error": "Error",
-            "terminated": "Terminated"
+            "idle": "بیکار",
+            "running": "در حال اجرا",
+            "done": "به اتمام رسید",
+            "error": "خطا",
+            "terminated": "متوقف شد"
           }
         }
       },
       "views": {
         "project-select": {
-          "title": "Vue Project Manager",
+          "title": "مدیر پروژه Vue",
           "tabs": {
-            "projects": "Projects",
-            "create": "Create",
-            "import": "Import"
+            "projects": "پروژه ها",
+            "create": "ساختن",
+            "import": "وارد کردن"
           },
           "buttons": {
-            "create": "Create a new project here",
-            "import": "Import this folder"
+            "create": "ساخت پروژه جدید در اینجا",
+            "import": "وارد کردن این پوشه "
           },
           "import": {
             "no-modules": {
-              "title": "Missing modules",
-              "message": "It seems the project is missing the 'node_modules' folder. Please check you installed the dependencies before importing.",
-              "close": "Got it"
+              "title": "ماژول های گمشده",
+              "message": "به نظر می رسد که این پروژه فولدر های 'node_modules' را از دست داده است.لطفا قبل از وارد کردن وابستگی های خود را بررسی کنید.",
+              "close": "فهمیدم"
             },
-            "force": "Import anyway"
+            "force": "وارد کردن به هر حال"
           }
         },
         "project-create": {
@@ -267,9 +267,9 @@
               "form": {
                 "folder": {
                   "label": "پوشه پروژه ",
-                  "placeholder": "Type a name",
-                  "tooltip": "Change base folder",
-                  "action": "Select this folder",
+                  "placeholder": "یک نام تایپ کنید",
+                  "tooltip": "تغییر پوشه مبدا",
+                  "action": "انتخاب این پوشه",
                   "folder-exists": "این پوشه در حال حاضر وجود دارد",
                   "folder-name-invalid": "نام  پوشه نامعتبر است"
                 },
@@ -278,23 +278,23 @@
                   "default": "پیشفرض"
                 },
                 "options": {
-                  "label": "Additional options",
-                  "force": "Overwrite target folder if it exists",
-                  "git-title": "Git repository",
-                  "git": "Initialize git repository (recommended)",
-                  "git-commit-message": "Initial commit message (optional)"
+                  "label": "گزینه های اضافی",
+                  "force": "بازنویسی کردن فولدر هدف  اگر اون وجود داشت",
+                  "git-title": "مخزن Git",
+                  "git": "راه اندازی مخزن git (توصیه شده)",
+                  "git-commit-message": "پیغام اولیه ی commit (اختیاری)"
                 }
               },
               "buttons": {
-                "cancel": "Cancel",
-                "next": "Next"
+                "cancel": "لغو",
+                "next": "بعدی"
               },
               "modal": {
-                "title": "Cancel and reset project creation",
-                "body": "Are you sure you want to reset the project creation?",
+                "title": "لغو و راه اندازی مجدد پروژه",
+                "body": "آیا مطمئنید که می خواهید مجددا پروژه را راه اندازی کنید؟",
                 "buttons": {
-                  "back": "Go back",
-                  "clear": "Clear project"
+                  "back": "بازگشت به عقب",
+                  "clear": "پاک کردن پروژه "
                 }
               }
             },
@@ -303,51 +303,51 @@
               "description": "A preset is an association of plugins and configurations. After you've selected features, you can optionally save it as a preset so that you can reuse it for future projects, without having to reconfigure everything again.",
               "select": "Select a preset",
               "buttons": {
-                "previous": "Previous",
-                "next": "Next",
-                "create": "Create Project"
+                "previous": "قبلی",
+                "next": "بعدی",
+                "create": "ساخت پروژه ی جدید"
               },
               "modal": {
-                "title": "Configure Remote preset",
-                "body": "Available soon..."
+                "title": "پیکربندی ریموت preset",
+                "body": "به زودی در دسترس خواهد بود..."
               },
               "manual": {
-                "name": "Manual",
-                "description": "Manually select features"
+                "name": "دستی",
+                "description": "انتخاب دستی ویژگی ها"
               },
               "remote": {
                 "name": "Remote preset",
                 "description": "Fetch a preset from a git repository",
                 "url": {
-                  "title": "Preset URL",
+                  "title": "آدرس اینترنتی Preset",
                   "subtitle": "Git repo, for example 'username/repo'. You can also prefix with 'gitlab:' or 'bitbucket:'."
                 },
-                "options": "Other options",
+                "options": "گزینه های دیگر",
                 "clone": "Clone/Private repository",
-                "cancel": "Cancel",
-                "done": "Done"
+                "cancel": "لغو",
+                "done": "به اتمام رسید"
               },
-              "default-preset": "Default preset"
+              "default-preset": "preset پیشفرض"
             },
             "features": {
-              "title": "Features",
+              "title": "ویژگی ها",
               "description": "You will be able to add features after the project is created by installing plugins.",
-              "enable": "Enable features",
+              "enable": "فعال سازی ویژگی ها",
               "buttons": {
-                "previous": "Previous",
-                "next": "Next",
-                "create": "Create Project"
+                "previous": "قبلی",
+                "next": "بعدی",
+                "create": "ساخت پروژه"
               },
               "userConfigFiles": {
-                "name": "Use config files",
+                "name": "از فایل های config استفاده کیند",
                 "description": "Use specific configuration files (like '.babelrc') instead of using 'package.json'."
               }
             },
             "configuration": {
-              "title": "Configuration",
+              "title": "پیکربندی",
               "buttons": {
-                "previous": "Previous",
-                "create": "Create Project"
+                "previous": "قبلی",
+                "create": "ساخت پروژه "
               },
               "modal": {
                 "title": "Save as a new preset",
@@ -356,8 +356,8 @@
                   "subtitle": "Save the features and configuration into a new preset"
                 },
                 "buttons": {
-                  "cancel": "Cancel",
-                  "continue": "Continue without saving",
+                  "cancel": "لغو",
+                  "continue": "ادامه بدن ذخیره سازی",
                   "create": "Create a new preset"
                 }
               }
@@ -365,14 +365,14 @@
           }
         },
         "project-plugins": {
-          "title": "Project plugins",
-          "button": "Add plugin",
-          "heading": "Installed plugins",
-          "update-all": "Update all plugins"
+          "title": "پلاگین های پروژه",
+          "button": "اضافه کردن پلاگین",
+          "heading": "پلاگین های نصب شده",
+          "update-all": "به روز رسانی پلاگین ها"
         },
         "project-plugins-add": {
-          "title": "Add a plugin",
-          "plugin": "plugin",
+          "title": "اضافه کردن یک پلاگین",
+          "plugin": "پلاگین",
           "tabs": {
             "search": {
               "label": "جستجو ",
@@ -380,161 +380,161 @@
               "not-found": "نتیجه ای پیدا نشد",
               "buttons": {
                 "cancel": "لغو",
-                "install": "Install {target}",
-                "default-install": "Install"
+                "install": "نصب {target}",
+                "default-install": "نصب"
               }
             },
             "configuration": {
-              "label": "Configuration",
+              "label": "پیکربندی",
               "heading": "Installation of {target}",
               "buttons": {
-                "cancel": "Cancel",
-                "finish": "Finish installation"
+                "cancel": "لغو",
+                "finish": "نصب به پایان رسید "
               }
             },
             "diff": {
-              "label": "Files changed"
+              "label": "فایل ها تغییر کرده اند"
             }
           },
           "modal": {
-            "title": "Uninstall {target}?",
-            "body": "Do you want to uninstall the {target} plugin?",
+            "title": "حذف {target}؟",
+            "body": "آیا میخواهید پلاگین  {target}  حذف شود؟",
             "buttons": {
-              "back": "Go back",
-              "cancel": "Cancel without uninstalling",
-              "uninstall": "Uninstall"
+              "back": "بازگشت به عقب",
+              "cancel": "لغو بدون حذف کردن",
+              "uninstall": "حذف"
             }
           },
           "buttons": {
-            "add-local": "Browse local plugin"
+            "add-local": "مرور پلاگین های محلی"
           }
         },
         "project-plugin-add-local": {
-          "title": "Add a local plugin",
+          "title": "اضافه کردن یک پلاگین محلی",
           "buttons": {
-            "add": "Add local plugin"
+            "add": "اضافه کردن پلاگین محلی"
           }
         },
         "project-configurations": {
-          "title": "Project configuration"
+          "title": "پیکربندی پروژه"
         },
         "project-configuration-details": {
           "actions": {
-            "cancel": "Cancel changes",
-            "save": "Save changes",
-            "more-info": "More info",
-            "refresh": "Refresh"
+            "cancel": "لغو تغییرات ",
+            "save": "ذخیره تغییرات",
+            "more-info": "اطلاعات بیشتر",
+            "refresh": "تازه کردن"
           }
         },
         "project-tasks": {
-          "title": "Project tasks"
+          "title": "وظایف پروژه"
         },
         "project-task-details": {
           "actions": {
-            "play": "Run task",
-            "stop": "Stop task",
-            "close": "Close",
-            "save": "Save"
+            "play": "اجرای وظیفه",
+            "stop": "توقف وظیفه",
+            "close": "بستن",
+            "save": "ذخیره"
           },
           "command": "Script command",
-          "parameters": "Parameters",
-          "more-info": "More Info",
-          "output": "Output"
+          "parameters": "پارامترها",
+          "more-info": "اطلاعات بیشتر",
+          "output": "خروجی"
         },
         "project-dependencies": {
-          "title": "Project dependencies",
+          "title": "وابستگی های پروژه",
           "heading": {
-            "dependencies": "Main dependencies",
-            "devDependencies": "Development dependencies"
+            "dependencies": "وابستگی های اصلی",
+            "devDependencies": "وابستگی های توسعه"
           },
           "actions": {
-            "install": "Install dependency",
-            "update-all": "Update all dependencies"
+            "install": "نصب وابستگی",
+            "update-all": "به روز رسانی همه ی وابستگی ها"
           },
           "install": {
-            "title": "Install new dependency"
+            "title": "نصب وابستگی جدید"
           },
           "uninstall": {
-            "title": "Confirm uninstall",
-            "body": "Are you sure you want to uninstall {id}?",
-            "cancel": "Cancel",
-            "uninstall": "Uninstall {id}"
+            "title": "تایید حذف کردن ",
+            "body": "آیا مطمئن به حذف {id} هستید؟",
+            "cancel": "لغو",
+            "uninstall": "حذف {id}"
           }
         },
         "project-dashboard": {
-          "title": "Project dashboard",
-          "cutomize": "Customize",
-          "done": "Done"
+          "title": "میزکار پروژه",
+          "cutomize": "شخصی سازی ",
+          "done": "به اتمام رسید"
         },
         "settings": {
-          "title": "Settings"
+          "title": "تنظیمات "
         },
         "about": {
-          "title": "About",
+          "title": "درباره",
           "description": "<a href=\"https://github.com/vuejs/vue-cli/tree/dev/packages/%40vue/cli-ui\" target=\"_blank\">@vue/cli-ui</a> is a built-in package of vue-cli which opens a full-blown UI.",
           "quote": "Vue-cli 3.x is a complete rewrite, with a lot of new awesome features. You will be able to select features like routing, Vuex or Typescript, then add and upgrade building blocks called \"vue-cli plugins\". But having so much more options also means the tool is now more complex and harder to start using. That's why we thought having a full-blown GUI would help discover the new features, search and install vue-cli plugins and unlock more possibilities overall while not being limited by a terminal interface. To sum up, vue-cli will not only allow you to bootstrap a new project easily, but it will also remain useful for ongoing work afterwards!",
-          "links": "Useful links",
-          "back": "Go back"
+          "links": "لینک های مفید",
+          "back": "بازگشت به عقب"
         }
       },
       "cli-service": {
         "suggestions": {
           "vue-router-add": {
-            "label": "Add vue-router",
+            "label": "اضافه کردن vue-router",
             "message": "Official library to support multiple virtual pages in a Single-Page App. Each route renders a different component."
           },
           "vuex-add": {
-            "label": "Add vuex",
+            "label": "اضافه کردن vuex",
             "message": "Official centralized State Management solution for large-scale apps. Very useful if multiple components need to access the same data."
           },
           "vue-devtools": {
-            "label": "Install devtools",
+            "label": "نصب devtools",
             "message": "Browser devtools official extension for debugging Vue.js applications where you can inspect your components, vuex store and events."
           },
-          "progress": "Installing {arg0}..."
+          "progress": "در حال نصب {arg0}..."
         }
       },
       "vue-webpack": {
         "dashboard": {
-          "title": "Dashboard",
-          "open-app": "Open app",
+          "title": "میزکار",
+          "open-app": "بازکردن برنامه",
           "webpack-status": {
-            "Success": "Success",
-            "Failed": "Failed",
-            "Compiling": "Compiling",
-            "Invalidated": "Invalidated",
-            "Idle": "Idle"
+            "Success": "موفقیت",
+            "Failed": "شکست خورد",
+            "Compiling": "در حال کامپایل کردن",
+            "Invalidated": "نامعتبر ",
+            "Idle": "بیکار"
           },
           "build-status": {
             "labels": {
-              "status": "Status",
-              "errors": "Errors",
-              "warnings": "Warnings",
-              "assets": "Assets",
-              "modules": "Modules",
-              "deps": "Dependencies"
+              "status": "وضعیت",
+              "errors": "خطا ها",
+              "warnings": "هشدار ها",
+              "assets": "دارایی ها",
+              "modules": "ماژول ها",
+              "deps": "وابستگی ها"
             }
           },
           "speed-stats": {
-            "title": "Speed stats"
+            "title": "آمار سرعت"
           },
           "module-list": {
-            "title": "Dependencies"
+            "title": "وابستگی ها"
           },
           "asset-list": {
-            "title": "Assets",
+            "title": "دارایی ها",
             "size-warning": "This asset is big, consider using Code splitting to create smaller assets."
           }
         },
         "analyzer": {
-          "title": "Analyzer",
-          "go-up": "Go up",
-          "go-home": "Go to home",
-          "chunk": "Chunk"
+          "title": "تحلیل گر",
+          "go-up": "برو بالا",
+          "go-home": "برو به خانه",
+          "chunk": "تکه"
         },
         "sizes": {
-          "stats": "Stats",
-          "parsed": "Parsed",
+          "stats": "آمار",
+          "parsed": "تجزیه شده",
           "gzip": "Gzip",
           "help": "<b>Stats:</b> size from webpack stats data.<br><b>Parsed:</b> size from extracted source (after minification plugins). More accurate.<br><b>Gzip:</b> size of gzipped extracted source."
         },
@@ -546,23 +546,23 @@
             "mode": "Specify env mode",
             "host": "Specify host",
             "port": "Specify port",
-            "https": "Use HTTPS"
+            "https": "استفاده از HTTPS"
           },
           "build": {
             "description": "Compiles and minifies for production",
             "mode": "Specify env mode",
-            "dest": "Output directory",
+            "dest": "شاخه خروجی",
             "target": {
               "description": "Build target",
               "app": "Web app",
-              "lib": "Library",
+              "lib": "کتابخانه",
               "wc": "Web component",
               "wc-async": "Async web component"
             },
             "name": "Name for library or web-component mode (default: 'name' in package.json or entry filename)",
             "watch": "Watch for changes",
             "modern": {
-              "label": "Modern mode",
+              "label": "حالت مدرن ",
               "description": "Build app targeting modern browsers with auto fallback"
             }
           },
@@ -574,25 +574,25 @@
         },
         "config": {
           "vue-cli": {
-            "description": "Configure your Vue project",
+            "description": "پیکربندی پروژه ی Vue خود",
             "groups": {
-              "general": "General settings",
-              "css": "CSS settings"
+              "general": "تنظیمات عمومی",
+              "css": "تنظیمات CSS"
             },
             "baseUrl": {
-              "label": "Base URL",
+              "label": "آدرس اینترنتی اصلی",
               "description": "The base URL your application will be deployed at, for example '/my-app/'. Use an empty string ('') so that all assets are linked using relative paths."
             },
             "publicPath": {
-              "label": "Public Path",
+              "label": "مسیر عمومی",
               "description": "The base URL your application will be deployed at, for example '/my-app/'. Use an empty string ('') so that all assets are linked using relative paths."
             },
             "outputDir": {
-              "label": "Output directory",
+              "label": "شاخه خروجی",
               "description": "The directory where the production build files will be generated"
             },
             "assetsDir": {
-              "label": "Assets directory",
+              "label": "شاخه دارایی ها",
               "description": "A directory to nest generated static assets (js, css, img, fonts) under."
             },
             "runtimeCompiler": {
@@ -617,14 +617,14 @@
                 "description": "Whether to extract CSS in your components into a standalone CSS files (instead of inlined in JavaScript and injected dynamically)."
               },
               "sourceMap": {
-                "label": "Enable CSS Source Maps",
+                "label": "فعال کردن CSS Source Maps",
                 "description": "Whether to enable source maps for CSS. Enabling this may affect build performance."
               }
             }
           }
         },
         "suggestions": {
-          "vue-config-open": "Open vue config"
+          "vue-config-open": "بازکردن vue config"
         }
       },
       "eslint": {
@@ -632,26 +632,26 @@
           "eslint": {
             "description": "Error checking & Code quality",
             "groups": {
-              "base": "Base",
-              "essential": "Essential",
-              "strongly-recommended": "Strongly recommended",
-              "recommended": "Recommended",
-              "uncategorized": "Uncategorized"
+              "base": "اصلی",
+              "essential": "ضروری",
+              "strongly-recommended": "به شدت توصیه شده",
+              "recommended": "توصیه شده",
+              "uncategorized": "دسته بندی نشده"
             },
             "setting": {
-              "off": "Off",
-              "error": "Error",
-              "warning": "Warning",
-              "custom": "Custom"
+              "off": "خاموش",
+              "error": "خطا",
+              "warning": "هشدار",
+              "custom": "شخصی"
             },
             "general": {
-              "label": "General",
+              "label": "عمومی",
               "lintOnSave": {
                 "message": "Lint on save",
                 "description": "Automatically lint source files when saved"
               },
               "config": {
-                "message": "Select config",
+                "message": "انتخاب config",
                 "description": "Select pre-defined configuration"
               }
             },
@@ -668,7 +668,7 @@
         },
         "suggestions": {
           "open-eslintrc": {
-            "label": "Open eslintrc"
+            "label": "بازکردن eslintrc"
           }
         }
       },
@@ -681,7 +681,7 @@
               "description": "This allows you to the choose between the two modes supported by the underlying `workbox-webpack-plugin`"
             },
             "name": {
-              "message": "App name",
+              "message": "نام برنامه",
               "description": "App name displayed on the Splash screen and various other places. Also used as the value for the `apple-mobile-web-app-title` meta tag in the generated HTML."
             },
             "themeColor": {
@@ -754,88 +754,88 @@
           "title": "Welcome tips",
           "description": "Some tips to help you get started",
           "content": {
-            "title": "Welcome to your new project!",
+            "title": "به پروژه جدید خود خوش آمدید",
             "tip1": "You are looking at the project dashboard where you can put widgets. Use the 'Customize' button to add more! Everything is automatically saved.",
             "tip2": "On the left are the different available pages. 'Plugins' let you add new Vue CLI plugins, 'Dependencies' for managing the packages, 'Configuration' to configure the tools and 'Tasks' to run scripts (for example webpack).",
             "tip3": "Return to the project manager with the dropdown at the top left of the screen or the home button in the status bar at the bottom.",
-            "ok": "Understood"
+            "ok": "موافقت"
           }
         },
         "kill-port": {
           "title": "Kill port",
           "description": "Kill processes using a specific network port",
           "input": {
-            "placeholder": "Enter a network port"
+            "placeholder": "پورت شبکه را وارد کنید"
           },
-          "kill": "Kill",
+          "kill": "کشتن",
           "status": {
-            "idle": "Ready to kill",
-            "killing": "Killing procress...",
-            "killed": "Killed successfully!",
+            "idle": "آماده برای کشتن",
+            "killing": "در حال کشتن procress...",
+            "killed": "با موفقیت کشته شد!",
             "error": "Couldn't kill process"
           }
         },
         "status-widget": {
-          "last-updated": "Updated",
-          "never": "Not updated yet",
-          "check": "Check for updates",
-          "more-info": "More details"
+          "last-updated": "به روز شد",
+          "never": "هنوز به روز نشده است",
+          "check": "بررسی برای بروزرسانی",
+          "more-info": "جزئیات بیشتر"
         },
         "plugin-updates": {
-          "title": "Plugin updates",
+          "title": "به روز رسانی پلاگین",
           "description": "Monitor plugin updates",
           "messages": {
             "ok": "All plugins up-to-date",
             "loading": "Checking for updates...",
             "attention": "{n} plugin updates available"
           },
-          "page": "Go to Plugins"
+          "page": "برو به پلاگین ها"
         },
         "dependency-updates": {
-          "title": "Dependency updates",
+          "title": "وابستگی ها به روز شد",
           "description": "Monitor dependencies updates",
           "messages": {
-            "ok": "All dependencies up-to-date",
-            "loading": "Checking for updates...",
+            "ok": "همه ی وابستگی ها به روز هستند",
+            "loading": "در حال بررسی برای به روز رسانی",
             "attention": "{n} dependency updates available"
           },
-          "page": "Go to Dependencies"
+          "page": "برو به وابستگی ها"
         },
         "vulnerability": {
           "title": "Vulnerability check",
           "description": "Check for known vulnerabilities in your project dependencies",
           "messages": {
             "ok": "No vulnerability found",
-            "loading": "Checking security reports...",
+            "loading": "بررسی گزارش های امنیتی",
             "attention": "{n} vulnerabilities found"
           },
           "severity": {
-            "high": "High severity",
-            "medium": "Medium severity",
-            "low": "Low severity"
+            "high": "شدت بالا",
+            "medium": "شدت متوسط",
+            "low": "شد کم"
           },
-          "direct-dep": "Direct dependency"
+          "direct-dep": "وابستگی مستقیم"
         },
         "run-task": {
-          "title": "Run task",
-          "description": "Shortcut to run a task",
+          "title": "اجرای وظیفه",
+          "description": "میانبر برای اجرای یک وظیفه",
           "prompts": {
-            "task": "Select a task"
+            "task": "انتخاب یک وظیفه"
           },
-          "page": "Go to Task"
+          "page": "برو به وظیفه"
         },
         "news": {
-          "title": "News feed",
-          "description": "Read news feed",
-          "refresh": "Force refresh",
-          "select-tip": "Select an item on the left",
+          "title": "گزیده خبرها",
+          "description": "خواندن گزیده خبرها",
+          "refresh": "تازه کردن اجباری",
+          "select-tip": "یک آیتم از چپ انتخاب کنید",
           "prompts": {
             "url": "RSS feed URL or GitHub repository"
           },
           "errors": {
-            "fetch": "Couldn't fetch feed",
-            "offline": "You are offline",
-            "empty": "Empty feed"
+            "fetch": "فید دریافت نمی شود",
+            "offline": "شما آفلاین هستید",
+            "empty": "فید خالی"
           }
         }
       }
