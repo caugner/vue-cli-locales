@@ -2,8 +2,8 @@
   "org": {
     "vue": {
       "common": {
-        "close": "Close",
-        "back": "Go back",
+        "close": "Bezár",
+        "back": "Vissza",
         "more-info": "More info"
       },
       "components": {
@@ -33,7 +33,7 @@
               "subtitle": "Record changes to the repository",
               "actions": {
                 "commit": "Commit",
-                "cancel": "Cancel"
+                "cancel": "Vissza"
               }
             }
           },
@@ -42,8 +42,8 @@
             "expand-all": "Expand all",
             "commit": "Commit changes",
             "skip": "Skip",
-            "continue": "Continue",
-            "refresh": "Refresh"
+            "continue": "Tovább",
+            "refresh": "Frissítés"
           }
         },
         "folder-explorer": {
@@ -60,13 +60,13 @@
             "show-hidden": "Show hidden folders"
           },
           "new-folder": {
-            "action": "New folder",
-            "title": "Create new folder",
+            "action": "Új mappa",
+            "title": "Új mappa létrehozása",
             "field": {
-              "title": "New folder",
+              "title": "Új mappa",
               "subtitle": "You can use the folder separator to create multiple nested folders at once."
             },
-            "cancel": "Cancel",
+            "cancel": "Vissza",
             "create": "Create"
           }
         },
@@ -90,7 +90,7 @@
             "dashboard": "Dashboard",
             "plugins": "Plugins",
             "dependencies": "Dependencies",
-            "configuration": "Configuration",
+            "configuration": "Konfiguráció",
             "tasks": "Tasks",
             "more": "More"
           }
@@ -99,7 +99,7 @@
           "empty": "No existing projects",
           "titles": {
             "favorite": "Favorite projects",
-            "other": "Other projects"
+            "other": "További projektek"
           }
         },
         "project-select-list-item": {
@@ -110,7 +110,7 @@
           }
         },
         "project-plugin-item": {
-          "version": "version",
+          "version": "verzió",
           "latest": "latest",
           "official": "Official",
           "installed": "Installed",
@@ -118,10 +118,10 @@
             "update": "Update {target}",
             "refresh": "Force Refresh {target}<br><i>Press [Shift] for Quick Refresh (node_modules won't be updated)</i>"
           },
-          "local": "Local"
+          "local": "Helyi"
         },
         "project-dependency-item": {
-          "version": "version",
+          "version": "verzió",
           "wanted": "wanted",
           "latest": "latest",
           "installed": "Installed",
@@ -154,16 +154,16 @@
             "tooltip": "Logs<br><i>Click to toggle Vue CLI logs</i>",
             "empty": "No logs yet"
           },
-          "report-bug": "Report bug",
-          "translate": "Help translate",
+          "report-bug": "Hiba jelentése",
+          "translate": "Segíts fordítani",
           "dark-mode": "Toggle dark mode",
           "reset-plugin-api": "Refresh plugins API"
         },
         "suggestion-bar": {
           "suggestion": "Suggestion",
           "modal": {
-            "cancel": "Cancel",
-            "continue": "Continue"
+            "cancel": "Vissza",
+            "continue": "Tovább"
           }
         },
         "terminal-view": {
@@ -190,7 +190,7 @@
         "widget": {
           "remove": "Remove widget",
           "configure": "Configure widget",
-          "save": "Save",
+          "save": "Mentés",
           "reset-config": "Reset config",
           "open-details": "Show more"
         },
@@ -208,7 +208,7 @@
       },
       "mixins": {
         "progress": {
-          "creating": "Creating project...",
+          "creating": "Projekt létrehozása...",
           "git-init": "Initializing git repository...",
           "plugins-install": "Installing Vue CLI plugins. This might take a while...",
           "invoking-generators": "Invoking generators...",
@@ -216,14 +216,14 @@
           "completion-hooks": "Running completion hooks...",
           "fetch-remote-preset": "Fetching remote preset...",
           "done": "Successfully created project",
-          "plugin-install": "Installing {arg0}...",
-          "plugin-uninstall": "Uninstalling {arg0}...",
+          "plugin-install": "{arg0} telepítése...",
+          "plugin-uninstall": "{arg0} eltávolítása...",
           "plugin-invoke": "Invoking {arg0}...",
-          "plugin-update": "Updating {arg0}...",
+          "plugin-update": "{arg0} frissítése...",
           "plugins-update": "Updating {arg0} plugins...",
-          "dependency-install": "Installing {arg0}...",
-          "dependency-uninstall": "Uninstalling {arg0}...",
-          "dependency-update": "Updating {arg0}...",
+          "dependency-install": "{arg0} telepítése...",
+          "dependency-uninstall": "{arg0} eltávolítása...",
+          "dependency-update": "{arg0} frissítése...",
           "dependencies-update": "Updating {arg0} packages..."
         }
       },
@@ -231,9 +231,9 @@
         "task": {
           "status": {
             "idle": "Idle",
-            "running": "Running",
-            "done": "Done",
-            "error": "Error",
+            "running": "Fut",
+            "done": "Kész",
+            "error": "Hiba",
             "terminated": "Terminated"
           }
         }
@@ -242,9 +242,9 @@
         "project-select": {
           "title": "Vue Project Manager",
           "tabs": {
-            "projects": "Projects",
+            "projects": "Projektek",
             "create": "Create",
-            "import": "Import"
+            "import": "Importálás"
           },
           "buttons": {
             "create": "Create a new project here",
@@ -252,7 +252,7 @@
           },
           "import": {
             "no-modules": {
-              "title": "Missing modules",
+              "title": "Hiányzó modulok",
               "message": "It seems the project is missing the 'node_modules' folder. Please check you installed the dependencies before importing.",
               "close": "Got it"
             },
@@ -286,14 +286,14 @@
                 }
               },
               "buttons": {
-                "cancel": "Cancel",
-                "next": "Next"
+                "cancel": "Vissza",
+                "next": "Következő"
               },
               "modal": {
                 "title": "Cancel and reset project creation",
                 "body": "Are you sure you want to reset the project creation?",
                 "buttons": {
-                  "back": "Go back",
+                  "back": "Vissza",
                   "clear": "Clear project"
                 }
               }
@@ -303,13 +303,13 @@
               "description": "A preset is an association of plugins and configurations. After you've selected features, you can optionally save it as a preset so that you can reuse it for future projects, without having to reconfigure everything again.",
               "select": "Select a preset",
               "buttons": {
-                "previous": "Previous",
-                "next": "Next",
+                "previous": "Előző",
+                "next": "Következő",
                 "create": "Create Project"
               },
               "modal": {
                 "title": "Configure Remote preset",
-                "body": "Available soon..."
+                "body": "Hamarosan elérhető..."
               },
               "manual": {
                 "name": "Manual",
@@ -324,8 +324,8 @@
                 },
                 "options": "Other options",
                 "clone": "Clone/Private repository",
-                "cancel": "Cancel",
-                "done": "Done"
+                "cancel": "Vissza",
+                "done": "Kész"
               },
               "default-preset": "Default preset"
             },
@@ -334,8 +334,8 @@
               "description": "You will be able to add features after the project is created by installing plugins.",
               "enable": "Enable features",
               "buttons": {
-                "previous": "Previous",
-                "next": "Next",
+                "previous": "Előző",
+                "next": "Következő",
                 "create": "Create Project"
               },
               "userConfigFiles": {
@@ -346,8 +346,8 @@
             "configuration": {
               "title": "Configuration",
               "buttons": {
-                "previous": "Previous",
-                "create": "Create Project"
+                "previous": "Előző",
+                "create": "Projekt létrehozása"
               },
               "modal": {
                 "title": "Save as a new preset",
@@ -375,13 +375,13 @@
           "plugin": "plugin",
           "tabs": {
             "search": {
-              "label": "Search",
+              "label": "Keresés",
               "search-input": "Search a plugin",
-              "not-found": "No results found",
+              "not-found": "Nincs találat",
               "buttons": {
                 "cancel": "Cancel",
                 "install": "Install {target}",
-                "default-install": "Install"
+                "default-install": "Telepítés"
               }
             },
             "configuration": {
@@ -400,7 +400,7 @@
             "title": "Uninstall {target}?",
             "body": "Do you want to uninstall the {target} plugin?",
             "buttons": {
-              "back": "Go back",
+              "back": "Vissza",
               "cancel": "Cancel without uninstalling",
               "uninstall": "Uninstall"
             }
@@ -421,7 +421,7 @@
         "project-configuration-details": {
           "actions": {
             "cancel": "Cancel changes",
-            "save": "Save changes",
+            "save": "Változások mentése",
             "more-info": "More info",
             "refresh": "Refresh"
           }
@@ -433,8 +433,8 @@
           "actions": {
             "play": "Run task",
             "stop": "Stop task",
-            "close": "Close",
-            "save": "Save"
+            "close": "Bezár",
+            "save": "Mentés"
           },
           "command": "Script command",
           "parameters": "Parameters",
@@ -464,7 +464,7 @@
         "project-dashboard": {
           "title": "Project dashboard",
           "cutomize": "Customize",
-          "done": "Done"
+          "done": "Kész"
         },
         "settings": {
           "title": "Settings"

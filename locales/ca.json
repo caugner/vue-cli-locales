@@ -2,93 +2,93 @@
   "org": {
     "vue": {
       "common": {
-        "close": "Close",
-        "back": "Go back",
-        "more-info": "More info"
+        "close": "Tanca",
+        "back": "Torna",
+        "more-info": "Més informació"
       },
       "components": {
         "client-addon-component": {
-          "timeout": "Component load timeout",
-          "timeout-info": "The custom component takes too much time to load, there might be an error"
+          "timeout": "S'ha sobrepassat el temps de càrrega del component",
+          "timeout-info": "El component personalitzant està trigant molt a carregar, podria haver-hi un error"
         },
         "connection-status": {
           "disconnected": "Desconnectat del servidor UI",
           "connected": "Connectat!"
         },
         "file-diff": {
-          "binary": "L'arxiu binari no es pot mostrar",
+          "binary": "No s'està mostrant el fitxer binari",
           "actions": {
-            "open": "Obrir a l'editor"
+            "open": "Obre a l'editor"
           }
         },
         "file-diff-view": {
-          "files-changed": "Arxius modificats",
-          "search-file": "Cercar arxiu",
-          "empty": "No s'han trobat canvis",
-          "error": "No es poden recuperar els canvis de l'arxiu",
+          "files-changed": "Fitxers modificats",
+          "search-file": "Cerca fitxer",
+          "empty": "No s'ha trobat cap canvi",
+          "error": "No es poden recuperar els canvis del fitxer",
           "modals": {
             "commit": {
-              "title": "Canvis del commit",
-              "input": "Introdueix un missatge pel commit",
-              "subtitle": "Guardar canvis al repositori",
+              "title": "Publica els canvis",
+              "input": "Introdueix un missatge per la publicació",
+              "subtitle": "Desa els canvis al repositori",
               "actions": {
-                "commit": "Guardar",
-                "cancel": "Cancel·lar"
+                "commit": "Publica",
+                "cancel": "Cancel·la"
               }
             }
           },
           "actions": {
-            "collapse-all": "Col·lapsar tot",
-            "expand-all": "Expandir tot",
-            "commit": "Guardar canvis",
-            "skip": "Ometre",
-            "continue": "Continuar",
-            "refresh": "Actualitzar"
+            "collapse-all": "Contrau-ho tot",
+            "expand-all": "Expandeix-ho tot",
+            "commit": "Publica els canvis",
+            "skip": "Omet",
+            "continue": "Continua",
+            "refresh": "Actualitza"
           }
         },
         "folder-explorer": {
           "toolbar": {
             "tooltips": {
-              "parent-folder": "Obrir directori pare",
-              "edit-path": "Modificar adreça de l'arxiu",
-              "favorite": "Marcar com a favorit",
-              "favorite-folders": "Directoris favorits",
-              "refresh": "Actualitzar"
+              "parent-folder": "Obre la carpeta pare",
+              "edit-path": "Edita el camí",
+              "favorite": "Commuta preferit",
+              "favorite-folders": "Carpetes preferides",
+              "refresh": "Actualitza"
             },
-            "placeholder": "Introdueix l'adreça completa del directori",
-            "empty": "No hi ha directoris favorits",
-            "show-hidden": "Mostrar directoris ocults"
+            "placeholder": "Escriviu el camí complet fins a la carpeta",
+            "empty": "Encara no hi ha carpetes preferides.",
+            "show-hidden": "Mostra les carpetes ocultes"
           },
           "new-folder": {
-            "action": "Nou directori",
-            "title": "Crear nou directori",
+            "action": "Nova carpeta",
+            "title": "Crea carpeta nova",
             "field": {
               "title": "Nou directori",
-              "subtitle": "Pot fer servir el caràcter separador de directori per crear multiples subdirectoris d'un sol cop."
+              "subtitle": "Podeu utilitzar el separador de carpetes per crear diverses subcarpetes d'un sol cop."
             },
-            "cancel": "Cancel·lar",
-            "create": "Crear"
+            "cancel": "Cancel·la",
+            "create": "Crea"
           }
         },
         "list-item-info": {
           "more-info": "Més informació"
         },
         "logger-view": {
-          "title": "Activitat",
-          "empty": "No logs yet",
+          "title": "Registres",
+          "empty": "Encara no hi ha registres",
           "buttons": {
-            "clear": "Netejar registres",
-            "scroll": "Desplaçar cap avall",
-            "close": "Tancar"
+            "clear": "Esborra els registres",
+            "scroll": "Desplaça fins al final",
+            "close": "Tanca"
           }
         },
         "progress-screen": {
-          "close": "Tancar"
+          "close": "Tanca"
         },
         "project-nav": {
           "tooltips": {
-            "dashboard": "Dashboard",
-            "plugins": "Complements",
+            "dashboard": "Consola",
+            "plugins": "Connectors",
             "dependencies": "Dependències",
             "configuration": "Configuració",
             "tasks": "Tasques",
@@ -96,80 +96,80 @@
           }
         },
         "project-select-list": {
-          "empty": "No ho ha projectes",
+          "empty": "Cap projecte",
           "titles": {
-            "favorite": "Projectes favorits",
+            "favorite": "Projectes preferits",
             "other": "Altres projectes"
           }
         },
         "project-select-list-item": {
           "tooltips": {
-            "favorite": "Marcar com a favorit",
-            "delete": "Eliminar",
-            "open-in-editor": "Obrir a l'editor"
+            "favorite": "Commuta preferit",
+            "delete": "Elimina de la llista",
+            "open-in-editor": "Obre a l'editor"
           }
         },
         "project-plugin-item": {
           "version": "versió",
-          "latest": "darrera versió",
+          "latest": "més recent",
           "official": "Oficial",
           "installed": "Instal·lat",
           "actions": {
-            "update": "Actualitzar {target}",
-            "refresh": "Force Refresh {target}<br><i>Press [Shift] for Quick Refresh (node_modules won't be updated)</i>"
+            "update": "Actualitza {target}",
+            "refresh": "Força el refresc de {target}<br><i>Premeu [Majús] per fer un Refresc Ràpid (no s'actualitzarà node_modules)</i>"
           },
           "local": "Local"
         },
         "project-dependency-item": {
           "version": "versio",
-          "wanted": "requerit",
-          "latest": "darrer",
+          "wanted": "desitjat",
+          "latest": "més recent",
           "installed": "Instal·lat",
           "actions": {
-            "update": "Actualitzar {target}",
-            "uninstall": "Desinstal·lar {target}"
+            "update": "Actualitza {target}",
+            "uninstall": "Desinstal·la {target}"
           }
         },
         "project-tasks-dropdown": {
           "tooltips": {
             "tasks": "Tasques",
-            "running-tasks": "{count} tasca/tasques executant-se"
+            "running-tasks": "{count} treball(s) en execució"
           }
         },
         "prompt-list": {
           "default": "Per defecte"
         },
         "prompts-list": {
-          "empty": "Sense configuració"
+          "empty": "Cap configuració"
         },
         "status-bar": {
           "project": {
-            "tooltip": "Clic per alternar a l'Administrador de projectes",
-            "empty": "Sense projecte"
+            "tooltip": "Feu clic per commutar l'Administrador de projectes",
+            "empty": "Cap projecte obert"
           },
           "path": {
-            "tooltip": "Directori de treball actual"
+            "tooltip": "Carpeta de treball actual"
           },
           "log": {
-            "tooltip": "Registre d'activitat<br><i>Clic per alternar amb els registres d'activitat de Vue CLI</i>",
+            "tooltip": "Registres<br><i>Feu clic per commutar els registres de Vue CLI</i>",
             "empty": "Encara no hi ha registres"
           },
-          "report-bug": "Reportar un error",
-          "translate": "Ajudar amb la traducció",
-          "dark-mode": "Alternar al mode fosc",
-          "reset-plugin-api": "actualitzar l'API de complements"
+          "report-bug": "Reporteu una errada",
+          "translate": "Ajudeu amb la traducció",
+          "dark-mode": "Commuta el mode fosc",
+          "reset-plugin-api": "Actualitza l'API de connectors"
         },
         "suggestion-bar": {
           "suggestion": "Suggeriment",
           "modal": {
-            "cancel": "Cancel·lar",
-            "continue": "Continuar"
+            "cancel": "Cancel·la",
+            "continue": "Continua"
           }
         },
         "terminal-view": {
           "buttons": {
-            "clear": "Netejar consola",
-            "scroll": "Desplaçar cap avall"
+            "clear": "Esborra la consola",
+            "scroll": "Desplaça fins al final"
           }
         },
         "top-bar": {
@@ -188,21 +188,21 @@
           }
         },
         "widget": {
-          "remove": "Remove widget",
-          "configure": "Configure widget",
-          "save": "Save",
-          "reset-config": "Reset config",
-          "open-details": "Show more"
+          "remove": "Elimina giny",
+          "configure": "Configura giny",
+          "save": "Desa",
+          "reset-config": "Reinicia la configuració",
+          "open-details": "Mostra'n més"
         },
         "widget-add-pane": {
-          "title": "Add widgets"
+          "title": "Afegeix ginys"
         },
         "widget-add-item": {
-          "add": "Add widget",
+          "add": "Afegeix giny",
           "details": {
-            "title": "Widget details",
-            "max-instances": "Max instance count: {count}/{total}",
-            "unlimited": "unlimited"
+            "title": "Detalls del giny",
+            "max-instances": "Recompte màx instàncies: {count}/{total}",
+            "unlimited": "il·limitat"
           }
         }
       },
@@ -210,90 +210,90 @@
         "progress": {
           "creating": "Creant projecte...",
           "git-init": "Inicializant repositori git...",
-          "plugins-install": "Instal·lant complements de Vue CLI. Això pot trigar uns moments...",
-          "invoking-generators": "Cridant generadors...",
+          "plugins-install": "Instal·lant connectors de Vue CLI. Pot trigar una estona...",
+          "invoking-generators": "Invocant generadors...",
           "deps-install": "Instal·lant dependències addicionals...",
           "completion-hooks": "Executant hooks per finalitzar...",
-          "fetch-remote-preset": "Recuperant preset de forma remota...",
-          "done": "Projecte creat correctament",
+          "fetch-remote-preset": "Recuperant valors predefinits remots...",
+          "done": "Projecte creat amb èxit",
           "plugin-install": "Instal·lant {arg0}...",
           "plugin-uninstall": "Desinstal·lant {arg0}...",
           "plugin-invoke": "Invocant {arg0}...",
           "plugin-update": "Actualitzant {arg0}...",
-          "plugins-update": "Actualitzant complements {arg0}...",
+          "plugins-update": "Actualitzant connectors de {arg0}...",
           "dependency-install": "Instal·lant {arg0}...",
           "dependency-uninstall": "Desinstal·lant {arg0}...",
           "dependency-update": "Actualitzant {arg0}...",
-          "dependencies-update": "Actualitzant paquets {arg0}..."
+          "dependencies-update": "Actualitzant paquets de {arg0}..."
         }
       },
       "types": {
         "task": {
           "status": {
-            "idle": "Ocupat",
+            "idle": "Inactiu",
             "running": "En execució",
             "done": "Completat",
-            "error": "Finalitzat erròniament",
+            "error": "Error",
             "terminated": "Finalizat"
           }
         }
       },
       "views": {
         "project-select": {
-          "title": "Administrador de projectes Vue",
+          "title": "Administrador de Projectes del Vue",
           "tabs": {
             "projects": "Projectes",
-            "create": "Crear",
-            "import": "Importar"
+            "create": "Crea",
+            "import": "Importa"
           },
           "buttons": {
-            "create": "Crear un nou projecte aquí",
-            "import": "Importar aquest directori"
+            "create": "Crea un nou projecte aquí",
+            "import": "Importa aquesta carpeta"
           },
           "import": {
             "no-modules": {
-              "title": "Missing modules",
-              "message": "It seems the project is missing the 'node_modules' folder. Si-us-plau comprovi que ha instal·lat les dependencies abans de la importarció.",
-              "close": "Got it"
+              "title": "Mòduls faltants",
+              "message": "Sembla que falta la carpeta 'node_modules' del projecte. Comproveu que n'hageu instal·lat les dependències abans d'importar-lo.",
+              "close": "Ho tinc"
             },
-            "force": "Import anyway"
+            "force": "Importa igualment"
           }
         },
         "project-create": {
-          "title": "Crear un nou projecte",
+          "title": "Crea un projecte nou",
           "tabs": {
             "details": {
-              "title": "Details",
+              "title": "Detalls",
               "form": {
                 "folder": {
-                  "label": "Directori del projecte",
-                  "placeholder": "nom de l'app",
-                  "tooltip": "Canviar directori base",
-                  "action": "Seleccionar aquest directori",
-                  "folder-exists": "Ja existeix un directori amb aquest nom",
-                  "folder-name-invalid": "El nom de direcori no es vàlid"
+                  "label": "Carpeta del projecte",
+                  "placeholder": "Escriviu un nom",
+                  "tooltip": "Canvia la carpeta base",
+                  "action": "Selecciona aquesta carpeta",
+                  "folder-exists": "Aquesta carpeta ja existeix",
+                  "folder-name-invalid": "El nom de carpeta no és vàlid"
                 },
                 "manager": {
-                  "label": "Gestor de paquets",
+                  "label": "Administrador de paquets",
                   "default": "Per defecte"
                 },
                 "options": {
                   "label": "Opcions addicionals",
-                  "force": "Sobrescriure el directori destí si ja existeix",
+                  "force": "Sobrescriu la carpeta si ja existeix",
                   "git-title": "Repositori Git",
-                  "git": "Initialitzar el repository git (recomanat)",
-                  "git-commit-message": "Missatge inicial de commit (opcional)"
+                  "git": "Inicialitzar el repository git (recomanat)",
+                  "git-commit-message": "Missatge de publicació inicial (opcional)"
                 }
               },
               "buttons": {
-                "cancel": "Cancel·lar",
+                "cancel": "Cancel·la",
                 "next": "Següent"
               },
               "modal": {
                 "title": "Cancel·lar la creació del projecte",
                 "body": "Està segur que vols cancel·lar la creació del projecte?",
                 "buttons": {
-                  "back": "Tornar",
+                  "back": "Torna",
                   "clear": "Netejar projecte"
                 }
               }
@@ -455,22 +455,22 @@
             "title": "Instal·lar nova dependencia"
           },
           "uninstall": {
-            "title": "Confirmar desinstal·lació",
-            "body": "Està segur que vol desinstal·lar {id}?",
-            "cancel": "Cancel·lar",
-            "uninstall": "Desinstal·lar {id}"
+            "title": "Confirmeu la desinstal·lació",
+            "body": "Segur que voleu desinstal·lar {id}?",
+            "cancel": "Cancel·la",
+            "uninstall": "Desinstal·la {id}"
           }
         },
         "project-dashboard": {
           "title": "Project dashboard",
-          "cutomize": "Customize",
-          "done": "Done"
+          "cutomize": "Personalitza",
+          "done": "Fet"
         },
         "settings": {
-          "title": "Settings"
+          "title": "Configuració"
         },
         "about": {
-          "title": "Referent a",
+          "title": "Quant a",
           "description": "<a href=\"https://github.com/vuejs/vue-cli/tree/dev/packages/%40vue/cli-ui\" target=\"_blank\">@vue/cli-ui</a> es un paquet intern de vue-cli que obre una full-blown UI.",
           "quote": "Vue-cli 3.x es una rescriptura completa, amb moltes característiques increïbles. Podràs escollir les caracteristiques com ara routing, Vuex o Typescript, llavors afegir i actualitzar blocs de construcció anomenats \"vue-cli plugins\". Però tenir moltes més opcions també significa que l'eina és més complexa i més difícil de començar a utilitzar. Per això, pensàvem que tenir una interfície gràfica completa ajudaria a descobrir les noves funcions, cercar i instal·lar com`plements de vue-cli i desbloquejar més possibilitats en general sense estar limitat per una interfície de terminal. En resum, vue-cli no només permet arrencar fàcilment un nou projecte, que també serà útil per treballs futurs posteriorment!",
           "links": "Enllaços d'interés",
