@@ -4,7 +4,7 @@
       "common": {
         "close": "Bezár",
         "back": "Vissza",
-        "more-info": "More info"
+        "more-info": "További információ"
       },
       "components": {
         "client-addon-component": {
@@ -12,19 +12,19 @@
           "timeout-info": "The custom component takes too much time to load, there might be an error"
         },
         "connection-status": {
-          "disconnected": "Disconnected from UI server",
-          "connected": "Connected!"
+          "disconnected": "Lecsatlakozva a UI szerverről",
+          "connected": "Csatlakozva!"
         },
         "file-diff": {
           "binary": "Binary file not shown",
           "actions": {
-            "open": "Open in editor"
+            "open": "Megnyitás szerkesztőben"
           }
         },
         "file-diff-view": {
           "files-changed": "Files changed",
-          "search-file": "Search file",
-          "empty": "No change found",
+          "search-file": "Fájl keresése",
+          "empty": "Nincsenek változások",
           "error": "Couldn't get file changes",
           "modals": {
             "commit": {
@@ -38,8 +38,8 @@
             }
           },
           "actions": {
-            "collapse-all": "Collapse all",
-            "expand-all": "Expand all",
+            "collapse-all": "Összes bezárása",
+            "expand-all": "Összes kinyitása",
             "commit": "Commit changes",
             "skip": "Skip",
             "continue": "Tovább",
@@ -49,15 +49,15 @@
         "folder-explorer": {
           "toolbar": {
             "tooltips": {
-              "parent-folder": "Open parent folder",
-              "edit-path": "Edit path",
-              "favorite": "Toggle favorite",
-              "favorite-folders": "Favorite folders",
-              "refresh": "Refresh"
+              "parent-folder": "Szülő mappa",
+              "edit-path": "Útvonal szerkesztése",
+              "favorite": "Kedvenc",
+              "favorite-folders": "Kedvenc mappák",
+              "refresh": "Frissítés"
             },
             "placeholder": "Enter the full path to a folder",
-            "empty": "No favorite folders yet.",
-            "show-hidden": "Show hidden folders"
+            "empty": "Még nincsenek kedvenc mappák.",
+            "show-hidden": "Rejtett mappák mutatása"
           },
           "new-folder": {
             "action": "Új mappa",
@@ -79,43 +79,43 @@
           "buttons": {
             "clear": "Clear logs",
             "scroll": "Scroll to bottom",
-            "close": "Close"
+            "close": "Bezár"
           }
         },
         "progress-screen": {
-          "close": "Close"
+          "close": "Bezár"
         },
         "project-nav": {
           "tooltips": {
-            "dashboard": "Dashboard",
-            "plugins": "Plugins",
-            "dependencies": "Dependencies",
+            "dashboard": "Kezelő felület",
+            "plugins": "Bővítmények",
+            "dependencies": "Függőségek",
             "configuration": "Konfiguráció",
-            "tasks": "Tasks",
-            "more": "More"
+            "tasks": "Feladatok",
+            "more": "Továbbiak"
           }
         },
         "project-select-list": {
-          "empty": "No existing projects",
+          "empty": "Nincsenek projektek",
           "titles": {
-            "favorite": "Favorite projects",
+            "favorite": "Kedvenc projektek",
             "other": "További projektek"
           }
         },
         "project-select-list-item": {
           "tooltips": {
-            "favorite": "Toggle favorite",
-            "delete": "Remove from list",
-            "open-in-editor": "Open in editor"
+            "favorite": "Kedvenc",
+            "delete": "Eltávolítás a listából",
+            "open-in-editor": "Megnyitás szerkesztőben"
           }
         },
         "project-plugin-item": {
           "version": "verzió",
-          "latest": "latest",
+          "latest": "legutóbbi",
           "official": "Official",
-          "installed": "Installed",
+          "installed": "Telepített",
           "actions": {
-            "update": "Update {target}",
+            "update": "{target} frissítése",
             "refresh": "Force Refresh {target}<br><i>Press [Shift] for Quick Refresh (node_modules won't be updated)</i>"
           },
           "local": "Helyi"
@@ -123,8 +123,8 @@
         "project-dependency-item": {
           "version": "verzió",
           "wanted": "wanted",
-          "latest": "latest",
-          "installed": "Installed",
+          "latest": "legutóbbi",
+          "installed": "Telepített",
           "actions": {
             "update": "Update {target}",
             "uninstall": "Uninstall {target}"
@@ -144,8 +144,8 @@
         },
         "status-bar": {
           "project": {
-            "tooltip": "Click to toggle Project Manager",
-            "empty": "No project open"
+            "tooltip": "Projekt kezelő",
+            "empty": "Nincs megnyitott projekt"
           },
           "path": {
             "tooltip": "Current Working Folder"
@@ -173,8 +173,8 @@
           }
         },
         "top-bar": {
-          "no-favorites": "No favorite projects",
-          "favorite-projects": "Favorite projects",
+          "no-favorites": "Nincsenek kedvenc projektek",
+          "favorite-projects": "Kedvenc projektek",
           "recent-projects": "Recent projects",
           "homepage": "Home page"
         },
@@ -240,15 +240,15 @@
       },
       "views": {
         "project-select": {
-          "title": "Vue Project Manager",
+          "title": "Vue projekt kezelő",
           "tabs": {
             "projects": "Projektek",
-            "create": "Create",
+            "create": "Létrehozás",
             "import": "Importálás"
           },
           "buttons": {
-            "create": "Create a new project here",
-            "import": "Import this folder"
+            "create": "Új projekt létrehozása itt",
+            "import": "Mappa importálása"
           },
           "import": {
             "no-modules": {
@@ -263,11 +263,11 @@
           "title": "Create a new project",
           "tabs": {
             "details": {
-              "title": "Details",
+              "title": "Részletek",
               "form": {
                 "folder": {
                   "label": "Project folder",
-                  "placeholder": "Type a name",
+                  "placeholder": "Adjon meg egy nevet",
                   "tooltip": "Change base folder",
                   "action": "Select this folder",
                   "folder-exists": "This folder already exists",
@@ -462,36 +462,36 @@
           }
         },
         "project-dashboard": {
-          "title": "Project dashboard",
-          "cutomize": "Customize",
+          "title": "Projekt kezelő",
+          "cutomize": "Szerkesztés",
           "done": "Kész"
         },
         "settings": {
-          "title": "Settings"
+          "title": "Beállítások"
         },
         "about": {
           "title": "About",
           "description": "<a href=\"https://github.com/vuejs/vue-cli/tree/dev/packages/%40vue/cli-ui\" target=\"_blank\">@vue/cli-ui</a> is a built-in package of vue-cli which opens a full-blown UI.",
           "quote": "Vue-cli 3.x is a complete rewrite, with a lot of new awesome features. You will be able to select features like routing, Vuex or Typescript, then add and upgrade building blocks called \"vue-cli plugins\". But having so much more options also means the tool is now more complex and harder to start using. That's why we thought having a full-blown GUI would help discover the new features, search and install vue-cli plugins and unlock more possibilities overall while not being limited by a terminal interface. To sum up, vue-cli will not only allow you to bootstrap a new project easily, but it will also remain useful for ongoing work afterwards!",
-          "links": "Useful links",
-          "back": "Go back"
+          "links": "Hasznos linkek",
+          "back": "Vissza"
         }
       },
       "cli-service": {
         "suggestions": {
           "vue-router-add": {
-            "label": "Add vue-router",
+            "label": "vue-router hozzáadása",
             "message": "Official library to support multiple virtual pages in a Single-Page App. Each route renders a different component."
           },
           "vuex-add": {
-            "label": "Add vuex",
+            "label": "vuex hozzáadása",
             "message": "Official centralized State Management solution for large-scale apps. Very useful if multiple components need to access the same data."
           },
           "vue-devtools": {
             "label": "Install devtools",
             "message": "Browser devtools official extension for debugging Vue.js applications where you can inspect your components, vuex store and events."
           },
-          "progress": "Installing {arg0}..."
+          "progress": "{arg0} telepítése..."
         }
       },
       "vue-webpack": {
@@ -507,11 +507,11 @@
           },
           "build-status": {
             "labels": {
-              "status": "Status",
-              "errors": "Errors",
-              "warnings": "Warnings",
+              "status": "Állapot",
+              "errors": "Hibák",
+              "warnings": "Figyelmeztetések",
               "assets": "Assets",
-              "modules": "Modules",
+              "modules": "Modulok",
               "deps": "Dependencies"
             }
           },
