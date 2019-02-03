@@ -640,7 +640,7 @@
             },
             "setting": {
               "off": "Spento",
-              "error": "rrore",
+              "error": "Errori",
               "warning": "Avviso",
               "custom": "Personalizzato"
             },
