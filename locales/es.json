@@ -3,13 +3,13 @@
     "vue": {
       "common": {
         "close": "Cerrar",
-        "back": "Regresar",
+        "back": "Volver",
         "more-info": "Más información"
       },
       "components": {
         "client-addon-component": {
-          "timeout": "Component load timeout",
-          "timeout-info": "The custom component takes too much time to load, there might be an error"
+          "timeout": "Error cargando componente",
+          "timeout-info": "El componente personalizado tarda mucho en cargar, debe haber un error"
         },
         "connection-status": {
           "disconnected": "Desconectado del servidor UI",
@@ -192,7 +192,7 @@
           "configure": "Configure widget",
           "save": "Guardar",
           "reset-config": "Reiniciar configuración",
-          "open-details": "Show more"
+          "open-details": "Mostrar más"
         },
         "widget-add-pane": {
           "title": "Add widgets"
@@ -256,7 +256,7 @@
               "message": "Parece que no existe el directorio 'node_modules'. Por favor verifica las dependencias instaladas antes de importar.",
               "close": "Entendido"
             },
-            "force": "Import anyway"
+            "force": "Importar igualmente"
           }
         },
         "project-create": {
@@ -758,28 +758,28 @@
             "tip1": "You are looking at the project dashboard where you can put widgets. Use the 'Customize' button to add more! Everything is automatically saved.",
             "tip2": "On the left are the different available pages. 'Plugins' let you add new Vue CLI plugins, 'Dependencies' for managing the packages, 'Configuration' to configure the tools and 'Tasks' to run scripts (for example webpack).",
             "tip3": "Return to the project manager with the dropdown at the top left of the screen or the home button in the status bar at the bottom.",
-            "ok": "Understood"
+            "ok": "Entendido"
           }
         },
         "kill-port": {
-          "title": "Kill port",
-          "description": "Kill processes using a specific network port",
+          "title": "Matar puerto",
+          "description": "Matar procesos que utilicen un puerto de red específico",
           "input": {
-            "placeholder": "Enter a network port"
+            "placeholder": "Introduce puerto de red"
           },
-          "kill": "Kill",
+          "kill": "Matar",
           "status": {
-            "idle": "Ready to kill",
-            "killing": "Killing procress...",
-            "killed": "Killed successfully!",
-            "error": "Couldn't kill process"
+            "idle": "Preparado para matar",
+            "killing": "Matando proceso...",
+            "killed": "¡Matado con éxito!",
+            "error": "No se pudo matar el proceso"
           }
         },
         "status-widget": {
           "last-updated": "Updated",
           "never": "Not updated yet",
           "check": "Check for updates",
-          "more-info": "More details"
+          "more-info": "Más detalles"
         },
         "plugin-updates": {
           "title": "Plugin updates",
@@ -796,17 +796,17 @@
           "description": "Monitor dependencies updates",
           "messages": {
             "ok": "All dependencies up-to-date",
-            "loading": "Checking for updates...",
+            "loading": "Comprobando actualizaciones...",
             "attention": "{n} dependency updates available"
           },
-          "page": "Go to Dependencies"
+          "page": "Ir a Dependencias"
         },
         "vulnerability": {
-          "title": "Vulnerability check",
-          "description": "Check for known vulnerabilities in your project dependencies",
+          "title": "Comprobar vulnerabilidad",
+          "description": "Comprobar vulnerabilidades conocidas en las dependencias de tu proyecto",
           "messages": {
-            "ok": "No vulnerability found",
-            "loading": "Checking security reports...",
+            "ok": "No se encontró vulnerabilidad",
+            "loading": "Comprobando informes de seguridad...",
             "attention": "{n} vulnerabilities found"
           },
           "severity": {
@@ -828,13 +828,13 @@
           "title": "News feed",
           "description": "Read news feed",
           "refresh": "Force refresh",
-          "select-tip": "Select an item on the left",
+          "select-tip": "Selecciona un elemento a la izquierda",
           "prompts": {
             "url": "RSS feed URL or GitHub repository"
           },
           "errors": {
             "fetch": "Couldn't fetch feed",
-            "offline": "You are offline",
+            "offline": "Estás desconectado",
             "empty": "Empty feed"
           }
         }

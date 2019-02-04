@@ -508,7 +508,7 @@
           "build-status": {
             "labels": {
               "status": "Stato",
-              "errors": "rrori",
+              "errors": "Errori",
               "warnings": "Avvisi",
               "assets": "Risorse",
               "modules": "Moduli",
@@ -640,7 +640,7 @@
             },
             "setting": {
               "off": "Spento",
-              "error": "Errori",
+              "error": "Errore",
               "warning": "Avviso",
               "custom": "Personalizzato"
             },
