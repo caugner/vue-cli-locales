@@ -121,7 +121,7 @@
           "local": "Locale"
         },
         "project-dependency-item": {
-          "version": "version",
+          "version": "versione",
           "wanted": "richiesta",
           "latest": "ultima",
           "installed": "Installata",
@@ -201,7 +201,7 @@
           "add": "Aggiungi widget",
           "details": {
             "title": "Dettagli widget",
-            "max-instances": "Max instance count: {count}/{total}",
+            "max-instances": "Numero max. istanze: {count}/{total}",
             "unlimited": "illimitato"
           }
         }
@@ -213,7 +213,7 @@
           "plugins-install": "Sto installando i plugin Vue CLI. Potrebbe volerci un po’ di tempo...",
           "invoking-generators": "Recupero generatori in corso...",
           "deps-install": "Sto installando le dipendenze aggiuntive...",
-          "completion-hooks": "Running completion hooks...",
+          "completion-hooks": "Completamento hooks...",
           "fetch-remote-preset": "Download preset remoto in corso",
           "done": "Progetto creato con successo",
           "plugin-install": "Sto installando {arg0}...",
@@ -502,7 +502,7 @@
             "Success": "Completato con successo",
             "Failed": "Fallito",
             "Compiling": "Sto compilando",
-            "Invalidated": "Invalidated",
+            "Invalidated": "Invalidato",
             "Idle": "Inattivo"
           },
           "build-status": {
@@ -527,21 +527,21 @@
           }
         },
         "analyzer": {
-          "title": "Analyzer",
+          "title": "Analizzatore",
           "go-up": "Sali",
           "go-home": "Torna alla home",
           "chunk": "Chunk"
         },
         "sizes": {
           "stats": "Statistiche",
-          "parsed": "Parsed",
+          "parsed": "Elaborati",
           "gzip": "Gzip",
-          "help": "<b>Stats:</b> size from webpack stats data.<br><b>Parsed:</b> size from extracted source (after minification plugins). More accurate.<br><b>Gzip:</b> size of gzipped extracted source."
+          "help": "<b>Stats:</b> grandezza da webpack.Processato:</b> grandezza risorse estratte (dopo la minificazione da parte dei plugins). Più accurata.<br><b>Gzip:</b> grandezza delle risorse dopo essere state gzippate/gzip."
         },
-        "modern-mode": "Show modern build",
+        "modern-mode": "Vedi build moderna",
         "tasks": {
           "serve": {
-            "description": "Compiles and hot-reloads for development",
+            "description": "Compila con hot-reloads per sviluppo",
             "open": "Apri il browser all'avvio del server",
             "mode": "Specifica l'ambiente env",
             "host": "Specifica l'host",
@@ -559,7 +559,7 @@
               "wc": "Web component",
               "wc-async": "Web component asincrono"
             },
-            "name": "Name for library or web-component mode (default: 'name' in package.json or entry filename)",
+            "name": "Nome per la libreria o web-component mode (default: 'name' in package.json or entry filename)",
             "watch": "Controlla le modifiche",
             "modern": {
               "label": "Modalità moderna",
@@ -662,13 +662,13 @@
         },
         "tasks": {
           "lint": {
-            "description": "Lints and fixes files",
-            "noFix": "Do not fix errors"
+            "description": "Lints ed applica fix",
+            "noFix": "Non correggere errori"
           }
         },
         "suggestions": {
           "open-eslintrc": {
-            "label": "Open eslintrc"
+            "label": "Apri eslintrc"
           }
         }
       },
@@ -677,75 +677,75 @@
           "pwa": {
             "description": "Progressive Web App",
             "workboxPluginMode": {
-              "message": "Plugin mode",
-              "description": "This allows you to the choose between the two modes supported by the underlying `workbox-webpack-plugin`"
+              "message": "Modalità plugin",
+              "description": "Questo ti consente di scegliere tra le 2 modalità supportate da `workbox-webpack-plugin`"
             },
             "name": {
-              "message": "App name",
-              "description": "App name displayed on the Splash screen and various other places. Also used as the value for the `apple-mobile-web-app-title` meta tag in the generated HTML."
+              "message": "Nome App",
+              "description": "Il nome dell'applicazione viene visualizzata nello Splash screen ed in altre parti. Il nome viene usato anche come valore per il meta tag `apple-mobile-web-app-title` nell'HTML generato."
             },
             "themeColor": {
-              "message": "Theme color",
-              "description": "Color used to theme the browser"
+              "message": "Colore tema",
+              "description": "Colore usato nella barra di navigazione di alcuni browser"
             },
             "backgroundColor": {
-              "message": "Splash background color",
-              "description": "Background color used for the app splash screen"
+              "message": "Colore background Splash",
+              "description": "Colore background usato per la splash screen"
             },
             "msTileColor": {
-              "message": "Windows app tile color",
-              "description": "Color used for the app tile on Windows"
+              "message": "Colore titolo Windows app",
+              "description": "Colore usato per il titolo dell'applicazione su Windows"
             },
             "appleMobileWebAppStatusBarStyle": {
-              "message": "Apple mobile status bar style",
-              "description": "Style for the web app status bar on iOS"
+              "message": "Style barra di stato su Apple mobile",
+              "description": "Style barra di stato su iOS"
             }
           }
         },
         "suggestions": {
           "open-vue": {
-            "label": "Open vue config"
+            "label": "Apri config. vue"
           },
           "open-manifest": {
-            "label": "Open manifest"
+            "label": "Apri manifest"
           }
         }
       },
       "cypress": {
         "tasks": {
           "test": {
-            "description": "Run e2e tests with `cypress run`",
-            "headless": "Run in headless mode without GUI",
-            "mode": "Specify the mode the dev server should run in",
-            "url": "Run e2e tests against given url instead of auto-starting dev server"
+            "description": "Esegui e2e tests con 'cypress run'",
+            "headless": "Esegui in mod. headless senza GUI",
+            "mode": "Specifica la mod. di esecuzione del dev server",
+            "url": "Esegui test e2e con url specificato invece dell'auto-avvio del server dev"
           }
         }
       },
       "nightwatch": {
         "tasks": {
           "test": {
-            "description": "Run e2e tests with nightwatch",
-            "url": "Run e2e tests against given url instead of auto-starting dev server",
-            "config": "Use custom nightwatch config file (overrides internals)",
-            "env": "Comma-delimited browser envs to run in"
+            "description": "Esegui e2e tests con nightwatch",
+            "url": "Esegui test e2e con url specificato invece dell'auto-avvio del server dev",
+            "config": "Usa config. personalizzata nightwatch (sovrascrive config. interna)",
+            "env": "Browser envs da eseguire delimitati da virgola"
           }
         }
       },
       "jest": {
         "tasks": {
           "test": {
-            "description": "Run unit tests with Jest",
-            "watch": "Watch files for changes and rerun tests related to changed files",
-            "notify": "Display a notification after each run",
-            "update": "Re-record every snapshot that fails during this test run"
+            "description": "Esegui unit tests con Jest",
+            "watch": "Monitora modifiche ai files e riesegui test relativi ai file cambiati",
+            "notify": "Mostra notifica ad ogni esecuzione",
+            "update": "Registra nuovamente tutte le istantanee che falliscono durante l'esecuzione del test"
           }
         }
       },
       "mocha": {
         "tasks": {
           "test": {
-            "description": "Run unit tests with Mocha",
-            "watch": "Watch files for changes and rerun tests related to changed files"
+            "description": "Esegui unit tests con Mocha",
+            "watch": "Monitora modifiche ai files e riesegui test relativi ai file cambiati"
           }
         }
       },
@@ -755,7 +755,7 @@
           "description": "Alcuni suggerimenti per iniziare",
           "content": {
             "title": "Benvenuto in un nuovo progetto!",
-            "tip1": "You are looking at the project dashboard where you can put widgets. Use the 'Customize' button to add more! Everything is automatically saved.",
+            "tip1": "Stai visualizzando la dashboard del progetto, dove puoi inserire widgets a tua scelta. Usa il bottone 'Personalizza' per aggiungerne altri! Le modifiche verranno salvate automaticamente.",
             "tip2": "A sinistra trovi le diverse sezioni disponibili. 'Plugin' permette di aggiungere plugin a Vue CLI. 'Dipendenze' gestisce i pacchetti delle dipendenze. 'Configurazione' permette di configurare gli strumenti, e 'Task' permette di avviare gli script (ad esempio, Webpack).",
             "tip3": "Puoi tornare alla gestione dei progetti con la tendina in alto a sinistra o con il tasto home nella barra di stato in basso.",
             "ok": "Ok, ho capito"
@@ -776,17 +776,17 @@
           }
         },
         "status-widget": {
-          "last-updated": "Updated",
-          "never": "Not updated yet",
-          "check": "Check for updates",
-          "more-info": "More details"
+          "last-updated": "Aggiornato",
+          "never": "Non ancora aggiornato",
+          "check": "Verifica aggiornamenti",
+          "more-info": "Più dettagli"
         },
         "plugin-updates": {
           "title": "Aggiornamenti dei plugin",
           "description": "Controlla gli aggiornamenti dei plugin",
           "messages": {
             "ok": "Tutti i plugin sono aggiornati",
-            "loading": "Checking for updates...",
+            "loading": "Verifica aggiornamenti...",
             "attention": "{n} aggiornamenti di plugin disponibili"
           },
           "page": "Vai ai plugin"
@@ -796,7 +796,7 @@
           "description": "Controlla gli aggiornamenti delle dipendenze",
           "messages": {
             "ok": "Tutte le dipendenze sono aggiornate",
-            "loading": "Checking for updates...",
+            "loading": "Verifica aggiornamenti...",
             "attention": "{n} aggiornamenti di dipendenze disponibili"
           },
           "page": "Vai alle Dipendenze"
@@ -806,8 +806,8 @@
           "description": "Verifica le dipendenze di progetto rispetto a vulnerabilità conosciute",
           "messages": {
             "ok": "Nessuna vulnerabilità riscontrata",
-            "loading": "Checking security reports...",
-            "attention": "{n} vulnerabilities found"
+            "loading": "Verifica report di sicurezza...",
+            "attention": "{n} vulnerabilità trovate"
           },
           "severity": {
             "high": "Alto impatto",
@@ -822,20 +822,20 @@
           "prompts": {
             "task": "Seleziona un task"
           },
-          "page": "Go to Task"
+          "page": "Vai ai Task"
         },
         "news": {
           "title": "News feed",
-          "description": "Read news feed",
-          "refresh": "Force refresh",
+          "description": "Leggi news feed",
+          "refresh": "Forza refresh",
           "select-tip": "Seleziona un elemento a sinistra",
           "prompts": {
             "url": "URL di un feed RSS o di un repo GitHub"
           },
           "errors": {
-            "fetch": "Couldn't fetch feed",
-            "offline": "You are offline",
-            "empty": "Empty feed"
+            "fetch": "Impossibile recuperare i feed",
+            "offline": "Sei offline",
+            "empty": "Feed vuoti"
           }
         }
       }

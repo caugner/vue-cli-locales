@@ -71,7 +71,7 @@
           }
         },
         "list-item-info": {
-          "more-info": "More Info"
+          "more-info": "További információ"
         },
         "logger-view": {
           "title": "Logs",
@@ -112,8 +112,8 @@
         "project-plugin-item": {
           "version": "verzió",
           "latest": "legutóbbi",
-          "official": "Official",
-          "installed": "Telepített",
+          "official": "Hitelesített",
+          "installed": "Telepítve",
           "actions": {
             "update": "{target} frissítése",
             "refresh": "Force Refresh {target}<br><i>Press [Shift] for Quick Refresh (node_modules won't be updated)</i>"
@@ -124,9 +124,9 @@
           "version": "verzió",
           "wanted": "wanted",
           "latest": "legutóbbi",
-          "installed": "Telepített",
+          "installed": "Telepítve",
           "actions": {
-            "update": "Update {target}",
+            "update": "{target} telepítése",
             "uninstall": "Uninstall {target}"
           }
         },
@@ -195,10 +195,10 @@
           "open-details": "Show more"
         },
         "widget-add-pane": {
-          "title": "Add widgets"
+          "title": "Widgetek hozzáadása"
         },
         "widget-add-item": {
-          "add": "Add widget",
+          "add": "Widget hozzáadása",
           "details": {
             "title": "Widget details",
             "max-instances": "Max instance count: {count}/{total}",
@@ -365,30 +365,30 @@
           }
         },
         "project-plugins": {
-          "title": "Project plugins",
-          "button": "Add plugin",
-          "heading": "Installed plugins",
-          "update-all": "Update all plugins"
+          "title": "Projekt bővítmények",
+          "button": "Bővítmény hozzáadása",
+          "heading": "Telepített bővítmények",
+          "update-all": "Összes bővítmény frissítése"
         },
         "project-plugins-add": {
-          "title": "Add a plugin",
-          "plugin": "plugin",
+          "title": "Egy bővítmény hozzáadása",
+          "plugin": "bővítmény",
           "tabs": {
             "search": {
               "label": "Keresés",
-              "search-input": "Search a plugin",
+              "search-input": "Bővítmény keresése",
               "not-found": "Nincs találat",
               "buttons": {
-                "cancel": "Cancel",
-                "install": "Install {target}",
+                "cancel": "Mégse",
+                "install": "{target} telepítése",
                 "default-install": "Telepítés"
               }
             },
             "configuration": {
-              "label": "Configuration",
-              "heading": "Installation of {target}",
+              "label": "Konfiguráció",
+              "heading": "A(z) {target} telepítése",
               "buttons": {
-                "cancel": "Cancel",
+                "cancel": "Mégse",
                 "finish": "Finish installation"
               }
             },
@@ -422,7 +422,7 @@
           "actions": {
             "cancel": "Cancel changes",
             "save": "Változások mentése",
-            "more-info": "More info",
+            "more-info": "További információ",
             "refresh": "Refresh"
           }
         },
@@ -438,7 +438,7 @@
           },
           "command": "Script command",
           "parameters": "Parameters",
-          "more-info": "More Info",
+          "more-info": "További információ",
           "output": "Output"
         },
         "project-dependencies": {
@@ -751,8 +751,8 @@
       },
       "widgets": {
         "welcome": {
-          "title": "Welcome tips",
-          "description": "Some tips to help you get started",
+          "title": "Üdvözlő tippek",
+          "description": "Néhány tipp az elkezdéshez",
           "content": {
             "title": "Welcome to your new project!",
             "tip1": "You are looking at the project dashboard where you can put widgets. Use the 'Customize' button to add more! Everything is automatically saved.",
