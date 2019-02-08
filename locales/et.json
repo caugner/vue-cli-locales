@@ -2,220 +2,220 @@
   "org": {
     "vue": {
       "common": {
-        "close": "Close",
-        "back": "Go back",
-        "more-info": "More info"
+        "close": "Sulge",
+        "back": "Tagasi",
+        "more-info": "Lisainfo"
       },
       "components": {
         "client-addon-component": {
-          "timeout": "Component load timeout",
-          "timeout-info": "The custom component takes too much time to load, there might be an error"
+          "timeout": "Komponendi laadimine aegus",
+          "timeout-info": "Komponendi laadimine võtab liiga kaua aega võimaliku vea tõttu"
         },
         "connection-status": {
-          "disconnected": "Disconnected from UI server",
-          "connected": "Connected!"
+          "disconnected": "UI serveri ühendus katkes",
+          "connected": "Ühendatud!"
         },
         "file-diff": {
-          "binary": "Binary file not shown",
+          "binary": "Binaarfaili ei näidata",
           "actions": {
-            "open": "Open in editor"
+            "open": "Ava redaktoris"
           }
         },
         "file-diff-view": {
-          "files-changed": "Files changed",
-          "search-file": "Search file",
-          "empty": "No change found",
-          "error": "Couldn't get file changes",
+          "files-changed": "Failid muudetud",
+          "search-file": "Otsi faili",
+          "empty": "Ühtegi muudatust ei leitud",
+          "error": "Failimuudatuste hankimine ebaõnnestus",
           "modals": {
             "commit": {
-              "title": "Commit changes",
-              "input": "Enter a commit message",
-              "subtitle": "Record changes to the repository",
+              "title": "Kehtesta muudatused",
+              "input": "Sisesta kehtestusele kirjeldus",
+              "subtitle": "Salvesta muudatused hoidlasse",
               "actions": {
-                "commit": "Commit",
-                "cancel": "Cancel"
+                "commit": "Kehtesta",
+                "cancel": "Katkesta"
               }
             }
           },
           "actions": {
             "collapse-all": "Collapse all",
             "expand-all": "Expand all",
-            "commit": "Commit changes",
-            "skip": "Skip",
-            "continue": "Continue",
-            "refresh": "Refresh"
+            "commit": "Kehtesta muudatused",
+            "skip": "Jäta vahele",
+            "continue": "Jätka",
+            "refresh": "Värskenda"
           }
         },
         "folder-explorer": {
           "toolbar": {
             "tooltips": {
-              "parent-folder": "Open parent folder",
+              "parent-folder": "Ava ülemkaust",
               "edit-path": "Edit path",
-              "favorite": "Toggle favorite",
-              "favorite-folders": "Favorite folders",
-              "refresh": "Refresh"
+              "favorite": "Märgi lemmikuks",
+              "favorite-folders": "Lemmikud kaustad",
+              "refresh": "Värskenda"
             },
             "placeholder": "Enter the full path to a folder",
-            "empty": "No favorite folders yet.",
-            "show-hidden": "Show hidden folders"
+            "empty": "Ühtegi kausta pole veel lemmikuks märgitud.",
+            "show-hidden": "Näita peidetud kaustasid"
           },
           "new-folder": {
-            "action": "New folder",
-            "title": "Create new folder",
+            "action": "Uus kaust",
+            "title": "Loo uus kaust",
             "field": {
-              "title": "New folder",
+              "title": "Uus kaust",
               "subtitle": "You can use the folder separator to create multiple nested folders at once."
             },
-            "cancel": "Cancel",
-            "create": "Create"
+            "cancel": "Katkesta",
+            "create": "Loo"
           }
         },
         "list-item-info": {
-          "more-info": "More Info"
+          "more-info": "Lisainfo"
         },
         "logger-view": {
-          "title": "Logs",
-          "empty": "No logs yet",
+          "title": "Logid",
+          "empty": "Ühtegi logi pole",
           "buttons": {
-            "clear": "Clear logs",
-            "scroll": "Scroll to bottom",
-            "close": "Close"
+            "clear": "Tühjenda logid",
+            "scroll": "Keri lõppu",
+            "close": "Sulge"
           }
         },
         "progress-screen": {
-          "close": "Close"
+          "close": "Sulge"
         },
         "project-nav": {
           "tooltips": {
-            "dashboard": "Dashboard",
-            "plugins": "Plugins",
-            "dependencies": "Dependencies",
-            "configuration": "Configuration",
+            "dashboard": "Töölaud",
+            "plugins": "Teegid",
+            "dependencies": "Eeldused",
+            "configuration": "Konfiguratsioon",
             "tasks": "Tasks",
-            "more": "More"
+            "more": "Veel"
           }
         },
         "project-select-list": {
-          "empty": "No existing projects",
+          "empty": "Ühtegi projekti ei leitud",
           "titles": {
-            "favorite": "Favorite projects",
-            "other": "Other projects"
+            "favorite": "Lemmikud",
+            "other": "Muud projektid"
           }
         },
         "project-select-list-item": {
           "tooltips": {
-            "favorite": "Toggle favorite",
-            "delete": "Remove from list",
-            "open-in-editor": "Open in editor"
+            "favorite": "Märgi lemmikuks",
+            "delete": "Eemalda nimekirjast",
+            "open-in-editor": "Ava redaktoris"
           }
         },
         "project-plugin-item": {
-          "version": "version",
-          "latest": "latest",
-          "official": "Official",
-          "installed": "Installed",
+          "version": "versioon",
+          "latest": "uusim",
+          "official": "Ametlik",
+          "installed": "Paigaldatud",
           "actions": {
-            "update": "Update {target}",
+            "update": "Uuenda {target}",
             "refresh": "Force Refresh {target}<br><i>Press [Shift] for Quick Refresh (node_modules won't be updated)</i>"
           },
-          "local": "Local"
+          "local": "Lokaalne"
         },
         "project-dependency-item": {
-          "version": "version",
-          "wanted": "wanted",
-          "latest": "latest",
-          "installed": "Installed",
+          "version": "versioon",
+          "wanted": "soovitud",
+          "latest": "uusim",
+          "installed": "Paigaldatud",
           "actions": {
-            "update": "Update {target}",
-            "uninstall": "Uninstall {target}"
+            "update": "Uuenda {target}",
+            "uninstall": "Eemalda {target}"
           }
         },
         "project-tasks-dropdown": {
           "tooltips": {
-            "tasks": "Tasks",
-            "running-tasks": "{count} running task(s)"
+            "tasks": "Tegumid",
+            "running-tasks": "{count} tegum(it) jookseb"
           }
         },
         "prompt-list": {
-          "default": "Default"
+          "default": "Vaikimisi"
         },
         "prompts-list": {
-          "empty": "No configuration"
+          "empty": "Konfiguratsiooni pole"
         },
         "status-bar": {
           "project": {
             "tooltip": "Click to toggle Project Manager",
-            "empty": "No project open"
+            "empty": "Ühtegi projekti pole avatud"
           },
           "path": {
-            "tooltip": "Current Working Folder"
+            "tooltip": "Praegune töökaust"
           },
           "log": {
             "tooltip": "Logs<br><i>Click to toggle Vue CLI logs</i>",
-            "empty": "No logs yet"
+            "empty": "Ühtegi logi pole"
           },
-          "report-bug": "Report bug",
-          "translate": "Help translate",
-          "dark-mode": "Toggle dark mode",
-          "reset-plugin-api": "Refresh plugins API"
+          "report-bug": "Teata veast",
+          "translate": "Aita tõlkida",
+          "dark-mode": "Tume versioon",
+          "reset-plugin-api": "Värskenda teegi liides"
         },
         "suggestion-bar": {
-          "suggestion": "Suggestion",
+          "suggestion": "Soovitus",
           "modal": {
-            "cancel": "Cancel",
-            "continue": "Continue"
+            "cancel": "Katkesta",
+            "continue": "Jätka"
           }
         },
         "terminal-view": {
           "buttons": {
-            "clear": "Clear console",
-            "scroll": "Scroll to bottom"
+            "clear": "Tühjenda konsool",
+            "scroll": "Keri lõppu"
           }
         },
         "top-bar": {
           "no-favorites": "No favorite projects",
           "favorite-projects": "Favorite projects",
-          "recent-projects": "Recent projects",
-          "homepage": "Home page"
+          "recent-projects": "Viimased projektid",
+          "homepage": "Koduleht"
         },
         "view-badge": {
           "labels": {
             "tasks": {
-              "error": "Error status",
+              "error": "Veaolek",
               "running": "Running status",
               "done": "Done status"
             }
           }
         },
         "widget": {
-          "remove": "Remove widget",
-          "configure": "Configure widget",
-          "save": "Save",
-          "reset-config": "Reset config",
-          "open-details": "Show more"
+          "remove": "Eemalda vidin",
+          "configure": "Konfigureeri vidinat",
+          "save": "Salvesta",
+          "reset-config": "Lähtesta konfiguratsioon",
+          "open-details": "Näita rohkem"
         },
         "widget-add-pane": {
-          "title": "Add widgets"
+          "title": "Lisa vidinad"
         },
         "widget-add-item": {
-          "add": "Add widget",
+          "add": "Lisa vidin",
           "details": {
-            "title": "Widget details",
-            "max-instances": "Max instance count: {count}/{total}",
-            "unlimited": "unlimited"
+            "title": "Vidina kirjeldus",
+            "max-instances": "Maksimaalne isendite arv: {count}/{total}",
+            "unlimited": "piiramatu"
           }
         }
       },
       "mixins": {
         "progress": {
-          "creating": "Creating project...",
-          "git-init": "Initializing git repository...",
-          "plugins-install": "Installing Vue CLI plugins. This might take a while...",
+          "creating": "Projekti loomine...",
+          "git-init": "Git hoidla algväärtustamine...",
+          "plugins-install": "Vue CLI teekide paigaldamine.. See võib pisut aega võtta...",
           "invoking-generators": "Invoking generators...",
           "deps-install": "Installing additional dependencies...",
           "completion-hooks": "Running completion hooks...",
           "fetch-remote-preset": "Fetching remote preset...",
-          "done": "Successfully created project",
+          "done": "Projekti loomine õnnestus",
           "plugin-install": "Installing {arg0}...",
           "plugin-uninstall": "Uninstalling {arg0}...",
           "plugin-invoke": "Invoking {arg0}...",
@@ -230,11 +230,11 @@
       "types": {
         "task": {
           "status": {
-            "idle": "Idle",
-            "running": "Running",
-            "done": "Done",
-            "error": "Error",
-            "terminated": "Terminated"
+            "idle": "Ootel",
+            "running": "Töötab",
+            "done": "Valmis",
+            "error": "Viga",
+            "terminated": "Peatatud"
           }
         }
       },
@@ -242,154 +242,154 @@
         "project-select": {
           "title": "Vue Project Manager",
           "tabs": {
-            "projects": "Projects",
-            "create": "Create",
-            "import": "Import"
+            "projects": "Projektid",
+            "create": "Loo",
+            "import": "Impordi"
           },
           "buttons": {
-            "create": "Create a new project here",
-            "import": "Import this folder"
+            "create": "Loo uus projekt siia",
+            "import": "Impordi see kaust"
           },
           "import": {
             "no-modules": {
               "title": "Missing modules",
               "message": "It seems the project is missing the 'node_modules' folder. Please check you installed the dependencies before importing.",
-              "close": "Got it"
+              "close": "Selge"
             },
-            "force": "Import anyway"
+            "force": "Impordi ikka"
           }
         },
         "project-create": {
-          "title": "Create a new project",
+          "title": "Loo uus projekt",
           "tabs": {
             "details": {
-              "title": "Details",
+              "title": "Üksikasjad",
               "form": {
                 "folder": {
-                  "label": "Project folder",
-                  "placeholder": "Type a name",
-                  "tooltip": "Change base folder",
-                  "action": "Select this folder",
-                  "folder-exists": "This folder already exists",
-                  "folder-name-invalid": "Folder name invalid"
+                  "label": "Projektikaust",
+                  "placeholder": "Sisesta nimi",
+                  "tooltip": "Muuda juurkaust",
+                  "action": "Vali see kaust",
+                  "folder-exists": "See kaust on juba olemas",
+                  "folder-name-invalid": "Kausta nimi on vigane"
                 },
                 "manager": {
                   "label": "Package manager",
-                  "default": "Default"
+                  "default": "Vaikimisi"
                 },
                 "options": {
-                  "label": "Additional options",
-                  "force": "Overwrite target folder if it exists",
-                  "git-title": "Git repository",
-                  "git": "Initialize git repository (recommended)",
-                  "git-commit-message": "Initial commit message (optional)"
+                  "label": "Lisavalikud",
+                  "force": "Kirjuta üle kui kaust on juba olemas",
+                  "git-title": "Git hoidla",
+                  "git": "Algväärtusta git hoidla (soovituslik)",
+                  "git-commit-message": "Esmase kehtestuse kirjeldus"
                 }
               },
               "buttons": {
-                "cancel": "Cancel",
-                "next": "Next"
+                "cancel": "Katkesta",
+                "next": "Järgmine"
               },
               "modal": {
-                "title": "Cancel and reset project creation",
-                "body": "Are you sure you want to reset the project creation?",
+                "title": "Katkesta ja lähtesta projekti loomine",
+                "body": "Oled sa kindel, et soovid projekti loomise lähtestada?",
                 "buttons": {
-                  "back": "Go back",
+                  "back": "Tagasi",
                   "clear": "Clear project"
                 }
               }
             },
             "presets": {
-              "title": "Presets",
+              "title": "Eelseadistused",
               "description": "A preset is an association of plugins and configurations. After you've selected features, you can optionally save it as a preset so that you can reuse it for future projects, without having to reconfigure everything again.",
-              "select": "Select a preset",
+              "select": "Vali eelseadistus",
               "buttons": {
-                "previous": "Previous",
-                "next": "Next",
-                "create": "Create Project"
+                "previous": "Eelmine",
+                "next": "Järgmine",
+                "create": "Loo projekt"
               },
               "modal": {
                 "title": "Configure Remote preset",
                 "body": "Available soon..."
               },
               "manual": {
-                "name": "Manual",
+                "name": "Käsitsi",
                 "description": "Manually select features"
               },
               "remote": {
                 "name": "Remote preset",
                 "description": "Fetch a preset from a git repository",
                 "url": {
-                  "title": "Preset URL",
+                  "title": "Eelseadistuse URL",
                   "subtitle": "Git repo, for example 'username/repo'. You can also prefix with 'gitlab:' or 'bitbucket:'."
                 },
-                "options": "Other options",
+                "options": "Muud valikud",
                 "clone": "Clone/Private repository",
-                "cancel": "Cancel",
-                "done": "Done"
+                "cancel": "Katkesta",
+                "done": "Valmis"
               },
-              "default-preset": "Default preset"
+              "default-preset": "Vaikimisi eelseadistus"
             },
             "features": {
               "title": "Features",
               "description": "You will be able to add features after the project is created by installing plugins.",
               "enable": "Enable features",
               "buttons": {
-                "previous": "Previous",
-                "next": "Next",
-                "create": "Create Project"
+                "previous": "Eelmine",
+                "next": "Järgmine",
+                "create": "Loo projekt"
               },
               "userConfigFiles": {
-                "name": "Use config files",
-                "description": "Use specific configuration files (like '.babelrc') instead of using 'package.json'."
+                "name": "Kasuta konfiguratsioonifaile",
+                "description": "Kasuta spetsiifilisi konfiguratsioonifaile (näiteks '.babelrc') 'package.json' asemel."
               }
             },
             "configuration": {
-              "title": "Configuration",
+              "title": "Konfiguratsioon",
               "buttons": {
-                "previous": "Previous",
-                "create": "Create Project"
+                "previous": "Eelmine",
+                "create": "Loo projekt"
               },
               "modal": {
-                "title": "Save as a new preset",
+                "title": "Salvesta uue eelseadistusena",
                 "body": {
-                  "title": "Preset name",
+                  "title": "Eelseadistuse nimi",
                   "subtitle": "Save the features and configuration into a new preset"
                 },
                 "buttons": {
-                  "cancel": "Cancel",
-                  "continue": "Continue without saving",
-                  "create": "Create a new preset"
+                  "cancel": "Katkesta",
+                  "continue": "Jätka salvestamiseta",
+                  "create": "Loo uus eelseadistus"
                 }
               }
             }
           }
         },
         "project-plugins": {
-          "title": "Project plugins",
-          "button": "Add plugin",
-          "heading": "Installed plugins",
-          "update-all": "Update all plugins"
+          "title": "Projekti teegid",
+          "button": "Lisa teek",
+          "heading": "Paigaldatud teegid",
+          "update-all": "Uuenda kõik teegid"
         },
         "project-plugins-add": {
-          "title": "Add a plugin",
-          "plugin": "plugin",
+          "title": "Lisa teek",
+          "plugin": "teek",
           "tabs": {
             "search": {
-              "label": "Search",
-              "search-input": "Search a plugin",
-              "not-found": "No results found",
+              "label": "Otsi",
+              "search-input": "Otsi teeke",
+              "not-found": "Ühtegi tulemust ei leitud",
               "buttons": {
-                "cancel": "Cancel",
-                "install": "Install {target}",
-                "default-install": "Install"
+                "cancel": "Katkesta",
+                "install": "Paigalda {target}",
+                "default-install": "Paigalda"
               }
             },
             "configuration": {
-              "label": "Configuration",
-              "heading": "Installation of {target}",
+              "label": "Konfiguratsioon",
+              "heading": "{target} paigaldamine",
               "buttons": {
-                "cancel": "Cancel",
-                "finish": "Finish installation"
+                "cancel": "Katkesta",
+                "finish": "Lõpeta"
               }
             },
             "diff": {
@@ -397,12 +397,12 @@
             }
           },
           "modal": {
-            "title": "Uninstall {target}?",
+            "title": "Eemalda {target}?",
             "body": "Do you want to uninstall the {target} plugin?",
             "buttons": {
-              "back": "Go back",
-              "cancel": "Cancel without uninstalling",
-              "uninstall": "Uninstall"
+              "back": "Tagasi",
+              "cancel": "Ära eemalda",
+              "uninstall": "Eemalda"
             }
           },
           "buttons": {
@@ -420,10 +420,10 @@
         },
         "project-configuration-details": {
           "actions": {
-            "cancel": "Cancel changes",
-            "save": "Save changes",
-            "more-info": "More info",
-            "refresh": "Refresh"
+            "cancel": "Tühista muudatused",
+            "save": "Salvesta muudatused",
+            "more-info": "Lisainfo",
+            "refresh": "Värskenda"
           }
         },
         "project-tasks": {
@@ -433,108 +433,108 @@
           "actions": {
             "play": "Run task",
             "stop": "Stop task",
-            "close": "Close",
-            "save": "Save"
+            "close": "Sulge",
+            "save": "Salvesta"
           },
           "command": "Script command",
-          "parameters": "Parameters",
-          "more-info": "More Info",
-          "output": "Output"
+          "parameters": "Parameetrid",
+          "more-info": "Lisainfo",
+          "output": "Väljund"
         },
         "project-dependencies": {
-          "title": "Project dependencies",
+          "title": "Projekti eeldused",
           "heading": {
-            "dependencies": "Main dependencies",
-            "devDependencies": "Development dependencies"
+            "dependencies": "Peamised eeldused",
+            "devDependencies": "Arenduse eeldused"
           },
           "actions": {
-            "install": "Install dependency",
-            "update-all": "Update all dependencies"
+            "install": "Paigalda eeldus",
+            "update-all": "Uuenda kõik eeldused"
           },
           "install": {
-            "title": "Install new dependency"
+            "title": "Paigalda uus eeldus"
           },
           "uninstall": {
-            "title": "Confirm uninstall",
-            "body": "Are you sure you want to uninstall {id}?",
-            "cancel": "Cancel",
-            "uninstall": "Uninstall {id}"
+            "title": "Kinnita eemaldamine",
+            "body": "Oled sa kindel, et soovid {id} eemaldada?",
+            "cancel": "Katkesta",
+            "uninstall": "Eemalda {id}"
           }
         },
         "project-dashboard": {
-          "title": "Project dashboard",
-          "cutomize": "Customize",
-          "done": "Done"
+          "title": "Projekti töölaud",
+          "cutomize": "Kohanda",
+          "done": "Valmis"
         },
         "settings": {
-          "title": "Settings"
+          "title": "Seaded"
         },
         "about": {
           "title": "About",
           "description": "<a href=\"https://github.com/vuejs/vue-cli/tree/dev/packages/%40vue/cli-ui\" target=\"_blank\">@vue/cli-ui</a> is a built-in package of vue-cli which opens a full-blown UI.",
           "quote": "Vue-cli 3.x is a complete rewrite, with a lot of new awesome features. You will be able to select features like routing, Vuex or Typescript, then add and upgrade building blocks called \"vue-cli plugins\". But having so much more options also means the tool is now more complex and harder to start using. That's why we thought having a full-blown GUI would help discover the new features, search and install vue-cli plugins and unlock more possibilities overall while not being limited by a terminal interface. To sum up, vue-cli will not only allow you to bootstrap a new project easily, but it will also remain useful for ongoing work afterwards!",
-          "links": "Useful links",
-          "back": "Go back"
+          "links": "Kasulikud lingid",
+          "back": "Tagasi"
         }
       },
       "cli-service": {
         "suggestions": {
           "vue-router-add": {
-            "label": "Add vue-router",
+            "label": "Lisa vue-router",
             "message": "Official library to support multiple virtual pages in a Single-Page App. Each route renders a different component."
           },
           "vuex-add": {
-            "label": "Add vuex",
+            "label": "Lisa vuex",
             "message": "Official centralized State Management solution for large-scale apps. Very useful if multiple components need to access the same data."
           },
           "vue-devtools": {
-            "label": "Install devtools",
+            "label": "Paigalda arendustööriistad",
             "message": "Browser devtools official extension for debugging Vue.js applications where you can inspect your components, vuex store and events."
           },
-          "progress": "Installing {arg0}..."
+          "progress": "{arg0} paigaldamine..."
         }
       },
       "vue-webpack": {
         "dashboard": {
-          "title": "Dashboard",
-          "open-app": "Open app",
+          "title": "Töölaud",
+          "open-app": "Ava rakendus",
           "webpack-status": {
-            "Success": "Success",
-            "Failed": "Failed",
-            "Compiling": "Compiling",
+            "Success": "Õnnestus",
+            "Failed": "Ebaõnnestus",
+            "Compiling": "Kompileerimine",
             "Invalidated": "Invalidated",
-            "Idle": "Idle"
+            "Idle": "Ootel"
           },
           "build-status": {
             "labels": {
-              "status": "Status",
-              "errors": "Errors",
-              "warnings": "Warnings",
-              "assets": "Assets",
-              "modules": "Modules",
-              "deps": "Dependencies"
+              "status": "Staatus",
+              "errors": "Vead",
+              "warnings": "Hoiatused",
+              "assets": "Varad",
+              "modules": "Moodulid",
+              "deps": "Eeldused"
             }
           },
           "speed-stats": {
-            "title": "Speed stats"
+            "title": "Kiirus"
           },
           "module-list": {
-            "title": "Dependencies"
+            "title": "Eeldused"
           },
           "asset-list": {
-            "title": "Assets",
+            "title": "Varad",
             "size-warning": "This asset is big, consider using Code splitting to create smaller assets."
           }
         },
         "analyzer": {
-          "title": "Analyzer",
-          "go-up": "Go up",
+          "title": "Analüüsija",
+          "go-up": "Mine üles",
           "go-home": "Go to home",
           "chunk": "Chunk"
         },
         "sizes": {
           "stats": "Stats",
-          "parsed": "Parsed",
+          "parsed": "Töödeldud",
           "gzip": "Gzip",
           "help": "<b>Stats:</b> size from webpack stats data.<br><b>Parsed:</b> size from extracted source (after minification plugins). More accurate.<br><b>Gzip:</b> size of gzipped extracted source."
         },
@@ -542,25 +542,25 @@
         "tasks": {
           "serve": {
             "description": "Compiles and hot-reloads for development",
-            "open": "Open browser on server start",
-            "mode": "Specify env mode",
-            "host": "Specify host",
-            "port": "Specify port",
-            "https": "Use HTTPS"
+            "open": "Ava brauser serveri käivitumisel",
+            "mode": "Määra keskkond",
+            "host": "Määra host",
+            "port": "Määra port",
+            "https": "Kasuta HTTPS'i"
           },
           "build": {
             "description": "Compiles and minifies for production",
-            "mode": "Specify env mode",
-            "dest": "Output directory",
+            "mode": "Määra keskkond",
+            "dest": "Väljundkaust",
             "target": {
               "description": "Build target",
-              "app": "Web app",
-              "lib": "Library",
-              "wc": "Web component",
-              "wc-async": "Async web component"
+              "app": "Veebirakendus",
+              "lib": "Teek",
+              "wc": "Veebikomponent",
+              "wc-async": "Asünkroone veebikomponent"
             },
             "name": "Name for library or web-component mode (default: 'name' in package.json or entry filename)",
-            "watch": "Watch for changes",
+            "watch": "Jälgi muudatusi",
             "modern": {
               "label": "Modern mode",
               "description": "Build app targeting modern browsers with auto fallback"
@@ -576,11 +576,11 @@
           "vue-cli": {
             "description": "Configure your Vue project",
             "groups": {
-              "general": "General settings",
-              "css": "CSS settings"
+              "general": "Üldseaded",
+              "css": "CSS seaded"
             },
             "baseUrl": {
-              "label": "Base URL",
+              "label": "Baas URL",
               "description": "The base URL your application will be deployed at, for example '/my-app/'. Use an empty string ('') so that all assets are linked using relative paths."
             },
             "publicPath": {
@@ -588,11 +588,11 @@
               "description": "The base URL your application will be deployed at, for example '/my-app/'. Use an empty string ('') so that all assets are linked using relative paths."
             },
             "outputDir": {
-              "label": "Output directory",
+              "label": "Väljundkaust",
               "description": "The directory where the production build files will be generated"
             },
             "assetsDir": {
-              "label": "Assets directory",
+              "label": "Varakaust",
               "description": "A directory to nest generated static assets (js, css, img, fonts) under."
             },
             "runtimeCompiler": {
@@ -604,7 +604,7 @@
               "description": "Disabling this can speed up production builds if you don't need source maps for production"
             },
             "parallel": {
-              "label": "Parallel compilation",
+              "label": "Paralleelne kompileerimine",
               "description": "Whether to use multiple processors to compile Babel or Typescript."
             },
             "css": {
@@ -613,7 +613,7 @@
                 "description": "By default, only files that ends in *.module.[ext] are treated as CSS modules. Enabling this will treat all style files as CSS modules."
               },
               "extract": {
-                "label": "Extract CSS",
+                "label": "Eralda CSS",
                 "description": "Whether to extract CSS in your components into a standalone CSS files (instead of inlined in JavaScript and injected dynamically)."
               },
               "sourceMap": {
@@ -624,30 +624,30 @@
           }
         },
         "suggestions": {
-          "vue-config-open": "Open vue config"
+          "vue-config-open": "Ava vue konfiguratsioon"
         }
       },
       "eslint": {
         "config": {
           "eslint": {
-            "description": "Error checking & Code quality",
+            "description": "Vigade kontroll & Koodi kvaliteet",
             "groups": {
-              "base": "Base",
-              "essential": "Essential",
-              "strongly-recommended": "Strongly recommended",
-              "recommended": "Recommended",
-              "uncategorized": "Uncategorized"
+              "base": "Baas",
+              "essential": "Vajali",
+              "strongly-recommended": "Tungivalt soovituslik",
+              "recommended": "Soovituslik",
+              "uncategorized": "Kategoriseerimata"
             },
             "setting": {
-              "off": "Off",
-              "error": "Error",
-              "warning": "Warning",
+              "off": "Väljas",
+              "error": "Viga",
+              "warning": "Hoiatus",
               "custom": "Custom"
             },
             "general": {
-              "label": "General",
+              "label": "Üldine",
               "lintOnSave": {
-                "message": "Lint on save",
+                "message": "Valideeri salvestamisel",
                 "description": "Automatically lint source files when saved"
               },
               "config": {
@@ -656,19 +656,19 @@
               }
             },
             "rules": {
-              "label": "Rules"
+              "label": "Reeglid"
             }
           }
         },
         "tasks": {
           "lint": {
-            "description": "Lints and fixes files",
-            "noFix": "Do not fix errors"
+            "description": "Valideeri ja paranda failid",
+            "noFix": "Ära paranda faile"
           }
         },
         "suggestions": {
           "open-eslintrc": {
-            "label": "Open eslintrc"
+            "label": "Ava eslintrc"
           }
         }
       },
@@ -681,11 +681,11 @@
               "description": "This allows you to the choose between the two modes supported by the underlying `workbox-webpack-plugin`"
             },
             "name": {
-              "message": "App name",
+              "message": "Rakenduse nimi",
               "description": "App name displayed on the Splash screen and various other places. Also used as the value for the `apple-mobile-web-app-title` meta tag in the generated HTML."
             },
             "themeColor": {
-              "message": "Theme color",
+              "message": "Teema värv",
               "description": "Color used to theme the browser"
             },
             "backgroundColor": {
@@ -714,7 +714,7 @@
       "cypress": {
         "tasks": {
           "test": {
-            "description": "Run e2e tests with `cypress run`",
+            "description": "Läbivtesti kasutades 'cypress run' käsku",
             "headless": "Run in headless mode without GUI",
             "mode": "Specify the mode the dev server should run in",
             "url": "Run e2e tests against given url instead of auto-starting dev server"
@@ -724,7 +724,7 @@
       "nightwatch": {
         "tasks": {
           "test": {
-            "description": "Run e2e tests with nightwatch",
+            "description": "Läbivtesti kasutates nightwatch'i",
             "url": "Run e2e tests against given url instead of auto-starting dev server",
             "config": "Use custom nightwatch config file (overrides internals)",
             "env": "Comma-delimited browser envs to run in"
@@ -734,7 +734,7 @@
       "jest": {
         "tasks": {
           "test": {
-            "description": "Run unit tests with Jest",
+            "description": "Testi üksusi Jest'iga",
             "watch": "Watch files for changes and rerun tests related to changed files",
             "notify": "Display a notification after each run",
             "update": "Re-record every snapshot that fails during this test run"
@@ -744,59 +744,59 @@
       "mocha": {
         "tasks": {
           "test": {
-            "description": "Run unit tests with Mocha",
+            "description": "Testi üksusi Mocha'ga",
             "watch": "Watch files for changes and rerun tests related to changed files"
           }
         }
       },
       "widgets": {
         "welcome": {
-          "title": "Welcome tips",
-          "description": "Some tips to help you get started",
+          "title": "Näpunäited",
+          "description": "Mõned näpunäited alustamiseks",
           "content": {
-            "title": "Welcome to your new project!",
-            "tip1": "You are looking at the project dashboard where you can put widgets. Use the 'Customize' button to add more! Everything is automatically saved.",
+            "title": "Tere tulemast oma uude projekti!",
+            "tip1": "Hetkel vaatad oma projekti töölauda, kuhu saad lisada vidinaid. Kasuta 'Kohanda' nuppu, et neid juurde lisada! Kõik muudatused salvestatakse automaatselt.",
             "tip2": "On the left are the different available pages. 'Plugins' let you add new Vue CLI plugins, 'Dependencies' for managing the packages, 'Configuration' to configure the tools and 'Tasks' to run scripts (for example webpack).",
             "tip3": "Return to the project manager with the dropdown at the top left of the screen or the home button in the status bar at the bottom.",
-            "ok": "Understood"
+            "ok": "Selge"
           }
         },
         "kill-port": {
-          "title": "Kill port",
-          "description": "Kill processes using a specific network port",
+          "title": "Peata port",
+          "description": "Peata protsessid kasutades võrguporti",
           "input": {
-            "placeholder": "Enter a network port"
+            "placeholder": "Sisesta võrguport"
           },
-          "kill": "Kill",
+          "kill": "Peata",
           "status": {
-            "idle": "Ready to kill",
-            "killing": "Killing procress...",
-            "killed": "Killed successfully!",
-            "error": "Couldn't kill process"
+            "idle": "Valmis peatama",
+            "killing": "Protsessi peatamine...",
+            "killed": "Peatatud!",
+            "error": "Protsessi peatamine ei õnnestunud"
           }
         },
         "status-widget": {
-          "last-updated": "Updated",
+          "last-updated": "Uuendatud",
           "never": "Not updated yet",
-          "check": "Check for updates",
-          "more-info": "More details"
+          "check": "Kontrolli uuendusi",
+          "more-info": "Lisainfo"
         },
         "plugin-updates": {
-          "title": "Plugin updates",
+          "title": "Pistikprogrammi uuendused",
           "description": "Monitor plugin updates",
           "messages": {
-            "ok": "All plugins up-to-date",
-            "loading": "Checking for updates...",
-            "attention": "{n} plugin updates available"
+            "ok": "Kõik pistikprogrammid on ajakohased",
+            "loading": "Kontrollin uuendusi...",
+            "attention": "{n} uuendust on saadaval"
           },
           "page": "Go to Plugins"
         },
         "dependency-updates": {
-          "title": "Dependency updates",
+          "title": "Eelduste uuendused",
           "description": "Monitor dependencies updates",
           "messages": {
-            "ok": "All dependencies up-to-date",
-            "loading": "Checking for updates...",
+            "ok": "Kõik eeldused on ajakohased",
+            "loading": "Uuenduste kontrollimine...",
             "attention": "{n} dependency updates available"
           },
           "page": "Go to Dependencies"
@@ -825,8 +825,8 @@
           "page": "Go to Task"
         },
         "news": {
-          "title": "News feed",
-          "description": "Read news feed",
+          "title": "Uudiste voog",
+          "description": "Loe uudiste voogu",
           "refresh": "Force refresh",
           "select-tip": "Select an item on the left",
           "prompts": {
@@ -835,7 +835,7 @@
           "errors": {
             "fetch": "Couldn't fetch feed",
             "offline": "You are offline",
-            "empty": "Empty feed"
+            "empty": "Tühi voog"
           }
         }
       }
