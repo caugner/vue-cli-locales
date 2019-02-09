@@ -593,7 +593,7 @@
             },
             "assetsDir": {
               "label": "Dossier des ressources",
-              "description": "A directory to nest generated static assets (js, css, img, fonts) under."
+              "description": "Un dossier où placer les fichiers statiques (js, css, img, polices)."
             },
             "runtimeCompiler": {
               "label": "Activer le compilateur runtime",
@@ -614,7 +614,7 @@
               },
               "extract": {
                 "label": "Extraire le CSS",
-                "description": "Whether to extract CSS in your components into a standalone CSS files (instead of inlined in JavaScript and injected dynamically)."
+                "description": "Extraire le CSS de vos composants dans des fichiers CSS autonomes (au lieu d’être insérés dans JavaScript et injectés dynamiquement)."
               },
               "sourceMap": {
                 "label": "Activer les Source Maps CSS",
@@ -647,8 +647,8 @@
             "general": {
               "label": "Général",
               "lintOnSave": {
-                "message": "Lint on save",
-                "description": "Automatically lint source files when saved"
+                "message": "Linter à la sauvegarde",
+                "description": "Lint automatiquement la source au moment de l'enregistrement"
               },
               "config": {
                 "message": "Sélectionner la configuration",
@@ -662,7 +662,7 @@
         },
         "tasks": {
           "lint": {
-            "description": "Lints and fixes files",
+            "description": "Lint et corrige les fichiers",
             "noFix": "Ne pas corriger les erreurs"
           }
         },
