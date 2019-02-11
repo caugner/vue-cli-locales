@@ -87,7 +87,7 @@
         },
         "project-nav": {
           "tooltips": {
-            "dashboard": "看板",
+            "dashboard": "项目仪表盘",
             "plugins": "插件",
             "dependencies": "依赖",
             "configuration": "配置",
@@ -189,7 +189,7 @@
         },
         "widget": {
           "remove": "移除部件",
-          "configure": "修改部件",
+          "configure": "配置部件",
           "save": "保存",
           "reset-config": "重置设定",
           "open-details": "显示更多"
@@ -202,7 +202,7 @@
           "details": {
             "title": "部件细节",
             "max-instances": "最大实例数量：{count}/{total}",
-            "unlimited": "不作限制"
+            "unlimited": "不限"
           }
         }
       },
@@ -782,21 +782,21 @@
           "more-info": "更多细节"
         },
         "plugin-updates": {
-          "title": "插件更新",
+          "title": "更新插件",
           "description": "Monitor plugin updates",
           "messages": {
-            "ok": "所有插件已最新",
-            "loading": "检查更新中……",
+            "ok": "所有插件已是最新",
+            "loading": "正在检查更新……",
             "attention": "有{n}个插件可更新"
           },
           "page": "Go to Plugins"
         },
         "dependency-updates": {
-          "title": "依赖更新",
+          "title": "更新依赖",
           "description": "Monitor dependencies updates",
           "messages": {
-            "ok": "所有依赖已最新",
-            "loading": "检查更新中……",
+            "ok": "所有依赖已是最新",
+            "loading": "正在检查更新……",
             "attention": "有{n}个依赖可更新"
           },
           "page": "Go to Dependencies"
@@ -825,7 +825,7 @@
           "page": "Go to Task"
         },
         "news": {
-          "title": "新闻流",
+          "title": "新闻",
           "description": "阅读新闻流",
           "refresh": "强制刷新",
           "select-tip": "Select an item on the left",
