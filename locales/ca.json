@@ -410,9 +410,9 @@
           }
         },
         "project-plugin-add-local": {
-          "title": "Add a local plugin",
+          "title": "Agefeix un plugin local",
           "buttons": {
-            "add": "Add local plugin"
+            "add": "Afegeix plugin local"
           }
         },
         "project-configurations": {
@@ -462,7 +462,7 @@
           }
         },
         "project-dashboard": {
-          "title": "Project dashboard",
+          "title": "Escriptori del projecte",
           "cutomize": "Personalitza",
           "done": "Fet"
         },
@@ -534,7 +534,7 @@
         },
         "sizes": {
           "stats": "Stats",
-          "parsed": "Parsed",
+          "parsed": "Parsejat",
           "gzip": "Gzip",
           "help": "<b>Stats:</b> Tamany de les dades \"webpack stats\".<br><b>Parsed:</b> Tamany del codi font extret (després dels complements de minimització). Més acurat.<br><b>Gzip:</b> Tamany del codi font comprimit (amb GZip) extret."
         },
@@ -562,7 +562,7 @@
             "name": "Nom pel mode llibreria o component web (per defecte: 'name' en package.json o el nom del arxiu de entrada)",
             "watch": "Observar canvis",
             "modern": {
-              "label": "Modern mode",
+              "label": "Mode modern",
               "description": "Build app targeting modern browsers with auto fallback"
             }
           },
@@ -624,7 +624,7 @@
           }
         },
         "suggestions": {
-          "vue-config-open": "Open vue config"
+          "vue-config-open": "Obre configuració de vue"
         }
       },
       "eslint": {
@@ -751,14 +751,14 @@
       },
       "widgets": {
         "welcome": {
-          "title": "Welcome tips",
-          "description": "Some tips to help you get started",
+          "title": "Consells de benvinguda",
+          "description": "Alguns consells per ajudar-te a començar",
           "content": {
-            "title": "Welcome to your new project!",
+            "title": "Benvingut al teu nou projecte!",
             "tip1": "You are looking at the project dashboard where you can put widgets. Use the 'Customize' button to add more! Everything is automatically saved.",
             "tip2": "On the left are the different available pages. 'Plugins' let you add new Vue CLI plugins, 'Dependencies' for managing the packages, 'Configuration' to configure the tools and 'Tasks' to run scripts (for example webpack).",
             "tip3": "Return to the project manager with the dropdown at the top left of the screen or the home button in the status bar at the bottom.",
-            "ok": "Understood"
+            "ok": "Entesos"
           }
         },
         "kill-port": {
@@ -799,43 +799,43 @@
             "loading": "Checking for updates...",
             "attention": "{n} dependency updates available"
           },
-          "page": "Go to Dependencies"
+          "page": "Ves a Dependències"
         },
         "vulnerability": {
-          "title": "Vulnerability check",
-          "description": "Check for known vulnerabilities in your project dependencies",
+          "title": "Comprovació de vulnerabilitats",
+          "description": "Cerca vulnerabilitats conegudes a les dependències del teu projecte",
           "messages": {
-            "ok": "No vulnerability found",
-            "loading": "Checking security reports...",
-            "attention": "{n} vulnerabilities found"
+            "ok": "Cap vulnerabilitat trobada",
+            "loading": "Comprovant informes de seguretat",
+            "attention": "{n} vulnerabilitats trobades"
           },
           "severity": {
-            "high": "High severity",
-            "medium": "Medium severity",
-            "low": "Low severity"
+            "high": "Severitat alta",
+            "medium": "Severitat mitjana",
+            "low": "Severitat baixa"
           },
-          "direct-dep": "Direct dependency"
+          "direct-dep": "Dependència directe"
         },
         "run-task": {
-          "title": "Run task",
-          "description": "Shortcut to run a task",
+          "title": "Executar tasca",
+          "description": "Accés directe per a executar una tasca",
           "prompts": {
-            "task": "Select a task"
+            "task": "Selecciona una tasca"
           },
-          "page": "Go to Task"
+          "page": "Anar a la tasca"
         },
         "news": {
-          "title": "News feed",
-          "description": "Read news feed",
-          "refresh": "Force refresh",
-          "select-tip": "Select an item on the left",
+          "title": "Feed de notícies",
+          "description": "Llegir el feed de notícies",
+          "refresh": "Refresca forçadament",
+          "select-tip": "Escull un ítem a l'esquerra",
           "prompts": {
-            "url": "RSS feed URL or GitHub repository"
+            "url": "URL del feed RSS o repositori de GitHub"
           },
           "errors": {
-            "fetch": "Couldn't fetch feed",
-            "offline": "You are offline",
-            "empty": "Empty feed"
+            "fetch": "No s'ha pogut obtenir el feed",
+            "offline": "Estàs fora de línia",
+            "empty": "Feed buit"
           }
         }
       }
