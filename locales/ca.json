@@ -88,7 +88,7 @@
         "project-nav": {
           "tooltips": {
             "dashboard": "Consola",
-            "plugins": "Connectors",
+            "plugins": "Complements",
             "dependencies": "Dependències",
             "configuration": "Configuració",
             "tasks": "Tasques",
@@ -157,7 +157,7 @@
           "report-bug": "Reporteu una errada",
           "translate": "Ajudeu amb la traducció",
           "dark-mode": "Commuta el mode fosc",
-          "reset-plugin-api": "Actualitza l'API de connectors"
+          "reset-plugin-api": "Actualitza l'API de complements"
         },
         "suggestion-bar": {
           "suggestion": "Suggeriment",
@@ -299,7 +299,7 @@
               }
             },
             "presets": {
-              "title": "Presets",
+              "title": "Valor predefinit",
               "description": "Un preset es una associació de complements i configuracions. Després de que hagis seleccionat les característiques, opcionalment pots guardar-lo com a preset que pot ser reutilitzat en futurs projectes, sense tenir que configurar cadascun de nou",
               "select": "Selecciona un preset",
               "buttons": {
@@ -323,7 +323,7 @@
                   "subtitle": "Repositori git, per exemple 'username/repo'. També està permet afegir els prefixes 'gitlab:' o 'bitbucket:'."
                 },
                 "options": "Altres opcions",
-                "clone": "Clone/Private repository",
+                "clone": "Clonar/Repositori privat",
                 "cancel": "Cancel·lar",
                 "done": "Fet"
               },
@@ -406,13 +406,13 @@
             }
           },
           "buttons": {
-            "add-local": "Browse local plugin"
+            "add-local": "Examinar complement local"
           }
         },
         "project-plugin-add-local": {
-          "title": "Agefeix un plugin local",
+          "title": "Agefeix un complement local",
           "buttons": {
-            "add": "Afegeix plugin local"
+            "add": "Afegeix complement local"
           }
         },
         "project-configurations": {
@@ -472,7 +472,7 @@
         "about": {
           "title": "Quant a",
           "description": "<a href=\"https://github.com/vuejs/vue-cli/tree/dev/packages/%40vue/cli-ui\" target=\"_blank\">@vue/cli-ui</a> es un paquet intern de vue-cli que obre una full-blown UI.",
-          "quote": "Vue-cli 3.x es una rescriptura completa, amb moltes característiques increïbles. Podràs escollir les caracteristiques com ara routing, Vuex o Typescript, llavors afegir i actualitzar blocs de construcció anomenats \"vue-cli plugins\". Però tenir moltes més opcions també significa que l'eina és més complexa i més difícil de començar a utilitzar. Per això, pensàvem que tenir una interfície gràfica completa ajudaria a descobrir les noves funcions, cercar i instal·lar com`plements de vue-cli i desbloquejar més possibilitats en general sense estar limitat per una interfície de terminal. En resum, vue-cli no només permet arrencar fàcilment un nou projecte, que també serà útil per treballs futurs posteriorment!",
+          "quote": "Vue-cli 3.x es una rescriptura completa, amb moltes característiques increïbles. Podràs escollir les caracteristiques com ara routing, Vuex o Typescript, llavors afegir i actualitzar blocs de construcció anomenats \"vue-cli plugins\". Però tenir moltes més opcions també significa que l'eina és més complexa i més difícil de començar a utilitzar. Per això, pensàvem que tenir una interfície gràfica completa ajudaria a descobrir les noves funcions, cercar i instal·lar complements de vue-cli i desbloquejar més possibilitats en general sense estar limitat per una interfície de terminal. En resum, vue-cli no només permet arrencar fàcilment un nou projecte, que també serà útil per treballs futurs posteriorment!",
           "links": "Enllaços d'interés",
           "back": "Tornar"
         }
@@ -530,7 +530,7 @@
           "title": "Analitzador",
           "go-up": "Anar a dalt",
           "go-home": "Anar a l'inici",
-          "chunk": "Chunk"
+          "chunk": "Fragment"
         },
         "sizes": {
           "stats": "Stats",
@@ -563,7 +563,7 @@
             "watch": "Observar canvis",
             "modern": {
               "label": "Mode modern",
-              "description": "Build app targeting modern browsers with auto fallback"
+              "description": "Crea l'aplicació dirigida als navegadors moderns amb auto fallback"
             }
           },
           "inspect": {
@@ -584,8 +584,8 @@
               "description": "L'adreça URL base on l'aplicació es desplegarà, per exemple '/my-app/'. Utilitzant una cadena de text buida (''), tots els recursos seran vinculats amb \"path\" relatiu."
             },
             "publicPath": {
-              "label": "Public Path",
-              "description": "The base URL your application will be deployed at, for example '/my-app/'. Use an empty string ('') so that all assets are linked using relative paths."
+              "label": "Ruta pública",
+              "description": "La URL base de la teva aplicació es desplegarà, per exemple a '/la-meva-app/'. Utilitza una cadena buida ('') per fer que tots els assets s'enllacin utilitzant rutes relatives."
             },
             "outputDir": {
               "label": "Directori de sortida",
@@ -755,49 +755,49 @@
           "description": "Alguns consells per ajudar-te a començar",
           "content": {
             "title": "Benvingut al teu nou projecte!",
-            "tip1": "You are looking at the project dashboard where you can put widgets. Use the 'Customize' button to add more! Everything is automatically saved.",
-            "tip2": "On the left are the different available pages. 'Plugins' let you add new Vue CLI plugins, 'Dependencies' for managing the packages, 'Configuration' to configure the tools and 'Tasks' to run scripts (for example webpack).",
-            "tip3": "Return to the project manager with the dropdown at the top left of the screen or the home button in the status bar at the bottom.",
+            "tip1": "Estàs veient l'escriptori del projecte on pots posar-hi ginys. Utilitza el botó 'Personalitzar' per afegir-ne més! Tot es desarà automàticament.",
+            "tip2": "A l'esquera hi ha les diferents pàgines disponibles. 'Complements' et permet afegir complements de Vue CLI, 'Dependències' gestionar els paquets, 'Configuració' configurar les eines i 'Tasques' fer córrer scripts (per exemple webpack)",
+            "tip3": "Torna al gestor de projectes amb el desplegable de dalt a la dreta de la pantalla o bé amb el botó d'inici situat a la barra d'estat de la part de baix.",
             "ok": "Entesos"
           }
         },
         "kill-port": {
-          "title": "Kill port",
-          "description": "Kill processes using a specific network port",
+          "title": "Eliminar port",
+          "description": "Eliminar processos utilitzant un port de xarxa específic",
           "input": {
-            "placeholder": "Enter a network port"
+            "placeholder": "Introdueix un port de xarxa"
           },
-          "kill": "Kill",
+          "kill": "Eliminar",
           "status": {
-            "idle": "Ready to kill",
-            "killing": "Killing procress...",
-            "killed": "Killed successfully!",
-            "error": "Couldn't kill process"
+            "idle": "Preparat per eliminar",
+            "killing": "Eliminant procés...",
+            "killed": "Eliminat correctament!",
+            "error": "No s'ha pogut eliminar el procés"
           }
         },
         "status-widget": {
-          "last-updated": "Updated",
-          "never": "Not updated yet",
-          "check": "Check for updates",
-          "more-info": "More details"
+          "last-updated": "Actualitzat",
+          "never": "Encara no actualitzat",
+          "check": "Comprova actualitzacions",
+          "more-info": "Més detalls"
         },
         "plugin-updates": {
-          "title": "Plugin updates",
-          "description": "Monitor plugin updates",
+          "title": "Actualitzacions de complements",
+          "description": "Monitoritzar actualitzacions de complements",
           "messages": {
-            "ok": "All plugins up-to-date",
-            "loading": "Checking for updates...",
-            "attention": "{n} plugin updates available"
+            "ok": "Tots els complements estan actualitzats",
+            "loading": "Cercant actualitzacions...",
+            "attention": "{n} actualitzacions de complements disponibles"
           },
-          "page": "Go to Plugins"
+          "page": "Anar a Complements"
         },
         "dependency-updates": {
-          "title": "Dependency updates",
-          "description": "Monitor dependencies updates",
+          "title": "Actualitzacions de dependències",
+          "description": "Monitoritzar les actualitzacions de dependències",
           "messages": {
-            "ok": "All dependencies up-to-date",
-            "loading": "Checking for updates...",
-            "attention": "{n} dependency updates available"
+            "ok": "Totes les dependències estan actualitzades",
+            "loading": "Cercant actualitzacions...",
+            "attention": "{n} actualitzacions de dependències disponibles"
           },
           "page": "Ves a Dependències"
         },
