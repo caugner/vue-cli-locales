@@ -2,14 +2,14 @@
   "org": {
     "vue": {
       "common": {
-        "close": "Close",
-        "back": "Go back",
-        "more-info": "More info"
+        "close": "Tutup",
+        "back": "Kembali",
+        "more-info": "Info lebih"
       },
       "components": {
         "client-addon-component": {
-          "timeout": "Component load timeout",
-          "timeout-info": "The custom component takes too much time to load, there might be an error"
+          "timeout": "Waktu usai muat komponen",
+          "timeout-info": "Komponen kustom memakan terlalu banyak waktu untuk memuat, mungkin terdapat sebuah error"
         },
         "connection-status": {
           "disconnected": "Koneksi ke UI Server terputus!",
@@ -22,10 +22,10 @@
           }
         },
         "file-diff-view": {
-          "files-changed": "File yang diubah",
-          "search-file": "Cari file",
-          "empty": "Tidak ada perubahan",
-          "error": "Couldn't get file changes",
+          "files-changed": "File telah diubah",
+          "search-file": "Cari berkas",
+          "empty": "Tidak terdapat perubahan",
+          "error": "Tidak dapat mengambil perubahan berkas",
           "modals": {
             "commit": {
               "title": "Simpan perubahan",
@@ -63,11 +63,11 @@
             "action": "New folder",
             "title": "Create new folder",
             "field": {
-              "title": "New folder",
-              "subtitle": "You can use the folder separator to create multiple nested folders at once."
+              "title": "Folder baru",
+              "subtitle": "Anda bisa menggunakan folder pemisah untuk membuat banyak folder bersarang sekaligus"
             },
-            "cancel": "Cancel",
-            "create": "Create"
+            "cancel": "Batalkan",
+            "create": "Buat"
           }
         },
         "list-item-info": {
@@ -75,7 +75,7 @@
         },
         "logger-view": {
           "title": "Catatan",
-          "empty": "No logs yet",
+          "empty": "Belum ada catatan",
           "buttons": {
             "clear": "Bersihkan catatan",
             "scroll": "Scroll ke akhir",
@@ -87,7 +87,7 @@
         },
         "project-nav": {
           "tooltips": {
-            "dashboard": "Dashboard",
+            "dashboard": "Dasbor",
             "plugins": "Plugins",
             "dependencies": "Dependencies",
             "configuration": "Pengaturan",
@@ -105,35 +105,35 @@
         "project-select-list-item": {
           "tooltips": {
             "favorite": "Toggle favorite",
-            "delete": "Hapus",
-            "open-in-editor": "Open in editor"
+            "delete": "Singkirkan dari list",
+            "open-in-editor": "Buka di editor"
           }
         },
         "project-plugin-item": {
-          "version": "version",
-          "latest": "latest",
-          "official": "Official",
-          "installed": "Installed",
+          "version": "Versi",
+          "latest": "Terbaru",
+          "official": "Resmi",
+          "installed": "Terpasang",
           "actions": {
             "update": "Update {target}",
-            "refresh": "Force Refresh {target}<br><i>Press [Shift] for Quick Refresh (node_modules won't be updated)</i>"
+            "refresh": "Muat ulang keras {target}<br><i>Tekan [Shift] untuk Muat Ulang Cepat (node_modules tidak akan diperbaharui)</i>"
           },
-          "local": "Local"
+          "local": "Lokal"
         },
         "project-dependency-item": {
-          "version": "version",
-          "wanted": "wanted",
-          "latest": "latest",
-          "installed": "Installed",
+          "version": "Versi",
+          "wanted": "Dibutuhkan",
+          "latest": "Terbaru",
+          "installed": "Terinstall",
           "actions": {
-            "update": "Update {target}",
-            "uninstall": "Uninstall {target}"
+            "update": "Perbaharui {target}",
+            "uninstall": "Copot {target}"
           }
         },
         "project-tasks-dropdown": {
           "tooltips": {
-            "tasks": "Tasks",
-            "running-tasks": "{count} running task(s)"
+            "tasks": "Tugas",
+            "running-tasks": "{count} tugas yang sedang berjalan"
           }
         },
         "prompt-list": {
@@ -144,7 +144,7 @@
         },
         "status-bar": {
           "project": {
-            "tooltip": "Proyek saat ini<br><i>Klik untuk toggle Manajer Proyek</i>",
+            "tooltip": "Klik untuk toggle Manajemen Proyek",
             "empty": "Tidak ada proyek"
           },
           "path": {
@@ -156,14 +156,14 @@
           },
           "report-bug": "Laporkan bug",
           "translate": "Bantu terjemahkan",
-          "dark-mode": "Toggle dark mode",
-          "reset-plugin-api": "Refresh plugins API"
+          "dark-mode": "Toggle mode gelap",
+          "reset-plugin-api": "Muat Ulang plugins API"
         },
         "suggestion-bar": {
-          "suggestion": "Suggestion",
+          "suggestion": "Saran",
           "modal": {
-            "cancel": "Cancel",
-            "continue": "Continue"
+            "cancel": "Batalkan",
+            "continue": "Lanjut"
           }
         },
         "terminal-view": {
@@ -174,9 +174,9 @@
         },
         "top-bar": {
           "no-favorites": "Belum ada proyek favorit",
-          "favorite-projects": "Favorite projects",
-          "recent-projects": "Recent projects",
-          "homepage": "Home page"
+          "favorite-projects": "Project favorit",
+          "recent-projects": "Proyek terbaru",
+          "homepage": "Halaman Beranda"
         },
         "view-badge": {
           "labels": {
@@ -188,21 +188,21 @@
           }
         },
         "widget": {
-          "remove": "Remove widget",
-          "configure": "Configure widget",
-          "save": "Save",
-          "reset-config": "Reset config",
-          "open-details": "Show more"
+          "remove": "Lepas widget",
+          "configure": "Konfigurasi Widget",
+          "save": "Simpan",
+          "reset-config": "Atur ulang konfigurasi",
+          "open-details": "Tampilkan Lebih"
         },
         "widget-add-pane": {
-          "title": "Add widgets"
+          "title": "Tambah Widget"
         },
         "widget-add-item": {
-          "add": "Add widget",
+          "add": "Tambah widget",
           "details": {
-            "title": "Widget details",
-            "max-instances": "Max instance count: {count}/{total}",
-            "unlimited": "unlimited"
+            "title": "Rincian widget",
+            "max-instances": "Jumlah instansi maximal: {count}/{total}",
+            "unlimited": "Tidak terbatas"
           }
         }
       },
@@ -230,11 +230,11 @@
       "types": {
         "task": {
           "status": {
-            "idle": "Idle",
-            "running": "Running",
-            "done": "Done",
-            "error": "Error",
-            "terminated": "Terminated"
+            "idle": "Nganggur",
+            "running": "Berjalan",
+            "done": "Selesai",
+            "error": "Galat",
+            "terminated": "Dihentikan"
           }
         }
       },
@@ -248,15 +248,15 @@
           },
           "buttons": {
             "create": "Buat proyek baru di sini",
-            "import": "Impor folder berikut"
+            "import": "Impor folder ini"
           },
           "import": {
             "no-modules": {
-              "title": "Missing modules",
-              "message": "It seems the project is missing the 'node_modules' folder. Please check you installed the dependencies before importing.",
-              "close": "Got it"
+              "title": "Module yang kurang",
+              "message": "Tampaknya proyek kekurangan folder 'node_modules'. Tolong cek dependencies yang anda pasang sebelum mengimpor",
+              "close": "Oke"
             },
-            "force": "Import anyway"
+            "force": "Import saja"
           }
         },
         "project-create": {
@@ -267,11 +267,11 @@
               "form": {
                 "folder": {
                   "label": "Folder Proyek",
-                  "placeholder": "Type a name",
+                  "placeholder": "Ketikkan sebuah nama",
                   "tooltip": "Ubah folder dasar",
                   "action": "Pilih folder berikut",
-                  "folder-exists": "This folder already exists",
-                  "folder-name-invalid": "Folder name invalid"
+                  "folder-exists": "Folder ini sudah ada",
+                  "folder-name-invalid": "Nama folder tidak sah"
                 },
                 "manager": {
                   "label": "Manajer Paket",
@@ -279,10 +279,10 @@
                 },
                 "options": {
                   "label": "Opsi tambahan",
-                  "force": "Overwrite target folder if it exists",
-                  "git-title": "Git repository",
-                  "git": "Initialize git repository (recommended)",
-                  "git-commit-message": "Initial commit message (optional)"
+                  "force": "Tindih folder target jika sudah ada",
+                  "git-title": "Repositori Git",
+                  "git": "Inisialisasi repositori git (direkomendasikan)",
+                  "git-commit-message": "Pesan commit awal (tidak wajib)"
                 }
               },
               "buttons": {
@@ -309,7 +309,7 @@
               },
               "modal": {
                 "title": "Mengatur Remote preset",
-                "body": "Segera tersedia..."
+                "body": "Tersedia segera..."
               },
               "manual": {
                 "name": "Manual",
@@ -320,17 +320,17 @@
                 "description": "Ambil preset dari git repositori",
                 "url": {
                   "title": "Preset URL",
-                  "subtitle": "Git repo, for example 'username/repo'. You can also prefix with 'gitlab:' or 'bitbucket:'."
+                  "subtitle": "Repositori Git, contohnya 'username/repo'. Anda juga bisa menaruh awalan 'gitlab:' atau 'bitbucket:'."
                 },
-                "options": "Other options",
-                "clone": "Clone/Private repository",
-                "cancel": "Cancel",
-                "done": "Done"
+                "options": "Pilihan lainnya",
+                "clone": "Gandakan/Pribadikan repositori",
+                "cancel": "Batalkan",
+                "done": "Selesai"
               },
               "default-preset": "Default preset"
             },
             "features": {
-              "title": "Fitur",
+              "title": "Fitur-fitur",
               "description": "Anda dapat menambahkan fitur dengan dengan memasang plugin setelah proyek dibuat.",
               "enable": "Aktifkan Fitur",
               "buttons": {
@@ -368,7 +368,7 @@
           "title": "Plugin Proyek",
           "button": "Tambahkan plugin",
           "heading": "Plugin terinstal",
-          "update-all": "Update all plugins"
+          "update-all": "Perbaharu semua plugin"
         },
         "project-plugins-add": {
           "title": "Tambahkan plugin",
@@ -406,13 +406,13 @@
             }
           },
           "buttons": {
-            "add-local": "Browse local plugin"
+            "add-local": "Telusuri plugin lokal"
           }
         },
         "project-plugin-add-local": {
-          "title": "Add a local plugin",
+          "title": "Tambahkan sebuah plugin lokal",
           "buttons": {
-            "add": "Add local plugin"
+            "add": "Tambahkan plugin lokal"
           }
         },
         "project-configurations": {
@@ -434,7 +434,7 @@
             "play": "Jalankan tugas",
             "stop": "Hentikan tugas",
             "close": "Tutup",
-            "save": "Save"
+            "save": "Simpan"
           },
           "command": "Script command",
           "parameters": "Parameter",
@@ -442,37 +442,37 @@
           "output": "Keluaran"
         },
         "project-dependencies": {
-          "title": "Project dependencies",
+          "title": "Dependencies proyek",
           "heading": {
-            "dependencies": "Main dependencies",
-            "devDependencies": "Development dependencies"
+            "dependencies": "Dependencies utama",
+            "devDependencies": "Dependencies pengembangan"
           },
           "actions": {
-            "install": "Install dependency",
-            "update-all": "Update all dependencies"
+            "install": "Pasang dependency",
+            "update-all": "Perbaharui semua dependencies"
           },
           "install": {
-            "title": "Install new dependency"
+            "title": "Pasang dependency baru"
           },
           "uninstall": {
-            "title": "Confirm uninstall",
-            "body": "Are you sure you want to uninstall {id}?",
-            "cancel": "Cancel",
-            "uninstall": "Uninstall {id}"
+            "title": "Yakin copot",
+            "body": "Apakah anda yakin untuk mencopot {id}?",
+            "cancel": "Batalkan",
+            "uninstall": "Copot {id}"
           }
         },
         "project-dashboard": {
-          "title": "Project dashboard",
-          "cutomize": "Customize",
-          "done": "Done"
+          "title": "Dasbor proyek",
+          "cutomize": "Kustomisasi",
+          "done": "Selesai"
         },
         "settings": {
-          "title": "Settings"
+          "title": "Pengaturan"
         },
         "about": {
           "title": "Tentang",
           "description": "<a href=\"https://github.com/vuejs/vue-cli/tree/dev/packages/%40vue/cli-ui\" target=\"_blank\">@vue/cli-ui</a> adalah paket built-in dari vue-cli yang akan menampilkan antarmuka yang lengkap",
-          "quote": "Vue-cli 3.x is a complete rewrite, with a lot of new awesome features. You will be able to select features like routing, Vuex or Typescript, then add and upgrade building blocks called \"vue-cli plugins\". But having so much more options also means the tool is now more complex and harder to start using. That's why we thought having a full-blown GUI would help discover the new features, search and install vue-cli plugins and unlock more possibilities overall while not being limited by a terminal interface. To sum up, vue-cli will not only allow you to bootstrap a new project easily, but it will also remain useful for ongoing work afterwards!",
+          "quote": "Vue-cli 3.x merupakan hasil penulisan ulang total (dari versi sebelumnya), dengan banyak fitur baru yang luar biasa. Anda akan dapat menambahkan dan memilih fitur seperti routing, Vuex, dan TypeScript, serta dapat melakukan penambahan lebih lanjut menggunakan \"vue-cli plugins\". Akan tetapi dengan adanya lebih banyak opsi dan fitur menjadikan vue-cli lebih kompleks dan lebih sulit untuk mulai digunakan. Itulah mengapa kami merasa dengan memiliki tampilan grafis (GUI) yang lengkap akan membantu pengguna untuk mempelajari fitur-fitur baru, mencari dan memasang vue-cli plugins dan dapat membuka lebih banyak kemungkinan secara keseluruhan tanpa harus dibatasi dengan antar muka terminal. Singkatnya, vue-cli tidak hanya akan membantu anda untuk memulai sebuah proyek baru dengan mudah, tapi juga akan tetap membantu dalam proses pengerjaan proyek!",
           "links": "Link Berguna",
           "back": "Kembali"
         }
@@ -481,14 +481,14 @@
         "suggestions": {
           "vue-router-add": {
             "label": "Add vue-router",
-            "message": "Official library to support multiple virtual pages in a Single-Page App. Each route renders a different component."
+            "message": "Pustaka resmi untuk mendukung banyak halaman dalam sebuah Aplikasi Satu-Halaman. Setiap rute menampilkan sebuah komponen yang berbeda beda."
           },
           "vuex-add": {
-            "label": "Add vuex",
-            "message": "Official centralized State Management solution for large-scale apps. Very useful if multiple components need to access the same data."
+            "label": "Tambahkan vuex",
+            "message": "Solusi pusat manajemen status resmi untuk aplikasi berskala besar. Sangat berguna jika banyak komponen butuh mengakses data yang sama."
           },
           "vue-devtools": {
-            "label": "Install devtools",
+            "label": "Pasang devtools",
             "message": "Browser devtools official extension for debugging Vue.js applications where you can inspect your components, vuex store and events."
           },
           "progress": "Installing {arg0}..."
@@ -584,7 +584,7 @@
               "description": "The base URL your application will be deployed at, for example '/my-app/'. Use an empty string ('') so that all assets are linked using relative paths."
             },
             "publicPath": {
-              "label": "Public Path",
+              "label": "Jalur Publik",
               "description": "The base URL your application will be deployed at, for example '/my-app/'. Use an empty string ('') so that all assets are linked using relative paths."
             },
             "outputDir": {
@@ -632,31 +632,31 @@
           "eslint": {
             "description": "Pemeriksaan galat & Kualitas kode",
             "groups": {
-              "base": "Base",
-              "essential": "Essential",
+              "base": "Dasar",
+              "essential": "Penting",
               "strongly-recommended": "Sangat direkomendasikan",
               "recommended": "Direkomendasikan",
-              "uncategorized": "Uncategorized"
+              "uncategorized": "Tidak dikategorikan"
             },
             "setting": {
-              "off": "Off",
-              "error": "Error",
-              "warning": "Warning",
-              "custom": "Custom"
+              "off": "Mati",
+              "error": "Galat",
+              "warning": "Peringatan",
+              "custom": "Kustom"
             },
             "general": {
-              "label": "General",
+              "label": "Umum",
               "lintOnSave": {
-                "message": "Lint on save",
-                "description": "Automatically lint source files when saved"
+                "message": "Lint ketika simpan",
+                "description": "Otomatis lint file sumber ketika disimpan"
               },
               "config": {
-                "message": "Select config",
+                "message": "Pilih konfigurasi",
                 "description": "Select pre-defined configuration"
               }
             },
             "rules": {
-              "label": "Rules"
+              "label": "Peraturan"
             }
           }
         },
@@ -751,18 +751,18 @@
       },
       "widgets": {
         "welcome": {
-          "title": "Welcome tips",
-          "description": "Some tips to help you get started",
+          "title": "Nasihat sambutan",
+          "description": "Beberapa nasihat untuk membantu anda dapat mulai",
           "content": {
-            "title": "Welcome to your new project!",
-            "tip1": "You are looking at the project dashboard where you can put widgets. Use the 'Customize' button to add more! Everything is automatically saved.",
+            "title": "Selamat datang di proyek baru anda!",
+            "tip1": "Anda sedang melihat dasbor proyek dimana anda bisa menaruh widget. Gunakan tombol 'Kustomisasi' untuk menambah lagi! Semuanya disimpan secara otomatis.",
             "tip2": "On the left are the different available pages. 'Plugins' let you add new Vue CLI plugins, 'Dependencies' for managing the packages, 'Configuration' to configure the tools and 'Tasks' to run scripts (for example webpack).",
             "tip3": "Return to the project manager with the dropdown at the top left of the screen or the home button in the status bar at the bottom.",
-            "ok": "Understood"
+            "ok": "Mengerti"
           }
         },
         "kill-port": {
-          "title": "Kill port",
+          "title": "Tutup gerbang",
           "description": "Kill processes using a specific network port",
           "input": {
             "placeholder": "Enter a network port"
@@ -776,18 +776,18 @@
           }
         },
         "status-widget": {
-          "last-updated": "Updated",
-          "never": "Not updated yet",
-          "check": "Check for updates",
-          "more-info": "More details"
+          "last-updated": "Telah diperbarui",
+          "never": "Belum diperbarui",
+          "check": "Cek pembaruan",
+          "more-info": "Rincian lebih"
         },
         "plugin-updates": {
-          "title": "Plugin updates",
-          "description": "Monitor plugin updates",
+          "title": "Perbarui plugin",
+          "description": "Awasi pembaruin plugin",
           "messages": {
-            "ok": "All plugins up-to-date",
-            "loading": "Checking for updates...",
-            "attention": "{n} plugin updates available"
+            "ok": "Semua plugin sudah yang terbaru",
+            "loading": "Mengecek pembaruan...",
+            "attention": "{n} pembaruan plugin tersedia"
           },
           "page": "Go to Plugins"
         },
