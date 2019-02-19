@@ -293,13 +293,13 @@
                 "title": "Cancel and reset project creation",
                 "body": "Are you sure you want to reset the project creation?",
                 "buttons": {
-                  "back": "Go back",
+                  "back": "العودة",
                   "clear": "Clear project"
                 }
               }
             },
             "presets": {
-              "title": "Presets",
+              "title": "الإعدادات المسبقة",
               "description": "A preset is an association of plugins and configurations. After you've selected features, you can optionally save it as a preset so that you can reuse it for future projects, without having to reconfigure everything again.",
               "select": "Select a preset",
               "buttons": {
@@ -339,7 +339,7 @@
                 "create": "Create Project"
               },
               "userConfigFiles": {
-                "name": "Use config files",
+                "name": "استخدم ملفات التهيئة",
                 "description": "Use specific configuration files (like '.babelrc') instead of using 'package.json'."
               }
             },
@@ -400,8 +400,8 @@
             "title": "Uninstall {target}?",
             "body": "Do you want to uninstall the {target} plugin?",
             "buttons": {
-              "back": "Go back",
-              "cancel": "Cancel without uninstalling",
+              "back": "العودة",
+              "cancel": "إلغاء بدون إزالة التنصيب",
               "uninstall": "Uninstall"
             }
           },
@@ -458,7 +458,7 @@
             "title": "Confirm uninstall",
             "body": "Are you sure you want to uninstall {id}?",
             "cancel": "إلغاء",
-            "uninstall": "Uninstall {id}"
+            "uninstall": "إزالة تنصيب {id}"
           }
         },
         "project-dashboard": {
