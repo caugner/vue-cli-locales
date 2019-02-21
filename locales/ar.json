@@ -55,7 +55,7 @@
               "favorite-folders": "مجلدات مفضلة",
               "refresh": "إعادة تحديث"
             },
-            "placeholder": "Enter the full path to a folder",
+            "placeholder": "ادخل المسار الكامل للمجلد",
             "empty": "No favorite folders yet.",
             "show-hidden": "إظهار المجلدات المخفية"
           },
@@ -126,7 +126,7 @@
           "latest": "الاخير",
           "installed": "مثبت",
           "actions": {
-            "update": "Update {target}",
+            "update": "تحديث {target}",
             "uninstall": "Uninstall {target}"
           }
         },
@@ -144,18 +144,18 @@
         },
         "status-bar": {
           "project": {
-            "tooltip": "Click to toggle Project Manager",
+            "tooltip": "اضغط لقلب مدير المشروع",
             "empty": "No project open"
           },
           "path": {
-            "tooltip": "Current Working Folder"
+            "tooltip": "المجلد الحالي للعمل"
           },
           "log": {
             "tooltip": "Logs<br><i>Click to toggle Vue CLI logs</i>",
             "empty": "لا يوجد سجلات بعد"
           },
           "report-bug": "الإبلاغ عن خطأ",
-          "translate": "Help translate",
+          "translate": "المساعدة بالترجمة",
           "dark-mode": "Toggle dark mode",
           "reset-plugin-api": "Refresh plugins API"
         },
@@ -231,10 +231,10 @@
         "task": {
           "status": {
             "idle": "Idle",
-            "running": "Running",
+            "running": "قيد التشغيل",
             "done": "تم",
             "error": "خطأ",
-            "terminated": "Terminated"
+            "terminated": "منتهي"
           }
         }
       },
@@ -242,13 +242,13 @@
         "project-select": {
           "title": "Vue Project Manager",
           "tabs": {
-            "projects": "Projects",
+            "projects": "المشاريع",
             "create": "إنشاء",
-            "import": "Import"
+            "import": "استيراد"
           },
           "buttons": {
             "create": "Create a new project here",
-            "import": "Import this folder"
+            "import": "استيراد هذا المجلد"
           },
           "import": {
             "no-modules": {
@@ -266,7 +266,7 @@
               "title": "Details",
               "form": {
                 "folder": {
-                  "label": "Project folder",
+                  "label": "مجلد المشروع",
                   "placeholder": "أكتب اسم",
                   "tooltip": "Change base folder",
                   "action": "Select this folder",
@@ -281,7 +281,7 @@
                   "label": "خيارات أخرى",
                   "force": "Overwrite target folder if it exists",
                   "git-title": "Git repository",
-                  "git": "Initialize git repository (recommended)",
+                  "git": "تهيئة الـ git (مستحسن)",
                   "git-commit-message": "Initial commit message (optional)"
                 }
               },
@@ -312,7 +312,7 @@
                 "body": "متوفر قريباً"
               },
               "manual": {
-                "name": "Manual",
+                "name": "يدوي",
                 "description": "Manually select features"
               },
               "remote": {
@@ -331,7 +331,7 @@
             },
             "features": {
               "title": "الميزات",
-              "description": "You will be able to add features after the project is created by installing plugins.",
+              "description": "يمكنك إضافة ميزات جديدة بعد إنشاء المشروع وذلك عن طريق تثبيت الحزم",
               "enable": "Enable features",
               "buttons": {
                 "previous": "السابق",
@@ -365,13 +365,13 @@
           }
         },
         "project-plugins": {
-          "title": "Project plugins",
-          "button": "Add plugin",
+          "title": "حزم المشروع",
+          "button": "إضافة حزمة",
           "heading": "Installed plugins",
           "update-all": "Update all plugins"
         },
         "project-plugins-add": {
-          "title": "Add a plugin",
+          "title": "إضافة حزمة",
           "plugin": "plugin",
           "tabs": {
             "search": {
@@ -389,7 +389,7 @@
               "heading": "Installation of {target}",
               "buttons": {
                 "cancel": "إلغاء",
-                "finish": "Finish installation"
+                "finish": "إنهاء التنصيب"
               }
             },
             "diff": {
@@ -439,7 +439,7 @@
           "command": "Script command",
           "parameters": "Parameters",
           "more-info": "More Info",
-          "output": "Output"
+          "output": "الخرج"
         },
         "project-dependencies": {
           "title": "Project dependencies",
@@ -448,7 +448,7 @@
             "devDependencies": "Development dependencies"
           },
           "actions": {
-            "install": "Install dependency",
+            "install": "تثبيت اعتمادية",
             "update-all": "Update all dependencies"
           },
           "install": {
@@ -499,8 +499,8 @@
           "title": "Dashboard",
           "open-app": "فتح التطبيق",
           "webpack-status": {
-            "Success": "Success",
-            "Failed": "Failed",
+            "Success": "نجاح",
+            "Failed": "فشل",
             "Compiling": "Compiling",
             "Invalidated": "Invalidated",
             "Idle": "Idle"
@@ -508,7 +508,7 @@
           "build-status": {
             "labels": {
               "status": "Status",
-              "errors": "Errors",
+              "errors": "الأخطاء",
               "warnings": "Warnings",
               "assets": "Assets",
               "modules": "Modules",
@@ -522,15 +522,15 @@
             "title": "Dependencies"
           },
           "asset-list": {
-            "title": "Assets",
+            "title": "موارد",
             "size-warning": "This asset is big, consider using Code splitting to create smaller assets."
           }
         },
         "analyzer": {
           "title": "Analyzer",
-          "go-up": "Go up",
+          "go-up": "ذهاب للأعلى",
           "go-home": "Go to home",
-          "chunk": "Chunk"
+          "chunk": "حزمة"
         },
         "sizes": {
           "stats": "Stats",
@@ -544,7 +544,7 @@
             "description": "Compiles and hot-reloads for development",
             "open": "Open browser on server start",
             "mode": "Specify env mode",
-            "host": "Specify host",
+            "host": "تحديد المستضيف",
             "port": "Specify port",
             "https": "Use HTTPS"
           },
@@ -555,7 +555,7 @@
             "target": {
               "description": "Build target",
               "app": "Web app",
-              "lib": "Library",
+              "lib": "مكتبة",
               "wc": "Web component",
               "wc-async": "Async web component"
             },
@@ -563,7 +563,7 @@
             "watch": "Watch for changes",
             "modern": {
               "label": "Modern mode",
-              "description": "Build app targeting modern browsers with auto fallback"
+              "description": "بناء التطبيق لاستهداف المتصفحات الحديثة مع التراجع التلقائي للمتصفحات القديمة"
             }
           },
           "inspect": {
@@ -588,7 +588,7 @@
               "description": "The base URL your application will be deployed at, for example '/my-app/'. Use an empty string ('') so that all assets are linked using relative paths."
             },
             "outputDir": {
-              "label": "Output directory",
+              "label": "مسار الخرج",
               "description": "The directory where the production build files will be generated"
             },
             "assetsDir": {
@@ -600,7 +600,7 @@
               "description": "This will allow you to use the template option in Vue components, but will incur around an extra 10kb payload for your app."
             },
             "productionSourceMap": {
-              "label": "Enable Production Source Maps",
+              "label": "تفعيل الملفات المصدرية للنسخة النهائية",
               "description": "Disabling this can speed up production builds if you don't need source maps for production"
             },
             "parallel": {
@@ -613,7 +613,7 @@
                 "description": "By default, only files that ends in *.module.[ext] are treated as CSS modules. Enabling this will treat all style files as CSS modules."
               },
               "extract": {
-                "label": "Extract CSS",
+                "label": "استخراج ملفات الـ CSS",
                 "description": "Whether to extract CSS in your components into a standalone CSS files (instead of inlined in JavaScript and injected dynamically)."
               },
               "sourceMap": {
@@ -685,7 +685,7 @@
               "description": "App name displayed on the Splash screen and various other places. Also used as the value for the `apple-mobile-web-app-title` meta tag in the generated HTML."
             },
             "themeColor": {
-              "message": "Theme color",
+              "message": "لون النمط",
               "description": "Color used to theme the browser"
             },
             "backgroundColor": {
