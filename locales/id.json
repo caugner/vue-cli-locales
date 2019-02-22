@@ -57,13 +57,13 @@
             },
             "placeholder": "Masukkan lokasi lengkap folder",
             "empty": "Belum ada folder favorit.",
-            "show-hidden": "Show hidden folders"
+            "show-hidden": "Tampilkan berkas tersembunyi"
           },
           "new-folder": {
-            "action": "New folder",
-            "title": "Create new folder",
+            "action": "Berkas baru",
+            "title": "Buat berkas baru",
             "field": {
-              "title": "Folder baru",
+              "title": "Berkas baru",
               "subtitle": "Anda bisa menggunakan folder pemisah untuk membuat banyak folder bersarang sekaligus"
             },
             "cancel": "Batalkan",
@@ -458,7 +458,7 @@
             "title": "Yakin copot",
             "body": "Apakah anda yakin untuk mencopot {id}?",
             "cancel": "Batalkan",
-            "uninstall": "Copot {id}"
+            "uninstall": "Lepas {id}"
           }
         },
         "project-dashboard": {
@@ -563,7 +563,7 @@
             "watch": "Pantau perubahan",
             "modern": {
               "label": "Modern mode",
-              "description": "Build app targeting modern browsers with auto fallback"
+              "description": "Buat aplikasi mentarget browser modern dengan sandaran otomatis"
             }
           },
           "inspect": {
@@ -585,7 +585,7 @@
             },
             "publicPath": {
               "label": "Jalur Publik",
-              "description": "The base URL your application will be deployed at, for example '/my-app/'. Use an empty string ('') so that all assets are linked using relative paths."
+              "description": "Dasar URL dari aplikasi yang akan di luncurkan, contohnya '/my-app/'. Gunakan sebuah tanda petik kosong ('') agar semua asset ditautkan menggunakan jalur relative."
             },
             "outputDir": {
               "label": "Output directory",
@@ -652,7 +652,7 @@
               },
               "config": {
                 "message": "Pilih konfigurasi",
-                "description": "Select pre-defined configuration"
+                "description": "Pilih konfigurasi yang belum di deklarasi"
               }
             },
             "rules": {
@@ -727,7 +727,7 @@
             "description": "Jalankan e2e tes dengan nightwatch",
             "url": "Jalankan e2e tes pada url yang diberikan gunakan <b>dev server</b> sebagai ganti <b>auto-starting</b>",
             "config": "Use custom nightwatch config file (overrides internals)",
-            "env": "Comma-delimited browser envs to run in"
+            "env": "Browser envs yang dibatasi koma untuk dijalankan"
           }
         }
       },
@@ -756,23 +756,23 @@
           "content": {
             "title": "Selamat datang di proyek baru anda!",
             "tip1": "Anda sedang melihat dasbor proyek dimana anda bisa menaruh widget. Gunakan tombol 'Kustomisasi' untuk menambah lagi! Semuanya disimpan secara otomatis.",
-            "tip2": "On the left are the different available pages. 'Plugins' let you add new Vue CLI plugins, 'Dependencies' for managing the packages, 'Configuration' to configure the tools and 'Tasks' to run scripts (for example webpack).",
-            "tip3": "Return to the project manager with the dropdown at the top left of the screen or the home button in the status bar at the bottom.",
+            "tip2": "Pada bagian kiri adalah halaman tersedia yang berbeda. 'Plugins' memungkinkan anda menambahkan plugin Vue CLI baru, 'Dependencies' untuk mengelola paket, 'Konfigurasi' untuk mengkonfigurasi peralatan dan 'Tugas' untuk menjalankan script (untuk contoh webpack).",
+            "tip3": "Kembali ke manajer proyek dengan dropdown yang ada pada pojok kiri atas layar atau tombol rumah pada status bar di bagian bawah",
             "ok": "Mengerti"
           }
         },
         "kill-port": {
           "title": "Tutup gerbang",
-          "description": "Kill processes using a specific network port",
+          "description": "Bunuh proses menggunakan gerbang jaringan spesifik",
           "input": {
-            "placeholder": "Enter a network port"
+            "placeholder": "Masukan gerbang jaringan"
           },
-          "kill": "Kill",
+          "kill": "Matikan",
           "status": {
-            "idle": "Ready to kill",
-            "killing": "Killing procress...",
-            "killed": "Killed successfully!",
-            "error": "Couldn't kill process"
+            "idle": "Siap untik dimatikan",
+            "killing": "Mematikan proses...",
+            "killed": "Sukses dimatikan!",
+            "error": "Tidak dapat mematikan proses"
           }
         },
         "status-widget": {
@@ -789,53 +789,53 @@
             "loading": "Mengecek pembaruan...",
             "attention": "{n} pembaruan plugin tersedia"
           },
-          "page": "Go to Plugins"
+          "page": "Pergi ke Plugins"
         },
         "dependency-updates": {
-          "title": "Dependency updates",
-          "description": "Monitor dependencies updates",
+          "title": "Perbarui Dependency",
+          "description": "Awasi pembaruan dependencies",
           "messages": {
-            "ok": "All dependencies up-to-date",
-            "loading": "Checking for updates...",
-            "attention": "{n} dependency updates available"
+            "ok": "Semua dependencies sudah yang terbaru",
+            "loading": "Mengecek pembaruan...",
+            "attention": "{n} pembaruan dependency tersedia"
           },
-          "page": "Go to Dependencies"
+          "page": "Pergi ke dependencies"
         },
         "vulnerability": {
-          "title": "Vulnerability check",
-          "description": "Check for known vulnerabilities in your project dependencies",
+          "title": "Cek kerentanan",
+          "description": "Cek untuk kerentanan yang dikenal di dalam dependencies proyek anda",
           "messages": {
-            "ok": "No vulnerability found",
-            "loading": "Checking security reports...",
-            "attention": "{n} vulnerabilities found"
+            "ok": "Tidak ada kerentanan ditemukan",
+            "loading": "Mengecek laporan keamanan...",
+            "attention": "{n} kerentanan ditemukan"
           },
           "severity": {
-            "high": "High severity",
-            "medium": "Medium severity",
-            "low": "Low severity"
+            "high": "Keparahan tinggi",
+            "medium": "Keparahan sedang",
+            "low": "Keparahan rendah"
           },
-          "direct-dep": "Direct dependency"
+          "direct-dep": "Dependency langsung"
         },
         "run-task": {
-          "title": "Run task",
-          "description": "Shortcut to run a task",
+          "title": "Jalankan tugas",
+          "description": "Jalan pintas untuk menjalankan sebuah tugas",
           "prompts": {
-            "task": "Select a task"
+            "task": "Pilih sebuah tugas"
           },
-          "page": "Go to Task"
+          "page": "Pergi ke Tugas"
         },
         "news": {
-          "title": "News feed",
-          "description": "Read news feed",
-          "refresh": "Force refresh",
-          "select-tip": "Select an item on the left",
+          "title": "Suapan berita",
+          "description": "Baca suapan berita",
+          "refresh": "Muat ulang keras",
+          "select-tip": "Pilih sebuah barang pada bagian kiri",
           "prompts": {
-            "url": "RSS feed URL or GitHub repository"
+            "url": "URL suapan RSS atau repositori GitHub"
           },
           "errors": {
-            "fetch": "Couldn't fetch feed",
-            "offline": "You are offline",
-            "empty": "Empty feed"
+            "fetch": "Tidak dapat memperoleh suapan",
+            "offline": "Anda sedang offline",
+            "empty": "Suapan kosong"
           }
         }
       }
