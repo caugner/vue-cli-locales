@@ -22,15 +22,15 @@
           }
         },
         "file-diff-view": {
-          "files-changed": "Files changed",
+          "files-changed": "Megváltozott fájlok",
           "search-file": "Fájl keresése",
           "empty": "Nincsenek változások",
           "error": "Couldn't get file changes",
           "modals": {
             "commit": {
-              "title": "Commit changes",
-              "input": "Enter a commit message",
-              "subtitle": "Record changes to the repository",
+              "title": "Változások commitálása",
+              "input": "Adj meg egy commit üzenetet",
+              "subtitle": "A repository-ban történt változások rögzítése",
               "actions": {
                 "commit": "Commit",
                 "cancel": "Vissza"
@@ -40,8 +40,8 @@
           "actions": {
             "collapse-all": "Összes bezárása",
             "expand-all": "Összes kinyitása",
-            "commit": "Commit changes",
-            "skip": "Skip",
+            "commit": "Változások commitálása",
+            "skip": "Átugrás",
             "continue": "Tovább",
             "refresh": "Frissítés"
           }
@@ -55,7 +55,7 @@
               "favorite-folders": "Kedvenc mappák",
               "refresh": "Frissítés"
             },
-            "placeholder": "Enter the full path to a folder",
+            "placeholder": "Add meg a mappa teljes elérési útvonalát",
             "empty": "Még nincsenek kedvenc mappák.",
             "show-hidden": "Rejtett mappák mutatása"
           },
@@ -67,18 +67,18 @@
               "subtitle": "You can use the folder separator to create multiple nested folders at once."
             },
             "cancel": "Vissza",
-            "create": "Create"
+            "create": "Létrehoz"
           }
         },
         "list-item-info": {
           "more-info": "További információ"
         },
         "logger-view": {
-          "title": "Logs",
-          "empty": "No logs yet",
+          "title": "Napló",
+          "empty": "Még nincsenek napló bejegyzések",
           "buttons": {
-            "clear": "Clear logs",
-            "scroll": "Scroll to bottom",
+            "clear": "Napló bejegyzések törlése",
+            "scroll": "Ugrás az aljára",
             "close": "Bezár"
           }
         },
@@ -122,25 +122,25 @@
         },
         "project-dependency-item": {
           "version": "verzió",
-          "wanted": "wanted",
+          "wanted": "kívánt",
           "latest": "legutóbbi",
           "installed": "Telepítve",
           "actions": {
             "update": "{target} telepítése",
-            "uninstall": "Uninstall {target}"
+            "uninstall": "{target} eltávolítása"
           }
         },
         "project-tasks-dropdown": {
           "tooltips": {
-            "tasks": "Tasks",
-            "running-tasks": "{count} running task(s)"
+            "tasks": "Feladatok",
+            "running-tasks": "{count} folyamat fut"
           }
         },
         "prompt-list": {
-          "default": "Default"
+          "default": "Alapértelmezett"
         },
         "prompts-list": {
-          "empty": "No configuration"
+          "empty": "Nincs konfiguráció"
         },
         "status-bar": {
           "project": {
@@ -148,19 +148,19 @@
             "empty": "Nincs megnyitott projekt"
           },
           "path": {
-            "tooltip": "Current Working Folder"
+            "tooltip": "Aktuális mappa"
           },
           "log": {
-            "tooltip": "Logs<br><i>Click to toggle Vue CLI logs</i>",
-            "empty": "No logs yet"
+            "tooltip": "Napló<br><i>Kattints a Vue CLI napló megjelenítéséhez</i>",
+            "empty": "Még nincsenek napló bejegyzések"
           },
           "report-bug": "Hiba jelentése",
           "translate": "Segíts fordítani",
-          "dark-mode": "Toggle dark mode",
+          "dark-mode": "Sötét mód",
           "reset-plugin-api": "Refresh plugins API"
         },
         "suggestion-bar": {
-          "suggestion": "Suggestion",
+          "suggestion": "Javaslat",
           "modal": {
             "cancel": "Vissza",
             "continue": "Tovább"
@@ -168,15 +168,15 @@
         },
         "terminal-view": {
           "buttons": {
-            "clear": "Clear console",
-            "scroll": "Scroll to bottom"
+            "clear": "Konzol törlése",
+            "scroll": "Ugrás az aljára"
           }
         },
         "top-bar": {
           "no-favorites": "Nincsenek kedvenc projektek",
           "favorite-projects": "Kedvenc projektek",
           "recent-projects": "Recent projects",
-          "homepage": "Home page"
+          "homepage": "Főoldal"
         },
         "view-badge": {
           "labels": {
@@ -188,7 +188,7 @@
           }
         },
         "widget": {
-          "remove": "Remove widget",
+          "remove": "Widget eltávolítása",
           "configure": "Configure widget",
           "save": "Mentés",
           "reset-config": "Reset config",
@@ -200,9 +200,9 @@
         "widget-add-item": {
           "add": "Widget hozzáadása",
           "details": {
-            "title": "Widget details",
-            "max-instances": "Max instance count: {count}/{total}",
-            "unlimited": "unlimited"
+            "title": "Widget adatai",
+            "max-instances": "Max példány szám: {count}/{total}",
+            "unlimited": "korlátlan"
           }
         }
       },
@@ -230,11 +230,11 @@
       "types": {
         "task": {
           "status": {
-            "idle": "Idle",
+            "idle": "Várakozik",
             "running": "Fut",
             "done": "Kész",
             "error": "Hiba",
-            "terminated": "Terminated"
+            "terminated": "Leállítva"
           }
         }
       },
@@ -260,25 +260,25 @@
           }
         },
         "project-create": {
-          "title": "Create a new project",
+          "title": "Új projekt létrehozása",
           "tabs": {
             "details": {
               "title": "Részletek",
               "form": {
                 "folder": {
-                  "label": "Project folder",
+                  "label": "Projekt mappa",
                   "placeholder": "Adjon meg egy nevet",
-                  "tooltip": "Change base folder",
-                  "action": "Select this folder",
-                  "folder-exists": "This folder already exists",
-                  "folder-name-invalid": "Folder name invalid"
+                  "tooltip": "Gyökérmappa megváltoztatása",
+                  "action": "Aktuális mappa kiválasztása",
+                  "folder-exists": "Ilyen mappa már létezik",
+                  "folder-name-invalid": "A mappa neve érvénytelen"
                 },
                 "manager": {
-                  "label": "Package manager",
-                  "default": "Default"
+                  "label": "Csomag kezelő",
+                  "default": "Alapértelmezett"
                 },
                 "options": {
-                  "label": "Additional options",
+                  "label": "További lehetőségek",
                   "force": "Overwrite target folder if it exists",
                   "git-title": "Git repository",
                   "git": "Initialize git repository (recommended)",
@@ -312,7 +312,7 @@
                 "body": "Hamarosan elérhető..."
               },
               "manual": {
-                "name": "Manual",
+                "name": "Manuális",
                 "description": "Manually select features"
               },
               "remote": {
@@ -336,7 +336,7 @@
               "buttons": {
                 "previous": "Előző",
                 "next": "Következő",
-                "create": "Create Project"
+                "create": "Projekt létrehozása"
               },
               "userConfigFiles": {
                 "name": "Use config files",
@@ -344,7 +344,7 @@
               }
             },
             "configuration": {
-              "title": "Configuration",
+              "title": "Konfiguráció",
               "buttons": {
                 "previous": "Előző",
                 "create": "Projekt létrehozása"
@@ -393,7 +393,7 @@
               }
             },
             "diff": {
-              "label": "Files changed"
+              "label": "Megváltozott fájlok"
             }
           },
           "modal": {
@@ -402,7 +402,7 @@
             "buttons": {
               "back": "Vissza",
               "cancel": "Cancel without uninstalling",
-              "uninstall": "Uninstall"
+              "uninstall": "Eltávolítás"
             }
           },
           "buttons": {
@@ -423,28 +423,28 @@
             "cancel": "Cancel changes",
             "save": "Változások mentése",
             "more-info": "További információ",
-            "refresh": "Refresh"
+            "refresh": "Frissítés"
           }
         },
         "project-tasks": {
-          "title": "Project tasks"
+          "title": "Projekt feladatok"
         },
         "project-task-details": {
           "actions": {
-            "play": "Run task",
-            "stop": "Stop task",
+            "play": "Feladat futtatása",
+            "stop": "Feladat leállítása",
             "close": "Bezár",
             "save": "Mentés"
           },
-          "command": "Script command",
-          "parameters": "Parameters",
+          "command": "Szkript parancs",
+          "parameters": "Paraméterek",
           "more-info": "További információ",
-          "output": "Output"
+          "output": "Kimenet"
         },
         "project-dependencies": {
-          "title": "Project dependencies",
+          "title": "Projekt függőségek",
           "heading": {
-            "dependencies": "Main dependencies",
+            "dependencies": "Fő függőségek",
             "devDependencies": "Development dependencies"
           },
           "actions": {
@@ -458,7 +458,7 @@
             "title": "Confirm uninstall",
             "body": "Are you sure you want to uninstall {id}?",
             "cancel": "Cancel",
-            "uninstall": "Uninstall {id}"
+            "uninstall": "{id} eltávolítása"
           }
         },
         "project-dashboard": {
@@ -470,7 +470,7 @@
           "title": "Beállítások"
         },
         "about": {
-          "title": "About",
+          "title": "Infók",
           "description": "<a href=\"https://github.com/vuejs/vue-cli/tree/dev/packages/%40vue/cli-ui\" target=\"_blank\">@vue/cli-ui</a> is a built-in package of vue-cli which opens a full-blown UI.",
           "quote": "Vue-cli 3.x is a complete rewrite, with a lot of new awesome features. You will be able to select features like routing, Vuex or Typescript, then add and upgrade building blocks called \"vue-cli plugins\". But having so much more options also means the tool is now more complex and harder to start using. That's why we thought having a full-blown GUI would help discover the new features, search and install vue-cli plugins and unlock more possibilities overall while not being limited by a terminal interface. To sum up, vue-cli will not only allow you to bootstrap a new project easily, but it will also remain useful for ongoing work afterwards!",
           "links": "Hasznos linkek",
@@ -496,14 +496,14 @@
       },
       "vue-webpack": {
         "dashboard": {
-          "title": "Dashboard",
+          "title": "Kezelő felület",
           "open-app": "Open app",
           "webpack-status": {
-            "Success": "Success",
+            "Success": "Siker",
             "Failed": "Failed",
             "Compiling": "Compiling",
             "Invalidated": "Invalidated",
-            "Idle": "Idle"
+            "Idle": "Várakozik"
           },
           "build-status": {
             "labels": {
@@ -533,7 +533,7 @@
           "chunk": "Chunk"
         },
         "sizes": {
-          "stats": "Stats",
+          "stats": "Statisztikák",
           "parsed": "Parsed",
           "gzip": "Gzip",
           "help": "<b>Stats:</b> size from webpack stats data.<br><b>Parsed:</b> size from extracted source (after minification plugins). More accurate.<br><b>Gzip:</b> size of gzipped extracted source."
@@ -551,18 +551,18 @@
           "build": {
             "description": "Compiles and minifies for production",
             "mode": "Specify env mode",
-            "dest": "Output directory",
+            "dest": "Kimeneti mappa",
             "target": {
               "description": "Build target",
               "app": "Web app",
-              "lib": "Library",
+              "lib": "Könyvtár",
               "wc": "Web component",
               "wc-async": "Async web component"
             },
             "name": "Name for library or web-component mode (default: 'name' in package.json or entry filename)",
-            "watch": "Watch for changes",
+            "watch": "Változások figyelése",
             "modern": {
-              "label": "Modern mode",
+              "label": "Modern mód",
               "description": "Build app targeting modern browsers with auto fallback"
             }
           },
@@ -576,19 +576,19 @@
           "vue-cli": {
             "description": "Configure your Vue project",
             "groups": {
-              "general": "General settings",
-              "css": "CSS settings"
+              "general": "Általános beállítások",
+              "css": "CSS beállítások"
             },
             "baseUrl": {
               "label": "Base URL",
               "description": "The base URL your application will be deployed at, for example '/my-app/'. Use an empty string ('') so that all assets are linked using relative paths."
             },
             "publicPath": {
-              "label": "Public Path",
+              "label": "Publikus útvonal",
               "description": "The base URL your application will be deployed at, for example '/my-app/'. Use an empty string ('') so that all assets are linked using relative paths."
             },
             "outputDir": {
-              "label": "Output directory",
+              "label": "Kimeneti mappa",
               "description": "The directory where the production build files will be generated"
             },
             "assetsDir": {
@@ -609,7 +609,7 @@
             },
             "css": {
               "modules": {
-                "label": "Enable CSS Modules",
+                "label": "CSS modulok engedélyezése",
                 "description": "By default, only files that ends in *.module.[ext] are treated as CSS modules. Enabling this will treat all style files as CSS modules."
               },
               "extract": {
@@ -635,17 +635,17 @@
               "base": "Base",
               "essential": "Essential",
               "strongly-recommended": "Strongly recommended",
-              "recommended": "Recommended",
+              "recommended": "Ajánlott",
               "uncategorized": "Uncategorized"
             },
             "setting": {
               "off": "Off",
-              "error": "Error",
-              "warning": "Warning",
+              "error": "Hiba",
+              "warning": "Figyelmeztetés",
               "custom": "Custom"
             },
             "general": {
-              "label": "General",
+              "label": "Általános",
               "lintOnSave": {
                 "message": "Lint on save",
                 "description": "Automatically lint source files when saved"
@@ -656,7 +656,7 @@
               }
             },
             "rules": {
-              "label": "Rules"
+              "label": "Szabályok"
             }
           }
         },

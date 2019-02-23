@@ -9,7 +9,7 @@
       "components": {
         "client-addon-component": {
           "timeout": "Waktu usai muat komponen",
-          "timeout-info": "Komponen kustom memakan terlalu banyak waktu untuk memuat, mungkin terdapat sebuah error"
+          "timeout-info": "Komponen kustom memakan terlalu banyak waktu untuk memuat, mungkin terdapat sebuah galat"
         },
         "connection-status": {
           "disconnected": "Koneksi ke UI Server terputus!",
@@ -52,11 +52,11 @@
               "parent-folder": "Buka folder induk",
               "edit-path": "Sunting lokasi",
               "favorite": "Toggle favorit",
-              "favorite-folders": "Folder Favorit",
+              "favorite-folders": "Berkas Favorit",
               "refresh": "Muat ulang"
             },
-            "placeholder": "Masukkan lokasi lengkap folder",
-            "empty": "Belum ada folder favorit.",
+            "placeholder": "Masukkan lokasi lengkap berkas",
+            "empty": "Belum ada berkas favorit.",
             "show-hidden": "Tampilkan berkas tersembunyi"
           },
           "new-folder": {
@@ -64,7 +64,7 @@
             "title": "Buat berkas baru",
             "field": {
               "title": "Berkas baru",
-              "subtitle": "Anda bisa menggunakan folder pemisah untuk membuat banyak folder bersarang sekaligus"
+              "subtitle": "Anda bisa menggunakan pemisah berkas untuk membuat banyak folder bersarang sekaligus"
             },
             "cancel": "Batalkan",
             "create": "Buat"
@@ -115,8 +115,8 @@
           "official": "Resmi",
           "installed": "Terpasang",
           "actions": {
-            "update": "Update {target}",
-            "refresh": "Muat ulang keras {target}<br><i>Tekan [Shift] untuk Muat Ulang Cepat (node_modules tidak akan diperbaharui)</i>"
+            "update": "Barui {target}",
+            "refresh": "Muat ulang keras {target}<br><i>Tekan [Shift] untuk Muat Ulang Cepat (node_modules tidak akan diperbarui)</i>"
           },
           "local": "Lokal"
         },
@@ -126,8 +126,8 @@
           "latest": "Terbaru",
           "installed": "Terinstall",
           "actions": {
-            "update": "Perbaharui {target}",
-            "uninstall": "Copot {target}"
+            "update": "Barui {target}",
+            "uninstall": "Lepas {target}"
           }
         },
         "project-tasks-dropdown": {
@@ -368,7 +368,7 @@
           "title": "Plugin Proyek",
           "button": "Tambahkan plugin",
           "heading": "Plugin terinstal",
-          "update-all": "Perbaharu semua plugin"
+          "update-all": "Barui semua plugin"
         },
         "project-plugins-add": {
           "title": "Tambahkan plugin",
@@ -449,7 +449,7 @@
           },
           "actions": {
             "install": "Pasang dependency",
-            "update-all": "Perbaharui semua dependencies"
+            "update-all": "Barui semua dependencies"
           },
           "install": {
             "title": "Pasang dependency baru"
