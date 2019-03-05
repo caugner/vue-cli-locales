@@ -121,9 +121,9 @@
           "local": "Local"
         },
         "project-dependency-item": {
-          "version": "version",
+          "version": "versão",
           "wanted": "desejado",
-          "latest": "latest",
+          "latest": "mais recentes",
           "installed": "Instalado",
           "actions": {
             "update": "Atualizar {target}",
@@ -221,16 +221,16 @@
           "plugin-invoke": "Invocando {arg0}...",
           "plugin-update": "Atualizando {arg0}...",
           "plugins-update": "Updating {arg0} plugins...",
-          "dependency-install": "Installing {arg0}...",
-          "dependency-uninstall": "Uninstalling {arg0}...",
-          "dependency-update": "Updating {arg0}...",
-          "dependencies-update": "Updating {arg0} packages..."
+          "dependency-install": "Instalando {arg0}...",
+          "dependency-uninstall": "Desistalando {arg0}...",
+          "dependency-update": "Atualizando {arg0}...",
+          "dependencies-update": "Atualizando {arg0} pacotes..."
         }
       },
       "types": {
         "task": {
           "status": {
-            "idle": "Oucupado",
+            "idle": "Ocupado",
             "running": "Carregando",
             "done": "Finalizado",
             "error": "Erro",
