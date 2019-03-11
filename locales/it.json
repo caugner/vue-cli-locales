@@ -33,7 +33,7 @@
               "subtitle": "Salva modifiche nel repository",
               "actions": {
                 "commit": "Committa",
-                "cancel": "Cancella"
+                "cancel": "Annulla"
               }
             }
           },
@@ -330,9 +330,9 @@
               "default-preset": "Preset predefinito"
             },
             "features": {
-              "title": "Funzionalitá",
+              "title": "Funzionalità",
               "description": "Potrai aggiungere funzionalità al progetto dopo che è stato creato installando plugin.",
-              "enable": "Abilita funzionalitá",
+              "enable": "Abilita funzionalità",
               "buttons": {
                 "previous": "Indietro",
                 "next": "Avanti",
@@ -353,7 +353,7 @@
                 "title": "Salva come nuovo preset",
                 "body": {
                   "title": "Nome preset",
-                  "subtitle": "Salva funzionalitá e configurazioni in un nuovo preset"
+                  "subtitle": "Salva funzionalità e configurazioni in un nuovo preset"
                 },
                 "buttons": {
                   "cancel": "Annulla",
@@ -431,8 +431,8 @@
         },
         "project-task-details": {
           "actions": {
-            "play": "Esegui un task",
-            "stop": "Ferma un task",
+            "play": "Esegui il task",
+            "stop": "Ferma il task",
             "close": "Chiudi",
             "save": "Salva"
           },
@@ -817,7 +817,7 @@
           "direct-dep": "Dipendenza diretta"
         },
         "run-task": {
-          "title": "Esegui un task",
+          "title": "Esegui il task",
           "description": "Scorciatoia per eseguire un task",
           "prompts": {
             "task": "Seleziona un task"
