@@ -9,7 +9,7 @@
       "components": {
         "client-addon-component": {
           "timeout": "S'ha sobrepassat el temps de càrrega del component",
-          "timeout-info": "El component personalitzant està trigant molt a carregar, podria haver-hi un error"
+          "timeout-info": "El component personalitzat està trigant molt a carregar, podria haver-hi un error"
         },
         "connection-status": {
           "disconnected": "Desconnectat del servidor UI",
@@ -88,7 +88,7 @@
         "project-nav": {
           "tooltips": {
             "dashboard": "Consola",
-            "plugins": "Complements",
+            "plugins": "Connectors",
             "dependencies": "Dependències",
             "configuration": "Configuració",
             "tasks": "Tasques",
@@ -157,7 +157,7 @@
           "report-bug": "Reporteu una errada",
           "translate": "Ajudeu amb la traducció",
           "dark-mode": "Commuta el mode fosc",
-          "reset-plugin-api": "Actualitza l'API de complements"
+          "reset-plugin-api": "Actualitza l'API de connectors"
         },
         "suggestion-bar": {
           "suggestion": "Suggeriment",
@@ -214,7 +214,7 @@
           "invoking-generators": "Invocant generadors...",
           "deps-install": "Instal·lant dependències addicionals...",
           "completion-hooks": "Executant hooks per finalitzar...",
-          "fetch-remote-preset": "Recuperant valors predefinits remots...",
+          "fetch-remote-preset": "Recuperant valor predefinit remot...",
           "done": "Projecte creat amb èxit",
           "plugin-install": "Instal·lant {arg0}...",
           "plugin-uninstall": "Desinstal·lant {arg0}...",
@@ -290,106 +290,106 @@
                 "next": "Següent"
               },
               "modal": {
-                "title": "Cancel·lar la creació del projecte",
-                "body": "Està segur que vols cancel·lar la creació del projecte?",
+                "title": "Cancel·la la creació del projecte",
+                "body": "Segur que vols cancel·lar la creació del projecte?",
                 "buttons": {
                   "back": "Torna",
-                  "clear": "Netejar projecte"
+                  "clear": "Esborra projecte"
                 }
               }
             },
             "presets": {
-              "title": "Valor predefinit",
+              "title": "Valors predefinits",
               "description": "Un preset es una associació de complements i configuracions. Després de que hagis seleccionat les característiques, opcionalment pots guardar-lo com a preset que pot ser reutilitzat en futurs projectes, sense tenir que configurar cadascun de nou",
-              "select": "Selecciona un preset",
+              "select": "Selecciona un valor predefinit",
               "buttons": {
                 "previous": "Anterior",
                 "next": "Següent",
-                "create": "Crear projecte"
+                "create": "Crea projecte"
               },
               "modal": {
-                "title": "Configurar preset de forma remota",
+                "title": "Configura valor predefinit remot",
                 "body": "Disponible molt aviat..."
               },
               "manual": {
                 "name": "Manual",
-                "description": "Seleccionar manualment les característiques"
+                "description": "Selecciona les característiques manualment"
               },
               "remote": {
-                "name": "Preset remot",
-                "description": "Recupera un preset d'un repositori git",
+                "name": "Valor predefinit remot",
+                "description": "Recupera un valor predefinit d'un repositori git",
                 "url": {
-                  "title": "Adreça URL del preset",
-                  "subtitle": "Repositori git, per exemple 'username/repo'. També està permet afegir els prefixes 'gitlab:' o 'bitbucket:'."
+                  "title": "URL del valor predefinit",
+                  "subtitle": "Repositori git, per exemple 'username/repo'. També ho podeu prefixar amb 'gitlab:' o 'bitbucket:'."
                 },
                 "options": "Altres opcions",
-                "clone": "Clonar/Repositori privat",
-                "cancel": "Cancel·lar",
+                "clone": "Clona/Repositori privat",
+                "cancel": "Cancel·la",
                 "done": "Fet"
               },
-              "default-preset": "Presets per defecte"
+              "default-preset": "Valor predefinit per defecte"
             },
             "features": {
               "title": "Característiques",
-              "description": "Podràs afegir característiques després d'haver creat el projecte mitjançant la instal·lació de complements.",
-              "enable": "Habilitar característiques",
+              "description": "Es podran afegir característiques després de crear el projecte mitjançant la instal·lació de connectors.",
+              "enable": "Habilita les característiques",
               "buttons": {
                 "previous": "Anterior",
                 "next": "Següent",
-                "create": "Crear projecte"
+                "create": "Crea projecte"
               },
               "userConfigFiles": {
-                "name": "Utilitzar arxius de configuració",
-                "description": "Utilitzar arxius de configuració específics (com '.babelrc') en comptes d'utilitzar 'package.json'."
+                "name": "Utilitza arxius de configuració",
+                "description": "Utilitza arxius de configuració específics (com '.babelrc') enlloc de 'package.json'."
               }
             },
             "configuration": {
               "title": "Configuració",
               "buttons": {
                 "previous": "Anterior",
-                "create": "Crear projecte"
+                "create": "Crea projecte"
               },
               "modal": {
-                "title": "Guardar com un nou preset",
+                "title": "Desa com a nou valor predefinit",
                 "body": {
-                  "title": "Nom del Preset",
-                  "subtitle": "Guardar las característiques i configuracions en un nou preset"
+                  "title": "Nom del valor predefinit",
+                  "subtitle": "Desa les característiques i configuració en un nou valor predefinit"
                 },
                 "buttons": {
-                  "cancel": "Cancel·lar",
-                  "continue": "Continuar sense guardar",
-                  "create": "Crear un nou preset"
+                  "cancel": "Cancel·la",
+                  "continue": "Continua sense guardar",
+                  "create": "Crear un nou valor predefinit"
                 }
               }
             }
           }
         },
         "project-plugins": {
-          "title": "Complements del projecte",
-          "button": "Agregar complement",
-          "heading": "Complements instal·lats",
-          "update-all": "Actualitzar tots els complements"
+          "title": "Connectors del projecte",
+          "button": "Afegeix connector",
+          "heading": "Connectors instal·lats",
+          "update-all": "Actualitzar tots els connectors"
         },
         "project-plugins-add": {
-          "title": "Agregar un complement",
-          "plugin": "Complement",
+          "title": "Afegeix un connector",
+          "plugin": "connector",
           "tabs": {
             "search": {
-              "label": "Cercar",
-              "search-input": "Cercar un complement",
+              "label": "Cerca",
+              "search-input": "Cerca un connector",
               "not-found": "No hi ha resultats",
               "buttons": {
-                "cancel": "Cancel·lar",
-                "install": "Instal·lar {target}",
-                "default-install": "Instal·lar"
+                "cancel": "Cancel·la",
+                "install": "Instal·la {target}",
+                "default-install": "Instal·la"
               }
             },
             "configuration": {
               "label": "Configuració",
               "heading": "Instal·lació de {target}",
               "buttons": {
-                "cancel": "Cancel·lar",
-                "finish": "Finalitzar instal·lació"
+                "cancel": "Cancel·la",
+                "finish": "Finalitza la instal·lació"
               }
             },
             "diff": {
@@ -398,21 +398,21 @@
           },
           "modal": {
             "title": "Desinstal·lar {target}?",
-            "body": "Vols desinstal·lar el complement {target}?",
+            "body": "Voleu desinstal·lar el connector {target}?",
             "buttons": {
-              "back": "Tornar",
-              "cancel": "Cancel·lar sense desinstal·lar",
-              "uninstall": "Desinstal·lar"
+              "back": "Torna",
+              "cancel": "Cancel·la sense desinstal·lar",
+              "uninstall": "Desinstal·la"
             }
           },
           "buttons": {
-            "add-local": "Examinar complement local"
+            "add-local": "Examina connector local"
           }
         },
         "project-plugin-add-local": {
-          "title": "Agefeix un complement local",
+          "title": "Agefeix un connector local",
           "buttons": {
-            "add": "Afegeix complement local"
+            "add": "Afegeix connector local"
           }
         },
         "project-configurations": {
@@ -420,10 +420,10 @@
         },
         "project-configuration-details": {
           "actions": {
-            "cancel": "Cancel·lar",
-            "save": "Guardar canvis",
+            "cancel": "Cancel·la",
+            "save": "Desa els canvis",
             "more-info": "Més informació",
-            "refresh": "Actualitzar"
+            "refresh": "Actualitza"
           }
         },
         "project-tasks": {
@@ -431,12 +431,12 @@
         },
         "project-task-details": {
           "actions": {
-            "play": "Executar tasca",
-            "stop": "Aturar tasca",
+            "play": "Executa la tasca",
+            "stop": "Atura la tasca",
             "close": "Tancar",
             "save": "Guardar"
           },
-          "command": "Comandes de Script",
+          "command": "Comanda de script",
           "parameters": "Paràmetres",
           "more-info": "Més informació",
           "output": "Sortida"
@@ -448,11 +448,11 @@
             "devDependencies": "Dependències de desenvolupament"
           },
           "actions": {
-            "install": "Instal·lar dependencia",
-            "update-all": "Actualitzar totes les dependències "
+            "install": "Instal·la la dependència",
+            "update-all": "Actualitza totes les dependències "
           },
           "install": {
-            "title": "Instal·lar nova dependencia"
+            "title": "Instal·la nova dependència"
           },
           "uninstall": {
             "title": "Confirmeu la desinstal·lació",
@@ -462,7 +462,7 @@
           }
         },
         "project-dashboard": {
-          "title": "Escriptori del projecte",
+          "title": "Consola del projecte",
           "cutomize": "Personalitza",
           "done": "Fet"
         },
@@ -471,24 +471,24 @@
         },
         "about": {
           "title": "Quant a",
-          "description": "<a href=\"https://github.com/vuejs/vue-cli/tree/dev/packages/%40vue/cli-ui\" target=\"_blank\">@vue/cli-ui</a> es un paquet intern de vue-cli que obre una full-blown UI.",
-          "quote": "Vue-cli 3.x es una rescriptura completa, amb moltes característiques increïbles. Podràs escollir les caracteristiques com ara routing, Vuex o Typescript, llavors afegir i actualitzar blocs de construcció anomenats \"vue-cli plugins\". Però tenir moltes més opcions també significa que l'eina és més complexa i més difícil de començar a utilitzar. Per això, pensàvem que tenir una interfície gràfica completa ajudaria a descobrir les noves funcions, cercar i instal·lar complements de vue-cli i desbloquejar més possibilitats en general sense estar limitat per una interfície de terminal. En resum, vue-cli no només permet arrencar fàcilment un nou projecte, que també serà útil per treballs futurs posteriorment!",
-          "links": "Enllaços d'interés",
-          "back": "Tornar"
+          "description": "<a href=\"https://github.com/vuejs/vue-cli/tree/dev/packages/%40vue/cli-ui\" target=\"_blank\">@vue/cli-ui</a> és un paquet integrat de vue-cli que obre una interfície gràfica completa.",
+          "quote": "Vue-cli 3.x es una rescriptura completa, amb moltes característiques increïbles. Podràs escollir les característiques com ara enrutament, Vuex o Typescript, i després afegir i actualitzar blocs de construcció anomenats \"connectors de vue-cli\". Però tenir moltes més opcions també significa que l'eina és més complexa i més difícil de començar a utilitzar. Per això, pensàvem que tenir una interfície gràfica completa ajudaria a descobrir les noves funcions, cercar i instal·lar complements de vue-cli i desbloquejar més possibilitats en general sense estar limitat per una interfície de terminal. En resum, vue-cli no només permet arrencar fàcilment un nou projecte, sinó que també serà útil per treballs futurs posteriorment!",
+          "links": "Enllaços útils",
+          "back": "Torna"
         }
       },
       "cli-service": {
         "suggestions": {
           "vue-router-add": {
-            "label": "Afegir vue-router",
+            "label": "Afegeix vue-router",
             "message": "Llibreria eficial per donar suport a multiples pàgines virtuals a una SPA (Single-Page App). Cada ruta \"renderitza\" un component diferent."
           },
           "vuex-add": {
-            "label": "Afegir vuex",
+            "label": "Afegeix vuex",
             "message": "Solució oficial per centralitzar el \"State Management\" a aplicacions que necessitin alta escalabilitat. Molt útil en casos on múltiples components accedeixen a les mateixes dades d'estat."
           },
           "vue-devtools": {
-            "label": "Instal·lar devtools",
+            "label": "Instal·la devtools",
             "message": "Extensió oficial pel navegador per depurar aplicacions Vue.js on poder inspeccionar els components, el magatzem vuex i els events."
           },
           "progress": "Instal·lant {arg0}..."
@@ -496,11 +496,11 @@
       },
       "vue-webpack": {
         "dashboard": {
-          "title": "Panel de control",
-          "open-app": "Obrir l'aplicació",
+          "title": "Consola",
+          "open-app": "Obre l'aplicació",
           "webpack-status": {
-            "Success": "Amb èxit",
-            "Failed": "Amb errors",
+            "Success": "Èxit",
+            "Failed": "Ha fallat",
             "Compiling": "Compilant",
             "Invalidated": "Anul·lat",
             "Idle": "Inactiu"
@@ -509,7 +509,7 @@
             "labels": {
               "status": "Estat",
               "errors": "Errors",
-              "warnings": "Advertencies",
+              "warnings": "Advertències",
               "assets": "Recursos",
               "modules": "Mòduls",
               "deps": "Dependències"
@@ -536,31 +536,31 @@
           "stats": "Stats",
           "parsed": "Parsejat",
           "gzip": "Gzip",
-          "help": "<b>Stats:</b> Tamany de les dades \"webpack stats\".<br><b>Parsed:</b> Tamany del codi font extret (després dels complements de minimització). Més acurat.<br><b>Gzip:</b> Tamany del codi font comprimit (amb GZip) extret."
+          "help": "<b>Stats:</b> mida de les dades \"webpack stats\".<br><b>Parsed:</b> mida del codi font extret (després dels connectors de minificació). Més precís.<br><b>Gzip:</b> mida del codi font comprimit amb GZip extret."
         },
-        "modern-mode": "Mostrar la construcció \"modern\"",
+        "modern-mode": "Mostra la construcció \"modern\"",
         "tasks": {
           "serve": {
-            "description": "Compilar i autorecarregar en desenvolupament.",
-            "open": "Obrir navegador quan el servidor arrenqui",
-            "mode": "Especificar mode de l'entorn",
-            "host": "Especificar host",
-            "port": "Especificar port",
-            "https": "Utilitzar HTTPS"
+            "description": "Compila i auto-recarrega per desenvolupament",
+            "open": "Obre el navegador quan el servidor arrenqui",
+            "mode": "Especifica el mode de l'entorn",
+            "host": "Especifica l'amfitrió",
+            "port": "Especifica el port",
+            "https": "Utilitza HTTPS"
           },
           "build": {
-            "description": "Compilar i minificar per producció.",
-            "mode": "Especificar mode de l'entorn",
+            "description": "Compila i minifica per producció",
+            "mode": "Especifica el mode de l'entorn",
             "dest": "Directori de destí",
             "target": {
               "description": "Objetiu de compilació",
               "app": "Aplicació web",
-              "lib": "Llibreria",
+              "lib": "Biblioteca",
               "wc": "Component web",
               "wc-async": "Component web asíncron"
             },
             "name": "Nom pel mode llibreria o component web (per defecte: 'name' en package.json o el nom del arxiu de entrada)",
-            "watch": "Observar canvis",
+            "watch": "Observa els canvis",
             "modern": {
               "label": "Mode modern",
               "description": "Crea l'aplicació dirigida als navegadors moderns amb auto fallback"
@@ -568,13 +568,13 @@
           },
           "inspect": {
             "description": "Inspeccionar el resultat de la configuració de webpack",
-            "mode": "Especificar mode de l'entorn",
-            "verbose": "Mostrar definicions de funcions completes a la sortida"
+            "mode": "Especifica el mode de l'entorn",
+            "verbose": "Mostra definicions completes de funcions a la sortida"
           }
         },
         "config": {
           "vue-cli": {
-            "description": "Configurar el projecte Vue",
+            "description": "Configura el teu projecte Vue",
             "groups": {
               "general": "Configuració general",
               "css": "Configuració CSS"
@@ -596,7 +596,7 @@
               "description": "Directori on deixar els recursos estàtics generats (js, css, img, fonts)."
             },
             "runtimeCompiler": {
-              "label": "Activar el compilador en temps d'execució",
+              "label": "Activa el compilador en temps d'execució",
               "description": "Això permet utilitzar la opció de plantilla en components Vue, però també implica incrementar en uns 10KB extra el tamany de l'aplicació."
             },
             "productionSourceMap": {
@@ -605,7 +605,7 @@
             },
             "parallel": {
               "label": "Compilació en paral·lel",
-              "description": "En el cas de necessitar multiples processadors per compilar Babel o Typescript."
+              "description": "Utilitza múltiples processadors per compilar Babel o Typescript."
             },
             "css": {
               "modules": {
@@ -642,7 +642,7 @@
               "off": "Apagat",
               "error": "Error",
               "warning": "Avís",
-              "custom": "Particular"
+              "custom": "Personalitzat"
             },
             "general": {
               "label": "General",
@@ -677,7 +677,7 @@
           "pwa": {
             "description": "Aplicacions Web Progressives",
             "workboxPluginMode": {
-              "message": "Mode complement",
+              "message": "Mode de connector",
               "description": "Això el permet escollir entre els dos modes compatibles amb el subjacent `workbox-webpack-plugin`"
             },
             "name": {
@@ -704,29 +704,29 @@
         },
         "suggestions": {
           "open-vue": {
-            "label": "Obrir configuració Vue"
+            "label": "Obre la configuració de vue"
           },
           "open-manifest": {
-            "label": "Obrir el manifest"
+            "label": "Obre el manifest"
           }
         }
       },
       "cypress": {
         "tasks": {
           "test": {
-            "description": "Executar proves e2e amb `cypress run`",
-            "headless": "Executar en mode headless sense interfície gràfica d'usuari",
-            "mode": "Especificar el mode en el qual el servidor de desenvolupament hauria d'executar-se",
-            "url": "Executar proves e2e fent servir l'adreça URL proporcionada en comptes del servidor automàtic de desenvolupament"
+            "description": "Executa proves e2e amb `cypress run`",
+            "headless": "Executa en mode headless sense interfície gràfica d'usuari",
+            "mode": "Especifica el mode en el qual s'hauria d'executar el servidor de desenvolupament",
+            "url": "Executa proves e2e fent servir l'adreça URL proporcionada en comptes del servidor automàtic de desenvolupament"
           }
         }
       },
       "nightwatch": {
         "tasks": {
           "test": {
-            "description": "Executar proves e2e amb nightwatch",
-            "url": "Executar proves e2e fent servir l'adreça URL proporcionada en comptes del servidor automàtic de desenvolupament",
-            "config": "Utilitzar particularització de l'arxiu de configuració de nightwatch (sobrescriu valors predeterminats)",
+            "description": "Executa proves e2e amb nightwatch",
+            "url": "Executa proves e2e fent servir l'adreça URL proporcionada en comptes del servidor automàtic de desenvolupament",
+            "config": "Utilitza un arxiu de configuració personalitzat de nightwatch (substitueix els valors interns)",
             "env": "Entorns de navegador per executar delimitat per comes"
           }
         }
@@ -734,18 +734,18 @@
       "jest": {
         "tasks": {
           "test": {
-            "description": "Executar porves unitaries amb Jest",
-            "watch": "Vigilar canvis als arxius i tornar a executar proves relacionades amb els axius modificats",
-            "notify": "Visualitzar una notificació després de cada execució",
-            "update": "Tornar a enregistrar tota \"snapshot\" que falli durant l'execució d'aquesta prova"
+            "description": "Executa proves unitàries amb Jest",
+            "watch": "Vigila els canvis als arxius i torna a executar les proves relacionades amb els arxius modificats",
+            "notify": "Visualitza una notificació després de cada execució",
+            "update": "Torna a enregistrar tota \"snapshot\" que falli durant l'execució d'aquesta prova"
           }
         }
       },
       "mocha": {
         "tasks": {
           "test": {
-            "description": "Executar proves unitaries amb Mocha",
-            "watch": "Vigilar canvis als arxius i tornar a executar proves reacionades amb le arxius modificats"
+            "description": "Executa proves unitàries amb Mocha",
+            "watch": "Vigila els canvis als arxius i torna a executar les proves relacionades amb els arxius modificats"
           }
         }
       },
@@ -755,19 +755,19 @@
           "description": "Alguns consells per ajudar-te a començar",
           "content": {
             "title": "Benvingut al teu nou projecte!",
-            "tip1": "Estàs veient l'escriptori del projecte on pots posar-hi ginys. Utilitza el botó 'Personalitzar' per afegir-ne més! Tot es desarà automàticament.",
+            "tip1": "Estàs veient la consola del projecte on hi pots posar ginys. Utilitza el botó 'Personalitza' per afegir-ne més! Tot es desa automàticament.",
             "tip2": "A l'esquera hi ha les diferents pàgines disponibles. 'Complements' et permet afegir complements de Vue CLI, 'Dependències' gestionar els paquets, 'Configuració' configurar les eines i 'Tasques' fer córrer scripts (per exemple webpack)",
             "tip3": "Torna al gestor de projectes amb el desplegable de dalt a la dreta de la pantalla o bé amb el botó d'inici situat a la barra d'estat de la part de baix.",
             "ok": "Entesos"
           }
         },
         "kill-port": {
-          "title": "Eliminar port",
-          "description": "Eliminar processos utilitzant un port de xarxa específic",
+          "title": "Elimina port",
+          "description": "Elimina processos utilitzant un port de xarxa específic",
           "input": {
             "placeholder": "Introdueix un port de xarxa"
           },
-          "kill": "Eliminar",
+          "kill": "Elimina",
           "status": {
             "idle": "Preparat per eliminar",
             "killing": "Eliminant procés...",
@@ -778,22 +778,22 @@
         "status-widget": {
           "last-updated": "Actualitzat",
           "never": "Encara no actualitzat",
-          "check": "Comprova actualitzacions",
+          "check": "Comprova si hi ha actualitzacions",
           "more-info": "Més detalls"
         },
         "plugin-updates": {
-          "title": "Actualitzacions de complements",
-          "description": "Monitoritzar actualitzacions de complements",
+          "title": "Actualitzacions de connectors",
+          "description": "Monitoritza les actualitzacions de connectors",
           "messages": {
-            "ok": "Tots els complements estan actualitzats",
+            "ok": "Tots els connectors estan actualitzats",
             "loading": "Cercant actualitzacions...",
-            "attention": "{n} actualitzacions de complements disponibles"
+            "attention": "{n} actualitzacions de connectors disponibles"
           },
-          "page": "Anar a Complements"
+          "page": "Ves a Connectors"
         },
         "dependency-updates": {
           "title": "Actualitzacions de dependències",
-          "description": "Monitoritzar les actualitzacions de dependències",
+          "description": "Monitoritza les actualitzacions de dependències",
           "messages": {
             "ok": "Totes les dependències estan actualitzades",
             "loading": "Cercant actualitzacions...",
@@ -805,37 +805,37 @@
           "title": "Comprovació de vulnerabilitats",
           "description": "Cerca vulnerabilitats conegudes a les dependències del teu projecte",
           "messages": {
-            "ok": "Cap vulnerabilitat trobada",
-            "loading": "Comprovant informes de seguretat",
+            "ok": "No s'ha trobat cap vulnerabilitat",
+            "loading": "Comprovant informes de seguretat...",
             "attention": "{n} vulnerabilitats trobades"
           },
           "severity": {
-            "high": "Severitat alta",
-            "medium": "Severitat mitjana",
-            "low": "Severitat baixa"
+            "high": "Gravetat alta",
+            "medium": "Gravetat mitjana",
+            "low": "Gravetat baixa"
           },
-          "direct-dep": "Dependència directe"
+          "direct-dep": "Dependència directa"
         },
         "run-task": {
-          "title": "Executar tasca",
-          "description": "Accés directe per a executar una tasca",
+          "title": "Executa tasca",
+          "description": "Drecera per a executar una tasca",
           "prompts": {
             "task": "Selecciona una tasca"
           },
-          "page": "Anar a la tasca"
+          "page": "Ves a la tasca"
         },
         "news": {
-          "title": "Feed de notícies",
-          "description": "Llegir el feed de notícies",
-          "refresh": "Refresca forçadament",
-          "select-tip": "Escull un ítem a l'esquerra",
+          "title": "Canal de notícies",
+          "description": "Llegeix el canal de notícies",
+          "refresh": "Força l'actualització",
+          "select-tip": "Selecciona un element de l'esquerra",
           "prompts": {
-            "url": "URL del feed RSS o repositori de GitHub"
+            "url": "URL del canal RSS o repositori de GitHub"
           },
           "errors": {
-            "fetch": "No s'ha pogut obtenir el feed",
-            "offline": "Estàs fora de línia",
-            "empty": "Feed buit"
+            "fetch": "No s'ha pogut obtenir el canal",
+            "offline": "Sou fora de línia",
+            "empty": "Canal buit"
           }
         }
       }
