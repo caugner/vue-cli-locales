@@ -822,7 +822,7 @@
           "prompts": {
             "task": "Seleziona un task"
           },
-          "page": "Vai ai Task"
+          "page": "Vai al task"
         },
         "news": {
           "title": "News feed",
