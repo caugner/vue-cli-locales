@@ -122,7 +122,7 @@
         },
         "project-dependency-item": {
           "version": "versiyon",
-          "wanted": "wanted",
+          "wanted": "istenilen",
           "latest": "en son",
           "installed": "Yüklendi",
           "actions": {
@@ -133,7 +133,7 @@
         "project-tasks-dropdown": {
           "tooltips": {
             "tasks": "Görevler",
-            "running-tasks": "{count} görev çalışıyor"
+            "running-tasks": "{count} görev(ler) çalışıyor"
           }
         },
         "prompt-list": {
@@ -157,7 +157,7 @@
           "report-bug": "Hata bildir",
           "translate": "Çeviriye yardım et",
           "dark-mode": "Karanlık modu değiştir",
-          "reset-plugin-api": "Refresh plugins API"
+          "reset-plugin-api": "Eklenti API'nı yenile"
         },
         "suggestion-bar": {
           "suggestion": "Öneri",
@@ -253,10 +253,10 @@
           "import": {
             "no-modules": {
               "title": "Eksik modüller",
-              "message": "It seems the project is missing the 'node_modules' folder. Please check you installed the dependencies before importing.",
-              "close": "Got it"
+              "message": "Öyle görünüyor ki projede 'node_modules' klasörü bulunmuyor. Lütfen içeri aktarmadan önce bağımlılıkları yüklediğinizden emin olunuz.",
+              "close": "Anlaşıldı"
             },
-            "force": "Import anyway"
+            "force": "Yine de içe aktar"
           }
         },
         "project-create": {
@@ -280,7 +280,7 @@
                 "options": {
                   "label": "Ek seçenekler",
                   "force": "Varsa hedef klasörün üzerine yaz",
-                  "git-title": "Git repository",
+                  "git-title": "Git veri havuzu",
                   "git": "Git deposunu başlat (önerilir)",
                   "git-commit-message": "İlk işlem mesajı (isteğe bağlı)"
                 }
@@ -319,13 +319,13 @@
                 "name": "Sunucu şablonları",
                 "description": "Git deposundan şablon al",
                 "url": {
-                  "title": "Preset URL",
+                  "title": "Önceden tanımlı URL",
                   "subtitle": "Git repo, for example 'username/repo'. You can also prefix with 'gitlab:' or 'bitbucket:'."
                 },
                 "options": "Diğer seçenekler",
                 "clone": "Clone/Private repository",
                 "cancel": "İptal",
-                "done": "Done"
+                "done": "Tamamlandı"
               },
               "default-preset": "Varsayılan şablon"
             },
@@ -436,7 +436,7 @@
             "close": "Kapat",
             "save": "Kaydet"
           },
-          "command": "Script command",
+          "command": "Betik komutu",
           "parameters": "Parametreler",
           "more-info": "Daha Fazla Bilgi",
           "output": "Çıktı"
@@ -445,7 +445,7 @@
           "title": "Proje bağımlılıkları",
           "heading": {
             "dependencies": "Ana bağımlılıklar",
-            "devDependencies": "Development dependencies"
+            "devDependencies": "Geliştirme bağımlılıkları"
           },
           "actions": {
             "install": "Bağımlılık kur",
@@ -456,7 +456,7 @@
           },
           "uninstall": {
             "title": "Kaldırma işlemini onayla",
-            "body": "Are you sure you want to uninstall {id}?",
+            "body": "{id} bağımlılığını kaldırmak istediğinize emin misiniz ?",
             "cancel": "Vazgeç",
             "uninstall": "Kaldır {id}"
           }
@@ -464,7 +464,7 @@
         "project-dashboard": {
           "title": "Proje Gösterge Paneli",
           "cutomize": "Özelleştir",
-          "done": "Done"
+          "done": "Tamamlandı"
         },
         "settings": {
           "title": "Ayarlar"
@@ -510,7 +510,7 @@
               "status": "Durum",
               "errors": "Hatalar",
               "warnings": "Uyarılar",
-              "assets": "Assets",
+              "assets": "Kaynaklar",
               "modules": "Modüller",
               "deps": "Bağımlılıklar"
             }
@@ -522,8 +522,8 @@
             "title": "Bağımlılıklar"
           },
           "asset-list": {
-            "title": "Assets",
-            "size-warning": "This asset is big, consider using Code splitting to create smaller assets."
+            "title": "Kaynaklar",
+            "size-warning": "Bu kaynak büyük, kodu bölerek daha küçük kaynaklar oluşturmayı deneyiniz."
           }
         },
         "analyzer": {
@@ -592,7 +592,7 @@
               "description": "The directory where the production build files will be generated"
             },
             "assetsDir": {
-              "label": "Assets directory",
+              "label": "Kaynaklar klasörü",
               "description": "A directory to nest generated static assets (js, css, img, fonts) under."
             },
             "runtimeCompiler": {
@@ -677,7 +677,7 @@
           "pwa": {
             "description": "Progressive Web App",
             "workboxPluginMode": {
-              "message": "Plugin mode",
+              "message": "Eklenti modu",
               "description": "This allows you to the choose between the two modes supported by the underlying `workbox-webpack-plugin`"
             },
             "name": {
