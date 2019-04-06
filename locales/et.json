@@ -280,6 +280,7 @@
                 "options": {
                   "label": "Lisavalikud",
                   "force": "Kirjuta üle kui kaust on juba olemas",
+                  "bare": "Scaffold project without beginner instructions",
                   "git-title": "Git hoidla",
                   "git": "Algväärtusta git hoidla (soovituslik)",
                   "git-commit-message": "Esmase kehtestuse kirjeldus"

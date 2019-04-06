@@ -280,6 +280,7 @@
                 "options": {
                   "label": "추가 옵션",
                   "force": "이미 폴더가 있으면 덮어씁니다.",
+                  "bare": "Scaffold project without beginner instructions",
                   "git-title": "Git 저장소",
                   "git": "Git 저장소 만들기 (추천)",
                   "git-commit-message": "초기 커밋 메시지 (선택)"

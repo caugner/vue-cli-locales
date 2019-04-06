@@ -280,6 +280,7 @@
                 "options": {
                   "label": "დამატებითი პარამეტრები",
                   "force": "Overwrite target folder if it exists",
+                  "bare": "Scaffold project without beginner instructions",
                   "git-title": "გიტ რეპოზიტორი",
                   "git": "გიტ რპოზიტორის ინიციალიზაცია (რეკომენდებულია)",
                   "git-commit-message": "Initial commit message (optional)"

@@ -280,6 +280,7 @@
                 "options": {
                   "label": "Дополнительные опции",
                   "force": "Overwrite target folder if it exists",
+                  "bare": "Scaffold project without beginner instructions",
                   "git-title": "Репозиторий Git",
                   "git": "Инициализировать репозиторий git (рекомендуется)",
                   "git-commit-message": " Введите сообщение первой фиксации (не обязательно) "

@@ -280,6 +280,7 @@
                 "options": {
                   "label": "追加オプション",
                   "force": "存在する場合、対象フォルダを上書きする",
+                  "bare": "Scaffold project without beginner instructions",
                   "git-title": "Git リポジトリ",
                   "git": "git リポジトリの初期化 (推奨)",
                   "git-commit-message": "初期コミットメッセージ (任意)"

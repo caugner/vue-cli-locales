@@ -280,6 +280,7 @@
                 "options": {
                   "label": "Extra opties",
                   "force": "Overschrijf de doelmap als deze bestaat",
+                  "bare": "Scaffold project without beginner instructions",
                   "git-title": "Git-repository",
                   "git": "Git-repository initialiseren (aangeraden)",
                   "git-commit-message": "Initieel commit bericht (optioneel)"

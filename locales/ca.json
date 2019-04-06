@@ -280,6 +280,7 @@
                 "options": {
                   "label": "Opcions addicionals",
                   "force": "Sobrescriu la carpeta si ja existeix",
+                  "bare": "Scaffold project without beginner instructions",
                   "git-title": "Repositori Git",
                   "git": "Inicialitzar el repository git (recomanat)",
                   "git-commit-message": "Missatge de publicació inicial (opcional)"

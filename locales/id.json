@@ -280,6 +280,7 @@
                 "options": {
                   "label": "Opsi tambahan",
                   "force": "Tindih folder target jika sudah ada",
+                  "bare": "Scaffold project without beginner instructions",
                   "git-title": "Repositori Git",
                   "git": "Inisialisasi repositori git (direkomendasikan)",
                   "git-commit-message": "Pesan commit awal (tidak wajib)"

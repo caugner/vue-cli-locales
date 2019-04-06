@@ -280,6 +280,7 @@
                 "options": {
                   "label": "Opzioni aggiuntive",
                   "force": "Sovrascrivi la cartella target se esiste",
+                  "bare": "Scaffold project without beginner instructions",
                   "git-title": "Git repository",
                   "git": "Inizializza il repository git (consigliato)",
                   "git-commit-message": "Messaggio commit iniziale (opzionale)"

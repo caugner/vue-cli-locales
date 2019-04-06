@@ -280,6 +280,7 @@
                 "options": {
                   "label": "Tilleggsalternativer",
                   "force": "Overskriv mappen hvis den eksisterer allerede",
+                  "bare": "Scaffold project without beginner instructions",
                   "git-title": "Git repository",
                   "git": "Initialiser git repository (anbefalt)",
                   "git-commit-message": "Første commit-melding (valgfritt)"

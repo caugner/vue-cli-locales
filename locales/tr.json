@@ -280,6 +280,7 @@
                 "options": {
                   "label": "Ek seçenekler",
                   "force": "Varsa hedef klasörün üzerine yaz",
+                  "bare": "Scaffold project without beginner instructions",
                   "git-title": "Git veri havuzu",
                   "git": "Git deposunu başlat (önerilir)",
                   "git-commit-message": "İlk işlem mesajı (isteğe bağlı)"

@@ -280,6 +280,7 @@
                 "options": {
                   "label": "Opções adicionais",
                   "force": "Sobrescrever a pasta de destino, se existir",
+                  "bare": "Scaffold project without beginner instructions",
                   "git-title": "Git repository",
                   "git": "Inicializar repositório git (recomendado)",
                   "git-commit-message": "Mensagem de commit inicial (opcional)"

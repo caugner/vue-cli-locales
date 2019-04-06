@@ -280,6 +280,7 @@
                 "options": {
                   "label": "گزینه های اضافی",
                   "force": "بازنویسی کردن فولدر هدف  اگر اون وجود داشت",
+                  "bare": "Scaffold project without beginner instructions",
                   "git-title": "مخزن Git",
                   "git": "راه اندازی مخزن git (توصیه شده)",
                   "git-commit-message": "پیغام اولیه ی commit (اختیاری)"

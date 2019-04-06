@@ -280,6 +280,7 @@
                 "options": {
                   "label": "Lisäasetukset",
                   "force": "Ylikirjoita olemassaoleva kansio",
+                  "bare": "Scaffold project without beginner instructions",
                   "git-title": "Git-tietolähde",
                   "git": "Alusta git-tietolähde (suositeltu)",
                   "git-commit-message": "Ensimmäinen commit-viesti (vapaaehtoinen)"

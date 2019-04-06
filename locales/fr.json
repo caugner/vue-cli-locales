@@ -280,6 +280,7 @@
                 "options": {
                   "label": "Options additionnelles",
                   "force": "Écraser le dossier s'il existe",
+                  "bare": "Scaffold project without beginner instructions",
                   "git-title": "Dépôt Git",
                   "git": "Initialiser un dépôt Git (recommandé)",
                   "git-commit-message": "Message du commit initial (optionel)"

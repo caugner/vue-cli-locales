@@ -280,6 +280,7 @@
                 "options": {
                   "label": "Papildus opcijas",
                   "force": "Pārrakstīt mērķa mapi, ja tā eksistē",
+                  "bare": "Scaffold project without beginner instructions",
                   "git-title": "Git repozitorijs",
                   "git": "Inicializēt git repozitoriju (ieteikums)",
                   "git-commit-message": "Sākotnējais izpildes ziņojums (nav obligāts)"

@@ -280,6 +280,7 @@
                 "options": {
                   "label": "更多选项",
                   "force": "若目标文件夹已存在则将其覆盖",
+                  "bare": "Scaffold project without beginner instructions",
                   "git-title": "Git",
                   "git": "初始化 git 仓库 (建议)",
                   "git-commit-message": "初始提交信息 (选填)"

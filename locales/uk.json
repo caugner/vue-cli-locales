@@ -280,6 +280,7 @@
                 "options": {
                   "label": "Додаткові опції",
                   "force": "Перезаписати цільову папку, якщо вона вже існує",
+                  "bare": "Scaffold project without beginner instructions",
                   "git-title": "Git репозиторій",
                   "git": "Ініціалізувати git репозиторій (рекомендовано)",
                   "git-commit-message": "Початкове повідомлення комміта (вибірково)"

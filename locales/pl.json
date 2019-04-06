@@ -280,6 +280,7 @@
                 "options": {
                   "label": "Dodatkowe opcje",
                   "force": "Jeżeli istnieje folder docelowy, to go nadpisz.",
+                  "bare": "Scaffold project without beginner instructions",
                   "git-title": "Repozytorium git",
                   "git": "Inicjacja repozytorium git (zalecane)",
                   "git-commit-message": "Commit początkowy (opcjonalny)"

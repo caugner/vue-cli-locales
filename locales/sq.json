@@ -280,6 +280,7 @@
                 "options": {
                   "label": "Opsione shtesë",
                   "force": "Mbishkruani folderin nqs ekziston",
+                  "bare": "Scaffold project without beginner instructions",
                   "git-title": "Git repository",
                   "git": "Inicializo git repository (rekomandohet)",
                   "git-commit-message": "Mesazhi i commit (opsionale)"
