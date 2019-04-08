@@ -280,7 +280,7 @@
                 "options": {
                   "label": "Zusätzliche Optionen",
                   "force": "Zielordner überschreiben, falls er existiert",
-                  "bare": "Scaffold project without beginner instructions",
+                  "bare": "Projektgerüst ohne Anfängerhinweise",
                   "git-title": "Versionsverwaltung mit Git",
                   "git": "Git-Repository einrichten (empfohlen)",
                   "git-commit-message": "Erste Commit-Nachricht (optional)"

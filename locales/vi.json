@@ -2,252 +2,252 @@
   "org": {
     "vue": {
       "common": {
-        "close": "Close",
-        "back": "Go back",
-        "more-info": "More info"
+        "close": "Đóng",
+        "back": "Quay lại",
+        "more-info": "Xem thêm"
       },
       "components": {
         "client-addon-component": {
-          "timeout": "Component load timeout",
-          "timeout-info": "The custom component takes too much time to load, there might be an error"
+          "timeout": "Hết thời gian tải component",
+          "timeout-info": "Thành phần tùy chỉnh mất quá nhiều thời gian để tải, có thể có một lỗi đã xảy ra"
         },
         "connection-status": {
-          "disconnected": "Disconnected from UI server",
-          "connected": "Connected!"
+          "disconnected": "Đã ngắt kết nối tới máy chủ UI",
+          "connected": "Đã kết nối!"
         },
         "file-diff": {
-          "binary": "Binary file not shown",
+          "binary": "Tệp nhị phân không thể hiển thị",
           "actions": {
-            "open": "Open in editor"
+            "open": "Mở trong trình soạn thảo"
           }
         },
         "file-diff-view": {
-          "files-changed": "Files changed",
-          "search-file": "Search file",
-          "empty": "No change found",
-          "error": "Couldn't get file changes",
+          "files-changed": "Tệp tin đã thay đổi",
+          "search-file": "Tìm kiếm tệp tin",
+          "empty": "Không tìm thấy thay đổi nào",
+          "error": "Không thể thay đổi tập tin",
           "modals": {
             "commit": {
-              "title": "Commit changes",
-              "input": "Enter a commit message",
-              "subtitle": "Record changes to the repository",
+              "title": "Commit đã thay đổi",
+              "input": "Hãy nhập tin nhắn cho commit",
+              "subtitle": "Ghi lại các thay đổi vào kho lưu trữ",
               "actions": {
                 "commit": "Commit",
-                "cancel": "Cancel"
+                "cancel": "Huỷ"
               }
             }
           },
           "actions": {
-            "collapse-all": "Collapse all",
-            "expand-all": "Expand all",
-            "commit": "Commit changes",
-            "skip": "Skip",
-            "continue": "Continue",
-            "refresh": "Refresh"
+            "collapse-all": "Thu gọn tất cả",
+            "expand-all": "Mở rộng tất cả",
+            "commit": "Commit đã thay đổi",
+            "skip": "Bỏ qua",
+            "continue": "Tiếp tục",
+            "refresh": "Làm mới"
           }
         },
         "folder-explorer": {
           "toolbar": {
             "tooltips": {
-              "parent-folder": "Open parent folder",
-              "edit-path": "Edit path",
-              "favorite": "Toggle favorite",
-              "favorite-folders": "Favorite folders",
-              "refresh": "Refresh"
+              "parent-folder": "Mở thư mục cha",
+              "edit-path": "Sửa đường dẫn",
+              "favorite": "Chuyển sang yêu thích",
+              "favorite-folders": "Những thư mục yêu thích",
+              "refresh": "Làm mới"
             },
-            "placeholder": "Enter the full path to a folder",
-            "empty": "No favorite folders yet.",
-            "show-hidden": "Show hidden folders"
+            "placeholder": "Nhập đường dẫn đầy đủ đến thư mục",
+            "empty": "Hiện vẫn chưa có thư mục yêu thích nào",
+            "show-hidden": "Hiện các thư mục ẩn"
           },
           "new-folder": {
-            "action": "New folder",
-            "title": "Create new folder",
+            "action": "Thư mục mới",
+            "title": "Tạo thư mục mới",
             "field": {
-              "title": "New folder",
-              "subtitle": "You can use the folder separator to create multiple nested folders at once."
+              "title": "Thư mục mới",
+              "subtitle": "Bạn có thể sử dụng dấu phân tách thư mục để tạo nhiều thư mục lồng nhau cùng một lúc."
             },
-            "cancel": "Cancel",
-            "create": "Create"
+            "cancel": "Huỷ",
+            "create": "Tạo"
           }
         },
         "list-item-info": {
-          "more-info": "More Info"
+          "more-info": "Xem thêm"
         },
         "logger-view": {
           "title": "Logs",
-          "empty": "No logs yet",
+          "empty": "Hiện chưa có logs nào",
           "buttons": {
-            "clear": "Clear logs",
-            "scroll": "Scroll to bottom",
-            "close": "Close"
+            "clear": "Xoá logs",
+            "scroll": "Cuộn xuống dưới cùng",
+            "close": "Đóng"
           }
         },
         "progress-screen": {
-          "close": "Close"
+          "close": "Đóng"
         },
         "project-nav": {
           "tooltips": {
-            "dashboard": "Dashboard",
-            "plugins": "Plugins",
-            "dependencies": "Dependencies",
-            "configuration": "Configuration",
-            "tasks": "Tasks",
-            "more": "More"
+            "dashboard": "Bảng điều khiển",
+            "plugins": "Trình mở rộng",
+            "dependencies": "Phụ thuộc",
+            "configuration": "Cấu hình",
+            "tasks": "Các nhiệm vụ",
+            "more": "Nhiều hơn"
           }
         },
         "project-select-list": {
-          "empty": "No existing projects",
+          "empty": "Không có dự án sẵn có nào",
           "titles": {
-            "favorite": "Favorite projects",
-            "other": "Other projects"
+            "favorite": "Những thư mục yêu thích",
+            "other": "Các dự án khác"
           }
         },
         "project-select-list-item": {
           "tooltips": {
-            "favorite": "Toggle favorite",
-            "delete": "Remove from list",
-            "open-in-editor": "Open in editor"
+            "favorite": "Chuyển sang yêu thích",
+            "delete": "Xoá khỏi danh sách",
+            "open-in-editor": "Mở trong trình soạn thảo"
           }
         },
         "project-plugin-item": {
-          "version": "version",
-          "latest": "latest",
-          "official": "Official",
-          "installed": "Installed",
+          "version": "phiên bản",
+          "latest": "mới nhất",
+          "official": "Chính thức",
+          "installed": "Đã cài đặt ",
           "actions": {
-            "update": "Update {target}",
-            "refresh": "Force Refresh {target}<br><i>Press [Shift] for Quick Refresh (node_modules won't be updated)</i>"
+            "update": "Cập nhật {target}",
+            "refresh": "Bắt buộc làm mới {target}<br><i>Bấm [Shift] để làm mới nhanh (node_modules sẽ không được cập nhật)</i>"
           },
           "local": "Local"
         },
         "project-dependency-item": {
-          "version": "version",
-          "wanted": "wanted",
-          "latest": "latest",
-          "installed": "Installed",
+          "version": "phiên bản",
+          "wanted": "muốn",
+          "latest": "mới nhất",
+          "installed": "Đã cài đặt ",
           "actions": {
-            "update": "Update {target}",
-            "uninstall": "Uninstall {target}"
+            "update": "Cập nhật {target}",
+            "uninstall": "Gỡ bỏ {target}"
           }
         },
         "project-tasks-dropdown": {
           "tooltips": {
-            "tasks": "Tasks",
-            "running-tasks": "{count} running task(s)"
+            "tasks": "Các tác vụ",
+            "running-tasks": "{count} tác vụ đang chạy"
           }
         },
         "prompt-list": {
-          "default": "Default"
+          "default": "Mặc định"
         },
         "prompts-list": {
-          "empty": "No configuration"
+          "empty": "Không có cấu hình"
         },
         "status-bar": {
           "project": {
-            "tooltip": "Click to toggle Project Manager",
-            "empty": "No project open"
+            "tooltip": "Nhấn vào đây để chuyển đổi Trình quản lý dự án",
+            "empty": "Không có dự án nào được mở"
           },
           "path": {
-            "tooltip": "Current Working Folder"
+            "tooltip": "Thư mục làm việc hiện tại"
           },
           "log": {
-            "tooltip": "Logs<br><i>Click to toggle Vue CLI logs</i>",
-            "empty": "No logs yet"
+            "tooltip": "Logs<br><i>Bấm vào đây để chuyển qua Vue CLI logs </i>",
+            "empty": "Hiện chưa có logs nào"
           },
-          "report-bug": "Report bug",
-          "translate": "Help translate",
-          "dark-mode": "Toggle dark mode",
-          "reset-plugin-api": "Refresh plugins API"
+          "report-bug": "Báo cáo bug",
+          "translate": "Trợ giúp dịch ",
+          "dark-mode": "Chuyển qua chế độ đêm",
+          "reset-plugin-api": "Làm mới các API mở rộng"
         },
         "suggestion-bar": {
-          "suggestion": "Suggestion",
+          "suggestion": "Gợi ý",
           "modal": {
-            "cancel": "Cancel",
-            "continue": "Continue"
+            "cancel": "Huỷ",
+            "continue": "Tiếp tục"
           }
         },
         "terminal-view": {
           "buttons": {
-            "clear": "Clear console",
-            "scroll": "Scroll to bottom"
+            "clear": "Làm sạch console",
+            "scroll": "Cuộn xuống dưới cùng"
           }
         },
         "top-bar": {
-          "no-favorites": "No favorite projects",
-          "favorite-projects": "Favorite projects",
-          "recent-projects": "Recent projects",
-          "homepage": "Home page"
+          "no-favorites": "Không có thư mục yêu thích nào",
+          "favorite-projects": "Những thư mục yêu thích",
+          "recent-projects": "Dự án gần đây",
+          "homepage": "Trang chủ"
         },
         "view-badge": {
           "labels": {
             "tasks": {
-              "error": "Error status",
-              "running": "Running status",
-              "done": "Done status"
+              "error": "Trạng thái lỗi",
+              "running": "Trạng thái đang chạy",
+              "done": "Trạng thái hoàn thành"
             }
           }
         },
         "widget": {
-          "remove": "Remove widget",
-          "configure": "Configure widget",
-          "save": "Save",
-          "reset-config": "Reset config",
-          "open-details": "Show more"
+          "remove": "Gỡ bỏ widget",
+          "configure": "Cấu hình widget",
+          "save": "Lưu",
+          "reset-config": "Đặt lại cấu hình",
+          "open-details": "Hiện nhiều hơn"
         },
         "widget-add-pane": {
-          "title": "Add widgets"
+          "title": "Thêm widgets"
         },
         "widget-add-item": {
-          "add": "Add widget",
+          "add": "Thêm widget",
           "details": {
-            "title": "Widget details",
-            "max-instances": "Max instance count: {count}/{total}",
-            "unlimited": "unlimited"
+            "title": "Thông tin widget",
+            "max-instances": "Số lượng instance tối đa: {count}/{total}",
+            "unlimited": "Không giới hạn"
           }
         }
       },
       "mixins": {
         "progress": {
-          "creating": "Creating project...",
-          "git-init": "Initializing git repository...",
-          "plugins-install": "Installing Vue CLI plugins. This might take a while...",
-          "invoking-generators": "Invoking generators...",
-          "deps-install": "Installing additional dependencies...",
+          "creating": "Đang tạo dự án...",
+          "git-init": "Khởi tạo kho lưu trữ git...",
+          "plugins-install": "Đang cài đặt Vue CLI plugins. Có lẽ nó sẽ mất một lúc...",
+          "invoking-generators": "Đang gọi generators...",
+          "deps-install": "Đang cài đặt phụ thuộc bổ sung...",
           "completion-hooks": "Running completion hooks...",
-          "fetch-remote-preset": "Fetching remote preset...",
-          "done": "Successfully created project",
-          "plugin-install": "Installing {arg0}...",
-          "plugin-uninstall": "Uninstalling {arg0}...",
-          "plugin-invoke": "Invoking {arg0}...",
-          "plugin-update": "Updating {arg0}...",
-          "plugins-update": "Updating {arg0} plugins...",
-          "dependency-install": "Installing {arg0}...",
-          "dependency-uninstall": "Uninstalling {arg0}...",
-          "dependency-update": "Updating {arg0}...",
-          "dependencies-update": "Updating {arg0} packages..."
+          "fetch-remote-preset": "Đang nạp các cài đặt từ xa...",
+          "done": "Dự án được tạo thành công",
+          "plugin-install": "Đang cài đặt  {arg0}...",
+          "plugin-uninstall": "Đang gỡ cài đặt {arg0}...",
+          "plugin-invoke": "Đang gọi {arg0}...",
+          "plugin-update": "Đang cập nhật {arg0}...",
+          "plugins-update": "Đang cập nhật {arg0} plugin..",
+          "dependency-install": "Đang cài đặt {arg0}...",
+          "dependency-uninstall": "Đang gỡ cài đặt {arg0}...",
+          "dependency-update": "Đang cập nhật {arg0}...",
+          "dependencies-update": "Đang cập nhật {arg0} gói..."
         }
       },
       "types": {
         "task": {
           "status": {
             "idle": "Idle",
-            "running": "Running",
-            "done": "Done",
-            "error": "Error",
-            "terminated": "Terminated"
+            "running": "Đang chạy",
+            "done": "Hoàn thành",
+            "error": "Lỗi",
+            "terminated": "Chấm dứt"
           }
         }
       },
       "views": {
         "project-select": {
-          "title": "Vue Project Manager",
+          "title": "Quản lý dự án Vue",
           "tabs": {
-            "projects": "Projects",
-            "create": "Create",
-            "import": "Import"
+            "projects": "Các dự án",
+            "create": "Tạo",
+            "import": "Xuất"
           },
           "buttons": {
-            "create": "Create a new project here",
+            "create": "Tạo một dự án mới tại đây",
             "import": "Import this folder"
           },
           "import": {
