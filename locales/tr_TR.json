@@ -4,7 +4,9 @@
       "common": {
         "close": "Kapat",
         "back": "Geri dön",
-        "more-info": "Daha fazla bilgi"
+        "more-info": "Daha fazla bilgi",
+        "show-more": "Show more",
+        "show-less": "Show less"
       },
       "components": {
         "client-addon-component": {
@@ -118,7 +120,11 @@
             "update": "Güncelle {target}",
             "refresh": "Yenilemeye zorla {target}<br> <i>Hızlı yenileme için [Shift] tuşuna basın (node_modules güncellenmeyecek).</i>"
           },
-          "local": "Yerel"
+          "local": "Yerel",
+          "features": {
+            "generator": "This plugin has a generator and can modify your project files and add new files for you.",
+            "ui-integration": "This plugin includes additional UI features like enhanced tasks, configuration screens, dashboard widgets..."
+          }
         },
         "project-dependency-item": {
           "version": "sürüm",
@@ -807,15 +813,22 @@
           "description": "Proje bağımlılarınızdaki bilinen güvenlik açıklarını kontrol edin",
           "messages": {
             "ok": "Güvenlik açığı bulunamadı",
-            "loading": "Güvenlik raporları kontrol ediliyor...",
-            "attention": "{n} güvenlik açığı bulundu"
+            "loading": "Auditing project security...",
+            "attention": "{n} güvenlik açığı bulundu",
+            "error": "Couldn't check for vulnerability"
           },
           "severity": {
+            "critical": "Critical severity",
             "high": "Yüksek önem derecesi",
-            "medium": "Orta önem derecesi",
+            "moderate": "Medium severity",
             "low": "Düşük önem derecesi"
           },
-          "direct-dep": "Doğrudan bağımlılık"
+          "direct-dep": "Doğrudan bağımlılık",
+          "versions": {
+            "vulnerable": "Vulnerable versions:",
+            "patched": "Patched versions:"
+          },
+          "recheck": "Check again"
         },
         "run-task": {
           "title": "Görevi çalıştır",

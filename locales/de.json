@@ -4,7 +4,9 @@
       "common": {
         "close": "Schließen",
         "back": "Gehe zurück",
-        "more-info": "Weitere Informationen"
+        "more-info": "Weitere Informationen",
+        "show-more": "Show more",
+        "show-less": "Show less"
       },
       "components": {
         "client-addon-component": {
@@ -118,7 +120,11 @@
             "update": "Aktualisiere {target}",
             "refresh": "Erzwinge Aktualisierung von {target}<br><i>Drücke [Umschalt] für eine schnelle Aktualisierung (node_modules wird nicht aktualisiert)</i>"
           },
-          "local": "Lokal"
+          "local": "Lokal",
+          "features": {
+            "generator": "Dieses Plugin beinhaltet einen Generator und kann deine Projektdateien ändern und neue Dateien für dich hinzufügen.",
+            "ui-integration": "Dieses Plugin beinhaltet zusätzliche UI-Funktionen wie erweiterte Aufgaben, Konfigurationsansichten, Dashboard-Widgets…"
+          }
         },
         "project-dependency-item": {
           "version": "Version",
@@ -807,15 +813,22 @@
           "description": "Prüfe auf bekannte Schwachstellen in deinen Projektabhängigkeiten",
           "messages": {
             "ok": "Keine Schwachstelle gefunden",
-            "loading": "Sicherheitsberichte werden geprüft...",
-            "attention": "{n} Schwachstellen gefunden"
+            "loading": "Auditing project security...",
+            "attention": "{n} Schwachstellen gefunden",
+            "error": "Couldn't check for vulnerability"
           },
           "severity": {
+            "critical": "Critical severity",
             "high": "Hoher Schweregrad",
-            "medium": "Mittlerer Schweregrad",
+            "moderate": "Medium severity",
             "low": "Geringer Schweregrad"
           },
-          "direct-dep": "Direkte Abhängigkeit"
+          "direct-dep": "Direkte Abhängigkeit",
+          "versions": {
+            "vulnerable": "Vulnerable versions:",
+            "patched": "Patched versions:"
+          },
+          "recheck": "Check again"
         },
         "run-task": {
           "title": "Aufgabe ausführen",

@@ -4,7 +4,9 @@
       "common": {
         "close": "关闭",
         "back": "返回",
-        "more-info": "更多信息"
+        "more-info": "更多信息",
+        "show-more": "Show more",
+        "show-less": "Show less"
       },
       "components": {
         "client-addon-component": {
@@ -118,7 +120,11 @@
             "update": "更新 {target}",
             "refresh": "强制刷新 {target}<br><i>按 [Shift] 快速刷新 (node_modules 不会更新)</i>"
           },
-          "local": "Local"
+          "local": "Local",
+          "features": {
+            "generator": "This plugin has a generator and can modify your project files and add new files for you.",
+            "ui-integration": "This plugin includes additional UI features like enhanced tasks, configuration screens, dashboard widgets..."
+          }
         },
         "project-dependency-item": {
           "version": "版本",
@@ -807,15 +813,22 @@
           "description": "检查项目依赖中已知的安全隐患",
           "messages": {
             "ok": "未发现安全隐患",
-            "loading": "Checking security reports...",
-            "attention": "发现 {n} 个安全隐患"
+            "loading": "Auditing project security...",
+            "attention": "发现 {n} 个安全隐患",
+            "error": "Couldn't check for vulnerability"
           },
           "severity": {
+            "critical": "Critical severity",
             "high": "高优先级",
-            "medium": "中优先级",
+            "moderate": "Medium severity",
             "low": "低优先级"
           },
-          "direct-dep": "Direct dependency"
+          "direct-dep": "Direct dependency",
+          "versions": {
+            "vulnerable": "Vulnerable versions:",
+            "patched": "Patched versions:"
+          },
+          "recheck": "Check again"
         },
         "run-task": {
           "title": "运行任务",

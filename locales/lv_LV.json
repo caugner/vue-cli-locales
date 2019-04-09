@@ -4,7 +4,9 @@
       "common": {
         "close": "Aizvērt",
         "back": "Atgriezties",
-        "more-info": "Papildinformācija"
+        "more-info": "Papildinformācija",
+        "show-more": "Show more",
+        "show-less": "Show less"
       },
       "components": {
         "client-addon-component": {
@@ -118,7 +120,11 @@
             "update": "Atjaunot  {target}",
             "refresh": "Piespiedu Atsvaidzināšana {target}<br><i>Nospiediet [Shift] lai veiktu Ātro Asvaidzināšanu (node_modules mapes netiks atjaunotas)</i>"
           },
-          "local": "Lokāls"
+          "local": "Lokāls",
+          "features": {
+            "generator": "This plugin has a generator and can modify your project files and add new files for you.",
+            "ui-integration": "This plugin includes additional UI features like enhanced tasks, configuration screens, dashboard widgets..."
+          }
         },
         "project-dependency-item": {
           "version": "versija",
@@ -807,15 +813,22 @@
           "description": "Pārbaudīt zināmās ievainojamības projekta atkarībās",
           "messages": {
             "ok": "Neatrada ievainojamības",
-            "loading": "Pārbauda drošības pārskatus...",
-            "attention": "{n} ievainojamības atrastas"
+            "loading": "Auditing project security...",
+            "attention": "{n} ievainojamības atrastas",
+            "error": "Couldn't check for vulnerability"
           },
           "severity": {
+            "critical": "Critical severity",
             "high": "Augsta smaguma pakāpe",
-            "medium": "Vidēja smaguma pakāpe",
+            "moderate": "Medium severity",
             "low": "Zema smaguma pakāpe"
           },
-          "direct-dep": "Tiešā atkarība"
+          "direct-dep": "Tiešā atkarība",
+          "versions": {
+            "vulnerable": "Vulnerable versions:",
+            "patched": "Patched versions:"
+          },
+          "recheck": "Check again"
         },
         "run-task": {
           "title": "Palaist uzdevumu",

@@ -4,7 +4,9 @@
       "common": {
         "close": "Kapat",
         "back": "Geri dön",
-        "more-info": "Daha fazla bilgi"
+        "more-info": "Daha fazla bilgi",
+        "show-more": "Show more",
+        "show-less": "Show less"
       },
       "components": {
         "client-addon-component": {
@@ -118,7 +120,11 @@
             "update": "Güncelle {target}",
             "refresh": "Force Refresh {target}<br><i>Press [Shift] for Quick Refresh (node_modules won't be updated)</i>"
           },
-          "local": "Yerel"
+          "local": "Yerel",
+          "features": {
+            "generator": "This plugin has a generator and can modify your project files and add new files for you.",
+            "ui-integration": "This plugin includes additional UI features like enhanced tasks, configuration screens, dashboard widgets..."
+          }
         },
         "project-dependency-item": {
           "version": "versiyon",
@@ -807,15 +813,22 @@
           "description": "Check for known vulnerabilities in your project dependencies",
           "messages": {
             "ok": "Açık bulunamadı",
-            "loading": "Güvenlik raporları kontrol ediliyor...",
-            "attention": "{n} açık bulundu"
+            "loading": "Auditing project security...",
+            "attention": "{n} açık bulundu",
+            "error": "Couldn't check for vulnerability"
           },
           "severity": {
+            "critical": "Critical severity",
             "high": "Yüksek önem",
-            "medium": "Orta önem",
+            "moderate": "Medium severity",
             "low": "Düşük önem"
           },
-          "direct-dep": "Direkt bağımlılık"
+          "direct-dep": "Direkt bağımlılık",
+          "versions": {
+            "vulnerable": "Vulnerable versions:",
+            "patched": "Patched versions:"
+          },
+          "recheck": "Check again"
         },
         "run-task": {
           "title": "Görevi çalıştır",

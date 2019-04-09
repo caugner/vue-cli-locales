@@ -4,7 +4,9 @@
       "common": {
         "close": "關閉",
         "back": "返回",
-        "more-info": "更多訊息"
+        "more-info": "更多訊息",
+        "show-more": "Show more",
+        "show-less": "Show less"
       },
       "components": {
         "client-addon-component": {
@@ -118,7 +120,11 @@
             "update": "更新 {target}",
             "refresh": "強制重新整理 {target} <br> <i> 按下 [Shift] 以快速重新整理 (node_modules 將不會被更新)"
           },
-          "local": "本地"
+          "local": "本地",
+          "features": {
+            "generator": "This plugin has a generator and can modify your project files and add new files for you.",
+            "ui-integration": "This plugin includes additional UI features like enhanced tasks, configuration screens, dashboard widgets..."
+          }
         },
         "project-dependency-item": {
           "version": "版本",
@@ -807,15 +813,22 @@
           "description": "在依賴中檢查已知的漏洞。",
           "messages": {
             "ok": "沒有發現漏洞",
-            "loading": "檢視安全報告",
-            "attention": "{n} 個漏洞被發現"
+            "loading": "Auditing project security...",
+            "attention": "{n} 個漏洞被發現",
+            "error": "Couldn't check for vulnerability"
           },
           "severity": {
+            "critical": "Critical severity",
             "high": "高危險性",
-            "medium": "中危險性",
+            "moderate": "Medium severity",
             "low": "低危險性"
           },
-          "direct-dep": "直接依賴"
+          "direct-dep": "直接依賴",
+          "versions": {
+            "vulnerable": "Vulnerable versions:",
+            "patched": "Patched versions:"
+          },
+          "recheck": "Check again"
         },
         "run-task": {
           "title": "執行任務",

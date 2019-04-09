@@ -4,7 +4,9 @@
       "common": {
         "close": "닫기",
         "back": "뒤로가기",
-        "more-info": "더보기"
+        "more-info": "더보기",
+        "show-more": "Show more",
+        "show-less": "Show less"
       },
       "components": {
         "client-addon-component": {
@@ -118,7 +120,11 @@
             "update": "업데이트 {target}",
             "refresh": "{target}을 강제로 새로 고침합니다.<br><i> 빠른 새로 고침을 위해 [Shift] 키를 누릅니다. (node_modules가 업데이트되지 않음)</i>"
           },
-          "local": "로컬"
+          "local": "로컬",
+          "features": {
+            "generator": "This plugin has a generator and can modify your project files and add new files for you.",
+            "ui-integration": "This plugin includes additional UI features like enhanced tasks, configuration screens, dashboard widgets..."
+          }
         },
         "project-dependency-item": {
           "version": "버전",
@@ -807,15 +813,22 @@
           "description": "프로젝트 의존성에서 알려진 취약점을 확인합니다",
           "messages": {
             "ok": "취약점이 없습니다.",
-            "loading": "보안 결과를 확인합니다",
-            "attention": "취약점 {n}개 발견"
+            "loading": "Auditing project security...",
+            "attention": "취약점 {n}개 발견",
+            "error": "Couldn't check for vulnerability"
           },
           "severity": {
+            "critical": "Critical severity",
             "high": "높은 심각성",
-            "medium": "중간 심각성",
+            "moderate": "Medium severity",
             "low": "낮은 심각성"
           },
-          "direct-dep": "직접적인 의존성"
+          "direct-dep": "직접적인 의존성",
+          "versions": {
+            "vulnerable": "Vulnerable versions:",
+            "patched": "Patched versions:"
+          },
+          "recheck": "Check again"
         },
         "run-task": {
           "title": "태스크 실행",

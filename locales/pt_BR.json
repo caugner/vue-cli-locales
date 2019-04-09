@@ -4,7 +4,9 @@
       "common": {
         "close": "Fechar",
         "back": "Voltar",
-        "more-info": "Mais informações"
+        "more-info": "Mais informações",
+        "show-more": "Show more",
+        "show-less": "Show less"
       },
       "components": {
         "client-addon-component": {
@@ -118,7 +120,11 @@
             "update": "Atualizar {target}",
             "refresh": "Forçar recarregamento {target} <br> Pressione [Shift] para Recarregamento Rápido (node_modules não serão atualizados)</i>"
           },
-          "local": "Local"
+          "local": "Local",
+          "features": {
+            "generator": "This plugin has a generator and can modify your project files and add new files for you.",
+            "ui-integration": "This plugin includes additional UI features like enhanced tasks, configuration screens, dashboard widgets..."
+          }
         },
         "project-dependency-item": {
           "version": "versão",
@@ -807,15 +813,22 @@
           "description": "Verifique se há vulnerabilidades conhecidas nas dependências do seu projeto",
           "messages": {
             "ok": "Nenhuma vulnerabilidade encontrada",
-            "loading": "Verificando relatórios de segurança...",
-            "attention": "{n} vulnerabilidades encontradas"
+            "loading": "Auditing project security...",
+            "attention": "{n} vulnerabilidades encontradas",
+            "error": "Couldn't check for vulnerability"
           },
           "severity": {
+            "critical": "Critical severity",
             "high": "Alta severidade",
-            "medium": "Severidade média",
+            "moderate": "Medium severity",
             "low": "Baixa severidade"
           },
-          "direct-dep": "Dependência direta"
+          "direct-dep": "Dependência direta",
+          "versions": {
+            "vulnerable": "Vulnerable versions:",
+            "patched": "Patched versions:"
+          },
+          "recheck": "Check again"
         },
         "run-task": {
           "title": "Iniciar tarefa",

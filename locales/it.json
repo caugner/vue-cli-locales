@@ -4,7 +4,9 @@
       "common": {
         "close": "Chiudi",
         "back": "Indietro",
-        "more-info": "Maggiori informazioni"
+        "more-info": "Maggiori informazioni",
+        "show-more": "Show more",
+        "show-less": "Show less"
       },
       "components": {
         "client-addon-component": {
@@ -118,7 +120,11 @@
             "update": "Aggiorna {target}",
             "refresh": "Forza l’aggiornamento di {target}<br><i>Premi [Maiuscolo] per l'Aggiornamento Rapido (non aggiorna node_modules)</i>"
           },
-          "local": "Locale"
+          "local": "Locale",
+          "features": {
+            "generator": "This plugin has a generator and can modify your project files and add new files for you.",
+            "ui-integration": "This plugin includes additional UI features like enhanced tasks, configuration screens, dashboard widgets..."
+          }
         },
         "project-dependency-item": {
           "version": "versione",
@@ -807,15 +813,22 @@
           "description": "Verifica le dipendenze di progetto rispetto a vulnerabilità conosciute",
           "messages": {
             "ok": "Nessuna vulnerabilità riscontrata",
-            "loading": "Verifica report di sicurezza...",
-            "attention": "{n} vulnerabilità trovate"
+            "loading": "Auditing project security...",
+            "attention": "{n} vulnerabilità trovate",
+            "error": "Couldn't check for vulnerability"
           },
           "severity": {
+            "critical": "Critical severity",
             "high": "Alto impatto",
-            "medium": "Impatto medio",
+            "moderate": "Medium severity",
             "low": "Basso impatto"
           },
-          "direct-dep": "Dipendenza diretta"
+          "direct-dep": "Dipendenza diretta",
+          "versions": {
+            "vulnerable": "Vulnerable versions:",
+            "patched": "Patched versions:"
+          },
+          "recheck": "Check again"
         },
         "run-task": {
           "title": "Esegui il task",

@@ -4,7 +4,9 @@
       "common": {
         "close": "Затвори",
         "back": "Върни се",
-        "more-info": "Повече информация"
+        "more-info": "Повече информация",
+        "show-more": "Show more",
+        "show-less": "Show less"
       },
       "components": {
         "client-addon-component": {
@@ -118,7 +120,11 @@
             "update": "Обнови {target}",
             "refresh": "Обнови на сила {target}<br><i>Натисни [Shift] за бързо обновяване (node_modules няма да се обнови)</i>"
           },
-          "local": "Локален"
+          "local": "Локален",
+          "features": {
+            "generator": "This plugin has a generator and can modify your project files and add new files for you.",
+            "ui-integration": "This plugin includes additional UI features like enhanced tasks, configuration screens, dashboard widgets..."
+          }
         },
         "project-dependency-item": {
           "version": "версия",
@@ -807,15 +813,22 @@
           "description": "Провери за често срещани уязвимости в зависимостите на проекта",
           "messages": {
             "ok": "Не са намерени уязвимости",
-            "loading": "Проверка на докладите за сигурност...",
-            "attention": "{n} намерени уязвимости"
+            "loading": "Auditing project security...",
+            "attention": "{n} намерени уязвимости",
+            "error": "Couldn't check for vulnerability"
           },
           "severity": {
+            "critical": "Critical severity",
             "high": "Висока заплаха",
-            "medium": "Средна заплаха",
+            "moderate": "Medium severity",
             "low": "Ниска заплаха"
           },
-          "direct-dep": "Директни зависимости"
+          "direct-dep": "Директни зависимости",
+          "versions": {
+            "vulnerable": "Vulnerable versions:",
+            "patched": "Patched versions:"
+          },
+          "recheck": "Check again"
         },
         "run-task": {
           "title": "Изпълни задача",

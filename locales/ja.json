@@ -4,7 +4,9 @@
       "common": {
         "close": "閉じる",
         "back": "戻る",
-        "more-info": "詳細情報"
+        "more-info": "詳細情報",
+        "show-more": "Show more",
+        "show-less": "Show less"
       },
       "components": {
         "client-addon-component": {
@@ -118,7 +120,11 @@
             "update": "{target} を更新する",
             "refresh": "強制リフレッシュ {target}<br><i> [シフト] を押すとクイックリフレッシュ (node_modules は更新されません)</i>"
           },
-          "local": "ローカル"
+          "local": "ローカル",
+          "features": {
+            "generator": "This plugin has a generator and can modify your project files and add new files for you.",
+            "ui-integration": "This plugin includes additional UI features like enhanced tasks, configuration screens, dashboard widgets..."
+          }
         },
         "project-dependency-item": {
           "version": "バージョン",
@@ -807,15 +813,22 @@
           "description": "プロジェクトの依存関係の中で既知の脆弱性をチェックする",
           "messages": {
             "ok": "脆弱性は見つかりません",
-            "loading": "セキュリティレポートの確認中...",
-            "attention": "{n}個の脆弱性が見つかりました"
+            "loading": "Auditing project security...",
+            "attention": "{n}個の脆弱性が見つかりました",
+            "error": "Couldn't check for vulnerability"
           },
           "severity": {
+            "critical": "Critical severity",
             "high": "大規模な損害",
-            "medium": "中規模な損害",
+            "moderate": "Medium severity",
             "low": "小規模な損害"
           },
-          "direct-dep": "直接の依存"
+          "direct-dep": "直接の依存",
+          "versions": {
+            "vulnerable": "Vulnerable versions:",
+            "patched": "Patched versions:"
+          },
+          "recheck": "Check again"
         },
         "run-task": {
           "title": "タスクの実行",

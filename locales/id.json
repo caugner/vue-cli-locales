@@ -4,7 +4,9 @@
       "common": {
         "close": "Tutup",
         "back": "Kembali",
-        "more-info": "Info lebih"
+        "more-info": "Info lebih",
+        "show-more": "Show more",
+        "show-less": "Show less"
       },
       "components": {
         "client-addon-component": {
@@ -118,7 +120,11 @@
             "update": "Barui {target}",
             "refresh": "Muat ulang keras {target}<br><i>Tekan [Shift] untuk Muat Ulang Cepat (node_modules tidak akan diperbarui)</i>"
           },
-          "local": "Lokal"
+          "local": "Lokal",
+          "features": {
+            "generator": "This plugin has a generator and can modify your project files and add new files for you.",
+            "ui-integration": "This plugin includes additional UI features like enhanced tasks, configuration screens, dashboard widgets..."
+          }
         },
         "project-dependency-item": {
           "version": "Versi",
@@ -807,15 +813,22 @@
           "description": "Cek untuk kerentanan yang dikenal di dalam dependencies proyek anda",
           "messages": {
             "ok": "Tidak ada kerentanan ditemukan",
-            "loading": "Mengecek laporan keamanan...",
-            "attention": "{n} kerentanan ditemukan"
+            "loading": "Auditing project security...",
+            "attention": "{n} kerentanan ditemukan",
+            "error": "Couldn't check for vulnerability"
           },
           "severity": {
+            "critical": "Critical severity",
             "high": "Keparahan tinggi",
-            "medium": "Keparahan sedang",
+            "moderate": "Medium severity",
             "low": "Keparahan rendah"
           },
-          "direct-dep": "Dependency langsung"
+          "direct-dep": "Dependency langsung",
+          "versions": {
+            "vulnerable": "Vulnerable versions:",
+            "patched": "Patched versions:"
+          },
+          "recheck": "Check again"
         },
         "run-task": {
           "title": "Jalankan tugas",

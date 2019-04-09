@@ -4,7 +4,9 @@
       "common": {
         "close": "Luk",
         "back": "Gå tilbage",
-        "more-info": "Mere info"
+        "more-info": "Mere info",
+        "show-more": "Show more",
+        "show-less": "Show less"
       },
       "components": {
         "client-addon-component": {
@@ -118,7 +120,11 @@
             "update": "Opdatering {target}",
             "refresh": "Force Refresh {target}<br><i>Press [Shift] for Quick Refresh (node_modules won't be updated)</i>"
           },
-          "local": "Lokal"
+          "local": "Lokal",
+          "features": {
+            "generator": "This plugin has a generator and can modify your project files and add new files for you.",
+            "ui-integration": "This plugin includes additional UI features like enhanced tasks, configuration screens, dashboard widgets..."
+          }
         },
         "project-dependency-item": {
           "version": "version",
@@ -807,15 +813,22 @@
           "description": "Kontroller for kendte sårbarheder i dit projkts afhængigheder",
           "messages": {
             "ok": "Ingen sårbarheder fundet",
-            "loading": "Kontrollerer sikkerheds rapporter...",
-            "attention": "{n} sårbarheder fundet"
+            "loading": "Auditing project security...",
+            "attention": "{n} sårbarheder fundet",
+            "error": "Couldn't check for vulnerability"
           },
           "severity": {
+            "critical": "Critical severity",
             "high": "Høj alvorlighed",
-            "medium": "Medium alvorlighed",
+            "moderate": "Medium severity",
             "low": "Lav alvorlighed"
           },
-          "direct-dep": "Direkte afhængighed"
+          "direct-dep": "Direkte afhængighed",
+          "versions": {
+            "vulnerable": "Vulnerable versions:",
+            "patched": "Patched versions:"
+          },
+          "recheck": "Check again"
         },
         "run-task": {
           "title": "Kør opgave",

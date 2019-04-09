@@ -4,7 +4,9 @@
       "common": {
         "close": "Закрити",
         "back": "Назад",
-        "more-info": "Детальніше"
+        "more-info": "Детальніше",
+        "show-more": "Show more",
+        "show-less": "Show less"
       },
       "components": {
         "client-addon-component": {
@@ -118,7 +120,11 @@
             "update": "Оновити {target}",
             "refresh": "Примусове оновлення {target} <br> <i>Нажміть [Shift] для швидкого оновлення (node_modules не буде оновлено) </i>"
           },
-          "local": "Локальний"
+          "local": "Локальний",
+          "features": {
+            "generator": "This plugin has a generator and can modify your project files and add new files for you.",
+            "ui-integration": "This plugin includes additional UI features like enhanced tasks, configuration screens, dashboard widgets..."
+          }
         },
         "project-dependency-item": {
           "version": "версія",
@@ -807,15 +813,22 @@
           "description": "Перевірте наявність відомих вразливостей у ваших залежностях за проектом",
           "messages": {
             "ok": "Не знайдено жодної вразливості",
-            "loading": "Перевірка звітів про безпеку...",
-            "attention": "Виявлено {n} вразливості"
+            "loading": "Auditing project security...",
+            "attention": "Виявлено {n} вразливості",
+            "error": "Couldn't check for vulnerability"
           },
           "severity": {
+            "critical": "Critical severity",
             "high": "Висока ступінь",
-            "medium": "Середня ступінь",
+            "moderate": "Medium severity",
             "low": "Низька ступінь"
           },
-          "direct-dep": "Пряма залежність"
+          "direct-dep": "Пряма залежність",
+          "versions": {
+            "vulnerable": "Vulnerable versions:",
+            "patched": "Patched versions:"
+          },
+          "recheck": "Check again"
         },
         "run-task": {
           "title": "Виконати завдання",
