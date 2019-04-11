@@ -175,7 +175,8 @@
         "terminal-view": {
           "buttons": {
             "clear": "Nettoyer la console",
-            "scroll": "Défiler en bas"
+            "scroll": "Défiler en bas",
+            "content-copy": "Copy content"
           }
         },
         "top-bar": {
@@ -434,7 +435,8 @@
           }
         },
         "project-tasks": {
-          "title": "Tâches du projet"
+          "title": "Tâches du projet",
+          "refresh": "Refresh tasks"
         },
         "project-task-details": {
           "actions": {

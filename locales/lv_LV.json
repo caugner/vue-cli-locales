@@ -175,7 +175,8 @@
         "terminal-view": {
           "buttons": {
             "clear": "Notīrīt konsoli",
-            "scroll": "Ritināt līdz apakšai"
+            "scroll": "Ritināt līdz apakšai",
+            "content-copy": "Copy content"
           }
         },
         "top-bar": {
@@ -434,7 +435,8 @@
           }
         },
         "project-tasks": {
-          "title": "Projekta uzdevumi"
+          "title": "Projekta uzdevumi",
+          "refresh": "Refresh tasks"
         },
         "project-task-details": {
           "actions": {

@@ -175,7 +175,8 @@
         "terminal-view": {
           "buttons": {
             "clear": "Konsolu temizle",
-            "scroll": "Alta kaydır"
+            "scroll": "Alta kaydır",
+            "content-copy": "Copy content"
           }
         },
         "top-bar": {
@@ -434,7 +435,8 @@
           }
         },
         "project-tasks": {
-          "title": "Proje Görevleri"
+          "title": "Proje Görevleri",
+          "refresh": "Refresh tasks"
         },
         "project-task-details": {
           "actions": {

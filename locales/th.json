@@ -175,7 +175,8 @@
         "terminal-view": {
           "buttons": {
             "clear": "ล้างคอนโซล",
-            "scroll": "เลื่อนจอไปยังข้างล่างสุด"
+            "scroll": "เลื่อนจอไปยังข้างล่างสุด",
+            "content-copy": "Copy content"
           }
         },
         "top-bar": {
@@ -434,7 +435,8 @@
           }
         },
         "project-tasks": {
-          "title": "รายการงานของโครงการ"
+          "title": "รายการงานของโครงการ",
+          "refresh": "Refresh tasks"
         },
         "project-task-details": {
           "actions": {

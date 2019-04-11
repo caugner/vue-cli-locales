@@ -175,7 +175,8 @@
         "terminal-view": {
           "buttons": {
             "clear": "清空",
-            "scroll": "至底部"
+            "scroll": "至底部",
+            "content-copy": "Copy content"
           }
         },
         "top-bar": {
@@ -434,7 +435,8 @@
           }
         },
         "project-tasks": {
-          "title": "任務"
+          "title": "任務",
+          "refresh": "Refresh tasks"
         },
         "project-task-details": {
           "actions": {

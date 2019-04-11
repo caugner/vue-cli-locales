@@ -175,7 +175,8 @@
         "terminal-view": {
           "buttons": {
             "clear": "Tyhjennä konsoli",
-            "scroll": "Vieritä alas"
+            "scroll": "Vieritä alas",
+            "content-copy": "Copy content"
           }
         },
         "top-bar": {
@@ -434,7 +435,8 @@
           }
         },
         "project-tasks": {
-          "title": "Projektin tehtävät"
+          "title": "Projektin tehtävät",
+          "refresh": "Refresh tasks"
         },
         "project-task-details": {
           "actions": {

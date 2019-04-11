@@ -175,7 +175,8 @@
         "terminal-view": {
           "buttons": {
             "clear": "Bersihkan console",
-            "scroll": "Scroll ke akhir"
+            "scroll": "Scroll ke akhir",
+            "content-copy": "Copy content"
           }
         },
         "top-bar": {
@@ -434,7 +435,8 @@
           }
         },
         "project-tasks": {
-          "title": "Tugas Proyek"
+          "title": "Tugas Proyek",
+          "refresh": "Refresh tasks"
         },
         "project-task-details": {
           "actions": {

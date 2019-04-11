@@ -175,7 +175,8 @@
         "terminal-view": {
           "buttons": {
             "clear": "Konzol törlése",
-            "scroll": "Ugrás az aljára"
+            "scroll": "Ugrás az aljára",
+            "content-copy": "Copy content"
           }
         },
         "top-bar": {
@@ -434,7 +435,8 @@
           }
         },
         "project-tasks": {
-          "title": "Projekt feladatok"
+          "title": "Projekt feladatok",
+          "refresh": "Refresh tasks"
         },
         "project-task-details": {
           "actions": {

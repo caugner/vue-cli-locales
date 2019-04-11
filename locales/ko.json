@@ -175,7 +175,8 @@
         "terminal-view": {
           "buttons": {
             "clear": "콘솔 지우기",
-            "scroll": "맨 아래로 이동"
+            "scroll": "맨 아래로 이동",
+            "content-copy": "Copy content"
           }
         },
         "top-bar": {
@@ -434,7 +435,8 @@
           }
         },
         "project-tasks": {
-          "title": "프로젝트 태스크"
+          "title": "프로젝트 태스크",
+          "refresh": "Refresh tasks"
         },
         "project-task-details": {
           "actions": {

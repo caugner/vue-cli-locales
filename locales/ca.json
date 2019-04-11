@@ -175,7 +175,8 @@
         "terminal-view": {
           "buttons": {
             "clear": "Esborra la consola",
-            "scroll": "Desplaça fins al final"
+            "scroll": "Desplaça fins al final",
+            "content-copy": "Copy content"
           }
         },
         "top-bar": {
@@ -434,7 +435,8 @@
           }
         },
         "project-tasks": {
-          "title": "Tasques del projecte"
+          "title": "Tasques del projecte",
+          "refresh": "Refresh tasks"
         },
         "project-task-details": {
           "actions": {

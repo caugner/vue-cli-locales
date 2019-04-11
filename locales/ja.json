@@ -175,7 +175,8 @@
         "terminal-view": {
           "buttons": {
             "clear": "コンソールをクリア",
-            "scroll": "最下部にスクロール"
+            "scroll": "最下部にスクロール",
+            "content-copy": "Copy content"
           }
         },
         "top-bar": {
@@ -434,7 +435,8 @@
           }
         },
         "project-tasks": {
-          "title": "プロジェクトタスク"
+          "title": "プロジェクトタスク",
+          "refresh": "Refresh tasks"
         },
         "project-task-details": {
           "actions": {

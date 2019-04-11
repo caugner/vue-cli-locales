@@ -175,7 +175,8 @@
         "terminal-view": {
           "buttons": {
             "clear": "Очистити консоль",
-            "scroll": "Проскролити вниз"
+            "scroll": "Проскролити вниз",
+            "content-copy": "Copy content"
           }
         },
         "top-bar": {
@@ -434,7 +435,8 @@
           }
         },
         "project-tasks": {
-          "title": "Завдання проекту"
+          "title": "Завдання проекту",
+          "refresh": "Refresh tasks"
         },
         "project-task-details": {
           "actions": {
