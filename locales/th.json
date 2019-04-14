@@ -448,7 +448,11 @@
           "command": "คำสั่งสคริปต์",
           "parameters": "พารามิเตอร์",
           "more-info": "ข้อมูลเพิ่มเติม",
-          "output": "เอาท์พุต"
+          "output": "เอาท์พุต",
+          "override-args": {
+            "message": "Override hard-coded arguments",
+            "description": "If enabled, hard-coded arguments in your package.json file will be replaced with the values defined below"
+          }
         },
         "project-dependencies": {
           "title": "Project dependencies",

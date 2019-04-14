@@ -448,7 +448,11 @@
           "command": "脚本命令",
           "parameters": "变量",
           "more-info": "查看详情",
-          "output": "输出"
+          "output": "输出",
+          "override-args": {
+            "message": "Override hard-coded arguments",
+            "description": "If enabled, hard-coded arguments in your package.json file will be replaced with the values defined below"
+          }
         },
         "project-dependencies": {
           "title": "项目依赖",

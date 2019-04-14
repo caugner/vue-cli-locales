@@ -5,8 +5,8 @@
         "close": "Đóng",
         "back": "Quay lại",
         "more-info": "Xem thêm",
-        "show-more": "Show more",
-        "show-less": "Show less"
+        "show-more": "Hiện nhiều hơn",
+        "show-less": "Ẩn bớt"
       },
       "components": {
         "client-addon-component": {
@@ -122,8 +122,8 @@
           },
           "local": "Local",
           "features": {
-            "generator": "This plugin has a generator and can modify your project files and add new files for you.",
-            "ui-integration": "This plugin includes additional UI features like enhanced tasks, configuration screens, dashboard widgets..."
+            "generator": "Plugin này có một trình tạo và có thể sửa đổi các tệp dự án của bạn và thêm các tệp mới cho bạn.",
+            "ui-integration": "Plugin này bao gồm các tính năng UI bổ sung như tác vụ nâng cao, màn hình cấu hình, tiện ích bảng điều khiển ..."
           }
         },
         "project-dependency-item": {
@@ -139,7 +139,7 @@
         "project-tasks-dropdown": {
           "tooltips": {
             "tasks": "Các tác vụ",
-            "running-tasks": "{count} tác vụ đang chạy"
+            "running-tasks": "{count} tác vụ đang chạy(s)"
           }
         },
         "prompt-list": {
@@ -237,7 +237,7 @@
       "types": {
         "task": {
           "status": {
-            "idle": "Idle",
+            "idle": "Nhàn rỗi",
             "running": "Đang chạy",
             "done": "Hoàn thành",
             "error": "Lỗi",
@@ -255,128 +255,128 @@
           },
           "buttons": {
             "create": "Tạo một dự án mới tại đây",
-            "import": "Import this folder"
+            "import": "Import thư mục này"
           },
           "import": {
             "no-modules": {
-              "title": "Missing modules",
-              "message": "It seems the project is missing the 'node_modules' folder. Please check you installed the dependencies before importing.",
-              "close": "Got it"
+              "title": "Thiếu các mô-đun",
+              "message": "Có vẻ như dự án đang thiếu thư mục 'node_modules'. Vui lòng kiểm tra bạn đã cài đặt các phụ thuộc trước khi import.",
+              "close": "Hiểu rồi"
             },
             "force": "Import anyway"
           }
         },
         "project-create": {
-          "title": "Create a new project",
+          "title": "Tạo một dự án mới",
           "tabs": {
             "details": {
-              "title": "Details",
+              "title": "Chi tiết",
               "form": {
                 "folder": {
-                  "label": "Project folder",
-                  "placeholder": "Type a name",
-                  "tooltip": "Change base folder",
-                  "action": "Select this folder",
-                  "folder-exists": "This folder already exists",
-                  "folder-name-invalid": "Folder name invalid"
+                  "label": "Thư mục dự án",
+                  "placeholder": "Nhập tên",
+                  "tooltip": "Thay đổi thư mục cơ sở",
+                  "action": "Chọn thư mục này",
+                  "folder-exists": "Thư mục này đã tồn tại",
+                  "folder-name-invalid": "Tên thư mục không hợp lệ"
                 },
                 "manager": {
-                  "label": "Package manager",
-                  "default": "Default"
+                  "label": "Quản lý Package",
+                  "default": "Mặc định"
                 },
                 "options": {
-                  "label": "Additional options",
-                  "force": "Overwrite target folder if it exists",
-                  "bare": "Scaffold project without beginner instructions",
-                  "git-title": "Git repository",
-                  "git": "Initialize git repository (recommended)",
-                  "git-commit-message": "Initial commit message (optional)"
+                  "label": "Tùy chọn bổ sung",
+                  "force": "Ghi đè thư mục đích nếu nó tồn tại",
+                  "bare": "Tự động tạo dự án không có hướng dẫn cho người mới bắt đầu",
+                  "git-title": "Kho Git",
+                  "git": "Khởi tạo kho git (khuyên dùng)",
+                  "git-commit-message": "Khởi tạo chú thích cho commit (tùy chọn)"
                 }
               },
               "buttons": {
-                "cancel": "Cancel",
-                "next": "Next"
+                "cancel": "Huỷ",
+                "next": "Tiếp theo"
               },
               "modal": {
-                "title": "Cancel and reset project creation",
-                "body": "Are you sure you want to reset the project creation?",
+                "title": "Hủy bỏ và thiết lập lại dự án",
+                "body": "Bạn có chắc chắn muốn thiết lập lại việc tạo dự án?",
                 "buttons": {
-                  "back": "Go back",
-                  "clear": "Clear project"
+                  "back": "Quay lại",
+                  "clear": "Xóa dự án"
                 }
               }
             },
             "presets": {
-              "title": "Presets",
-              "description": "A preset is an association of plugins and configurations. After you've selected features, you can optionally save it as a preset so that you can reuse it for future projects, without having to reconfigure everything again.",
-              "select": "Select a preset",
+              "title": "Các cài đặt sẵn",
+              "description": "Một cài đặt sẵn là một sự kết hợp của các plugin và cấu hình. Sau khi bạn đã chọn các tính năng, bạn có thể tùy ý lưu nó dưới dạng cài đặt sẵn để bạn có thể sử dụng lại cho các dự án trong tương lai mà không phải cấu hình lại mọi thứ một lần nữa.",
+              "select": "Chọn một cài đặt sẵn ",
               "buttons": {
-                "previous": "Previous",
-                "next": "Next",
-                "create": "Create Project"
+                "previous": "Trước",
+                "next": "Sau",
+                "create": "Tạo một dự án"
               },
               "modal": {
-                "title": "Configure Remote preset",
-                "body": "Available soon..."
+                "title": "Cấu hình cho cài đặt từ xa",
+                "body": "Sắp ra mắt..."
               },
               "manual": {
-                "name": "Manual",
-                "description": "Manually select features"
+                "name": "Hướng dẫn sử dụng",
+                "description": "Chọn thủ công các tính năng"
               },
               "remote": {
-                "name": "Remote preset",
-                "description": "Fetch a preset from a git repository",
+                "name": "Cài đặt từ xa",
+                "description": "Lấy một cài đặt sẵn từ kho git",
                 "url": {
-                  "title": "Preset URL",
-                  "subtitle": "Git repo, for example 'username/repo'. You can also prefix with 'gitlab:' or 'bitbucket:'."
+                  "title": "URL của cài đặt sẵn ",
+                  "subtitle": "Git repo, ví dụ  'username/repo'. Bạn cũng có thể thêm tiền tố với 'gitlab:' hoặc 'bitbucket:'."
                 },
-                "options": "Other options",
+                "options": "Sự lựa chọn khác",
                 "clone": "Clone/Private repository",
-                "cancel": "Cancel",
-                "done": "Done"
+                "cancel": "Huỷ",
+                "done": "Hoàn thành"
               },
-              "default-preset": "Default preset"
+              "default-preset": "Cài đặt mặc định"
             },
             "features": {
-              "title": "Features",
-              "description": "You will be able to add features after the project is created by installing plugins.",
-              "enable": "Enable features",
+              "title": "Tính năng",
+              "description": "Bạn sẽ có thể thêm các tính năng sau khi dự án được tạo bằng cách cài đặt các plugin.",
+              "enable": "Kích hoạt tính năng",
               "buttons": {
-                "previous": "Previous",
-                "next": "Next",
-                "create": "Create Project"
+                "previous": "Trước",
+                "next": "Sau",
+                "create": "Tạo một dự án"
               },
               "userConfigFiles": {
-                "name": "Use config files",
-                "description": "Use specific configuration files (like '.babelrc') instead of using 'package.json'."
+                "name": "Sử dụng tệp tin cấu hình",
+                "description": "Sử dụng các tệp cấu hình cụ thể (như '.babelrc') thay vì sử dụng 'package.json'."
               }
             },
             "configuration": {
-              "title": "Configuration",
+              "title": "Cấu hình",
               "buttons": {
-                "previous": "Previous",
-                "create": "Create Project"
+                "previous": "Trước",
+                "create": "Tạo một dự án"
               },
               "modal": {
-                "title": "Save as a new preset",
+                "title": "Lưu như một cài đặt sẵn mới",
                 "body": {
-                  "title": "Preset name",
-                  "subtitle": "Save the features and configuration into a new preset"
+                  "title": "Tên",
+                  "subtitle": "Lưu các tính năng và cấu hình vào một cài đặt sẵn mới"
                 },
                 "buttons": {
-                  "cancel": "Cancel",
-                  "continue": "Continue without saving",
-                  "create": "Create a new preset"
+                  "cancel": "Huỷ",
+                  "continue": "Tiếp tục mà không lưu",
+                  "create": "Tạo một cài đặt sẵn mới"
                 }
               }
             }
           }
         },
         "project-plugins": {
-          "title": "Project plugins",
-          "button": "Add plugin",
-          "heading": "Installed plugins",
-          "update-all": "Update all plugins"
+          "title": "Plugin của dựa án",
+          "button": "Thêm plugin",
+          "heading": "Plugin đã cài đặt ",
+          "update-all": "Cập nhật tất cả plugin"
         },
         "project-plugins-add": {
           "title": "Add a plugin",
@@ -448,7 +448,11 @@
           "command": "Script command",
           "parameters": "Parameters",
           "more-info": "More Info",
-          "output": "Output"
+          "output": "Output",
+          "override-args": {
+            "message": "Override hard-coded arguments",
+            "description": "If enabled, hard-coded arguments in your package.json file will be replaced with the values defined below"
+          }
         },
         "project-dependencies": {
           "title": "Project dependencies",

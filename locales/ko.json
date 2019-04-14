@@ -448,7 +448,11 @@
           "command": "스크립트 커맨드",
           "parameters": "파라미터",
           "more-info": "더보기",
-          "output": "출력"
+          "output": "출력",
+          "override-args": {
+            "message": "Override hard-coded arguments",
+            "description": "If enabled, hard-coded arguments in your package.json file will be replaced with the values defined below"
+          }
         },
         "project-dependencies": {
           "title": "프로젝트 의존성",
