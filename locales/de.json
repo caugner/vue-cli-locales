@@ -5,8 +5,8 @@
         "close": "Schließen",
         "back": "Gehe zurück",
         "more-info": "Weitere Informationen",
-        "show-more": "Show more",
-        "show-less": "Show less"
+        "show-more": "Mehr zeigen",
+        "show-less": "Weniger zeigen"
       },
       "components": {
         "client-addon-component": {
@@ -176,7 +176,7 @@
           "buttons": {
             "clear": "Konsole leeren",
             "scroll": "Springe ans Ende",
-            "content-copy": "Copy content"
+            "content-copy": "Inhalt kopieren"
           }
         },
         "top-bar": {
@@ -436,7 +436,7 @@
         },
         "project-tasks": {
           "title": "Projekt-Aufgaben",
-          "refresh": "Refresh tasks"
+          "refresh": "Aufgaben aktualisieren"
         },
         "project-task-details": {
           "actions": {
@@ -450,8 +450,8 @@
           "more-info": "Weitere Informationen",
           "output": "Ausgabe",
           "override-args": {
-            "message": "Override hard-coded arguments",
-            "description": "If enabled, hard-coded arguments in your package.json file will be replaced with the values defined below"
+            "message": "Hart-kodierte Argumente überschreiben",
+            "description": "Wenn aktiviert, werden hart-kodierte Argumente in deiner package.json-Datei mit den folgenden Werten überschrieben"
           }
         },
         "project-dependencies": {
@@ -819,22 +819,22 @@
           "description": "Prüfe auf bekannte Schwachstellen in deinen Projektabhängigkeiten",
           "messages": {
             "ok": "Keine Schwachstelle gefunden",
-            "loading": "Auditing project security...",
+            "loading": "Projekt-Sicherheit wird überprüft...",
             "attention": "{n} Schwachstellen gefunden",
-            "error": "Couldn't check for vulnerability"
+            "error": "Prüfung auf Schwachstellen konnte nicht durchgeführt werden"
           },
           "severity": {
-            "critical": "Critical severity",
+            "critical": "Kritischer Schweregrad",
             "high": "Hoher Schweregrad",
-            "moderate": "Medium severity",
+            "moderate": "Mittlerer Schweregrad",
             "low": "Geringer Schweregrad"
           },
           "direct-dep": "Direkte Abhängigkeit",
           "versions": {
-            "vulnerable": "Vulnerable versions:",
-            "patched": "Patched versions:"
+            "vulnerable": "Verwundbare Versionen:",
+            "patched": "Behobene Versionen:"
           },
-          "recheck": "Check again"
+          "recheck": "Erneut prüfen"
         },
         "run-task": {
           "title": "Aufgabe ausführen",
