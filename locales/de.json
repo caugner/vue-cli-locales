@@ -150,7 +150,7 @@
         },
         "status-bar": {
           "project": {
-            "tooltip": "Aktuelles Projekt<br><i>Klicke, um die Projektverwaltung umzuschalten</i>",
+            "tooltip": "Aktuelles Projekt<br><i>Klick öffnet die Projektverwaltung</i>",
             "empty": "Kein Projekt"
           },
           "path": {
@@ -219,7 +219,7 @@
           "git-init": "Git-Repository wird eingerichtet...",
           "plugins-install": "Vue-CLI-Plugins werden installiert. Das kann ein bisschen dauern...",
           "invoking-generators": "Generatoren aufrufen...",
-          "deps-install": "Zusätzliche Abhängigkeiten installieren...",
+          "deps-install": "Zusätzliche Abhängigkeiten werden hinzugefügt...",
           "completion-hooks": "Completion-Hooks laufen...",
           "fetch-remote-preset": "Remote-Presets abrufen...",
           "done": "Projekt erfolgreich erstellt",
@@ -414,7 +414,7 @@
             }
           },
           "buttons": {
-            "add-local": "Lokales Plugin anschauen"
+            "add-local": "Lokales Plugin auswählen"
           }
         },
         "project-plugin-add-local": {
@@ -461,11 +461,11 @@
             "devDependencies": "Entwickler-Abhängigkeiten"
           },
           "actions": {
-            "install": "Abhängigkeit installieren",
+            "install": "Abhängigkeit hinzufügen",
             "update-all": "Alle Abhängigkeiten aktualisieren"
           },
           "install": {
-            "title": "Neue Abhängigkeit installieren"
+            "title": "Neue Abhängigkeit hinzufügen"
           },
           "uninstall": {
             "title": "Deinstallation bestätigen",
@@ -493,7 +493,7 @@
       "cli-service": {
         "suggestions": {
           "vue-router-add": {
-            "label": "Fügt vue-router hinzu",
+            "label": "vue-router hinzufügen",
             "message": "Offizielle Bibliothek, um virtuelle Seiten in einer Single-Page-App bereitzustellen. Jede Route rendert eine andere Komponente."
           },
           "vuex-add": {
@@ -765,7 +765,7 @@
       "widgets": {
         "welcome": {
           "title": "Willkommenstipps",
-          "description": "Ein paar Tipps für den Anfang",
+          "description": "Tipps für den Einstieg",
           "content": {
             "title": "Willkommen in deinem neuen Projekt!",
             "tip1": "Du schaust auf das Projekt-Dashboard, auf dem du Widgets platzieren kannst. Verwende die 'Anpassen'-Schaltfläche, um weitere hinzuzufügen! Alles wird automatisch gespeichert.",
@@ -778,11 +778,11 @@
           "title": "Port beenden",
           "description": "Prozesse beenden, die einen bestimmten Netzwerk-Port belegen",
           "input": {
-            "placeholder": "Gib’ einen Netzwerk-Port an"
+            "placeholder": "Netzwerk-Port"
           },
           "kill": "Beenden",
           "status": {
-            "idle": "Bereit zum Beenden",
+            "idle": "Bereit",
             "killing": "Prozesse werden beendet...",
             "killed": "Erfolgreich beendet!",
             "error": "Prozess konnte nicht beendet werden"
@@ -795,7 +795,7 @@
           "more-info": "Mehr Details"
         },
         "plugin-updates": {
-          "title": "Plugin-Aktualisierungen",
+          "title": "Plugins aktualisieren",
           "description": "Plugin-Aktualisierungen überwachen",
           "messages": {
             "ok": "Alle Plugins sind auf dem aktuellen Stand",
@@ -805,7 +805,7 @@
           "page": "Gehe zu den Plugins"
         },
         "dependency-updates": {
-          "title": "Aktualisierungen für Abhängigkeiten",
+          "title": "Abhängigkeiten aktualisieren",
           "description": "Aktualisierungen von Abhängigkeiten überwachen",
           "messages": {
             "ok": "Alle Abhängigkeiten sind auf dem aktuellen Stand.",
@@ -815,13 +815,13 @@
           "page": "Gehe zu den Abhängigkeiten"
         },
         "vulnerability": {
-          "title": "Prüfung auf Schwachstellen",
-          "description": "Prüfe auf bekannte Schwachstellen in deinen Projektabhängigkeiten",
+          "title": "Schwachstellen finden",
+          "description": "Finde bekannte Schwachstellen in deinen Projektabhängigkeiten",
           "messages": {
             "ok": "Keine Schwachstelle gefunden",
             "loading": "Projekt-Sicherheit wird überprüft...",
             "attention": "{n} Schwachstellen gefunden",
-            "error": "Prüfung auf Schwachstellen konnte nicht durchgeführt werden"
+            "error": "Suche nach Schwachstellen konnte nicht durchgeführt werden"
           },
           "severity": {
             "critical": "Kritischer Schweregrad",
@@ -838,15 +838,15 @@
         },
         "run-task": {
           "title": "Aufgabe ausführen",
-          "description": "Abkürzung, um eine Aufgabe auszuführen",
+          "description": "Führt eine Aufgabe aus",
           "prompts": {
             "task": "Wähle eine Aufgabe"
           },
           "page": "Gehe zu Aufgabe"
         },
         "news": {
-          "title": "News-Feed",
-          "description": "News-Feed einlesen",
+          "title": "Nachrichten",
+          "description": "News-Feed lesen",
           "refresh": "Aktualisierung erzwingen",
           "select-tip": "Wähle links einen Eintrag aus",
           "prompts": {
