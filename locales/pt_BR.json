@@ -783,7 +783,7 @@
           "kill": "Eliminar",
           "status": {
             "idle": "Pronto para ser eliminado",
-            "killing": "Eliminando Processo...",
+            "killing": "Killing process...",
             "killed": "Eliminado com sucesso!",
             "error": "Não foi possível eliminar o processo"
           }

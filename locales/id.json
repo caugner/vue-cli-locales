@@ -783,7 +783,7 @@
           "kill": "Matikan",
           "status": {
             "idle": "Siap untik dimatikan",
-            "killing": "Mematikan proses...",
+            "killing": "Killing process...",
             "killed": "Sukses dimatikan!",
             "error": "Tidak dapat mematikan proses"
           }

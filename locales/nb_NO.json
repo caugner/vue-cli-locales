@@ -783,7 +783,7 @@
           "kill": "Steng",
           "status": {
             "idle": "Klar til å avslutte",
-            "killing": "Avslutter prosess",
+            "killing": "Killing process...",
             "killed": "Vellykket avsluttning",
             "error": "Kunne ikke avslutte prosess"
           }

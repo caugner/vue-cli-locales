@@ -783,7 +783,7 @@
           "kill": "Beenden",
           "status": {
             "idle": "Bereit",
-            "killing": "Prozesse werden beendet...",
+            "killing": "Killing process...",
             "killed": "Erfolgreich beendet!",
             "error": "Prozess konnte nicht beendet werden"
           }

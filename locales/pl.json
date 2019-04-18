@@ -783,7 +783,7 @@
           "kill": "Wyłącz",
           "status": {
             "idle": "Gotowy do wyłączenia",
-            "killing": "Wyłączanie procesu...",
+            "killing": "Killing process...",
             "killed": "Wyłączono pomyślnie!",
             "error": "Nie można wyłączyć procesu"
           }

@@ -783,7 +783,7 @@
           "kill": "Matar",
           "status": {
             "idle": "Preparado para matar",
-            "killing": "Matando proceso...",
+            "killing": "Killing process...",
             "killed": "¡Matado con éxito!",
             "error": "No se pudo matar el proceso"
           }

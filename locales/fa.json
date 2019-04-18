@@ -783,7 +783,7 @@
           "kill": "کشتن",
           "status": {
             "idle": "آماده برای کشتن",
-            "killing": "در حال کشتن procress...",
+            "killing": "Killing process...",
             "killed": "با موفقیت کشته شد!",
             "error": "Couldn't kill process"
           }

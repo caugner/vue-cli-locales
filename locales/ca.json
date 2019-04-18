@@ -783,7 +783,7 @@
           "kill": "Elimina",
           "status": {
             "idle": "Preparat per eliminar",
-            "killing": "Eliminant procés...",
+            "killing": "Killing process...",
             "killed": "Eliminat correctament!",
             "error": "No s'ha pogut eliminar el procés"
           }

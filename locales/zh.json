@@ -783,7 +783,7 @@
           "kill": "终止",
           "status": {
             "idle": "准备好终止",
-            "killing": "终止进程中",
+            "killing": "Killing process...",
             "killed": "成功终止进程！",
             "error": "无法终止进程"
           }

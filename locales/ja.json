@@ -783,7 +783,7 @@
           "kill": "終了",
           "status": {
             "idle": "終了の準備ができました",
-            "killing": "プロセスを終了しています...",
+            "killing": "Killing process...",
             "killed": "プロセスの終了に成功しました!",
             "error": "プロセスを終了できませんでした"
           }

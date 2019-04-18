@@ -783,7 +783,7 @@
           "kill": "Nogalināt",
           "status": {
             "idle": "Gatavs apturēt",
-            "killing": "Nogalina procesu...",
+            "killing": "Killing process...",
             "killed": "Nogalināts veiksmīgi!",
             "error": "Neizdevās nogalināt procesu"
           }

@@ -783,7 +783,7 @@
           "kill": "Peata",
           "status": {
             "idle": "Valmis peatama",
-            "killing": "Protsessi peatamine...",
+            "killing": "Killing process...",
             "killed": "Peatatud!",
             "error": "Protsessi peatamine ei õnnestunud"
           }

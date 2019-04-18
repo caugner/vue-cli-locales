@@ -783,7 +783,7 @@
           "kill": "종료",
           "status": {
             "idle": "종료할 준비",
-            "killing": "종료중입니다.",
+            "killing": "Killing process...",
             "killed": "종료했습니다!",
             "error": "프로세스를 종료할 수 없습니다"
           }

@@ -783,7 +783,7 @@
           "kill": "Tuer",
           "status": {
             "idle": "Prêt à tuer",
-            "killing": "En cours...",
+            "killing": "Killing process...",
             "killed": "Processus tué!",
             "error": "Impossible de tuer le processus"
           }

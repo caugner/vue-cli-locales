@@ -783,7 +783,7 @@
           "kill": "Termina",
           "status": {
             "idle": "Pronto",
-            "killing": "Sto terminando il processo...",
+            "killing": "Killing process...",
             "killed": "Processo terminato con successo!",
             "error": "Impossibile terminare il processo"
           }

@@ -783,7 +783,7 @@
           "kill": "Sonlandır",
           "status": {
             "idle": "Sonlandırmaya hazır",
-            "killing": "İşlemler sonlandırılıyor...",
+            "killing": "Killing process...",
             "killed": "Başarıyla sonlandırıldı!",
             "error": "İşlem sonlandırılamadı"
           }

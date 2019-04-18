@@ -783,7 +783,7 @@
           "kill": "停止",
           "status": {
             "idle": "準備要停止了",
-            "killing": "停止進程中...",
+            "killing": "Killing process...",
             "killed": "成功停止!",
             "error": "無法停止進程"
           }
