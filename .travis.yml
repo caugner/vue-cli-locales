@@ -1,37 +1,45 @@
 stages:
-  - name: update
-    if: branch = master AND type = cron
-  - name: test
-    if: branch = master AND type = cron
-  - name: publish
-    if: branch = master AND type = push AND tag IS present
-
+- name: update
+  if: branch = master AND type = cron
+- name: version
+  if: branch = master
+env:
+  global:
+  - GIT_USER_NAME=vue-cli-locales-bot
+  - GIT_USER_EMAIL=vue-cli-locales-bot@caugner.de
 matrix:
   include:
-    - stage: update
-      language: python
-      script: |
-        if [ -n "$GH_TOKEN" -a -n "$TX_TOKEN" ]; then
-          git checkout "$TRAVIS_BRANCH"
-          tx pull --parallel -asf
-          git add .
-          git -c user.name='vue-cli-locales-bot' -c user.email='vue-cli-locales-bot@caugner.de' commit -m "[tx-bot] updated from transifex"
-          git push -f -q https://vue-cli-locales-bot:$GH_TOKEN@github.com/caugner/vue-cli-locales "$TRAVIS_BRANCH" &> /dev/null
-        fi
-    - stage: test
-      language: node_js
-      node_js:
-        - "node"
-    - stage: publish
-      language: node_js
-      node_js:
-        - "node"
-      deploy:
-        provider: npm
-        email: node@caugner.de
-        api_key:
-          secure: kBT7GVNN6Cv6T+S5UtDKfhnwEudkN1pVRDCHXJntNIfKDvwqGH6rfnOKaRVGvXDf0Kw3XcLf9RdKR24/E/nwUqVVU4BAZapbCDHPaue+tRNuT8/R22Jp6oiOiFoxnhw7FVfgEQLWFAMq/t3plBAb5xzrbBWHOfhbdwzHScbUC11XGxRqUdU4u3pRPXmol2OoMNLmyzZGgPl+xv22yPHRTTjwo/gzNT6RHpbsHEZfcPGwYq/H3zZoP+wAZUh3DFgOzy91lPiysy7qJ2XybrLcLgYUVHVpBwKcItTMHGMZYwVZLtlAxG6miGvnzmLDhw66Ixm71Kc4opdFYDrkTfeQwhiinVRYuvuahKYYRG76IJtPg73rvc+AcF0w3fbO7+Al0XeUR/QWNDfIm7c55v5fuZ+paxy4ghCkGOKz6hAqxtRzr122yU5aQVMgx7NJA+lnSRPJGTAdyS+wpPGMVa/PifbCtavZ1X2i+vvO3fdQVKEdvd6cYg/SQbIWiSajLVoGd6hNeOWqGzTvV+rMZ+zXwLgcZgH57IKnLmk4s538UmNr+qSgMwLhooeZ1mx0i2mLHQAtko1MMNP5J7xgpcjlOQqh1kfml/KuuuXd7hCOW7yX05x7s+mMf3jB3YTWKiJQPDPQvC63ET+l0B1M1HdEcGUUWL9pzC1we/dP316tsbo=
-        on:
-          branch: master
-          tags: true
-          repo: caugner/vue-cli-locales
+  - stage: update
+    language: python
+    script: |
+      if [ -n "$GH_TOKEN" -a -n "$TX_TOKEN" ]; then
+        git checkout "$TRAVIS_BRANCH"
+        tx pull --parallel -asf
+        git add .
+        git config --local user.name "$GIT_USER_NAME"
+        git config --local user.email "$GIT_USER_EMAIL"
+        git commit -m "[tx-bot] updated from transifex"
+        git push -f -q https://vue-cli-locales-bot:$GH_TOKEN@github.com/caugner/vue-cli-locales "$TRAVIS_BRANCH" &> /dev/null
+      fi
+  - stage: version
+    language: node_js
+    node_js:
+    - node
+    script: |
+      UPSTREAM=$(npm view @vue/cli version)
+      ORIGIN=$(npm view vue-cli-locales version)
+      if [ "$UPSTREAM" != "$ORIGIN" ]; then
+        git checkout "$TRAVIS_BRANCH"
+        git config --local user.name "$GIT_USER_NAME"
+        git config --local user.email "$GIT_USER_EMAIL"
+        export TRAVIS_TAG=$(npm version "$UPSTREAM")
+        git push -f -q --tags https://vue-cli-locales-bot:$GH_TOKEN@github.com/caugner/vue-cli-locales "$TRAVIS_BRANCH" &> /dev/null
+      fi
+deploy:
+  provider: npm
+  email: node@caugner.de
+  api_key: $NPM_TOKEN
+  skip_cleanup: true
+  on:
+    tags: true
+    repo: caugner/vue-cli-locales
