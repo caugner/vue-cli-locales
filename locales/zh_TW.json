@@ -5,8 +5,8 @@
         "close": "關閉",
         "back": "返回",
         "more-info": "更多訊息",
-        "show-more": "Show more",
-        "show-less": "Show less"
+        "show-more": "顯示更多",
+        "show-less": "顯示更少"
       },
       "components": {
         "client-addon-component": {
@@ -89,7 +89,7 @@
         },
         "project-nav": {
           "tooltips": {
-            "dashboard": "儀表板",
+            "dashboard": "控制台",
             "plugins": "插件",
             "dependencies": "依賴",
             "configuration": "設定",
@@ -122,8 +122,8 @@
           },
           "local": "本地",
           "features": {
-            "generator": "This plugin has a generator and can modify your project files and add new files for you.",
-            "ui-integration": "This plugin includes additional UI features like enhanced tasks, configuration screens, dashboard widgets..."
+            "generator": "這個插件有個產生器，可以為您修改與新增專案的檔案",
+            "ui-integration": "這個插件有些額外的 UI 功能，如加強的任務、設定畫面、控制台小工具…"
           }
         },
         "project-dependency-item": {
@@ -176,7 +176,7 @@
           "buttons": {
             "clear": "清空",
             "scroll": "至底部",
-            "content-copy": "Copy content"
+            "content-copy": "複製內容"
           }
         },
         "top-bar": {
@@ -436,7 +436,7 @@
         },
         "project-tasks": {
           "title": "任務",
-          "refresh": "Refresh tasks"
+          "refresh": "重新整理任務"
         },
         "project-task-details": {
           "actions": {
@@ -450,8 +450,8 @@
           "more-info": "查看詳情",
           "output": "輸出",
           "override-args": {
-            "message": "Override hard-coded arguments",
-            "description": "If enabled, hard-coded arguments in your package.json file will be replaced with the values defined below"
+            "message": "覆蓋寫死的參數",
+            "description": "啟用時，在 package.json 寫死的參數會由下面所定義的參數所取代"
           }
         },
         "project-dependencies": {
@@ -475,7 +475,7 @@
           }
         },
         "project-dashboard": {
-          "title": "專案儀表板",
+          "title": "專案控制台",
           "cutomize": "自訂",
           "done": "完成"
         },
@@ -768,7 +768,7 @@
           "description": "這些建議能幫助您開始",
           "content": {
             "title": "歡迎來到您的新專案!",
-            "tip1": "您看到的是專案儀表板，您可以在上面放上小工具。使用 '自訂' 按鈕以新增更多! 所有東西都會自動儲存。",
+            "tip1": "您看到的是專案控制台，您可以在上面放上小工具。使用 '自訂' 按鈕以新增更多! 所有東西都會自動儲存。",
             "tip2": "不同的可用頁面在左側。 您可以在 '插件' 加入新的 Vue CLI 插件， '依賴' 是用來管理包 (package) 的，'設定' 可以設定工具，'任務' 可以執行腳本 (例如 webpack)。",
             "tip3": "使用左上的下拉選單或是下方狀態欄的 '家' 按鈕來回到專案管理器。",
             "ok": "了解"
@@ -783,7 +783,7 @@
           "kill": "停止",
           "status": {
             "idle": "準備要停止了",
-            "killing": "Killing process...",
+            "killing": "停止進程中…",
             "killed": "成功停止!",
             "error": "無法停止進程"
           }
@@ -819,22 +819,22 @@
           "description": "在依賴中檢查已知的漏洞。",
           "messages": {
             "ok": "沒有發現漏洞",
-            "loading": "Auditing project security...",
+            "loading": "審核專案安全性中…",
             "attention": "{n} 個漏洞被發現",
-            "error": "Couldn't check for vulnerability"
+            "error": "無法檢查漏洞"
           },
           "severity": {
-            "critical": "Critical severity",
+            "critical": "高危險性",
             "high": "高危險性",
-            "moderate": "Medium severity",
+            "moderate": "中危險性",
             "low": "低危險性"
           },
           "direct-dep": "直接依賴",
           "versions": {
-            "vulnerable": "Vulnerable versions:",
-            "patched": "Patched versions:"
+            "vulnerable": "有漏洞的版本：",
+            "patched": "已修復的版本："
           },
-          "recheck": "Check again"
+          "recheck": "再次檢查"
         },
         "run-task": {
           "title": "執行任務",
