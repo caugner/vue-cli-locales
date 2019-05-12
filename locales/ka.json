@@ -5,7 +5,7 @@
         "close": "დახურვა",
         "back": "უკან დაბრუნება",
         "more-info": "დაწვრილებით",
-        "show-more": "Show more",
+        "show-more": "მეტის ნახვა",
         "show-less": "Show less"
       },
       "components": {
@@ -76,10 +76,10 @@
           "more-info": "დაწვრილებით"
         },
         "logger-view": {
-          "title": "Logs",
-          "empty": "No logs yet",
+          "title": "ლოგები",
+          "empty": "ჯერ ლოგები არაა",
           "buttons": {
-            "clear": "Clear logs",
+            "clear": "ლოგების წაშლა",
             "scroll": "გადახვევა ქვემოთ",
             "close": "დახურვა"
           }
@@ -118,11 +118,11 @@
           "installed": "დაინსტალირებული",
           "actions": {
             "update": "განახლება {target}",
-            "refresh": "Force Refresh {target}<br><i>Press [Shift] for Quick Refresh (node_modules won't be updated)</i>"
+            "refresh": "იძულებით განახლება{target} <br> <i> დააჭირეთ [shift] სწრაფი განახლებისთვის (node_modules არ იქნება განახლებული) </i>"
           },
           "local": "ლოკალური",
           "features": {
-            "generator": "This plugin has a generator and can modify your project files and add new files for you.",
+            "generator": "ამ ფლაგინს აქვს გენერატორი და შეუძლია შენი პროექტის ფაილების მოდიფიცირება და ახალი ფაილების დამატება",
             "ui-integration": "This plugin includes additional UI features like enhanced tasks, configuration screens, dashboard widgets..."
           }
         },
@@ -221,7 +221,7 @@
           "invoking-generators": "გენერატორების გამოძახება",
           "deps-install": "დამატებითი დამოკიდებულებების ინსტალაცია",
           "completion-hooks": "საბოლოო ჰუკების გაშვება",
-          "fetch-remote-preset": "Fetching remote preset...",
+          "fetch-remote-preset": "რიმოუთ პრესეტის მიღება ქსელიდან",
           "done": "პროექტი წარმატებით შეიქმნა",
           "plugin-install": "ვაინსტალირებთ {arg0}...",
           "plugin-uninstall": "დეინსტალაცია {arg0}...",
@@ -282,7 +282,7 @@
                 },
                 "manager": {
                   "label": "პაკეტ-მენეჯერი",
-                  "default": "Default"
+                  "default": "საწყისი მნიშვნელობა"
                 },
                 "options": {
                   "label": "დამატებითი პარამეტრები",
@@ -307,17 +307,17 @@
               }
             },
             "presets": {
-              "title": "Presets",
+              "title": "პრესეტები",
               "description": "A preset is an association of plugins and configurations. After you've selected features, you can optionally save it as a preset so that you can reuse it for future projects, without having to reconfigure everything again.",
               "select": "Select a preset",
               "buttons": {
-                "previous": "Previous",
-                "next": "Next",
-                "create": "Create Project"
+                "previous": "წინამდებარე",
+                "next": "შემდეგი",
+                "create": "პროექტის შექმნა"
               },
               "modal": {
-                "title": "Configure Remote preset",
-                "body": "Available soon..."
+                "title": "რიმოუთ პრესეტის კონფიგურაცია",
+                "body": "მუშავდება..."
               },
               "manual": {
                 "name": "Manual",
@@ -332,122 +332,122 @@
                 },
                 "options": "Other options",
                 "clone": "Clone/Private repository",
-                "cancel": "Cancel",
-                "done": "Done"
+                "cancel": "გაუქმება",
+                "done": "მზადაა"
               },
-              "default-preset": "Default preset"
+              "default-preset": "ნაგულისხმევი პრესეტი"
             },
             "features": {
-              "title": "Features",
+              "title": "ფუნქციები",
               "description": "You will be able to add features after the project is created by installing plugins.",
               "enable": "Enable features",
               "buttons": {
-                "previous": "Previous",
-                "next": "Next",
-                "create": "Create Project"
+                "previous": "წინამდებარე",
+                "next": "შემდეგი",
+                "create": "პროექტის შექმნა"
               },
               "userConfigFiles": {
-                "name": "Use config files",
+                "name": "კონფიგურაციის ფაილების გამოყენება",
                 "description": "Use specific configuration files (like '.babelrc') instead of using 'package.json'."
               }
             },
             "configuration": {
-              "title": "Configuration",
+              "title": "კონფიგურაცია",
               "buttons": {
-                "previous": "Previous",
+                "previous": "წინამდებარე",
                 "create": "Create Project"
               },
               "modal": {
-                "title": "Save as a new preset",
+                "title": "ახალი პრესეტის შენახვა",
                 "body": {
-                  "title": "Preset name",
-                  "subtitle": "Save the features and configuration into a new preset"
+                  "title": "პრესეტის სახელი",
+                  "subtitle": "ფუნქციები და კონფიგურაციის შენახვა ახალ პრესეტში"
                 },
                 "buttons": {
-                  "cancel": "Cancel",
-                  "continue": "Continue without saving",
-                  "create": "Create a new preset"
+                  "cancel": "გაუქმება",
+                  "continue": "გაგრძელება შენახვის გარეშე",
+                  "create": "ახალი პრესეტის შექმნა"
                 }
               }
             }
           }
         },
         "project-plugins": {
-          "title": "Project plugins",
-          "button": "Add plugin",
-          "heading": "Installed plugins",
-          "update-all": "Update all plugins"
+          "title": "პროქტის ფლაგინები",
+          "button": "ფლაგინის დამატება",
+          "heading": "დაინსტალირებული ფლაგინები",
+          "update-all": "ყველა ფლაგინის განახლება"
         },
         "project-plugins-add": {
-          "title": "Add a plugin",
-          "plugin": "plugin",
+          "title": "ფლაგინის დამატება",
+          "plugin": "ფლაგინი",
           "tabs": {
             "search": {
-              "label": "Search",
-              "search-input": "Search a plugin",
-              "not-found": "No results found",
+              "label": "ძებნა",
+              "search-input": "ფლაგინის ძებნა",
+              "not-found": "შედეგები ვერ მოიძებნა",
               "buttons": {
-                "cancel": "Cancel",
-                "install": "Install {target}",
-                "default-install": "Install"
+                "cancel": "გაუქმება",
+                "install": "ინსტალაცია{target}",
+                "default-install": "ინსტალაცია"
               }
             },
             "configuration": {
-              "label": "Configuration",
-              "heading": "Installation of {target}",
+              "label": "კონფიგურაცია",
+              "heading": "ინსტალაცია {target}",
               "buttons": {
-                "cancel": "Cancel",
-                "finish": "Finish installation"
+                "cancel": "გაუქმება",
+                "finish": "ინსტალაციის დასრულება"
               }
             },
             "diff": {
-              "label": "Files changed"
+              "label": "ფაილები შეცვლილია"
             }
           },
           "modal": {
-            "title": "Uninstall {target}?",
-            "body": "Do you want to uninstall the {target} plugin?",
+            "title": "წაშლა {target}?",
+            "body": "გსურთ ფლაგინის {target} წაშლა?",
             "buttons": {
               "back": "უკან დაბრუნება",
-              "cancel": "Cancel without uninstalling",
-              "uninstall": "Uninstall"
+              "cancel": "გაუქმება წაშლის გარეშე",
+              "uninstall": "წაშლა"
             }
           },
           "buttons": {
-            "add-local": "Browse local plugin"
+            "add-local": "ლოკალური ფლაგინის პოვნა"
           }
         },
         "project-plugin-add-local": {
-          "title": "Add a local plugin",
+          "title": "ლოკალური ფლაგინის დამატება",
           "buttons": {
-            "add": "Add local plugin"
+            "add": "ლოკალური ფლაგინის დამატება"
           }
         },
         "project-configurations": {
-          "title": "Project configuration"
+          "title": "პროქტის კონფიგურაცია"
         },
         "project-configuration-details": {
           "actions": {
-            "cancel": "Cancel changes",
-            "save": "Save changes",
-            "more-info": "More info",
-            "refresh": "Refresh"
+            "cancel": "ცვლილებების გაუქმება",
+            "save": "ცვლილებების შენახვა",
+            "more-info": "მეტი ინფორმაცია",
+            "refresh": "განახლება"
           }
         },
         "project-tasks": {
-          "title": "Project tasks",
-          "refresh": "Refresh tasks"
+          "title": "პროექტის ამოცანები",
+          "refresh": "ამოცანების განახლება"
         },
         "project-task-details": {
           "actions": {
-            "play": "Run task",
-            "stop": "Stop task",
-            "close": "Close",
-            "save": "Save"
+            "play": "ამოცანის გაშვება",
+            "stop": "ამოცანის გაჩერება",
+            "close": "დახურვა",
+            "save": "შენახვა"
           },
-          "command": "Script command",
-          "parameters": "Parameters",
-          "more-info": "More Info",
+          "command": "სკრიპტის ბრძანება",
+          "parameters": "პარამეტრები",
+          "more-info": "მეტი ინფორრმაცია",
           "output": "Output",
           "override-args": {
             "message": "Override hard-coded arguments",
@@ -469,35 +469,35 @@
           },
           "uninstall": {
             "title": "Confirm uninstall",
-            "body": "Are you sure you want to uninstall {id}?",
-            "cancel": "Cancel",
+            "body": "გინდა წაშალო {id}?",
+            "cancel": "გაუქმება",
             "uninstall": "Uninstall {id}"
           }
         },
         "project-dashboard": {
           "title": "Project dashboard",
           "cutomize": "Customize",
-          "done": "Done"
+          "done": "მზადაა"
         },
         "settings": {
           "title": "Settings"
         },
         "about": {
-          "title": "About",
-          "description": "<a href=\"https://github.com/vuejs/vue-cli/tree/dev/packages/%40vue/cli-ui\" target=\"_blank\">@vue/cli-ui</a> is a built-in package of vue-cli which opens a full-blown UI.",
+          "title": "შესახებ",
+          "description": "@vue/cli-ui არის ჩაშენებული vue-cli გაფართოება, რომელიც წარმოადგენს სრულყოფილ სამომხმარებლო ინტეფეისს.",
           "quote": "Vue-cli 3.x is a complete rewrite, with a lot of new awesome features. You will be able to select features like routing, Vuex or Typescript, then add and upgrade building blocks called \"vue-cli plugins\". But having so much more options also means the tool is now more complex and harder to start using. That's why we thought having a full-blown GUI would help discover the new features, search and install vue-cli plugins and unlock more possibilities overall while not being limited by a terminal interface. To sum up, vue-cli will not only allow you to bootstrap a new project easily, but it will also remain useful for ongoing work afterwards!",
           "links": "Useful links",
-          "back": "Go back"
+          "back": "უკან "
         }
       },
       "cli-service": {
         "suggestions": {
           "vue-router-add": {
-            "label": "Add vue-router",
+            "label": "vue-router დამატება",
             "message": "Official library to support multiple virtual pages in a Single-Page App. Each route renders a different component."
           },
           "vuex-add": {
-            "label": "Add vuex",
+            "label": "vuex დამატება",
             "message": "Official centralized State Management solution for large-scale apps. Very useful if multiple components need to access the same data."
           },
           "vue-devtools": {
@@ -567,9 +567,9 @@
             "dest": "Output directory",
             "target": {
               "description": "Build target",
-              "app": "Web app",
-              "lib": "Library",
-              "wc": "Web component",
+              "app": "ვებ აპლიკაცია",
+              "lib": "ბიბლიოთეკა",
+              "wc": "ვებ კომპონენტი",
               "wc-async": "Async web component"
             },
             "name": "Name for library or web-component mode (default: 'name' in package.json or entry filename)",
@@ -717,10 +717,10 @@
         },
         "suggestions": {
           "open-vue": {
-            "label": "Open vue config"
+            "label": "vue config გახსნა"
           },
           "open-manifest": {
-            "label": "Open manifest"
+            "label": "მანიფესტის გახსნა"
           }
         }
       },
