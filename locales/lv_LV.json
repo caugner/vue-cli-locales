@@ -3,6 +3,7 @@
     "vue": {
       "common": {
         "close": "Aizvērt",
+        "cancel": "Cancel",
         "back": "Atgriezties",
         "more-info": "Papildinformācija",
         "show-more": "Show more",
@@ -110,6 +111,14 @@
             "delete": "Izņemt no saraksta",
             "open-in-editor": "Atvērt redaktorā"
           }
+        },
+        "project-rename": {
+          "title": "Rename",
+          "name-field": {
+            "title": "Name",
+            "subtitle": "Enter the new name"
+          },
+          "submit": "Rename"
         },
         "project-plugin-item": {
           "version": "versija",

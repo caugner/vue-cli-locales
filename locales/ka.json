@@ -3,6 +3,7 @@
     "vue": {
       "common": {
         "close": "დახურვა",
+        "cancel": "Cancel",
         "back": "უკან დაბრუნება",
         "more-info": "დაწვრილებით",
         "show-more": "მეტის ნახვა",
@@ -110,6 +111,14 @@
             "delete": "წაშლა სიიდან",
             "open-in-editor": "რდაქტორში გახსნა"
           }
+        },
+        "project-rename": {
+          "title": "Rename",
+          "name-field": {
+            "title": "Name",
+            "subtitle": "Enter the new name"
+          },
+          "submit": "Rename"
         },
         "project-plugin-item": {
           "version": "ვერსია",

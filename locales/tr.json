@@ -3,6 +3,7 @@
     "vue": {
       "common": {
         "close": "Kapat",
+        "cancel": "Cancel",
         "back": "Geri dön",
         "more-info": "Daha fazla bilgi",
         "show-more": "Show more",
@@ -110,6 +111,14 @@
             "delete": "Sil",
             "open-in-editor": "Düzenleyici ile aç"
           }
+        },
+        "project-rename": {
+          "title": "Rename",
+          "name-field": {
+            "title": "Name",
+            "subtitle": "Enter the new name"
+          },
+          "submit": "Rename"
         },
         "project-plugin-item": {
           "version": "sürüm",
