@@ -3,11 +3,11 @@
     "vue": {
       "common": {
         "close": "关闭",
-        "cancel": "Cancel",
+        "cancel": "取消",
         "back": "返回",
         "more-info": "更多信息",
-        "show-more": "Show more",
-        "show-less": "Show less"
+        "show-more": "显示更多",
+        "show-less": "收起内容"
       },
       "components": {
         "client-addon-component": {
@@ -113,12 +113,12 @@
           }
         },
         "project-rename": {
-          "title": "Rename",
+          "title": "重命名",
           "name-field": {
-            "title": "Name",
-            "subtitle": "Enter the new name"
+            "title": "名称",
+            "subtitle": "输入新名称"
           },
-          "submit": "Rename"
+          "submit": "重命名"
         },
         "project-plugin-item": {
           "version": "版本",
@@ -129,7 +129,7 @@
             "update": "更新 {target}",
             "refresh": "强制刷新 {target}<br><i>按 [Shift] 快速刷新 (node_modules 不会更新)</i>"
           },
-          "local": "Local",
+          "local": "本地",
           "features": {
             "generator": "This plugin has a generator and can modify your project files and add new files for you.",
             "ui-integration": "This plugin includes additional UI features like enhanced tasks, configuration screens, dashboard widgets..."
@@ -185,7 +185,7 @@
           "buttons": {
             "clear": "清空",
             "scroll": "至底部",
-            "content-copy": "Copy content"
+            "content-copy": "复制内容"
           }
         },
         "top-bar": {
@@ -296,7 +296,7 @@
                 "options": {
                   "label": "更多选项",
                   "force": "若目标文件夹已存在则将其覆盖",
-                  "bare": "Scaffold project without beginner instructions",
+                  "bare": "无新手指引的脚手架项目",
                   "git-title": "Git",
                   "git": "初始化 git 仓库 (建议)",
                   "git-commit-message": "初始提交信息 (选填)"
@@ -340,7 +340,7 @@
                   "subtitle": "Git 仓库地址, 如 'username/repo'. 可以使用前缀如 'gitlab:' 或 'bitbucket:'."
                 },
                 "options": "选项",
-                "clone": "Clone/Private repository",
+                "clone": "克隆/私有代码库",
                 "cancel": "取消",
                 "done": "完成"
               },
@@ -445,7 +445,7 @@
         },
         "project-tasks": {
           "title": "任务",
-          "refresh": "Refresh tasks"
+          "refresh": "刷新任务"
         },
         "project-task-details": {
           "actions": {
@@ -459,7 +459,7 @@
           "more-info": "查看详情",
           "output": "输出",
           "override-args": {
-            "message": "Override hard-coded arguments",
+            "message": "覆盖硬编码参数",
             "description": "If enabled, hard-coded arguments in your package.json file will be replaced with the values defined below"
           }
         },
@@ -784,7 +784,7 @@
           }
         },
         "kill-port": {
-          "title": "Kill port",
+          "title": "终止端口",
           "description": "终止占用指定端口的进程",
           "input": {
             "placeholder": "输入一个网络端口"
@@ -792,14 +792,14 @@
           "kill": "终止",
           "status": {
             "idle": "准备好终止",
-            "killing": "Killing process...",
+            "killing": "终止进程……",
             "killed": "成功终止进程！",
             "error": "无法终止进程"
           }
         },
         "status-widget": {
           "last-updated": "已更新",
-          "never": "Not updated yet",
+          "never": "还未更新",
           "check": "检查更新",
           "more-info": "更多细节"
         },
@@ -830,7 +830,7 @@
             "ok": "未发现安全隐患",
             "loading": "Auditing project security...",
             "attention": "发现 {n} 个安全隐患",
-            "error": "Couldn't check for vulnerability"
+            "error": "无法检测漏洞"
           },
           "severity": {
             "critical": "Critical severity",
@@ -838,12 +838,12 @@
             "moderate": "Medium severity",
             "low": "低优先级"
           },
-          "direct-dep": "Direct dependency",
+          "direct-dep": "直接依赖",
           "versions": {
             "vulnerable": "Vulnerable versions:",
             "patched": "Patched versions:"
           },
-          "recheck": "Check again"
+          "recheck": "再次检查"
         },
         "run-task": {
           "title": "运行任务",
