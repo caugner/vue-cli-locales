@@ -3,11 +3,11 @@
     "vue": {
       "common": {
         "close": "Fechar",
-        "cancel": "Cancel",
+        "cancel": "Cancelar",
         "back": "Voltar",
         "more-info": "Mais informações",
-        "show-more": "Show more",
-        "show-less": "Show less"
+        "show-more": "Mostrar mais",
+        "show-less": "Mostrar menos"
       },
       "components": {
         "client-addon-component": {
@@ -113,12 +113,12 @@
           }
         },
         "project-rename": {
-          "title": "Rename",
+          "title": "Renomear",
           "name-field": {
-            "title": "Name",
-            "subtitle": "Enter the new name"
+            "title": "Nome",
+            "subtitle": "Insira o novo nome"
           },
-          "submit": "Rename"
+          "submit": "Renomear"
         },
         "project-plugin-item": {
           "version": "versão",
@@ -185,7 +185,7 @@
           "buttons": {
             "clear": "Limpar console",
             "scroll": "Rolar para baixo",
-            "content-copy": "Copy content"
+            "content-copy": "Copiar conteúdo"
           }
         },
         "top-bar": {
@@ -445,7 +445,7 @@
         },
         "project-tasks": {
           "title": "Tarefas do projeto",
-          "refresh": "Refresh tasks"
+          "refresh": "Atualizar tarefas"
         },
         "project-task-details": {
           "actions": {
@@ -792,7 +792,7 @@
           "kill": "Eliminar",
           "status": {
             "idle": "Pronto para ser eliminado",
-            "killing": "Killing process...",
+            "killing": "Matando o processo...",
             "killed": "Eliminado com sucesso!",
             "error": "Não foi possível eliminar o processo"
           }
@@ -828,22 +828,22 @@
           "description": "Verifique se há vulnerabilidades conhecidas nas dependências do seu projeto",
           "messages": {
             "ok": "Nenhuma vulnerabilidade encontrada",
-            "loading": "Auditing project security...",
+            "loading": "Auditando a segurança do projeto ...",
             "attention": "{n} vulnerabilidades encontradas",
-            "error": "Couldn't check for vulnerability"
+            "error": "Não foi possível verificar a vulnerabilidade"
           },
           "severity": {
-            "critical": "Critical severity",
+            "critical": "Gravidade crítica",
             "high": "Alta severidade",
-            "moderate": "Medium severity",
+            "moderate": "Gravidade média",
             "low": "Baixa severidade"
           },
           "direct-dep": "Dependência direta",
           "versions": {
-            "vulnerable": "Vulnerable versions:",
-            "patched": "Patched versions:"
+            "vulnerable": "Versões vulneráveis:",
+            "patched": "Versões recomendadas:"
           },
-          "recheck": "Check again"
+          "recheck": "Confira novamente"
         },
         "run-task": {
           "title": "Iniciar tarefa",

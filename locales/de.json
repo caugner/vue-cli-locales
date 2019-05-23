@@ -3,7 +3,7 @@
     "vue": {
       "common": {
         "close": "Schließen",
-        "cancel": "Cancel",
+        "cancel": "Abbrechen",
         "back": "Gehe zurück",
         "more-info": "Weitere Informationen",
         "show-more": "Mehr zeigen",
@@ -113,12 +113,12 @@
           }
         },
         "project-rename": {
-          "title": "Rename",
+          "title": "Umbenennnen",
           "name-field": {
             "title": "Name",
-            "subtitle": "Enter the new name"
+            "subtitle": "Name eingeben"
           },
-          "submit": "Rename"
+          "submit": "Umbenennnen"
         },
         "project-plugin-item": {
           "version": "Version",
