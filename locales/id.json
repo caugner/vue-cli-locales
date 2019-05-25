@@ -721,6 +721,10 @@
             "appleMobileWebAppStatusBarStyle": {
               "message": "Gaya bilah status seluler Apple",
               "description": "Gaya untuk bilah status aplikasi web di iOS"
+            },
+            "manifestCrossorigin": {
+              "message": "Attribute value for manifest.json link tag's crossorigin attribute",
+              "description": "Value for `crossoriging` attribute in manifest link tag in the generated HTML, you may need to set this if your pwa is behind an authenticated proxy"
             }
           }
         },
