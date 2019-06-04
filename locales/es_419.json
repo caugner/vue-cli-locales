@@ -3,11 +3,11 @@
     "vue": {
       "common": {
         "close": "Cerrar",
-        "cancel": "Cancel",
+        "cancel": "Cancelar",
         "back": "Regresar",
         "more-info": "Más información",
-        "show-more": "Show more",
-        "show-less": "Show less"
+        "show-more": "Mostrar más",
+        "show-less": "Mostrar menos"
       },
       "components": {
         "client-addon-component": {
@@ -113,12 +113,12 @@
           }
         },
         "project-rename": {
-          "title": "Rename",
+          "title": "Cambiar nombre",
           "name-field": {
-            "title": "Name",
-            "subtitle": "Enter the new name"
+            "title": "Nombre",
+            "subtitle": "Ingrese un nuevo nombre"
           },
-          "submit": "Rename"
+          "submit": "Cambiar nombre"
         },
         "project-plugin-item": {
           "version": "Versión",
@@ -131,7 +131,7 @@
           },
           "local": "Local",
           "features": {
-            "generator": "This plugin has a generator and can modify your project files and add new files for you.",
+            "generator": "Este plugin tiene un generador y puede modificar tus archivos de proyecto y agregar otros.",
             "ui-integration": "This plugin includes additional UI features like enhanced tasks, configuration screens, dashboard widgets..."
           }
         },
@@ -185,7 +185,7 @@
           "buttons": {
             "clear": "Limpiar consola",
             "scroll": "Desplazar hacia abajo",
-            "content-copy": "Copy content"
+            "content-copy": "Copiar contenido"
           }
         },
         "top-bar": {
@@ -299,7 +299,7 @@
                   "bare": "Scaffold project without beginner instructions",
                   "git-title": "Repositorio Git",
                   "git": "Inicializar repositorio git (recomendado)",
-                  "git-commit-message": "Initial commit message (optional)"
+                  "git-commit-message": "Mensaje de commit inicial (opcional)"
                 }
               },
               "buttons": {
@@ -337,7 +337,7 @@
                 "description": "Recupera un preset de un repositorio git",
                 "url": {
                   "title": "Preset URL",
-                  "subtitle": "Git repo, for example 'username/repo'. You can also prefix with 'gitlab:' or 'bitbucket:'."
+                  "subtitle": "Repositorio Git, por ejemplo 'usuario/repo'. Puedes también prefijarlo con 'gitlab:' o 'bitbucket:'."
                 },
                 "options": "Otras opciones",
                 "clone": "Clonar/Repositorio privado",
@@ -445,7 +445,7 @@
         },
         "project-tasks": {
           "title": "Tareas del proyecto",
-          "refresh": "Refresh tasks"
+          "refresh": "Actualizar tareas"
         },
         "project-task-details": {
           "actions": {
@@ -459,7 +459,7 @@
           "more-info": "Más información",
           "output": "Salida",
           "override-args": {
-            "message": "Override hard-coded arguments",
+            "message": "Sobre escribir argumentos en duro",
             "description": "If enabled, hard-coded arguments in your package.json file will be replaced with the values defined below"
           }
         },
