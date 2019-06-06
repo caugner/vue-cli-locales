@@ -3,11 +3,11 @@
     "vue": {
       "common": {
         "close": "Chiudi",
-        "cancel": "Cancel",
+        "cancel": "Annulla",
         "back": "Indietro",
         "more-info": "Maggiori informazioni",
-        "show-more": "Show more",
-        "show-less": "Show less"
+        "show-more": "Mostra altro",
+        "show-less": "Mostra meno"
       },
       "components": {
         "client-addon-component": {
@@ -113,12 +113,12 @@
           }
         },
         "project-rename": {
-          "title": "Rename",
+          "title": "Rinomina",
           "name-field": {
-            "title": "Name",
-            "subtitle": "Enter the new name"
+            "title": "Nome",
+            "subtitle": "Immetti il nuovo nome"
           },
-          "submit": "Rename"
+          "submit": "Rinomina"
         },
         "project-plugin-item": {
           "version": "versione",
@@ -132,7 +132,7 @@
           "local": "Locale",
           "features": {
             "generator": "This plugin has a generator and can modify your project files and add new files for you.",
-            "ui-integration": "This plugin includes additional UI features like enhanced tasks, configuration screens, dashboard widgets..."
+            "ui-integration": "Questo plugin include ulteriori funzionalità UI come task migliorati, schermate di configurazione, widget per la dashboard..."
           }
         },
         "project-dependency-item": {
@@ -185,7 +185,7 @@
           "buttons": {
             "clear": "Pulisci la console",
             "scroll": "Scrolla in basso",
-            "content-copy": "Copy content"
+            "content-copy": "Copia contenuto"
           }
         },
         "top-bar": {
@@ -445,7 +445,7 @@
         },
         "project-tasks": {
           "title": "Task del progetto",
-          "refresh": "Refresh tasks"
+          "refresh": "Aggiorna i task"
         },
         "project-task-details": {
           "actions": {
@@ -847,7 +847,7 @@
             "vulnerable": "Vulnerable versions:",
             "patched": "Patched versions:"
           },
-          "recheck": "Check again"
+          "recheck": "Controlla di nuovo"
         },
         "run-task": {
           "title": "Esegui il task",

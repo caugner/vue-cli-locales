@@ -3,11 +3,11 @@
     "vue": {
       "common": {
         "close": "Sulje",
-        "cancel": "Cancel",
+        "cancel": "Peruuta",
         "back": "Takaisin",
         "more-info": "Lisätiedot",
-        "show-more": "Show more",
-        "show-less": "Show less"
+        "show-more": "Näytä lisää",
+        "show-less": "Näytä vähemmän"
       },
       "components": {
         "client-addon-component": {
@@ -113,12 +113,12 @@
           }
         },
         "project-rename": {
-          "title": "Rename",
+          "title": "Nimeä uudelleen",
           "name-field": {
-            "title": "Name",
-            "subtitle": "Enter the new name"
+            "title": "Nimi",
+            "subtitle": "Syötä uusi nimi"
           },
-          "submit": "Rename"
+          "submit": "Nimeä uudelleen"
         },
         "project-plugin-item": {
           "version": "versio",
@@ -171,7 +171,7 @@
           },
           "report-bug": "Raportoi virhe",
           "translate": "Auta kääntämään",
-          "dark-mode": "Toggle dark mode",
+          "dark-mode": "Vaihda teemaa",
           "reset-plugin-api": "Refresh plugins API"
         },
         "suggestion-bar": {
@@ -185,7 +185,7 @@
           "buttons": {
             "clear": "Tyhjennä konsoli",
             "scroll": "Vieritä alas",
-            "content-copy": "Copy content"
+            "content-copy": "Kopioi sisältö"
           }
         },
         "top-bar": {
@@ -658,7 +658,7 @@
               "essential": "Essential",
               "strongly-recommended": "Strongly recommended",
               "recommended": "Suositeltu",
-              "uncategorized": "Uncategorized"
+              "uncategorized": "Ei kategoriaa"
             },
             "setting": {
               "off": "Pois päältä",
@@ -740,7 +740,7 @@
       "cypress": {
         "tasks": {
           "test": {
-            "description": "Run e2e tests with `cypress run`",
+            "description": "Suorita e2e testit: `cypress run`",
             "headless": "Suorita headless-tilassa ilman käyttöliittymää",
             "mode": "Specify the mode the dev server should run in",
             "url": "Run e2e tests against given url instead of auto-starting dev server"
@@ -847,7 +847,7 @@
             "vulnerable": "Vulnerable versions:",
             "patched": "Patched versions:"
           },
-          "recheck": "Check again"
+          "recheck": "Tarkista uudelleen"
         },
         "run-task": {
           "title": "Käynnistä tehtävä",
