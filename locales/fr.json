@@ -3,11 +3,11 @@
     "vue": {
       "common": {
         "close": "Fermer",
-        "cancel": "Cancel",
+        "cancel": "Annuler",
         "back": "Retour",
         "more-info": "Plus d'infos",
-        "show-more": "Show more",
-        "show-less": "Show less"
+        "show-more": "Afficher plus",
+        "show-less": "Afficher moins"
       },
       "components": {
         "client-addon-component": {
@@ -113,12 +113,12 @@
           }
         },
         "project-rename": {
-          "title": "Rename",
+          "title": "Renommer",
           "name-field": {
-            "title": "Name",
-            "subtitle": "Enter the new name"
+            "title": "Nom",
+            "subtitle": "Saisir le nouveau nom"
           },
-          "submit": "Rename"
+          "submit": "Renommer"
         },
         "project-plugin-item": {
           "version": "version",
@@ -131,15 +131,15 @@
           },
           "local": "Local",
           "features": {
-            "generator": "This plugin has a generator and can modify your project files and add new files for you.",
-            "ui-integration": "This plugin includes additional UI features like enhanced tasks, configuration screens, dashboard widgets..."
+            "generator": "Ce module dispose d'un générateur et est capable de modifier ou ajouter de nouveaux fichiers à votre projet ",
+            "ui-integration": "Ce module inclut des fonctionnalités UI additionnelles comme des tâches améliorées, des écrans de configuration, des widgets pour le panneau de contrôle..."
           }
         },
         "project-dependency-item": {
           "version": "version",
-          "wanted": "voulue",
-          "latest": "dernière",
-          "installed": "Installé",
+          "wanted": "voulu(es)",
+          "latest": "dernier(ères)",
+          "installed": "Installé(es)",
           "actions": {
             "update": "Mettre à jour {target}",
             "uninstall": "Désinstaller {target}"
@@ -185,7 +185,7 @@
           "buttons": {
             "clear": "Nettoyer la console",
             "scroll": "Défiler en bas",
-            "content-copy": "Copy content"
+            "content-copy": "Copier le contenu"
           }
         },
         "top-bar": {
@@ -296,7 +296,7 @@
                 "options": {
                   "label": "Options additionnelles",
                   "force": "Écraser le dossier s'il existe",
-                  "bare": "Scaffold project without beginner instructions",
+                  "bare": "Définir la configuration du projet sans recours aux instructions pour les débutants",
                   "git-title": "Dépôt Git",
                   "git": "Initialiser un dépôt Git (recommandé)",
                   "git-commit-message": "Message du commit initial (optionel)"
@@ -445,7 +445,7 @@
         },
         "project-tasks": {
           "title": "Tâches du projet",
-          "refresh": "Refresh tasks"
+          "refresh": "Rafraîchir les tâches"
         },
         "project-task-details": {
           "actions": {
@@ -459,8 +459,8 @@
           "more-info": "Plus d'infos",
           "output": "Sortie",
           "override-args": {
-            "message": "Override hard-coded arguments",
-            "description": "If enabled, hard-coded arguments in your package.json file will be replaced with the values defined below"
+            "message": "Écraser les arguments définis dans le code",
+            "description": "Quand c'est permis, les paramètres définis dans le fichier package.json seront remplacés avec les valeurs définies ci-dessous"
           }
         },
         "project-dependencies": {
@@ -723,8 +723,8 @@
               "description": "Style for the web app status bar on iOS"
             },
             "manifestCrossorigin": {
-              "message": "Attribute value for manifest.json link tag's crossorigin attribute",
-              "description": "Value for `crossoriging` attribute in manifest link tag in the generated HTML, you may need to set this if your pwa is behind an authenticated proxy"
+              "message": "Valeur de l'attribut `crossorigin` dans le tag lien du fichier manifest.json",
+              "description": "Valeur pour l'attribut `crossoriging`  dans le tag du lien dans le manifeste du HTML généré. Vous aurez éventuellement besoin de définir cet attribut si votre application PWA est derrière un proxy avec authentification."
             }
           }
         },
@@ -796,7 +796,7 @@
           "kill": "Tuer",
           "status": {
             "idle": "Prêt à tuer",
-            "killing": "Killing process...",
+            "killing": "Arrêt brutal du processus",
             "killed": "Processus tué!",
             "error": "Impossible de tuer le processus"
           }
@@ -832,22 +832,22 @@
           "description": "Rechercher des vulnérabilités connues dans votre projet et ses dépendances",
           "messages": {
             "ok": "Pas de vulnérabilité trouvée",
-            "loading": "Auditing project security...",
+            "loading": "Audit de sécurité du projet",
             "attention": "{n} vulnérabilités trouvées",
-            "error": "Couldn't check for vulnerability"
+            "error": "Échec de vérification des vulnérabilités"
           },
           "severity": {
-            "critical": "Critical severity",
+            "critical": "Sévérité critique",
             "high": "Sévérité élevée",
-            "moderate": "Medium severity",
+            "moderate": "Sévérité moyenne",
             "low": "Sévérité faible"
           },
           "direct-dep": "Dépendance directe",
           "versions": {
-            "vulnerable": "Vulnerable versions:",
-            "patched": "Patched versions:"
+            "vulnerable": "Versions vulnérables",
+            "patched": "Versions corrigées"
           },
-          "recheck": "Check again"
+          "recheck": "Merci de vérifier encore une fois"
         },
         "run-task": {
           "title": "Lancer la tâche",

@@ -3,15 +3,15 @@
     "vue": {
       "common": {
         "close": "Tutup",
-        "cancel": "Cancel",
+        "cancel": "Batal",
         "back": "Kembali",
         "more-info": "Info lebih",
-        "show-more": "Show more",
-        "show-less": "Show less"
+        "show-more": "Tampilkan Lebih Banyak",
+        "show-less": "Tampilkan lebih sedikit"
       },
       "components": {
         "client-addon-component": {
-          "timeout": "Waktu usai muat komponen",
+          "timeout": "Waktu habis saat memuat komponen",
           "timeout-info": "Komponen kustom memakan terlalu banyak waktu untuk memuat, mungkin terdapat sebuah galat"
         },
         "connection-status": {
@@ -91,8 +91,8 @@
         "project-nav": {
           "tooltips": {
             "dashboard": "Dasbor",
-            "plugins": "Plugins",
-            "dependencies": "Dependencies",
+            "plugins": "Plugin",
+            "dependencies": "Dependensi",
             "configuration": "Pengaturan",
             "tasks": "Tugas",
             "more": "Lebih lanjut"
@@ -113,12 +113,12 @@
           }
         },
         "project-rename": {
-          "title": "Rename",
+          "title": "Ubah Nama",
           "name-field": {
-            "title": "Name",
-            "subtitle": "Enter the new name"
+            "title": "Nama",
+            "subtitle": "Masukkan nama baru"
           },
-          "submit": "Rename"
+          "submit": "Ubah Nama"
         },
         "project-plugin-item": {
           "version": "Versi",
@@ -127,22 +127,22 @@
           "installed": "Terpasang",
           "actions": {
             "update": "Barui {target}",
-            "refresh": "Muat ulang keras {target}<br><i>Tekan [Shift] untuk Muat Ulang Cepat (node_modules tidak akan diperbarui)</i>"
+            "refresh": "Paksa muat ulang {target}<br><i>Tekan [Shift] untuk Muat Ulang Cepat (node_modules tidak akan diperbarui)</i>"
           },
           "local": "Lokal",
           "features": {
-            "generator": "This plugin has a generator and can modify your project files and add new files for you.",
-            "ui-integration": "This plugin includes additional UI features like enhanced tasks, configuration screens, dashboard widgets..."
+            "generator": "Terdapat generator di plugin ini dan dapat memodifikasi berkas projek Anda dan menambahkan berkas baru untuk Anda.",
+            "ui-integration": "Plugin ini sudah termasuk fitur-fitur UI tambahan seperti tugas-tugas yang ditingkatkan, tampilan layar konfigurasi, dasbor widget..."
           }
         },
         "project-dependency-item": {
           "version": "Versi",
           "wanted": "Dibutuhkan",
           "latest": "Terbaru",
-          "installed": "Terinstall",
+          "installed": "Terpasang",
           "actions": {
-            "update": "Barui {target}",
-            "uninstall": "Lepas {target}"
+            "update": "Perbaharui {target}",
+            "uninstall": "Hapus pemasangan {target}"
           }
         },
         "project-tasks-dropdown": {
@@ -183,14 +183,14 @@
         },
         "terminal-view": {
           "buttons": {
-            "clear": "Bersihkan console",
+            "clear": "Bersihkan konsol",
             "scroll": "Scroll ke akhir",
-            "content-copy": "Copy content"
+            "content-copy": "Salin konten"
           }
         },
         "top-bar": {
           "no-favorites": "Belum ada proyek favorit",
-          "favorite-projects": "Project favorit",
+          "favorite-projects": "Proyek favorit",
           "recent-projects": "Proyek terbaru",
           "homepage": "Halaman Beranda"
         },
@@ -217,7 +217,7 @@
           "add": "Tambah widget",
           "details": {
             "title": "Rincian widget",
-            "max-instances": "Jumlah instansi maximal: {count}/{total}",
+            "max-instances": "Jumlah instansi maksimal: {count}/{total}",
             "unlimited": "Tidak terbatas"
           }
         }
@@ -225,22 +225,22 @@
       "mixins": {
         "progress": {
           "creating": "Membuat proyek...",
-          "git-init": "Menginisialisasi git repositori...",
+          "git-init": "Menginisialisasi repositori git...",
           "plugins-install": "Memasang plugin untuk Vue CLI. Butuh beberapa saat untuk selesai...",
           "invoking-generators": "Menjalankan generators...",
-          "deps-install": "Memasang dependencies tambahan...",
+          "deps-install": "Memasang dependensi tambahan...",
           "completion-hooks": "Menjalankan completion hooks...",
-          "fetch-remote-preset": "Mengambil remote preset...",
+          "fetch-remote-preset": "Mengambil preset remote...",
           "done": "Proyek berhasil dibuat",
           "plugin-install": "Memasang {arg0}...",
           "plugin-uninstall": "Menghapus pemasangan {arg0}...",
           "plugin-invoke": "Mengaktifkan {arg0}...",
           "plugin-update": "Memperbarui {arg0}...",
-          "plugins-update": "Updating {arg0} plugins...",
-          "dependency-install": "Installing {arg0}...",
-          "dependency-uninstall": "Uninstalling {arg0}...",
-          "dependency-update": "Updating {arg0}...",
-          "dependencies-update": "Updating {arg0} packages..."
+          "plugins-update": "Memperbarui {arg0} plugin...",
+          "dependency-install": "Memasang {arg0}...",
+          "dependency-uninstall": "Mencopot pemasangan {arg0}...",
+          "dependency-update": "Memperbarui {arg0}...",
+          "dependencies-update": "Memperbarui {arg0} paket..."
         }
       },
       "types": {
@@ -268,8 +268,8 @@
           },
           "import": {
             "no-modules": {
-              "title": "Module yang kurang",
-              "message": "Tampaknya proyek kekurangan folder 'node_modules'. Tolong cek dependencies yang anda pasang sebelum mengimpor",
+              "title": "Modul yang hilang",
+              "message": "Tampaknya proyek kehilangan/tidak memiliki folder 'node_modules'. Mohon untuk cek dependensi yang telah Anda pasang sebelum mengimpor.",
               "close": "Oke"
             },
             "force": "Import saja"
@@ -296,7 +296,7 @@
                 "options": {
                   "label": "Opsi tambahan",
                   "force": "Tindih folder target jika sudah ada",
-                  "bare": "Scaffold project without beginner instructions",
+                  "bare": "Rangka (scaffold) projek tanpa instruksi pemula",
                   "git-title": "Repositori Git",
                   "git": "Inisialisasi repositori git (direkomendasikan)",
                   "git-commit-message": "Pesan commit awal (tidak wajib)"
@@ -336,7 +336,7 @@
                 "name": "Remote preset",
                 "description": "Ambil preset dari git repositori",
                 "url": {
-                  "title": "Preset URL",
+                  "title": "URL Preset",
                   "subtitle": "Repositori Git, contohnya 'username/repo'. Anda juga bisa menaruh awalan 'gitlab:' atau 'bitbucket:'."
                 },
                 "options": "Pilihan lainnya",
@@ -344,7 +344,7 @@
                 "cancel": "Batalkan",
                 "done": "Selesai"
               },
-              "default-preset": "Default preset"
+              "default-preset": "Preset bawaan"
             },
             "features": {
               "title": "Fitur-fitur",
@@ -410,7 +410,7 @@
               }
             },
             "diff": {
-              "label": "File yang diubah"
+              "label": "Berkas diubah"
             }
           },
           "modal": {
@@ -445,7 +445,7 @@
         },
         "project-tasks": {
           "title": "Tugas Proyek",
-          "refresh": "Refresh tasks"
+          "refresh": "Segarkan ulang tugas-tugas"
         },
         "project-task-details": {
           "actions": {
@@ -460,7 +460,7 @@
           "output": "Keluaran",
           "override-args": {
             "message": "Override hard-coded arguments",
-            "description": "If enabled, hard-coded arguments in your package.json file will be replaced with the values defined below"
+            "description": "Jika dihidupkan, argumen kode-kasar (hard-coded) dalam berkas package.json Anda akan ditimpa dengan nilai-nilai yang telah didefinisikan dibawah ini"
           }
         },
         "project-dependencies": {
@@ -723,8 +723,8 @@
               "description": "Gaya untuk bilah status aplikasi web di iOS"
             },
             "manifestCrossorigin": {
-              "message": "Attribute value for manifest.json link tag's crossorigin attribute",
-              "description": "Value for `crossoriging` attribute in manifest link tag in the generated HTML, you may need to set this if your pwa is behind an authenticated proxy"
+              "message": "Nilai atribut untuk atribut tag tautan crossorigin manifest.json",
+              "description": "Nilai atribut untuk '`crossoriging` di dalam tag tautan manifest di HTML yang telah dibuat, Anda mungkin perlu untuk mengatur ini jika pwa Anda berada dibelakang sebuah proksi yang telah diautentikasi"
             }
           }
         },
@@ -796,7 +796,7 @@
           "kill": "Matikan",
           "status": {
             "idle": "Siap untik dimatikan",
-            "killing": "Killing process...",
+            "killing": "Mematikan proses...",
             "killed": "Sukses dimatikan!",
             "error": "Tidak dapat mematikan proses"
           }
@@ -832,22 +832,22 @@
           "description": "Cek untuk kerentanan yang dikenal di dalam dependencies proyek anda",
           "messages": {
             "ok": "Tidak ada kerentanan ditemukan",
-            "loading": "Auditing project security...",
+            "loading": "Mengaudit keamanan proyek...",
             "attention": "{n} kerentanan ditemukan",
-            "error": "Couldn't check for vulnerability"
+            "error": "Tidak dapat mengecek kerentanan"
           },
           "severity": {
-            "critical": "Critical severity",
+            "critical": "Keparahan kritis",
             "high": "Keparahan tinggi",
-            "moderate": "Medium severity",
+            "moderate": "Keparahan menengah",
             "low": "Keparahan rendah"
           },
           "direct-dep": "Dependency langsung",
           "versions": {
-            "vulnerable": "Vulnerable versions:",
-            "patched": "Patched versions:"
+            "vulnerable": "Versi kerentanan:",
+            "patched": "Versi tambalan:"
           },
-          "recheck": "Check again"
+          "recheck": "Cek kembali"
         },
         "run-task": {
           "title": "Jalankan tugas",
