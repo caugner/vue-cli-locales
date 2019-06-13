@@ -3,16 +3,16 @@
     "vue": {
       "common": {
         "close": "Luk",
-        "cancel": "Cancel",
+        "cancel": "Fortryd",
         "back": "Gå tilbage",
         "more-info": "Mere info",
-        "show-more": "Show more",
-        "show-less": "Show less"
+        "show-more": "Vis mere",
+        "show-less": "Vis mere"
       },
       "components": {
         "client-addon-component": {
           "timeout": "Component load timeout",
-          "timeout-info": "The custom component takes too much time to load, there might be an error"
+          "timeout-info": "Den brugerdefineret komponent tager for lang tid om at indlæse, der er måske en fejl"
         },
         "connection-status": {
           "disconnected": "Frakoblet fra UI-serveren",
@@ -113,12 +113,12 @@
           }
         },
         "project-rename": {
-          "title": "Rename",
+          "title": "Omdøb",
           "name-field": {
-            "title": "Name",
-            "subtitle": "Enter the new name"
+            "title": "Navn",
+            "subtitle": "Skriv nyt navn"
           },
-          "submit": "Rename"
+          "submit": "Omdøb"
         },
         "project-plugin-item": {
           "version": "version",
@@ -185,7 +185,7 @@
           "buttons": {
             "clear": "Ryd konsol",
             "scroll": "Scroll til bunden",
-            "content-copy": "Copy content"
+            "content-copy": "Kopier indhold"
           }
         },
         "top-bar": {
@@ -445,7 +445,7 @@
         },
         "project-tasks": {
           "title": "Projektopgaver",
-          "refresh": "Refresh tasks"
+          "refresh": "Genindlæs opgaver"
         },
         "project-task-details": {
           "actions": {
@@ -459,7 +459,7 @@
           "more-info": "Mere Info",
           "output": "Output",
           "override-args": {
-            "message": "Override hard-coded arguments",
+            "message": "Overskriv hård-kodede argumenter",
             "description": "If enabled, hard-coded arguments in your package.json file will be replaced with the values defined below"
           }
         },
@@ -777,8 +777,8 @@
       },
       "widgets": {
         "welcome": {
-          "title": "Welcome tips",
-          "description": "Some tips to help you get started",
+          "title": "Velkommen tips",
+          "description": "Nogle tips til at få dig igang",
           "content": {
             "title": "Velkommen til dit nye projekt",
             "tip1": "You are looking at the project dashboard where you can put widgets. Use the 'Customize' button to add more! Everything is automatically saved.",
@@ -788,17 +788,17 @@
           }
         },
         "kill-port": {
-          "title": "Kill port",
-          "description": "Kill processes using a specific network port",
+          "title": "Afslut port",
+          "description": "Afslutter job ved brug af specifik port",
           "input": {
-            "placeholder": "Enter a network port"
+            "placeholder": "Skriv netværks port"
           },
-          "kill": "Kill",
+          "kill": "Afslut",
           "status": {
-            "idle": "Ready to kill",
-            "killing": "Killing process...",
-            "killed": "Killed successfully!",
-            "error": "Couldn't kill process"
+            "idle": "Klar til at afslutte",
+            "killing": "Afslutter job...",
+            "killed": "Succesfuldt afsluttet",
+            "error": "Kunne ikke afslutte job"
           }
         },
         "status-widget": {
@@ -837,9 +837,9 @@
             "error": "Couldn't check for vulnerability"
           },
           "severity": {
-            "critical": "Critical severity",
+            "critical": "Kritisk alvorlighed",
             "high": "Høj alvorlighed",
-            "moderate": "Medium severity",
+            "moderate": "Medium alvorlighed",
             "low": "Lav alvorlighed"
           },
           "direct-dep": "Direkte afhængighed",
@@ -847,7 +847,7 @@
             "vulnerable": "Vulnerable versions:",
             "patched": "Patched versions:"
           },
-          "recheck": "Check again"
+          "recheck": "Kontroller igen"
         },
         "run-task": {
           "title": "Kør opgave",
@@ -860,8 +860,8 @@
         "news": {
           "title": "Nyhedsfeed",
           "description": "Læs nyhedsfeed",
-          "refresh": "Force refresh",
-          "select-tip": "Select an item on the left",
+          "refresh": "Gennemtving genindlæsning",
+          "select-tip": "Vælg et element til venstre",
           "prompts": {
             "url": "RSS feed URL eller GitHub repository"
           },
