@@ -3,16 +3,16 @@
     "vue": {
       "common": {
         "close": "Kapat",
-        "cancel": "Cancel",
+        "cancel": "Vazgeç",
         "back": "Geri dön",
         "more-info": "Daha fazla bilgi",
-        "show-more": "Show more",
-        "show-less": "Show less"
+        "show-more": "Daha fazla göster",
+        "show-less": "Daha az göster"
       },
       "components": {
         "client-addon-component": {
           "timeout": "Bileşen yükleme zaman aşımı",
-          "timeout-info": "Özel bileşeni yüklemek çok fazla zaman alıyor. Bir hata olabilir."
+          "timeout-info": "Özel bileşeni yüklemek çok fazla zaman alıyor, bir hata olabilir."
         },
         "connection-status": {
           "disconnected": "UI sunucusuna olan bağlantı koptu.",
@@ -78,7 +78,7 @@
         },
         "logger-view": {
           "title": "Geçmiş",
-          "empty": "Henüz log yok.",
+          "empty": "Henüz geçmiş yok.",
           "buttons": {
             "clear": "Geçmişi temizle",
             "scroll": "Alta kaydır",
@@ -113,12 +113,12 @@
           }
         },
         "project-rename": {
-          "title": "Rename",
+          "title": "Yeniden isimlendir",
           "name-field": {
-            "title": "Name",
-            "subtitle": "Enter the new name"
+            "title": "İsim",
+            "subtitle": "Yeni isim girin"
           },
-          "submit": "Rename"
+          "submit": "Yeniden İsimlendir"
         },
         "project-plugin-item": {
           "version": "sürüm",
@@ -177,7 +177,7 @@
         "suggestion-bar": {
           "suggestion": "Öneri",
           "modal": {
-            "cancel": "İptal et",
+            "cancel": "Vazgeç",
             "continue": "Devam et"
           }
         },
