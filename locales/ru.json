@@ -3,11 +3,11 @@
     "vue": {
       "common": {
         "close": "Закрыть",
-        "cancel": "Cancel",
+        "cancel": "Отменить",
         "back": "Назад",
         "more-info": "Подробнее",
-        "show-more": "Show more",
-        "show-less": "Show less"
+        "show-more": "Показать больше",
+        "show-less": "Показать меньше"
       },
       "components": {
         "client-addon-component": {
@@ -90,7 +90,7 @@
         },
         "project-nav": {
           "tooltips": {
-            "dashboard": "Информационная панель",
+            "dashboard": "Рабочий стол",
             "plugins": "Плагины",
             "dependencies": "Зависимости",
             "configuration": "Конфигурация",
@@ -113,12 +113,12 @@
           }
         },
         "project-rename": {
-          "title": "Rename",
+          "title": "Переименовать",
           "name-field": {
-            "title": "Name",
-            "subtitle": "Enter the new name"
+            "title": "Название",
+            "subtitle": "Введите новое название"
           },
-          "submit": "Rename"
+          "submit": "Переименовать"
         },
         "project-plugin-item": {
           "version": "версия",
@@ -131,8 +131,8 @@
           },
           "local": "Локальный",
           "features": {
-            "generator": "This plugin has a generator and can modify your project files and add new files for you.",
-            "ui-integration": "This plugin includes additional UI features like enhanced tasks, configuration screens, dashboard widgets..."
+            "generator": "Этот плагин имеет генератор и может изменять файлы вашего проекта и добавлять новые файлы для вас.",
+            "ui-integration": "Данный плагин включает в себя дополнительные улучшения интерфейса, такие как задачи, экран конфигураций, виджеты на главной..."
           }
         },
         "project-dependency-item": {
@@ -185,7 +185,7 @@
           "buttons": {
             "clear": "Очистить консоль",
             "scroll": "Прокрутить вниз",
-            "content-copy": "Copy content"
+            "content-copy": "Скопировать содержимое"
           }
         },
         "top-bar": {
@@ -295,8 +295,8 @@
                 },
                 "options": {
                   "label": "Дополнительные опции",
-                  "force": "Overwrite target folder if it exists",
-                  "bare": "Scaffold project without beginner instructions",
+                  "force": "Перезаписать папку, если она существует",
+                  "bare": "Создать без инструкций для начинающих",
                   "git-title": "Репозиторий Git",
                   "git": "Инициализировать репозиторий git (рекомендуется)",
                   "git-commit-message": " Введите сообщение первой фиксации (не обязательно) "
@@ -445,7 +445,7 @@
         },
         "project-tasks": {
           "title": "Задачи проекта",
-          "refresh": "Refresh tasks"
+          "refresh": "Обновить задачи"
         },
         "project-task-details": {
           "actions": {
@@ -459,8 +459,8 @@
           "more-info": "Дополнительная информация",
           "output": "Вывод",
           "override-args": {
-            "message": "Override hard-coded arguments",
-            "description": "If enabled, hard-coded arguments in your package.json file will be replaced with the values defined below"
+            "message": "Переопределять уже заданные аргументы",
+            "description": "Если включено, то записанные в package.json аргументы будут переопределены значениями указанными ниже"
           }
         },
         "project-dependencies": {
@@ -471,7 +471,7 @@
           },
           "actions": {
             "install": "Установить зависимость",
-            "update-all": "Update all dependencies"
+            "update-all": "Обновить все зависимости"
           },
           "install": {
             "title": "Установить новую зависимость"
@@ -484,7 +484,7 @@
           }
         },
         "project-dashboard": {
-          "title": "Информационная панель проекта",
+          "title": "Рабочий стол проекта",
           "cutomize": "Настроить",
           "done": "Готово"
         },
@@ -619,7 +619,7 @@
             },
             "runtimeCompiler": {
               "label": "Включить компиляцию во время выполнения",
-              "description": "This will allow you to use the template option in Vue components, but will incur around an extra 10kb payload for your app."
+              "description": "Позволит вам использовать опцию template в компонентах Vue, но дополнительно добавит 10kb кода в ваше приложение."
             },
             "productionSourceMap": {
               "label": "Включить source maps для production сборки",
@@ -723,8 +723,8 @@
               "description": "Стиль мобильного статус бара приложения в iOS"
             },
             "manifestCrossorigin": {
-              "message": "Attribute value for manifest.json link tag's crossorigin attribute",
-              "description": "Value for `crossoriging` attribute in manifest link tag in the generated HTML, you may need to set this if your pwa is behind an authenticated proxy"
+              "message": "Значение для атрибута `crossoriging` в теге ссылки на manifest.json",
+              "description": "Значение для атрибута `crossoriging` в теге ссылки на manifest.json внутри сгенерированного HTML. Возможно потребуется включить если ваше PWA приложение находится за прокси."
             }
           }
         },
@@ -788,7 +788,7 @@
           }
         },
         "kill-port": {
-          "title": "Убить порт",
+          "title": "Освободить порт",
           "description": "Убить процессы, использующие указанный сетевой порт",
           "input": {
             "placeholder": "Введите сетевой порт"
@@ -796,7 +796,7 @@
           "kill": "Убить",
           "status": {
             "idle": "Готов к убийству",
-            "killing": "Killing process...",
+            "killing": "Завершение процесса...",
             "killed": "Процесс успешно убит!",
             "error": "Не удается убить процесс"
           }
@@ -832,22 +832,22 @@
           "description": "Проверка на наличие известных уязвимостей в зависимостях проекта",
           "messages": {
             "ok": "Уязвимость не найдена",
-            "loading": "Auditing project security...",
+            "loading": "Проверка безопасности проекта...",
             "attention": "Найдено {n} уязвимостей",
-            "error": "Couldn't check for vulnerability"
+            "error": "Не удалось проверить на уязвимости"
           },
           "severity": {
-            "critical": "Critical severity",
+            "critical": "Критическая важность",
             "high": "Высокая точность",
-            "moderate": "Medium severity",
+            "moderate": "Средняя важность",
             "low": "Низкая точность"
           },
           "direct-dep": "Прямая зависимость",
           "versions": {
-            "vulnerable": "Vulnerable versions:",
-            "patched": "Patched versions:"
+            "vulnerable": "Уязвимые версии:",
+            "patched": "Исправленные версии:"
           },
-          "recheck": "Check again"
+          "recheck": "Проверить снова"
         },
         "run-task": {
           "title": "Запустить задачу",
