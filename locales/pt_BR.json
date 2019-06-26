@@ -131,8 +131,8 @@
           },
           "local": "Local",
           "features": {
-            "generator": "This plugin has a generator and can modify your project files and add new files for you.",
-            "ui-integration": "This plugin includes additional UI features like enhanced tasks, configuration screens, dashboard widgets..."
+            "generator": "Este plugin tem um gerador e pode modificar seus arquivos de projeto e adicionar novos arquivos para você.",
+            "ui-integration": "Este plug-in inclui recursos adicionais da interface do usuário, como tarefas aprimoradas, telas de configuração, widgets do dashboard..."
           }
         },
         "project-dependency-item": {
@@ -296,7 +296,7 @@
                 "options": {
                   "label": "Opções adicionais",
                   "force": "Sobrescrever pasta de destino caso exista",
-                  "bare": "Scaffold project without beginner instructions",
+                  "bare": "Projeto modelo sem instruções para iniciantes",
                   "git-title": "Repositório Git",
                   "git": "Initialize git repository (recommended)",
                   "git-commit-message": "Initial commit message (optional)"
