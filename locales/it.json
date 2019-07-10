@@ -844,7 +844,7 @@
           },
           "direct-dep": "Dipendenza diretta",
           "versions": {
-            "vulnerable": "Vulnerable versions:",
+            "vulnerable": "Versioni vulnerabili:",
             "patched": "Patched versions:"
           },
           "recheck": "Controlla di nuovo"

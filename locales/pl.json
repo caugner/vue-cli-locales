@@ -3,11 +3,11 @@
     "vue": {
       "common": {
         "close": "Zamknij",
-        "cancel": "Cancel",
+        "cancel": "Anuluj",
         "back": "Wróć",
         "more-info": "Więcej informacji",
-        "show-more": "Show more",
-        "show-less": "Show less"
+        "show-more": "Pokaż więcej",
+        "show-less": "Pokaż mniej"
       },
       "components": {
         "client-addon-component": {
@@ -113,12 +113,12 @@
           }
         },
         "project-rename": {
-          "title": "Rename",
+          "title": "Zmień nazwę",
           "name-field": {
-            "title": "Name",
-            "subtitle": "Enter the new name"
+            "title": "Nazwa",
+            "subtitle": "Wpisz nową nazwę"
           },
-          "submit": "Rename"
+          "submit": "Zmień nazwę"
         },
         "project-plugin-item": {
           "version": "wersja",
@@ -131,8 +131,8 @@
           },
           "local": "Lokalny",
           "features": {
-            "generator": "This plugin has a generator and can modify your project files and add new files for you.",
-            "ui-integration": "This plugin includes additional UI features like enhanced tasks, configuration screens, dashboard widgets..."
+            "generator": "Ten plugin ma generator i może modyfikować pliki Twojego projektu i dodawać nowe pliki za Ciebie",
+            "ui-integration": "Ten plugin zawiera dodatkowe funkcje UI, jak wzbogacone zaadnia, ekrany konfiguracji, widgety panelu sterowania..."
           }
         },
         "project-dependency-item": {
@@ -185,7 +185,7 @@
           "buttons": {
             "clear": "Wyczyść konsolę",
             "scroll": "Przewiń do dołu",
-            "content-copy": "Copy content"
+            "content-copy": "Skopiuj zawartość"
           }
         },
         "top-bar": {
@@ -296,7 +296,7 @@
                 "options": {
                   "label": "Dodatkowe opcje",
                   "force": "Jeżeli istnieje folder docelowy, to go nadpisz.",
-                  "bare": "Scaffold project without beginner instructions",
+                  "bare": "Zbuduj projekt bez porad dla początkujących",
                   "git-title": "Repozytorium git",
                   "git": "Inicjacja repozytorium git (zalecane)",
                   "git-commit-message": "Commit początkowy (opcjonalny)"
@@ -445,7 +445,7 @@
         },
         "project-tasks": {
           "title": "Zadania projektu",
-          "refresh": "Refresh tasks"
+          "refresh": "Odśwież zadania"
         },
         "project-task-details": {
           "actions": {
@@ -459,8 +459,8 @@
           "more-info": "Więcej informacji",
           "output": "Wyjście",
           "override-args": {
-            "message": "Override hard-coded arguments",
-            "description": "If enabled, hard-coded arguments in your package.json file will be replaced with the values defined below"
+            "message": "Nadpisz \"mocno zakodowane\" argumenty",
+            "description": "Gdy włączone, \"mocno zakodowane\" argumenty w Twoim pliku package.json będą zastąpione wartościami zdefiniowanymi poniżej"
           }
         },
         "project-dependencies": {
@@ -606,8 +606,8 @@
               "description": "Podstawowy adres URL, na którym zostanie wdrożona aplikacja, na przykład \"/my-app/\". Użyj pustego ciągu (\"\"), aby wszystkie zasoby były połączone przy użyciu ścieżek względnych."
             },
             "publicPath": {
-              "label": "Public Path",
-              "description": "The base URL your application will be deployed at, for example '/my-app/'. Use an empty string ('') so that all assets are linked using relative paths."
+              "label": "Ścieżka publiczna",
+              "description": "Bazowy URL do którego Twoja aplikacja będzie wdrożona, na przykład '/my-app/'. Użyj pustego ciągu znaków ('') żeby wszystkie zasoby były połączone przy użyciu ścieżek względnych"
             },
             "outputDir": {
               "label": "Katalog wyjściowy",
@@ -796,7 +796,7 @@
           "kill": "Wyłącz",
           "status": {
             "idle": "Gotowy do wyłączenia",
-            "killing": "Killing process...",
+            "killing": "Zatrzymywanie procesu...",
             "killed": "Wyłączono pomyślnie!",
             "error": "Nie można wyłączyć procesu"
           }
@@ -828,46 +828,46 @@
           "page": "Idź do zależności"
         },
         "vulnerability": {
-          "title": "Vulnerability check",
-          "description": "Check for known vulnerabilities in your project dependencies",
+          "title": "Sprawdzanie podatności",
+          "description": "Sprawdź czy w zależnościach Twojego projektu znajdują się znane podatności",
           "messages": {
-            "ok": "No vulnerability found",
-            "loading": "Auditing project security...",
-            "attention": "{n} vulnerabilities found",
-            "error": "Couldn't check for vulnerability"
+            "ok": "Nie znaleziono podatności",
+            "loading": "Sprawdzanie bezpieczeństwa projektu...",
+            "attention": "Znaleziono {n} podatności",
+            "error": "Nie udało się sprawdzić podatności"
           },
           "severity": {
-            "critical": "Critical severity",
-            "high": "High severity",
-            "moderate": "Medium severity",
-            "low": "Low severity"
+            "critical": "Krytyczne zagrożenie",
+            "high": "Wysokie zagrożenie",
+            "moderate": "Średnie zagrożenie",
+            "low": "Niskie zagrożenie"
           },
-          "direct-dep": "Direct dependency",
+          "direct-dep": "Bezpośrednia zależność",
           "versions": {
-            "vulnerable": "Vulnerable versions:",
-            "patched": "Patched versions:"
+            "vulnerable": "Podatne wersje:",
+            "patched": "Zaktualizowane wersje"
           },
-          "recheck": "Check again"
+          "recheck": "Sprawdź ponowie"
         },
         "run-task": {
-          "title": "Run task",
-          "description": "Shortcut to run a task",
+          "title": "Uruchom zadanie",
+          "description": "Skrót do uruchomienia zadania",
           "prompts": {
-            "task": "Select a task"
+            "task": "Wybierz zadanie"
           },
-          "page": "Go to Task"
+          "page": "Przejdź do zadania"
         },
         "news": {
           "title": "News feed",
           "description": "Read news feed",
-          "refresh": "Force refresh",
-          "select-tip": "Select an item on the left",
+          "refresh": "Wymuś odświeżenie",
+          "select-tip": "Wybierz pozycję po prawej",
           "prompts": {
             "url": "RSS feed URL or GitHub repository"
           },
           "errors": {
             "fetch": "Couldn't fetch feed",
-            "offline": "You are offline",
+            "offline": "Jesteś offline",
             "empty": "Empty feed"
           }
         }
