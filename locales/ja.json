@@ -3,10 +3,10 @@
     "vue": {
       "common": {
         "close": "閉じる",
-        "cancel": "Cancel",
+        "cancel": "キャンセル",
         "back": "戻る",
         "more-info": "詳細情報",
-        "show-more": "Show more",
+        "show-more": "もっと見る",
         "show-less": "Show less"
       },
       "components": {
@@ -796,7 +796,7 @@
           "kill": "終了",
           "status": {
             "idle": "終了の準備ができました",
-            "killing": "Killing process...",
+            "killing": "プロセスを終了しています...",
             "killed": "プロセスの終了に成功しました!",
             "error": "プロセスを終了できませんでした"
           }
@@ -834,12 +834,12 @@
             "ok": "脆弱性は見つかりません",
             "loading": "Auditing project security...",
             "attention": "{n}個の脆弱性が見つかりました",
-            "error": "Couldn't check for vulnerability"
+            "error": "脆弱性をチェックできませんでした"
           },
           "severity": {
-            "critical": "Critical severity",
+            "critical": "致命的な損害",
             "high": "大規模な損害",
-            "moderate": "Medium severity",
+            "moderate": "中規模な損害",
             "low": "小規模な損害"
           },
           "direct-dep": "直接の依存",
@@ -847,7 +847,7 @@
             "vulnerable": "Vulnerable versions:",
             "patched": "Patched versions:"
           },
-          "recheck": "Check again"
+          "recheck": "再チェックする"
         },
         "run-task": {
           "title": "タスクの実行",
