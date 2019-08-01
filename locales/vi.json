@@ -3,7 +3,7 @@
     "vue": {
       "common": {
         "close": "Đóng",
-        "cancel": "Cancel",
+        "cancel": "Hủy",
         "back": "Quay lại",
         "more-info": "Xem thêm",
         "show-more": "Hiện nhiều hơn",
@@ -113,12 +113,12 @@
           }
         },
         "project-rename": {
-          "title": "Rename",
+          "title": "Đổi tên",
           "name-field": {
-            "title": "Name",
-            "subtitle": "Enter the new name"
+            "title": "Tên",
+            "subtitle": "Nhập tên mới"
           },
-          "submit": "Rename"
+          "submit": "Đổi tên"
         },
         "project-plugin-item": {
           "version": "phiên bản",
@@ -185,7 +185,7 @@
           "buttons": {
             "clear": "Làm sạch console",
             "scroll": "Cuộn xuống dưới cùng",
-            "content-copy": "Copy content"
+            "content-copy": "Sao chép nội dung"
           }
         },
         "top-bar": {
@@ -392,21 +392,21 @@
           "plugin": "plugin",
           "tabs": {
             "search": {
-              "label": "Search",
+              "label": "Tìm kiếm",
               "search-input": "Search a plugin",
-              "not-found": "No results found",
+              "not-found": "Không tìm thấy kết quả nào",
               "buttons": {
-                "cancel": "Cancel",
-                "install": "Install {target}",
-                "default-install": "Install"
+                "cancel": "Hủy",
+                "install": "Cài đặt {target}",
+                "default-install": "Cài đặt"
               }
             },
             "configuration": {
-              "label": "Configuration",
+              "label": "Cấu hình",
               "heading": "Installation of {target}",
               "buttons": {
-                "cancel": "Cancel",
-                "finish": "Finish installation"
+                "cancel": "Hủy",
+                "finish": "Hoàn thành cài đặt"
               }
             },
             "diff": {
@@ -414,12 +414,12 @@
             }
           },
           "modal": {
-            "title": "Uninstall {target}?",
+            "title": "Gỡ cài đặt {target}?",
             "body": "Do you want to uninstall the {target} plugin?",
             "buttons": {
               "back": "Go back",
               "cancel": "Cancel without uninstalling",
-              "uninstall": "Uninstall"
+              "uninstall": "Gỡ cài đặt"
             }
           },
           "buttons": {
@@ -438,9 +438,9 @@
         "project-configuration-details": {
           "actions": {
             "cancel": "Cancel changes",
-            "save": "Save changes",
+            "save": "Lưu những thay đổi",
             "more-info": "More info",
-            "refresh": "Refresh"
+            "refresh": "Làm mới"
           }
         },
         "project-tasks": {
@@ -451,8 +451,8 @@
           "actions": {
             "play": "Run task",
             "stop": "Stop task",
-            "close": "Close",
-            "save": "Save"
+            "close": "Đóng",
+            "save": "Lưu"
           },
           "command": "Script command",
           "parameters": "Parameters",
@@ -477,10 +477,10 @@
             "title": "Install new dependency"
           },
           "uninstall": {
-            "title": "Confirm uninstall",
+            "title": "Xác nhận gỡ cài đặt",
             "body": "Are you sure you want to uninstall {id}?",
-            "cancel": "Cancel",
-            "uninstall": "Uninstall {id}"
+            "cancel": "Hủy",
+            "uninstall": "Gỡ cài đặt {id}"
           }
         },
         "project-dashboard": {
@@ -489,7 +489,7 @@
           "done": "Done"
         },
         "settings": {
-          "title": "Settings"
+          "title": "Cài đặt"
         },
         "about": {
           "title": "About",
