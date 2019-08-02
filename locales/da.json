@@ -601,10 +601,6 @@
               "general": "Generelle indstillinger",
               "css": "CSS indstillinger"
             },
-            "baseUrl": {
-              "label": "Grund-URL",
-              "description": "Grund-URLet, som din applikation vil blive deployet til, for eksempel '/my-app/'. Anvend en tom streng (''), så alle aktiver linkes med relative stier."
-            },
             "publicPath": {
               "label": "Public Path",
               "description": "The base URL your application will be deployed at, for example '/my-app/'. Use an empty string ('') so that all assets are linked using relative paths."

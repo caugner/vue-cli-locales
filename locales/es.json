@@ -601,10 +601,6 @@
               "general": "Configuraciones generales",
               "css": "Configuraciones CSS"
             },
-            "baseUrl": {
-              "label": "URL base",
-              "description": "La URL base de tú aplicación donde se desplegará, por ejemplo '/my-app/'. Utiliza una cadena vacía ('') para que todos los assets se vinculen mediante rutas relativas."
-            },
             "publicPath": {
               "label": "Public Path",
               "description": "The base URL your application will be deployed at, for example '/my-app/'. Use an empty string ('') so that all assets are linked using relative paths."

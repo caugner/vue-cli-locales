@@ -601,10 +601,6 @@
               "general": "Genel ayarlar",
               "css": "CSS ayarları"
             },
-            "baseUrl": {
-              "label": "Temel URL",
-              "description": "Uygulamanızın dağıtılacağı temel URL, örneğin '/uygulamam/. Boş bir dize ('') kullanın, böylece tüm varlıklar göreceli yollar kullanılarak bağlanır."
-            },
             "publicPath": {
               "label": "Genel Yol",
               "description": "Uygulamanızın dağıtılacağı temel URL, örneğin '/uygulamam/. Boş bir dize ('') kullanın, böylece tüm varlıklar göreceli yollar kullanılarak bağlanır."

@@ -601,10 +601,6 @@
               "general": "Configuració general",
               "css": "Configuració de CSS"
             },
-            "baseUrl": {
-              "label": "Adreça URL base",
-              "description": "Adreça URL base on es desplegarà l'aplicació, per exemple '/my-app/'. Amb una cadena buida ('') tots els recursos s'enllaçaran amb camins relatius."
-            },
             "publicPath": {
               "label": "Camí públic",
               "description": "Adreça URL base on es desplegarà l'aplicació, per exemple '/my-app/'. Amb una cadena buida ('') tots els recursos s'enllaçaran amb camins relatius."

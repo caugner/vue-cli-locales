@@ -601,10 +601,6 @@
               "general": "Allgemeine Einstellungen",
               "css": "CSS-Einstellungen"
             },
-            "baseUrl": {
-              "label": "Basis-URL",
-              "description": "Die Basis-URL, unter der deine Anwendung bereitgestellt wird, zum Beispiel '/my-app/'. Verwende einen leeren String (''), wenn alle Assets mit relativen Pfaden verlinkt werden sollen."
-            },
             "publicPath": {
               "label": "Öffentlicher Pfad",
               "description": "Die Basis-URL, unter der deine Anwendung bereitgestellt wird, zum Beispiel '/my-app/'. Verwende einen leeren String (''), wenn alle Assets mit relativen Pfaden verlinkt werden sollen."

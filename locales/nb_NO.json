@@ -601,10 +601,6 @@
               "general": "Generelle innstillinger",
               "css": "CSS-innstillinger"
             },
-            "baseUrl": {
-              "label": "URL-utgangspunkt",
-              "description": "URL-utgangspunktet som applikasjonen din vil bli deployed fra, for eksempel '/my-app/'. Bruk en tom string ('') slik at alle ressurser kan lenkes til med relative filbaner."
-            },
             "publicPath": {
               "label": "Offentlig sti",
               "description": "URL-utgangspunktet som applikasjonen din vil bli deployed fra, for eksempel '/my-app/'. Bruk en tom string ('') slik at alle ressurser kan lenkes til med relative filbaner."

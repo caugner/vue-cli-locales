@@ -601,10 +601,6 @@
               "general": "Paramètres généraux",
               "css": "Paramètres CSS"
             },
-            "baseUrl": {
-              "label": "URL de base",
-              "description": "L'URL de base où sera déployée votre application, comme par exemple '/my-app/'. Utilisez une chaîne vide ('') pour que tous les assets soient liés via des chemins relatifs."
-            },
             "publicPath": {
               "label": "Chemin public",
               "description": "L'url de base de votre application sera déployée dans, par exemple, '/my-app/'. Utilisez une chaine vide ('') pour que tous les assets soient liés en utilisant des chemins relatifs."

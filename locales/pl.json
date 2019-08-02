@@ -601,10 +601,6 @@
               "general": "Główne ustawienia",
               "css": "Ustawienia CSS"
             },
-            "baseUrl": {
-              "label": "Bazowy URL",
-              "description": "Podstawowy adres URL, na którym zostanie wdrożona aplikacja, na przykład \"/my-app/\". Użyj pustego ciągu (\"\"), aby wszystkie zasoby były połączone przy użyciu ścieżek względnych."
-            },
             "publicPath": {
               "label": "Ścieżka publiczna",
               "description": "Bazowy URL do którego Twoja aplikacja będzie wdrożona, na przykład '/my-app/'. Użyj pustego ciągu znaków ('') żeby wszystkie zasoby były połączone przy użyciu ścieżek względnych"

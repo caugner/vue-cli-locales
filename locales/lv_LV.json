@@ -601,10 +601,6 @@
               "general": "Vispārīgie uzstādījumi",
               "css": "CSS uzstādījumi"
             },
-            "baseUrl": {
-              "label": "Pamata URL",
-              "description": "Pamata URL, kur jūsu lietotne tiks izvietota, piemēram, '/my-app/'. Izmantojiet tukšu virkni (''), lai visi aktīvi būtu saistīti, izmantojot relatīvos ceļus."
-            },
             "publicPath": {
               "label": "Public Path",
               "description": "Pamata URL, kur jūsu lietotne tiks izvietota, piemēram, '/my-app/'. Izmantojiet tukšu virkni (''), lai visi aktīvi būtu saistīti, izmantojot relatīvos ceļus."

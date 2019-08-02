@@ -601,10 +601,6 @@
               "general": "一般的な設定",
               "css": "CSS 設定"
             },
-            "baseUrl": {
-              "label": "ベース URL",
-              "description": "アプリケーションが配置されるベース URL、例えば '/my-app'。空文字 (\"\") を使用すると全てのアセットが相対パスで解決されます。"
-            },
             "publicPath": {
               "label": "Public Path",
               "description": "アプリケーションが配置されるベース URL、例えば '/my-app'。空文字 (\"\") を使用すると全てのアセットが相対パスで解決されます。"

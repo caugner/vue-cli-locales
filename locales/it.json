@@ -601,10 +601,6 @@
               "general": "Impostazioni generali",
               "css": "Impostazioni CSS"
             },
-            "baseUrl": {
-              "label": "URL di base",
-              "description": "L'URL di base in cui verrà eseguita l'applicazione, per esempio '/my-app/'. Usando una stringa vuota ('') i riferimenti a tutte le risorse saranno relativi."
-            },
             "publicPath": {
               "label": "Percorso pubblico",
               "description": "L'URL di base in cui verrà eseguita l'applicazione, per esempio '/my-app/'. Usando una stringa vuota ('') i riferimenti a tutte le risorse saranno relativi."

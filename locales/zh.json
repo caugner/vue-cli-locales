@@ -601,10 +601,6 @@
               "general": "基础设置",
               "css": "CSS 设置"
             },
-            "baseUrl": {
-              "label": "Base URL",
-              "description": "应用的部署地址，如 '/my-app/'。如果留空，所有资源将使用相对路径。"
-            },
             "publicPath": {
               "label": "公共路径",
               "description": "应用的部署地址，如 '/my-app/'。如果留空，所有资源将使用相对路径。"
