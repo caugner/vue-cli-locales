@@ -410,7 +410,7 @@
               }
             },
             "diff": {
-              "label": "Files changed"
+              "label": "Những tập tin đã thay đổi"
             }
           },
           "modal": {
@@ -437,7 +437,7 @@
         },
         "project-configuration-details": {
           "actions": {
-            "cancel": "Cancel changes",
+            "cancel": "Hủy bỏ những thay đổi",
             "save": "Lưu những thay đổi",
             "more-info": "More info",
             "refresh": "Làm mới"

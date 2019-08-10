@@ -3,11 +3,11 @@
     "vue": {
       "common": {
         "close": "ปิด",
-        "cancel": "Cancel",
+        "cancel": "ยกเลิก",
         "back": "ย้อนกลับ",
         "more-info": "ข้อมูลเพิ่มเติม",
-        "show-more": "Show more",
-        "show-less": "Show less"
+        "show-more": "แสดงเพิ่มเติม",
+        "show-less": "แสดงน้อยลง"
       },
       "components": {
         "client-addon-component": {
@@ -81,7 +81,7 @@
           "empty": "No logs yet",
           "buttons": {
             "clear": "ลบล้างบันทึกทั้งหมด",
-            "scroll": "เลื่อนจอไปยังข้างล่างสุด",
+            "scroll": "เลื่อนไปยังข้างล่างสุด",
             "close": "ปิด"
           }
         },
@@ -107,18 +107,18 @@
         },
         "project-select-list-item": {
           "tooltips": {
-            "favorite": "เพิ่ม/ลบ ไปยังรายการที่ชื่นชอบ",
-            "delete": "ลบ",
+            "favorite": "เพิ่ม/ลบ รายการที่ชื่นชอบ",
+            "delete": "ลบจากรายการ",
             "open-in-editor": "เปิดใน editor"
           }
         },
         "project-rename": {
           "title": "Rename",
           "name-field": {
-            "title": "Name",
+            "title": "ชื่อ",
             "subtitle": "Enter the new name"
           },
-          "submit": "Rename"
+          "submit": "เปลี่ยนชื่อ"
         },
         "project-plugin-item": {
           "version": "รุ่น",
@@ -137,11 +137,11 @@
         },
         "project-dependency-item": {
           "version": "รุ่น",
-          "wanted": "wanted",
+          "wanted": "ต้องการ",
           "latest": "ล่าสุด",
           "installed": "ติดตั้งแล้ว",
           "actions": {
-            "update": "Update {target}",
+            "update": "อัพเดท {target}",
             "uninstall": "ถอนการติดตั้ง {target}"
           }
         },
@@ -160,7 +160,7 @@
         "status-bar": {
           "project": {
             "tooltip": "โครงการปัจจุบัน<br><i>คลิ๊กเพื่อ เปิด/ปิด ตัวจัดการโครงการ</i>",
-            "empty": "ไม่มีโครงการ"
+            "empty": "ไม่มีโครงการเปิดอยู่"
           },
           "path": {
             "tooltip": "โฟลเดอร์ที่ใช้งานอยู่ปัจจุบัน"
@@ -171,11 +171,11 @@
           },
           "report-bug": "รายงานปัญหา",
           "translate": "ช่วยแปล",
-          "dark-mode": "Toggle dark mode",
+          "dark-mode": "เปิด/ปิดโหมดมืด",
           "reset-plugin-api": "Refresh plugins API"
         },
         "suggestion-bar": {
-          "suggestion": "Suggestion",
+          "suggestion": "คำแนะนำ",
           "modal": {
             "cancel": "ยกเลิก",
             "continue": "ดำเนินการต่อ"
@@ -185,7 +185,7 @@
           "buttons": {
             "clear": "ล้างคอนโซล",
             "scroll": "เลื่อนจอไปยังข้างล่างสุด",
-            "content-copy": "Copy content"
+            "content-copy": "คัดลอกเนื้อหา"
           }
         },
         "top-bar": {
@@ -208,7 +208,7 @@
           "configure": "ตั้งค่าวิดเจ็ต",
           "save": "บันทึก",
           "reset-config": "ล้างการตั้งค่า",
-          "open-details": "แสดงเพิ่ม"
+          "open-details": "แสดงเพิ่มเติม"
         },
         "widget-add-pane": {
           "title": "เพิ่มวิดเจ็ต"
@@ -249,7 +249,7 @@
             "idle": "ว่าง",
             "running": "กำลังทำงาน",
             "done": "เสร็จสิ้น",
-            "error": "เกิดข้อผิดพลาด",
+            "error": "ข้อผิดพลาด",
             "terminated": "ถูกยุติ"
           }
         }
@@ -316,16 +316,16 @@
               }
             },
             "presets": {
-              "title": "Preset",
-              "description": "Preset คือ กลุ่มของปลั๊กอินและการตั้งค่าต่างๆ หลังจากที่คุณได้เลือกฟีเจอร์ต่างๆแล้ว คุณสามารถบันทึกเก็บเป็น preset เพื่อที่จะใช้ซ้ำกับโครงการอื่นๆได้ในอนาคตโดยไม่ต้องมากำหนดค่าใหม่อีก",
-              "select": "เลือก preset",
+              "title": "พรีเซ็ต",
+              "description": "พรีเซ็ต คือ กลุ่มของปลั๊กอินและการตั้งค่าต่างๆ หลังจากที่คุณได้เลือกฟีเจอร์ต่างๆแล้ว คุณสามารถบันทึกเก็บเป็น preset เพื่อที่จะใช้ซ้ำกับโครงการอื่นๆได้ในอนาคตโดยไม่ต้องมากำหนดค่าใหม่อีก",
+              "select": "เลือกพรีเซ็ต",
               "buttons": {
                 "previous": "ย้อนกลับ",
                 "next": "ต่อไป",
                 "create": "สร้างโครงการ"
               },
               "modal": {
-                "title": "ตั้งค่ารีโมท preset",
+                "title": "ตั้งค่ารีโมทพรีเซ็ต",
                 "body": "จะมาในไม่ช้า ขอเวลาอีกไม่นาน..."
               },
               "manual": {
@@ -333,8 +333,8 @@
                 "description": "เลือกฟีเจอร์ต่างๆเอง"
               },
               "remote": {
-                "name": "รีโมท preset",
-                "description": "ดึง preset จาก git repository",
+                "name": "รีโมทพรีเซ็ต",
+                "description": "ดึงพรีเซ็ตจาก git repository",
                 "url": {
                   "title": "Preset URL",
                   "subtitle": "Git repo, for example 'username/repo'. You can also prefix with 'gitlab:' or 'bitbucket:'."
@@ -344,7 +344,7 @@
                 "cancel": "ยกเลิก",
                 "done": "เสร็จสิ้น"
               },
-              "default-preset": "Preset เริ่มต้น"
+              "default-preset": "พรีเซ็ตเริ่มต้น"
             },
             "features": {
               "title": "ฟีเจอร์",
@@ -367,15 +367,15 @@
                 "create": "สร้างโครงการ"
               },
               "modal": {
-                "title": "บันทึกเป็น preset ใหม่",
+                "title": "บันทึกเป็นพรีเซ็ตใหม่",
                 "body": {
-                  "title": "ชื่อ preset",
+                  "title": "ชื่อพรีเซ็ต",
                   "subtitle": "บันทึกฟีเจอร์และการตั้งค่าเป็น preset ใหม่"
                 },
                 "buttons": {
                   "cancel": "ยกเลิก",
                   "continue": "ดำเนินการต่อโดยไม่บันทึก",
-                  "create": "สร้าง preset ใหม่"
+                  "create": "สร้างพรีเซ็ตใหม่"
                 }
               }
             }
@@ -479,7 +479,7 @@
           "uninstall": {
             "title": "Confirm uninstall",
             "body": "Are you sure you want to uninstall {id}?",
-            "cancel": "Cancel",
+            "cancel": "ยกเลิก",
             "uninstall": "ถอนการติดตั้ง {id}"
           }
         },
@@ -530,8 +530,8 @@
           "build-status": {
             "labels": {
               "status": "สถานะ",
-              "errors": "Errors",
-              "warnings": "Warnings",
+              "errors": "ข้อผิดพลาด",
+              "warnings": "คำเตือน",
               "assets": "Assets",
               "modules": "Modules",
               "deps": "Dependencies"
@@ -550,8 +550,8 @@
         },
         "analyzer": {
           "title": "ตัววิเคราะห์",
-          "go-up": "Go up",
-          "go-home": "Go to home",
+          "go-up": "ไปยังด้านบน",
+          "go-home": "ไปยังหน้าหลัก",
           "chunk": "Chunk"
         },
         "sizes": {
@@ -651,9 +651,9 @@
             "description": "Error checking & Code quality",
             "groups": {
               "base": "พื้นฐาน",
-              "essential": "Essential",
-              "strongly-recommended": "Strongly recommended",
-              "recommended": "Recommended",
+              "essential": "จำเป็น",
+              "strongly-recommended": "แนะนำอย่างยิ่ง",
+              "recommended": "แนะนำ",
               "uncategorized": "ไม่ได้จัดหมวดหมู่"
             },
             "setting": {
@@ -695,7 +695,7 @@
           "pwa": {
             "description": "Progressive Web App",
             "workboxPluginMode": {
-              "message": "Plugin mode",
+              "message": "โหมดของปลั๊กอิน",
               "description": "This allows you to the choose between the two modes supported by the underlying `workbox-webpack-plugin`"
             },
             "name": {
@@ -773,7 +773,7 @@
       },
       "widgets": {
         "welcome": {
-          "title": "Welcome tips",
+          "title": "คำแนะนำต้อนรับ",
           "description": "Some tips to help you get started",
           "content": {
             "title": "Welcome to your new project!",
@@ -811,7 +811,7 @@
             "loading": "กำลังตรวจสอบอัพเดท",
             "attention": "{n} plugin updates available"
           },
-          "page": "Go to Plugins"
+          "page": "ไปยัง ปลั๊กอิน"
         },
         "dependency-updates": {
           "title": "Dependency updates",
@@ -827,10 +827,10 @@
           "title": "ตรวจสอบช่องโหว่",
           "description": "Check for known vulnerabilities in your project dependencies",
           "messages": {
-            "ok": "No vulnerability found",
+            "ok": "ไม่พบช่องโหว่",
             "loading": "Auditing project security...",
-            "attention": "{n} vulnerabilities found",
-            "error": "Couldn't check for vulnerability"
+            "attention": "พบช่องโหว่จำนวน {n} ช่องโหว่",
+            "error": "ไม่สามารถตรวจสอบช่องโหว่ได้"
           },
           "severity": {
             "critical": "Critical severity",
@@ -843,7 +843,7 @@
             "vulnerable": "Vulnerable versions:",
             "patched": "Patched versions:"
           },
-          "recheck": "Check again"
+          "recheck": "ตรวจสอบอีกครั้ง"
         },
         "run-task": {
           "title": "Run task",
@@ -863,7 +863,7 @@
           },
           "errors": {
             "fetch": "Couldn't fetch feed",
-            "offline": "You are offline",
+            "offline": "คุณกำลังออฟไลน์",
             "empty": "Empty feed"
           }
         }
