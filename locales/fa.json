@@ -3,11 +3,11 @@
     "vue": {
       "common": {
         "close": "بستن ",
-        "cancel": "Cancel",
+        "cancel": "لغو",
         "back": "بازگشت به عقب",
         "more-info": "اطلاعات بیشتر",
-        "show-more": "Show more",
-        "show-less": "Show less"
+        "show-more": "بیشتر نشان بده",
+        "show-less": "کمتر نشان بده"
       },
       "components": {
         "client-addon-component": {
