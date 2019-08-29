@@ -3,11 +3,11 @@
     "vue": {
       "common": {
         "close": "Sulge",
-        "cancel": "Cancel",
+        "cancel": "Katkesta",
         "back": "Tagasi",
         "more-info": "Lisainfo",
-        "show-more": "Show more",
-        "show-less": "Show less"
+        "show-more": "Näita rohkem",
+        "show-less": "Näita vähem"
       },
       "components": {
         "client-addon-component": {
@@ -41,8 +41,8 @@
             }
           },
           "actions": {
-            "collapse-all": "Collapse all",
-            "expand-all": "Expand all",
+            "collapse-all": "Sulge kõik",
+            "expand-all": "Ava kõik",
             "commit": "Kehtesta muudatused",
             "skip": "Jäta vahele",
             "continue": "Jätka",
@@ -94,7 +94,7 @@
             "plugins": "Teegid",
             "dependencies": "Eeldused",
             "configuration": "Konfiguratsioon",
-            "tasks": "Tasks",
+            "tasks": "Tööd",
             "more": "Veel"
           }
         },
@@ -113,12 +113,12 @@
           }
         },
         "project-rename": {
-          "title": "Rename",
+          "title": "Nimeta ümber",
           "name-field": {
-            "title": "Name",
-            "subtitle": "Enter the new name"
+            "title": "Nimi",
+            "subtitle": "Sisesta uus nimi"
           },
-          "submit": "Rename"
+          "submit": "Nimeta ümber"
         },
         "project-plugin-item": {
           "version": "versioon",
