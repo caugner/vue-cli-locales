@@ -3,7 +3,7 @@ host = https://www.transifex.com
 
 [vue-cli.cli-ui]
 file_filter = locales/<lang>.json
-minimum_perc = 0
+minimum_perc = 5
 source_file = locales/en.json
 source_lang = en
 type = KEYVALUEJSON
