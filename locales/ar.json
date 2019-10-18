@@ -3,11 +3,11 @@
     "vue": {
       "common": {
         "close": "إغلاق",
-        "cancel": "Cancel",
+        "cancel": "إلغاء",
         "back": "رجوع",
         "more-info": "المزيد من المعلومات",
-        "show-more": "Show more",
-        "show-less": "Show less"
+        "show-more": "أظهر المزيد",
+        "show-less": "أظهر أقل"
       },
       "components": {
         "client-addon-component": {
@@ -33,7 +33,7 @@
             "commit": {
               "title": "إيداع التغييرات",
               "input": "أدخل رسالة الإيداع",
-              "subtitle": "Record changes to the repository",
+              "subtitle": "حفظ التغييرات إلى المستودع",
               "actions": {
                 "commit": "إيداع",
                 "cancel": "إلغاء"
@@ -59,7 +59,7 @@
               "refresh": "إعادة تحديث"
             },
             "placeholder": "ادخل المسار الكامل للمجلد",
-            "empty": "No favorite folders yet.",
+            "empty": "ليس هناك مجلدات مفضلة لحد الآن.",
             "show-hidden": "إظهار المجلدات المخفية"
           },
           "new-folder": {
@@ -67,7 +67,7 @@
             "title": "إنشاء مجلد جديد",
             "field": {
               "title": "مجلد جديد",
-              "subtitle": "You can use the folder separator to create multiple nested folders at once."
+              "subtitle": "يمكنك استخدام فاصل المجلدات لإنشاء مجلدات متعددة متداخلة في وقت واحد."
             },
             "cancel": "إلغاء",
             "create": "إنشاء"
@@ -90,9 +90,9 @@
         },
         "project-nav": {
           "tooltips": {
-            "dashboard": "Dashboard",
+            "dashboard": "لوحة التحكم",
             "plugins": "الإضافات",
-            "dependencies": "Dependencies",
+            "dependencies": "تبعيات",
             "configuration": "تهيئة",
             "tasks": "المهام",
             "more": "المزيد"
@@ -113,12 +113,12 @@
           }
         },
         "project-rename": {
-          "title": "Rename",
+          "title": "إعادة تسمية",
           "name-field": {
-            "title": "Name",
-            "subtitle": "Enter the new name"
+            "title": "اسم",
+            "subtitle": "أدخل الاسم الجديد"
           },
-          "submit": "Rename"
+          "submit": "إعادة تسمية"
         },
         "project-plugin-item": {
           "version": "الإصدار",
@@ -126,18 +126,18 @@
           "official": "رسمي",
           "installed": "مثبت",
           "actions": {
-            "update": "Update {target}",
-            "refresh": "Force Refresh {target}<br><i>Press [Shift] for Quick Refresh (node_modules won't be updated)</i>"
+            "update": "تحديث {target}",
+            "refresh": "تحديث بقوة {target}<br><i>اضغط على [Shift] للتحديث السريع (لن يتم تحديث node_modules)</i>"
           },
-          "local": "Local",
+          "local": "محلي",
           "features": {
-            "generator": "This plugin has a generator and can modify your project files and add new files for you.",
-            "ui-integration": "This plugin includes additional UI features like enhanced tasks, configuration screens, dashboard widgets..."
+            "generator": "يحتوي هذا المكون الإضافي على مولد ويمكنه تعديل ملفات المشروع وإضافة ملفات جديدة لك.",
+            "ui-integration": "يتضمن هذا المكون الإضافي ميزات إضافية لواجهة المستخدم مثل المهام المحسّنة وشاشات الأعدادات وعناصر لوحة التحكم ..."
           }
         },
         "project-dependency-item": {
           "version": "الإصدار",
-          "wanted": "wanted",
+          "wanted": "مطلوب",
           "latest": "الاخير",
           "installed": "مثبت",
           "actions": {
@@ -148,7 +148,7 @@
         "project-tasks-dropdown": {
           "tooltips": {
             "tasks": "مهام",
-            "running-tasks": "{count} running task(s)"
+            "running-tasks": "{count} مهمة (مهام) قيد التشغيل"
           }
         },
         "prompt-list": {
@@ -160,22 +160,22 @@
         "status-bar": {
           "project": {
             "tooltip": "اضغط لقلب مدير المشروع",
-            "empty": "No project open"
+            "empty": "لا يوجد مشروع مفتوح"
           },
           "path": {
             "tooltip": "المجلد الحالي للعمل"
           },
           "log": {
-            "tooltip": "Logs<br><i>Click to toggle Vue CLI logs</i>",
+            "tooltip": "سجلات<br><i>انقر لتبديل سجلات CLI Vue</i>",
             "empty": "لا يوجد سجلات بعد"
           },
           "report-bug": "الإبلاغ عن خطأ",
           "translate": "المساعدة بالترجمة",
-          "dark-mode": "Toggle dark mode",
-          "reset-plugin-api": "Refresh plugins API"
+          "dark-mode": "تبديل الوضع الداكن",
+          "reset-plugin-api": "تحديث واجهة برمجة التطبيقات للإضافات"
         },
         "suggestion-bar": {
-          "suggestion": "Suggestion",
+          "suggestion": "اقتراح",
           "modal": {
             "cancel": "إلغاء",
             "continue": "Continue"
@@ -183,40 +183,40 @@
         },
         "terminal-view": {
           "buttons": {
-            "clear": "Clear console",
+            "clear": "نظف وحدة التحكم",
             "scroll": "إنتقل الى اسفل",
-            "content-copy": "Copy content"
+            "content-copy": "نسخ المحتوى"
           }
         },
         "top-bar": {
-          "no-favorites": "No favorite projects",
-          "favorite-projects": "Favorite projects",
-          "recent-projects": "Recent projects",
+          "no-favorites": "لا مشاريع مفضلة",
+          "favorite-projects": "المشاريع المفضلة",
+          "recent-projects": "مشاريع حديثه",
           "homepage": "الصفحة الرئيسية"
         },
         "view-badge": {
           "labels": {
             "tasks": {
-              "error": "Error status",
-              "running": "Running status",
-              "done": "Done status"
+              "error": "حالة الخطأ",
+              "running": "حالة التشغيل",
+              "done": "حالة الانتهاء"
             }
           }
         },
         "widget": {
-          "remove": "Remove widget",
-          "configure": "Configure widget",
+          "remove": "إزالة العنصر",
+          "configure": "تكوين العنصر",
           "save": "حفظ",
-          "reset-config": "Reset config",
-          "open-details": "Show more"
+          "reset-config": "إعادة ضبط التكوين",
+          "open-details": "أظهر المزيد"
         },
         "widget-add-pane": {
-          "title": "Add widgets"
+          "title": "إضافة عناصر"
         },
         "widget-add-item": {
-          "add": "Add widget",
+          "add": "إضافة عنصر",
           "details": {
-            "title": "Widget details",
+            "title": "تفاصيل العنصر",
             "max-instances": "Max instance count: {count}/{total}",
             "unlimited": "غير محدود"
           }
