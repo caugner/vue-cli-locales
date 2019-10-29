@@ -3,11 +3,11 @@
     "vue": {
       "common": {
         "close": "Lukk",
-        "cancel": "Cancel",
+        "cancel": "Avbryt",
         "back": "Gå tilbake",
         "more-info": "Mer info",
-        "show-more": "Show more",
-        "show-less": "Show less"
+        "show-more": "Vis mer",
+        "show-less": "Vis mindre"
       },
       "components": {
         "client-addon-component": {
@@ -113,12 +113,12 @@
           }
         },
         "project-rename": {
-          "title": "Rename",
+          "title": "Endre navn",
           "name-field": {
-            "title": "Name",
-            "subtitle": "Enter the new name"
+            "title": "Navn",
+            "subtitle": "Skriv inn et nytt navn"
           },
-          "submit": "Rename"
+          "submit": "Endre navn"
         },
         "project-plugin-item": {
           "version": "versjon",
@@ -131,8 +131,8 @@
           },
           "local": "Lokal",
           "features": {
-            "generator": "This plugin has a generator and can modify your project files and add new files for you.",
-            "ui-integration": "This plugin includes additional UI features like enhanced tasks, configuration screens, dashboard widgets..."
+            "generator": "Dette tillegget har en genereringfunksjon og kan modifisere prosjektfilene dine og legge til nye filer for deg.",
+            "ui-integration": "Dette tillegget inkluderer ytterligere brukergrensesnitt funksjoner som forbedrende oppgaver, konfigurasjonsskjermer, dashboard moduler..."
           }
         },
         "project-dependency-item": {
@@ -185,7 +185,7 @@
           "buttons": {
             "clear": "Tøm konsoll",
             "scroll": "Scroll til bunnen",
-            "content-copy": "Copy content"
+            "content-copy": "Kopier innhold"
           }
         },
         "top-bar": {
@@ -296,7 +296,7 @@
                 "options": {
                   "label": "Tilleggsalternativer",
                   "force": "Overskriv mappen hvis den eksisterer allerede",
-                  "bare": "Scaffold project without beginner instructions",
+                  "bare": "Generer prosjekt uten nybegynnerinstruksjoner",
                   "git-title": "Git repository",
                   "git": "Initialiser git repository (anbefalt)",
                   "git-commit-message": "Første commit-melding (valgfritt)"
@@ -445,7 +445,7 @@
         },
         "project-tasks": {
           "title": "Prosjektoppgaver",
-          "refresh": "Refresh tasks"
+          "refresh": "Oppdater oppgaver"
         },
         "project-task-details": {
           "actions": {
@@ -459,8 +459,8 @@
           "more-info": "Mer info",
           "output": "Resultat",
           "override-args": {
-            "message": "Override hard-coded arguments",
-            "description": "If enabled, hard-coded arguments in your package.json file will be replaced with the values defined below"
+            "message": "Overstyr hardkodede argumenter",
+            "description": "Om aktivert, vil hardkodede argumenter i din package.json fil, bli byttet ut med verdiene som er definert under"
           }
         },
         "project-dependencies": {
@@ -719,8 +719,8 @@
               "description": "Hvordan statusbaren til webapper skal se ut på iOS"
             },
             "manifestCrossorigin": {
-              "message": "Attribute value for manifest.json link tag's crossorigin attribute",
-              "description": "Value for `crossoriging` attribute in manifest link tag in the generated HTML, you may need to set this if your pwa is behind an authenticated proxy"
+              "message": "Verdi for kryssopprinnelse attributt på link element for manifest.json",
+              "description": "Verdi for `crossoriging` attributt i manifest link element i den genererte HTMLen, du må kanskje sette en verdi for dette om din PWA er bak en autentisert proxy"
             }
           }
         },
@@ -792,7 +792,7 @@
           "kill": "Steng",
           "status": {
             "idle": "Klar til å avslutte",
-            "killing": "Killing process...",
+            "killing": "Avslutter prosessen",
             "killed": "Vellykket avsluttning",
             "error": "Kunne ikke avslutte prosess"
           }
@@ -828,22 +828,22 @@
           "description": "Se etter kjente sårbarheter i ditt prosjekts dependencies",
           "messages": {
             "ok": "Ingen sårbarhet funnet",
-            "loading": "Auditing project security...",
+            "loading": "Reviderer prosjektsikkerhet...",
             "attention": "{n} sårbarheter funnet",
-            "error": "Couldn't check for vulnerability"
+            "error": "Kunne ikke lete etter sårbarheter"
           },
           "severity": {
-            "critical": "Critical severity",
+            "critical": "Kritisk alvorlighetsgrad",
             "high": "Høy alvorlighetsgrad",
-            "moderate": "Medium severity",
+            "moderate": "Medium alvorlighetsgrad",
             "low": "Lav alvorlighetsgrad"
           },
           "direct-dep": "Direkte dependency",
           "versions": {
-            "vulnerable": "Vulnerable versions:",
-            "patched": "Patched versions:"
+            "vulnerable": "Versjoner med sårbarheter:",
+            "patched": "Versjoner som har fått sikkerhetsoppdateringer:"
           },
-          "recheck": "Check again"
+          "recheck": "Sjekk igjen"
         },
         "run-task": {
           "title": "Kjør oppgave",

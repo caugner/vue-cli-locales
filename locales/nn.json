@@ -726,10 +726,10 @@
         },
         "suggestions": {
           "open-vue": {
-            "label": "Open vue config"
+            "label": "Opne vue konfigurasjon"
           },
           "open-manifest": {
-            "label": "Open manifest"
+            "label": "Opne manifest"
           }
         }
       },
@@ -791,15 +791,15 @@
           },
           "kill": "Kill",
           "status": {
-            "idle": "Ready to kill",
+            "idle": "Klar til å avslutte",
             "killing": "Killing process...",
             "killed": "Killed successfully!",
             "error": "Couldn't kill process"
           }
         },
         "status-widget": {
-          "last-updated": "Updated",
-          "never": "Not updated yet",
+          "last-updated": "Oppdatert",
+          "never": "Ikkje oppdatert enno",
           "check": "Check for updates",
           "more-info": "More details"
         },
@@ -811,7 +811,7 @@
             "loading": "Checking for updates...",
             "attention": "{n} plugin updates available"
           },
-          "page": "Go to Plugins"
+          "page": "Gå til tillegg"
         },
         "dependency-updates": {
           "title": "Dependency updates",
@@ -827,9 +827,9 @@
           "title": "Vulnerability check",
           "description": "Check for known vulnerabilities in your project dependencies",
           "messages": {
-            "ok": "No vulnerability found",
+            "ok": "Ingen sårbarheit funne",
             "loading": "Auditing project security...",
-            "attention": "{n} vulnerabilities found",
+            "attention": "{n} sårbarheiter funne",
             "error": "Couldn't check for vulnerability"
           },
           "severity": {
@@ -854,9 +854,9 @@
           "page": "Go to Task"
         },
         "news": {
-          "title": "News feed",
-          "description": "Read news feed",
-          "refresh": "Force refresh",
+          "title": "Nyheitsstraum",
+          "description": "Les nyheitsstraum",
+          "refresh": "Tving oppdatering",
           "select-tip": "Select an item on the left",
           "prompts": {
             "url": "RSS feed URL or GitHub repository"
