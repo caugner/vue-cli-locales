@@ -3,11 +3,11 @@
     "vue": {
       "common": {
         "close": "Cerrar",
-        "cancel": "Cancel",
+        "cancel": "Cancelar",
         "back": "Volver",
         "more-info": "Más información",
-        "show-more": "Show more",
-        "show-less": "Show less"
+        "show-more": "Mostrar más",
+        "show-less": "Mostrar menos"
       },
       "components": {
         "client-addon-component": {
@@ -113,12 +113,12 @@
           }
         },
         "project-rename": {
-          "title": "Rename",
+          "title": "Renombrar",
           "name-field": {
-            "title": "Name",
-            "subtitle": "Enter the new name"
+            "title": "Nombre",
+            "subtitle": "Añadir el nombre nuevo"
           },
-          "submit": "Rename"
+          "submit": "Renombrar"
         },
         "project-plugin-item": {
           "version": "Versión",
@@ -131,7 +131,7 @@
           },
           "local": "Local",
           "features": {
-            "generator": "This plugin has a generator and can modify your project files and add new files for you.",
+            "generator": "Esta extensión tiene un generador y puede modificar tu proyecto",
             "ui-integration": "This plugin includes additional UI features like enhanced tasks, configuration screens, dashboard widgets..."
           }
         },
@@ -185,7 +185,7 @@
           "buttons": {
             "clear": "Limpiar consola",
             "scroll": "Desplazar hacia abajo",
-            "content-copy": "Copy content"
+            "content-copy": "Copia contenido"
           }
         },
         "top-bar": {
@@ -204,19 +204,19 @@
           }
         },
         "widget": {
-          "remove": "Remove widget",
-          "configure": "Configure widget",
+          "remove": "Elimina complemento",
+          "configure": "Configura complemento",
           "save": "Guardar",
           "reset-config": "Reiniciar configuración",
           "open-details": "Mostrar más"
         },
         "widget-add-pane": {
-          "title": "Add widgets"
+          "title": "Añade complementos"
         },
         "widget-add-item": {
-          "add": "Add widget",
+          "add": "Añade complemento",
           "details": {
-            "title": "Widget details",
+            "title": "Detalles del complemento",
             "max-instances": "Max instance count: {count}/{total}",
             "unlimited": "ilimitado"
           }
@@ -427,9 +427,9 @@
           }
         },
         "project-plugin-add-local": {
-          "title": "Add a local plugin",
+          "title": "Añade una extensión local",
           "buttons": {
-            "add": "Add local plugin"
+            "add": "Añade extensión local"
           }
         },
         "project-configurations": {
@@ -445,7 +445,7 @@
         },
         "project-tasks": {
           "title": "Tareas del proyecto",
-          "refresh": "Refresh tasks"
+          "refresh": "Refrescar tareas"
         },
         "project-task-details": {
           "actions": {
@@ -484,8 +484,8 @@
           }
         },
         "project-dashboard": {
-          "title": "Project dashboard",
-          "cutomize": "Customize",
+          "title": "Panel del proyecto",
+          "cutomize": "Personalizar",
           "done": "Hecho"
         },
         "settings": {
@@ -602,7 +602,7 @@
               "css": "Configuraciones CSS"
             },
             "publicPath": {
-              "label": "Public Path",
+              "label": "Ruta pública",
               "description": "The base URL your application will be deployed at, for example '/my-app/'. Use an empty string ('') so that all assets are linked using relative paths."
             },
             "outputDir": {
@@ -773,10 +773,10 @@
       },
       "widgets": {
         "welcome": {
-          "title": "Welcome tips",
-          "description": "Some tips to help you get started",
+          "title": "Consejos bienvenidos",
+          "description": "Algunas pistas para ayudarte a empezar",
           "content": {
-            "title": "Welcome to your new project!",
+            "title": "Bienvenido a tu nuevo proyecto",
             "tip1": "You are looking at the project dashboard where you can put widgets. Use the 'Customize' button to add more! Everything is automatically saved.",
             "tip2": "On the left are the different available pages. 'Plugins' let you add new Vue CLI plugins, 'Dependencies' for managing the packages, 'Configuration' to configure the tools and 'Tasks' to run scripts (for example webpack).",
             "tip3": "Return to the project manager with the dropdown at the top left of the screen or the home button in the status bar at the bottom.",
@@ -792,32 +792,32 @@
           "kill": "Matar",
           "status": {
             "idle": "Preparado para matar",
-            "killing": "Killing process...",
+            "killing": "Matando proceso...",
             "killed": "¡Matado con éxito!",
             "error": "No se pudo matar el proceso"
           }
         },
         "status-widget": {
-          "last-updated": "Updated",
-          "never": "Not updated yet",
-          "check": "Check for updates",
+          "last-updated": "Actualizado",
+          "never": "Aún no actualizado",
+          "check": "Comprobar actualizaciones",
           "more-info": "Más detalles"
         },
         "plugin-updates": {
-          "title": "Plugin updates",
+          "title": "Actualizaciones de complemento",
           "description": "Monitor plugin updates",
           "messages": {
-            "ok": "All plugins up-to-date",
-            "loading": "Checking for updates...",
+            "ok": "Todos los complementos actualizados",
+            "loading": "Comprobando actualizaciones",
             "attention": "{n} plugin updates available"
           },
-          "page": "Go to Plugins"
+          "page": "Ir a complementos"
         },
         "dependency-updates": {
           "title": "Dependency updates",
           "description": "Monitor dependencies updates",
           "messages": {
-            "ok": "All dependencies up-to-date",
+            "ok": "Todas las dependencias actualizadas",
             "loading": "Comprobando actualizaciones...",
             "attention": "{n} dependency updates available"
           },
@@ -829,34 +829,34 @@
           "messages": {
             "ok": "No se encontró vulnerabilidad",
             "loading": "Auditing project security...",
-            "attention": "{n} vulnerabilities found",
-            "error": "Couldn't check for vulnerability"
+            "attention": "{n} vulnerabilidades encontradas",
+            "error": "No se pudo comprobar la vulnerabilidad"
           },
           "severity": {
-            "critical": "Critical severity",
-            "high": "High severity",
-            "moderate": "Medium severity",
-            "low": "Low severity"
+            "critical": "Gravedad crítica",
+            "high": "Gravedad alta",
+            "moderate": "Gravedad media",
+            "low": "Gravedad baja"
           },
-          "direct-dep": "Direct dependency",
+          "direct-dep": "Dependencia directa",
           "versions": {
-            "vulnerable": "Vulnerable versions:",
+            "vulnerable": "Versiones vulnerables:",
             "patched": "Patched versions:"
           },
-          "recheck": "Check again"
+          "recheck": "Comprobar otra vez"
         },
         "run-task": {
-          "title": "Run task",
+          "title": "Ejecutar tarea",
           "description": "Shortcut to run a task",
           "prompts": {
-            "task": "Select a task"
+            "task": "Selecciona una tarea"
           },
-          "page": "Go to Task"
+          "page": "Ir a tarea"
         },
         "news": {
           "title": "News feed",
-          "description": "Read news feed",
-          "refresh": "Force refresh",
+          "description": "Lee nuevo contenido",
+          "refresh": "Forzar actualización",
           "select-tip": "Selecciona un elemento a la izquierda",
           "prompts": {
             "url": "RSS feed URL or GitHub repository"
@@ -864,7 +864,7 @@
           "errors": {
             "fetch": "Couldn't fetch feed",
             "offline": "Estás desconectado",
-            "empty": "Empty feed"
+            "empty": "Contenido vacío"
           }
         }
       }
