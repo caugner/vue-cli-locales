@@ -7,7 +7,7 @@
         "back": "戻る",
         "more-info": "詳細情報",
         "show-more": "もっと見る",
-        "show-less": "Show less"
+        "show-less": "非表示にする"
       },
       "components": {
         "client-addon-component": {
@@ -113,12 +113,12 @@
           }
         },
         "project-rename": {
-          "title": "Rename",
+          "title": "名前を変更する",
           "name-field": {
-            "title": "Name",
-            "subtitle": "Enter the new name"
+            "title": "名前",
+            "subtitle": "新しい名前で入力"
           },
-          "submit": "Rename"
+          "submit": "名前を変更"
         },
         "project-plugin-item": {
           "version": "バージョン",
@@ -131,8 +131,8 @@
           },
           "local": "ローカル",
           "features": {
-            "generator": "This plugin has a generator and can modify your project files and add new files for you.",
-            "ui-integration": "This plugin includes additional UI features like enhanced tasks, configuration screens, dashboard widgets..."
+            "generator": "このプラグインは generator を持っており、プロジェクトのファイル対して変更でき、そして、新しいファイルを追加します。",
+            "ui-integration": "このプラグインは、タスクを拡張するような UI 機能追加、スクリーン設定、ダッシュボードウィジェットなどを含んでいます。"
           }
         },
         "project-dependency-item": {
@@ -185,7 +185,7 @@
           "buttons": {
             "clear": "コンソールをクリア",
             "scroll": "最下部にスクロール",
-            "content-copy": "Copy content"
+            "content-copy": "コンテンツのコピー"
           }
         },
         "top-bar": {
@@ -296,7 +296,7 @@
                 "options": {
                   "label": "追加オプション",
                   "force": "存在する場合、対象フォルダを上書きする",
-                  "bare": "Scaffold project without beginner instructions",
+                  "bare": "初心者向けインストラクションなしでプロジェクトを構築する",
                   "git-title": "Git リポジトリ",
                   "git": "git リポジトリの初期化 (推奨)",
                   "git-commit-message": "初期コミットメッセージ (任意)"
@@ -445,7 +445,7 @@
         },
         "project-tasks": {
           "title": "プロジェクトタスク",
-          "refresh": "Refresh tasks"
+          "refresh": "タスクを更新"
         },
         "project-task-details": {
           "actions": {
@@ -459,8 +459,8 @@
           "more-info": "詳細情報",
           "output": "出力",
           "override-args": {
-            "message": "Override hard-coded arguments",
-            "description": "If enabled, hard-coded arguments in your package.json file will be replaced with the values defined below"
+            "message": "ハードコードで引数を上書き",
+            "description": "もし有効にする場合、package.json にハードコードされた引数は、上記で定義された値で置換されます。"
           }
         },
         "project-dependencies": {
@@ -602,7 +602,7 @@
               "css": "CSS 設定"
             },
             "publicPath": {
-              "label": "Public Path",
+              "label": "公開パス",
               "description": "アプリケーションが配置されるベース URL、例えば '/my-app'。空文字 (\"\") を使用すると全てのアセットが相対パスで解決されます。"
             },
             "outputDir": {
@@ -719,8 +719,8 @@
               "description": "iOS 上における Web アプリケーションのステータス向けのスタイル"
             },
             "manifestCrossorigin": {
-              "message": "Attribute value for manifest.json link tag's crossorigin attribute",
-              "description": "Value for `crossoriging` attribute in manifest link tag in the generated HTML, you may need to set this if your pwa is behind an authenticated proxy"
+              "message": "manifest.json 向けの link タグ の crossorigin 属性 の属性値",
+              "description": "値はマニフェストの link タグの `crossoriging` 属性に対する値です。あなたの pwa は認証されたプロキシが背後にある場合は、これを設定する必要がります。"
             }
           }
         },
@@ -828,7 +828,7 @@
           "description": "プロジェクトの依存関係の中で既知の脆弱性をチェックする",
           "messages": {
             "ok": "脆弱性は見つかりません",
-            "loading": "Auditing project security...",
+            "loading": "プロジェクトセキュリティの監査...",
             "attention": "{n}個の脆弱性が見つかりました",
             "error": "脆弱性をチェックできませんでした"
           },
@@ -840,8 +840,8 @@
           },
           "direct-dep": "直接の依存",
           "versions": {
-            "vulnerable": "Vulnerable versions:",
-            "patched": "Patched versions:"
+            "vulnerable": "脆弱バージョン:",
+            "patched": "パッチバージョン:"
           },
           "recheck": "再チェックする"
         },
