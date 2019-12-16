@@ -455,7 +455,7 @@
             "save": " 保存"
           },
           "command": "脚本命令",
-          "parameters": "变量",
+          "parameters": "参数",
           "more-info": "查看详情",
           "output": "输出",
           "override-args": {
@@ -792,7 +792,7 @@
           "kill": "终止",
           "status": {
             "idle": "准备好终止",
-            "killing": "终止进程……",
+            "killing": "正在终止进程……",
             "killed": "成功终止进程！",
             "error": "无法终止进程"
           }
