@@ -90,7 +90,7 @@
         },
         "project-nav": {
           "tooltips": {
-            "dashboard": "项目仪表盘",
+            "dashboard": "仪表盘",
             "plugins": "插件",
             "dependencies": "依赖",
             "configuration": "配置",
@@ -127,12 +127,12 @@
           "installed": "已安装",
           "actions": {
             "update": "更新 {target}",
-            "refresh": "强制刷新 {target}<br><i>按 [Shift] 快速刷新 (node_modules 不会更新)</i>"
+            "refresh": "强制刷新 {target}<br><i>按住 [Shift] 可以快速刷新 (node_modules 不会更新)</i>"
           },
           "local": "本地",
           "features": {
-            "generator": "This plugin has a generator and can modify your project files and add new files for you.",
-            "ui-integration": "This plugin includes additional UI features like enhanced tasks, configuration screens, dashboard widgets..."
+            "generator": "这个插件带有一个生成器，可以在项目中修改或新增文件。",
+            "ui-integration": "这个插件包含额外的 UI 功能，比如加强的任务界面、配置页面、仪表盘部件……"
           }
         },
         "project-dependency-item": {
@@ -418,7 +418,7 @@
             "body": "确认卸载插件 {target} 吗？",
             "buttons": {
               "back": "不",
-              "cancel": "Cancel without uninstalling",
+              "cancel": "取消配置但不卸载",
               "uninstall": "卸载"
             }
           },
@@ -460,7 +460,7 @@
           "output": "输出",
           "override-args": {
             "message": "覆盖硬编码参数",
-            "description": "If enabled, hard-coded arguments in your package.json file will be replaced with the values defined below"
+            "description": "若启用，硬编码在 package.json 文件中的命令行参数会被下方的配置覆盖"
           }
         },
         "project-dependencies": {
@@ -518,7 +518,7 @@
       },
       "vue-webpack": {
         "dashboard": {
-          "title": "控制台",
+          "title": "仪表盘",
           "open-app": "启动 app",
           "webpack-status": {
             "Success": "编译成功",
@@ -615,11 +615,11 @@
             },
             "runtimeCompiler": {
               "label": "启用运行时编译",
-              "description": "This will allow you to use the template option in Vue components, but will incur around an extra 10kb payload for your app."
+              "description": "启用后可以在 Vue 组件中使用 template 选项，但是会让你的应用额外增加 10kb 左右。"
             },
             "productionSourceMap": {
-              "label": "Enable Production Source Maps",
-              "description": "Disabling this can speed up production builds if you don't need source maps for production"
+              "label": "在生产环境启用 Source Map",
+              "description": "如果你不需要生产环境下的 source map，禁用此项可以加速生产环境构建。"
             },
             "parallel": {
               "label": "并行编译",
@@ -777,8 +777,8 @@
           "description": "快速上手 tips",
           "content": {
             "title": "欢迎来到新项目！",
-            "tip1": "这里是项目看板，你可以点击右上方的“自定义”按钮来添加部件。你的改动将会自动保存。",
-            "tip2": "On the left are the different available pages. 'Plugins' let you add new Vue CLI plugins, 'Dependencies' for managing the packages, 'Configuration' to configure the tools and 'Tasks' to run scripts (for example webpack).",
+            "tip1": "这里是项目仪表盘，你可以点击右上方的“自定义”按钮来添加部件。你的改动将会自动保存。",
+            "tip2": "左侧是各个管理页面。在「插件」页面可以添加新的 Vue CLI 插件，「依赖」页面用于管理项目的依赖包，「配置」页面用于配置各种工具，「任务」页面用于运行各个脚本（比如 webpack 打包）。",
             "tip3": "点击左上方的下拉菜单或状态栏上的小房子按钮来返回到项目管理器。",
             "ok": "了解"
           }
@@ -798,7 +798,7 @@
           }
         },
         "status-widget": {
-          "last-updated": "已更新",
+          "last-updated": "更新于",
           "never": "还未更新",
           "check": "检查更新",
           "more-info": "更多细节"
@@ -828,15 +828,15 @@
           "description": "检查项目依赖中已知的安全隐患",
           "messages": {
             "ok": "未发现安全隐患",
-            "loading": "Auditing project security...",
+            "loading": "正在检查项目安全性……",
             "attention": "发现 {n} 个安全隐患",
             "error": "无法检测漏洞"
           },
           "severity": {
             "critical": "Critical severity",
-            "high": "高优先级",
+            "high": "High severity",
             "moderate": "Medium severity",
-            "low": "低优先级"
+            "low": "Low severity"
           },
           "direct-dep": "直接依赖",
           "versions": {
