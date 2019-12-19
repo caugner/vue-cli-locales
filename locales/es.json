@@ -423,7 +423,7 @@
             }
           },
           "buttons": {
-            "add-local": "Browse local plugin"
+            "add-local": "Complemento local del navegador"
           }
         },
         "project-plugin-add-local": {
@@ -459,7 +459,7 @@
           "more-info": "Más información",
           "output": "Salida",
           "override-args": {
-            "message": "Override hard-coded arguments",
+            "message": "Anular argumentos codificados",
             "description": "If enabled, hard-coded arguments in your package.json file will be replaced with the values defined below"
           }
         },
@@ -805,7 +805,7 @@
         },
         "plugin-updates": {
           "title": "Actualizaciones de complemento",
-          "description": "Monitor plugin updates",
+          "description": "Supervisar actualizaciones de complementos",
           "messages": {
             "ok": "Todos los complementos actualizados",
             "loading": "Comprobando actualizaciones",
@@ -814,8 +814,8 @@
           "page": "Ir a complementos"
         },
         "dependency-updates": {
-          "title": "Dependency updates",
-          "description": "Monitor dependencies updates",
+          "title": "Actualizaciones de dependencia",
+          "description": "Supervisar actualizaciones de dependencias",
           "messages": {
             "ok": "Todas las dependencias actualizadas",
             "loading": "Comprobando actualizaciones...",
@@ -828,7 +828,7 @@
           "description": "Comprobar vulnerabilidades conocidas en las dependencias de tu proyecto",
           "messages": {
             "ok": "No se encontró vulnerabilidad",
-            "loading": "Auditing project security...",
+            "loading": "Auditoría de la seguridad del proyecto ...",
             "attention": "{n} vulnerabilidades encontradas",
             "error": "No se pudo comprobar la vulnerabilidad"
           },
@@ -841,20 +841,20 @@
           "direct-dep": "Dependencia directa",
           "versions": {
             "vulnerable": "Versiones vulnerables:",
-            "patched": "Patched versions:"
+            "patched": "Versiones parcheadas:"
           },
           "recheck": "Comprobar otra vez"
         },
         "run-task": {
           "title": "Ejecutar tarea",
-          "description": "Shortcut to run a task",
+          "description": "Atajo para ejecutar una tarea",
           "prompts": {
             "task": "Selecciona una tarea"
           },
           "page": "Ir a tarea"
         },
         "news": {
-          "title": "News feed",
+          "title": "Noticias",
           "description": "Lee nuevo contenido",
           "refresh": "Forzar actualización",
           "select-tip": "Selecciona un elemento a la izquierda",
@@ -862,7 +862,7 @@
             "url": "RSS feed URL or GitHub repository"
           },
           "errors": {
-            "fetch": "Couldn't fetch feed",
+            "fetch": "No se pudo recuperar el alimentador",
             "offline": "Estás desconectado",
             "empty": "Contenido vacío"
           }

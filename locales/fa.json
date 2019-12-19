@@ -12,14 +12,14 @@
       "components": {
         "client-addon-component": {
           "timeout": "Component load timeout",
-          "timeout-info": "The custom component takes too much time to load, there might be an error"
+          "timeout-info": "کامپونت سفارشی زمان زیادی برای بارگیری می طلبد, ممکن است خطایی رخ دهد"
         },
         "connection-status": {
-          "disconnected": "Disconnected from UI server",
+          "disconnected": "از سرور UI قطع شد",
           "connected": "متصل!"
         },
         "file-diff": {
-          "binary": "Binary file not shown",
+          "binary": "فایل باینری نشان داده نشده است",
           "actions": {
             "open": "باز کردن در ویرایشگر"
           }
@@ -28,14 +28,14 @@
           "files-changed": "فایل ها تغییر کرده اند",
           "search-file": "جستجوی فایل",
           "empty": "تغییری پیدا نشد",
-          "error": "Couldn't get file changes",
+          "error": "تغییرات پرونده امکان پذیر نیست",
           "modals": {
             "commit": {
-              "title": "Commit changes",
-              "input": "Enter a commit message",
-              "subtitle": "Record changes to the repository",
+              "title": "تغییرات کامیت",
+              "input": "پیام کامیت را وارد کنید",
+              "subtitle": "تغییرات را در مخزن ضبط کنید",
               "actions": {
-                "commit": "Commit",
+                "commit": "کامیت",
                 "cancel": "لغو"
               }
             }
@@ -43,7 +43,7 @@
           "actions": {
             "collapse-all": "جمع کردن همه",
             "expand-all": "باز شدن همه",
-            "commit": "Commit changes",
+            "commit": "تغییرات کامیت",
             "skip": "رد کردن",
             "continue": "ادامه ",
             "refresh": "تازه کردن"
@@ -78,7 +78,7 @@
         },
         "logger-view": {
           "title": "وقایع",
-          "empty": "No logs yet",
+          "empty": "هنوز وقایعی ثبت نشده است",
           "buttons": {
             "clear": "پاک کردن وقایع",
             "scroll": "رفتن به پایین",
@@ -113,12 +113,12 @@
           }
         },
         "project-rename": {
-          "title": "Rename",
+          "title": "تغییر نام",
           "name-field": {
-            "title": "Name",
-            "subtitle": "Enter the new name"
+            "title": "نام",
+            "subtitle": "نام جدید را وارد کنید"
           },
-          "submit": "Rename"
+          "submit": "تغییر نام"
         },
         "project-plugin-item": {
           "version": "نسخه",
@@ -185,7 +185,7 @@
           "buttons": {
             "clear": "پاک کردن کنسول",
             "scroll": "رفتن به پایین",
-            "content-copy": "Copy content"
+            "content-copy": "کپی محتوا"
           }
         },
         "top-bar": {
@@ -296,7 +296,7 @@
                 "options": {
                   "label": "گزینه های اضافی",
                   "force": "بازنویسی کردن فولدر هدف  اگر اون وجود داشت",
-                  "bare": "Scaffold project without beginner instructions",
+                  "bare": "چارچوب بندی پروژه بدون دستورالعمل های مبتدی",
                   "git-title": "مخزن Git",
                   "git": "راه اندازی مخزن git (توصیه شده)",
                   "git-commit-message": "پیغام اولیه ی commit (اختیاری)"
@@ -318,7 +318,7 @@
             "presets": {
               "title": "Presets",
               "description": "A preset is an association of plugins and configurations. After you've selected features, you can optionally save it as a preset so that you can reuse it for future projects, without having to reconfigure everything again.",
-              "select": "Select a preset",
+              "select": "انتخاب یک preset",
               "buttons": {
                 "previous": "قبلی",
                 "next": "بعدی",
@@ -340,7 +340,7 @@
                   "subtitle": "Git repo, for example 'username/repo'. You can also prefix with 'gitlab:' or 'bitbucket:'."
                 },
                 "options": "گزینه های دیگر",
-                "clone": "Clone/Private repository",
+                "clone": "کلون کردن/مخزن خصوصی",
                 "cancel": "لغو",
                 "done": "به اتمام رسید"
               },
@@ -348,7 +348,7 @@
             },
             "features": {
               "title": "ویژگی ها",
-              "description": "You will be able to add features after the project is created by installing plugins.",
+              "description": "بعد از ایجاد پروژه با نصب پلاگین ها می توانید ویژگی های خود را اضافه کنید.",
               "enable": "فعال سازی ویژگی ها",
               "buttons": {
                 "previous": "قبلی",
@@ -367,15 +367,15 @@
                 "create": "ساخت پروژه "
               },
               "modal": {
-                "title": "Save as a new preset",
+                "title": "ذخیره به عنوان یک preset جدید",
                 "body": {
-                  "title": "Preset name",
+                  "title": "نام Preset ",
                   "subtitle": "Save the features and configuration into a new preset"
                 },
                 "buttons": {
                   "cancel": "لغو",
                   "continue": "ادامه بدن ذخیره سازی",
-                  "create": "Create a new preset"
+                  "create": "ساختن یک preset جدید"
                 }
               }
             }
@@ -403,7 +403,7 @@
             },
             "configuration": {
               "label": "پیکربندی",
-              "heading": "Installation of {target}",
+              "heading": "نصب {target}",
               "buttons": {
                 "cancel": "لغو",
                 "finish": "نصب به پایان رسید "
@@ -445,7 +445,7 @@
         },
         "project-tasks": {
           "title": "وظایف پروژه",
-          "refresh": "Refresh tasks"
+          "refresh": "تازه کرده وظایف"
         },
         "project-task-details": {
           "actions": {
@@ -545,7 +545,7 @@
           },
           "asset-list": {
             "title": "دارایی ها",
-            "size-warning": "This asset is big, consider using Code splitting to create smaller assets."
+            "size-warning": "این دارایی بزرگ است ، برای ایجاد دارایی های کوچکتر از Code split استفاده کنید."
           }
         },
         "analyzer": {
@@ -564,21 +564,21 @@
         "tasks": {
           "serve": {
             "description": "Compiles and hot-reloads for development",
-            "open": "Open browser on server start",
-            "mode": "Specify env mode",
-            "host": "Specify host",
-            "port": "Specify port",
+            "open": "بازکردن مرورگر در ابتدای شروع سرور",
+            "mode": "مشخص کردن حالت env",
+            "host": "مشخص کردن هاست",
+            "port": "مشخص کردن پورت ",
             "https": "استفاده از HTTPS"
           },
           "build": {
             "description": "Compiles and minifies for production",
-            "mode": "Specify env mode",
+            "mode": "مشخص کردن حالت env",
             "dest": "شاخه خروجی",
             "target": {
-              "description": "Build target",
-              "app": "Web app",
+              "description": "ساختن هدف",
+              "app": "وب اپلیکیشن",
               "lib": "کتابخانه",
-              "wc": "Web component",
+              "wc": "کامپونت وب",
               "wc-async": "Async web component"
             },
             "name": "Name for library or web-component mode (default: 'name' in package.json or entry filename)",
@@ -627,11 +627,11 @@
             },
             "css": {
               "modules": {
-                "label": "Enable CSS Modules",
+                "label": "فعال سازی ماژول های CSS",
                 "description": "By default, only files that ends in *.module.[ext] are treated as CSS modules. Enabling this will treat all style files as CSS modules."
               },
               "extract": {
-                "label": "Extract CSS",
+                "label": "استخراج CSS",
                 "description": "Whether to extract CSS in your components into a standalone CSS files (instead of inlined in JavaScript and injected dynamically)."
               },
               "sourceMap": {
@@ -648,7 +648,7 @@
       "eslint": {
         "config": {
           "eslint": {
-            "description": "Error checking & Code quality",
+            "description": "بررسی کردن خطا و کیفیت کد",
             "groups": {
               "base": "اصلی",
               "essential": "ضروری",
@@ -674,14 +674,14 @@
               }
             },
             "rules": {
-              "label": "Rules"
+              "label": "قوانین"
             }
           }
         },
         "tasks": {
           "lint": {
             "description": "Lints and fixes files",
-            "noFix": "Do not fix errors"
+            "noFix": "خطاها را برطرف نکنید"
           }
         },
         "suggestions": {
@@ -695,7 +695,7 @@
           "pwa": {
             "description": "Progressive Web App",
             "workboxPluginMode": {
-              "message": "Plugin mode",
+              "message": "حالت پلاگین",
               "description": "This allows you to the choose between the two modes supported by the underlying `workbox-webpack-plugin`"
             },
             "name": {
@@ -703,8 +703,8 @@
               "description": "App name displayed on the Splash screen and various other places. Also used as the value for the `apple-mobile-web-app-title` meta tag in the generated HTML."
             },
             "themeColor": {
-              "message": "Theme color",
-              "description": "Color used to theme the browser"
+              "message": "رنگ تم",
+              "description": "رنگ  استفاده شده برای تم مرورگر"
             },
             "backgroundColor": {
               "message": "Splash background color",
@@ -726,7 +726,7 @@
         },
         "suggestions": {
           "open-vue": {
-            "label": "Open vue config"
+            "label": "بازکردن پیکربندی vue"
           },
           "open-manifest": {
             "label": "Open manifest"
@@ -756,9 +756,9 @@
       "jest": {
         "tasks": {
           "test": {
-            "description": "Run unit tests with Jest",
+            "description": "اجرای یونیت تست با Jest",
             "watch": "Watch files for changes and rerun tests related to changed files",
-            "notify": "Display a notification after each run",
+            "notify": "نمایش دادن یک اعلان بعد از هر اجرا",
             "update": "Re-record every snapshot that fails during this test run"
           }
         }
@@ -766,7 +766,7 @@
       "mocha": {
         "tasks": {
           "test": {
-            "description": "Run unit tests with Mocha",
+            "description": "اجرای یونیت تست با Mocha",
             "watch": "Watch files for changes and rerun tests related to changed files"
           }
         }
@@ -774,7 +774,7 @@
       "widgets": {
         "welcome": {
           "title": "Welcome tips",
-          "description": "Some tips to help you get started",
+          "description": "نکاتی برای کمک به شما در شروع کار",
           "content": {
             "title": "به پروژه جدید خود خوش آمدید",
             "tip1": "You are looking at the project dashboard where you can put widgets. Use the 'Customize' button to add more! Everything is automatically saved.",
@@ -784,17 +784,17 @@
           }
         },
         "kill-port": {
-          "title": "Kill port",
-          "description": "Kill processes using a specific network port",
+          "title": "کشتن پورت ",
+          "description": "کشتن فرایندها با استفاده از پورت شبکه خاص",
           "input": {
             "placeholder": "پورت شبکه را وارد کنید"
           },
           "kill": "کشتن",
           "status": {
             "idle": "آماده برای کشتن",
-            "killing": "Killing process...",
+            "killing": "در حال کشتن فرایندها...",
             "killed": "با موفقیت کشته شد!",
-            "error": "Couldn't kill process"
+            "error": "نمی توانید فرایند ها رو بکشید"
           }
         },
         "status-widget": {
@@ -807,9 +807,9 @@
           "title": "به روز رسانی پلاگین",
           "description": "Monitor plugin updates",
           "messages": {
-            "ok": "All plugins up-to-date",
-            "loading": "Checking for updates...",
-            "attention": "{n} plugin updates available"
+            "ok": "همه ی پلاگین ها به روز هستند",
+            "loading": "در حال بررسی برای به روز رسانی",
+            "attention": "{n} به روز رسانی برای پلاگین موجود است"
           },
           "page": "برو به پلاگین ها"
         },
@@ -819,23 +819,23 @@
           "messages": {
             "ok": "همه ی وابستگی ها به روز هستند",
             "loading": "در حال بررسی برای به روز رسانی",
-            "attention": "{n} dependency updates available"
+            "attention": "{n} به روز رسانی برای وابستگی موجود است"
           },
           "page": "برو به وابستگی ها"
         },
         "vulnerability": {
-          "title": "Vulnerability check",
-          "description": "Check for known vulnerabilities in your project dependencies",
+          "title": " بررسی آسیب پذیری",
+          "description": "بررسی برای فهمیدن آسیب پذیری در وابستگی های پروژه",
           "messages": {
-            "ok": "No vulnerability found",
-            "loading": "Auditing project security...",
-            "attention": "{n} vulnerabilities found",
-            "error": "Couldn't check for vulnerability"
+            "ok": " هیچ آسیب پذیری پیدا نشد",
+            "loading": "حسابرسی امنیت پروژه ...",
+            "attention": "{n} آسیب پذیری پیدا شد",
+            "error": "امکان بررسی آسیب پذیری وجود ندارد"
           },
           "severity": {
-            "critical": "Critical severity",
+            "critical": "شدت بحرانی",
             "high": "شدت بالا",
-            "moderate": "Medium severity",
+            "moderate": "شدت متوسط ",
             "low": "شد کم"
           },
           "direct-dep": "وابستگی مستقیم",
@@ -843,7 +843,7 @@
             "vulnerable": "Vulnerable versions:",
             "patched": "Patched versions:"
           },
-          "recheck": "Check again"
+          "recheck": "دوباره بررسی کن"
         },
         "run-task": {
           "title": "اجرای وظیفه",
@@ -859,7 +859,7 @@
           "refresh": "تازه کردن اجباری",
           "select-tip": "یک آیتم از چپ انتخاب کنید",
           "prompts": {
-            "url": "RSS feed URL or GitHub repository"
+            "url": "آدرس اینترنتی خوراک RSS یا مخرن گیت هاب"
           },
           "errors": {
             "fetch": "فید دریافت نمی شود",
