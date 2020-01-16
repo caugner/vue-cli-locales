@@ -3,11 +3,11 @@
     "vue": {
       "common": {
         "close": "Tanca",
-        "cancel": "Cancel",
+        "cancel": "Cancel·la",
         "back": "Torna",
         "more-info": "Més informació",
-        "show-more": "Show more",
-        "show-less": "Show less"
+        "show-more": "Mostra'n més",
+        "show-less": "Mostra'n menys"
       },
       "components": {
         "client-addon-component": {
@@ -113,12 +113,12 @@
           }
         },
         "project-rename": {
-          "title": "Rename",
+          "title": "Reanomena",
           "name-field": {
-            "title": "Name",
-            "subtitle": "Enter the new name"
+            "title": "Nom",
+            "subtitle": "Escriu el nou nom"
           },
-          "submit": "Rename"
+          "submit": "Reanomena"
         },
         "project-plugin-item": {
           "version": "versió",
@@ -131,8 +131,8 @@
           },
           "local": "Local",
           "features": {
-            "generator": "This plugin has a generator and can modify your project files and add new files for you.",
-            "ui-integration": "This plugin includes additional UI features like enhanced tasks, configuration screens, dashboard widgets..."
+            "generator": "Aquest connector té un generador i pot modificar fitxers del teu projecte i afegir-hi fitxers nous.",
+            "ui-integration": "Aquest connector inclou característiques addicionals de la IU com ara tasques millorades, pantalles de configuració, ginys del taulell..."
           }
         },
         "project-dependency-item": {
@@ -185,7 +185,7 @@
           "buttons": {
             "clear": "Esborra la consola",
             "scroll": "Desplaça fins al final",
-            "content-copy": "Copy content"
+            "content-copy": "Copia el contingut"
           }
         },
         "top-bar": {
@@ -317,7 +317,7 @@
             },
             "presets": {
               "title": "Valors predefinits",
-              "description": "Un predefinit és una associació de connectors i configuracions. Després de seleccionar les característiques, si voleu les podeu guardar com a predefinides per reutilitzar-les en projectes futurs , i així no haver de reconfigurar-ho tot cada vegada.",
+              "description": "Un valor predefinit és una associació de connectors i configuracions. Després que hagueu seleccionat les característiques que voleu, les podeu guardar com a predefinides per reutilitzar-les en projectes futurs, i així no haver de reconfigurar-ho tot cada vegada.",
               "select": "Selecciona un valor predefinit",
               "buttons": {
                 "previous": "Anterior",
@@ -370,12 +370,12 @@
                 "title": "Desa com a nou valor predefinit",
                 "body": {
                   "title": "Nom del valor predefinit",
-                  "subtitle": "Desa les característiques i configuració en un nou valor predefinit"
+                  "subtitle": "Desa les característiques i la configuració en un nou valor predefinit"
                 },
                 "buttons": {
                   "cancel": "Cancel·la",
                   "continue": "Continua sense guardar",
-                  "create": "Crear un nou valor predefinit"
+                  "create": "Crea un nou valor predefinit"
                 }
               }
             }
@@ -445,7 +445,7 @@
         },
         "project-tasks": {
           "title": "Tasques del projecte",
-          "refresh": "Refresh tasks"
+          "refresh": "Actualitza les tasques"
         },
         "project-task-details": {
           "actions": {
@@ -459,8 +459,8 @@
           "more-info": "Més informació",
           "output": "Sortida",
           "override-args": {
-            "message": "Override hard-coded arguments",
-            "description": "If enabled, hard-coded arguments in your package.json file will be replaced with the values defined below"
+            "message": "Anul·la els arguments ja codificats",
+            "description": "Si ho activeu, els arguments codificats del vostre fitxer package.json es reemplaçaran pels valors definits a sota"
           }
         },
         "project-dependencies": {
@@ -719,8 +719,8 @@
               "description": "Estil de la barra d'estat d'una aplicació web en iOS"
             },
             "manifestCrossorigin": {
-              "message": "Attribute value for manifest.json link tag's crossorigin attribute",
-              "description": "Value for `crossoriging` attribute in manifest link tag in the generated HTML, you may need to set this if your pwa is behind an authenticated proxy"
+              "message": "Valor de l'atribut 'crossorigin' de l'etiqueta link del fitxer manifest.json",
+              "description": "Valor de l'atribut 'crossorigin' de l'etiqueta link del manifest a l'HTML generat, caldrà que l'assigneu si la vostra pwa es troba darrera d'un proxy autenticat"
             }
           }
         },
@@ -792,7 +792,7 @@
           "kill": "Elimina",
           "status": {
             "idle": "Preparat per eliminar",
-            "killing": "Killing process...",
+            "killing": "Matant el procés...",
             "killed": "Eliminat correctament!",
             "error": "No s'ha pogut eliminar el procés"
           }
@@ -828,22 +828,22 @@
           "description": "Cerca vulnerabilitats conegudes a les dependències del teu projecte",
           "messages": {
             "ok": "No s'ha trobat cap vulnerabilitat",
-            "loading": "Auditing project security...",
+            "loading": "Auditant la seguretat del projecte...",
             "attention": "{n} vulnerabilitats trobades",
-            "error": "Couldn't check for vulnerability"
+            "error": "No s'han pogut comprovar les vulnerabilitats"
           },
           "severity": {
-            "critical": "Critical severity",
+            "critical": "Gravetat crítica",
             "high": "Gravetat alta",
-            "moderate": "Medium severity",
+            "moderate": "Gravetat mitjana",
             "low": "Gravetat baixa"
           },
           "direct-dep": "Dependència directa",
           "versions": {
-            "vulnerable": "Vulnerable versions:",
-            "patched": "Patched versions:"
+            "vulnerable": "Versions vulnerables:",
+            "patched": "Versions arreglades:"
           },
-          "recheck": "Check again"
+          "recheck": "Torna-ho a comprovar"
         },
         "run-task": {
           "title": "Executa tasca",
