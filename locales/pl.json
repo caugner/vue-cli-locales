@@ -777,9 +777,9 @@
           "description": "Kilka porad, aby pomóc Ci zacząć",
           "content": {
             "title": "Witaj w swoim nowym projekcie!",
-            "tip1": "You are looking at the project dashboard where you can put widgets. Use the 'Customize' button to add more! Everything is automatically saved.",
-            "tip2": "On the left are the different available pages. 'Plugins' let you add new Vue CLI plugins, 'Dependencies' for managing the packages, 'Configuration' to configure the tools and 'Tasks' to run scripts (for example webpack).",
-            "tip3": "Return to the project manager with the dropdown at the top left of the screen or the home button in the status bar at the bottom.",
+            "tip1": "Patrzysz na kokpit projektu, na którym możesz umieszczać widgety. Użyj przycisku 'Dostosuj' aby dodać nowe! Wszystko jest zapisywane automatycznie.",
+            "tip2": "Po lewej stronie znajdują się różne dostępne strony. \"Pluginy\" pozwalają dodawać nowe pluginy Vue CLI. \"Zależności\" służą do zarządzania pakietami, \"Konfiguracja\" do ustawień narzędzi a \"Zadania\" do uruchamiana skryptów (np. webpacka).",
+            "tip3": "Do managera projektów wrócisz używając rozwijanego menu w lewym górnym rogu, lub przycisku \"Strona główna\" na pasku statusu, na dole ekranu.",
             "ok": "Zrozumiano"
           }
         },
@@ -854,17 +854,17 @@
           "page": "Przejdź do zadania"
         },
         "news": {
-          "title": "News feed",
-          "description": "Read news feed",
+          "title": "Kanał wiadomości",
+          "description": "Czytaj wiadomosći",
           "refresh": "Wymuś odświeżenie",
           "select-tip": "Wybierz pozycję po prawej",
           "prompts": {
-            "url": "RSS feed URL or GitHub repository"
+            "url": "URL kanału wiadomości lub repozytorium GitHub"
           },
           "errors": {
-            "fetch": "Couldn't fetch feed",
+            "fetch": "Nie udało się pobrać wiadomości",
             "offline": "Jesteś offline",
-            "empty": "Empty feed"
+            "empty": "Brak wiadomości"
           }
         }
       }
