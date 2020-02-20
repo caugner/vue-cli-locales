@@ -719,8 +719,8 @@
               "description": "iOS webapp 状态栏样式"
             },
             "manifestCrossorigin": {
-              "message": "Attribute value for manifest.json link tag's crossorigin attribute",
-              "description": "Value for `crossoriging` attribute in manifest link tag in the generated HTML, you may need to set this if your pwa is behind an authenticated proxy"
+              "message": "manifest.json链接标签的crossorigin属性的属性值",
+              "description": "生成的HTML的清单链接标记中的`crossorigin`属性的值，如果您的pwa位于经过身份验证的代理之后，则可能需要设置此值"
             }
           }
         },
@@ -833,15 +833,15 @@
             "error": "无法检测漏洞"
           },
           "severity": {
-            "critical": "Critical severity",
-            "high": "High severity",
-            "moderate": "Medium severity",
-            "low": "Low severity"
+            "critical": "严重程度危险",
+            "high": "严重程度高",
+            "moderate": "严重程度中等",
+            "low": "严重程度低"
           },
           "direct-dep": "直接依赖",
           "versions": {
-            "vulnerable": "Vulnerable versions:",
-            "patched": "Patched versions:"
+            "vulnerable": "易受攻击版本",
+            "patched": "补丁后版本"
           },
           "recheck": "再次检查"
         },
