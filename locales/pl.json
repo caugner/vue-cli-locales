@@ -131,7 +131,7 @@
           },
           "local": "Lokalny",
           "features": {
-            "generator": "Ten plugin ma generator i może modyfikować pliki Twojego projektu i dodawać nowe pliki za Ciebie",
+            "generator": "Ten plugin ma generator, który może modyfikować pliki Twojego projektu i dodawać nowe pliki za Ciebie",
             "ui-integration": "Ten plugin zawiera dodatkowe funkcje UI, jak wzbogacone zaadnia, ekrany konfiguracji, widgety panelu sterowania..."
           }
         },
@@ -459,8 +459,8 @@
           "more-info": "Więcej informacji",
           "output": "Wyjście",
           "override-args": {
-            "message": "Nadpisz \"mocno zakodowane\" argumenty",
-            "description": "Gdy włączone, \"mocno zakodowane\" argumenty w Twoim pliku package.json będą zastąpione wartościami zdefiniowanymi poniżej"
+            "message": "Nadpisz zakodowane na sztywno argumenty",
+            "description": "Gdy włączone, zakodowane na sztywno argumenty w Twoim pliku package.json będą zastąpione wartościami zdefiniowanymi poniżej"
           }
         },
         "project-dependencies": {
