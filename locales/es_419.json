@@ -127,7 +127,7 @@
           "installed": "Instalado",
           "actions": {
             "update": "Actualizar {target}",
-            "refresh": "Forzar el Refrescado del {target}<br><i>Presiona [Shift] para realizar en refresco rápido (node_modules no será actualizado)</i>"
+            "refresh": "Forzar actualización de {target}<br><i>Presiona [Shift] para realizar un refresco rápido (node_modules no será actualizado)</i>"
           },
           "local": "Local",
           "features": {

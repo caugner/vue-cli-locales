@@ -127,7 +127,7 @@
           "installed": "Instalado",
           "actions": {
             "update": "Actualizar {target}",
-            "refresh": "Force Refresh {target}<br><i>Press [Shift] for Quick Refresh (node_modules won't be updated)</i>"
+            "refresh": "Forzar actualización de {target}<br><i>Presiona [Shift] para realizar una actualización rápida (node_modules no será actualizado)</i>"
           },
           "local": "Local",
           "features": {
@@ -217,7 +217,7 @@
           "add": "Añade complemento",
           "details": {
             "title": "Detalles del complemento",
-            "max-instances": "Max instance count: {count}/{total}",
+            "max-instances": "Máximo valor de instancia: {count}/{total}",
             "unlimited": "ilimitado"
           }
         }
@@ -296,7 +296,7 @@
                 "options": {
                   "label": "Opciones adicionales",
                   "force": "Sobreescribir directorio si ya existe",
-                  "bare": "Scaffold project without beginner instructions",
+                  "bare": "Esqueleto del proyecto sin instrucciones de principiante",
                   "git-title": "Repositorio git",
                   "git": "Inicializar repositorio git (recomendado)",
                   "git-commit-message": "Mensaje de commit inicial (opcional)"
@@ -460,7 +460,7 @@
           "output": "Salida",
           "override-args": {
             "message": "Anular argumentos codificados",
-            "description": "If enabled, hard-coded arguments in your package.json file will be replaced with the values defined below"
+            "description": "Si está disponible, los argumentos 'hardcodeados' en tu archivo package.json serán reemplazados con los valores definidos a continuación"
           }
         },
         "project-dependencies": {
@@ -719,7 +719,7 @@
               "description": "Estilo para la barra de estado de una aplicación web en iOS"
             },
             "manifestCrossorigin": {
-              "message": "Attribute value for manifest.json link tag's crossorigin attribute",
+              "message": "Valor del atributo para la etiqueta del enlace en manifest.json, atributo crossorigin",
               "description": "Value for `crossoriging` attribute in manifest link tag in the generated HTML, you may need to set this if your pwa is behind an authenticated proxy"
             }
           }
@@ -809,7 +809,7 @@
           "messages": {
             "ok": "Todos los complementos actualizados",
             "loading": "Comprobando actualizaciones",
-            "attention": "{n} plugin updates available"
+            "attention": "{n} actualizaciones de complementos disponibles"
           },
           "page": "Ir a complementos"
         },
@@ -819,7 +819,7 @@
           "messages": {
             "ok": "Todas las dependencias actualizadas",
             "loading": "Comprobando actualizaciones...",
-            "attention": "{n} dependency updates available"
+            "attention": "{n} actualizaciones de dependencias disponibles"
           },
           "page": "Ir a Dependencias"
         },
@@ -859,7 +859,7 @@
           "refresh": "Forzar actualización",
           "select-tip": "Selecciona un elemento a la izquierda",
           "prompts": {
-            "url": "RSS feed URL or GitHub repository"
+            "url": "RSS feed URL or GitHub repository\ndirección URL RSS o repositorio en Github"
           },
           "errors": {
             "fetch": "No se pudo recuperar el alimentador",
