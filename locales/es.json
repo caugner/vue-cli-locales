@@ -127,12 +127,12 @@
           "installed": "Instalado",
           "actions": {
             "update": "Actualizar {target}",
-            "refresh": "Forzar actualización de {target}<br><i>Presiona [Shift] para realizar una actualización rápida (node_modules no será actualizado)</i>"
+            "refresh": "Forzar actualización de {target}<br><i>Pulsa [Shift] para realizar una actualización rápida (node_modules no será actualizado)</i>"
           },
           "local": "Local",
           "features": {
             "generator": "Esta extensión tiene un generador y puede modificar tu proyecto",
-            "ui-integration": "This plugin includes additional UI features like enhanced tasks, configuration screens, dashboard widgets..."
+            "ui-integration": "Este componente incluye más características UI como tareas mejoradas, pantallas de configuración, tableros de herramientas..."
           }
         },
         "project-dependency-item": {
@@ -603,7 +603,7 @@
             },
             "publicPath": {
               "label": "Ruta pública",
-              "description": "The base URL your application will be deployed at, for example '/my-app/'. Use an empty string ('') so that all assets are linked using relative paths."
+              "description": "La URL base de tu aplicación se desplegará en, por ejemplo '/my-app/. Utiliza una cadena vacía ('') para que todos los `assets` se vinculen usando rutas relativas."
             },
             "outputDir": {
               "label": "Directorio de salida",
@@ -777,7 +777,7 @@
           "description": "Algunas pistas para ayudarte a empezar",
           "content": {
             "title": "Bienvenido a tu nuevo proyecto",
-            "tip1": "You are looking at the project dashboard where you can put widgets. Use the 'Customize' button to add more! Everything is automatically saved.",
+            "tip1": "Estás mirando el tablero del proyecto donde puedes añadir herramientas. Utiliza el botón 'Personalizar' para añadir más! Todo será guardado automáticamente.",
             "tip2": "On the left are the different available pages. 'Plugins' let you add new Vue CLI plugins, 'Dependencies' for managing the packages, 'Configuration' to configure the tools and 'Tasks' to run scripts (for example webpack).",
             "tip3": "Return to the project manager with the dropdown at the top left of the screen or the home button in the status bar at the bottom.",
             "ok": "Entendido"

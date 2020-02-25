@@ -615,7 +615,7 @@
             },
             "runtimeCompiler": {
               "label": "启用运行时编译",
-              "description": "启用后可以在 Vue 组件中使用 template 选项，但是会让你的应用额外增加 10kb 左右。"
+              "description": "启用后可以在 Vue 组件中使用 template 选项，但是会让你的应用体积额外增加 10kb 左右。"
             },
             "productionSourceMap": {
               "label": "在生产环境启用 Source Map",
@@ -719,8 +719,8 @@
               "description": "iOS webapp 状态栏样式"
             },
             "manifestCrossorigin": {
-              "message": "manifest.json链接标签的crossorigin属性的属性值",
-              "description": "生成的HTML的清单链接标记中的`crossorigin`属性的值，如果您的pwa位于经过身份验证的代理之后，则可能需要设置此值"
+              "message": "manifest.json 链接标签的 crossorigin 属性的属性值",
+              "description": "生成的 HTML 的清单链接标记中的 `crossorigin` 属性的值，如果您的 pwa 位于经过身份验证的代理之后，则可能需要设置此值"
             }
           }
         },
