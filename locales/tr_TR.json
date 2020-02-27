@@ -185,7 +185,7 @@
           "buttons": {
             "clear": "Konsolu temizle",
             "scroll": "Alta kaydır",
-            "content-copy": "Copy content"
+            "content-copy": "İçeriği kopyala"
           }
         },
         "top-bar": {
@@ -296,7 +296,7 @@
                 "options": {
                   "label": "Ek seçenekler",
                   "force": "Varsa hedef klasörün üzerine yaz",
-                  "bare": "Scaffold project without beginner instructions",
+                  "bare": "Projeyi acemi yönergeleri olmadan oluştur",
                   "git-title": "Git deposu",
                   "git": "Git deposunu başlat (önerilir)",
                   "git-commit-message": "İlk işlem mesajı (isteğe bağlı)"
@@ -445,7 +445,7 @@
         },
         "project-tasks": {
           "title": "Proje Görevleri",
-          "refresh": "Refresh tasks"
+          "refresh": "Görevleri yenile"
         },
         "project-task-details": {
           "actions": {
@@ -459,7 +459,7 @@
           "more-info": "Daha Fazla Bilgi",
           "output": "Çıktı",
           "override-args": {
-            "message": "Override hard-coded arguments",
+            "message": "Gömülü kodlanmış değişkenleri geçersiz kıl",
             "description": "If enabled, hard-coded arguments in your package.json file will be replaced with the values defined below"
           }
         },
@@ -792,7 +792,7 @@
           "kill": "Sonlandır",
           "status": {
             "idle": "Sonlandırmaya hazır",
-            "killing": "Killing process...",
+            "killing": "İşlem durduruluyor...",
             "killed": "Başarıyla sonlandırıldı!",
             "error": "İşlem sonlandırılamadı"
           }
@@ -828,22 +828,22 @@
           "description": "Proje bağımlılarınızdaki bilinen güvenlik açıklarını kontrol edin",
           "messages": {
             "ok": "Güvenlik açığı bulunamadı",
-            "loading": "Auditing project security...",
+            "loading": "Proje güvenliği denetleniyor...",
             "attention": "{n} güvenlik açığı bulundu",
-            "error": "Couldn't check for vulnerability"
+            "error": "Güvenlik açığı aranamadı"
           },
           "severity": {
-            "critical": "Critical severity",
+            "critical": "Kritik seviye önem",
             "high": "Yüksek önem derecesi",
-            "moderate": "Medium severity",
+            "moderate": "Orta seviye önem",
             "low": "Düşük önem derecesi"
           },
           "direct-dep": "Doğrudan bağımlılık",
           "versions": {
-            "vulnerable": "Vulnerable versions:",
-            "patched": "Patched versions:"
+            "vulnerable": "Saldırıya açık sürümler:",
+            "patched": "Yamalanmış sürümler:"
           },
-          "recheck": "Check again"
+          "recheck": "Bir daha kontrol et"
         },
         "run-task": {
           "title": "Görevi çalıştır",
