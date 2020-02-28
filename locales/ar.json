@@ -54,7 +54,7 @@
             "tooltips": {
               "parent-folder": "فتح المجلد الرئيسي",
               "edit-path": "تعديل المسار",
-              "favorite": "Toggle favorite",
+              "favorite": "تبديل المفضلة",
               "favorite-folders": "مجلدات مفضلة",
               "refresh": "إعادة تحديث"
             },
@@ -107,7 +107,7 @@
         },
         "project-select-list-item": {
           "tooltips": {
-            "favorite": "Toggle favorite",
+            "favorite": "تبديل المفضلة",
             "delete": "حذف",
             "open-in-editor": "فتح في المحرر"
           }
@@ -232,13 +232,13 @@
           "completion-hooks": "Running completion hooks...",
           "fetch-remote-preset": "Fetching remote preset...",
           "done": "Successfully created project",
-          "plugin-install": "Installing {arg0}...",
+          "plugin-install": "تثبيت {arg0}...",
           "plugin-uninstall": "Uninstalling {arg0}...",
           "plugin-invoke": "Invoking {arg0}...",
-          "plugin-update": "Updating {arg0}...",
+          "plugin-update": "تحديث {arg0}...",
           "plugins-update": "Updating {arg0} plugins...",
-          "dependency-install": "Installing {arg0}...",
-          "dependency-uninstall": "Uninstalling {arg0}...",
+          "dependency-install": "تثبيت {arg0}...",
+          "dependency-uninstall": "الغاء التثبيت {arg0}...",
           "dependency-update": "Updating {arg0}...",
           "dependencies-update": "Updating {arg0} packages..."
         }
@@ -246,7 +246,7 @@
       "types": {
         "task": {
           "status": {
-            "idle": "Idle",
+            "idle": "خامل",
             "running": "قيد التشغيل",
             "done": "تم",
             "error": "خطأ",
@@ -276,7 +276,7 @@
           }
         },
         "project-create": {
-          "title": "Create a new project",
+          "title": "انشئ مشروع جديد",
           "tabs": {
             "details": {
               "title": "Details",
@@ -290,7 +290,7 @@
                   "folder-name-invalid": "Folder name invalid"
                 },
                 "manager": {
-                  "label": "Package manager",
+                  "label": "مدير الحزم",
                   "default": "الافتراضي"
                 },
                 "options": {
@@ -353,7 +353,7 @@
               "buttons": {
                 "previous": "السابق",
                 "next": "التالي",
-                "create": "Create Project"
+                "create": "انشئ مشروع"
               },
               "userConfigFiles": {
                 "name": "استخدم ملفات التهيئة",
@@ -361,10 +361,10 @@
               }
             },
             "configuration": {
-              "title": "Configuration",
+              "title": "تهيئة",
               "buttons": {
                 "previous": "السابق",
-                "create": "Create Project"
+                "create": "انشئ مشروع"
               },
               "modal": {
                 "title": "Save as a new preset",
@@ -402,7 +402,7 @@
               }
             },
             "configuration": {
-              "label": "Configuration",
+              "label": "تهيئة",
               "heading": "Installation of {target}",
               "buttons": {
                 "cancel": "إلغاء",
@@ -439,8 +439,8 @@
           "actions": {
             "cancel": "إلغاء التغييرات",
             "save": "Save changes",
-            "more-info": "More info",
-            "refresh": "Refresh"
+            "more-info": "المزيد من المعلومات",
+            "refresh": "إعادة تحديث"
           }
         },
         "project-tasks": {
@@ -452,11 +452,11 @@
             "play": "Run task",
             "stop": "Stop task",
             "close": "إغلاق",
-            "save": "Save"
+            "save": "حفظ"
           },
           "command": "Script command",
           "parameters": "Parameters",
-          "more-info": "More Info",
+          "more-info": "المزيد من المعلومات",
           "output": "الخرج",
           "override-args": {
             "message": "Override hard-coded arguments",
@@ -486,7 +486,7 @@
         "project-dashboard": {
           "title": "Project dashboard",
           "cutomize": "Customize",
-          "done": "Done"
+          "done": "تم"
         },
         "settings": {
           "title": "Settings"
@@ -496,7 +496,7 @@
           "description": "<a href=\"https://github.com/vuejs/vue-cli/tree/dev/packages/%40vue/cli-ui\" target=\"_blank\">@vue/cli-ui</a> is a built-in package of vue-cli which opens a full-blown UI.",
           "quote": "Vue-cli 3.x is a complete rewrite, with a lot of new awesome features. You will be able to select features like routing, Vuex or Typescript, then add and upgrade building blocks called \"vue-cli plugins\". But having so much more options also means the tool is now more complex and harder to start using. That's why we thought having a full-blown GUI would help discover the new features, search and install vue-cli plugins and unlock more possibilities overall while not being limited by a terminal interface. To sum up, vue-cli will not only allow you to bootstrap a new project easily, but it will also remain useful for ongoing work afterwards!",
           "links": "Useful links",
-          "back": "Go back"
+          "back": "العودة"
         }
       },
       "cli-service": {
@@ -518,7 +518,7 @@
       },
       "vue-webpack": {
         "dashboard": {
-          "title": "Dashboard",
+          "title": "لوحة التحكم",
           "open-app": "فتح التطبيق",
           "webpack-status": {
             "Success": "نجاح",
@@ -532,16 +532,16 @@
               "status": "Status",
               "errors": "الأخطاء",
               "warnings": "Warnings",
-              "assets": "Assets",
+              "assets": "موارد",
               "modules": "Modules",
-              "deps": "Dependencies"
+              "deps": "تبعيات"
             }
           },
           "speed-stats": {
             "title": "Speed stats"
           },
           "module-list": {
-            "title": "Dependencies"
+            "title": "تبعيات"
           },
           "asset-list": {
             "title": "موارد",
@@ -565,15 +565,15 @@
           "serve": {
             "description": "Compiles and hot-reloads for development",
             "open": "Open browser on server start",
-            "mode": "Specify env mode",
+            "mode": "حدد نمط البيئة",
             "host": "تحديد المستضيف",
             "port": "Specify port",
             "https": "Use HTTPS"
           },
           "build": {
             "description": "Compiles and minifies for production",
-            "mode": "Specify env mode",
-            "dest": "Output directory",
+            "mode": "حدد نمط البيئة",
+            "dest": "مسار المخرجات",
             "target": {
               "description": "Build target",
               "app": "Web app",
@@ -590,7 +590,7 @@
           },
           "inspect": {
             "description": "Inspect the resolved webpack config",
-            "mode": "Specify env mode",
+            "mode": "حدد نمط البيئة",
             "verbose": "Show full function definitions in output"
           }
         },
@@ -658,7 +658,7 @@
             },
             "setting": {
               "off": "Off",
-              "error": "Error",
+              "error": "خطأ",
               "warning": "Warning",
               "custom": "Custom"
             },
@@ -800,15 +800,15 @@
         "status-widget": {
           "last-updated": "Updated",
           "never": "Not updated yet",
-          "check": "Check for updates",
-          "more-info": "More details"
+          "check": "ابحث عن التحديثات",
+          "more-info": "المزيد من التفاصيل"
         },
         "plugin-updates": {
           "title": "Plugin updates",
           "description": "Monitor plugin updates",
           "messages": {
             "ok": "All plugins up-to-date",
-            "loading": "Checking for updates...",
+            "loading": "البحث عن التحديثات...",
             "attention": "{n} plugin updates available"
           },
           "page": "Go to Plugins"
@@ -818,7 +818,7 @@
           "description": "Monitor dependencies updates",
           "messages": {
             "ok": "All dependencies up-to-date",
-            "loading": "Checking for updates...",
+            "loading": "البحث عن التحديثات...",
             "attention": "{n} dependency updates available"
           },
           "page": "Go to Dependencies"
@@ -833,17 +833,17 @@
             "error": "Couldn't check for vulnerability"
           },
           "severity": {
-            "critical": "Critical severity",
-            "high": "High severity",
-            "moderate": "Medium severity",
-            "low": "Low severity"
+            "critical": "شدة حرجة",
+            "high": "شدة عالية",
+            "moderate": "شدة متوسطة",
+            "low": "شدة متدنية"
           },
           "direct-dep": "Direct dependency",
           "versions": {
             "vulnerable": "Vulnerable versions:",
             "patched": "Patched versions:"
           },
-          "recheck": "Check again"
+          "recheck": "الفحص مرة اخرى"
         },
         "run-task": {
           "title": "Run task",
