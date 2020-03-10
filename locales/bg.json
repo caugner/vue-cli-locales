@@ -3,11 +3,11 @@
     "vue": {
       "common": {
         "close": "Затвори",
-        "cancel": "Cancel",
+        "cancel": "Отмени",
         "back": "Върни се",
         "more-info": "Повече информация",
-        "show-more": "Show more",
-        "show-less": "Show less"
+        "show-more": "Покажи повече",
+        "show-less": "Покажи по-малко"
       },
       "components": {
         "client-addon-component": {
@@ -113,10 +113,10 @@
           }
         },
         "project-rename": {
-          "title": "Rename",
+          "title": "Преименуване",
           "name-field": {
-            "title": "Name",
-            "subtitle": "Enter the new name"
+            "title": "Име",
+            "subtitle": "Въведи име"
           },
           "submit": "Rename"
         },
@@ -792,7 +792,7 @@
           "kill": "Спри",
           "status": {
             "idle": "Готов за спиране",
-            "killing": "Killing process...",
+            "killing": "Спиране на процесите...",
             "killed": "Спирането успешно!",
             "error": "Процеса не може да бъде спрян"
           }
@@ -828,14 +828,14 @@
           "description": "Провери за често срещани уязвимости в зависимостите на проекта",
           "messages": {
             "ok": "Не са намерени уязвимости",
-            "loading": "Auditing project security...",
+            "loading": "Проверка на проекта за уязвимости...",
             "attention": "{n} намерени уязвимости",
-            "error": "Couldn't check for vulnerability"
+            "error": "Неуспешна проверка за уязвимости"
           },
           "severity": {
-            "critical": "Critical severity",
+            "critical": "Критична заплаха",
             "high": "Висока заплаха",
-            "moderate": "Medium severity",
+            "moderate": "Умерена заплаха",
             "low": "Ниска заплаха"
           },
           "direct-dep": "Директни зависимости",
@@ -843,7 +843,7 @@
             "vulnerable": "Vulnerable versions:",
             "patched": "Patched versions:"
           },
-          "recheck": "Check again"
+          "recheck": "Провери отново"
         },
         "run-task": {
           "title": "Изпълни задача",
