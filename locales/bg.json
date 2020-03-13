@@ -3,11 +3,11 @@
     "vue": {
       "common": {
         "close": "Затвори",
-        "cancel": "Cancel",
+        "cancel": "Отмени",
         "back": "Върни се",
         "more-info": "Повече информация",
-        "show-more": "Show more",
-        "show-less": "Show less"
+        "show-more": "Покажи повече",
+        "show-less": "Покажи по-малко"
       },
       "components": {
         "client-addon-component": {
@@ -113,12 +113,12 @@
           }
         },
         "project-rename": {
-          "title": "Rename",
+          "title": "Преименувай",
           "name-field": {
-            "title": "Name",
-            "subtitle": "Enter the new name"
+            "title": "Име",
+            "subtitle": "Въведи новото име"
           },
-          "submit": "Rename"
+          "submit": "Преименувай"
         },
         "project-plugin-item": {
           "version": "версия",
@@ -185,7 +185,7 @@
           "buttons": {
             "clear": "Изчисти конзола",
             "scroll": "Иди накрая",
-            "content-copy": "Copy content"
+            "content-copy": "Копирай съдържанието"
           }
         },
         "top-bar": {
@@ -843,7 +843,7 @@
             "vulnerable": "Vulnerable versions:",
             "patched": "Patched versions:"
           },
-          "recheck": "Check again"
+          "recheck": "Провери отново"
         },
         "run-task": {
           "title": "Изпълни задача",

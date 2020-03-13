@@ -3,23 +3,23 @@
     "vue": {
       "common": {
         "close": "Inchide",
-        "cancel": "Cancel",
+        "cancel": "Anuleaza",
         "back": "Inapoi",
         "more-info": "Mai multe informatii",
-        "show-more": "Show more",
-        "show-less": "Show less"
+        "show-more": "Afisati mai mult",
+        "show-less": "Afisati mai putin"
       },
       "components": {
         "client-addon-component": {
-          "timeout": "Component load timeout",
-          "timeout-info": "The custom component takes too much time to load, there might be an error"
+          "timeout": "Timpul de incarcare a componentelor a expirat",
+          "timeout-info": "Componentul personalizat se incarca prea greu, s-ar putea sa existe o problema."
         },
         "connection-status": {
-          "disconnected": "Disconnected from UI server",
+          "disconnected": "Deconectat de la serverul UI",
           "connected": "Conectat!"
         },
         "file-diff": {
-          "binary": "Binary file not shown",
+          "binary": "Fișierul binar nu este afișat",
           "actions": {
             "open": "Deschide in editor"
           }
@@ -27,8 +27,8 @@
         "file-diff-view": {
           "files-changed": "Fisiere modificate",
           "search-file": "Cauta fisiere",
-          "empty": "No change found",
-          "error": "Couldn't get file changes",
+          "empty": "Nicio schimbare gasita",
+          "error": "Nu am putut prelua nicio schimbare a fisierului",
           "modals": {
             "commit": {
               "title": "Commit changes",
@@ -44,7 +44,7 @@
             "collapse-all": "Restrângeți tot",
             "expand-all": "Extinde tot",
             "commit": "Commit changes",
-            "skip": "Skip",
+            "skip": "Săriți peste",
             "continue": "Continua",
             "refresh": "Reîncarca"
           }
@@ -53,14 +53,14 @@
           "toolbar": {
             "tooltips": {
               "parent-folder": "Open parent folder",
-              "edit-path": "Edit path",
-              "favorite": "Toggle favorite",
-              "favorite-folders": "Favorite folders",
+              "edit-path": "Editati calea",
+              "favorite": "Comutați favoritele",
+              "favorite-folders": "Foldere favorite",
               "refresh": "Reîncarca"
             },
-            "placeholder": "Enter the full path to a folder",
-            "empty": "No favorite folders yet.",
-            "show-hidden": "Show hidden folders"
+            "placeholder": "Introduceți calea completă către un folder",
+            "empty": "Încă nu aveți foldere preferate.",
+            "show-hidden": "Arată folderele ascunse"
           },
           "new-folder": {
             "action": "Folder nou",
@@ -77,11 +77,11 @@
           "more-info": "Mai multe informatii"
         },
         "logger-view": {
-          "title": "Logs",
-          "empty": "No logs yet",
+          "title": "Jurnale",
+          "empty": "Încă nu există jurnale",
           "buttons": {
-            "clear": "Clear logs",
-            "scroll": "Scroll to bottom",
+            "clear": "Ștergeți jurnalele",
+            "scroll": "Derulați la sfârșit",
             "close": "Inchide"
           }
         },
@@ -90,11 +90,11 @@
         },
         "project-nav": {
           "tooltips": {
-            "dashboard": "Dashboard",
-            "plugins": "Plugins",
+            "dashboard": "Tablou de bord",
+            "plugins": "Plugin-uri",
             "dependencies": "Dependinte",
             "configuration": "Configuraţie",
-            "tasks": "Tasks",
+            "tasks": "Sarcini",
             "more": "Mai mult"
           }
         },
@@ -113,20 +113,20 @@
           }
         },
         "project-rename": {
-          "title": "Rename",
+          "title": "Redenumire",
           "name-field": {
-            "title": "Name",
-            "subtitle": "Enter the new name"
+            "title": "Nume",
+            "subtitle": "Introduceți noul nume"
           },
-          "submit": "Rename"
+          "submit": "Redenumire"
         },
         "project-plugin-item": {
           "version": "versiune",
-          "latest": "latest",
+          "latest": "cele mai noi",
           "official": "Oficial",
           "installed": "Instalat",
           "actions": {
-            "update": "Update {target}",
+            "update": "Actualizați {țintă}",
             "refresh": "Force Refresh {target}<br><i>Press [Shift] for Quick Refresh (node_modules won't be updated)</i>"
           },
           "local": "Local",
@@ -155,27 +155,27 @@
           "default": "Implicit"
         },
         "prompts-list": {
-          "empty": "No configuration"
+          "empty": "Nicio configurație"
         },
         "status-bar": {
           "project": {
-            "tooltip": "Click to toggle Project Manager",
-            "empty": "No project open"
+            "tooltip": "Click pentru a comuta Managerul de Proiect",
+            "empty": "Niciun proiect deschis"
           },
           "path": {
-            "tooltip": "Current Working Folder"
+            "tooltip": "Folder de lucru curent"
           },
           "log": {
-            "tooltip": "Logs<br><i>Click to toggle Vue CLI logs</i>",
-            "empty": "No logs yet"
+            "tooltip": "Jurnale<br><i>Click pentru a comuta jurnalele Vue CLI</i>",
+            "empty": "Incă nu există jurnale"
           },
-          "report-bug": "Report bug",
-          "translate": "Help translate",
-          "dark-mode": "Toggle dark mode",
+          "report-bug": "Raportați eroarea",
+          "translate": "Ajutați la traducere",
+          "dark-mode": "Comutați modul întunecat",
           "reset-plugin-api": "Refresh plugins API"
         },
         "suggestion-bar": {
-          "suggestion": "Suggestion",
+          "suggestion": "Sugestie",
           "modal": {
             "cancel": "Anulare",
             "continue": "Continua"
@@ -184,8 +184,8 @@
         "terminal-view": {
           "buttons": {
             "clear": "Curata consola",
-            "scroll": "Scroll to bottom",
-            "content-copy": "Copy content"
+            "scroll": "Derulați la sfârșit",
+            "content-copy": "Copiază conținutul"
           }
         },
         "top-bar": {
@@ -197,9 +197,9 @@
         "view-badge": {
           "labels": {
             "tasks": {
-              "error": "Error status",
-              "running": "Running status",
-              "done": "Done status"
+              "error": "Starea erorii",
+              "running": "Starea de funcționare",
+              "done": "Status terminat"
             }
           }
         },
@@ -207,7 +207,7 @@
           "remove": "Elimina widget",
           "configure": "Configureaza widget",
           "save": "Salveaza",
-          "reset-config": "Reset config",
+          "reset-config": "Resetează configurarea",
           "open-details": "Arata mai multe"
         },
         "widget-add-pane": {
@@ -231,7 +231,7 @@
           "deps-install": "Se instaleaza dependente aditionale...",
           "completion-hooks": "Running completion hooks...",
           "fetch-remote-preset": "Fetching remote preset...",
-          "done": "Successfully created project",
+          "done": "Proiect creat cu success",
           "plugin-install": "Installing {arg0}...",
           "plugin-uninstall": "Uninstalling {arg0}...",
           "plugin-invoke": "Invoking {arg0}...",
