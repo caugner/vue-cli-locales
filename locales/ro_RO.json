@@ -339,7 +339,7 @@
                   "title": "Preset URL",
                   "subtitle": "Git repo, for example 'username/repo'. You can also prefix with 'gitlab:' or 'bitbucket:'."
                 },
-                "options": "Other options",
+                "options": "Alte optiuni",
                 "clone": "Clone/Private repository",
                 "cancel": "Anulare",
                 "done": "Done"
@@ -417,7 +417,7 @@
             "title": "Uninstall {target}?",
             "body": "Do you want to uninstall the {target} plugin?",
             "buttons": {
-              "back": "Go back",
+              "back": "Inapoi",
               "cancel": "Cancel without uninstalling",
               "uninstall": "Uninstall"
             }
