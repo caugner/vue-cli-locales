@@ -299,7 +299,7 @@
                   "bare": "Tự động tạo dự án không có hướng dẫn cho người mới bắt đầu",
                   "git-title": "Kho Git",
                   "git": "Khởi tạo kho git (khuyên dùng)",
-                  "git-commit-message": "Khởi tạo chú thích cho commit (tùy chọn)"
+                  "git-commit-message": "Overwrite commit message (optional)"
                 }
               },
               "buttons": {

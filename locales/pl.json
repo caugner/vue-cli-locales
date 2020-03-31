@@ -299,7 +299,7 @@
                   "bare": "Zbuduj projekt bez porad dla początkujących",
                   "git-title": "Repozytorium git",
                   "git": "Inicjacja repozytorium git (zalecane)",
-                  "git-commit-message": "Commit początkowy (opcjonalny)"
+                  "git-commit-message": "Overwrite commit message (optional)"
                 }
               },
               "buttons": {

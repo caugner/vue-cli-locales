@@ -299,7 +299,7 @@
                   "bare": "无新手指引的脚手架项目",
                   "git-title": "Git",
                   "git": "初始化 git 仓库 (建议)",
-                  "git-commit-message": "初始提交信息 (选填)"
+                  "git-commit-message": "Overwrite commit message (optional)"
                 }
               },
               "buttons": {

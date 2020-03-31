@@ -299,7 +299,7 @@
                   "bare": "Rangka (scaffold) projek tanpa instruksi pemula",
                   "git-title": "Repositori Git",
                   "git": "Inisialisasi repositori git (direkomendasikan)",
-                  "git-commit-message": "Pesan commit awal (tidak wajib)"
+                  "git-commit-message": "Overwrite commit message (optional)"
                 }
               },
               "buttons": {

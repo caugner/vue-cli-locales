@@ -299,7 +299,7 @@
                   "bare": "Projeyi acemi yönergeleri olmadan oluştur",
                   "git-title": "Git deposu",
                   "git": "Git deposunu başlat (önerilir)",
-                  "git-commit-message": "İlk işlem mesajı (isteğe bağlı)"
+                  "git-commit-message": "Overwrite commit message (optional)"
                 }
               },
               "buttons": {

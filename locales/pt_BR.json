@@ -299,7 +299,7 @@
                   "bare": "Projeto modelo sem instruções para iniciantes",
                   "git-title": "Repositório Git",
                   "git": "Initialize git repository (recommended)",
-                  "git-commit-message": "Initial commit message (optional)"
+                  "git-commit-message": "Overwrite commit message (optional)"
                 }
               },
               "buttons": {

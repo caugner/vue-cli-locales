@@ -299,7 +299,7 @@
                   "bare": "Scaffold project without beginner instructions",
                   "git-title": "Git 저장소",
                   "git": "Git 저장소 만들기 (추천)",
-                  "git-commit-message": "초기 커밋 메시지 (선택)"
+                  "git-commit-message": "Overwrite commit message (optional)"
                 }
               },
               "buttons": {

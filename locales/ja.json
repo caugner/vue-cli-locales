@@ -299,7 +299,7 @@
                   "bare": "初心者向けインストラクションなしでプロジェクトを構築する",
                   "git-title": "Git リポジトリ",
                   "git": "git リポジトリの初期化 (推奨)",
-                  "git-commit-message": "初期コミットメッセージ (任意)"
+                  "git-commit-message": "Overwrite commit message (optional)"
                 }
               },
               "buttons": {

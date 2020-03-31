@@ -299,7 +299,7 @@
                   "bare": "Scaffold project without beginner instructions",
                   "git-title": "Git repository",
                   "git": "Инициализирай git repository (препоръчително)",
-                  "git-commit-message": "Първо commit съобщение (опционално)"
+                  "git-commit-message": "Overwrite commit message (optional)"
                 }
               },
               "buttons": {

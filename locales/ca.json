@@ -299,7 +299,7 @@
                   "bare": "Crea l'estructura del projecte sense instruccions per a principiants",
                   "git-title": "Repositori Git",
                   "git": "Inicialitzar el repository git (recomanat)",
-                  "git-commit-message": "Missatge de publicació inicial (opcional)"
+                  "git-commit-message": "Overwrite commit message (optional)"
                 }
               },
               "buttons": {

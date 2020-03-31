@@ -299,7 +299,7 @@
                   "bare": "Scaffold project without beginner instructions",
                   "git-title": "Git arkiv",
                   "git": "Initialiser git arkiv (anbefalet)",
-                  "git-commit-message": "Indledende commit-besked (valgfri)"
+                  "git-commit-message": "Overwrite commit message (optional)"
                 }
               },
               "buttons": {

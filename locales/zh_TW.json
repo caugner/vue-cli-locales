@@ -299,7 +299,7 @@
                   "bare": "在沒有新手指示的情況下由腳手架建立專案",
                   "git-title": "Git 倉庫",
                   "git": "初始化 git 倉庫(建議)",
-                  "git-commit-message": "初始提交訊息 (選填)"
+                  "git-commit-message": "Overwrite commit message (optional)"
                 }
               },
               "buttons": {

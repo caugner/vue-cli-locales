@@ -299,7 +299,7 @@
                   "bare": "Projektgerüst ohne Anfängerhinweise",
                   "git-title": "Versionsverwaltung mit Git",
                   "git": "Git-Repository einrichten (empfohlen)",
-                  "git-commit-message": "Erste Commit-Nachricht (optional)"
+                  "git-commit-message": "Overwrite commit message (optional)"
                 }
               },
               "buttons": {

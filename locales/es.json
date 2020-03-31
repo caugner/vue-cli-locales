@@ -299,7 +299,7 @@
                   "bare": "Esqueleto del proyecto sin instrucciones de principiante",
                   "git-title": "Repositorio git",
                   "git": "Inicializar repositorio git (recomendado)",
-                  "git-commit-message": "Mensaje de commit inicial (opcional)"
+                  "git-commit-message": "Overwrite commit message (optional)"
                 }
               },
               "buttons": {

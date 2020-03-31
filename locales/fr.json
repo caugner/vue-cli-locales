@@ -299,7 +299,7 @@
                   "bare": "Définir la configuration du projet sans recours aux instructions pour les débutants",
                   "git-title": "Dépôt Git",
                   "git": "Initialiser un dépôt Git (recommandé)",
-                  "git-commit-message": "Message du commit initial (optionel)"
+                  "git-commit-message": "Overwrite commit message (optional)"
                 }
               },
               "buttons": {

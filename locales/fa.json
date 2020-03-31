@@ -299,7 +299,7 @@
                   "bare": "چارچوب بندی پروژه بدون دستورالعمل های مبتدی",
                   "git-title": "مخزن Git",
                   "git": "راه اندازی مخزن git (توصیه شده)",
-                  "git-commit-message": "پیغام اولیه ی commit (اختیاری)"
+                  "git-commit-message": "Overwrite commit message (optional)"
                 }
               },
               "buttons": {

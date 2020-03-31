@@ -299,7 +299,7 @@
                   "bare": "Создать без инструкций для начинающих",
                   "git-title": "Репозиторий Git",
                   "git": "Инициализировать репозиторий git (рекомендуется)",
-                  "git-commit-message": " Введите сообщение первой фиксации (не обязательно) "
+                  "git-commit-message": "Overwrite commit message (optional)"
                 }
               },
               "buttons": {

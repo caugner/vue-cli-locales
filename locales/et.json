@@ -299,7 +299,7 @@
                   "bare": "Scaffold project without beginner instructions",
                   "git-title": "Git hoidla",
                   "git": "Algväärtusta git hoidla (soovituslik)",
-                  "git-commit-message": "Esmase kehtestuse kirjeldus"
+                  "git-commit-message": "Overwrite commit message (optional)"
                 }
               },
               "buttons": {

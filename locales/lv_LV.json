@@ -299,7 +299,7 @@
                   "bare": "Scaffold project without beginner instructions",
                   "git-title": "Git repozitorijs",
                   "git": "Inicializēt git repozitoriju (ieteikums)",
-                  "git-commit-message": "Sākotnējais izpildes ziņojums (nav obligāts)"
+                  "git-commit-message": "Overwrite commit message (optional)"
                 }
               },
               "buttons": {

@@ -299,7 +299,7 @@
                   "bare": "Generer prosjekt uten nybegynnerinstruksjoner",
                   "git-title": "Git repository",
                   "git": "Initialiser git repository (anbefalt)",
-                  "git-commit-message": "Første commit-melding (valgfritt)"
+                  "git-commit-message": "Overwrite commit message (optional)"
                 }
               },
               "buttons": {

@@ -299,7 +299,7 @@
                   "bare": "Scaffold project without beginner instructions",
                   "git-title": "Repositorio Git",
                   "git": "Inicializar repositorio git (recomendado)",
-                  "git-commit-message": "Mensaje de commit inicial (opcional)"
+                  "git-commit-message": "Overwrite commit message (optional)"
                 }
               },
               "buttons": {
