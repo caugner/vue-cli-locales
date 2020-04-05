@@ -46,7 +46,7 @@
             "commit": "Commit changes",
             "skip": "Săriți peste",
             "continue": "Continua",
-            "refresh": "Reîncarca"
+            "refresh": "Reîncarcă"
           }
         },
         "folder-explorer": {
@@ -56,7 +56,7 @@
               "edit-path": "Editati calea",
               "favorite": "Comutați favoritele",
               "favorite-folders": "Foldere favorite",
-              "refresh": "Reîncarca"
+              "refresh": "Reîncarcă"
             },
             "placeholder": "Introduceți calea completă către un folder",
             "empty": "Încă nu aveți foldere preferate.",
