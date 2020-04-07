@@ -1,0 +1,873 @@
+{
+  "org": {
+    "vue": {
+      "common": {
+        "close": "Pechar",
+        "cancel": "Cancelar",
+        "back": "Volver atrás",
+        "more-info": "Máis info",
+        "show-more": "Amosar máis",
+        "show-less": "Amosar menos"
+      },
+      "components": {
+        "client-addon-component": {
+          "timeout": "Tempo de carga de compoñentes",
+          "timeout-info": "O compoñente personalizado tarda demasiado tempo en cargar, pode haber un erro"
+        },
+        "connection-status": {
+          "disconnected": "Desconectado do servidor UI",
+          "connected": "Conectado!"
+        },
+        "file-diff": {
+          "binary": "Non se mostra o ficheiro binario",
+          "actions": {
+            "open": "Aberto no editor"
+          }
+        },
+        "file-diff-view": {
+          "files-changed": "Os arquivos cambiaron",
+          "search-file": "Buscar arquivo",
+          "empty": "Non se atopou ningún cambio",
+          "error": "Non se fixeron cambios no arquivo",
+          "modals": {
+            "commit": {
+              "title": "Confirmar cambios",
+              "input": "Insira unha mensaxe de confirmación",
+              "subtitle": "Rexistrar os cambios no repositorio",
+              "actions": {
+                "commit": "Commit",
+                "cancel": "Cancelar"
+              }
+            }
+          },
+          "actions": {
+            "collapse-all": "Contraer todo",
+            "expand-all": "Expandir todo",
+            "commit": "Confirmar cambios",
+            "skip": "Saltar",
+            "continue": "Continuar",
+            "refresh": "Actualizar"
+          }
+        },
+        "folder-explorer": {
+          "toolbar": {
+            "tooltips": {
+              "parent-folder": "Abrir cartafol pai",
+              "edit-path": "Editar ruta",
+              "favorite": "Cambiar favorito",
+              "favorite-folders": "Cartafois favoritos",
+              "refresh": "Actualizar"
+            },
+            "placeholder": "Insira o camiño completo a un cartafol",
+            "empty": "Aínda non hai cartafois favoritos.",
+            "show-hidden": "Amosar cartafois ocultos"
+          },
+          "new-folder": {
+            "action": "Novo cartafol",
+            "title": "Crear novo cartafol",
+            "field": {
+              "title": "Novo cartafol",
+              "subtitle": "Podes usar o separador de cartafois para crear varios cartafois aniñados á vez."
+            },
+            "cancel": "Cancelar",
+            "create": "Crear"
+          }
+        },
+        "list-item-info": {
+          "more-info": "Máis info"
+        },
+        "logger-view": {
+          "title": "Logs",
+          "empty": "Sen logs aínda",
+          "buttons": {
+            "clear": "Limpar logs",
+            "scroll": "Ir ata ao pé",
+            "close": "Pechar"
+          }
+        },
+        "progress-screen": {
+          "close": "Pechar"
+        },
+        "project-nav": {
+          "tooltips": {
+            "dashboard": "Taboleiro de control",
+            "plugins": "Complementos",
+            "dependencies": "Dependencias",
+            "configuration": "Configuración",
+            "tasks": "Tarefas",
+            "more": "Máis"
+          }
+        },
+        "project-select-list": {
+          "empty": "Non hai proxectos",
+          "titles": {
+            "favorite": "Proxectos favoritos",
+            "other": "Outros proxectos"
+          }
+        },
+        "project-select-list-item": {
+          "tooltips": {
+            "favorite": "Cambiar favorito",
+            "delete": "Quitar da lista",
+            "open-in-editor": "Abrir no editor"
+          }
+        },
+        "project-rename": {
+          "title": "Mudar o nome",
+          "name-field": {
+            "title": "Nome",
+            "subtitle": "Inserir o novo nome"
+          },
+          "submit": "Mudar o nome"
+        },
+        "project-plugin-item": {
+          "version": "version",
+          "latest": "máis recente",
+          "official": "Oficial",
+          "installed": "Instalado",
+          "actions": {
+            "update": "Actualizar {target}",
+            "refresh": "Forzar Actualizar {target}<br><i>Preme [Shift] para Actualización rápida (node_modules non se actualizará)</i>"
+          },
+          "local": "Local",
+          "features": {
+            "generator": "Este complemento ten un xerador e pode modificar os ficheiros do proxecto e engadir novos arquivos para ti.",
+            "ui-integration": "Este complemento inclúe funcións de interface de usuario adicional como tarefas melloradas, pantallas de configuración, panel de widgets..."
+          }
+        },
+        "project-dependency-item": {
+          "version": "version",
+          "wanted": "wanted",
+          "latest": "máis recente",
+          "installed": "Instalado",
+          "actions": {
+            "update": "Actualizar {target}",
+            "uninstall": "Desinstalar {target}"
+          }
+        },
+        "project-tasks-dropdown": {
+          "tooltips": {
+            "tasks": "Tarefas",
+            "running-tasks": "{count}  tarefa(s) en execución"
+          }
+        },
+        "prompt-list": {
+          "default": "Predeterminado"
+        },
+        "prompts-list": {
+          "empty": "Sen configuración"
+        },
+        "status-bar": {
+          "project": {
+            "tooltip": "Clic para alternar ao xestor de proxectos",
+            "empty": "Non hai proxecto aberto"
+          },
+          "path": {
+            "tooltip": "Cartafol actual de traballo"
+          },
+          "log": {
+            "tooltip": "Logs<br><i>Click to toggle Vue CLI logs</i>",
+            "empty": "Aínda sen rexistros"
+          },
+          "report-bug": "Informar de erro",
+          "translate": "Axudar a traducir",
+          "dark-mode": "Alternar o modo escuro",
+          "reset-plugin-api": "Actualizar complementos API"
+        },
+        "suggestion-bar": {
+          "suggestion": "Suxestión",
+          "modal": {
+            "cancel": "Cancelar",
+            "continue": "Continuar"
+          }
+        },
+        "terminal-view": {
+          "buttons": {
+            "clear": "Limpar consola",
+            "scroll": "Ir ata o pé",
+            "content-copy": "Copiar contido"
+          }
+        },
+        "top-bar": {
+          "no-favorites": "Non hai proxectos favoritos",
+          "favorite-projects": "Proxectos favoritos",
+          "recent-projects": "Proxectos recentes",
+          "homepage": "Páxina de inicio"
+        },
+        "view-badge": {
+          "labels": {
+            "tasks": {
+              "error": "Estado do erro",
+              "running": "Estado de execución",
+              "done": "Estado de realización"
+            }
+          }
+        },
+        "widget": {
+          "remove": "Quitar widget",
+          "configure": "Configurar widget",
+          "save": "Salvar",
+          "reset-config": "Restablecer configuración",
+          "open-details": "Amosar máis"
+        },
+        "widget-add-pane": {
+          "title": "Engadir widgets"
+        },
+        "widget-add-item": {
+          "add": "Engadir widget",
+          "details": {
+            "title": "Detalles do widget",
+            "max-instances": "Cantidade máxima de instancias: {count}/{total}",
+            "unlimited": "ilimitado"
+          }
+        }
+      },
+      "mixins": {
+        "progress": {
+          "creating": "Creando o proxecto...",
+          "git-init": "Iniciando o repositorio git ...",
+          "plugins-install": "Instalación de complementos de Vue CLI. Isto pode levar seu tempo ...",
+          "invoking-generators": "Invoking generators...",
+          "deps-install": "Instalar dependencias adicionais...",
+          "completion-hooks": "Correndo hooks de finalización...",
+          "fetch-remote-preset": "Fetching remote preset...",
+          "done": "Proxecto creado con éxito!",
+          "plugin-install": "Instalando {arg0}...",
+          "plugin-uninstall": "Desinstalando  {arg0}...",
+          "plugin-invoke": "Invoking {arg0}...",
+          "plugin-update": "Actualizando {arg0}...",
+          "plugins-update": "Actualizando {arg0} complementos...",
+          "dependency-install": "Instalando {arg0}...",
+          "dependency-uninstall": "Desinstalando {arg0}...",
+          "dependency-update": "Actualizando {arg0}...",
+          "dependencies-update": "Actualizando {arg0} packages..."
+        }
+      },
+      "types": {
+        "task": {
+          "status": {
+            "idle": "Idle",
+            "running": "En execución",
+            "done": "Feito",
+            "error": "Erro",
+            "terminated": "Rematado"
+          }
+        }
+      },
+      "views": {
+        "project-select": {
+          "title": "Vue Project Manager",
+          "tabs": {
+            "projects": "Proxectos",
+            "create": "Crear",
+            "import": "Importar"
+          },
+          "buttons": {
+            "create": "Crear novo proxecto aquí",
+            "import": "Importar este cartafol"
+          },
+          "import": {
+            "no-modules": {
+              "title": "Missing modules",
+              "message": "Parece que o proxecto carece do cartafol 'node_modules'. Verificar que se instalaron as dependencias antes de importar.",
+              "close": "Got it"
+            },
+            "force": "Importar de tódolos xeitos"
+          }
+        },
+        "project-create": {
+          "title": "Crear un novo proxecto",
+          "tabs": {
+            "details": {
+              "title": "Detalles",
+              "form": {
+                "folder": {
+                  "label": "Cartafol do proxecto",
+                  "placeholder": "Escriba un nome",
+                  "tooltip": "Cambiar o cartafol base",
+                  "action": "Seleccionar este cartafol",
+                  "folder-exists": "This folder already exists",
+                  "folder-name-invalid": "Folder name invalid"
+                },
+                "manager": {
+                  "label": "Package manager",
+                  "default": "Default"
+                },
+                "options": {
+                  "label": "Additional options",
+                  "force": "Overwrite target folder if it exists",
+                  "bare": "Andamiaxe do proxecto sen instrucións para principiantes",
+                  "git-title": "Git repository",
+                  "git": "Initialize git repository (recommended)",
+                  "git-commit-message": "Overwrite commit message (optional)"
+                }
+              },
+              "buttons": {
+                "cancel": "Cancelar",
+                "next": "Seguinte"
+              },
+              "modal": {
+                "title": "Cancelar e restablecer a creación do proxecto.",
+                "body": "Está seguro de que desexa restablecer a creación do proxecto?",
+                "buttons": {
+                  "back": "Go back",
+                  "clear": "Limpar proxecto"
+                }
+              }
+            },
+            "presets": {
+              "title": "Previos",
+              "description": "Un previo é unha asociación de complementos e configuracións. Despois de ter seleccionado as súas características, pode gardarse coma modelo definido para ser reutilizado para futuros proxectos sen necesidade de volver a configuralo todo.",
+              "select": "Select a preset",
+              "buttons": {
+                "previous": "Anterior",
+                "next": "Seguinte",
+                "create": "Crear proxecto"
+              },
+              "modal": {
+                "title": "Configure Remote preset",
+                "body": "Available soon..."
+              },
+              "manual": {
+                "name": "Manual",
+                "description": "Seleccionar características manualmente"
+              },
+              "remote": {
+                "name": "Remote preset",
+                "description": "Fetch a preset from a git repository",
+                "url": {
+                  "title": "Preset URL",
+                  "subtitle": "Git repo, for example 'username/repo'. You can also prefix with 'gitlab:' or 'bitbucket:'."
+                },
+                "options": "Outras opcións",
+                "clone": "Clone/Private repository",
+                "cancel": "Cancelar",
+                "done": "Feito"
+              },
+              "default-preset": "Configuración predeterminada"
+            },
+            "features": {
+              "title": "Características",
+              "description": "Unha vez creado o proxecto se poderán engadir funcións instalando complementos.",
+              "enable": "Habilitar características",
+              "buttons": {
+                "previous": "Anterior",
+                "next": "Seguinte",
+                "create": "Crear proxecto"
+              },
+              "userConfigFiles": {
+                "name": "Use config files",
+                "description": "Use specific configuration files (like '.babelrc') instead of using 'package.json'."
+              }
+            },
+            "configuration": {
+              "title": "Configuración",
+              "buttons": {
+                "previous": "Anterior",
+                "create": "Crear proxecto"
+              },
+              "modal": {
+                "title": "Save as a new preset",
+                "body": {
+                  "title": "Preset name",
+                  "subtitle": "Gardar as características e a configuración nun novo previo"
+                },
+                "buttons": {
+                  "cancel": "Cancelar",
+                  "continue": "Continue without saving",
+                  "create": "Crear un novo previo"
+                }
+              }
+            }
+          }
+        },
+        "project-plugins": {
+          "title": "Complementos do proxecto",
+          "button": "Engadir complemento",
+          "heading": "Complementos instalados",
+          "update-all": "Actualizar tódolos complementos"
+        },
+        "project-plugins-add": {
+          "title": "Engadir un complemento",
+          "plugin": "complemento",
+          "tabs": {
+            "search": {
+              "label": "Search",
+              "search-input": "Buscar un complemento",
+              "not-found": "No results found",
+              "buttons": {
+                "cancel": "Cancelar",
+                "install": "Instalar {target}",
+                "default-install": "Instalar"
+              }
+            },
+            "configuration": {
+              "label": "Configuration",
+              "heading": "Instalación de {target}",
+              "buttons": {
+                "cancel": "Cancelar",
+                "finish": "Rematou a desinstalación"
+              }
+            },
+            "diff": {
+              "label": "Files changed"
+            }
+          },
+          "modal": {
+            "title": "Desinstalar {target}?",
+            "body": "Queres desinstalar o complemento {target}?",
+            "buttons": {
+              "back": "Go back",
+              "cancel": "Cancelar sen desinstalar",
+              "uninstall": "Desinstalar"
+            }
+          },
+          "buttons": {
+            "add-local": "Atopar complemento local"
+          }
+        },
+        "project-plugin-add-local": {
+          "title": "Engadir un complemento local",
+          "buttons": {
+            "add": "Engadir complemento local"
+          }
+        },
+        "project-configurations": {
+          "title": "Configuración do proxecto"
+        },
+        "project-configuration-details": {
+          "actions": {
+            "cancel": "Cancelar cambios",
+            "save": "Salvar cambios",
+            "more-info": "Máis info",
+            "refresh": "Refresh"
+          }
+        },
+        "project-tasks": {
+          "title": "Tarefas do proxecto",
+          "refresh": "Refresh tasks"
+        },
+        "project-task-details": {
+          "actions": {
+            "play": "Run task",
+            "stop": "Stop task",
+            "close": "Pechar",
+            "save": "Save"
+          },
+          "command": "Script command",
+          "parameters": "Parameters",
+          "more-info": "Máis info",
+          "output": "Output",
+          "override-args": {
+            "message": "Override hard-coded arguments",
+            "description": "If enabled, hard-coded arguments in your package.json file will be replaced with the values defined below"
+          }
+        },
+        "project-dependencies": {
+          "title": "Dependencias do proxecto",
+          "heading": {
+            "dependencies": "Dependencias principais",
+            "devDependencies": "Dependencias de desenvolvemento"
+          },
+          "actions": {
+            "install": "Instalar dependencia",
+            "update-all": "Actualizando tódalas dependencias"
+          },
+          "install": {
+            "title": "Instalar nova dependencia"
+          },
+          "uninstall": {
+            "title": "Confirmar desinstalar",
+            "body": "Está seguro de que desexa desinstalar {id}?",
+            "cancel": "Cancelar",
+            "uninstall": "Desinstalar {id}"
+          }
+        },
+        "project-dashboard": {
+          "title": "Taboleiro de control do proxecto",
+          "cutomize": "Personalizar",
+          "done": "Feito"
+        },
+        "settings": {
+          "title": "Settings"
+        },
+        "about": {
+          "title": "About",
+          "description": "<a href=\"https://github.com/vuejs/vue-cli/tree/dev/packages/%40vue/cli-ui\" target=\"_blank\">@vue/cli-ui</a> is a built-in package of vue-cli which opens a full-blown UI.",
+          "quote": "Vue-cli 3.x foi reescrito completamente, con moitas impresionantes novas funcións. Será capaz de seleccionar características como o enrutamento, Vuex ou Typescript, e logo engadir e actualizar bloques de construción cos \"complementos vue-cli\". Pero ter todas esas novas opcións significa tamén que a ferramenta é agora algo máis complexa e difícil de comezar a usar. É por iso que pensamos que ter unha completa GUI pode axudar a descubrir as novas funcións, buscar e instalar complementos de vue-cli e desbloquear máis posibilidades en xeral sen estar limitado pola interface dunha terminal. Para resumir, vue-cli non só permitirá iniciar facilmente un novo proxecto, senón que tamén será útil para continuar calquera traballo en curso.",
+          "links": "Useful links",
+          "back": "Go back"
+        }
+      },
+      "cli-service": {
+        "suggestions": {
+          "vue-router-add": {
+            "label": "Add vue-router",
+            "message": "Official library to support multiple virtual pages in a Single-Page App. Each route renders a different component."
+          },
+          "vuex-add": {
+            "label": "Add vuex",
+            "message": "Official centralized State Management solution for large-scale apps. Very useful if multiple components need to access the same data."
+          },
+          "vue-devtools": {
+            "label": "Instalar devtools",
+            "message": "Browser devtools official extension for debugging Vue.js applications where you can inspect your components, vuex store and events."
+          },
+          "progress": "Instalando {arg0}..."
+        }
+      },
+      "vue-webpack": {
+        "dashboard": {
+          "title": "Dashboard",
+          "open-app": "Open app",
+          "webpack-status": {
+            "Success": "Success",
+            "Failed": "Failed",
+            "Compiling": "Compiling",
+            "Invalidated": "Invalidated",
+            "Idle": "Idle"
+          },
+          "build-status": {
+            "labels": {
+              "status": "Status",
+              "errors": "Errors",
+              "warnings": "Warnings",
+              "assets": "Assets",
+              "modules": "Modules",
+              "deps": "Dependencias"
+            }
+          },
+          "speed-stats": {
+            "title": "Speed stats"
+          },
+          "module-list": {
+            "title": "Dependencias"
+          },
+          "asset-list": {
+            "title": "Assets",
+            "size-warning": "Este activo é grande, considere o uso de división de código para crear activos máis pequenos."
+          }
+        },
+        "analyzer": {
+          "title": "Analyzer",
+          "go-up": "Go up",
+          "go-home": "Go to home",
+          "chunk": "Chunk"
+        },
+        "sizes": {
+          "stats": "Stats",
+          "parsed": "Parsed",
+          "gzip": "Gzip",
+          "help": "<b>Estatísticas:</b> tamaño das estadísticas de webpack.<br><b>Parsed:</b> tamaño do código fonte extraído (tralos complementos de minificación). Máis preciso.<br><b>Gzip:</b> tamaño do código fonte gzip extraído."
+        },
+        "modern-mode": "Show modern build",
+        "tasks": {
+          "serve": {
+            "description": "Compiles and hot-reloads for development",
+            "open": "Open browser on server start",
+            "mode": "Specify env mode",
+            "host": "Specify host",
+            "port": "Specify port",
+            "https": "Use HTTPS"
+          },
+          "build": {
+            "description": "Compiles and minifies for production",
+            "mode": "Specify env mode",
+            "dest": "Output directory",
+            "target": {
+              "description": "Build target",
+              "app": "Web app",
+              "lib": "Library",
+              "wc": "Web component",
+              "wc-async": "Async web component"
+            },
+            "name": "Name for library or web-component mode (default: 'name' in package.json or entry filename)",
+            "watch": "Watch for changes",
+            "modern": {
+              "label": "Modern mode",
+              "description": "Build app targeting modern browsers with auto fallback"
+            }
+          },
+          "inspect": {
+            "description": "Inspect the resolved webpack config",
+            "mode": "Specify env mode",
+            "verbose": "Show full function definitions in output"
+          }
+        },
+        "config": {
+          "vue-cli": {
+            "description": "Configura o teu proxecto Vue",
+            "groups": {
+              "general": "General settings",
+              "css": "CSS settings"
+            },
+            "publicPath": {
+              "label": "Public Path",
+              "description": "The base URL your application will be deployed at, for example '/my-app/'. Use an empty string ('') so that all assets are linked using relative paths."
+            },
+            "outputDir": {
+              "label": "Output directory",
+              "description": "The directory where the production build files will be generated"
+            },
+            "assetsDir": {
+              "label": "Assets directory",
+              "description": "A directory to nest generated static assets (js, css, img, fonts) under."
+            },
+            "runtimeCompiler": {
+              "label": "Enable runtime compiler",
+              "description": "This will allow you to use the template option in Vue components, but will incur around an extra 10kb payload for your app."
+            },
+            "productionSourceMap": {
+              "label": "Enable Production Source Maps",
+              "description": "Disabling this can speed up production builds if you don't need source maps for production"
+            },
+            "parallel": {
+              "label": "Parallel compilation",
+              "description": "Whether to use multiple processors to compile Babel or Typescript."
+            },
+            "css": {
+              "modules": {
+                "label": "Enable CSS Modules",
+                "description": "By default, only files that ends in *.module.[ext] are treated as CSS modules. Enabling this will treat all style files as CSS modules."
+              },
+              "extract": {
+                "label": "Extract CSS",
+                "description": "Whether to extract CSS in your components into a standalone CSS files (instead of inlined in JavaScript and injected dynamically)."
+              },
+              "sourceMap": {
+                "label": "Enable CSS Source Maps",
+                "description": "Whether to enable source maps for CSS. Enabling this may affect build performance."
+              }
+            }
+          }
+        },
+        "suggestions": {
+          "vue-config-open": "Open vue config"
+        }
+      },
+      "eslint": {
+        "config": {
+          "eslint": {
+            "description": "Error checking & Code quality",
+            "groups": {
+              "base": "Base",
+              "essential": "Essential",
+              "strongly-recommended": "Strongly recommended",
+              "recommended": "Recommended",
+              "uncategorized": "Uncategorized"
+            },
+            "setting": {
+              "off": "Off",
+              "error": "Error",
+              "warning": "Warning",
+              "custom": "Custom"
+            },
+            "general": {
+              "label": "General",
+              "lintOnSave": {
+                "message": "Lint on save",
+                "description": "Automatically lint source files when saved"
+              },
+              "config": {
+                "message": "Select config",
+                "description": "Select pre-defined configuration"
+              }
+            },
+            "rules": {
+              "label": "Rules"
+            }
+          }
+        },
+        "tasks": {
+          "lint": {
+            "description": "Lints and fixes files",
+            "noFix": "Do not fix errors"
+          }
+        },
+        "suggestions": {
+          "open-eslintrc": {
+            "label": "Open eslintrc"
+          }
+        }
+      },
+      "pwa": {
+        "config": {
+          "pwa": {
+            "description": "Progressive Web App",
+            "workboxPluginMode": {
+              "message": "Modo complemento",
+              "description": "Isto permite escoller entre os dous modos compatibles co 'workbox-webpack-plugin' subxacente "
+            },
+            "name": {
+              "message": "App name",
+              "description": "App name displayed on the Splash screen and various other places. Also used as the value for the `apple-mobile-web-app-title` meta tag in the generated HTML."
+            },
+            "themeColor": {
+              "message": "Theme color",
+              "description": "Color used to theme the browser"
+            },
+            "backgroundColor": {
+              "message": "Splash background color",
+              "description": "Background color used for the app splash screen"
+            },
+            "msTileColor": {
+              "message": "Windows app tile color",
+              "description": "Color used for the app tile on Windows"
+            },
+            "appleMobileWebAppStatusBarStyle": {
+              "message": "Apple mobile status bar style",
+              "description": "Style for the web app status bar on iOS"
+            },
+            "manifestCrossorigin": {
+              "message": "Attribute value for manifest.json link tag's crossorigin attribute",
+              "description": "Value for `crossoriging` attribute in manifest link tag in the generated HTML, you may need to set this if your pwa is behind an authenticated proxy"
+            }
+          }
+        },
+        "suggestions": {
+          "open-vue": {
+            "label": "Open vue config"
+          },
+          "open-manifest": {
+            "label": "Open manifest"
+          }
+        }
+      },
+      "cypress": {
+        "tasks": {
+          "test": {
+            "description": "Run e2e tests with `cypress run`",
+            "headless": "Run in headless mode without GUI",
+            "mode": "Specify the mode the dev server should run in",
+            "url": "Run e2e tests against given url instead of auto-starting dev server"
+          }
+        }
+      },
+      "nightwatch": {
+        "tasks": {
+          "test": {
+            "description": "Run e2e tests with nightwatch",
+            "url": "Run e2e tests against given url instead of auto-starting dev server",
+            "config": "Use custom nightwatch config file (overrides internals)",
+            "env": "Comma-delimited browser envs to run in"
+          }
+        }
+      },
+      "jest": {
+        "tasks": {
+          "test": {
+            "description": "Run unit tests with Jest",
+            "watch": "Watch files for changes and rerun tests related to changed files",
+            "notify": "Display a notification after each run",
+            "update": "Re-record every snapshot that fails during this test run"
+          }
+        }
+      },
+      "mocha": {
+        "tasks": {
+          "test": {
+            "description": "Run unit tests with Mocha",
+            "watch": "Watch files for changes and rerun tests related to changed files"
+          }
+        }
+      },
+      "widgets": {
+        "welcome": {
+          "title": "Welcome tips",
+          "description": "Some tips to help you get started",
+          "content": {
+            "title": "Benvido ó teu novo proxecto!",
+            "tip1": "Estás a buscar no taboleiro de control do proxecto onde podes empregar widgets. Usar o botón \"Personalizar\" para engadir máis! Todo se gardará automaticamente.",
+            "tip2": "Á esquerda están as distintas páxinas dispoñibles. \"Complementos\" permite engadir novos complementos de Vue CLI, \"Dependencias\" para xestionar os paquetes, \"Configuración\" para configurar as ferramentas e \"Tarefas\" para executar scripts (por exemplo, webpack).",
+            "tip3": "Volva ao xestor de proxectos co menú despregable situado na parte superior esquerda da pantalla ou co botón de inicio na barra de estado na parte inferior.",
+            "ok": "Understood"
+          }
+        },
+        "kill-port": {
+          "title": "Kill port",
+          "description": "Kill processes using a specific network port",
+          "input": {
+            "placeholder": "Enter a network port"
+          },
+          "kill": "Kill",
+          "status": {
+            "idle": "Ready to kill",
+            "killing": "Killing process...",
+            "killed": "Killed successfully!",
+            "error": "Couldn't kill process"
+          }
+        },
+        "status-widget": {
+          "last-updated": "Actualizado",
+          "never": "Sen actualizar aínda",
+          "check": "Comprobar actualizacións",
+          "more-info": "Máis detalles"
+        },
+        "plugin-updates": {
+          "title": "Actualizar complementos",
+          "description": "Supervisar as actualizacións dos complementos",
+          "messages": {
+            "ok": "Tódolos complementos actualizados",
+            "loading": "Comprobando actualizacións...",
+            "attention": "{n} actualización(s) de complemento(s) dispoñible(s)"
+          },
+          "page": "Ir a Complementos"
+        },
+        "dependency-updates": {
+          "title": "Actualizar dependencia",
+          "description": "Supervisar as actualizacións das dependencias",
+          "messages": {
+            "ok": "Tódalas dependencias actualizadas",
+            "loading": "Comprobando actualizacións...",
+            "attention": "{n} actualizacións de dependencia dispoñibles"
+          },
+          "page": "Ir a Dependencias"
+        },
+        "vulnerability": {
+          "title": "Comprobar vulnerabilidade",
+          "description": "Comprobar vulnerabilidades coñecidas nas dependencias do proxecto",
+          "messages": {
+            "ok": "No vulnerability found",
+            "loading": "Ditaminando a seguridade do proxecto...",
+            "attention": "{n} vulnerabilities found",
+            "error": "Non se puido comprobar a vulnerabilidade"
+          },
+          "severity": {
+            "critical": "Severidade crítica",
+            "high": "Severidade alta",
+            "moderate": "Severidade media",
+            "low": "Severidade leve"
+          },
+          "direct-dep": "Dependencia directa",
+          "versions": {
+            "vulnerable": "Versións vulnerables:",
+            "patched": "Versións parcheadas:"
+          },
+          "recheck": "Volver comprobar"
+        },
+        "run-task": {
+          "title": "Executar tarefa",
+          "description": "Atallo para executar tarefa",
+          "prompts": {
+            "task": "Selecionar tarefa"
+          },
+          "page": "Ir á tarefa"
+        },
+        "news": {
+          "title": "Feed de novas",
+          "description": "Ler feed de novas",
+          "refresh": "Forzar actualización",
+          "select-tip": "Seleccionar un elemento á esquerda",
+          "prompts": {
+            "url": "RSS feed URL or GitHub repository"
+          },
+          "errors": {
+            "fetch": "Non se puido atopar feed",
+            "offline": "Sen conexión",
+            "empty": "Feed limpo"
+          }
+        }
+      }
+    }
+  }
+}
