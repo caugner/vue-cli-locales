@@ -137,7 +137,7 @@
         },
         "project-dependency-item": {
           "version": "version",
-          "wanted": "wanted",
+          "wanted": "necesario",
           "latest": "máis recente",
           "installed": "Instalado",
           "actions": {
@@ -166,7 +166,7 @@
             "tooltip": "Cartafol actual de traballo"
           },
           "log": {
-            "tooltip": "Logs<br><i>Click to toggle Vue CLI logs</i>",
+            "tooltip": "Logs<br><i>Clic para revelar rexistros Vue CLI </i>",
             "empty": "Aínda sen rexistros"
           },
           "report-bug": "Informar de erro",
@@ -206,7 +206,7 @@
         "widget": {
           "remove": "Quitar widget",
           "configure": "Configurar widget",
-          "save": "Salvar",
+          "save": "Gardar",
           "reset-config": "Restablecer configuración",
           "open-details": "Amosar máis"
         },
@@ -227,14 +227,14 @@
           "creating": "Creando o proxecto...",
           "git-init": "Iniciando o repositorio git ...",
           "plugins-install": "Instalación de complementos de Vue CLI. Isto pode levar seu tempo ...",
-          "invoking-generators": "Invoking generators...",
+          "invoking-generators": "Invocando xeradores...",
           "deps-install": "Instalar dependencias adicionais...",
           "completion-hooks": "Correndo hooks de finalización...",
-          "fetch-remote-preset": "Fetching remote preset...",
+          "fetch-remote-preset": "Obtendo un previo remoto...",
           "done": "Proxecto creado con éxito!",
           "plugin-install": "Instalando {arg0}...",
           "plugin-uninstall": "Desinstalando  {arg0}...",
-          "plugin-invoke": "Invoking {arg0}...",
+          "plugin-invoke": "Invocando {arg0}...",
           "plugin-update": "Actualizando {arg0}...",
           "plugins-update": "Actualizando {arg0} complementos...",
           "dependency-install": "Instalando {arg0}...",
@@ -246,7 +246,7 @@
       "types": {
         "task": {
           "status": {
-            "idle": "Idle",
+            "idle": "Sen uso",
             "running": "En execución",
             "done": "Feito",
             "error": "Erro",
@@ -268,9 +268,9 @@
           },
           "import": {
             "no-modules": {
-              "title": "Missing modules",
+              "title": "Módulos en falla",
               "message": "Parece que o proxecto carece do cartafol 'node_modules'. Verificar que se instalaron as dependencias antes de importar.",
-              "close": "Got it"
+              "close": "Entendido"
             },
             "force": "Importar de tódolos xeitos"
           }
@@ -286,20 +286,20 @@
                   "placeholder": "Escriba un nome",
                   "tooltip": "Cambiar o cartafol base",
                   "action": "Seleccionar este cartafol",
-                  "folder-exists": "This folder already exists",
-                  "folder-name-invalid": "Folder name invalid"
+                  "folder-exists": "Este cartafol xa existe",
+                  "folder-name-invalid": "Nome de cartafol invalido"
                 },
                 "manager": {
-                  "label": "Package manager",
-                  "default": "Default"
+                  "label": "Xestor de paquetes",
+                  "default": "Por defecto"
                 },
                 "options": {
-                  "label": "Additional options",
-                  "force": "Overwrite target folder if it exists",
+                  "label": "Opcións adicionais",
+                  "force": "Sobreescribir o cartafol de destino se existe",
                   "bare": "Andamiaxe do proxecto sen instrucións para principiantes",
-                  "git-title": "Git repository",
-                  "git": "Initialize git repository (recommended)",
-                  "git-commit-message": "Overwrite commit message (optional)"
+                  "git-title": "Repositorio Git",
+                  "git": "Inicializar repositorio git (recomendado)",
+                  "git-commit-message": "Sobreescribir a mensaxe de confirmación (opcional)"
                 }
               },
               "buttons": {
@@ -310,7 +310,7 @@
                 "title": "Cancelar e restablecer a creación do proxecto.",
                 "body": "Está seguro de que desexa restablecer a creación do proxecto?",
                 "buttons": {
-                  "back": "Go back",
+                  "back": "Volver atrás",
                   "clear": "Limpar proxecto"
                 }
               }
@@ -318,29 +318,29 @@
             "presets": {
               "title": "Previos",
               "description": "Un previo é unha asociación de complementos e configuracións. Despois de ter seleccionado as súas características, pode gardarse coma modelo definido para ser reutilizado para futuros proxectos sen necesidade de volver a configuralo todo.",
-              "select": "Select a preset",
+              "select": "Seleccione un previo",
               "buttons": {
                 "previous": "Anterior",
                 "next": "Seguinte",
                 "create": "Crear proxecto"
               },
               "modal": {
-                "title": "Configure Remote preset",
-                "body": "Available soon..."
+                "title": "Configurar o preestablecido remoto",
+                "body": "Dispoñible en breve..."
               },
               "manual": {
                 "name": "Manual",
                 "description": "Seleccionar características manualmente"
               },
               "remote": {
-                "name": "Remote preset",
-                "description": "Fetch a preset from a git repository",
+                "name": "Previo remoto",
+                "description": "Obter un previo dun repositorio git",
                 "url": {
-                  "title": "Preset URL",
-                  "subtitle": "Git repo, for example 'username/repo'. You can also prefix with 'gitlab:' or 'bitbucket:'."
+                  "title": "URL do previo",
+                  "subtitle": "Git repo, por exemplo \"nome-de-usuario/ repo\". Tamén podes prefixar con 'gitlab:' ou 'bitbucket:'."
                 },
                 "options": "Outras opcións",
-                "clone": "Clone/Private repository",
+                "clone": "Clonar/Repositorio privado",
                 "cancel": "Cancelar",
                 "done": "Feito"
               },
@@ -356,8 +356,8 @@
                 "create": "Crear proxecto"
               },
               "userConfigFiles": {
-                "name": "Use config files",
-                "description": "Use specific configuration files (like '.babelrc') instead of using 'package.json'."
+                "name": "Usar arquivos de configuración",
+                "description": "Usar arquivos de configuración específicos (como \".babelrc\") en vez de usar \"package.json\"."
               }
             },
             "configuration": {
@@ -367,14 +367,14 @@
                 "create": "Crear proxecto"
               },
               "modal": {
-                "title": "Save as a new preset",
+                "title": "Gardar como novo previo",
                 "body": {
-                  "title": "Preset name",
+                  "title": "Nome do previo",
                   "subtitle": "Gardar as características e a configuración nun novo previo"
                 },
                 "buttons": {
                   "cancel": "Cancelar",
-                  "continue": "Continue without saving",
+                  "continue": "Continuar sen gardar",
                   "create": "Crear un novo previo"
                 }
               }
@@ -392,9 +392,9 @@
           "plugin": "complemento",
           "tabs": {
             "search": {
-              "label": "Search",
+              "label": "Buscar",
               "search-input": "Buscar un complemento",
-              "not-found": "No results found",
+              "not-found": "Non se atoparon resultados",
               "buttons": {
                 "cancel": "Cancelar",
                 "install": "Instalar {target}",
@@ -402,7 +402,7 @@
               }
             },
             "configuration": {
-              "label": "Configuration",
+              "label": "Configuración",
               "heading": "Instalación de {target}",
               "buttons": {
                 "cancel": "Cancelar",
@@ -410,14 +410,14 @@
               }
             },
             "diff": {
-              "label": "Files changed"
+              "label": "Os arquivos cambiaron"
             }
           },
           "modal": {
             "title": "Desinstalar {target}?",
             "body": "Queres desinstalar o complemento {target}?",
             "buttons": {
-              "back": "Go back",
+              "back": "Volver atrás",
               "cancel": "Cancelar sen desinstalar",
               "uninstall": "Desinstalar"
             }
@@ -440,27 +440,27 @@
             "cancel": "Cancelar cambios",
             "save": "Salvar cambios",
             "more-info": "Máis info",
-            "refresh": "Refresh"
+            "refresh": "Refrescar"
           }
         },
         "project-tasks": {
           "title": "Tarefas do proxecto",
-          "refresh": "Refresh tasks"
+          "refresh": "Actualizar tarefas"
         },
         "project-task-details": {
           "actions": {
-            "play": "Run task",
-            "stop": "Stop task",
+            "play": "Executar tarefa",
+            "stop": "Parar tarefa",
             "close": "Pechar",
-            "save": "Save"
+            "save": "Gardar"
           },
-          "command": "Script command",
-          "parameters": "Parameters",
+          "command": "Comando script",
+          "parameters": "Parámetros",
           "more-info": "Máis info",
-          "output": "Output",
+          "output": "Saída",
           "override-args": {
-            "message": "Override hard-coded arguments",
-            "description": "If enabled, hard-coded arguments in your package.json file will be replaced with the values defined below"
+            "message": "Anuler argumentos codificados - hard-coded arguments",
+            "description": "Se está activado, os argumentos codificados no seu ficheiro package.json substituiranse cos valores definidos a continuación"
           }
         },
         "project-dependencies": {
@@ -489,132 +489,132 @@
           "done": "Feito"
         },
         "settings": {
-          "title": "Settings"
+          "title": "Configuración"
         },
         "about": {
-          "title": "About",
-          "description": "<a href=\"https://github.com/vuejs/vue-cli/tree/dev/packages/%40vue/cli-ui\" target=\"_blank\">@vue/cli-ui</a> is a built-in package of vue-cli which opens a full-blown UI.",
+          "title": "Acerca de",
+          "description": "<a href=\"https://github.com/vuejs/vue-cli/tree/dev/packages/%40vue/cli-ui\" target=\"_blank\">@vue/cli-ui</a> é un paquete integrado de vue-cli que abre unha interface de usuario completa.",
           "quote": "Vue-cli 3.x foi reescrito completamente, con moitas impresionantes novas funcións. Será capaz de seleccionar características como o enrutamento, Vuex ou Typescript, e logo engadir e actualizar bloques de construción cos \"complementos vue-cli\". Pero ter todas esas novas opcións significa tamén que a ferramenta é agora algo máis complexa e difícil de comezar a usar. É por iso que pensamos que ter unha completa GUI pode axudar a descubrir as novas funcións, buscar e instalar complementos de vue-cli e desbloquear máis posibilidades en xeral sen estar limitado pola interface dunha terminal. Para resumir, vue-cli non só permitirá iniciar facilmente un novo proxecto, senón que tamén será útil para continuar calquera traballo en curso.",
-          "links": "Useful links",
-          "back": "Go back"
+          "links": "Ligazóns útiles",
+          "back": "Volver atras"
         }
       },
       "cli-service": {
         "suggestions": {
           "vue-router-add": {
-            "label": "Add vue-router",
-            "message": "Official library to support multiple virtual pages in a Single-Page App. Each route renders a different component."
+            "label": "Engadir vue-router",
+            "message": "Biblioteca oficial para soportar varias páxinas virtuais nunha aplicación de unha páxina. Cada ruta representa un compoñente diferente."
           },
           "vuex-add": {
-            "label": "Add vuex",
-            "message": "Official centralized State Management solution for large-scale apps. Very useful if multiple components need to access the same data."
+            "label": "Engadir vuex",
+            "message": "Biblioteca oficial de xestión centralizada de estado para aplicacións a gran escala. Moi útil se varios compoñentes precisan acceder aos mesmos datos."
           },
           "vue-devtools": {
             "label": "Instalar devtools",
-            "message": "Browser devtools official extension for debugging Vue.js applications where you can inspect your components, vuex store and events."
+            "message": "Extensión oficial para as devtools do explorador para depurar aplicacións de Vue.js onde pode inspeccionar os compoñentes, a vuex store e os eventos."
           },
           "progress": "Instalando {arg0}..."
         }
       },
       "vue-webpack": {
         "dashboard": {
-          "title": "Dashboard",
-          "open-app": "Open app",
+          "title": "Taboleiro de control",
+          "open-app": "Abrir app",
           "webpack-status": {
-            "Success": "Success",
-            "Failed": "Failed",
-            "Compiling": "Compiling",
-            "Invalidated": "Invalidated",
-            "Idle": "Idle"
+            "Success": "Éxito",
+            "Failed": "Fallou",
+            "Compiling": "Compilando",
+            "Invalidated": "Invalidado",
+            "Idle": "Sen uso"
           },
           "build-status": {
             "labels": {
-              "status": "Status",
-              "errors": "Errors",
-              "warnings": "Warnings",
-              "assets": "Assets",
-              "modules": "Modules",
+              "status": "Estado",
+              "errors": "Erros",
+              "warnings": "Avisos",
+              "assets": "Activos",
+              "modules": "Módulos",
               "deps": "Dependencias"
             }
           },
           "speed-stats": {
-            "title": "Speed stats"
+            "title": "Estatísticas de velocidade"
           },
           "module-list": {
             "title": "Dependencias"
           },
           "asset-list": {
-            "title": "Assets",
+            "title": "Activos",
             "size-warning": "Este activo é grande, considere o uso de división de código para crear activos máis pequenos."
           }
         },
         "analyzer": {
-          "title": "Analyzer",
-          "go-up": "Go up",
-          "go-home": "Go to home",
+          "title": "Analizador",
+          "go-up": "Ir arriba",
+          "go-home": "Ira ó inicio",
           "chunk": "Chunk"
         },
         "sizes": {
-          "stats": "Stats",
-          "parsed": "Parsed",
+          "stats": "Estatísticas",
+          "parsed": "Examinado",
           "gzip": "Gzip",
           "help": "<b>Estatísticas:</b> tamaño das estadísticas de webpack.<br><b>Parsed:</b> tamaño do código fonte extraído (tralos complementos de minificación). Máis preciso.<br><b>Gzip:</b> tamaño do código fonte gzip extraído."
         },
-        "modern-mode": "Show modern build",
+        "modern-mode": "Amosar aspecto moderno",
         "tasks": {
           "serve": {
-            "description": "Compiles and hot-reloads for development",
-            "open": "Open browser on server start",
-            "mode": "Specify env mode",
-            "host": "Specify host",
-            "port": "Specify port",
-            "https": "Use HTTPS"
+            "description": "Compilación e recargas en quente para o desenvolvemento",
+            "open": "Abrir o navegador ó iniciarse o servidor",
+            "mode": "Especificar modo env",
+            "host": "Especificar o servidor",
+            "port": "Especificar o porto",
+            "https": "Usar HTTPS"
           },
           "build": {
-            "description": "Compiles and minifies for production",
-            "mode": "Specify env mode",
-            "dest": "Output directory",
+            "description": "Compilar e minimizar para produción",
+            "mode": "Especificar modo env",
+            "dest": "Cartafol de saída",
             "target": {
-              "description": "Build target",
+              "description": "Destino do construido",
               "app": "Web app",
-              "lib": "Library",
-              "wc": "Web component",
-              "wc-async": "Async web component"
+              "lib": "Biblioteca",
+              "wc": "Compoñente Web",
+              "wc-async": "Compoñente web asíncrono"
             },
-            "name": "Name for library or web-component mode (default: 'name' in package.json or entry filename)",
-            "watch": "Watch for changes",
+            "name": "Modo do Nome para a biblioteca ou compoñente web (predeterminado: 'nome' en package.json ou nome de arquivo de entrada)",
+            "watch": "Vixiar os cambios",
             "modern": {
-              "label": "Modern mode",
-              "description": "Build app targeting modern browsers with auto fallback"
+              "label": "Modo moderno",
+              "description": "Crea aplicación dirixida a navegadores modernos con auto fallback"
             }
           },
           "inspect": {
-            "description": "Inspect the resolved webpack config",
-            "mode": "Specify env mode",
-            "verbose": "Show full function definitions in output"
+            "description": "Inspeccione a configuración resolta de webpack",
+            "mode": "Especificar modo env",
+            "verbose": "Amosar as definicións de función completas na saída"
           }
         },
         "config": {
           "vue-cli": {
             "description": "Configura o teu proxecto Vue",
             "groups": {
-              "general": "General settings",
-              "css": "CSS settings"
+              "general": "Configuración xeral",
+              "css": "Configuración CSS"
             },
             "publicPath": {
-              "label": "Public Path",
-              "description": "The base URL your application will be deployed at, for example '/my-app/'. Use an empty string ('') so that all assets are linked using relative paths."
+              "label": "Ruta pública",
+              "description": "A URL de base na que se implementará a aplicación, por exemplo '/my-app/'. Use unha cadea baleira ('') para que todos os activos estean ligados mediante rutas relativas."
             },
             "outputDir": {
-              "label": "Output directory",
-              "description": "The directory where the production build files will be generated"
+              "label": "Cartafol de saída",
+              "description": "Cartafol onde se xerarán os arquivos de produción creados"
             },
             "assetsDir": {
-              "label": "Assets directory",
-              "description": "A directory to nest generated static assets (js, css, img, fonts) under."
+              "label": "Cartafol de activos",
+              "description": "Cartafol para aniñar os activos estáticos xerados (js, css, img, tipos de letra)."
             },
             "runtimeCompiler": {
-              "label": "Enable runtime compiler",
+              "label": "Activar compilador en tempo de execución",
               "description": "This will allow you to use the template option in Vue components, but will incur around an extra 10kb payload for your app."
             },
             "productionSourceMap": {
@@ -622,71 +622,71 @@
               "description": "Disabling this can speed up production builds if you don't need source maps for production"
             },
             "parallel": {
-              "label": "Parallel compilation",
+              "label": "Compilación paralela",
               "description": "Whether to use multiple processors to compile Babel or Typescript."
             },
             "css": {
               "modules": {
-                "label": "Enable CSS Modules",
+                "label": "Habilitar módulos CSS",
                 "description": "By default, only files that ends in *.module.[ext] are treated as CSS modules. Enabling this will treat all style files as CSS modules."
               },
               "extract": {
-                "label": "Extract CSS",
+                "label": "Extraer CSS",
                 "description": "Whether to extract CSS in your components into a standalone CSS files (instead of inlined in JavaScript and injected dynamically)."
               },
               "sourceMap": {
-                "label": "Enable CSS Source Maps",
+                "label": "Habilitar os mapas de orixe CSS",
                 "description": "Whether to enable source maps for CSS. Enabling this may affect build performance."
               }
             }
           }
         },
         "suggestions": {
-          "vue-config-open": "Open vue config"
+          "vue-config-open": "Abrir vue config"
         }
       },
       "eslint": {
         "config": {
           "eslint": {
-            "description": "Error checking & Code quality",
+            "description": "Verificación de erros e calidade do código",
             "groups": {
               "base": "Base",
-              "essential": "Essential",
-              "strongly-recommended": "Strongly recommended",
-              "recommended": "Recommended",
-              "uncategorized": "Uncategorized"
+              "essential": "Esencial",
+              "strongly-recommended": "Recomendado encarecidamente",
+              "recommended": "Recomendado",
+              "uncategorized": "Sen categoría"
             },
             "setting": {
               "off": "Off",
-              "error": "Error",
-              "warning": "Warning",
-              "custom": "Custom"
+              "error": "Erro",
+              "warning": "Aviso",
+              "custom": "Personalizado"
             },
             "general": {
-              "label": "General",
+              "label": "Xeral",
               "lintOnSave": {
-                "message": "Lint on save",
-                "description": "Automatically lint source files when saved"
+                "message": "Pulir ó salvar",
+                "description": "Garda automaticamente os arquivos fonte cando se gardan"
               },
               "config": {
-                "message": "Select config",
-                "description": "Select pre-defined configuration"
+                "message": "Seleccionar configuración",
+                "description": "Seleccionar unha configuración predefinida"
               }
             },
             "rules": {
-              "label": "Rules"
+              "label": "Regras"
             }
           }
         },
         "tasks": {
           "lint": {
-            "description": "Lints and fixes files",
-            "noFix": "Do not fix errors"
+            "description": "Arquivos pulidos e fixados",
+            "noFix": "Sen solucionar erros"
           }
         },
         "suggestions": {
           "open-eslintrc": {
-            "label": "Open eslintrc"
+            "label": "Abrir eslintrc"
           }
         }
       },
@@ -699,23 +699,23 @@
               "description": "Isto permite escoller entre os dous modos compatibles co 'workbox-webpack-plugin' subxacente "
             },
             "name": {
-              "message": "App name",
-              "description": "App name displayed on the Splash screen and various other places. Also used as the value for the `apple-mobile-web-app-title` meta tag in the generated HTML."
+              "message": "Nome da app",
+              "description": "O nome da aplicación aparece na pantalla de inicio e noutros lugares. Tamén se usa como valor para a metaetiqueta `apple-mobile-web-app-title` no HTML xerado."
             },
             "themeColor": {
-              "message": "Theme color",
-              "description": "Color used to theme the browser"
+              "message": "Cor do tema",
+              "description": "Cor empregada para usar no navegador"
             },
             "backgroundColor": {
-              "message": "Splash background color",
-              "description": "Background color used for the app splash screen"
+              "message": "Cor de fondo de benvida",
+              "description": "Cor de fondo empregada na pantalla de apertura da aplicación"
             },
             "msTileColor": {
-              "message": "Windows app tile color",
-              "description": "Color used for the app tile on Windows"
+              "message": "Cor do mosaico da xanela da aplicación",
+              "description": "Cor usada para o mosaico da aplicación en Windows"
             },
             "appleMobileWebAppStatusBarStyle": {
-              "message": "Apple mobile status bar style",
+              "message": "Estilo de barra móbil de Apple",
               "description": "Style for the web app status bar on iOS"
             },
             "manifestCrossorigin": {
@@ -726,10 +726,10 @@
         },
         "suggestions": {
           "open-vue": {
-            "label": "Open vue config"
+            "label": "Abrir vue config"
           },
           "open-manifest": {
-            "label": "Open manifest"
+            "label": "Manifesto aberto"
           }
         }
       },
@@ -756,45 +756,45 @@
       "jest": {
         "tasks": {
           "test": {
-            "description": "Run unit tests with Jest",
-            "watch": "Watch files for changes and rerun tests related to changed files",
-            "notify": "Display a notification after each run",
-            "update": "Re-record every snapshot that fails during this test run"
+            "description": "Executar probas unitarias con Jest",
+            "watch": "Vixiar os arquivos para ver cambios e repetir probas relacionados cos arquivos cambiados",
+            "notify": "Amosar unha notificación despois de cada execución",
+            "update": "Volver a gravar cada instantánea que falla durante esta proba"
           }
         }
       },
       "mocha": {
         "tasks": {
           "test": {
-            "description": "Run unit tests with Mocha",
-            "watch": "Watch files for changes and rerun tests related to changed files"
+            "description": "Executar probas unitarias con Mocha",
+            "watch": "Vixiar os arquivos para ver cambios e repetir probas relacionados cos arquivos cambiados"
           }
         }
       },
       "widgets": {
         "welcome": {
-          "title": "Welcome tips",
-          "description": "Some tips to help you get started",
+          "title": "Consellos de benvida",
+          "description": "Algúns consellos para comezar",
           "content": {
             "title": "Benvido ó teu novo proxecto!",
             "tip1": "Estás a buscar no taboleiro de control do proxecto onde podes empregar widgets. Usar o botón \"Personalizar\" para engadir máis! Todo se gardará automaticamente.",
             "tip2": "Á esquerda están as distintas páxinas dispoñibles. \"Complementos\" permite engadir novos complementos de Vue CLI, \"Dependencias\" para xestionar os paquetes, \"Configuración\" para configurar as ferramentas e \"Tarefas\" para executar scripts (por exemplo, webpack).",
             "tip3": "Volva ao xestor de proxectos co menú despregable situado na parte superior esquerda da pantalla ou co botón de inicio na barra de estado na parte inferior.",
-            "ok": "Understood"
+            "ok": "Entendido"
           }
         },
         "kill-port": {
-          "title": "Kill port",
-          "description": "Kill processes using a specific network port",
+          "title": "Matar porto",
+          "description": "Matar procesos que usan un porto de rede específico",
           "input": {
-            "placeholder": "Enter a network port"
+            "placeholder": "Indique un porto de rede"
           },
-          "kill": "Kill",
+          "kill": "Matar",
           "status": {
-            "idle": "Ready to kill",
-            "killing": "Killing process...",
-            "killed": "Killed successfully!",
-            "error": "Couldn't kill process"
+            "idle": "Listo para matar",
+            "killing": "Matando proceso...",
+            "killed": "Morto satisfactoriamente!",
+            "error": "Non se puido matalo proceso"
           }
         },
         "status-widget": {
@@ -827,9 +827,9 @@
           "title": "Comprobar vulnerabilidade",
           "description": "Comprobar vulnerabilidades coñecidas nas dependencias do proxecto",
           "messages": {
-            "ok": "No vulnerability found",
+            "ok": "Non se atoparon vulnerabilidades",
             "loading": "Ditaminando a seguridade do proxecto...",
-            "attention": "{n} vulnerabilities found",
+            "attention": "{n} vulnerabilidades atopadas.",
             "error": "Non se puido comprobar a vulnerabilidade"
           },
           "severity": {
@@ -859,7 +859,7 @@
           "refresh": "Forzar actualización",
           "select-tip": "Seleccionar un elemento á esquerda",
           "prompts": {
-            "url": "RSS feed URL or GitHub repository"
+            "url": "URL de fontes RSS ou repositorio GitHub"
           },
           "errors": {
             "fetch": "Non se puido atopar feed",
