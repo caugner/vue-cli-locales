@@ -299,7 +299,7 @@
                   "bare": "Projeto modelo sem instruções para iniciantes",
                   "git-title": "Repositório Git",
                   "git": "Initialize git repository (recommended)",
-                  "git-commit-message": "Overwrite commit message (optional)"
+                  "git-commit-message": "Substituir mensagem do commit (opcional)"
                 }
               },
               "buttons": {
@@ -459,8 +459,8 @@
           "more-info": "Mais informaçoes",
           "output": "Saída",
           "override-args": {
-            "message": "Override hard-coded arguments",
-            "description": "If enabled, hard-coded arguments in your package.json file will be replaced with the values defined below"
+            "message": "Sobrepor argumentos específicos ou hard-coded",
+            "description": "Se habilitado, argumentos específicos em seu arquivo package.json serão substituídos pelos valores definidos abaixo."
           }
         },
         "project-dependencies": {
@@ -719,8 +719,8 @@
               "description": "Style for the web app status bar on iOS"
             },
             "manifestCrossorigin": {
-              "message": "Attribute value for manifest.json link tag's crossorigin attribute",
-              "description": "Value for `crossoriging` attribute in manifest link tag in the generated HTML, you may need to set this if your pwa is behind an authenticated proxy"
+              "message": "Valor do link de marcações crossorigin para o manifest.json.",
+              "description": "Valor do atributo `crossorigin` link na tag de manifesto gerado no HTML, você pode precisar configurá-lo em sua pwa se estiver utilizando um proxy autenticado."
             }
           }
         },
