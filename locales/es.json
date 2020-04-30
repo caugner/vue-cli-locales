@@ -299,7 +299,7 @@
                   "bare": "Esqueleto del proyecto sin instrucciones de principiante",
                   "git-title": "Repositorio git",
                   "git": "Inicializar repositorio git (recomendado)",
-                  "git-commit-message": "Overwrite commit message (optional)"
+                  "git-commit-message": "Sobrescribir mensaje de confirmación (opcional)"
                 }
               },
               "buttons": {
@@ -720,7 +720,7 @@
             },
             "manifestCrossorigin": {
               "message": "Valor del atributo para la etiqueta del enlace en manifest.json, atributo crossorigin",
-              "description": "Value for `crossoriging` attribute in manifest link tag in the generated HTML, you may need to set this if your pwa is behind an authenticated proxy"
+              "description": "Valor para el atributo `crossoriging` en la etiqueta de enlace de manifiesto en el HTML generado, es posible que deba configurarlo si su pwa está en un proxy autenticado"
             }
           }
         },
