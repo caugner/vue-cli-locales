@@ -720,7 +720,7 @@
             },
             "manifestCrossorigin": {
               "message": "Значение для атрибута `crossoriging` в теге ссылки на manifest.json",
-              "description": "Значение для атрибута `crossoriging` в теге ссылки на manifest.json внутри сгенерированного HTML. Возможно потребуется включить если ваше PWA приложение находится за прокси."
+              "description": "Value for `crossorigin` attribute in manifest link tag in the generated HTML, you may need to set this if your pwa is behind an authenticated proxy"
             }
           }
         },

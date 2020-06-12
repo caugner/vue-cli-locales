@@ -720,7 +720,7 @@
             },
             "manifestCrossorigin": {
               "message": "Verdi for crossorigin-attributt på link element for manifest.json",
-              "description": "Verdi for `crossoriging` attributt i manifest link element i den genererte HTML-en, du må kanskje sette en verdi for dette om din PWA er bak en autentisert proxy"
+              "description": "Value for `crossorigin` attribute in manifest link tag in the generated HTML, you may need to set this if your pwa is behind an authenticated proxy"
             }
           }
         },

@@ -720,7 +720,7 @@
             },
             "manifestCrossorigin": {
               "message": "Nilai atribut untuk atribut tag tautan crossorigin manifest.json",
-              "description": "Nilai atribut untuk '`crossoriging` di dalam tag tautan manifest di HTML yang telah dibuat, Anda mungkin perlu untuk mengatur ini jika pwa Anda berada dibelakang sebuah proksi yang telah diautentikasi"
+              "description": "Value for `crossorigin` attribute in manifest link tag in the generated HTML, you may need to set this if your pwa is behind an authenticated proxy"
             }
           }
         },

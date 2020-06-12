@@ -720,7 +720,7 @@
             },
             "manifestCrossorigin": {
               "message": "manifest.json 向けの link タグ の crossorigin 属性 の属性値",
-              "description": "値はマニフェストの link タグの `crossoriging` 属性に対する値です。あなたの pwa は認証されたプロキシが背後にある場合は、これを設定する必要がります。"
+              "description": "Value for `crossorigin` attribute in manifest link tag in the generated HTML, you may need to set this if your pwa is behind an authenticated proxy"
             }
           }
         },
