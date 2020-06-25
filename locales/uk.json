@@ -3,10 +3,10 @@
     "vue": {
       "common": {
         "close": "Закрити",
-        "cancel": "Cancel",
+        "cancel": "Скасувати",
         "back": "Назад",
         "more-info": "Детальніше",
-        "show-more": "Show more",
+        "show-more": "Показати більше",
         "show-less": "Show less"
       },
       "components": {
