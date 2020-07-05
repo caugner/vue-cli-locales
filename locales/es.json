@@ -720,7 +720,7 @@
             },
             "manifestCrossorigin": {
               "message": "Valor del atributo para la etiqueta del enlace en manifest.json, atributo crossorigin",
-              "description": "Value for `crossorigin` attribute in manifest link tag in the generated HTML, you may need to set this if your pwa is behind an authenticated proxy"
+              "description": "Valor para el atributo 'crossorigin' en la etiqueta del enlace del manifiesto en el HTML generado, quizás necesites  configurar esto si tu pwa está detras de un proxy autenticado."
             }
           }
         },
@@ -778,8 +778,8 @@
           "content": {
             "title": "Bienvenido a tu nuevo proyecto",
             "tip1": "Estás mirando el tablero del proyecto donde puedes añadir herramientas. Utiliza el botón 'Personalizar' para añadir más! Todo será guardado automáticamente.",
-            "tip2": "On the left are the different available pages. 'Plugins' let you add new Vue CLI plugins, 'Dependencies' for managing the packages, 'Configuration' to configure the tools and 'Tasks' to run scripts (for example webpack).",
-            "tip3": "Return to the project manager with the dropdown at the top left of the screen or the home button in the status bar at the bottom.",
+            "tip2": "A la izquierda están las diferentes páginas disponibles. 'Extensiones' te permite añadir nuevas Vue Cli extensiones, 'Dependencias' para administrar los paquetes, 'Configuración' para configurar las herramientas y 'Tareas' para lanzar scripts (por ejemplo webpack).",
+            "tip3": "Volver al administrador de proyecto con el dropdown arriba a la izquierda de la pantalla o el botón home en la barra de estado en el fondo.",
             "ok": "Entendido"
           }
         },
