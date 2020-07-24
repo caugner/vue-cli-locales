@@ -344,7 +344,8 @@
                 "cancel": "Batalkan",
                 "done": "Selesai"
               },
-              "default-preset": "Preset bawaan"
+              "default-preset": "Preset bawaan",
+              "default-preset-vue-3-preview": "Default preset (Vue 3 preview)"
             },
             "features": {
               "title": "Fitur-fitur",

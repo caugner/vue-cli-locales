@@ -344,7 +344,8 @@
                 "cancel": "Avbryt",
                 "done": "Ferdig"
               },
-              "default-preset": "Standard"
+              "default-preset": "Standard",
+              "default-preset-vue-3-preview": "Default preset (Vue 3 preview)"
             },
             "features": {
               "title": "Funksjoner",

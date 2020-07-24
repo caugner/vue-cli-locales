@@ -344,7 +344,8 @@
                 "cancel": "Annuleer",
                 "done": "Klaar"
               },
-              "default-preset": "Standaard preset"
+              "default-preset": "Standaard preset",
+              "default-preset-vue-3-preview": "Default preset (Vue 3 preview)"
             },
             "features": {
               "title": "Features",

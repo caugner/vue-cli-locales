@@ -344,7 +344,8 @@
                 "cancel": "İptal",
                 "done": "Tamamlandı"
               },
-              "default-preset": "Varsayılan şablon"
+              "default-preset": "Varsayılan şablon",
+              "default-preset-vue-3-preview": "Default preset (Vue 3 preview)"
             },
             "features": {
               "title": "Özellikler",

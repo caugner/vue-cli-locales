@@ -344,7 +344,8 @@
                 "cancel": "Katkesta",
                 "done": "Valmis"
               },
-              "default-preset": "Vaikimisi eelseadistus"
+              "default-preset": "Vaikimisi eelseadistus",
+              "default-preset-vue-3-preview": "Default preset (Vue 3 preview)"
             },
             "features": {
               "title": "Features",

@@ -344,7 +344,8 @@
                 "cancel": "Huỷ",
                 "done": "Hoàn thành"
               },
-              "default-preset": "Cài đặt mặc định"
+              "default-preset": "Cài đặt mặc định",
+              "default-preset-vue-3-preview": "Default preset (Vue 3 preview)"
             },
             "features": {
               "title": "Tính năng",

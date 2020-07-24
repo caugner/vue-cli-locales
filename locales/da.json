@@ -344,7 +344,8 @@
                 "cancel": "Fortryd",
                 "done": "Færdig"
               },
-              "default-preset": "Standard forudindstilling"
+              "default-preset": "Standard forudindstilling",
+              "default-preset-vue-3-preview": "Default preset (Vue 3 preview)"
             },
             "features": {
               "title": "Features",

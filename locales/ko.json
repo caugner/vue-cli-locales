@@ -344,7 +344,8 @@
                 "cancel": "취소",
                 "done": "완료"
               },
-              "default-preset": "기본 프리셋"
+              "default-preset": "기본 프리셋",
+              "default-preset-vue-3-preview": "Default preset (Vue 3 preview)"
             },
             "features": {
               "title": "기능",

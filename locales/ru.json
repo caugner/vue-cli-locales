@@ -344,7 +344,8 @@
                 "cancel": "Отмена",
                 "done": "Готово"
               },
-              "default-preset": "Пресет по умолчанию"
+              "default-preset": "Пресет по умолчанию",
+              "default-preset-vue-3-preview": "Default preset (Vue 3 preview)"
             },
             "features": {
               "title": "Функции",

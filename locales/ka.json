@@ -344,7 +344,8 @@
                 "cancel": "გაუქმება",
                 "done": "მზადაა"
               },
-              "default-preset": "ნაგულისხმევი პრესეტი"
+              "default-preset": "ნაგულისხმევი პრესეტი",
+              "default-preset-vue-3-preview": "Default preset (Vue 3 preview)"
             },
             "features": {
               "title": "ფუნქციები",

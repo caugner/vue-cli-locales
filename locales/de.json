@@ -344,7 +344,8 @@
                 "cancel": "Abbrechen",
                 "done": "Erledigt"
               },
-              "default-preset": "Standard-Voreinstellung"
+              "default-preset": "Standard-Voreinstellung",
+              "default-preset-vue-3-preview": "Default preset (Vue 3 preview)"
             },
             "features": {
               "title": "Funktionen",

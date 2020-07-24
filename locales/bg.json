@@ -344,7 +344,8 @@
                 "cancel": "Откажи",
                 "done": "Приключи"
               },
-              "default-preset": "Шаблон по подразбиране"
+              "default-preset": "Шаблон по подразбиране",
+              "default-preset-vue-3-preview": "Default preset (Vue 3 preview)"
             },
             "features": {
               "title": "Функционалности",

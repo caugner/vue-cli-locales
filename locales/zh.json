@@ -344,7 +344,8 @@
                 "cancel": "取消",
                 "done": "完成"
               },
-              "default-preset": "默认"
+              "default-preset": "默认",
+              "default-preset-vue-3-preview": "Default preset (Vue 3 preview)"
             },
             "features": {
               "title": "功能",

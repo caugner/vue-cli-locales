@@ -344,7 +344,8 @@
                 "cancel": "Atcelt",
                 "done": "Pabeigts"
               },
-              "default-preset": "Noklusētais iepriekšnoteiktais iestatījums"
+              "default-preset": "Noklusētais iepriekšnoteiktais iestatījums",
+              "default-preset-vue-3-preview": "Default preset (Vue 3 preview)"
             },
             "features": {
               "title": "Līdzekļi",

@@ -344,7 +344,8 @@
                 "cancel": "Cancel",
                 "done": "Done"
               },
-              "default-preset": "Preset por defeito"
+              "default-preset": "Preset por defeito",
+              "default-preset-vue-3-preview": "Default preset (Vue 3 preview)"
             },
             "features": {
               "title": "Funcionalidades",

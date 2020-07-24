@@ -344,7 +344,8 @@
                 "cancel": "Peruuta",
                 "done": "Valmis"
               },
-              "default-preset": "Oletus esiasetus"
+              "default-preset": "Oletus esiasetus",
+              "default-preset-vue-3-preview": "Default preset (Vue 3 preview)"
             },
             "features": {
               "title": "Toiminnallisuudet",
