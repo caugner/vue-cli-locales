@@ -345,7 +345,7 @@
                 "done": "Ferdig"
               },
               "default-preset": "Standard",
-              "default-preset-vue-3-preview": "Default preset (Vue 3 preview)"
+              "default-preset-vue-3-preview": "Standard forhåndsinnstilling (forhåndsvisning av Vue 3)"
             },
             "features": {
               "title": "Funksjoner",
@@ -721,7 +721,7 @@
             },
             "manifestCrossorigin": {
               "message": "Verdi for crossorigin-attributt på link element for manifest.json",
-              "description": "Value for `crossorigin` attribute in manifest link tag in the generated HTML, you may need to set this if your pwa is behind an authenticated proxy"
+              "description": "Verdi for `crossorigin`-attributtet i manifest link-elementet i den genererte HTML-koden, du må kanskje angi en verdi hvis pwa-en din står bak en autentisert proxy"
             }
           }
         },
