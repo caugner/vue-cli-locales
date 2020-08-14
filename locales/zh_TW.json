@@ -299,7 +299,7 @@
                   "bare": "在沒有新手指示的情況下由腳手架建立專案",
                   "git-title": "Git 倉庫",
                   "git": "初始化 git 倉庫(建議)",
-                  "git-commit-message": "Overwrite commit message (optional)"
+                  "git-commit-message": "覆蓋訊息 (選擇性)"
                 }
               },
               "buttons": {
@@ -345,7 +345,7 @@
                 "done": "完成"
               },
               "default-preset": "預設模板",
-              "default-preset-vue-3-preview": "Default preset (Vue 3 preview)"
+              "default-preset-vue-3-preview": "預設模板 (Vue 3 預覽版)"
             },
             "features": {
               "title": "功能",
@@ -721,7 +721,7 @@
             },
             "manifestCrossorigin": {
               "message": "manifest.json 中連結標籤的 crossorigin 屬性",
-              "description": "Value for `crossorigin` attribute in manifest link tag in the generated HTML, you may need to set this if your pwa is behind an authenticated proxy"
+              "description": "在產生出來的 HTML 中的 link 標籤的 `crossorigin`  的值，如果您的 PWA 是在需要驗證的 proxy 之後的話你可能會需要這個。"
             }
           }
         },
