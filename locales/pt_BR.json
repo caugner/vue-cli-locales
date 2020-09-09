@@ -127,7 +127,7 @@
           "installed": "Instalado",
           "actions": {
             "update": "Atualizar {target}",
-            "refresh": "Forçar recarregamento {target} <br> Pressione [Shift] para Recarregamento Rápido (node_modules não serão atualizados)</i>"
+            "refresh": "Forçar recarregamento {target}<br><i>Pressione [Shift] para Recarregamento Rápido (node_modules não serão atualizados)</i>"
           },
           "local": "Local",
           "features": {
@@ -345,7 +345,7 @@
                 "done": "Done"
               },
               "default-preset": "Predefinição padrão",
-              "default-preset-vue-3-preview": "Default preset (Vue 3 preview)"
+              "default-preset-vue-3-preview": "Definição padrão (Visualização Vue 3) "
             },
             "features": {
               "title": "Recursos",
@@ -721,7 +721,7 @@
             },
             "manifestCrossorigin": {
               "message": "Valor do link de marcações crossorigin para o manifest.json.",
-              "description": "Value for `crossorigin` attribute in manifest link tag in the generated HTML, you may need to set this if your pwa is behind an authenticated proxy"
+              "description": "Valor do atributo `crossorigin` na etiqueta de link de manifesto do HTML gerado, você pode precisar denifi-lo em sua pwa se estiver utilizando um proxy autenticado."
             }
           }
         },
