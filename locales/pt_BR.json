@@ -526,7 +526,7 @@
             "Failed": "Falhou",
             "Compiling": "Compilando",
             "Invalidated": "Invalidado",
-            "Idle": "Oucupado"
+            "Idle": "Ocupado"
           },
           "build-status": {
             "labels": {
@@ -545,7 +545,7 @@
             "title": "Dependências"
           },
           "asset-list": {
-            "title": "Fichiers",
+            "title": "Ativos",
             "size-warning": "Este arquivo é grande, você pode reduzir seu tamanho com divisão de código (Code-splitting)"
           }
         },
@@ -561,7 +561,7 @@
           "gzip": "Gzip",
           "help": "<b>Estatísticas:</b> tamanho dos dados estatísticos do webpack. <br> <b> Analisado: </ b> tamanho das fontes extraídas (após os plugins de minificação). Mais preciso. <br> <b> Gzip: </ b> tamanho na fonte extraída compactada."
         },
-        "modern-mode": "Show modern build",
+        "modern-mode": "Mostrar construção para navegadores modernos",
         "tasks": {
           "serve": {
             "description": "Compilação e recarga quente (HMR) para desenvolvimento",
@@ -586,7 +586,7 @@
             "watch": "Watch for changes",
             "modern": {
               "label": "Modern mode",
-              "description": "Build app targeting modern browsers with auto fallback"
+              "description": "Construir app visando navegadores modernos com contingência"
             }
           },
           "inspect": {
@@ -608,7 +608,7 @@
             },
             "outputDir": {
               "label": "Output directory",
-              "description": "The directory where the production build files will be generated"
+              "description": "O diretório onde os arquivos de produção serão gerados"
             },
             "assetsDir": {
               "label": "Diretório de ativos",
