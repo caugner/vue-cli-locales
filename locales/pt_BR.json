@@ -681,7 +681,7 @@
         },
         "tasks": {
           "lint": {
-            "description": "Verifica e corrije arquivos",
+            "description": "Verifica e corrige arquivos",
             "noFix": "Não corrija os erros"
           }
         },
