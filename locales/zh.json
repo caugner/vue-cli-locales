@@ -299,7 +299,7 @@
                   "bare": "无新手指引的脚手架项目",
                   "git-title": "Git",
                   "git": "初始化 git 仓库 (建议)",
-                  "git-commit-message": "Overwrite commit message (optional)"
+                  "git-commit-message": "覆盖提交信息 (选填)"
                 }
               },
               "buttons": {
@@ -345,7 +345,7 @@
                 "done": "完成"
               },
               "default-preset": "默认",
-              "default-preset-vue-3-preview": "Default preset (Vue 3 preview)"
+              "default-preset-vue-3-preview": "预设模板 (Vue 3 预览)"
             },
             "features": {
               "title": "功能",
@@ -553,15 +553,15 @@
           "title": "分析",
           "go-up": "上一层",
           "go-home": "主目录",
-          "chunk": "Chunk"
+          "chunk": "块"
         },
         "sizes": {
-          "stats": "Stats",
-          "parsed": "Parsed",
+          "stats": "统计",
+          "parsed": "解析",
           "gzip": "Gzip",
-          "help": "<b>Stats:</b> size from webpack stats data.<br><b>Parsed:</b> size from extracted source (after minification plugins). More accurate.<br><b>Gzip:</b> size of gzipped extracted source."
+          "help": "<b>统计信息：</b> 来自 Webpack 的统计信息大小。<br><b>解析：</b> 提取源大小（经过缩小插件后的结果）。更加准确。<br><b>Gzip：</b> 经过Gzip压缩的提取源的大小。"
         },
-        "modern-mode": "Show modern build",
+        "modern-mode": "显示现代构建",
         "tasks": {
           "serve": {
             "description": "编译和热更新（用于开发环境）",
@@ -585,7 +585,7 @@
             "name": "库名/组件名 (默认为 package.json 的 name 或 entry 文件名)",
             "watch": "监听变化",
             "modern": {
-              "label": "Modern mode",
+              "label": "现代模式",
               "description": "针对现代浏览器构建应用，自动向后兼容。"
             }
           },
@@ -721,7 +721,7 @@
             },
             "manifestCrossorigin": {
               "message": "manifest.json 链接标签的 crossorigin 属性的属性值",
-              "description": "Value for `crossorigin` attribute in manifest link tag in the generated HTML, you may need to set this if your pwa is behind an authenticated proxy"
+              "description": "生成的 HTML 的清单链接标记中的 `crossorigin` 属性的值，如果您的 PWA 位于经过身份验证的代理之后，则可能需要设置此值"
             }
           }
         },
