@@ -629,7 +629,7 @@
             "css": {
               "modules": {
                 "label": "CSS 모듈 켜기",
-                "description": "기본적으로 *.module.[ext]로 끝나는 파일만이 CSS 모듈로 처리됩니다. 이 기능을 사용하면 모든 스타일 파일이 CSS 모듈로 취급됩니다."
+                "description": "By default, only files that end with *.module.[ext] are treated as CSS modules. Enabling this will treat all style files as CSS modules."
               },
               "extract": {
                 "label": "CSS 추출",

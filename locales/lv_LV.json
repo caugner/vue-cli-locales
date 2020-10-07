@@ -629,7 +629,7 @@
             "css": {
               "modules": {
                 "label": "Iespējot CSS Moduļus",
-                "description": "Pēc noklusējuma tikai faili, kas beidzas ar *.module.[ext], tiek uzskatīti par CSS moduļiem. Iespējojot šo opciju, visi stila faili tiks uzskatīti par CSS moduļiem."
+                "description": "By default, only files that end with *.module.[ext] are treated as CSS modules. Enabling this will treat all style files as CSS modules."
               },
               "extract": {
                 "label": "Izvilkt CSS",

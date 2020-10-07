@@ -629,7 +629,7 @@
             "css": {
               "modules": {
                 "label": "Activa els mòduls CSS",
-                "description": "Per defecte, només els arxius que acaben en \"*.module.[ext]\" es tracten com a mòduls CSS. Activant aquesta opció tots els fitxers d'estils es tractaran com a mòduls CSS."
+                "description": "By default, only files that end with *.module.[ext] are treated as CSS modules. Enabling this will treat all style files as CSS modules."
               },
               "extract": {
                 "label": "Extreu CSS",

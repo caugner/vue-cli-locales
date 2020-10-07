@@ -629,7 +629,7 @@
             "css": {
               "modules": {
                 "label": "Włącz CSS Modules",
-                "description": "Domyślnie tylko pliki z rozszerzeniem *.module.[ext] są traktowane jako moduły CSS. Włączenie tego spowoduje traktowanie wszystkich plików ze stylami jako modułów CSS."
+                "description": "By default, only files that end with *.module.[ext] are treated as CSS modules. Enabling this will treat all style files as CSS modules."
               },
               "extract": {
                 "label": "Wyodrębnij CSS",

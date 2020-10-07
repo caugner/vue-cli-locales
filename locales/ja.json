@@ -629,7 +629,7 @@
             "css": {
               "modules": {
                 "label": "CSS モジュールを有効にする",
-                "description": "デフォルトでは、*.module.[ext] で終了するファイルだけ、 CSS モジュールとして扱われます。これを有効にすると、全てのスタイルファイルが CSS モジュールとして扱われます。"
+                "description": "By default, only files that end with *.module.[ext] are treated as CSS modules. Enabling this will treat all style files as CSS modules."
               },
               "extract": {
                 "label": "CSS を抽出する",

@@ -299,7 +299,7 @@
                   "bare": "Metti in piedi il progetto senza istruzioni",
                   "git-title": "Git repository",
                   "git": "Inizializza il repository git (consigliato)",
-                  "git-commit-message": "Overwrite commit message (optional)"
+                  "git-commit-message": "Sovrascrivi messaggio di commit (opzionale)"
                 }
               },
               "buttons": {
@@ -345,7 +345,7 @@
                 "done": "Completato"
               },
               "default-preset": "Preset predefinito",
-              "default-preset-vue-3-preview": "Default preset (Vue 3 preview)"
+              "default-preset-vue-3-preview": "Preset predefinito (anteprima Vue 3)"
             },
             "features": {
               "title": "Funzionalità",
@@ -629,7 +629,7 @@
             "css": {
               "modules": {
                 "label": "Abilita i CSS Modules",
-                "description": "Di norma, solo i file che terminano in *.module.[ext] sono considerati moduli CSS. Abilitare questa opzione impostera ogni file di stile come un modulo CSS."
+                "description": "By default, only files that end with *.module.[ext] are treated as CSS modules. Enabling this will treat all style files as CSS modules."
               },
               "extract": {
                 "label": "Estrai CSS",
@@ -721,7 +721,7 @@
             },
             "manifestCrossorigin": {
               "message": "Valore dell'attributo per il paramentro manifest.json crossorigin tag link ",
-              "description": "Value for `crossorigin` attribute in manifest link tag in the generated HTML, you may need to set this if your pwa is behind an authenticated proxy"
+              "description": "Valore dell'attributo  `crossorigin` nel manifest link tag nell'HTML generato, potresti aver bisogno di impostarlo se la tua pwa é dietro un proxy autenticato"
             }
           }
         },
@@ -829,20 +829,20 @@
           "description": "Verifica le dipendenze di progetto rispetto a vulnerabilità conosciute",
           "messages": {
             "ok": "Nessuna vulnerabilità riscontrata",
-            "loading": "Auditing project security...",
+            "loading": "Revisione sicurezza del progetto...",
             "attention": "{n} vulnerabilità trovate",
-            "error": "Couldn't check for vulnerability"
+            "error": "Non è stato possibile controllare la vulnerabilità"
           },
           "severity": {
-            "critical": "Critical severity",
+            "critical": "Impatto critico",
             "high": "Alto impatto",
-            "moderate": "Medium severity",
+            "moderate": "Impatto medio",
             "low": "Basso impatto"
           },
           "direct-dep": "Dipendenza diretta",
           "versions": {
             "vulnerable": "Versioni vulnerabili:",
-            "patched": "Patched versions:"
+            "patched": "Versioni patchate:"
           },
           "recheck": "Controlla di nuovo"
         },

@@ -629,7 +629,7 @@
             "css": {
               "modules": {
                 "label": "啟用 CSS Modules",
-                "description": "預設只有 *.module.[ext] 檔案名被視為 CSS modules 文件。啟用後將所有樣式文件視為 CSS modules。"
+                "description": "By default, only files that end with *.module.[ext] are treated as CSS modules. Enabling this will treat all style files as CSS modules."
               },
               "extract": {
                 "label": "抽取 CSS",

@@ -629,7 +629,7 @@
             "css": {
               "modules": {
                 "label": "Activer des Modules CSS",
-                "description": "Par défaut, seuls les fichiers terminant par *.module.[ext] sont considérés comme des modules CSS. En activant ceci, tous les fichiers de style seront considérés comme des modules CSS."
+                "description": "By default, only files that end with *.module.[ext] are treated as CSS modules. Enabling this will treat all style files as CSS modules."
               },
               "extract": {
                 "label": "Extraire le CSS",

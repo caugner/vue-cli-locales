@@ -629,7 +629,7 @@
             "css": {
               "modules": {
                 "label": "Slå CSS Modules til",
-                "description": "Som udgangspunkt er det kun filer der slutter med *.module.[ext] der behandles som CSS moduler. Slår du dette til, vil alle style-filer behandles som CSS moduler."
+                "description": "By default, only files that end with *.module.[ext] are treated as CSS modules. Enabling this will treat all style files as CSS modules."
               },
               "extract": {
                 "label": "Udtræk CSS",

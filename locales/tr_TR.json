@@ -629,7 +629,7 @@
             "css": {
               "modules": {
                 "label": "CSS Modüllerini etkinleştir",
-                "description": "Varsayılan olarak, sadece *.module.[ext] ile biten dosyalar CSS modülleri olarak ele alır. Bunu etkinleştirmek, tüm stil dosyalarını CSS modülleri olarak ele alacaktır."
+                "description": "By default, only files that end with *.module.[ext] are treated as CSS modules. Enabling this will treat all style files as CSS modules."
               },
               "extract": {
                 "label": "CSS'i çıkar",
