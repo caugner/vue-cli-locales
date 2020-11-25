@@ -299,7 +299,7 @@
                   "bare": "Crea l'estructura del projecte sense instruccions per a principiants",
                   "git-title": "Repositori Git",
                   "git": "Inicialitzar el repository git (recomanat)",
-                  "git-commit-message": "Overwrite commit message (optional)"
+                  "git-commit-message": "Sobreescriu el missatge per la publicació (opcional)"
                 }
               },
               "buttons": {
@@ -344,8 +344,8 @@
                 "cancel": "Cancel·la",
                 "done": "Fet"
               },
-              "default-preset": "Valor predefinit per defecte",
-              "default-preset-vue-3-preview": "Default preset (Vue 3 preview)"
+              "default-preset": "Valor per defecte",
+              "default-preset-vue-3-preview": "Valor per defecte (Vue 3 preview)"
             },
             "features": {
               "title": "Característiques",
@@ -629,7 +629,7 @@
             "css": {
               "modules": {
                 "label": "Activa els mòduls CSS",
-                "description": "By default, only files that end with *.module.[ext] are treated as CSS modules. Enabling this will treat all style files as CSS modules."
+                "description": "Per defecte, només es tracten com a mòduls CSS els fitxers que acaben en *.module.[ext]. Activant això es tractaran tots els fitxers d'estils com a mòduls CSS."
               },
               "extract": {
                 "label": "Extreu CSS",
@@ -720,8 +720,8 @@
               "description": "Estil de la barra d'estat d'una aplicació web en iOS"
             },
             "manifestCrossorigin": {
-              "message": "Valor de l'atribut 'crossorigin' de l'etiqueta link del fitxer manifest.json",
-              "description": "Value for `crossorigin` attribute in manifest link tag in the generated HTML, you may need to set this if your pwa is behind an authenticated proxy"
+              "message": "Valor de l'atribut crossorigin per l'etiqueta d'enllaç del fitxer manifest.json",
+              "description": "Valor de l'atribut `crossorigin` a l'etiqueta d'enllaç del manifest dins l'HTML generat, pot ser necessari assignar-lo si la vostra pwa es troba darrere d'un proxy autenticat"
             }
           }
         },
