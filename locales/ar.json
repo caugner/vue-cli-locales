@@ -12,7 +12,7 @@
       "components": {
         "client-addon-component": {
           "timeout": "نفذ وقت تحميل المكون",
-          "timeout-info": "يأخذ تحميل المكون المخصص وقتًا طويلاً ، قد يكون هناك مشكلة"
+          "timeout-info": "يأخذ تحميل المكوّن المخصص وقتًا طويلاً ، قد يكون هناك مشكلة"
         },
         "connection-status": {
           "disconnected": "قطع الااتصال مع خادم واجهة المستخدم",
@@ -41,9 +41,9 @@
             }
           },
           "actions": {
-            "collapse-all": "طوي الكل",
+            "collapse-all": "طي الكل",
             "expand-all": "فتح الكل",
-            "commit": "إيداع التغييرات",
+            "commit": "Commit التغييرات",
             "skip": "تخطي",
             "continue": "مواصلة",
             "refresh": "إعادة تحديث"
@@ -217,7 +217,7 @@
           "add": "إضافة عنصر",
           "details": {
             "title": "تفاصيل العنصر",
-            "max-instances": "Max instance count: {count}/{total}",
+            "max-instances": "الحد الأقصى لعدد الاجزاء: {count}/{total}",
             "unlimited": "غير محدود"
           }
         }
@@ -228,13 +228,13 @@
           "git-init": "جار تهيئة ال'git repository'",
           "plugins-install": "يتم تثبيت إضافات Vue CLI. قد يستغرق ذلك بعض الوقت...",
           "invoking-generators": "Invoking generators...",
-          "deps-install": "Installing additional dependencies...",
-          "completion-hooks": "Running completion hooks...",
-          "fetch-remote-preset": "Fetching remote preset...",
+          "deps-install": "تثبيت التبعيات الإضافية...",
+          "completion-hooks": "تشغيل مكمل hooks...",
+          "fetch-remote-preset": "إحضار الضبط المسبق عن بعد...",
           "done": "Successfully created project",
           "plugin-install": "تثبيت {arg0}...",
           "plugin-uninstall": "Uninstalling {arg0}...",
-          "plugin-invoke": "Invoking {arg0}...",
+          "plugin-invoke": "إدراج {arg0}...",
           "plugin-update": "تحديث {arg0}...",
           "plugins-update": "Updating {arg0} plugins...",
           "dependency-install": "تثبيت {arg0}...",
@@ -256,7 +256,7 @@
       },
       "views": {
         "project-select": {
-          "title": "Vue Project Manager",
+          "title": "مدير المشروع Vue",
           "tabs": {
             "projects": "المشاريع",
             "create": "إنشاء",
@@ -268,11 +268,11 @@
           },
           "import": {
             "no-modules": {
-              "title": "Missing modules",
+              "title": "وحدات مفقودة",
               "message": "It seems the project is missing the 'node_modules' folder. Please check you installed the dependencies before importing.",
-              "close": "Got it"
+              "close": "فهمتك"
             },
-            "force": "Import anyway"
+            "force": "استيراد على أي حال"
           }
         },
         "project-create": {
@@ -284,9 +284,9 @@
                 "folder": {
                   "label": "مجلد المشروع",
                   "placeholder": "أكتب اسم",
-                  "tooltip": "Change base folder",
-                  "action": "Select this folder",
-                  "folder-exists": "This folder already exists",
+                  "tooltip": "تغيير المجلد الأساسي",
+                  "action": "حدد هذا المجلد",
+                  "folder-exists": "هذا المجلد موجود بالفعل",
                   "folder-name-invalid": "Folder name invalid"
                 },
                 "manager": {
@@ -295,11 +295,11 @@
                 },
                 "options": {
                   "label": "خيارات أخرى",
-                  "force": "Overwrite target folder if it exists",
+                  "force": "الكتابة فوق مسار المجلد إذا كان موجودًا",
                   "bare": "Scaffold project without beginner instructions",
-                  "git-title": "Git repository",
+                  "git-title": "مستودع Git",
                   "git": "تهيئة الـ git (مستحسن)",
-                  "git-commit-message": "Overwrite commit message (optional)"
+                  "git-commit-message": "الكتابة فوق رسالة commit (اختياري)"
                 }
               },
               "buttons": {
@@ -308,10 +308,10 @@
               },
               "modal": {
                 "title": "Cancel and reset project creation",
-                "body": "Are you sure you want to reset the project creation?",
+                "body": "هل أنت متأكد أنك تريد إعادة تعيين إنشاء المشروع؟",
                 "buttons": {
                   "back": "العودة",
-                  "clear": "Clear project"
+                  "clear": "نظف مشروع"
                 }
               }
             },
@@ -844,7 +844,7 @@
             "vulnerable": "Vulnerable versions:",
             "patched": "Patched versions:"
           },
-          "recheck": "الفحص مرة اخرى"
+          "recheck": "الفحص مرة أخرى"
         },
         "run-task": {
           "title": "Run task",
