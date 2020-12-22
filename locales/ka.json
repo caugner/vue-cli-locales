@@ -3,7 +3,7 @@
     "vue": {
       "common": {
         "close": "დახურვა",
-        "cancel": "Cancel",
+        "cancel": "გაუქმება",
         "back": "უკან დაბრუნება",
         "more-info": "დაწვრილებით",
         "show-more": "მეტის ნახვა",
@@ -799,7 +799,7 @@
           }
         },
         "status-widget": {
-          "last-updated": "Updated",
+          "last-updated": "განახლებული",
           "never": "Not updated yet",
           "check": "Check for updates",
           "more-info": "More details"
@@ -844,10 +844,10 @@
             "vulnerable": "Vulnerable versions:",
             "patched": "Patched versions:"
           },
-          "recheck": "Check again"
+          "recheck": "შეამოწმე კიდევ ერთხელ"
         },
         "run-task": {
-          "title": "Run task",
+          "title": "თასქის გაშვება",
           "description": "Shortcut to run a task",
           "prompts": {
             "task": "Select a task"
@@ -864,7 +864,7 @@
           },
           "errors": {
             "fetch": "Couldn't fetch feed",
-            "offline": "You are offline",
+            "offline": "ოფლაინზე ხარ",
             "empty": "Empty feed"
           }
         }

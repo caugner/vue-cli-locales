@@ -236,11 +236,11 @@
           "plugin-uninstall": "Uninstalling {arg0}...",
           "plugin-invoke": "إدراج {arg0}...",
           "plugin-update": "تحديث {arg0}...",
-          "plugins-update": "Updating {arg0} plugins...",
+          "plugins-update": "التحديث {arg0} الإضافات...",
           "dependency-install": "تثبيت {arg0}...",
           "dependency-uninstall": "الغاء التثبيت {arg0}...",
           "dependency-update": "Updating {arg0}...",
-          "dependencies-update": "Updating {arg0} packages..."
+          "dependencies-update": "التحديث {arg0} الحزم..."
         }
       },
       "types": {
@@ -269,7 +269,7 @@
           "import": {
             "no-modules": {
               "title": "وحدات مفقودة",
-              "message": "It seems the project is missing the 'node_modules' folder. Please check you installed the dependencies before importing.",
+              "message": "يبدو أن المشروع يفتقد إلى مجلد 'node_modules' يرجى التحقق من تثبيت التبعيات قبل الاستيراد.",
               "close": "فهمتك"
             },
             "force": "استيراد على أي حال"
@@ -344,13 +344,13 @@
                 "cancel": "إلغاء",
                 "done": "تم"
               },
-              "default-preset": "Default preset",
-              "default-preset-vue-3-preview": "Default preset (Vue 3 preview)"
+              "default-preset": "الضبط المسبق الافتراضي",
+              "default-preset-vue-3-preview": "الضبط المسبق الافتراضي (Vue 3 معاينة)"
             },
             "features": {
               "title": "الميزات",
               "description": "يمكنك إضافة ميزات جديدة بعد إنشاء المشروع وذلك عن طريق تثبيت الحزم",
-              "enable": "Enable features",
+              "enable": "تمكين الميزات",
               "buttons": {
                 "previous": "السابق",
                 "next": "التالي",
@@ -370,13 +370,13 @@
               "modal": {
                 "title": "Save as a new preset",
                 "body": {
-                  "title": "Preset name",
+                  "title": "اسم محدد مسبقًا",
                   "subtitle": "Save the features and configuration into a new preset"
                 },
                 "buttons": {
                   "cancel": "إلغاء",
                   "continue": "Continue without saving",
-                  "create": "Create a new preset"
+                  "create": "قم بإنشاء إعداد مسبق جديد"
                 }
               }
             }
@@ -386,7 +386,7 @@
           "title": "حزم المشروع",
           "button": "إضافة حزمة",
           "heading": "Installed plugins",
-          "update-all": "Update all plugins"
+          "update-all": "قم بتحديث كل الإضافات"
         },
         "project-plugins-add": {
           "title": "إضافة حزمة",
@@ -394,7 +394,7 @@
           "tabs": {
             "search": {
               "label": "Search",
-              "search-input": "Search a plugin",
+              "search-input": "بحث عن إضافة",
               "not-found": "No results found",
               "buttons": {
                 "cancel": "Cancel",
@@ -404,7 +404,7 @@
             },
             "configuration": {
               "label": "تهيئة",
-              "heading": "Installation of {target}",
+              "heading": "تثبيت من {target}",
               "buttons": {
                 "cancel": "إلغاء",
                 "finish": "إنهاء التنصيب"
@@ -415,12 +415,12 @@
             }
           },
           "modal": {
-            "title": "Uninstall {target}?",
-            "body": "Do you want to uninstall the {target} plugin?",
+            "title": "الغاء التثبيت {target}?",
+            "body": "هل تريد إلغاء تثبيت {target} الإضافة",
             "buttons": {
               "back": "العودة",
               "cancel": "إلغاء بدون إزالة التنصيب",
-              "uninstall": "Uninstall"
+              "uninstall": "الغاء التثبيت"
             }
           },
           "buttons": {
@@ -428,30 +428,30 @@
           }
         },
         "project-plugin-add-local": {
-          "title": "Add a local plugin",
+          "title": "أضف إضافة محليًا",
           "buttons": {
-            "add": "Add local plugin"
+            "add": "أضف إضافة محلية"
           }
         },
         "project-configurations": {
-          "title": "Project configuration"
+          "title": "أعدادات المشروع"
         },
         "project-configuration-details": {
           "actions": {
             "cancel": "إلغاء التغييرات",
-            "save": "Save changes",
+            "save": "احفظ التغييرات",
             "more-info": "المزيد من المعلومات",
             "refresh": "إعادة تحديث"
           }
         },
         "project-tasks": {
           "title": "Project tasks",
-          "refresh": "Refresh tasks"
+          "refresh": "تحديث المهام"
         },
         "project-task-details": {
           "actions": {
-            "play": "Run task",
-            "stop": "Stop task",
+            "play": "تشغيل مهمة",
+            "stop": "ايقاف مهمة",
             "close": "إغلاق",
             "save": "حفظ"
           },
@@ -478,7 +478,7 @@
             "title": "Install new dependency"
           },
           "uninstall": {
-            "title": "Confirm uninstall",
+            "title": "تأكيد إلغاء التثبيت",
             "body": "Are you sure you want to uninstall {id}?",
             "cancel": "إلغاء",
             "uninstall": "إزالة تنصيب {id}"
@@ -490,13 +490,13 @@
           "done": "تم"
         },
         "settings": {
-          "title": "Settings"
+          "title": "إعدادات"
         },
         "about": {
-          "title": "About",
+          "title": "حول",
           "description": "<a href=\"https://github.com/vuejs/vue-cli/tree/dev/packages/%40vue/cli-ui\" target=\"_blank\">@vue/cli-ui</a> is a built-in package of vue-cli which opens a full-blown UI.",
           "quote": "Vue-cli 3.x is a complete rewrite, with a lot of new awesome features. You will be able to select features like routing, Vuex or Typescript, then add and upgrade building blocks called \"vue-cli plugins\". But having so much more options also means the tool is now more complex and harder to start using. That's why we thought having a full-blown GUI would help discover the new features, search and install vue-cli plugins and unlock more possibilities overall while not being limited by a terminal interface. To sum up, vue-cli will not only allow you to bootstrap a new project easily, but it will also remain useful for ongoing work afterwards!",
-          "links": "Useful links",
+          "links": "روابط مفيدة",
           "back": "العودة"
         }
       },
@@ -507,7 +507,7 @@
             "message": "Official library to support multiple virtual pages in a Single-Page App. Each route renders a different component."
           },
           "vuex-add": {
-            "label": "Add vuex",
+            "label": "أضف vuex",
             "message": "Official centralized State Management solution for large-scale apps. Very useful if multiple components need to access the same data."
           },
           "vue-devtools": {
@@ -530,11 +530,11 @@
           },
           "build-status": {
             "labels": {
-              "status": "Status",
+              "status": "الحالة",
               "errors": "الأخطاء",
-              "warnings": "Warnings",
+              "warnings": "تحذيرات",
               "assets": "موارد",
-              "modules": "Modules",
+              "modules": "الوحدات",
               "deps": "تبعيات"
             }
           },
@@ -552,7 +552,7 @@
         "analyzer": {
           "title": "Analyzer",
           "go-up": "ذهاب للأعلى",
-          "go-home": "Go to home",
+          "go-home": "اذهب إلى الرئيسية",
           "chunk": "حزمة"
         },
         "sizes": {
@@ -561,7 +561,7 @@
           "gzip": "Gzip",
           "help": "<b>Stats:</b> size from webpack stats data.<br><b>Parsed:</b> size from extracted source (after minification plugins). More accurate.<br><b>Gzip:</b> size of gzipped extracted source."
         },
-        "modern-mode": "Show modern build",
+        "modern-mode": "عرض build الحديث",
         "tasks": {
           "serve": {
             "description": "Compiles and hot-reloads for development",
@@ -577,7 +577,7 @@
             "dest": "مسار المخرجات",
             "target": {
               "description": "Build target",
-              "app": "Web app",
+              "app": "تطبيق ويب",
               "lib": "مكتبة",
               "wc": "Web component",
               "wc-async": "Async web component"
@@ -585,7 +585,7 @@
             "name": "Name for library or web-component mode (default: 'name' in package.json or entry filename)",
             "watch": "Watch for changes",
             "modern": {
-              "label": "Modern mode",
+              "label": "الوضع الحديث",
               "description": "بناء التطبيق لاستهداف المتصفحات الحديثة مع التراجع التلقائي للمتصفحات القديمة"
             }
           },
@@ -599,7 +599,7 @@
           "vue-cli": {
             "description": "Configure your Vue project",
             "groups": {
-              "general": "General settings",
+              "general": "الاعدادات العامة",
               "css": "CSS settings"
             },
             "publicPath": {
@@ -660,7 +660,7 @@
             "setting": {
               "off": "Off",
               "error": "خطأ",
-              "warning": "Warning",
+              "warning": "تحذير",
               "custom": "Custom"
             },
             "general": {
@@ -675,7 +675,7 @@
               }
             },
             "rules": {
-              "label": "Rules"
+              "label": "قواعد"
             }
           }
         },
@@ -696,11 +696,11 @@
           "pwa": {
             "description": "Progressive Web App",
             "workboxPluginMode": {
-              "message": "Plugin mode",
+              "message": "وضع إضافة",
               "description": "This allows you to the choose between the two modes supported by the underlying `workbox-webpack-plugin`"
             },
             "name": {
-              "message": "App name",
+              "message": "اسم التطبيق",
               "description": "App name displayed on the Splash screen and various other places. Also used as the value for the `apple-mobile-web-app-title` meta tag in the generated HTML."
             },
             "themeColor": {
@@ -730,14 +730,14 @@
             "label": "Open vue config"
           },
           "open-manifest": {
-            "label": "Open manifest"
+            "label": "افتح manifest"
           }
         }
       },
       "cypress": {
         "tasks": {
           "test": {
-            "description": "Run e2e tests with `cypress run`",
+            "description": "شغل الاختبارات e2e مع `cypress run`",
             "headless": "Run in headless mode without GUI",
             "mode": "Specify the mode the dev server should run in",
             "url": "Run e2e tests against given url instead of auto-starting dev server"
@@ -774,10 +774,10 @@
       },
       "widgets": {
         "welcome": {
-          "title": "Welcome tips",
-          "description": "Some tips to help you get started",
+          "title": "نصائح ترحيب",
+          "description": "بعض النصائح لمساعدتك على البدء",
           "content": {
-            "title": "Welcome to your new project!",
+            "title": "مرحبًا بك في مشروعك الجديد!",
             "tip1": "You are looking at the project dashboard where you can put widgets. Use the 'Customize' button to add more! Everything is automatically saved.",
             "tip2": "On the left are the different available pages. 'Plugins' let you add new Vue CLI plugins, 'Dependencies' for managing the packages, 'Configuration' to configure the tools and 'Tasks' to run scripts (for example webpack).",
             "tip3": "Return to the project manager with the dropdown at the top left of the screen or the home button in the status bar at the bottom.",
@@ -799,23 +799,23 @@
           }
         },
         "status-widget": {
-          "last-updated": "Updated",
-          "never": "Not updated yet",
+          "last-updated": "محدث",
+          "never": "لم يتم تحديثه بعد",
           "check": "ابحث عن التحديثات",
           "more-info": "المزيد من التفاصيل"
         },
         "plugin-updates": {
-          "title": "Plugin updates",
+          "title": "تحديثات إضافة",
           "description": "Monitor plugin updates",
           "messages": {
             "ok": "All plugins up-to-date",
             "loading": "البحث عن التحديثات...",
             "attention": "{n} plugin updates available"
           },
-          "page": "Go to Plugins"
+          "page": "انتقل إلى الإضافات"
         },
         "dependency-updates": {
-          "title": "Dependency updates",
+          "title": "تحديثات التبعية",
           "description": "Monitor dependencies updates",
           "messages": {
             "ok": "All dependencies up-to-date",
@@ -847,24 +847,24 @@
           "recheck": "الفحص مرة أخرى"
         },
         "run-task": {
-          "title": "Run task",
+          "title": "تشغيل مهمة",
           "description": "Shortcut to run a task",
           "prompts": {
-            "task": "Select a task"
+            "task": "حدد مهمة"
           },
-          "page": "Go to Task"
+          "page": "انتقل إلى مهمة"
         },
         "news": {
-          "title": "News feed",
+          "title": "موجز الأخبار",
           "description": "Read news feed",
-          "refresh": "Force refresh",
+          "refresh": "فرض التحديث",
           "select-tip": "Select an item on the left",
           "prompts": {
             "url": "RSS feed URL or GitHub repository"
           },
           "errors": {
             "fetch": "Couldn't fetch feed",
-            "offline": "You are offline",
+            "offline": "انت غير متصل",
             "empty": "Empty feed"
           }
         }
