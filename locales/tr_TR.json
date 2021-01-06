@@ -131,8 +131,8 @@
           },
           "local": "Yerel",
           "features": {
-            "generator": "This plugin has a generator and can modify your project files and add new files for you.",
-            "ui-integration": "This plugin includes additional UI features like enhanced tasks, configuration screens, dashboard widgets..."
+            "generator": "Bu eklentinin bir oluşturucusu vardır, proje dosyalarınızı değiştirebilir ve yenilerini ekleyebilir.",
+            "ui-integration": "Bu eklenti gelişmiş görevler, ayar ekranları ve başlangıç ekranı için araçlar gibi ek ara yüz özellikleri içerir."
           }
         },
         "project-dependency-item": {
@@ -299,7 +299,7 @@
                   "bare": "Projeyi acemi yönergeleri olmadan oluştur",
                   "git-title": "Git deposu",
                   "git": "Git deposunu başlat (önerilir)",
-                  "git-commit-message": "Overwrite commit message (optional)"
+                  "git-commit-message": "İşleme mesajının üzerine yaz (isteğe bağlı)"
                 }
               },
               "buttons": {
@@ -345,7 +345,7 @@
                 "done": "Tamamlandı"
               },
               "default-preset": "Varsayılan şablon",
-              "default-preset-vue-3-preview": "Default preset (Vue 3 preview)"
+              "default-preset-vue-3-preview": "Varsayılan ayarlar (Vue 3 ön izlemesi)"
             },
             "features": {
               "title": "Özellikler",
@@ -461,7 +461,7 @@
           "output": "Çıktı",
           "override-args": {
             "message": "Gömülü kodlanmış değişkenleri geçersiz kıl",
-            "description": "If enabled, hard-coded arguments in your package.json file will be replaced with the values defined below"
+            "description": "Etkinleştirilirse, package.json dosyanızdaki sabit argümanlar aşağıda tanımlanan değerlerle değiştirilecektir"
           }
         },
         "project-dependencies": {
@@ -629,7 +629,7 @@
             "css": {
               "modules": {
                 "label": "CSS Modüllerini etkinleştir",
-                "description": "By default, only files that end with *.module.[ext] are treated as CSS modules. Enabling this will treat all style files as CSS modules."
+                "description": "Varsayılan olarak sadece *.module.[ext] ile biten dosyalar CSS modülleri olarak kabul edilir. Bu etkinleştirildiğinde tüm stil dosyaları CSS modülleri olarak kabul edilir."
               },
               "extract": {
                 "label": "CSS'i çıkar",

@@ -721,7 +721,7 @@
             },
             "manifestCrossorigin": {
               "message": "Wert des crossorigin-Attributs im Link-Tag der manifest.json",
-              "description": "Wert des `crossorigin`-Attributs im Manifest-Link-Tag des generierten HTML, dieser Wert muss möglicherweise gesetzt werden, wenn deine PWA hinter einem authentifiziertem Proxy läuft."
+              "description": "Wert des `crossorigin`-Attributs im Manifest-Link-Tag des generierten HTML. Du kannst diesen Wert setzen, wenn deine PWA hinter einem authentifizierten Proxy läuft."
             }
           }
         },
