@@ -345,7 +345,7 @@
                 "done": "Concluído"
               },
               "default-preset": "Predefinição padrão",
-              "default-preset-vue-3-preview": "Definição padrão (Vue 3 preview) "
+              "default-preset-vue-3": "Default preset (Vue 3)"
             },
             "features": {
               "title": "Recursos",

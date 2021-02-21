@@ -345,7 +345,7 @@
                 "done": "تم"
               },
               "default-preset": "الضبط المسبق الافتراضي",
-              "default-preset-vue-3-preview": "الضبط المسبق الافتراضي (Vue 3 معاينة)"
+              "default-preset-vue-3": "Default preset (Vue 3)"
             },
             "features": {
               "title": "الميزات",

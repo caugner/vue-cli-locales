@@ -345,7 +345,7 @@
                 "done": "به اتمام رسید"
               },
               "default-preset": "preset پیشفرض",
-              "default-preset-vue-3-preview": "Default preset (Vue 3 preview)"
+              "default-preset-vue-3": "Default preset (Vue 3)"
             },
             "features": {
               "title": "ویژگی ها",

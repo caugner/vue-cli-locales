@@ -345,7 +345,7 @@
                 "done": "Klaar"
               },
               "default-preset": "Standaard preset",
-              "default-preset-vue-3-preview": "Default preset (Vue 3 preview)"
+              "default-preset-vue-3": "Default preset (Vue 3)"
             },
             "features": {
               "title": "Features",

@@ -345,7 +345,7 @@
                 "done": "Tamamlandı"
               },
               "default-preset": "Varsayılan şablon",
-              "default-preset-vue-3-preview": "Varsayılan ayarlar (Vue 3 ön izlemesi)"
+              "default-preset-vue-3": "Default preset (Vue 3)"
             },
             "features": {
               "title": "Özellikler",

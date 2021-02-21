@@ -345,7 +345,7 @@
                 "done": "완료"
               },
               "default-preset": "기본 프리셋",
-              "default-preset-vue-3-preview": "Default preset (Vue 3 preview)"
+              "default-preset-vue-3": "Default preset (Vue 3)"
             },
             "features": {
               "title": "기능",

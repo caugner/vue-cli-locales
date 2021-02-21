@@ -345,7 +345,7 @@
                 "done": "完成"
               },
               "default-preset": "預設模板",
-              "default-preset-vue-3-preview": "預設模板 (Vue 3 預覽版)"
+              "default-preset-vue-3": "Default preset (Vue 3)"
             },
             "features": {
               "title": "功能",

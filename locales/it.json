@@ -345,7 +345,7 @@
                 "done": "Completato"
               },
               "default-preset": "Preset predefinito",
-              "default-preset-vue-3-preview": "Preset predefinito (anteprima Vue 3)"
+              "default-preset-vue-3": "Default preset (Vue 3)"
             },
             "features": {
               "title": "Funzionalità",

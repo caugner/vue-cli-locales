@@ -345,7 +345,7 @@
                 "done": "Fet"
               },
               "default-preset": "Valor per defecte",
-              "default-preset-vue-3-preview": "Valor per defecte (Vue 3 preview)"
+              "default-preset-vue-3": "Default preset (Vue 3)"
             },
             "features": {
               "title": "Característiques",
