@@ -345,7 +345,7 @@
                 "done": "Ferdig"
               },
               "default-preset": "Standard",
-              "default-preset-vue-3": "Default preset (Vue 3)"
+              "default-preset-vue-3": "Standard forhåndsinnstilling (Vue 3)"
             },
             "features": {
               "title": "Funksjoner",
