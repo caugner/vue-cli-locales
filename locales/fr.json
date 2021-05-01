@@ -299,7 +299,7 @@
                   "bare": "Définir la configuration du projet sans recours aux instructions pour les débutants",
                   "git-title": "Dépôt Git",
                   "git": "Initialiser un dépôt Git (recommandé)",
-                  "git-commit-message": "Overwrite commit message (optional)"
+                  "git-commit-message": "Écraser le message pour le commit (optionnel)"
                 }
               },
               "buttons": {
@@ -345,7 +345,7 @@
                 "done": "Terminer"
               },
               "default-preset": "Preset par défaut",
-              "default-preset-vue-3": "Default preset (Vue 3)"
+              "default-preset-vue-3": "Preset par défaut (Vue 3)"
             },
             "features": {
               "title": "Fonctionnalités",
@@ -629,7 +629,7 @@
             "css": {
               "modules": {
                 "label": "Activer des Modules CSS",
-                "description": "By default, only files that end with *.module.[ext] are treated as CSS modules. Enabling this will treat all style files as CSS modules."
+                "description": "Par défaut, seuls les fichiers terminant par *.module.[ext] sont considérés comme des modules CSS. En activant ceci, tous les fichiers de style seront considérés comme des modules CSS."
               },
               "extract": {
                 "label": "Extraire le CSS",
@@ -721,7 +721,7 @@
             },
             "manifestCrossorigin": {
               "message": "Valeur de l'attribut `crossorigin` dans le tag lien du fichier manifest.json",
-              "description": "Value for `crossorigin` attribute in manifest link tag in the generated HTML, you may need to set this if your pwa is behind an authenticated proxy"
+              "description": "Valeur pour l'attribut `crossoriging`  dans le tag du lien dans le manifeste du HTML généré. Vous aurez éventuellement besoin de définir cet attribut si votre application PWA est derrière un proxy avec authentification."
             }
           }
         },
