@@ -3,15 +3,15 @@
     "vue": {
       "common": {
         "close": "닫기",
-        "cancel": "Cancel",
+        "cancel": "취소하기",
         "back": "뒤로가기",
-        "more-info": "더보기",
-        "show-more": "Show more",
-        "show-less": "Show less"
+        "more-info": "더 보기",
+        "show-more": "더 보기",
+        "show-less": "적게 보기"
       },
       "components": {
         "client-addon-component": {
-          "timeout": "컴포넌트를 불러오기 시간초과",
+          "timeout": "컴포넌트를 불러오기 시간 초과",
           "timeout-info": "사용자 정의 컴포넌트를 불러오는데 너무 많은 시간이 걸립니다. 오류가 있을 수 있습니다."
         },
         "connection-status": {
@@ -35,8 +35,8 @@
               "input": "커밋 메시지를 입력하세요.",
               "subtitle": "저장소 변경사항을 기록합니다.",
               "actions": {
-                "commit": "커밋",
-                "cancel": "취소"
+                "commit": "커밋하기",
+                "cancel": "취소하기"
               }
             }
           },
