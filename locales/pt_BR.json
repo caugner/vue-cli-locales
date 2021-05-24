@@ -345,7 +345,7 @@
                 "done": "Concluído"
               },
               "default-preset": "Predefinição padrão",
-              "default-preset-vue-3": "Default preset (Vue 3)"
+              "default-preset-vue-3": "Predefinição padrão (Vue 3)"
             },
             "features": {
               "title": "Recursos",
@@ -629,7 +629,7 @@
             "css": {
               "modules": {
                 "label": "Ativar Módulos CSS",
-                "description": "By default, only files that end with *.module.[ext] are treated as CSS modules. Enabling this will treat all style files as CSS modules."
+                "description": "Por padrão, somente arquivos que terminam com *.module.[ext] são considerados módulos CSS. Ativar isso tratará todos os arquivos de estilo como módulos CSS."
               },
               "extract": {
                 "label": "Extrair CSS",
